@@ -11,18 +11,18 @@
 # no Neo4j and no LLM calls are involved. Evidence is byte-identical to the original freeze;
 # only the wording changes, which is what makes prompt variants a controlled comparison.
 #
-# Usage:  bash pipeline/rerender_all_kg.sh medbullets [VARIANT] [TEMPLATE_FILE]
+# Usage:  bash rerender_all_kg.sh medbullets [VARIANT] [TEMPLATE_FILE]
 set -eu
 DS="${1:?usage: rerender_all_kg.sh <dataset> [variant] [template_file]}"
 VAR="${2:-revised}"
-TPL="${3:-pipeline/prompt_revised.txt}"
-cd "$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+TPL="${3:-prompt_revised.txt}"
+cd "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 for M in walker walker_interval raw_1hop raw_2hop tog hykge; do
-  f="pipeline/frozen/$DS/$M.json"
+  f="frozen/$DS/$M.json"
   [ -f "$f" ] || { echo "skip $M (no $f)"; continue; }
   DATASET=$DS METHOD=$M VARIANT=$VAR TEMPLATE_FILE=$TPL \
-    python3 pipeline/rerender_prompts.py | grep -E "re-rendered|kg_block injected|kg transform"
+    python3 rerender_prompts.py | grep -E "re-rendered|kg_block injected|kg transform"
 done
 
 echo
@@ -30,7 +30,7 @@ python3 - "$DS" "$VAR" <<'PY'
 import json, sys, glob, os
 ds, var = sys.argv[1], sys.argv[2]
 print(f"frozen/{ds}/*__{var}.json :")
-for f in sorted(glob.glob(f"pipeline/frozen/{ds}/*__{var}.json")):
+for f in sorted(glob.glob(f"frozen/{ds}/*__{var}.json")):
     try: d = json.load(open(f))
     except Exception: continue
     if not isinstance(d, dict) or "items" not in d: continue

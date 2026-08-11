@@ -10,16 +10,16 @@
 # No retrieval is redone: chains_full was already persisted in cache, so the fix cost nothing but
 # a re-freeze.
 set -u
-cd "$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-LOG=pipeline/logs; mkdir -p "$LOG"
+cd "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+LOG=logs; mkdir -p "$LOG"
 Q=$LOG/_tog_refix.txt; : > "$Q"
 
-while pgrep -f "^python3 pipeline/run_reader\.py" > /dev/null; do sleep 20; done
+while pgrep -f "^python3 run_reader\.py" > /dev/null; do sleep 20; done
 
 run () {                      # run <ds> <method> <n> <results_dir>
   echo "[$(date +%H:%M:%S)] START $1/$2 N=$3 -> $4" | tee -a "$Q"
   DATASET=$1 METHOD=$2 MODEL=gpt-5.4-mini N_RUNS=$3 WORKERS=12 RESULTS_DIR=$4 \
-    python3 pipeline/run_reader.py > "$LOG/tog_refix_${1}_${2}.log" 2>&1
+    python3 run_reader.py > "$LOG/tog_refix_${1}_${2}.log" 2>&1
   tail -1 "$LOG/tog_refix_${1}_${2}.log" | tee -a "$Q"
 }
 

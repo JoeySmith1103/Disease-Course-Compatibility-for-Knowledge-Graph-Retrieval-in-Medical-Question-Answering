@@ -1,68 +1,237 @@
 #!/usr/bin/env python3
 """Pull the chosen option letter out of a reader's raw output.
 
-Scoring an unextracted answer as wrong conflates two different failures — "the model was wrong"
-and "the model answered in a shape the regex did not expect" — and the second is not uniformly
-distributed across methods. In an audit of 76 unparsed answers, 27 carried a perfectly good letter
-in a malformed wrapper and 23 of those were CORRECT, and they were concentrated in hykge/tog/
-vanilla while walker and the raw dumps had none. Left unfixed, that is a systematic handicap
-applied to some methods and not others.
+Unparseable answers are scored wrong, but they are also reported separately. The extractor is
+therefore intentionally conservative: it recovers clear formatting mistakes, while avoiding broad
+substring matching that could silently assign the wrong option.
 
-The remaining 49 are genuine: 28 outputs stopped before answering, and 21 named something that is
-not an option at all ("None of the above", a diagnosis absent from the list). Those stay wrong.
-
-Answer text is deliberately matched only on an EXACT, unique option string. Substring matching was
-measured to recover nothing on this data while being able to mis-assign ("CT of the chest without
-contrast" is a substring of nothing else here, but that is luck, not a property) — the cost of a
-wrong recovery is a silently corrupted accuracy, so the bar stays high.
+`options` may be passed as `{letter: text}`. When present, a recovered letter is accepted only if
+that letter exists for the question. This matters for mixed workloads: 1273 is A-E, MMLU/MedMCQA
+are A-D, and 329 can contain A-L.
 """
 import re
 
-# Ordered most-specific first. `[Answer]` leads because a template that asks for a
-# [Reasoning]/[Answer] block will also contain the word "answer" inside the reasoning sentence,
-# and matching the bracketed section first stops "the answer is unclear" being read as a verdict.
-_PATTERNS = [
-    r"\[Answer\]\s*:?\s*\**([A-J])\b",
-    r"<a>\s*([A-J])\s*</a>",
-    r"\\boxed\{\s*([A-J])\s*\}",
-    # malformed wrappers: the model closed with a different tag letter than it opened, or bolded
-    # the letter with <b>. The letter between the tags is still the answer.
-    r"<\s*[a-z]\s*>\s*([A-J])\s*<\s*/\s*[a-z]?\s*>",
-    # the letter became the tag name: "**Final answer: <e>**"
-    r"final answer[^A-Za-z\n]{0,12}<\s*([A-Ja-j])\s*>",
-    # truncated tag: "**Final answer: <G</a>"
-    r"final answer[^A-Za-z\n]{0,12}<?\s*([A-J])\s*<",
-    r"\*\*?Answer:?\*?\*?\s*:?\s*\*?\*?([A-J])\b",
-    r"final answer[:\s]+(?:is\s+)?(?:\\boxed\{)?\*?\*?([A-J])\b",
-    r"answer is[:\s]+(?:\\boxed\{)?\*?\*?([A-J])\b",
-    r"\bthe answer\s*(?:is|:)\s*\*?\*?([A-J])\b",
-    # a bare letter alone on the final line
-    r"(?:^|\n)\s*\**\s*([A-J])\s*\**\s*$",
-]
-_COMPILED = [re.compile(p, re.I) for p in _PATTERNS]
-_INTAG = re.compile(r"<a>\s*(.+?)\s*</a>", re.I | re.S)
+DEFAULT_ANSWER_LETTERS = "ABCDEFGHIJKL"
+
+
+def _normalise_options(options):
+    if not options:
+        return None
+    return {str(k).upper(): v for k, v in options.items() if str(k).strip()}
+
+
+def _valid_letters(options=None):
+    opts = _normalise_options(options)
+    return set(opts) if opts else set(DEFAULT_ANSWER_LETTERS)
+
+
+def _letter_class(valid):
+    return "".join(re.escape(x) for x in sorted(valid))
+
+
+def _unique_letter(candidates, valid):
+    letters = [c.upper() for c in candidates if c and c.upper() in valid]
+    return letters[0] if letters and len(set(letters)) == 1 else None
+
+
+def _value_near_start(text, valid):
+    text = (text or "").replace(chr(13), chr(10)).strip()
+    if not text:
+        return None
+
+    noise = "*_`()[]{}<>:;,.#-" + chr(34) + chr(39)
+    for ch in noise:
+        text = text.replace(ch, " ")
+    parts = text.split()
+
+    while parts and parts[0].lower() in ("is", "would", "should", "be"):
+        parts = parts[1:]
+    if parts and parts[0].lower() in ("option", "choice", "letter"):
+        parts = parts[1:]
+    while parts and parts[0].lower() in ("is", "would", "should", "be"):
+        parts = parts[1:]
+
+    if not parts:
+        return None
+    token = parts[0].upper()
+    if len(token) != 1 or token not in valid:
+        return None
+    if len(parts) == 1 or parts[1].lower() in (
+            "because", "as", "is", "would", "should", "seems", "fits", "fit", "best"):
+        return token
+    return None
+
+
+def _values_from_tag(raw, tag, valid):
+    low = raw.lower()
+    open_tag = "<" + tag + ">"
+    close_tag = "</" + tag + ">"
+    values = []
+    start = 0
+    while True:
+        i = low.find(open_tag, start)
+        if i < 0:
+            break
+        j = low.find(close_tag, i + len(open_tag))
+        if j < 0:
+            break
+        val = _value_near_start(raw[i + len(open_tag):j], valid)
+        if val:
+            values.append(val)
+        start = j + len(close_tag)
+    return values
+
+
+def _last_answer_marker(raw):
+    low = raw.lower()
+    markers = ["[answer]", "answer]", "answer:", "answer -", "answer-"]
+    best_pos = -1
+    best_len = 0
+    for marker in markers:
+        start = 0
+        while True:
+            i = low.find(marker, start)
+            if i < 0:
+                break
+            if i >= best_pos:
+                best_pos = i
+                best_len = len(marker)
+            start = i + 1
+    return best_pos, best_len
+
+
+def _value_after_option_word(text, valid):
+    low = text.lower()
+    for key in ("option", "choice", "letter"):
+        j = low.find(key)
+        if j >= 0:
+            val = _value_near_start(text[j + len(key):j + len(key) + 50], valid)
+            if val:
+                return val
+    return None
+
+
+def _values_after_phrases(text, phrases, valid, window=220):
+    low = text.lower()
+    values = []
+    for phrase in phrases:
+        start = 0
+        while True:
+            i = low.find(phrase, start)
+            if i < 0:
+                break
+            chunk = text[i + len(phrase):i + len(phrase) + window]
+            val = _value_near_start(chunk, valid) or _value_after_option_word(chunk, valid)
+            if val:
+                values.append(val)
+            start = i + len(phrase)
+    return values
+
+
+def _before_next_section(text):
+    text = text or ""
+    m = re.search(r"\n\s*\[[A-Za-z][A-Za-z _-]{0,40}\]", text)
+    return text[:m.start()] if m else text
+
+
+def _extract_from_final_context(text, valid):
+    tail = (text or "")[-1200:]
+    phrases = ("final answer", "the answer is", "correct answer", "best answer",
+               "best choice", "best fit", "therefore", "thus", "hence",
+               "overall", "in conclusion", "i choose", "i would choose",
+               "i pick", "i select", "i lean towards")
+    value = _unique_letter(_values_after_phrases(tail, phrases, valid), valid)
+    if value:
+        return value
+
+    cls = _letter_class(valid)
+    matches = re.findall(
+        rf"(?:^|[\s.;:,])(?:(?:so|therefore|thus|hence|final(?:ly)?|overall)\s+)?"
+        rf"(?:the\s+)?(?:correct\s+|best\s+)?(?:answer|choice)\s*"
+        rf"(?:is|would\s+be|should\s+be|=|:)?\s*[\[(<]*\s*([{cls}])\b",
+        tail,
+        flags=re.IGNORECASE,
+    )
+    return matches[-1].upper() if matches else None
+
+
+def _regex_patterns(valid):
+    cls = _letter_class(valid)
+    return [re.compile(p, re.I) for p in [
+        rf"\[Answer\]\s*:?\s*\**([{cls}])\b",
+        rf"<a>\s*([{cls}])\s*</a>",
+        rf"\\boxed\{{\s*([{cls}])\s*\}}",
+        rf"<\s*[a-z]\s*>\s*([{cls}])\s*<\s*/\s*[a-z]?\s*>",
+        rf"final answer[^A-Za-z\n]{{0,12}}<\s*([{cls.lower()}{cls}])\s*>",
+        rf"final answer[^A-Za-z\n]{{0,12}}<?\s*([{cls}])\s*<",
+        rf"\*\*?Answer:?\*?\*?\s*:?\s*\*?\*?([{cls}])\b",
+        rf"final answer[:\s]+(?:is\s+)?(?:\\boxed\{{)?\*?\*?([{cls}])\b",
+        rf"answer is[:\s]+(?:\\boxed\{{)?\*?\*?([{cls}])\b",
+        rf"\bthe answer\s*(?:is|:)\s*\*?\*?([{cls}])\b",
+        rf"(?:^|\n)\s*\**\s*([{cls}])\s*\**\s*$",
+    ]]
 
 
 def extract_letter(raw, options=None):
-    """Letter, or None if the output never committed to one of `options`.
-
-    options: {letter: text}. When given, a match is only accepted if the letter is actually on
-    offer — otherwise a stray "B" in prose can be read as an answer to a 4-option question — and
-    an exact option string is accepted as a last resort.
-    """
+    """Return the chosen option letter, or None if the output never clearly committed."""
     raw = raw or ""
-    valid = set(options) if options else None
-    for rx in _COMPILED:
+    valid = _valid_letters(options)
+    if not raw.strip():
+        return None
+
+    direct = _value_near_start(raw[:80], valid)
+    if direct:
+        return direct
+
+    tagged = _unique_letter(_values_from_tag(raw, "a", valid) + _values_from_tag(raw, "answer", valid), valid)
+    if tagged:
+        return tagged
+
+    for rx in _regex_patterns(valid):
         m = rx.search(raw)
         if m:
             lab = m.group(1).upper()
-            if valid is None or lab in valid:
+            if lab in valid:
                 return lab
-    if options:
-        m = _INTAG.search(raw)
+
+    pos, size = _last_answer_marker(raw)
+    if pos >= 0:
+        direct = _value_near_start(_before_next_section(raw[pos + size:pos + size + 240]), valid)
+        if direct:
+            return direct
+        context = _extract_from_final_context(raw[:pos], valid)
+        if context:
+            return context
+
+    labeled_phrases = ("answer:", "final answer", "the answer is", "correct answer",
+                       "the correct answer is", "best answer", "best choice")
+    labeled = _unique_letter(_values_after_phrases(raw, labeled_phrases, valid), valid)
+    if labeled:
+        return labeled
+
+    final_pos = raw.lower().rfind("assistantfinal")
+    if final_pos >= 0:
+        final_text = raw[final_pos + len("assistantfinal"):]
+        direct = _value_near_start(final_text[:120], valid)
+        if direct:
+            return direct
+        final_context = _extract_from_final_context(final_text, valid)
+        if final_context:
+            return final_context
+
+    tail_lines = [line.strip() for line in raw.splitlines() if line.strip()]
+    if tail_lines:
+        tail_direct = _value_near_start(tail_lines[-1], valid)
+        if tail_direct:
+            return tail_direct
+
+    opts = _normalise_options(options)
+    if opts:
+        m = re.search(r"<a>\s*(.+?)\s*</a>", raw, re.I | re.S)
         if m:
             txt = m.group(1).strip().lower()
-            hit = [L for L, v in options.items() if (v or "").strip().lower() == txt]
+            hit = [L for L, v in opts.items() if (v or "").strip().lower() == txt]
             if len(hit) == 1:
                 return hit[0]
-    return None
+
+    return _extract_from_final_context(raw, valid)

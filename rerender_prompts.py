@@ -10,13 +10,13 @@ Two ways to supply the new wording:
   1. TEMPLATE=<name>      — any template in prompts.py (WALKER, RAW_KG, MEDRAG, NO_KG, ...)
   2. TEMPLATE_FILE=<path> — a .txt file you wrote yourself
 
-The template may use: {question} {options_block} {kg_block} {patient_dur_str}
+The template may use: {question} {options_block} {kg_block} {patient_dur_str} {symptom_duration}
 (A template that omits {kg_block} is allowed — that is how you test "same questions, no evidence".)
 
 Usage:
   DATASET=1273 METHOD=walker VARIANT=myv1 TEMPLATE_FILE=my_prompt.txt \
-    python3 pipeline/rerender_prompts.py
-  # → frozen/1273/walker__myv1.json     (then: METHOD=walker__myv1 python3 pipeline/run_reader.py)
+    python3 rerender_prompts.py
+  # → frozen/1273/walker__myv1.json     (then: METHOD=walker__myv1 python3 run_reader.py)
 """
 import json, os, re, sys, importlib.util
 from pathlib import Path
@@ -66,6 +66,43 @@ def ob(o):
     return "\n".join(f"  {k}. {v}" for k, v in sorted(o.items()))
 
 
+
+def duration_to_hours_text(text):
+    raw = (text or "").strip()
+    if not raw:
+        return "not stated"
+    low = raw.lower()
+    if "not stated" in low or "not applicable" in low:
+        return "not stated"
+    unit_re = r"seconds?|secs?|minutes?|mins?|hours?|hrs?|days?|weeks?|months?|years?"
+    range_m = re.search(r"([0-9]+(?:\.[0-9]+)?)\s*(?:-|to|–)\s*([0-9]+(?:\.[0-9]+)?)\s*(" + unit_re + r")", low)
+    if range_m:
+        value = (float(range_m.group(1)) + float(range_m.group(2))) / 2.0
+        unit = range_m.group(3)
+    else:
+        m = re.search(r"([0-9]+(?:\.[0-9]+)?)\s*(" + unit_re + r")", low)
+        if not m:
+            return "not stated"
+        value = float(m.group(1))
+        unit = m.group(2)
+    if unit.startswith(("second", "sec")):
+        hours = value / 3600.0
+    elif unit.startswith(("minute", "min")):
+        hours = value / 60.0
+    elif unit.startswith(("hour", "hr")):
+        hours = value
+    elif unit.startswith("day"):
+        hours = value * 24.0
+    elif unit.startswith("week"):
+        hours = value * 24.0 * 7.0
+    elif unit.startswith("month"):
+        hours = value * 24.0 * 30.0
+    elif unit.startswith("year"):
+        hours = value * 24.0 * 365.0
+    else:
+        return "not stated"
+    return str(int(round(hours))) if abs(hours - round(hours)) < 1e-9 else f"{hours:.2f}".rstrip("0").rstrip(".")
+
 def duration_str(it):
     """Prefer the duration the ORIGINAL prompt was frozen with (keeps multi-axis strings like
     '2 days / 7 days' exact); fall back to durations.json."""
@@ -76,16 +113,16 @@ def duration_str(it):
     return days_to_phrase(d) if isinstance(d, (int, float)) and d > 0 else P.NO_DURATION_STR
 
 
-# Readable aliases for the four slots. A template written by hand is far more likely to say
+# Readable aliases for the template slots. A template written by hand is far more likely to say
 # {options} than {options_block}, and silently dropping an unrecognised name would produce a
 # prompt with a literal "{options}" in it — so unknown names are a hard error below, not a skip.
 ALIAS = {"options": "options_block", "option_block": "options_block",
          "patient_duration": "patient_dur_str", "duration": "patient_dur_str",
          "retrieved_information": "kg_block", "retrieval": "kg_block", "evidence": "kg_block",
-         "kg": "kg_block"}
+         "kg": "kg_block", "duration_hours": "symptom_duration"}
 
 fields = set(re.findall(r"\{(\w+)\}", tmpl))
-CANON = {"question", "options_block", "kg_block", "patient_dur_str"}
+CANON = {"question", "options_block", "kg_block", "patient_dur_str", "symptom_duration"}
 unknown = {f for f in fields if f not in CANON and f not in ALIAS}
 if unknown:
     sys.exit(f"template has unknown placeholder(s): {sorted(unknown)}\n"
@@ -115,8 +152,10 @@ for it in items:
     kg_raw = it.get("kg_block") or ""
     kg = xform(kg_raw)
     if kg != kg_raw: n_changed += 1
+    dur_txt = duration_str(it)
     vals = {"question": q["question"], "options_block": ob(q["options"]),
-            "kg_block": kg, "patient_dur_str": duration_str(it)}
+            "kg_block": kg, "patient_dur_str": dur_txt,
+            "symptom_duration": duration_to_hours_text(dur_txt)}
     prompt = tmpl.format(**{f: vals[ALIAS.get(f, f)] for f in fields})
     if kg and kg_field:
         assert kg in prompt, f"BUG: kg_block missing from prompt for {it['uid']}"
@@ -133,4 +172,4 @@ print(f"  kg_block injected : {n_kg}/{len(out)}")
 print(f"  kg transform      : {KG_TRANSFORM or 'none'}"
       + (f"  (changed {n_changed}/{len(out)} blocks)" if KG_TRANSFORM else "   (evidence unchanged — only the wording differs)"))
 print(f"  -> {dst}")
-print(f"  now: DATASET={DS} METHOD={METHOD}__{VARIANT} MODEL=<model> python3 pipeline/run_reader.py")
+print(f"  now: DATASET={DS} METHOD={METHOD}__{VARIANT} MODEL=<model> python3 run_reader.py")

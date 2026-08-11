@@ -1,5 +1,7 @@
 """All prompts, consolidated. Extracted verbatim from the validated scripts.
-Reader prompts: VANILLA, COT_MINIMAL, RAW_KG, MEDRAG, WALKER (=PROMPT_NUMERIC), NO_KG.
+Reader prompts: VANILLA, COT_MINIMAL, RAW_KG, MEDRAG, WALKER (=original walker), NO_KG.
+Walker prompt variants: WALKER_V1, WALKER_V2. Files ending in `__revised.json` were rendered
+with Prompt v2 (`prompt_revised.txt` == `WALKER_V2`).
 Retrieval-side prompts: TOG_REL_PRUNE, HYKGE_HYPOTHESIS.
 Placeholders: {question} {options_block} {kg_block}|{evidence_block} {patient_dur_str} {top_k}
 """
@@ -96,6 +98,69 @@ Think step by step:
 After your reasoning (under 300 words), state your final answer as a single letter in <a></a> tags. Example: <a>C</a>.
 """
 
+
+WALKER_ORIGINAL = WALKER
+
+# Prompt v1: the longer structured prompt used during prompt tuning. It keeps the walker's
+# numeric score explanation but asks through explicit [QUESTION]/[OPTIONS]/[ANSWER] sections.
+WALKER_V1 = """You are an expert medical diagnostician. Solve the multiple-choice medical question by reasoning step by step.
+
+Below are the [QUESTION], [OPTIONS], [SYMPTOM_DURATION], and [RETRIEVED INFORMATION] from the medical knowledge graph, UMLS. Please use this information as a guide to generate [ANSWER].
+
+Note that each line of [RETRIEVED INFORMATION] follows this structure:
+N. [category] concept name (score=S: cos=C+bc=B)
+where cos is the semantic similarity between the case findings and the concept (0 to 1), bc is the overlap between the patient's symptom duration and the disease's typical clinical course (0 to 1), and score is the walker's combined ranking signal, computed as score = cos + 0.3*bc - 0.08*hop, with hop being the number of graph-expansion steps from the seed concepts. The lines are sorted by score in descending order. Note that bc is defined only for concepts of category [disease]; for [drug], [finding], [anatomy], and other categories, bc is always 0, which means "not applicable" rather than "incompatible". Also note that this list was retrieved from the case description alone, and the text of the options was not used, so the presence or absence of a concept in this list is not evidence for or against any option.
+
+Please generate the [ANSWER], which is a single capital letter from the provided [OPTIONS] based on [QUESTION], [OPTIONS], [SYMPTOM_DURATION], and [RETRIEVED INFORMATION]
+Use as a cross-reference; do NOT let it override clinical judgment.
+Think step by step:
+1. Identify the key clinical findings, demographics, and duration in the case.
+2. Enumerate your differential diagnosis (3-5 candidates) based on the presentation.
+3. For each candidate, evaluate compatibility with the patient's symptom duration and other clinical features. High cos but low bc may indicate semantic match without duration fit.
+4. Rank the candidates and select the most likely answer to generate the [ANSWER]
+
+
+[QUESTION]:
+{question}
+
+[OPTIONS]:
+{options}
+
+[SYMPTOM_DURATION]:
+{symptom_duration} hours
+
+[RETRIEVED INFORMATION]:
+{retrieved_information}
+
+[ANSWER]:"""
+
+# Prompt v2: the revised prompt used for frozen/<dataset>/<method>__revised.json.
+# Keep this text identical to prompt_revised.txt unless intentionally creating a new variant.
+WALKER_V2 = """You are an expert medical diagnostician answering a multiple-choice medical exam question.
+
+Question:
+{question}
+
+Options:
+{options}
+
+Supplementary evidence from a clinical knowledge graph:
+- Patient symptom duration: {patient_duration}
+- The UMLS/SNOMED concepts below were retrieved from the vignette only, not from the option text.
+- Use them only as cross-reference. They can be noisy or incomplete.
+- score/cos reflect symptom text match; bc reflects duration fit for disease concepts. For non-disease concepts, bc=0 means not applicable, not incompatible.
+
+{retrieved_information}
+
+Solve by prioritizing the vignette and answer options. Use the KG only to support or challenge plausible diagnoses; ignore KG hints that conflict with core clinical facts.
+
+Reply using exactly this format:
+[Reasoning]
+One concise sentence, no more than 40 words, naming the decisive clue and diagnosis.
+
+[Answer]
+A single capital letter from the provided options."""
+
 NO_KG = """You are an expert medical diagnostician. Solve the multiple-choice medical question by reasoning step by step.
 
 Question:
@@ -140,7 +205,7 @@ Reply using exactly these two sections, in this order, and nothing else:
 Your concise reasoning, under 200 words.
 
 [Answer]
-A single capital letter (A-J) — the option you choose."""
+A single capital letter from the provided options."""
 
 
 # Shown as {patient_dur_str} when the vignette carries no usable symptom duration. Those

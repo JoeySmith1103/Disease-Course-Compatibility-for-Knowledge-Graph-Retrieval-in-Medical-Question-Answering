@@ -28,7 +28,7 @@ resampling noise at temperature 1 masquerades as a duration effect.
 Every call is stored, so any verdict can be audited afterwards.
 
 Usage:
-  DATASET=329 MODEL=gpt-5.4-mini N_SAMPLES=3 WORKERS=8 python3 pipeline/verify_duration_critical.py
+  DATASET=329 MODEL=gpt-5.4-mini N_SAMPLES=3 WORKERS=8 python3 verify_duration_critical.py
 Output: pipeline/verification/<ds>_duration_critical_<model>.json  (resumable)
 """
 import json, os, re, sys, importlib.util
@@ -88,8 +88,8 @@ Reason briefly, then give the final answer as a single letter in <a></a> tags.""
 
 
 def extract(raw):
-    for p in [r"<a>\s*([A-J])\s*</a>", r"\banswer\s*(?:is|:)\s*\**\(?([A-J])\)?\b",
-              r"\\boxed\{\s*([A-J])\s*\}"]:
+    for p in [r"<a>\s*([A-L])\s*</a>", r"\banswer\s*(?:is|:)\s*\**\(?([A-L])\)?\b",
+              r"\\boxed\{\s*([A-L])\s*\}"]:
         m = re.search(p, raw or "", re.I)
         if m: return m.group(1).upper()
     return None

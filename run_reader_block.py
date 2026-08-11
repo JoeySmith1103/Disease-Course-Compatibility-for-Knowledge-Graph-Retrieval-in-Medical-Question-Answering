@@ -1,28 +1,25 @@
 #!/usr/bin/env python3
-"""Answer step for SMALL/MEDIUM open models (Qwen etc.) using the BLOCK-structured prompt.
+"""Answer step for small/medium open models using the block-structured prompt.
 
-Same contract as run_reader.py — reads FROZEN per-question prompts' kg_block from
-frozen/<dataset>/<method>.json and does no retrieval — but re-wraps each question in
-prompts.BLOCK_KG / BLOCK_NOKG, which end with a fixed `ANSWER: X` line. Small models
-often fail the <a>X</a> convention used by run_reader.py, producing unparseable output.
-
-Resumable + incremental: re-running skips uids already saved, so a rate-limit stall or
-crash can be resumed rather than restarted. This matters on Together AI, which applies a
-*dynamic* rate limit that throttles bursty workloads (keep WORKERS modest, ~4-6).
+Reads frozen/<dataset>/<method>.json and does no retrieval. The evidence and method stay frozen;
+only the final answer-format instruction is replaced by prompts.to_small_model_prompt().
 
 Usage:
-  DATASET=329|1273  MODEL=together:Qwen/Qwen3.5-9B  RUN=2  WORKERS=6 \
-  METHODS=vanilla,cot,medrag,tog,hykge,walker  python3 pipeline/run_reader_block.py
-Output: pipeline/results/<dataset>_<method>_<modeltag>_block_run<RUN>.json
+  DATASET=329 MODEL=together:Qwen/Qwen3.5-9B RUN=1 WORKERS=6 \
+    METHODS=vanilla,cot,raw_1hop,raw_2hop,medrag,tog,hykge,walker,walker_interval \
+    python3 run_reader_block.py
 """
-import json, os, re, sys, importlib.util
+import json, os, re, sys, importlib.util, statistics
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 PIPE = Path(__file__).resolve().parent
+sys.path.insert(0, str(PIPE))
 sys.path.insert(0, str(PIPE / "code"))
 sys.path.insert(0, str(PIPE / "code" / "dkr_policy"))
 from llm_client import call_llm
+from answer_extract import extract_letter
+from metrics import compute_metrics, _labels_from_options
 
 spec = importlib.util.spec_from_file_location("P", PIPE / "prompts.py")
 P = importlib.util.module_from_spec(spec); spec.loader.exec_module(P)
@@ -31,25 +28,25 @@ DATASET = os.environ.get("DATASET", "1273")
 MODEL   = os.environ.get("MODEL", "together:Qwen/Qwen3.5-9B")
 RUN     = os.environ.get("RUN", "1")
 WORKERS = int(os.environ.get("WORKERS", "6"))
-METHODS = os.environ.get("METHODS", "vanilla,cot,medrag,tog,hykge,walker").split(",")
+METHODS = [m for m in os.environ.get("METHODS", "vanilla,cot,raw_1hop,raw_2hop,medrag,tog,hykge,walker,walker_interval").split(",") if m]
+SUMMARY_KG_METHODS = set(x for x in os.environ.get("SUMMARY_KG_METHODS", "tog,hykge").split(",") if x)
 
 MODEL_TAG = MODEL.split("/")[-1].replace(":", "_")
-RES = PIPE / "results"; RES.mkdir(exist_ok=True)
+RES = PIPE / os.environ.get("RESULTS_DIR", "results")
+RES.mkdir(parents=True, exist_ok=True)
+
+BENCH = json.load(open(PIPE / f"datasets/{DATASET}/benchmark.json"))
+OPTS = {b["uid"]: b.get("options", {}) for b in BENCH}
+LABELS = _labels_from_options(BENCH)
 
 
-def extract_letter(raw):
-    """ReinRAG output spec yields a '[Answer]' section; the rest are fallbacks."""
-    for p in [r"\[Answer\]\s*:?\s*\**([A-J])\b", r"ANSWER:\s*\**([A-J])\b",
-              r"<a>\s*([A-J])\s*</a>", r"\bthe answer is\s*:?\s*\**([A-J])\b",
-              r"\bfinal answer\s*:?\s*\**([A-J])\b", r"\bAnswer\s*:?\s*\**([A-J])\b"]:
-        m = re.search(p, raw or "", re.I)
-        if m:
-            return m.group(1).upper()
-    return None
+def _evidence_lines(t):
+    return {re.sub(r"^\s*(?:\d+\.|[-*])\s*", "", ln).strip()
+            for ln in (t or "").splitlines() if ln.strip()}
 
 
-# Prompt surgery lives in prompts.py (P.to_small_model_prompt) — see that file.
-
+def _base_method(method):
+    return method.split("__", 1)[0]
 
 
 for method in METHODS:
@@ -71,18 +68,13 @@ for method in METHODS:
     print(f"[{method}] run{RUN} todo {len(todo)}/{len(items)}", flush=True)
 
     def answer(it):
-        # Send the frozen, method-correct ReinRAG prompt VERBATIM (walker→duration+bc legend,
-        # medrag→textbook, etc.) and only override the answer format for robust extraction.
-        # Small-model input then differs from the big-model run ONLY in that final instruction.
         prompt = P.to_small_model_prompt(it.get("prompt") or "")
         kg = it.get("kg_block") or ""
-        # Canary: a silent kg_block drop once wiped the evidence out of every prompt. Persist
-        # kg_block per-uid and assert it actually reached the prompt, so it is auditable BEFORE
-        # anyone looks at accuracy.
-        assert (not kg) or (kg in prompt), f"BUG: kg_block missing from prompt for {it['uid']}"
+        if kg and _base_method(method) not in SUMMARY_KG_METHODS:
+            missing = _evidence_lines(kg) - _evidence_lines(prompt)
+            assert not missing, f"BUG: kg_block evidence missing from prompt for {it['uid']}"
         raw = call_llm(prompt, model=MODEL)
-        pred = extract_letter(raw)
-        # ALWAYS persist the exact prompt sent and the raw model output, not just the verdict.
+        pred = extract_letter(raw, OPTS.get(it["uid"]))
         return {"uid": it["uid"], "gold": it["gold"], "predicted": pred,
                 "is_correct": pred == it["gold"], "route": it.get("route"),
                 "kg_block": kg, "prompt": prompt, "raw_response": raw}
@@ -90,9 +82,16 @@ for method in METHODS:
     def save():
         n = len(results); c = sum(1 for x in results if x["is_correct"])
         none = sum(1 for x in results if x["predicted"] is None)
+        m = compute_metrics(results, labels=LABELS) if results else None
         json.dump({"dataset": DATASET, "method": method, "model": MODEL, "run": RUN,
-                   "prompt": "block", "n": n, "n_correct": c, "n_unparseable": none,
-                   "accuracy": 100 * c / max(1, n), "results": results},
+                   "prompt": "small_model_block", "n": n, "n_correct": c,
+                   "runs_correct": [c], "mean_correct": c, "std_correct": 0.0,
+                   "n_unparseable": none, "runs_unparseable": [none],
+                   "mean_unparseable": none,
+                   "accuracy": 100 * c / max(1, n), "mean_acc": 100 * c / max(1, n),
+                   "std_acc": 0.0, "metrics": m, "metrics_per_run": [m] if m else [],
+                   "results": results,
+                   "runs": [{"run": RUN, "results": results}]},
                   open(out_path, "w"), indent=1)
 
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
@@ -111,6 +110,5 @@ for method in METHODS:
     save()
     c = sum(1 for x in results if x["is_correct"])
     none = sum(1 for x in results if x["predicted"] is None)
-    # A high unparseable count usually means rate-limit/timeout failures, NOT model error.
     print(f"[{method}] run{RUN} DONE {c}/{len(results)} = {100*c/max(1,len(results)):.2f}% "
           f"(unparseable={none})", flush=True)

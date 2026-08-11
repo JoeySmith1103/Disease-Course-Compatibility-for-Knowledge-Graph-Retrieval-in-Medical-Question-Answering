@@ -13,18 +13,18 @@
 # A failing baseline does not abort the run: the step is logged as FAILED and the script moves on,
 # so one broken method cannot cost you the whole retrieval pass.
 #
-# Usage:  bash pipeline/run_stage_a.sh medbullets
-#         bash pipeline/run_stage_a.sh mmlu
-# Logs:   pipeline/logs/<ds>_<step>.log       Progress: pipeline/logs/<ds>_STATUS.txt
+# Usage:  bash run_stage_a.sh medbullets
+#         bash run_stage_a.sh mmlu
+# Logs:   logs/<ds>_<step>.log       Progress: logs/<ds>_STATUS.txt
 
 set -u
 DS="${1:?usage: run_stage_a.sh <dataset>}"
 MODEL="${WALKER_LLM:-gpt-5.4-mini}"
 NW="${WALKER_N_WORKERS:-3}"
-ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$ROOT"
-LOG="pipeline/logs"; mkdir -p "$LOG"
-DD="pipeline/datasets/$DS"
+LOG="logs"; mkdir -p "$LOG"
+DD="datasets/$DS"
 STATUS="$LOG/${DS}_STATUS.txt"; : > "$STATUS"
 
 step () {                     # step <name> <command...>
@@ -43,7 +43,7 @@ for f in benchmark durations seeds symptoms query_entities; do
   [ -s "$DD/$f.json" ] || { echo "MISSING $DD/$f.json — run prepare_dataset_inputs.py first"; exit 1; }
 done
 python3 - <<'PY' || exit 1
-import sys; sys.path.insert(0,'pipeline/code'); sys.path.insert(0,'pipeline/code/dkr_policy')
+import sys; sys.path.insert(0,'code'); sys.path.insert(0,'code/dkr_policy')
 from umls_neo4j import get_driver
 n = get_driver().session().run('MATCH (c:Concept) RETURN count(c) AS n').single()['n']
 print(f'Neo4j OK: {n} concepts')
@@ -53,32 +53,32 @@ PY
 echo "=== stage A for $DS (model=$MODEL, workers=$NW) ===" | tee -a "$STATUS"
 
 # ── no Neo4j ────────────────────────────────────────────────────────────────
-DATASET=$DS step prompt_only python3 pipeline/build_prompt_only.py
+DATASET=$DS step prompt_only python3 build_prompt_only.py
 
 # ── walker + its ablation (Neo4j) ───────────────────────────────────────────
 DATASET=$DS WALKER_BC_MODE=overlap WALKER_METHOD_NAME=walker \
   WALKER_RETRIEVAL_ONLY=1 WALKER_N_WORKERS=$NW WALKER_LLM=$MODEL \
-  step walker python3 pipeline/build_kg.py
+  step walker python3 build_kg.py
 
 DATASET=$DS WALKER_BC_MODE=interval_sample WALKER_METHOD_NAME=walker_interval \
   WALKER_RETRIEVAL_ONLY=1 WALKER_N_WORKERS=$NW WALKER_LLM=$MODEL \
-  step walker_interval python3 pipeline/build_kg.py
+  step walker_interval python3 build_kg.py
 
 # ── raw dumps (Neo4j) ───────────────────────────────────────────────────────
-DATASET=$DS step raw_hops python3 pipeline/build_raw_hops.py
+DATASET=$DS step raw_hops python3 build_raw_hops.py
 
 # ── KG-RAG baselines (Neo4j for ToG/HyKGE, not for MedRAG) ──────────────────
 BENCH_PATH=$DD/benchmark.json SEEDS_PATH=$DD/seeds.json SYM_PATH=$DD/symptoms.json \
   TOG_LLM=$MODEL KG_OUT_TAG=$DS TOG_WORKERS=4 \
-  step tog_retrieve python3 pipeline/code/tog_baseline.py
+  step tog_retrieve python3 code/tog_baseline.py
 DATASET=$DS METHOD=tog SRC=cache/tog_baseline_${DS}__${MODEL}.json \
-  step tog_freeze python3 pipeline/freeze_baseline.py
+  step tog_freeze python3 freeze_baseline.py
 
 BENCH_PATH=$DD/benchmark.json SEEDS_PATH=$DD/seeds.json SYM_PATH=$DD/symptoms.json \
   HYKGE_LLM=$MODEL KG_OUT_TAG=$DS HYKGE_WORKERS=2 \
-  step hykge_retrieve python3 pipeline/code/hykge_baseline.py
+  step hykge_retrieve python3 code/hykge_baseline.py
 DATASET=$DS METHOD=hykge SRC=cache/hykge_baseline_${DS}__${MODEL}.json \
-  step hykge_freeze python3 pipeline/freeze_baseline.py
+  step hykge_freeze python3 freeze_baseline.py
 
 # MedRAG is ON HOLD. Three things have to be settled first, and none of them is about runtime:
 #   1. corpus provenance — the index is MedQA's own 18 textbooks (cache/medqa_textbook_chunks.pkl).
@@ -90,9 +90,9 @@ DATASET=$DS METHOD=hykge SRC=cache/hykge_baseline_${DS}__${MODEL}.json \
 #   3. MEDRAG_PD defaults to a bench340 duration file that is not in cache.
 # Re-enable by restoring the two lines below once those are resolved.
 #   BENCH_PATH=$DD/benchmark.json MEDRAG_OUT_TAG=$DS \
-#     step medrag_retrieve python3 pipeline/code/run_medrag_textbook.py
+#     step medrag_retrieve python3 code/run_medrag_textbook.py
 #   DATASET=$DS METHOD=medrag SRC=cache/${DS}_medrag_textbook_k32__${MODEL}.json \
-#     step medrag_freeze python3 pipeline/freeze_baseline.py
+#     step medrag_freeze python3 freeze_baseline.py
 
 # orphaned ProcessPool workers keep burning LLM credit; WALKER_OUT_TAG is an env var so pgrep
 # on the tag misses them — kill by script name instead
@@ -103,7 +103,7 @@ python3 - "$DS" <<'PY' | tee -a "$STATUS"
 import json, sys, glob, os
 ds = sys.argv[1]
 print(f"\nfrozen/{ds}/ :")
-for f in sorted(glob.glob(f"pipeline/frozen/{ds}/*.json")):
+for f in sorted(glob.glob(f"frozen/{ds}/*.json")):
     # the folder can also hold hand-placed files (temporal_critical.json, archives); a frozen
     # method is identified by carrying an "items" list, not by living in this directory
     try: d = json.load(open(f))
