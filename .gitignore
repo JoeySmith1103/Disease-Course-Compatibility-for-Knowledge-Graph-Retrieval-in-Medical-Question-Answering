@@ -15,10 +15,15 @@ cui_with_terms.csv
 *_umls_*.csv
 
 # ── large artefacts ───────────────────────────────────────────────────────────
-# ~1.9 GB total, and all of it is regenerable: cache/ from Neo4j + the LLM, frozen/ from
-# run_stage_a.sh, results/ from run_reader.py. A clone should be code, not outputs.
+# cache/ (1.6 GB) and results/ (257 MB) stay out: cache/ is embeddings and per-disease duration
+# lookups that rebuild from Neo4j and the LLM, results/ is reader output that anyone can reproduce
+# from frozen/ with one script.
+#
+# frozen/ is NOT in this list. "Regenerable" was the wrong call for it: rebuilding a frozen file
+# needs a licensed UMLS Neo4j instance plus hours of LLM retrieval, so in practice it is not
+# reproducible at all without the original setup. Shipping it (90 MB, largest file 7.2 MB) is what
+# lets someone re-run the reader, try a different prompt, or check a number without any of that.
 cache/
-frozen/
 results/
 logs/
 prompt_dumps/
@@ -28,16 +33,13 @@ oneshot/
 *.zip
 *.jsonl.bak*
 
-# datasets/ holds derived benchmark files plus the hand-review labels. The labels are the part
-# worth versioning — 723 per-question verdicts that no script regenerates — so they come back in.
-# NB: the pattern excludes the CONTENTS (datasets/*/*), not the directory (datasets/*/). git will
-# not descend into an excluded directory, so a `!` re-include underneath one never takes effect.
-datasets/*/*
-!datasets/*/temporal_critical.json
-
-# _raw_* are download caches, not sources: build_new_dataset.py fetches each one over the network
-# when it is missing (MedBullets CSV, MedMCQA and MMLU via the HF datasets-server). Shipping 4 MB
-# of someone else's corpus adds nothing a clone cannot fetch itself.
+# datasets/ is tracked in full — benchmark.json plus the seeds / symptoms / durations /
+# query_entities that Stage A consumes. Those inputs are LLM-generated per dataset, so a clone
+# without them cannot reproduce retrieval even with a working Neo4j.
+#
+# _raw_* stay out: they are download caches, not sources. build_new_dataset.py fetches each one
+# over the network when missing (MedBullets CSV, MedMCQA and MMLU via the HF datasets-server), so
+# shipping 4 MB of someone else's corpus adds nothing a clone cannot fetch itself.
 datasets/_raw_*
 
 # ── python ────────────────────────────────────────────────────────────────────

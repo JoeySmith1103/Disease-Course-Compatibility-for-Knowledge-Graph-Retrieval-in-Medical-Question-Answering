@@ -1,0 +1,2620 @@
+{
+ "mmlu_0002": {
+  "symptoms": [
+   "low-grade fever",
+   "cough",
+   "runny nose"
+  ],
+  "duration_summary": "2-day history"
+ },
+ "mmlu_0005": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0007": {
+  "symptoms": [
+   "progressive irritability",
+   "palpitations",
+   "heat intolerance",
+   "frequent bowel movements",
+   "weight loss",
+   "neck mass",
+   "enlarged thyroid gland with multiple areas of increased and decreased uptake"
+  ],
+  "duration_summary": "Symptoms progressed over 6 months; neck mass present for more than 10 years"
+ },
+ "mmlu_0006": {
+  "symptoms": [
+   "crying all the time",
+   "won't get out of bed",
+   "sad affect",
+   "tearfulness",
+   "firm, distended abdomen",
+   "moderate right upper quadrant/liver tenderness",
+   "tachycardia"
+  ],
+  "duration_summary": "Current symptoms are ongoing at the time of presentation; no specific duration is given."
+ },
+ "mmlu_0000": {
+  "symptoms": [
+   "persistent tingling of left thigh",
+   "numbness of left thigh",
+   "decreased light-touch sensation over lateral left anterior thigh",
+   "improving sensory symptoms over past week"
+  ],
+  "duration_summary": "Persistent since hospitalization/discharge; improved somewhat over the past week; noted at follow-up 2 weeks after discharge"
+ },
+ "mmlu_0003": {
+  "symptoms": [
+   "grade 3/6 systolic murmur at left sternal border",
+   "weak femoral pulses",
+   "strong brachial pulses",
+   "radiofemoral delay",
+   "mild cardiomegaly with left ventricular prominence",
+   "left ventricular hypertrophy"
+  ],
+  "duration_summary": "Findings identified at a well-child exam; no symptom duration reported"
+ },
+ "mmlu_0008": {
+  "symptoms": [
+   "lump on tongue",
+   "speech interference",
+   "difficulty eating",
+   "weight loss",
+   "1.5-cm mass on apex of tongue"
+  ],
+  "duration_summary": "6-month history"
+ },
+ "mmlu_0009": {
+  "symptoms": [
+   "passed a renal calculus",
+   "increased urinary calcium excretion"
+  ],
+  "duration_summary": "1 week after passing a renal calculus"
+ },
+ "mmlu_0010": {
+  "symptoms": [
+   "poor appetite",
+   "weight loss",
+   "loss of taste",
+   "persistent nausea"
+  ],
+  "duration_summary": "Symptoms present over the past 3 months"
+ },
+ "mmlu_0013": {
+  "symptoms": [
+   "right shoulder pain",
+   "tenderness at the greater tubercle of the humerus",
+   "painful abduction of the right upper extremity"
+  ],
+  "duration_summary": "for the past two weeks"
+ },
+ "mmlu_0012": {
+  "symptoms": [
+   "confusion",
+   "agitation",
+   "fever",
+   "headache",
+   "stiff neck",
+   "vomiting",
+   "hallucinations",
+   "combative behavior"
+  ],
+  "duration_summary": "Confusion and agitation for 2 hours; fever, headache, stiff neck, and vomiting since returning from summer camp 2 days ago."
+ },
+ "mmlu_0011": {
+  "symptoms": [
+   "low-grade fever",
+   "nonproductive cough",
+   "scattered inspiratory crackles",
+   "patchy bilateral lung infiltrates"
+  ],
+  "duration_summary": "7 days"
+ },
+ "mmlu_0014": {
+  "symptoms": [
+   "right foot drop",
+   "abnormal gait lacking fluid motion",
+   "blunt impact below the right knee"
+  ],
+  "duration_summary": "After being hit from behind below the right knee while playing football"
+ },
+ "mmlu_0015": {
+  "symptoms": [
+   "irritable affect",
+   "tense demeanor",
+   "reported post-traumatic stress symptoms following motor vehicle collision"
+  ],
+  "duration_summary": "Symptoms developed after a motor vehicle collision; exact duration not stated."
+ },
+ "mmlu_0016": {
+  "symptoms": [
+   "fever",
+   "increasingly severe abdominal discomfort",
+   "moderate illness appearance",
+   "hepatomegaly",
+   "liver tenderness",
+   "intrahepatic abscess"
+  ],
+  "duration_summary": "1-week history of fever and worsening abdominal discomfort; recurrent severe pneumonias over the past 4 years"
+ },
+ "mmlu_0017": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0019": {
+  "symptoms": [
+   "abdominal pain",
+   "vomiting",
+   "decreased appetite",
+   "fever",
+   "guarding",
+   "diffuse rebound tenderness",
+   "pain migrated from right-sided to generalized abdominal pain"
+  ],
+  "duration_summary": "3-day history; pain initially right-sided and then became generalized during this period"
+ },
+ "mmlu_0018": {
+  "symptoms": [
+   "respiratory distress",
+   "runny nose",
+   "barking cough",
+   "labored breathing",
+   "tired appearance",
+   "sitting upright",
+   "inspiratory stridor",
+   "profuse nasal discharge",
+   "fever",
+   "hypoxemia",
+   "tachypnea",
+   "stridor at rest"
+  ],
+  "duration_summary": "Runny nose since the day before; respiratory distress for 30 minutes, with barking cough and heavy breathing starting after a nap earlier that afternoon."
+ },
+ "mmlu_0021": {
+  "symptoms": [
+   "abnormal vaginal bleeding",
+   "bleeding every 2 weeks",
+   "bleeding lasting 2 to 5 days",
+   "light to heavy menstrual flow",
+   "passage of clots"
+  ],
+  "duration_summary": "1-year history of recurrent abnormal uterine bleeding"
+ },
+ "mmlu_0020": {
+  "symptoms": [
+   "low-grade fever",
+   "increasing abdominal cramps",
+   "pain exacerbated by bowel movements",
+   "left lower quadrant tenderness",
+   "guarding",
+   "constipation"
+  ],
+  "duration_summary": "Fever and abdominal cramps for 1 week; intermittent constipation for 12 years; symptoms not relieved after 2 days of antibiotics"
+ },
+ "mmlu_0023": {
+  "symptoms": [
+   "word-finding difficulty",
+   "nonfluent aphasia",
+   "right arm weakness",
+   "right leg weakness",
+   "decreased sensation of right upper extremity",
+   "decreased sensation of right lower extremity",
+   "right-sided Babinski sign"
+  ],
+  "duration_summary": "12-hour history of symptoms"
+ },
+ "mmlu_0024": {
+  "symptoms": [
+   "mildly elevated blood pressure during labor",
+   "estimated third-stage blood loss of 500 mL",
+   "perineal edema",
+   "hematocrit 33%"
+  ],
+  "duration_summary": "During labor and on morning rounds after delivery"
+ },
+ "mmlu_0025": {
+  "symptoms": [
+   "exercise-induced cough",
+   "nasal congestion",
+   "nonproductive cough",
+   "cough triggered by running",
+   "cough relieved by rest"
+  ],
+  "duration_summary": "2-month history"
+ },
+ "mmlu_0001": {
+  "symptoms": [
+   "regular contractions every 4 minutes",
+   "intermittent weak contractions",
+   "active labor",
+   "cervix 100% effaced",
+   "cervix 7 cm dilated"
+  ],
+  "duration_summary": "At 39 weeks' gestation; contractions were regular every 4 minutes but became intermittent and weak over the past 6 hours"
+ },
+ "mmlu_0004": {
+  "symptoms": [
+   "right hand numbness",
+   "tingling in right ring and small fingers",
+   "severe pain in ring and small fingers with palpation of right elbow",
+   "decreased pinprick and light touch over medial half of right ring finger and entire small finger"
+  ],
+  "duration_summary": "2-month history; tingling present most of the time during this period"
+ },
+ "mmlu_0027": {
+  "symptoms": [
+   "elevated serum muscle creatine kinase in mother"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0022": {
+  "symptoms": [
+   "prepubescent status",
+   "concern about babies"
+  ],
+  "duration_summary": "Prepubescent; discussed during today's visit"
+ },
+ "mmlu_0028": {
+  "symptoms": [
+   "10 mm induration at PPD puncture site"
+  ],
+  "duration_summary": "Observed 48 hours after PPD skin test"
+ },
+ "mmlu_0030": {
+  "symptoms": [
+   "severe right back pain"
+  ],
+  "duration_summary": "3-day history"
+ },
+ "mmlu_0031": {
+  "symptoms": [
+   "severe pelvic pain",
+   "bruising of the perineum",
+   "pain with pelvic motion",
+   "blood at the urethral meatus",
+   "pubic ramus fracture"
+  ],
+  "duration_summary": "Symptoms noted 30 minutes after motor vehicle trauma"
+ },
+ "mmlu_0033": {
+  "symptoms": [
+   "leg pain with weight-bearing",
+   "bilateral basilar crackles",
+   "mild left hip pain with active and passive range of motion"
+  ],
+  "duration_summary": "New leg pain during follow-up after 6 months of glucocorticoid therapy"
+ },
+ "mmlu_0029": {
+  "symptoms": [
+   "aphasia",
+   "right-sided hemiparesis",
+   "urinary incontinence"
+  ],
+  "duration_summary": "Subsequent urinary incontinence after onset of aphasia and right-sided hemiparesis"
+ },
+ "mmlu_0034": {
+  "symptoms": [
+   "increased lethargy",
+   "decreased ambulation",
+   "intermittently increased tremor severity",
+   "fever",
+   "ill appearance",
+   "lethargy on exam",
+   "rhonchi in right mid lung field",
+   "masked facies",
+   "bradykinesia",
+   "cogwheel rigidity"
+  ],
+  "duration_summary": "Lethargy for 1 day; decreased ambulation for 6 months; tremor worsening occurs at times during the day"
+ },
+ "mmlu_0032": {
+  "symptoms": [
+   "chronic pelvic pain"
+  ],
+  "duration_summary": "Pelvic pain began after hysterectomy 6 months ago and has been chronic since then."
+ },
+ "mmlu_0036": {
+  "symptoms": [
+   "black discharge from right nipple",
+   "scant nipple discharge",
+   "glandularity in upper outer quadrant of right breast"
+  ],
+  "duration_summary": "Black nipple discharge for 2 weeks; breast glandularity noted previously at annual exam and on current palpation."
+ },
+ "mmlu_0037": {
+  "symptoms": [
+   "progressive diarrhea",
+   "six large watery stools daily",
+   "weight loss",
+   "scaphoid abdomen"
+  ],
+  "duration_summary": "Progressive diarrhea and weight loss for 1 month, with worsened watery stools over the past week"
+ },
+ "mmlu_0038": {
+  "symptoms": [],
+  "duration_summary": "No presenting symptoms or abnormal physical findings described; the vignette is asymptomatic and focuses on glucose regulation over 12 hours."
+ },
+ "mmlu_0041": {
+  "symptoms": [
+   "syncope \u0623\u062b\u0646\u0627\u0621 \u0627\u0644\u0645\u0634\u064a",
+   "grade 3/6 systolic murmur",
+   "murmur best heard at right upper sternal border",
+   "murmur radiating to the neck"
+  ],
+  "duration_summary": "Syncopal event occurred while walking"
+ },
+ "mmlu_0040": {
+  "symptoms": [
+   "increased facial hair growth",
+   "amenorrhea/oligomenorrhea (last menstrual period 4 months ago)",
+   "temporal balding",
+   "coarse dark hair on upper lip and chin",
+   "clitoral enlargement",
+   "ovarian mass"
+  ],
+  "duration_summary": "6-month history of increased facial hair growth; last menstrual period 4 months ago"
+ },
+ "mmlu_0039": {
+  "symptoms": [
+   "seizure",
+   "postictal confusion",
+   "word-finding difficulty",
+   "headache",
+   "cough",
+   "fever",
+   "diffuse hyperreflexia",
+   "short-term memory deficits",
+   "difficulty naming objects",
+   "literal paraphasic errors"
+  ],
+  "duration_summary": "3 days of headache, cough, and fever; seizure occurred 20 minutes before ED arrival"
+ },
+ "mmlu_0043": {
+  "symptoms": [
+   "mid low back pain",
+   "pain radiating down right leg",
+   "severe pain",
+   "unable to find a comfortable position",
+   "sleeping in a recliner",
+   "appears uncomfortable",
+   "positive right straight-leg raise",
+   "loss of right ankle reflex"
+  ],
+  "duration_summary": "1 week"
+ },
+ "mmlu_0046": {
+  "symptoms": [
+   "decreased range of motion in the affected hand"
+  ],
+  "duration_summary": "Four months after Dupuytren contracture repair"
+ },
+ "mmlu_0047": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0044": {
+  "symptoms": [
+   "right arm pain",
+   "right arm swelling",
+   "fever",
+   "edema of right forearm",
+   "fluctuant erythematous lesion",
+   "extreme tenderness to palpation"
+  ],
+  "duration_summary": "2 days after scraping the right arm on a tree branch"
+ },
+ "mmlu_0026": {
+  "symptoms": [
+   "7-cm pink soft granular edematous wound on left lower extremity",
+   "burn wound on left leg"
+  ],
+  "duration_summary": "One week after a hot grease burn"
+ },
+ "mmlu_0042": {
+  "symptoms": [
+   "frostbite of both feet",
+   "black discoloration of all toes on the right foot",
+   "slight fever",
+   "progressive confusion",
+   "cellulitis in the midfoot"
+  ],
+  "duration_summary": "Frostbite occurred 3 weeks ago; fever and confusion developed progressively over the past few days."
+ },
+ "mmlu_0045": {
+  "symptoms": [],
+  "duration_summary": "Feels well; no presenting symptoms or abnormal physical findings mentioned."
+ },
+ "mmlu_0048": {
+  "symptoms": [
+   "uterus consistent with 28-week gestation"
+  ],
+  "duration_summary": "28 weeks' gestation"
+ },
+ "mmlu_0050": {
+  "symptoms": [
+   "palpitations",
+   "left-sided chest pain",
+   "light-headedness",
+   "shortness of breath",
+   "rapid heart rate",
+   "tachycardia"
+  ],
+  "duration_summary": "Sudden onset 2 hours ago; symptoms began while watching television."
+ },
+ "mmlu_0052": {
+  "symptoms": [
+   "chronic myeloid leukemia in blast crisis"
+  ],
+  "duration_summary": "Over 1 year"
+ },
+ "mmlu_0054": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0053": {
+  "symptoms": [
+   "chest pain",
+   "shortness of breath",
+   "pain radiating to left arm",
+   "diaphoresis",
+   "tachycardia",
+   "severe hypertension"
+  ],
+  "duration_summary": "Symptoms began 1 hour ago, shortly after first-time cocaine use; chest pain and shortness of breath persisted despite initial therapy."
+ },
+ "mmlu_0035": {
+  "symptoms": [
+   "increasing shortness of breath",
+   "sore throat",
+   "productive cough with small amount of white phlegm",
+   "nausea related to coughing",
+   "unintentional weight loss",
+   "thin appearance",
+   "nontender right supraclavicular lymph node"
+  ],
+  "duration_summary": "Shortness of breath, sore throat, and productive cough for 5 months; weight loss over 1 year; nausea over the past week"
+ },
+ "mmlu_0055": {
+  "symptoms": [
+   "tired appearance",
+   "disheveled appearance",
+   "odor of alcohol on breath"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0056": {
+  "symptoms": [
+   "painless left scrotal mass",
+   "soft left scrotal mass",
+   "nontender scrotal mass",
+   "transilluminating scrotal mass",
+   "no bowel sounds in mass",
+   "normal testicular examination"
+  ],
+  "duration_summary": "present since childhood"
+ },
+ "mmlu_0058": {
+  "symptoms": [
+   "paraplegia",
+   "lower extremity muscle atrophy",
+   "lower abdominal surgical scars",
+   "recent onset of incontinence",
+   "detrusor dysfunction",
+   "bladder neck dysfunction"
+  ],
+  "duration_summary": "Recent onset of incontinence; otherwise chronic findings"
+ },
+ "mmlu_0057": {
+  "symptoms": [
+   "fever",
+   "warm red lumps under both arms",
+   "bilateral enlarged axillary lymph nodes",
+   "erythematous axillary lymph nodes",
+   "tender axillary nodes",
+   "fluctuant axillary nodes",
+   "movable axillary nodes"
+  ],
+  "duration_summary": "3-week history of fever and axillary swelling"
+ },
+ "mmlu_0060": {
+  "symptoms": [
+   "dizziness",
+   "light-headedness on standing",
+   "needs to steady herself after standing",
+   "sinus bradycardia",
+   "inter-arm blood pressure difference",
+   "orthostatic hypotension",
+   "reverse flow in left vertebral artery"
+  ],
+  "duration_summary": "Dizziness for 6 weeks; light-headedness lasts about 1 to 2 minutes after standing"
+ },
+ "mmlu_0059": {
+  "symptoms": [
+   "intermittent right scrotal swelling",
+   "swelling more pronounced when crying",
+   "right inguinal hernia on physical examination"
+  ],
+  "duration_summary": "Intermittent; timing worsens with crying"
+ },
+ "mmlu_0061": {
+  "symptoms": [
+   "secondary amenorrhea",
+   "irregular menses",
+   "emaciated appearance",
+   "bradycardia",
+   "hypotension"
+  ],
+  "duration_summary": "No menstrual period for 6 months; menses became irregular 1 year ago."
+ },
+ "mmlu_0062": {
+  "symptoms": [
+   "irritability",
+   "resists eye contact",
+   "hand flapping",
+   "not yet talking"
+  ],
+  "duration_summary": "Not talking noted at 15 months; current findings at age 2 years"
+ },
+ "mmlu_0063": {
+  "symptoms": [
+   "frequent upper respiratory tract infections",
+   "daily purulent sputum",
+   "decreased exercise tolerance",
+   "low sperm count",
+   "expiratory wheezing",
+   "rhonchi",
+   "hyperinflation on chest x-ray",
+   "decreased FEV1:FVC ratio"
+  ],
+  "duration_summary": "Recurrent respiratory infections for 4 years; daily sputum and decreased exercise tolerance for 2 years"
+ },
+ "mmlu_0068": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0066": {
+  "symptoms": [
+   "severe dyspnea",
+   "productive cough with tenacious brownish-yellow sputum",
+   "hypoxemia",
+   "moderately severe respiratory distress",
+   "pursed-lip breathing",
+   "cyanotic nail beds",
+   "increased anteroposterior chest diameter",
+   "scattered wheezes",
+   "scattered rhonchi",
+   "muffled heart sounds",
+   "S4 gallop",
+   "clubbing"
+  ],
+  "duration_summary": "Symptoms present for 3 weeks"
+ },
+ "mmlu_0067": {
+  "symptoms": [
+   "no abnormal physical findings"
+  ],
+  "duration_summary": "At an 8-week first prenatal visit; prior pregnancy complicated by preterm delivery at 34 weeks."
+ },
+ "mmlu_0064": {
+  "symptoms": [
+   "right lower extremity edema",
+   "sudden shortness of breath",
+   "pleuritic chest pain"
+  ],
+  "duration_summary": "sudden onset"
+ },
+ "mmlu_0065": {
+  "symptoms": [
+   "acute shortness of breath",
+   "cyanosis",
+   "unresponsiveness",
+   "absent pulse",
+   "undetectable blood pressure",
+   "bleeding from nose",
+   "bleeding from mouth",
+   "bleeding from intravenous sites",
+   "prolonged fetal heart rate deceleration"
+  ],
+  "duration_summary": "Acute onset during the second stage of labor, after 10 minutes of pushing; bleeding occurred about 5 minutes after collapse."
+ },
+ "mmlu_0049": {
+  "symptoms": [
+   "severe substernal chest pain",
+   "tearing chest pain",
+   "pain radiating to the neck",
+   "similar recurrent chest pain episode one week earlier"
+  ],
+  "duration_summary": "Severe chest pain for 3 hours, with a similar but milder episode 1 week earlier"
+ },
+ "mmlu_0051": {
+  "symptoms": [
+   "diffuse weakness",
+   "tingling of arms and legs",
+   "weakness of lower-extremity extensor and flexor muscles",
+   "exaggerated knee and ankle deep tendon reflexes",
+   "decreased vibration sensation in all extremities",
+   "decreased position sense in all extremities",
+   "more prominent sensory loss in lower extremities"
+  ],
+  "duration_summary": "2-month history"
+ },
+ "mmlu_0069": {
+  "symptoms": [
+   "chronic achiness",
+   "stiffness",
+   "fatigue",
+   "multiple bilateral tender points in trapezius muscles",
+   "multiple bilateral tender points in gluteal muscles",
+   "multiple bilateral tender points in suboccipital muscles"
+  ],
+  "duration_summary": "chronic"
+ },
+ "mmlu_0071": {
+  "symptoms": [
+   "severe epigastric pain",
+   "vomiting",
+   "epigastric tenderness"
+  ],
+  "duration_summary": "2-day history"
+ },
+ "mmlu_0070": {
+  "symptoms": [
+   "stab wound to left chest",
+   "unresponsive to painful stimuli",
+   "tachycardia",
+   "shallow respirations",
+   "severe hypotension",
+   "jugular venous distention",
+   "heart sounds not audible"
+  ],
+  "duration_summary": "Presented 10 minutes after chest stab wound; findings persisted over the next 5 minutes"
+ },
+ "mmlu_0073": {
+  "symptoms": [
+   "fever",
+   "lymphadenopathy",
+   "arthralgias",
+   "erythema on hands and feet"
+  ],
+  "duration_summary": "Symptoms developed 10 days after treatment"
+ },
+ "mmlu_0072": {
+  "symptoms": [
+   "oozing foul-smelling foot wound",
+   "necrotizing heel wound",
+   "purplish-black discoloration over heel",
+   "crepitant bullae",
+   "profuse serous drainage"
+  ],
+  "duration_summary": "2 days"
+ },
+ "mmlu_0074": {
+  "symptoms": [
+   "COPD exacerbation requiring mechanical ventilation",
+   "right-sided pneumothorax",
+   "persistent air leak after tube thoracostomy",
+   "restlessness",
+   "combativeness",
+   "diminished breath sounds on the right",
+   "tachycardia"
+  ],
+  "duration_summary": "Pneumothorax developed on hospital day 2; air leak persisted for 24 hours and has now stopped; restlessness and tachycardia developed afterward"
+ },
+ "mmlu_0076": {
+  "symptoms": [
+   "fever",
+   "chills",
+   "tachypnea",
+   "sore throat",
+   "swollen glands",
+   "severe malaise",
+   "respiratory complications",
+   "myocardial involvement"
+  ],
+  "duration_summary": "Outbreak affecting multiple patients in a camp; no individual symptom duration stated"
+ },
+ "mmlu_0078": {
+  "symptoms": [
+   "prostate cancer",
+   "chronic prostatitis"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0075": {
+  "symptoms": [
+   "progressive shortness of breath",
+   "nonproductive cough",
+   "bilateral lower-lung crackles"
+  ],
+  "duration_summary": "3-week history of progressive symptoms"
+ },
+ "mmlu_0080": {
+  "symptoms": [
+   "episodes of severe anxiety",
+   "shortness of breath",
+   "palpitations",
+   "numbness in hands and feet"
+  ],
+  "duration_summary": "3-month history of episodic symptoms"
+ },
+ "mmlu_0081": {
+  "symptoms": [
+   "increased incidence of upper respiratory tract infections",
+   "common cold symptoms"
+  ],
+  "duration_summary": "during finals week / examination week"
+ },
+ "mmlu_0079": {
+  "symptoms": [
+   "abdominal pain",
+   "polite demeanor toward physician",
+   "berating behavior toward nurses and staff",
+   "disgust toward missing child",
+   "devaluation of child as worthless"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0082": {
+  "symptoms": [
+   "anxiety",
+   "hyperactivity",
+   "insomnia",
+   "acute depression",
+   "anorexia",
+   "irritability",
+   "lethargy",
+   "mood changes"
+  ],
+  "duration_summary": "For several months, symptoms occur 3\u20134 days before menses and worsen on the day menses begins."
+ },
+ "mmlu_0083": {
+  "symptoms": [
+   "vaginal irritation",
+   "pain with urination",
+   "vulvar erythema",
+   "vaginal erythema",
+   "thick white vaginal discharge"
+  ],
+  "duration_summary": "5 days of vaginal irritation and dysuria; symptoms occurred 2 weeks after amoxicillin treatment"
+ },
+ "mmlu_0086": {
+  "symptoms": [
+   "grade 2/6 systolic ejection murmur at upper left sternal border",
+   "widely split fixed S2",
+   "soft mid-diastolic murmur at lower left sternal border"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0085": {
+  "symptoms": [
+   "severe jaw pain",
+   "persistent pain despite codeine"
+  ],
+  "duration_summary": "Since a painful dental procedure 1 day ago"
+ },
+ "mmlu_0087": {
+  "symptoms": [
+   "band-like burning right upper abdominal pain",
+   "epigastric pain",
+   "pain radiating around to the midline of the back"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0084": {
+  "symptoms": [
+   "dysuria",
+   "yellow urethral exudate",
+   "urethritis",
+   "intracellular gram-negative diplococci in urethral exudate",
+   "recurrent similar episodes of urethritis"
+  ],
+  "duration_summary": "Three similar episodes over the past 2 years"
+ },
+ "mmlu_0088": {
+  "symptoms": [
+   "headaches",
+   "morning headaches",
+   "moderately severe headaches",
+   "blurring of optic disc margins bilaterally"
+  ],
+  "duration_summary": "Headaches began 2 weeks ago."
+ },
+ "mmlu_0089": {
+  "symptoms": [
+   "acne",
+   "scattered open comedones",
+   "scattered closed comedones over cheeks",
+   "scattered closed comedones over forehead"
+  ],
+  "duration_summary": "Acne for 3 months"
+ },
+ "mmlu_0091": {
+  "symptoms": [
+   "hypertension",
+   "baseline blood pressure \u2265150/95 mm Hg"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0090": {
+  "symptoms": [
+   "nasal stuffiness",
+   "clear rhinorrhea",
+   "mild sore throat",
+   "fever",
+   "left maxillary sinus tenderness",
+   "clear fluid behind left tympanic membrane",
+   "enlarged tonsils bilaterally",
+   "pain with tapping left upper incisors",
+   "left frontal sinus nontransillumination"
+  ],
+  "duration_summary": "1 week of upper respiratory symptoms; fever/hot sensation began 2 days ago"
+ },
+ "mmlu_0092": {
+  "symptoms": [
+   "progressive fatigue",
+   "ankle swelling",
+   "shortness of breath with mild exertion",
+   "jugular venous distention",
+   "bibasilar crackles",
+   "S3 gallop",
+   "bilateral lower-extremity edema"
+  ],
+  "duration_summary": "Fatigue and ankle swelling for 2 months; exertional dyspnea present since myocardial infarction 3 years ago"
+ },
+ "mmlu_0093": {
+  "symptoms": [
+   "persistent nonproductive cough"
+  ],
+  "duration_summary": "6 weeks"
+ },
+ "mmlu_0096": {
+  "symptoms": [
+   "progressive weakness",
+   "purple-red discoloration over cheeks and upper eyelids",
+   "inability to climb stairs",
+   "inability to walk long distances",
+   "inability to comb hair",
+   "inability to dress himself",
+   "weak and lethargic appearance",
+   "periorbital edema",
+   "erythematous scaly plaques over elbows and knees",
+   "flat-topped red papules over knuckles",
+   "generalized proximal muscle weakness",
+   "proximal muscle atrophy"
+  ],
+  "duration_summary": "Progressive over 8 weeks"
+ },
+ "mmlu_0095": {
+  "symptoms": [
+   "increasing left foot pain",
+   "pale left lower extremity and foot",
+   "cool pulseless left foot",
+   "weak popliteal pulse"
+  ],
+  "duration_summary": "Developed 2 days after left femoral-popliteal bypass grafting, with increasing pain now"
+ },
+ "mmlu_0094": {
+  "symptoms": [
+   "dislocated left shoulder",
+   "healing abrasions over the elbows",
+   "ecchymoses over the knees in various stages of healing"
+  ],
+  "duration_summary": "Acute arm injury 2 hours after a fall; other bruises/abrasions are healing and reflect prior injuries over the past year"
+ },
+ "mmlu_0097": {
+  "symptoms": [
+   "fever",
+   "chills",
+   "malaise",
+   "vulvar pain",
+   "vulvar pustule",
+   "ulcerated vulvar lesion",
+   "multiple satellite lesions",
+   "inguinal lymphadenopathy",
+   "femoral lymphadenopathy"
+  ],
+  "duration_summary": "2 days"
+ },
+ "mmlu_0077": {
+  "symptoms": [
+   "pounding heart",
+   "poor sleep",
+   "generalized restlessness",
+   "difficulty concentrating",
+   "worry about inability to adapt to increased work responsibility",
+   "missed work due to feeling unwell"
+  ],
+  "duration_summary": "Symptoms present since relocating 2 months ago; missed work 3 days in the past 2 weeks"
+ },
+ "mmlu_0099": {
+  "symptoms": [
+   "excessive daytime sleepiness",
+   "falling asleep early in the evening",
+   "fell asleep while driving",
+   "loud snoring",
+   "choking or gasping during sleep",
+   "obesity",
+   "elevated blood pressure"
+  ],
+  "duration_summary": "Excessive daytime sleepiness for 1 year; snoring is longstanding; choking/gasping episodes have occurred over the past year."
+ },
+ "mmlu_0100": {
+  "symptoms": [
+   "sudden onset shortness of breath",
+   "severe chest pain",
+   "sweating",
+   "tachycardia",
+   "tachypnea",
+   "diastolic blowing murmur over left sternal border radiating to right sternal border",
+   "decreased bilateral femoral pulses"
+  ],
+  "duration_summary": "Symptoms began suddenly 2 hours before presentation"
+ },
+ "mmlu_0104": {
+  "symptoms": [
+   "severe back pain",
+   "abdominal pain",
+   "persistent vaginal bleeding"
+  ],
+  "duration_summary": "8-hour history"
+ },
+ "mmlu_0105": {
+  "symptoms": [
+   "mild obesity"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0101": {
+  "symptoms": [
+   "shortness of breath",
+   "hives",
+   "angioedema",
+   "elevated blood pressure",
+   "tachycardia"
+  ],
+  "duration_summary": "Shortly after influenza vaccination"
+ },
+ "mmlu_0102": {
+  "symptoms": [
+   "sudden loss of vision in the right eye",
+   "optic disk pallor",
+   "normal external ocular movements",
+   "no diplopia"
+  ],
+  "duration_summary": "sudden onset"
+ },
+ "mmlu_0103": {
+  "symptoms": [
+   "progressive lower abdominal pain",
+   "fever",
+   "malodorous vaginal discharge",
+   "severe bilateral lower quadrant tenderness",
+   "purulent cervical discharge",
+   "cervical motion tenderness",
+   "bilateral adnexal tenderness"
+  ],
+  "duration_summary": "5-day history of progressively worsening symptoms"
+ },
+ "mmlu_0107": {
+  "symptoms": [
+   "heat intolerance",
+   "weight loss",
+   "tachycardia",
+   "diffuse goiter",
+   "exophthalmos",
+   "periorbital tissue inflammation",
+   "conjunctival inflammation",
+   "warm velvety skin"
+  ],
+  "duration_summary": "2-month history"
+ },
+ "mmlu_0106": {
+  "symptoms": [
+   "copious foul-smelling vaginal discharge",
+   "vaginal spotting",
+   "heavy vaginal bleeding",
+   "friable cervix",
+   "1-cm exophytic cervical mass"
+  ],
+  "duration_summary": "Vaginal discharge for 6 months; spotting for 6 months with progression to heavy bleeding over the past 3 weeks."
+ },
+ "mmlu_0110": {
+  "symptoms": [
+   "fever",
+   "anterior cervical lymphadenopathy",
+   "bilateral nonexudative conjunctivitis",
+   "strawberry tongue",
+   "erythematous truncal rash",
+   "edema of the hands and feet"
+  ],
+  "duration_summary": "Fever for 8 days"
+ },
+ "mmlu_0111": {
+  "symptoms": [
+   "fatigue",
+   "generalized aching",
+   "proximal muscle weakness of all four extremities",
+   "difficulty getting in and out of car",
+   "difficulty combing hair",
+   "hand joint aching",
+   "cracking of skin on both hands",
+   "muscle tenderness of upper arms and legs"
+  ],
+  "duration_summary": "Symptoms present for 2 months, with progression over the past 2 weeks"
+ },
+ "mmlu_0108": {
+  "symptoms": [
+   "epistaxis",
+   "active bleeding from nares",
+   "bleeding from right naris",
+   "bleeding site on septal mucosa",
+   "elevated blood pressure"
+  ],
+  "duration_summary": "Bleeding has been present for 2 hours"
+ },
+ "mmlu_0112": {
+  "symptoms": [
+   "sudden-onset right knee swelling",
+   "knee joint fluctuance",
+   "mildly decreased range of motion",
+   "numerous bruises in various stages of resolution",
+   "easy bruising",
+   "gum bleeding"
+  ],
+  "duration_summary": "Knee swelling was sudden in onset; easy bruising and gum bleeding have been present for the past month."
+ },
+ "mmlu_0113": {
+  "symptoms": [
+   "fever",
+   "left lower lobe rhonchi",
+   "malnourished appearance",
+   "sacral erythema",
+   "quadriparesis"
+  ],
+  "duration_summary": "Duration not specified; findings noted during hospitalization."
+ },
+ "mmlu_0114": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0109": {
+  "symptoms": [
+   "recurrent widespread blister formation",
+   "blisters concentrated in flexural areas",
+   "axillary lesions",
+   "groin lesions",
+   "tense blisters",
+   "no oral lesions"
+  ],
+  "duration_summary": "2-week history"
+ },
+ "mmlu_0118": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0115": {
+  "symptoms": [
+   "nausea",
+   "vomiting",
+   "blood in vomit"
+  ],
+  "duration_summary": "2-day history; blood noticed today"
+ },
+ "mmlu_0117": {
+  "symptoms": [
+   "hip fractures"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0120": {
+  "symptoms": [
+   "refusal of insulin injections",
+   "desire to die",
+   "hopelessness about future",
+   "severe visual impairment",
+   "anticipated bilateral leg amputations",
+   "loss of perceived life value"
+  ],
+  "duration_summary": "Three days after hospitalization; symptoms present at the current evaluation"
+ },
+ "mmlu_0121": {
+  "symptoms": [
+   "fever",
+   "sore throat",
+   "itchy eyes",
+   "tired appearance",
+   "conjunctival injection",
+   "eye discharge",
+   "oropharyngeal erythema"
+  ],
+  "duration_summary": "3-day history of symptoms"
+ },
+ "mmlu_0122": {
+  "symptoms": [
+   "nausea",
+   "light-headedness",
+   "large-volume bright red hematemesis",
+   "decreased arousability",
+   "tachycardia",
+   "hypotension"
+  ],
+  "duration_summary": "nausea and light-headedness for the past hour; acute hematemesis and decreased responsiveness during evaluation"
+ },
+ "mmlu_0123": {
+  "symptoms": [
+   "blank stare",
+   "flat facial expression",
+   "catatonic appearance",
+   "rigidity",
+   "hostility",
+   "attempted assault on physician"
+  ],
+  "duration_summary": "Onset about 30 minutes before emergency department arrival"
+ },
+ "mmlu_0119": {
+  "symptoms": [
+   "pain and stiffness in hands, wrists, and knees",
+   "fatigue",
+   "weight loss",
+   "drop attacks",
+   "episodic leg weakness and loss of feeling",
+   "urinary incontinence during an episode",
+   "facial plethora",
+   "swollen and painful metacarpophalangeal joints",
+   "swollen and painful knees",
+   "ulnar deviation of the fingers"
+  ],
+  "duration_summary": "Joint pain and stiffness for several months; fatigue for 1 month; drop attacks for 3 months"
+ },
+ "mmlu_0124": {
+  "symptoms": [
+   "increased urinary frequency",
+   "occasional urinary incontinence",
+   "anxiety about flying",
+   "panic-like feelings",
+   "similar urinary symptoms before examinations"
+  ],
+  "duration_summary": "3-year history; symptoms start a few days before flying and resolve the day after arrival, with similar episodes before examinations"
+ },
+ "mmlu_0126": {
+  "symptoms": [
+   "episodes of fainting",
+   "fatigue",
+   "bradycardia",
+   "cannon a waves",
+   "AV dissociation on ECG"
+  ],
+  "duration_summary": "Fainting episodes and fatigue for 3 months"
+ },
+ "mmlu_0127": {
+  "symptoms": [
+   "major depressive disorder",
+   "hospitalization for treatment of depression"
+  ],
+  "duration_summary": "2-week hospitalization; no current symptoms described"
+ },
+ "mmlu_0098": {
+  "symptoms": [
+   "progressive numbness in hands and feet",
+   "leg weakness on standing",
+   "areflexia"
+  ],
+  "duration_summary": "3-week history of progressive symptoms; began after third course of chemotherapy 4 weeks ago"
+ },
+ "mmlu_0129": {
+  "symptoms": [
+   "recurrent low back pain"
+  ],
+  "duration_summary": "Recurrent episodes over the past year, occurring every 2 to 3 months and usually resolving within 2 weeks"
+ },
+ "mmlu_0128": {
+  "symptoms": [
+   "increased anxiety",
+   "abdominal discomfort",
+   "irritability",
+   "difficulty concentrating",
+   "dry skin",
+   "dry hair",
+   "appears anxious",
+   "hypervigilance",
+   "sinus tachycardia"
+  ],
+  "duration_summary": "Symptoms for 2 weeks; traumatic robbery occurred 3 weeks ago"
+ },
+ "mmlu_0130": {
+  "symptoms": [
+   "abdominal pain",
+   "constipation"
+  ],
+  "duration_summary": "for the past several weeks"
+ },
+ "mmlu_0131": {
+  "symptoms": [
+   "fatigue",
+   "irritability",
+   "feelings of hopelessness",
+   "social withdrawal",
+   "low mood / not in the mood to see others",
+   "stayed in bed for 2 days",
+   "restricted affect",
+   "tired appearance"
+  ],
+  "duration_summary": "Fatigue, irritability, and hopelessness for 3 months; did not get out of bed for 2 days"
+ },
+ "mmlu_0132": {
+  "symptoms": [
+   "persistent watery diarrhea",
+   "dry mucous membranes",
+   "slightly distended abdomen"
+  ],
+  "duration_summary": "persistent since recent discharge"
+ },
+ "mmlu_0133": {
+  "symptoms": [
+   "regular contractions every 4 minutes",
+   "intermittent weak contractions",
+   "active labor",
+   "cervix 100% effaced",
+   "cervix 7 cm dilated"
+  ],
+  "duration_summary": "Regular contractions were present earlier and have become only a few intermittent, weak contractions over the past 6 hours."
+ },
+ "mmlu_0116": {
+  "symptoms": [
+   "circumoral numbness",
+   "fingertip paresthesias",
+   "anxiety"
+  ],
+  "duration_summary": "Onset 12 hours after surgery"
+ },
+ "mmlu_0136": {
+  "symptoms": [
+   "persistent dull headache",
+   "insomnia",
+   "trouble focusing",
+   "mild photophobia",
+   "neck stiffness",
+   "painful neck flexion",
+   "electric shock sensation with neck flexion",
+   "mild expiratory wheezes",
+   "bilateral varicosities",
+   "1+ lower extremity edema",
+   "4/5 muscle strength"
+  ],
+  "duration_summary": "Headache for 3 days; insomnia for 3 days"
+ },
+ "mmlu_0135": {
+  "symptoms": [
+   "unconsciousness",
+   "erythema of upper back/buttocks/posterior thighs",
+   "warmth of upper back/buttocks/posterior thighs",
+   "induration of upper back/buttocks/posterior thighs",
+   "strongly positive urine blood dipstick",
+   "pigmented granular urinary casts",
+   "rare erythrocytes in urine"
+  ],
+  "duration_summary": "Found unconscious on the apartment floor; brought to the ED 45 minutes later"
+ },
+ "mmlu_0137": {
+  "symptoms": [
+   "sullen mood",
+   "defiant behavior",
+   "rebellious behavior",
+   "smoking cigarettes",
+   "disobeying curfew",
+   "truancy from school",
+   "risky sexual behavior"
+  ],
+  "duration_summary": "Behavioral changes began after her parents separated 3 months ago; sexual activity started 1 month ago."
+ },
+ "mmlu_0138": {
+  "symptoms": [
+   "three nontender penile lesions",
+   "sessile flesh-colored lesions on penile shaft",
+   "lesions 10 mm in diameter",
+   "lesions unchanged in size",
+   "acetowhite change with acetic acid"
+  ],
+  "duration_summary": "Noticed 4 weeks ago; unchanged in size since then."
+ },
+ "mmlu_0139": {
+  "symptoms": [
+   "nausea",
+   "vomiting",
+   "diarrhea",
+   "confusion",
+   "agitation",
+   "tachycardia",
+   "tachypnea",
+   "hypotension",
+   "delayed capillary refill",
+   "cool extremities"
+  ],
+  "duration_summary": "4-day history of gastrointestinal symptoms and altered mental status"
+ },
+ "mmlu_0140": {
+  "symptoms": [
+   "urticaria",
+   "swelling of the lips",
+   "difficulty breathing after eating egg"
+  ],
+  "duration_summary": "immediately after eating an egg"
+ },
+ "mmlu_0141": {
+  "symptoms": [
+   "sluggish response to stimuli",
+   "polyuria",
+   "polydipsia"
+  ],
+  "duration_summary": "Initial altered responsiveness after motor vehicle collision; polyuria and polydipsia developed two weeks later."
+ },
+ "mmlu_0142": {
+  "symptoms": [
+   "nausea",
+   "vomiting",
+   "inability to eat",
+   "protracted ileus"
+  ],
+  "duration_summary": "Symptoms persisted for 6 days after surgery"
+ },
+ "mmlu_0143": {
+  "symptoms": [
+   "nervousness",
+   "dizziness",
+   "palpitations",
+   "excess perspiration",
+   "recurrent similar episodes",
+   "symptom relief after orange juice or soft drinks",
+   "normal examination"
+  ],
+  "duration_summary": "Current episode for 3 hours; similar episodes over the past 6 months"
+ },
+ "mmlu_0147": {
+  "symptoms": [
+   "fever",
+   "no other physical abnormalities"
+  ],
+  "duration_summary": "Fever developed six days after treatment was started"
+ },
+ "mmlu_0145": {
+  "symptoms": [
+   "no abnormalities on physical examination"
+  ],
+  "duration_summary": "No presenting symptoms described; discrepancy noted over the past 3 months"
+ },
+ "mmlu_0146": {
+  "symptoms": [
+   "midthoracic back pain",
+   "metastatic carcinoma to bone",
+   "recurrent breast cancer"
+  ],
+  "duration_summary": "Back pain present at today's visit; history of recurrence over the past 5 years"
+ },
+ "mmlu_0144": {
+  "symptoms": [
+   "intermittent shooting pain over right cheek and jaw",
+   "pain triggered by cold air",
+   "pain triggered by chewing",
+   "pain triggered by tactile stimulation",
+   "pain triggered by brushing teeth",
+   "tenderness/intolerance to touch over right side of face"
+  ],
+  "duration_summary": "Past 3 weeks; episodes last 1 second or less"
+ },
+ "mmlu_0125": {
+  "symptoms": [
+   "mild bowlegs",
+   "10-degree genu varum"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0148": {
+  "symptoms": [
+   "nausea",
+   "intermittent diarrhea",
+   "weight loss",
+   "migrating serpiginous pruritic perianal rash",
+   "eosinophilia"
+  ],
+  "duration_summary": "Symptoms over the past 4 weeks"
+ },
+ "mmlu_0151": {
+  "symptoms": [
+   "nonradiating low back pain",
+   "bilateral paravertebral muscle spasm",
+   "limited range of motion due to pain",
+   "negative straight-leg raise"
+  ],
+  "duration_summary": "3 days"
+ },
+ "mmlu_0150": {
+  "symptoms": [
+   "bilateral breast enlargement",
+   "subareolar fibroglandular masses",
+   "embarrassment/self-consciousness about breasts",
+   "pubertal development (Tanner stage 3 pubic hair)"
+  ],
+  "duration_summary": "Breast enlargement developed over the past year"
+ },
+ "mmlu_0154": {
+  "symptoms": [
+   "palpable nodule in the right thyroid lobe",
+   "solid 1-cm thyroid nodule"
+  ],
+  "duration_summary": "Timing not specified; found incidentally during a preemployment physical examination"
+ },
+ "mmlu_0149": {
+  "symptoms": [
+   "cocaine dependence",
+   "thin habitus"
+  ],
+  "duration_summary": "Repeated difficulty abstaining from cocaine use; other presenting findings not described"
+ },
+ "mmlu_0155": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0152": {
+  "symptoms": [
+   "progressively severe lower abdominal pain",
+   "nausea",
+   "fever",
+   "bilateral lower-quadrant abdominal tenderness",
+   "rebound tenderness",
+   "guarding",
+   "leukorrhea at cervical os",
+   "uterine tenderness",
+   "bilateral adnexal tenderness"
+  ],
+  "duration_summary": "Symptoms present for 2 days and increasingly severe"
+ },
+ "mmlu_0153": {
+  "symptoms": [
+   "expressionless face",
+   "flexed posture",
+   "limited mouth opening",
+   "skin thickening and hardening over dorsum of hands and forearms",
+   "mild kyphosis",
+   "slow deliberate gait"
+  ],
+  "duration_summary": "Not specified; noted at preoperative evaluation 2 weeks before scheduled surgery"
+ },
+ "mmlu_0157": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0159": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0156": {
+  "symptoms": [
+   "respiratory difficulty",
+   "tachypnea",
+   "mild subcostal retractions",
+   "mild intercostal retractions"
+  ],
+  "duration_summary": "onset within 2 hours after birth"
+ },
+ "mmlu_0134": {
+  "symptoms": [
+   "something sticking out of the rectum/anus after bowel movement",
+   "occasional difficulty passing stools",
+   "fear of bowel movement worsening the problem"
+  ],
+  "duration_summary": "Protrusion began this morning after a bowel movement; constipation has been intermittent for more than 1 year."
+ },
+ "mmlu_0158": {
+  "symptoms": [
+   "severe neck pain",
+   "pain rated 7/10",
+   "moderately limited cervical range of motion",
+   "confusion",
+   "nausea",
+   "vertigo"
+  ],
+  "duration_summary": "Neck pain present at office visit after a week of increased painting activity; confusion, nausea, and vertigo developed about 4 hours later."
+ },
+ "mmlu_0161": {
+  "symptoms": [
+   "chronic headaches"
+  ],
+  "duration_summary": "2 months"
+ },
+ "mmlu_0162": {
+  "symptoms": [
+   "mild lightheadedness",
+   "bilateral wheezing"
+  ],
+  "duration_summary": "Symptoms began 15 minutes after a bee sting"
+ },
+ "mmlu_0160": {
+  "symptoms": [
+   "chronic diarrhea",
+   "intermittent crampy lower abdominal pain",
+   "pain relieved with defecation",
+   "frequent urgent need to use the bathroom",
+   "mild lower abdominal tenderness"
+  ],
+  "duration_summary": "Symptoms present for 3 years; pain is intermittent and does not occur at night or interfere with sleep."
+ },
+ "mmlu_0165": {
+  "symptoms": [
+   "red itchy rash on buttocks",
+   "red itchy rash on legs"
+  ],
+  "duration_summary": "Rash present for 2 days; exposure began 4 days ago"
+ },
+ "mmlu_0166": {
+  "symptoms": [
+   "painless swelling of the left testicle",
+   "variable testicular size over several months",
+   "transilluminating lesion",
+   "no palpable inguinal lymph nodes"
+  ],
+  "duration_summary": "Varied in size over the past several months"
+ },
+ "mmlu_0163": {
+  "symptoms": [
+   "buzzing sensation adjacent to right thigh scar",
+   "loud murmur on auscultation",
+   "thrill",
+   "dilated varicose veins",
+   "incompetent lower-leg venous valves"
+  ],
+  "duration_summary": "Buzzing sensation began five years after a gunshot wound to the right thigh; current findings present at this ED visit."
+ },
+ "mmlu_0167": {
+  "symptoms": [
+   "fever",
+   "cough",
+   "copious clear nasal discharge",
+   "moist nonproductive cough",
+   "rapid breathing",
+   "nasal flaring",
+   "rhinorrhea",
+   "intercostal retractions",
+   "bilateral diffuse wheezes",
+   "expiratory rhonchi"
+  ],
+  "duration_summary": "4-day history; low-grade fever and clear nasal discharge at onset, with moist cough and rapid breathing developing 2 days ago"
+ },
+ "mmlu_0169": {
+  "symptoms": [
+   "progressive tumor growth despite radiation therapy"
+  ],
+  "duration_summary": "Tumor progressively increased in size and the patient died 6 months later"
+ },
+ "mmlu_0168": {
+  "symptoms": [
+   "trigeminal neuralgia"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0170": {
+  "symptoms": [
+   "progressive memory loss",
+   "repeats herself frequently",
+   "forgets to take routine medications",
+   "Mini-Mental State Examination score 23/30"
+  ],
+  "duration_summary": "Progressive over the past 2 years"
+ },
+ "mmlu_0164": {
+  "symptoms": [
+   "constant substernal chest pain",
+   "pain worsened by coughing",
+   "pain worsened by inspiration",
+   "pain relieved by sitting up and leaning forward",
+   "fever",
+   "tachycardia",
+   "distant heart sounds"
+  ],
+  "duration_summary": "Chest pain for 12 hours"
+ },
+ "mmlu_0171": {
+  "symptoms": [
+   "absence of urethral opening",
+   "oligohydramnios",
+   "stillbirth"
+  ],
+  "duration_summary": "Delivered stillborn at 32 weeks' gestation"
+ },
+ "mmlu_0172": {
+  "symptoms": [
+   "minimally decreased hemoglobin concentration",
+   "microcytic anemia",
+   "single gene deletion",
+   "two-gene deletion"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0173": {
+  "symptoms": [
+   "None reported",
+   "uterus consistent with 12-week gestation"
+  ],
+  "duration_summary": "At a 12-week prenatal visit; patient feels well and has no symptoms."
+ },
+ "mmlu_0176": {
+  "symptoms": [
+   "diarrhea",
+   "generalized abdominal pain on palpation"
+  ],
+  "duration_summary": "5 days"
+ },
+ "mmlu_0175": {
+  "symptoms": [
+   "intermittent nausea",
+   "postprandial abdominal pain",
+   "epigastric pain",
+   "right upper quadrant pain",
+   "pain radiating to right scapula",
+   "pain not relieved by antacids",
+   "no vomiting"
+  ],
+  "duration_summary": "8-week history; pain begins 20 to 30 minutes after eating and lasts about 30 minutes"
+ },
+ "mmlu_0174": {
+  "symptoms": [
+   "clumsiness",
+   "recurrent injuries",
+   "exertional chest pain",
+   "knee pain or swelling after exercise",
+   "ankle pain or swelling after exercise",
+   "limping",
+   "left ankle swelling and tenderness",
+   "pain-limited ankle range of motion",
+   "joint hypermobility",
+   "midsystolic click at the apex",
+   "tall stature"
+  ],
+  "duration_summary": "Clumsiness and frequent injuries since she began walking; exertional chest pain worsening over the past 3 months; knee/ankle pain or swelling after practices; wearing glasses for 2 years."
+ },
+ "mmlu_0177": {
+  "symptoms": [
+   "painful swelling over sacral prominence",
+   "low-grade fever",
+   "erythematous elevated mass",
+   "fluctuant mass",
+   "midline pores"
+  ],
+  "duration_summary": "2-day history after a fall during wrestling"
+ },
+ "mmlu_0178": {
+  "symptoms": [
+   "worsening shortness of breath at rest",
+   "dyspnea",
+   "unable to complete a sentence",
+   "tachypnea",
+   "hypoxemia on supplemental oxygen",
+   "low-grade fever"
+  ],
+  "duration_summary": "Shortness of breath worsened over the past 2 days"
+ },
+ "mmlu_0180": {
+  "symptoms": [
+   "shortness of breath",
+   "abdominal pain",
+   "tachycardia",
+   "tachypnea",
+   "hypotension",
+   "decreased breath sounds at left lung base",
+   "left lower lung field opacification",
+   "loss of diaphragmatic shadow",
+   "greenish fluid after chest tube"
+  ],
+  "duration_summary": "Symptoms noted 10 minutes after a high-speed motor vehicle collision"
+ },
+ "mmlu_0182": {
+  "symptoms": [
+   "neck lump",
+   "2-cm freely movable mass in lower left thyroid lobe"
+  ],
+  "duration_summary": "Noted 1 week ago"
+ },
+ "mmlu_0185": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0181": {
+  "symptoms": [
+   "amenorrhea",
+   "previously irregular menses",
+   "weight gain",
+   "acne",
+   "hirsutism on thighs and abdomen",
+   "depressed mood",
+   "declining grades",
+   "mild obesity",
+   "slight enlargement of uterus and both ovaries"
+  ],
+  "duration_summary": "Irregular menses for the past year, complete cessation of menses for 6 months, and progressive weight gain/acne/hirsutism over the past 6 months"
+ },
+ "mmlu_0184": {
+  "symptoms": [
+   "intermittent blood in stool",
+   "no pain with defecation",
+   "visible 1-cm anal mass below the dentate line"
+  ],
+  "duration_summary": "6-month history of intermittent rectal bleeding"
+ },
+ "mmlu_0183": {
+  "symptoms": [
+   "cold symptoms",
+   "progressive fatigue",
+   "fever",
+   "triple rise in urea nitrogen and creatinine"
+  ],
+  "duration_summary": "Cold symptoms for 3 days; progressive fatigue for 1 week; renal dysfunction noted currently"
+ },
+ "mmlu_0187": {
+  "symptoms": [
+   "anal pain",
+   "pain on defecation",
+   "spots of blood on toilet tissue",
+   "small bilateral inguinal lymph nodes",
+   "tender fleshy perianal lesions",
+   "rectal tenderness",
+   "trace positive stool occult blood"
+  ],
+  "duration_summary": "Anal pain for 4 months"
+ },
+ "mmlu_0179": {
+  "symptoms": [
+   "throbbing facial pain",
+   "nasal congestion",
+   "purulent nasal discharge",
+   "sore throat",
+   "nonproductive cough",
+   "fever",
+   "congested nasal mucosa",
+   "left maxillary cheek tenderness",
+   "absent transillumination over left maxillary sinus"
+  ],
+  "duration_summary": "Facial pain for 1 day; nasal congestion, purulent nasal discharge, sore throat, and nonproductive cough for 9 days"
+ },
+ "mmlu_0186": {
+  "symptoms": [
+   "leg swelling",
+   "weight gain",
+   "periorbital edema",
+   "abdominal distension with bulging flanks and shifting dullness",
+   "bilateral pitting lower-extremity edema",
+   "elevated blood pressure"
+  ],
+  "duration_summary": "3 to 4 weeks of swelling and weight gain; Achilles tendinitis treated with ibuprofen for 1 month"
+ },
+ "mmlu_0190": {
+  "symptoms": [
+   "worsening fever",
+   "headache",
+   "nausea",
+   "decreased responsiveness",
+   "pleocytosis",
+   "elevated CSF protein"
+  ],
+  "duration_summary": "3-day history of worsening symptoms; nausea and decreased responsiveness today"
+ },
+ "mmlu_0191": {
+  "symptoms": [
+   "intermittent loose stools",
+   "constipation",
+   "mild diffuse abdominal tenderness"
+  ],
+  "duration_summary": "6-month history of intermittent bowel habit \u10ea\u10d5\u10da\u10d8\u10daations; constipated for the past 5 days"
+ },
+ "mmlu_0189": {
+  "symptoms": [
+   "primary amenorrhea",
+   "normal breast development",
+   "normal female body habitus",
+   "normal appearing external genitalia",
+   "absent axillary hair",
+   "absent pubic hair"
+  ],
+  "duration_summary": "Has never had a menstrual period"
+ },
+ "mmlu_0193": {
+  "symptoms": [
+   "dyspnea",
+   "hemoptysis",
+   "irregularly irregular pulse",
+   "bilateral basal crackles",
+   "opening snap",
+   "low-pitched diastolic murmur"
+  ],
+  "duration_summary": "Dyspnea and hemoptysis for 1 month; cardiac murmur present since early adulthood"
+ },
+ "mmlu_0188": {
+  "symptoms": [
+   "worsening memory",
+   "unpaid bills",
+   "unusually messy house",
+   "altered mental status",
+   "left hand weakness",
+   "right-sided extremity weakness",
+   "disorientation to day and date",
+   "short-term memory impairment",
+   "impaired naming",
+   "impaired visuospatial construction",
+   "impaired attention/calculation"
+  ],
+  "duration_summary": "Memory and functional decline noted over an unclear period; daughter reports no visit for 6 months, and the patient had prior strokes 3 years and 7 months ago."
+ },
+ "mmlu_0192": {
+  "symptoms": [
+   "mild nausea",
+   "increased urinary urgency",
+   "urinary frequency",
+   "constipation",
+   "weight loss",
+   "vaginal bleeding",
+   "nodular cervix",
+   "irregular friable posterior cervical lip",
+   "rock-hard irregular immobile pelvic mass"
+  ],
+  "duration_summary": "Nausea, urinary urgency/frequency, and constipation for 2 days; weight loss over 2 weeks; vaginal bleeding for 3 weeks"
+ },
+ "mmlu_0194": {
+  "symptoms": [
+   "generalized tonic-clonic seizure",
+   "persistent seizure despite diazepam",
+   "cyanosis",
+   "hypoxemia",
+   "shallow respirations",
+   "tachypnea? no",
+   "fever"
+  ],
+  "duration_summary": "Seizure began 25 minutes before presentation and persisted despite rectal diazepam; respiratory insufficiency developed within 2 minutes after IV diazepam."
+ },
+ "mmlu_0198": {
+  "symptoms": [
+   "exertional shortness of breath",
+   "exertional fatigue",
+   "late systolic heart murmur",
+   "pronounced S2"
+  ],
+  "duration_summary": "Exertional shortness of breath and fatigue began 3 months ago"
+ },
+ "mmlu_0200": {
+  "symptoms": [
+   "lower abdominal pain",
+   "fever",
+   "suprapubic tenderness",
+   "uterine tenderness"
+  ],
+  "duration_summary": "Lower abdominal pain for 3 days; fever for 2 days."
+ },
+ "mmlu_0201": {
+  "symptoms": [
+   "early awakening at night",
+   "waking between 2:00 and 3:00 AM",
+   "insomnia"
+  ],
+  "duration_summary": "Routinely awakens nightly between 2:00 and 3:00 AM; no difficulty falling asleep"
+ },
+ "mmlu_0197": {
+  "symptoms": [
+   "crushing substernal chest pain on exertion"
+  ],
+  "duration_summary": "Over the past 6 weeks"
+ },
+ "mmlu_0202": {
+  "symptoms": [
+   "persistent elevated blood pressure",
+   "asymptomatic",
+   "no other abnormalities on examination"
+  ],
+  "duration_summary": "Hypertension noted repeatedly over 3 months; prior UTI occurred 12 months ago."
+ },
+ "mmlu_0195": {
+  "symptoms": [
+   "inattentiveness",
+   "difficulty following sequential instructions",
+   "daytime sleepiness in class",
+   "drifting off to sleep during class"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0196": {
+  "symptoms": [
+   "headache",
+   "stiff neck",
+   "photophobia",
+   "lethargy",
+   "fever",
+   "diffuse petechiae",
+   "Kernig sign",
+   "Brudzinski sign"
+  ],
+  "duration_summary": "Symptoms began 24 hours before presentation"
+ },
+ "mmlu_0203": {
+  "symptoms": [
+   "fever",
+   "right knee pain",
+   "right knee swelling",
+   "right knee tenderness",
+   "right knee warmth",
+   "right knee erythema",
+   "limited range of motion of the right knee"
+  ],
+  "duration_summary": "2-day history of fever and right knee pain/swelling; knee injury occurred the previous week"
+ },
+ "mmlu_0205": {
+  "symptoms": [
+   "blistered fresh burns",
+   "burns over hands and feet",
+   "stocking and glove distribution"
+  ],
+  "duration_summary": "Fresh burns, present at the time of emergency department presentation"
+ },
+ "mmlu_0204": {
+  "symptoms": [
+   "sore throat",
+   "fever",
+   "fatigue",
+   "cervical lymphadenopathy",
+   "pharyngeal erythema",
+   "creamy pharyngeal exudate",
+   "appears ill"
+  ],
+  "duration_summary": "Sore throat and fever for 2 days; progressive fatigue for 1 week"
+ },
+ "mmlu_0207": {
+  "symptoms": [
+   "exercise-induced tachycardia",
+   "elevated pulse during treadmill exercise"
+  ],
+  "duration_summary": "during a 15-minute treadmill session; last minute of exercise"
+ },
+ "mmlu_0206": {
+  "symptoms": [
+   "malaise",
+   "myalgias",
+   "arthralgias",
+   "fever"
+  ],
+  "duration_summary": "3 days"
+ },
+ "mmlu_0210": {
+  "symptoms": [
+   "sudden severe occipital headache",
+   "stiff neck",
+   "decreased neck range of motion due to pain"
+  ],
+  "duration_summary": "Sudden onset 12 hours before presentation"
+ },
+ "mmlu_0208": {
+  "symptoms": [
+   "gunshot wound to the abdomen",
+   "tachycardia",
+   "tachypnea",
+   "hypotension",
+   "decreased breath sounds on the left",
+   "abdominal entrance wound in the left upper quadrant",
+   "abdominal exit wound in the left axillary line at the 4th rib"
+  ],
+  "duration_summary": "30 minutes after injury"
+ },
+ "mmlu_0212": {
+  "symptoms": [
+   "recurrent abdominal pain",
+   "long history of varying physical symptoms",
+   "dramatic and exaggerated symptom descriptions",
+   "conflicting statements about history"
+  ],
+  "duration_summary": "Recurrent abdominal pain; long-standing history of symptoms since age 18 years"
+ },
+ "mmlu_0214": {
+  "symptoms": [
+   "little facial hair",
+   "mild gynecomastia",
+   "small firm testicles",
+   "azoospermia"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0211": {
+  "symptoms": [
+   "narrow palate",
+   "dental crowding",
+   "long slender extremities",
+   "joint laxity"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0209": {
+  "symptoms": [
+   "progressive dyspnea",
+   "wheezing",
+   "palpitations",
+   "bloodstreaked sputum",
+   "tachycardia",
+   "tachypnea",
+   "hypoxemia",
+   "decreased breath sounds at the bases",
+   "bilateral expiratory crackles",
+   "irregularly irregular rhythm",
+   "loud S1",
+   "diastolic rumbling murmur at the apex",
+   "opening snap"
+  ],
+  "duration_summary": "1-week history of progressive respiratory symptoms"
+ },
+ "mmlu_0215": {
+  "symptoms": [
+   "anxiety without cigarettes",
+   "irritability without cigarettes",
+   "waking at night to smoke",
+   "heavy cigarette dependence"
+  ],
+  "duration_summary": "Symptoms occur within a day of not smoking and include nocturnal smoking; smoking since age 12 with long-standing heavy daily use since age 17."
+ },
+ "mmlu_0216": {
+  "symptoms": [
+   "odynophagia",
+   "gastroesophageal reflux",
+   "hematemesis",
+   "occult blood in stool"
+  ],
+  "duration_summary": "hematemesis occurred once last week"
+ },
+ "mmlu_0220": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0199": {
+  "symptoms": [
+   "worsening bilateral hand tremor",
+   "tremor with action/use rather than at rest",
+   "tremor more noticeable and frequent",
+   "hand shaking causing embarrassment while eating",
+   "alcohol responsiveness of tremor"
+  ],
+  "duration_summary": "Present for most of her life, mild and intermittent until the past month, when it became more noticeable and frequent."
+ },
+ "mmlu_0218": {
+  "symptoms": [
+   "sudden intense fear",
+   "overwhelming fear during procedure"
+  ],
+  "duration_summary": "Occurred suddenly at one point during the operation; current follow-up 10 days after surgery."
+ },
+ "mmlu_0217": {
+  "symptoms": [
+   "elevated blood pressure"
+  ],
+  "duration_summary": "at routine physical examination"
+ },
+ "mmlu_0219": {
+  "symptoms": [
+   "fever",
+   "painful swelling of left ankle",
+   "tender left ankle",
+   "erythematous left ankle",
+   "edematous left ankle",
+   "point tenderness over medial malleolus",
+   "recurrent cervical lymphadenitis",
+   "recurrent pneumonia",
+   "history of cervical abscess with Staphylococcus aureus",
+   "bone aspirate culture positive for Serratia marcescens"
+  ],
+  "duration_summary": "Fever and ankle swelling for 2 days; recurrent infections since infancy."
+ },
+ "mmlu_0221": {
+  "symptoms": [
+   "fever",
+   "severe muscle pain",
+   "diffuse painful swelling of neck, axillae, and groin",
+   "ill appearance",
+   "lethargy",
+   "generalized scattered black maculae",
+   "erythematous tender mass above the elbow",
+   "draining blood and necrotic material from mass"
+  ],
+  "duration_summary": "6-day history"
+ },
+ "mmlu_0223": {
+  "symptoms": [
+   "acute rotatory vertigo",
+   "imbalance",
+   "decreased hearing",
+   "tinnitus",
+   "aural fullness in the right ear",
+   "vomiting",
+   "mild right-sided hearing loss"
+  ],
+  "duration_summary": "Two 12-hour episodes over the past 3 months"
+ },
+ "mmlu_0222": {
+  "symptoms": [
+   "left lower leg pain",
+   "left lower leg redness",
+   "left lower extremity swelling",
+   "left lower extremity erythema",
+   "left lower extremity tenderness",
+   "fever",
+   "scraped left leg after minor trauma"
+  ],
+  "duration_summary": "4-day history following a scrape to the left leg"
+ },
+ "mmlu_0225": {
+  "symptoms": [
+   "elevated blood pressure",
+   "paroxysmal headache",
+   "sweating",
+   "anxiety",
+   "nausea",
+   "vomiting",
+   "left adrenal mass"
+  ],
+  "duration_summary": "Frequent paroxysmal episodes; duration not otherwise specified"
+ },
+ "mmlu_0224": {
+  "symptoms": [
+   "sore throat",
+   "fever",
+   "voice change",
+   "pain with swallowing",
+   "oropharyngeal erythema",
+   "oropharyngeal edema",
+   "anterior displacement of right soft palate",
+   "uvular deviation to the left",
+   "white right tonsillar exudate",
+   "trismus",
+   "enlarged tender mobile anterior cervical lymph nodes"
+  ],
+  "duration_summary": "Sore throat and fever for 5 days; voice change and worse odynophagia for 3 days"
+ },
+ "mmlu_0226": {
+  "symptoms": [
+   "numerous facial lacerations",
+   "facial ecchymoses",
+   "decreased facial sensation over right face anterior to ear",
+   "absent sensation over right mandible to chin",
+   "absent sensation over right side of tongue"
+  ],
+  "duration_summary": "Symptoms noted 40 minutes after motor vehicle collision"
+ },
+ "mmlu_0228": {
+  "symptoms": [
+   "right shoulder pain",
+   "pain after chopping wood",
+   "pain reproduced with resisted external rotation"
+  ],
+  "duration_summary": "2 days"
+ },
+ "mmlu_0227": {
+  "symptoms": [
+   "white lesions in the mouth",
+   "white patches on the tongue",
+   "white patches on the buccal mucosa",
+   "patches not removable with gentle scraping"
+  ],
+  "duration_summary": "2-day history of oral white lesions"
+ },
+ "mmlu_0230": {
+  "symptoms": [],
+  "duration_summary": "No symptoms or abnormal physical findings; exposure occurred about 1 week ago"
+ },
+ "mmlu_0229": {
+  "symptoms": [
+   "easy bruising",
+   "multiple ecchymoses"
+  ],
+  "duration_summary": "Easy bruising for 4 months"
+ },
+ "mmlu_0232": {
+  "symptoms": [
+   "wheezing",
+   "chest tightness",
+   "scattered rhonchi with forced expiration",
+   "scattered wheezes with forced expiration"
+  ],
+  "duration_summary": "Asthma has been more active during the past month; cold- and exercise-induced asthma for 14 years."
+ },
+ "mmlu_0233": {
+  "symptoms": [
+   "headache",
+   "dizziness",
+   "nausea",
+   "vomiting",
+   "weakness",
+   "feeling faint",
+   "diaphoresis",
+   "disorientation"
+  ],
+  "duration_summary": "Onset 1 hour prior to ED arrival, during the first hour of full-contact football practice; one episode of vomiting after drinking water."
+ },
+ "mmlu_0231": {
+  "symptoms": [
+   "feverish sensation",
+   "systolic heart murmur over the precordium"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0213": {
+  "symptoms": [
+   "eating sand and dirt (pica)",
+   "less active than other children",
+   "headaches",
+   "symmetric nontender cervical adenopathy"
+  ],
+  "duration_summary": "Pica since age 3 years; headaches 3-4 times over the past 2 weeks"
+ },
+ "mmlu_0234": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0236": {
+  "symptoms": [
+   "difficulty focusing on tasks",
+   "distractibility",
+   "incomplete task completion",
+   "increased energy",
+   "decreased need for sleep",
+   "labile affect",
+   "rapid speech"
+  ],
+  "duration_summary": "Past 2 months"
+ },
+ "mmlu_0235": {
+  "symptoms": [
+   "right thigh pain",
+   "shaking chills",
+   "greenish wound drainage",
+   "edematous right lateral thigh",
+   "multiple burn sites with white exudate",
+   "surrounding erythema",
+   "red streaks extending up the thigh",
+   "fluctuance at burn sites",
+   "fever"
+  ],
+  "duration_summary": "Pain and chills for 3 days; burns occurred 6 days ago"
+ },
+ "mmlu_0239": {
+  "symptoms": [
+   "progressively declining blood pressure",
+   "hypotension",
+   "tachycardia",
+   "slightly distended abdomen",
+   "oliguria",
+   "decreased urine output"
+  ],
+  "duration_summary": "Blood pressure has progressively declined since surgery; findings are present 4 hours after elective hemicolectomy."
+ },
+ "mmlu_0240": {
+  "symptoms": [
+   "abdominal pain",
+   "thick nasal secretions",
+   "salty sweat that crystallizes on skin",
+   "epigastric tenderness",
+   "recurrent upper respiratory tract infections",
+   "sinusitis",
+   "history of pancreatitis"
+  ],
+  "duration_summary": "Abdominal pain for 2 days; other symptoms/history are chronic or recurrent"
+ },
+ "mmlu_0242": {
+  "symptoms": [
+   "knife wound to left chest",
+   "air-fluid level in left chest",
+   "partial collapse of left lung",
+   "elevated stomach bubble"
+  ],
+  "duration_summary": null
+ },
+ "mmlu_0241": {
+  "symptoms": [
+   "confusion",
+   "inability to answer questions",
+   "auditory hallucinations",
+   "profuse diaphoresis",
+   "muscle rigidity",
+   "psychomotor agitation alternating with lethargy",
+   "fever",
+   "tachycardia",
+   "hypertension"
+  ],
+  "duration_summary": "Increasing confusion for 10 hours"
+ },
+ "mmlu_0237": {
+  "symptoms": [
+   "painless bilateral ankle swelling",
+   "dyspnea on exertion",
+   "orthopnea",
+   "paroxysmal nocturnal dyspnea",
+   "elevated jugular venous pressure",
+   "bibasilar crackles",
+   "soft S3",
+   "holosystolic apical murmur radiating to the axilla",
+   "2+ pitting edema of the lower legs and ankles"
+  ],
+  "duration_summary": "2-month history of symptoms"
+ },
+ "mmlu_0243": {
+  "symptoms": [
+   "ventricular ectopy",
+   "fever"
+  ],
+  "duration_summary": "4 hours after uncomplicated left total knee replacement"
+ },
+ "mmlu_0244": {
+  "symptoms": [
+   "fatigue",
+   "dry skin",
+   "brittle hair",
+   "ankle swelling",
+   "cold intolerance",
+   "weight gain",
+   "bradycardia",
+   "lethargy",
+   "enlarged nontender thyroid gland",
+   "bilateral ankle edema",
+   "prolonged Achilles reflex relaxation"
+  ],
+  "duration_summary": "Symptoms present for 1 year"
+ },
+ "mmlu_0238": {
+  "symptoms": [
+   "right arm pain",
+   "right arm swelling",
+   "exertional worsening",
+   "erythema of right upper extremity",
+   "moderate edema of right upper extremity"
+  ],
+  "duration_summary": "3 days"
+ },
+ "mmlu_0247": {
+  "symptoms": [
+   "low back pain",
+   "localized lumbar spine tenderness",
+   "pain after movement",
+   "L1-L2 compression fracture"
+  ],
+  "duration_summary": "Low back pain for 1 week"
+ },
+ "mmlu_0245": {
+  "symptoms": [
+   "minor dysmorphic features",
+   "growth delay",
+   "developmental delay"
+  ],
+  "duration_summary": "Present at follow-up; growth and developmental delay noted in a 2-year-old with prior chromosome analysis 1 month earlier"
+ },
+ "mmlu_0246": {
+  "symptoms": [
+   "fever",
+   "left ear pain",
+   "left ear displaced forward and laterally",
+   "edema behind the left ear",
+   "tenderness behind the left ear",
+   "red dull nonmobile left tympanic membrane"
+  ],
+  "duration_summary": "Fever and left ear pain for 3 days; on amoxicillin for the past 5 days"
+ },
+ "mmlu_0248": {
+  "symptoms": [
+   "marked increase in shortness of breath on exertion"
+  ],
+  "duration_summary": "began 3 days after starting eyedrops"
+ },
+ "mmlu_0249": {
+  "symptoms": [
+   "increasing lethargy",
+   "awake but lethargic",
+   "fever",
+   "decreased muscle tone"
+  ],
+  "duration_summary": "Increasing lethargy for the past several hours"
+ },
+ "mmlu_0254": {
+  "symptoms": [
+   "left labial pain",
+   "left labial swelling",
+   "tender fluctuant 4 x 3-cm mass medial to left labium majus",
+   "introital opening compromise"
+  ],
+  "duration_summary": "2-day history"
+ },
+ "mmlu_0255": {
+  "symptoms": [
+   "abdominal bloating",
+   "upper abdominal discomfort",
+   "constipation",
+   "symptoms worse during examination stress",
+   "symptoms improve after bowel movements"
+  ],
+  "duration_summary": "6-month history of symptoms"
+ },
+ "mmlu_0250": {
+  "symptoms": [
+   "postoperative pain",
+   "not completely alert"
+  ],
+  "duration_summary": "Thirty-six hours postoperatively"
+ },
+ "mmlu_0252": {
+  "symptoms": [
+   "degenerative joint disease of the left knee",
+   "chronic renal failure",
+   "type 2 diabetes mellitus",
+   "hypertension"
+  ],
+  "duration_summary": "Chronic kidney failure with a long history of hypertension; left knee disease present at admission for joint replacement."
+ },
+ "mmlu_0257": {
+  "symptoms": [
+   "leg weakness",
+   "dry eyes",
+   "dry mouth",
+   "weight loss",
+   "mild ptosis",
+   "proximal lower-extremity muscle weakness",
+   "absent reflexes",
+   "difficulty rising from a chair",
+   "distant breath sounds",
+   "barrel-shaped chest"
+  ],
+  "duration_summary": "Leg weakness and sicca symptoms for 7 months; weight loss over the past 4 months."
+ },
+ "mmlu_0251": {
+  "symptoms": [
+   "cramping in hands and feet",
+   "numbness and tingling around the lips",
+   "numbness and tingling in the fingers",
+   "weight loss",
+   "bulky foul-smelling stools that do not flush easily",
+   "cachectic appearance",
+   "chronically ill appearance",
+   "hyperreflexia",
+   "Chvostek sign",
+   "Trousseau sign"
+  ],
+  "duration_summary": "Intermittent symptoms for 6 months, progressively worse over the past 2 weeks; weight loss and stool changes present during this period."
+ },
+ "mmlu_0259": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mmlu_0253": {
+  "symptoms": [
+   "fatigue"
+  ],
+  "duration_summary": "More fatigued than she was at 65; no other symptom timing stated"
+ },
+ "mmlu_0258": {
+  "symptoms": [
+   "brown irregular mass behind tympanic membrane",
+   "history of chronic recurrent otitis media"
+  ],
+  "duration_summary": "recently completed a 10-day course of antibiotics; chronic recurrent otitis media"
+ },
+ "mmlu_0260": {
+  "symptoms": [
+   "hives",
+   "hoarseness",
+   "light-headedness"
+  ],
+  "duration_summary": "Symptoms began 15 minutes after a bee sting and lasted approximately 60 minutes before resolving."
+ },
+ "mmlu_0256": {
+  "symptoms": [
+   "urticaria"
+  ],
+  "duration_summary": "first episode, intermittent episodes over the past week"
+ },
+ "mmlu_0262": {
+  "symptoms": [
+   "greenish discharge from left nipple"
+  ],
+  "duration_summary": "Timing not specified"
+ },
+ "mmlu_0265": {
+  "symptoms": [
+   "low back pain",
+   "heavy menses"
+  ],
+  "duration_summary": "6-month history of increasingly severe symptoms"
+ },
+ "mmlu_0266": {
+  "symptoms": [
+   "sudden right knee pain",
+   "right knee swelling",
+   "warmth of right knee",
+   "erythema of right knee",
+   "right knee effusion",
+   "exquisite tenderness with minimal range of motion"
+  ],
+  "duration_summary": "Sudden onset 1 day ago"
+ },
+ "mmlu_0261": {
+  "symptoms": [
+   "semiconscious state",
+   "incoherence",
+   "stupor",
+   "cool damp skin",
+   "pinpoint pupils",
+   "sluggish pupillary reaction to light"
+  ],
+  "duration_summary": "Acute presentation, found at home and brought to the ED"
+ },
+ "mmlu_0264": {
+  "symptoms": [
+   "elevated maternal serum alpha-fetoprotein"
+  ],
+  "duration_summary": "Initial prenatal visit at 16 weeks' gestation; pregnancy likely began about 5 months ago after stopping oral contraceptives"
+ },
+ "mmlu_0268": {
+  "symptoms": [
+   "agitation",
+   "confusion",
+   "tremulousness",
+   "uncooperative behavior",
+   "disorientation to place and time",
+   "hypertension",
+   "tachycardia",
+   "tachypnea"
+  ],
+  "duration_summary": "Persisting for 4 days after surgery"
+ },
+ "mmlu_0263": {
+  "symptoms": [
+   "fatigue",
+   "irritability",
+   "sullen affect",
+   "groin lumps"
+  ],
+  "duration_summary": "Symptoms for the past 3 months, beginning shortly after starting spring training"
+ },
+ "mmlu_0271": {
+  "symptoms": [
+   "chest pain",
+   "pain radiating to jaw",
+   "recurrent chest pain",
+   "S4"
+  ],
+  "duration_summary": "Initial episode occurred 30 minutes before ED arrival; chest pain recurred during ECG."
+ },
+ "mmlu_0267": {
+  "symptoms": [
+   "difficulty swallowing saliva",
+   "slurred speech",
+   "tongue wasting",
+   "tongue fasciculations",
+   "decreased deep tendon reflexes in left lower extremity",
+   "left lower extremity fasciculations",
+   "hyperactive deep tendon reflexes in left upper extremity"
+  ],
+  "duration_summary": "about 6 months"
+ },
+ "mmlu_0270": {
+  "symptoms": [
+   "swallowed a nail",
+   "flat affect",
+   "distractibility",
+   "derailment of thoughts"
+  ],
+  "duration_summary": "Reported 2 hours after swallowing a nail; no other symptoms reported"
+ },
+ "mmlu_0269": {
+  "symptoms": [
+   "difficulty sleeping",
+   "fatigue",
+   "muscle tension",
+   "memory lapses",
+   "difficulty concentrating",
+   "arriving late to work",
+   "episodic palpitations",
+   "shortness of breath",
+   "depressed mood",
+   "constricted affect",
+   "anhedonia",
+   "suicidal ideation"
+  ],
+  "duration_summary": "8 weeks of insomnia, fatigue, muscle tension, cognitive difficulty, and functional impairment; 2 weeks of nocturnal episodes of palpitations and shortness of breath"
+ }
+}

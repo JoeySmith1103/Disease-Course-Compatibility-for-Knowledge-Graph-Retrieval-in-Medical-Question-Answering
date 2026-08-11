@@ -1,0 +1,5253 @@
+{
+ "aud_001": {
+  "seeds": [
+   "Septic shock",
+   "Community-acquired pneumonia",
+   "Pleural effusion",
+   "Left lower lobe pneumonia",
+   "Acute respiratory failure",
+   "Acute kidney injury",
+   "Anuria",
+   "Bacterial sepsis",
+   "Spontaneous bacterial peritonitis",
+   "Cirrhosis with ascites",
+   "Hepatitis C cirrhosis",
+   "Leukocytosis with bandemia",
+   "Vasoactive support",
+   "Chest radiography",
+   "Blood cultures",
+   "Thoracentesis"
+  ]
+ },
+ "aud_002": {
+  "seeds": [
+   "Cryptococcal meningitis",
+   "Cryptococcus neoformans infection",
+   "HIV-associated opportunistic infection",
+   "AIDS-related meningoencephalitis",
+   "Subacute meningitis",
+   "India ink stain positive",
+   "Low CD4 count",
+   "Lymphocytic cerebrospinal fluid pleocytosis",
+   "Elevated cerebrospinal fluid protein",
+   "Low cerebrospinal fluid glucose",
+   "Altered mental status",
+   "Elevated opening pressure"
+  ]
+ },
+ "aud_004": {
+  "seeds": [
+   "Acute myocardial infarction",
+   "ST-elevation myocardial infarction",
+   "Coronary artery disease",
+   "Ventricular fibrillation",
+   "Sudden cardiac death",
+   "Type 2 diabetes mellitus",
+   "Morbid obesity",
+   "Electrocardiogram",
+   "Troponin I",
+   "Reperfusion therapy",
+   "Post-myocardial infarction ventricular arrhythmia",
+   "Postinfarction scar"
+  ]
+ },
+ "aud_006": {
+  "seeds": [
+   "Prosthetic joint infection",
+   "Septic arthritis",
+   "Periprosthetic joint infection",
+   "Total knee arthroplasty",
+   "Staphylococcus aureus",
+   "Coagulase-negative staphylococci",
+   "Knee effusion",
+   "Synovial fluid analysis",
+   "Arthrocentesis",
+   "Fever",
+   "Painful swollen joint"
+  ]
+ },
+ "aud_008": {
+  "seeds": [
+   "Tardive dyskinesia",
+   "Fluphenazine",
+   "Antipsychotic-induced extrapyramidal symptoms",
+   "Drug-induced involuntary movements",
+   "Orofacial dyskinesia",
+   "Chronic schizophrenia",
+   "Psychotic disorder",
+   "Dystonia",
+   "Akathisia",
+   "Drooling",
+   "Chewing motion",
+   "Urine toxicology screen",
+   "Complete blood count",
+   "Comprehensive metabolic panel",
+   "Thyroid-stimulating hormone"
+  ]
+ },
+ "aud_010": {
+  "seeds": [
+   "Aseptic meningitis",
+   "Viral meningitis",
+   "Meningoencephalitis",
+   "Herpes simplex virus infection",
+   "Enteroviral infection",
+   "Acute HIV infection",
+   "Listeria monocytogenes meningitis",
+   "Cerebral malaria",
+   "Photophobia",
+   "Nuchal rigidity",
+   "Cerebrospinal fluid analysis",
+   "Elevated opening pressure"
+  ]
+ },
+ "aud_011": {
+  "seeds": [
+   "Iron deficiency anemia",
+   "Thalassemia",
+   "Sickle cell anemia",
+   "Autoimmune hemolytic anemia",
+   "Hereditary spherocytosis",
+   "Microcytic hypochromic anemia",
+   "Pale conjunctivae",
+   "Peripheral blood smear",
+   "Reticulocyte count",
+   "Ferritin level",
+   "Serum iron level",
+   "Total iron-binding capacity"
+  ]
+ },
+ "aud_012": {
+  "seeds": [
+   "Myocardial infarction",
+   "Acute coronary syndrome",
+   "Unstable angina",
+   "Aortic dissection",
+   "Stable abdominal aortic aneurysm",
+   "Hypertension",
+   "Diabetes mellitus type 2",
+   "Hyperlipidemia",
+   "Diaphoresis",
+   "Retrosternal chest pain",
+   "Chest pain radiating to the jaw",
+   "Cardiac troponin I",
+   "Electrocardiogram",
+   "Coronary artery thrombosis",
+   "Papillary muscle rupture",
+   "Ventricular free wall rupture",
+   "Left ventricular aneurysm"
+  ]
+ },
+ "aud_014": {
+  "seeds": [
+   "Aspirin-exacerbated respiratory disease",
+   "Asthma",
+   "Nasal polyps",
+   "Allergic rhinitis",
+   "Naproxen hypersensitivity",
+   "Paradoxical pulse",
+   "Pulsus paradoxus",
+   "Bronchospasm",
+   "Cyclooxygenase-1 inhibition",
+   "Leukotriene overproduction",
+   "Forced expiratory pressure-PEEP interaction",
+   "Reduced radial pulse amplitude on inspiration"
+  ]
+ },
+ "aud_019": {
+  "seeds": [
+   "Meningioma",
+   "Intracranial mass lesion",
+   "Brain tumor",
+   "Primary central nervous system neoplasm",
+   "Increased intracranial pressure",
+   "Morning headache",
+   "Nocturnal headache",
+   "Brain biopsy",
+   "Histopathology",
+   "Computed tomography of the head",
+   "Magnetic resonance imaging of the brain",
+   "Dural-based tumor"
+  ]
+ },
+ "aud_022": {
+  "seeds": [
+   "Acute pericarditis",
+   "Acute coronary syndrome",
+   "Myocardial infarction",
+   "Prinzmetal angina",
+   "Aortic dissection",
+   "Panic attack",
+   "Diffuse ST-segment elevation",
+   "PR-segment depression",
+   "Pericardial friction rub",
+   "Electrocardiogram",
+   "Troponin I",
+   "Coronary vasospasm"
+  ]
+ },
+ "aud_027": {
+  "seeds": [
+   "Superior vena cava syndrome",
+   "Mediastinal mass",
+   "Lung cancer",
+   "Non-Hodgkin lymphoma",
+   "Thymoma",
+   "Aortic dissection",
+   "Mediastinal widening",
+   "Jugular venous distention",
+   "Facial edema",
+   "Dysphagia"
+  ]
+ },
+ "aud_030": {
+  "seeds": [
+   "Parvovirus B19 infection",
+   "Aplastic crisis",
+   "Autoimmune hemolytic anemia",
+   "Transient aplastic anemia",
+   "Infectious mononucleosis",
+   "Systemic lupus erythematosus",
+   "Rheumatoid arthritis",
+   "Parvovirus B19 arthropathy",
+   "Reticulocytopenia",
+   "Hemolytic anemia",
+   "Splenomegaly",
+   "Pallor",
+   "Complete blood count",
+   "Reticulocyte count",
+   "Direct antiglobulin test"
+  ]
+ },
+ "aud_031": {
+  "seeds": [
+   "Epiglottitis",
+   "Acute supraglottitis",
+   "Haemophilus influenzae type b infection",
+   "Bacterial pharyngitis",
+   "Peritonsillar abscess",
+   "Retropharyngeal abscess",
+   "Drooling",
+   "Inspiratory stridor",
+   "Muffled voice",
+   "Neck extension",
+   "Cervical lymphadenopathy",
+   "Neutrophilic leukocytosis",
+   "Lateral neck radiograph"
+  ]
+ },
+ "aud_036": {
+  "seeds": [
+   "Acute coronary syndrome",
+   "Unstable angina",
+   "Myocardial ischemia",
+   "Exertional angina",
+   "ST-segment depression",
+   "Troponin test",
+   "Electrocardiography",
+   "Sublingual nitroglycerin",
+   "Exercise stress test",
+   "Myocardial perfusion imaging",
+   "Coronary angiography"
+  ]
+ },
+ "aud_038": {
+  "seeds": [
+   "Amebic liver abscess",
+   "Pyogenic liver abscess",
+   "Peptic ulcer disease",
+   "NSAID-induced gastritis",
+   "Duodenal ulcer",
+   "Helicobacter pylori infection",
+   "Melena",
+   "Positive fecal occult blood test",
+   "Right upper quadrant tenderness",
+   "Fever",
+   "Leukocytosis",
+   "Abdominal ultrasonography",
+   "Hypoechoic hepatic lesion",
+   "Entamoeba histolytica"
+  ]
+ },
+ "aud_042": {
+  "seeds": [
+   "Acetaminophen toxicity",
+   "Acute viral hepatitis",
+   "Fulminant hepatic failure",
+   "Massive hepatic necrosis",
+   "Drug-induced liver injury",
+   "General inhalational anesthesia",
+   "Packed red blood cell transfusion",
+   "Hepatocellular injury",
+   "Centrilobular necrosis",
+   "Jaundice",
+   "Tender hepatomegaly",
+   "Aspartate aminotransferase elevation",
+   "Direct hyperbilirubinemia",
+   "Abdominal ultrasonography"
+  ]
+ },
+ "aud_043": {
+  "seeds": [
+   "Angioedema",
+   "ACE inhibitor-induced angioedema",
+   "Bradykinin-mediated angioedema",
+   "Histamine-mediated angioedema",
+   "Enalapril",
+   "Lisinopril",
+   "Hypertension",
+   "Facial edema",
+   "Upper airway edema",
+   "C1 esterase inhibitor deficiency",
+   "Hereditary angioedema",
+   "Allergic reaction"
+  ]
+ },
+ "aud_046": {
+  "seeds": [
+   "sickle cell disease",
+   "sickle cell anemia",
+   "vaso-occlusive crisis",
+   "hemolytic anemia",
+   "acute hepatic sequestration",
+   "cerebral venous sinus thrombosis",
+   "trimethoprim-sulfamethoxazole",
+   "reticulocytosis",
+   "polychromasia",
+   "elevated lactate dehydrogenase",
+   "indirect hyperbilirubinemia",
+   "Doppler ultrasonography",
+   "magnetic resonance imaging of the brain"
+  ]
+ },
+ "aud_047": {
+  "seeds": [
+   "Testicular torsion",
+   "Epididymitis",
+   "Orchitis",
+   "Testicular seminoma",
+   "Varicocele",
+   "Scrotal ultrasound with Doppler",
+   "Urinalysis",
+   "Leukocyte esterase",
+   "Pyuria",
+   "Prehn sign",
+   "Cremasteric reflex",
+   "Nucleic acid amplification test for Chlamydia trachomatis and Neisseria gonorrhoeae",
+   "Emergency scrotal exploration"
+  ]
+ },
+ "aud_050": {
+  "seeds": [
+   "Transtheoretical model of behavior change",
+   "Action stage",
+   "Smoking cessation",
+   "Tobacco use disorder",
+   "Myocardial infarction",
+   "Type 2 diabetes mellitus",
+   "Diet-controlled diabetes mellitus",
+   "Stage of change",
+   "Behavior change counseling",
+   "Meditation",
+   "Wellness program",
+   "Stress coping mechanism"
+  ]
+ },
+ "aud_053": {
+  "seeds": [
+   "Panic attack",
+   "Generalized anxiety disorder",
+   "Acute coronary syndrome",
+   "Supraventricular tachycardia",
+   "Sinus tachycardia",
+   "Chest pain",
+   "Palpitations",
+   "Panic disorder",
+   "Electrocardiogram",
+   "Echocardiogram"
+  ]
+ },
+ "aud_054": {
+  "seeds": [
+   "Migraine without aura",
+   "Migraine with aura",
+   "Menstrual migraine",
+   "Transient visual disturbance",
+   "Photophobia",
+   "Nausea and vomiting",
+   "Oral contraceptive use",
+   "Throbbing unilateral headache",
+   "Sumatriptan",
+   "Ibuprofen"
+  ]
+ },
+ "aud_055": {
+  "seeds": [
+   "Disseminated gonococcal infection",
+   "Gonococcal septic arthritis",
+   "Septic arthritis",
+   "Rheumatoid arthritis",
+   "Inflammatory arthritis",
+   "Migratory polyarthralgia",
+   "Tenosynovitis",
+   "Pustular skin lesions",
+   "First-degree atrioventricular block",
+   "Atrial fibrillation",
+   "Electrocardiogram",
+   "Synovial fluid analysis"
+  ]
+ },
+ "aud_058": {
+  "seeds": [
+   "Visceral leishmaniasis",
+   "Leishmania donovani infection",
+   "Kala-azar",
+   "Sandfly bite",
+   "Pancytopenia",
+   "Hepatosplenomegaly",
+   "Generalized lymphadenopathy",
+   "Fever of unknown origin",
+   "Weight loss",
+   "Anemia",
+   "Leukopenia",
+   "Thrombocytopenia"
+  ]
+ },
+ "aud_060": {
+  "seeds": [
+   "Chalazion",
+   "Meibomian gland dysfunction",
+   "Hordeolum",
+   "Eyelid neoplasm",
+   "Sebaceous carcinoma",
+   "Meibomian gland adenocarcinoma",
+   "Ptosis",
+   "Astigmatism",
+   "Visual acuity testing",
+   "Eyelid eversion",
+   "Incision and curettage"
+  ]
+ },
+ "aud_064": {
+  "seeds": [
+   "Physiologic jaundice of the newborn",
+   "Breastfeeding jaundice",
+   "Hemolytic disease of the newborn",
+   "ABO incompatibility",
+   "Rh incompatibility",
+   "Unconjugated hyperbilirubinemia",
+   "Neonatal jaundice",
+   "Scleral icterus",
+   "Reticulocyte count",
+   "Serum bilirubin",
+   "Direct bilirubin",
+   "Breast milk jaundice",
+   "Congenital hypothyroidism"
+  ]
+ },
+ "aud_067": {
+  "seeds": [
+   "Polymyositis",
+   "Dermatomyositis",
+   "Statin-associated myopathy",
+   "Hypothyroid myopathy",
+   "Hereditary myopathy",
+   "Duchenne muscular dystrophy",
+   "Proximal muscle weakness",
+   "Dysphagia",
+   "Elevated creatine kinase",
+   "Muscle biopsy",
+   "Electromyography",
+   "Anti-Jo-1 antibody",
+   "HMG-CoA reductase inhibitor"
+  ]
+ },
+ "aud_068": {
+  "seeds": [
+   "Rheumatoid arthritis",
+   "Methotrexate-induced pneumonitis",
+   "Rheumatoid pulmonary nodules",
+   "Interstitial lung disease",
+   "Pulmonary fibrosis",
+   "Dyspnea on exertion",
+   "Fine end-inspiratory crackles",
+   "Diffuse bilateral reticular markings",
+   "Multiple pulmonary nodules",
+   "Echocardiogram normal",
+   "Methotrexate",
+   "Restrictive lung disease"
+  ]
+ },
+ "aud_070": {
+  "seeds": [
+   "Guillain-Barr\u00e9 syndrome",
+   "Chronic inflammatory demyelinating polyneuropathy",
+   "Diphtheritic polyneuropathy",
+   "HIV infection",
+   "Vitamin B12 deficiency",
+   "Graves disease",
+   "Hepatitis B",
+   "Bilateral facial nerve palsy",
+   "Areflexia",
+   "Demyelinating peripheral neuropathy",
+   "Nerve conduction study",
+   "Cerebrospinal fluid albuminocytologic dissociation"
+  ]
+ },
+ "aud_071": {
+  "seeds": [
+   "Perforated peptic ulcer",
+   "Pneumoperitoneum",
+   "Generalized peritonitis",
+   "Septic shock",
+   "Acute abdomen",
+   "Helicobacter pylori infection",
+   "Triple therapy for Helicobacter pylori",
+   "Rebound tenderness",
+   "Abdominal distension",
+   "CT scan of the abdomen",
+   "Upright chest radiograph",
+   "Emergent surgical consultation"
+  ]
+ },
+ "aud_080": {
+  "seeds": [
+   "Deep vein thrombosis",
+   "Popliteal vein thrombosis",
+   "Venous thromboembolism",
+   "Lower extremity edema",
+   "Unfractionated heparin",
+   "Heparin-induced thrombocytopenia",
+   "Activated partial thromboplastin time",
+   "Venous Doppler ultrasonography",
+   "Chronic kidney disease",
+   "Pulmonary embolism"
+  ]
+ },
+ "aud_083": {
+  "seeds": [
+   "Adjustment disorder with anxiety",
+   "Burnout syndrome",
+   "Generalized anxiety disorder",
+   "Insomnia disorder",
+   "Acute stress disorder",
+   "Major depressive disorder",
+   "Psychological stress",
+   "Sleep disturbance",
+   "Counseling",
+   "Hypnotic medication"
+  ]
+ },
+ "aud_085": {
+  "seeds": [
+   "Major depressive disorder",
+   "Adjustment disorder with depressed mood",
+   "Cannabis use disorder",
+   "Persistent depressive disorder",
+   "Bereavement",
+   "Anhedonia",
+   "Hypersomnia",
+   "Increased appetite",
+   "Weight gain",
+   "Depressed mood",
+   "Mental status examination",
+   "Suicidal ideation"
+  ]
+ },
+ "aud_093": {
+  "seeds": [
+   "Primary adrenal insufficiency",
+   "Addison disease",
+   "Adrenal tuberculosis",
+   "Disseminated histoplasmosis",
+   "Adrenal cortical destruction",
+   "Hyperkalemia",
+   "Hyponatremia",
+   "Hypoglycemia",
+   "Metabolic acidosis",
+   "Adrenocorticotropic hormone (ACTH) stimulation test",
+   "Serum cortisol level",
+   "Adrenal calcification"
+  ]
+ },
+ "aud_099": {
+  "seeds": [
+   "Quadrilateral space syndrome",
+   "Suprascapular neuropathy",
+   "Biceps tendinopathy",
+   "Subacromial bursitis",
+   "Rotator cuff tendinopathy",
+   "Shoulder impingement syndrome",
+   "Deltoid muscle strain",
+   "Soft tissue mass",
+   "Shoulder pain",
+   "Limited range of motion",
+   "Tenderness to palpation",
+   "Overuse injury"
+  ]
+ },
+ "aud_102": {
+  "seeds": [
+   "Central retinal artery occlusion",
+   "Branch retinal artery occlusion",
+   "Amaurosis fugax",
+   "Retinal embolism",
+   "Retinal artery atherosclerosis",
+   "Atherosclerotic carotid artery disease",
+   "Hollenhorst plaque",
+   "Fundoscopy",
+   "Fluorescein angiography",
+   "Carotid duplex ultrasonography",
+   "Echocardiography",
+   "Ischemic stroke"
+  ]
+ },
+ "aud_105": {
+  "seeds": [
+   "Acute limb ischemia",
+   "Arterial thromboembolism",
+   "Peripheral arterial disease",
+   "Atherosclerosis",
+   "Popliteal artery embolism",
+   "Critical limb ischemia",
+   "Absent pedal pulses",
+   "Pallor",
+   "Cool extremity",
+   "Paresthesia",
+   "Limb weakness",
+   "Doppler ultrasonography",
+   "Ankle-brachial index"
+  ]
+ },
+ "aud_114": {
+  "seeds": [
+   "Bipolar I disorder",
+   "Bipolar II disorder",
+   "Major depressive disorder",
+   "Antidepressant-induced mania",
+   "Hypomanic episode",
+   "Manic episode",
+   "Fluoxetine",
+   "Decreased need for sleep",
+   "Early morning awakening",
+   "Irritability",
+   "Increased energy",
+   "Weight loss",
+   "Elevated libido",
+   "Flight of ideas"
+  ]
+ },
+ "aud_115": {
+  "seeds": [
+   "Juvenile idiopathic arthritis",
+   "Systemic juvenile idiopathic arthritis",
+   "Juvenile ankylosing spondylitis",
+   "Enthesitis-related arthritis",
+   "Sacroiliitis",
+   "Salmon-colored macular rash",
+   "Recurrent fever",
+   "Symmetric arthritis",
+   "HLA-B27 positive",
+   "Elevated erythrocyte sedimentation rate",
+   "Rheumatoid factor negative",
+   "Antinuclear antibody negative"
+  ]
+ },
+ "aud_125": {
+  "seeds": [
+   "Traveler's diarrhea",
+   "Bacterial gastroenteritis",
+   "Enterotoxigenic Escherichia coli infection",
+   "Campylobacter jejuni infection",
+   "Shigella dysenteriae infection",
+   "Salmonella enteritidis infection",
+   "Vibrio cholerae infection",
+   "Acute infectious diarrhea",
+   "Watery diarrhea",
+   "Hyperactive bowel sounds",
+   "Diffuse abdominal tenderness",
+   "Stool culture",
+   "Fecal leukocytes test",
+   "Dehydration",
+   "Heat-labile enterotoxin",
+   "Heat-stable enterotoxin"
+  ]
+ },
+ "aud_131": {
+  "seeds": [
+   "Mycoplasma pneumoniae",
+   "Erythema multiforme",
+   "Atypical pneumonia",
+   "Cold agglutinin disease",
+   "Stevens-Johnson syndrome",
+   "Flu-like syndrome",
+   "Chest x-ray",
+   "Polymerase chain reaction test",
+   "Bulla formation",
+   "Ground-glass opacity"
+  ]
+ },
+ "aud_153": {
+  "seeds": [
+   "Acute interstitial nephritis",
+   "Acute poststreptococcal glomerulonephritis",
+   "IgA nephropathy",
+   "Acute pyelonephritis",
+   "Gross hematuria",
+   "Acute kidney injury",
+   "Drug-induced hypersensitivity reaction",
+   "Maculopapular rash",
+   "Eosinophiluria",
+   "Serum creatinine elevation",
+   "Urinalysis",
+   "Red blood cell casts"
+  ]
+ },
+ "aud_154": {
+  "seeds": [
+   "Herpes zoster ophthalmicus",
+   "Zoster sine herpete",
+   "Postherpetic neuralgia",
+   "Trigeminal neuralgia",
+   "Atypical facial pain",
+   "Multiple sclerosis",
+   "Varicella-zoster virus reactivation",
+   "Herpes zoster vaccination",
+   "Glatiramer acetate",
+   "Prednisone burst",
+   "Facial allodynia",
+   "Trigeminal nerve pain"
+  ]
+ },
+ "aud_159": {
+  "seeds": [
+   "Major depressive disorder",
+   "Persistent depressive disorder",
+   "Adjustment disorder with depressed mood",
+   "Bereavement",
+   "Adolescent depression",
+   "Irritability",
+   "Fatigue",
+   "Anhedonia",
+   "Hypersomnia",
+   "Poor concentration"
+  ]
+ },
+ "aud_197": {
+  "seeds": [
+   "Infective endocarditis",
+   "Prosthetic valve endocarditis",
+   "Subacute bacterial endocarditis",
+   "Staphylococcus epidermidis",
+   "Viridans streptococcal endocarditis",
+   "Mitral regurgitation",
+   "Holosystolic murmur",
+   "Prosthetic heart valve",
+   "Fever of unknown origin",
+   "Weight loss",
+   "Malaise",
+   "Fatigue",
+   "Blood culture"
+  ]
+ },
+ "cor_289": {
+  "seeds": [
+   "Histoplasmosis",
+   "Pulmonary tuberculosis",
+   "Sarcoidosis",
+   "Coccidioidomycosis",
+   "Blastic plasmacytoid dendritic cell neoplasm",
+   "Caseating granuloma",
+   "Noncaseating granuloma",
+   "Right hilar lymphadenopathy",
+   "Subpleural pulmonary nodule",
+   "Chest radiography",
+   "Lymph node biopsy",
+   "Granulomatous inflammation"
+  ]
+ },
+ "cor_507": {
+  "seeds": [
+   "Ovarian cyst rupture",
+   "Hemorrhagic ovarian cyst",
+   "Ovarian torsion",
+   "Ectopic pregnancy",
+   "Pelvic inflammatory disease",
+   "Endometriosis",
+   "Left adnexal tenderness",
+   "Rectouterine pouch fluid",
+   "Pelvic ultrasound with Doppler",
+   "Adnexal mass",
+   "Free intraperitoneal fluid"
+  ]
+ },
+ "err_1611": {
+  "seeds": [
+   "Cerebellar astrocytoma",
+   "Medulloblastoma",
+   "Pilocytic astrocytoma",
+   "Posterior fossa tumor",
+   "Cerebellar neoplasm",
+   "Increased intracranial pressure",
+   "Morning headache",
+   "Vomiting",
+   "Broad-based gait",
+   "Dysmetria",
+   "Dysdiadochokinesia",
+   "Romberg test",
+   "Brain MRI"
+  ]
+ },
+ "err_843": {
+  "seeds": [
+   "Neonatal hypocalcemia",
+   "Neonatal tetany",
+   "Hypoparathyroidism",
+   "Transient neonatal hypoparathyroidism",
+   "Pseudohypoparathyroidism",
+   "Hypocalcemic seizure",
+   "Serum calcium",
+   "Parathyroid hormone",
+   "Hyperphosphatemia",
+   "Jitteriness in newborn",
+   "Carpopedal spasm",
+   "Lip smacking"
+  ]
+ },
+ "m325_10": {
+  "seeds": [
+   "Adjustment disorder with depressed mood",
+   "Major depressive disorder",
+   "Normal grief reaction",
+   "Acute stress disorder",
+   "Medication-induced depressive disorder",
+   "Isotretinoin",
+   "Depressed mood",
+   "Psychological stressor",
+   "Mental status examination",
+   "Suicidal ideation"
+  ]
+ },
+ "m325_1007": {
+  "seeds": [
+   "Infectious mononucleosis",
+   "Epstein-Barr virus infection",
+   "Cytomegalovirus mononucleosis",
+   "Acute HIV infection",
+   "Group A streptococcal pharyngitis",
+   "Toxoplasmosis",
+   "Posterior cervical lymphadenopathy",
+   "Palatal petechiae",
+   "Atypical lymphocytosis",
+   "Heterophile antibody test",
+   "Hepatosplenomegaly",
+   "Maculopapular rash"
+  ]
+ },
+ "m325_1025": {
+  "seeds": [
+   "Dissociative fugue",
+   "Dissociative amnesia",
+   "Dissociative identity disorder",
+   "Major depressive disorder",
+   "Stress-related disorder",
+   "Alcohol use disorder",
+   "Anterograde amnesia",
+   "Retrograde amnesia",
+   "Mental status examination",
+   "Selective serotonin reuptake inhibitor"
+  ]
+ },
+ "m325_1074": {
+  "seeds": [
+   "Central retinal artery occlusion",
+   "Retinal artery embolism",
+   "Acute monocular vision loss",
+   "Amaurosis fugax",
+   "Hollenhorst plaque",
+   "Cherry-red spot",
+   "Retinal ischemia",
+   "Hypertension",
+   "Atherosclerotic embolus",
+   "Fundoscopy"
+  ]
+ },
+ "m325_1144": {
+  "seeds": [
+   "Erythema migrans",
+   "Lyme disease",
+   "Borrelia burgdorferi infection",
+   "Cellulitis",
+   "Tinea corporis",
+   "Hypersensitivity reaction to arthropod bite",
+   "Cat scratch disease",
+   "Bartonella henselae infection",
+   "Axillary lymphadenopathy",
+   "Low-grade fever",
+   "Target lesion",
+   "Tick exposure"
+  ]
+ },
+ "m325_1146": {
+  "seeds": [
+   "Adenovirus infection",
+   "Pharyngoconjunctival fever",
+   "Viral conjunctivitis",
+   "Acute gastroenteritis",
+   "Dehydration",
+   "Bilateral conjunctival injection",
+   "Preauricular lymphadenopathy",
+   "Watery eye discharge",
+   "Pediatric infectious diarrhea",
+   "Daycare-associated viral outbreak"
+  ]
+ },
+ "m325_1187": {
+  "seeds": [
+   "Idiopathic pulmonary fibrosis",
+   "Usual interstitial pneumonia",
+   "Interstitial lung disease",
+   "Asbestosis",
+   "Nonspecific interstitial pneumonia",
+   "Chronic hypersensitivity pneumonitis",
+   "Lisinopril-induced cough",
+   "Fine inspiratory crackles",
+   "Digital clubbing",
+   "Traction bronchiectasis",
+   "Restrictive ventilatory defect",
+   "High-resolution CT scan of the chest"
+  ]
+ },
+ "m325_1226": {
+  "seeds": [
+   "Staphylococcal food poisoning",
+   "Staphylococcus aureus enterotoxin",
+   "Foodborne intoxication",
+   "Acute vomiting",
+   "Gastroenteritis",
+   "Preformed toxin ingestion",
+   "Bacillus cereus food poisoning",
+   "Clostridium perfringens food poisoning",
+   "Nausea and vomiting",
+   "Rapid symptom onset after ingestion",
+   "Enterotoxin-mediated emesis"
+  ]
+ },
+ "m325_1227": {
+  "seeds": [
+   "Syncope",
+   "Generalized tonic-clonic seizure",
+   "Vasovagal syncope",
+   "Cardiac arrhythmia",
+   "Long QT syndrome",
+   "Torsades de pointes",
+   "QT interval prolongation",
+   "Electrocardiogram",
+   "Azithromycin",
+   "Cimetidine",
+   "Hypokalemia",
+   "Tongue biting"
+  ]
+ },
+ "m325_1230": {
+  "seeds": [
+   "postpartum depression",
+   "major depressive disorder",
+   "puerperal depression",
+   "persistent depressive disorder",
+   "adjustment disorder with depressed mood",
+   "insomnia",
+   "anhedonia",
+   "poor concentration",
+   "decreased appetite",
+   "fatigue"
+  ]
+ },
+ "m325_1262": {
+  "seeds": [
+   "Anal fissure",
+   "Internal hemorrhoids",
+   "External hemorrhoids",
+   "Rectal prolapse",
+   "Perianal abscess",
+   "Proctitis",
+   "Hypertonic anal sphincter",
+   "Bright red blood per rectum",
+   "Severe pain with defecation",
+   "Digital rectal examination",
+   "Anoscopy",
+   "Anal intercourse"
+  ]
+ },
+ "m325_130": {
+  "seeds": [
+   "Cryptosporidium parvum",
+   "Cryptosporidiosis",
+   "HIV infection",
+   "AIDS",
+   "Immunocompromised host",
+   "Watery diarrhea",
+   "Dehydration",
+   "Modified acid-fast stain",
+   "Oocysts",
+   "Stool microscopy",
+   "CD4 lymphocyte count <100/mm3",
+   "Travel-related infectious diarrhea"
+  ]
+ },
+ "m325_1300": {
+  "seeds": [
+   "Esophageal atresia with tracheoesophageal fistula",
+   "Tracheoesophageal fistula",
+   "Congenital esophageal atresia",
+   "Polyhydramnios",
+   "Neonatal feeding difficulty",
+   "Nonbilious vomiting in a newborn",
+   "Coughing with feeds",
+   "Cyanosis during feeding",
+   "Aspiration pneumonia",
+   "Impaired upper esophageal continuity",
+   "Chest radiography",
+   "Contrast esophagram",
+   "Nasogastric tube coiling in upper esophageal pouch",
+   "VACTERL association"
+  ]
+ },
+ "m325_1302": {
+  "seeds": [
+   "IgA nephropathy",
+   "Poststreptococcal glomerulonephritis",
+   "Henoch-Sch\u00f6nlein purpura",
+   "Upper respiratory tract infection",
+   "Hematuria",
+   "Mesangial IgA deposition",
+   "Renal biopsy",
+   "Immunofluorescence microscopy",
+   "Granular immune complex deposition",
+   "Mesangial proliferation",
+   "Synpharyngitic hematuria"
+  ]
+ },
+ "m325_1310": {
+  "seeds": [
+   "Actinic cheilitis",
+   "Squamous cell carcinoma of the lip",
+   "Basal cell carcinoma",
+   "Keratoacanthoma",
+   "Herpes labialis",
+   "Oral leukoplakia",
+   "Ulceration",
+   "Vermillion border",
+   "Sun exposure",
+   "Squamous cell carcinoma"
+  ]
+ },
+ "m325_1316": {
+  "seeds": [
+   "Transient ischemic attack",
+   "Ischemic stroke",
+   "Intracerebral hemorrhage",
+   "Hypertensive intracerebral hemorrhage",
+   "Embolic stroke",
+   "Atherothrombotic stroke",
+   "Transient monocular blindness",
+   "Noncontrast head CT",
+   "Cerebral infarction",
+   "Carotid atherosclerosis",
+   "Atrial fibrillation",
+   "Hypertension"
+  ]
+ },
+ "m325_1330": {
+  "seeds": [
+   "Transient ischemic attack",
+   "Vertebrobasilar insufficiency",
+   "Posterior circulation ischemic stroke",
+   "Cerebellar infarction",
+   "Brainstem ischemia",
+   "Atherosclerotic cerebrovascular disease",
+   "Dysarthria",
+   "Dysphagia",
+   "Nystagmus",
+   "Ataxia",
+   "Magnetic resonance imaging with diffusion-weighted imaging",
+   "Computed tomography angiography",
+   "Carotid atherosclerosis",
+   "Atrial fibrillation"
+  ]
+ },
+ "m325_1335": {
+  "seeds": [
+   "Squamous cell carcinoma of the skin",
+   "Keratoacanthoma",
+   "Basal cell carcinoma",
+   "Cutaneous melanoma",
+   "Actinic keratosis",
+   "Immunosuppression",
+   "Renal transplantation",
+   "Tacrolimus",
+   "Mycophenolate mofetil",
+   "Prednisone",
+   "Bleeding skin lesion",
+   "Nodular lesion"
+  ]
+ },
+ "m325_1348": {
+  "seeds": [
+   "Neurosyphilis",
+   "Meningovascular syphilis",
+   "General paresis",
+   "Syphilitic meningitis",
+   "Focal seizure",
+   "Altered mental status",
+   "Lymphocytic meningitis",
+   "Cerebrospinal fluid pleocytosis",
+   "Positive CSF VDRL",
+   "Treponema pallidum"
+  ]
+ },
+ "m325_1364": {
+  "seeds": [
+   "Focal impaired awareness seizure",
+   "Temporal lobe epilepsy",
+   "Complex partial seizure",
+   "Postictal state",
+   "Automatisms",
+   "Staring spell",
+   "Electroencephalography",
+   "Brain MRI",
+   "Absence seizure",
+   "Psychogenic nonepileptic seizure"
+  ]
+ },
+ "m325_1407": {
+  "seeds": [
+   "Renal cell carcinoma",
+   "Renal oncocytoma",
+   "Urothelial carcinoma of the renal pelvis",
+   "Nephrolithiasis",
+   "Polycystic kidney disease",
+   "Hematuria",
+   "Flank pain",
+   "Erythrocytosis",
+   "Polycythemia secondary to erythropoietin production",
+   "Urinalysis",
+   "Microscopic hematuria",
+   "Smoking history"
+  ]
+ },
+ "m325_1420": {
+  "seeds": [
+   "Osteosarcoma",
+   "Ewing sarcoma",
+   "Chronic osteomyelitis",
+   "Osteoid osteoma",
+   "Bone sarcoma",
+   "Night pain",
+   "Antalgic gait",
+   "Elevated alkaline phosphatase",
+   "Elevated erythrocyte sedimentation rate",
+   "Knee x-ray",
+   "Metaphyseal bone lesion",
+   "Periosteal reaction"
+  ]
+ },
+ "m325_1421": {
+  "seeds": [
+   "High-altitude pulmonary edema",
+   "Acute mountain sickness",
+   "High-altitude cerebral edema",
+   "Hypobaric hypoxia",
+   "Pulmonary edema",
+   "Asthma exacerbation",
+   "Frothy pink sputum",
+   "Headache",
+   "Nausea",
+   "Dyspnea",
+   "Albuterol",
+   "Increased pulmonary artery pressure"
+  ]
+ },
+ "m325_1469": {
+  "seeds": [
+   "Acute mesenteric ischemia",
+   "Arterial embolism",
+   "Atrial fibrillation",
+   "Atherosclerotic mesenteric ischemia",
+   "Chronic mesenteric ischemia",
+   "Ischemic colitis",
+   "Postprandial abdominal pain",
+   "Hematochezia",
+   "Periumbilical tenderness",
+   "Computed tomography angiography",
+   "Lactate elevation",
+   "Superior mesenteric artery occlusion"
+  ]
+ },
+ "m325_147": {
+  "seeds": [
+   "Asthma",
+   "ACE inhibitor cough",
+   "Chronic obstructive pulmonary disease",
+   "Acute bronchitis",
+   "Postviral bronchial hyperresponsiveness",
+   "Enalapril",
+   "End-expiratory wheezing",
+   "Obstructive spirometry",
+   "Reduced FEV1/FVC ratio",
+   "Chest x-ray normal",
+   "Spirometry",
+   "Bronchodilator response"
+  ]
+ },
+ "m325_148": {
+  "seeds": [
+   "Chronic bronchitis",
+   "Chronic obstructive pulmonary disease",
+   "Tobacco use disorder",
+   "Cough productive of sputum",
+   "End-expiratory wheeze",
+   "Dyspnea on exertion",
+   "Occupational dust exposure",
+   "Construction dust exposure",
+   "Spirometry",
+   "Amlodipine"
+  ]
+ },
+ "m325_1501": {
+  "seeds": [
+   "Congenital syphilis",
+   "Early congenital syphilis",
+   "Secondary syphilis",
+   "Disseminated gonococcal infection",
+   "Erythema toxicum neonatorum",
+   "Neonatal pustular melanosis",
+   "Neonatal acne",
+   "Congenital varicella syndrome",
+   "Maculopapular rash",
+   "Pustules with erythematous base",
+   "Treponemal serologic testing",
+   "Dark-field microscopy"
+  ]
+ },
+ "m325_1511": {
+  "seeds": [
+   "Presbycusis",
+   "Age-related hearing loss",
+   "Sensorineural hearing loss",
+   "Bilateral symmetric sensorineural hearing loss",
+   "Cochlear degeneration",
+   "Cochlear hair cell loss",
+   "Rinne test positive",
+   "Weber test midline",
+   "Pure tone audiometry",
+   "Tuning fork test",
+   "Normal tympanic membrane"
+  ]
+ },
+ "m325_1514": {
+  "seeds": [
+   "Posterior cerebral artery infarction",
+   "Occipital lobe stroke",
+   "Left calcarine cortex infarction",
+   "Splenial/posterior corpus callosum infarction",
+   "Thalamic infarction",
+   "Alexia without agraphia",
+   "Homonymous hemianopia with macular sparing",
+   "Memory impairment",
+   "Right leg sensory loss",
+   "Hypertensive cerebrovascular disease",
+   "Diffusion-weighted MRI",
+   "Computed tomography angiography",
+   "Ischemic stroke",
+   "Posterior circulation stroke"
+  ]
+ },
+ "m325_1532": {
+  "seeds": [
+   "Small bowel obstruction",
+   "Adhesive small bowel obstruction",
+   "Colorectal adenocarcinoma",
+   "Large bowel obstruction",
+   "Postoperative intraabdominal adhesions",
+   "Appendectomy",
+   "Obstipation",
+   "Crampy abdominal pain",
+   "Abdominal distension",
+   "Vomiting",
+   "Air-fluid levels on abdominal radiograph",
+   "Dilated bowel loops",
+   "Increased bowel sounds"
+  ]
+ },
+ "m325_1544": {
+  "seeds": [
+   "Diabetic foot ulcer",
+   "Diabetic foot infection",
+   "Chronic osteomyelitis",
+   "Peripheral arterial disease",
+   "Diabetic neuropathy",
+   "Soft tissue infection",
+   "Nonhealing foot ulcer",
+   "HbA1c elevation",
+   "Decreased peripheral pulses",
+   "Loss of protective sensation",
+   "Plain radiography",
+   "Foot radiograph"
+  ]
+ },
+ "m325_1552": {
+  "seeds": [
+   "Acute hepatitis B",
+   "Hepatitis B virus infection",
+   "Hepatitis B surface antigen positivity",
+   "Acute viral hepatitis",
+   "Fulminant hepatitis",
+   "Chronic hepatitis B infection",
+   "Scleral icterus",
+   "Tender hepatomegaly",
+   "Elevated aminotransferases",
+   "Hepatitis B serology",
+   "Hepatitis B vaccine",
+   "Hepatitis B surface antibody"
+  ]
+ },
+ "m325_1586": {
+  "seeds": [
+   "Sarcoidosis",
+   "Lofgren syndrome",
+   "Acute coccidioidomycosis",
+   "Coccidioidomycosis",
+   "Tuberculosis",
+   "Ocular sarcoidosis",
+   "Bilateral hilar lymphadenopathy",
+   "Uveitis",
+   "Erythema nodosum",
+   "Angiotensin-converting enzyme test",
+   "Chest radiograph",
+   "Histoplasmosis"
+  ]
+ },
+ "m325_163": {
+  "seeds": [
+   "Traumatic pancreatitis",
+   "Pancreatic contusion",
+   "Pancreatic duct injury",
+   "Blunt abdominal trauma",
+   "Handlebar injury",
+   "Delayed splenic rupture",
+   "Duodenal hematoma",
+   "Mesenteric injury",
+   "Epigastric tenderness",
+   "Fever",
+   "Vomiting",
+   "Abdominal CT scan",
+   "Serum amylase and lipase"
+  ]
+ },
+ "m325_1638": {
+  "seeds": [
+   "Infantile colic",
+   "Functional gastrointestinal disorder",
+   "Lactose intolerance",
+   "Cow's milk protein allergy",
+   "Gastroesophageal reflux disease",
+   "Hirschsprung disease",
+   "Failure to thrive",
+   "Formula feeding",
+   "Breastfeeding",
+   "Frequent loose yellow stools",
+   "Normal infant growth",
+   "Infant soothing measures"
+  ]
+ },
+ "m325_1670": {
+  "seeds": [
+   "Acute akathisia",
+   "Antipsychotic-induced extrapyramidal symptoms",
+   "Schizophrenia",
+   "Medication adverse effect",
+   "Anxiety disorder",
+   "Restlessness",
+   "Inability to sit still",
+   "Antipsychotic medications",
+   "Dopamine D2 receptor blockade",
+   "Beta-blocker therapy"
+  ]
+ },
+ "m325_1676": {
+  "seeds": [
+   "Lateral medullary syndrome",
+   "Wallenberg syndrome",
+   "Posterior inferior cerebellar artery infarction",
+   "Ischemic stroke",
+   "Brainstem stroke",
+   "Vertebral artery dissection",
+   "Cerebellar infarction",
+   "Vestibular neuritis",
+   "Facial nerve palsy",
+   "Contralateral sensory loss",
+   "Magnetic resonance imaging of the brain",
+   "Computed tomography angiography",
+   "Diffusion-weighted magnetic resonance imaging"
+  ]
+ },
+ "m325_1679": {
+  "seeds": [
+   "Herpes simplex virus infection",
+   "Eczema herpeticum",
+   "Atopic dermatitis",
+   "Bacterial superinfection of atopic dermatitis",
+   "Impetigo",
+   "Cellulitis",
+   "Cervical lymphadenopathy",
+   "Fever",
+   "Malaise",
+   "Painful pruritic vesicular rash",
+   "Tzanck smear",
+   "Multinucleated giant cells"
+  ]
+ },
+ "m325_168": {
+  "seeds": [
+   "Dressler syndrome",
+   "Acute pericarditis",
+   "Postmyocardial infarction syndrome",
+   "Myocardial infarction",
+   "Viral pericarditis",
+   "Diffuse ST elevation",
+   "Pericardial friction rub",
+   "Troponin I elevation",
+   "Pericardial inflammation",
+   "Coronary artery stent implantation",
+   "Aspirin",
+   "Clopidogrel"
+  ]
+ },
+ "m325_1685": {
+  "seeds": [
+   "Rett syndrome",
+   "Autism spectrum disorder",
+   "Childhood disintegrative disorder",
+   "Landau-Kleffner syndrome",
+   "Intellectual disability",
+   "Hand flapping",
+   "Regression of language development",
+   "Gait abnormality",
+   "Scoliosis",
+   "MECP2 mutation",
+   "Absence seizures",
+   "Developmental regression"
+  ]
+ },
+ "m325_1742": {
+  "seeds": [
+   "Chorioamnionitis",
+   "Preterm premature rupture of membranes",
+   "Intraamniotic infection",
+   "Maternal fever",
+   "Fetal tachycardia",
+   "Malodorous amniotic fluid",
+   "Uterine tenderness",
+   "Gestational diabetes mellitus",
+   "Cesarean delivery",
+   "Placental abruption",
+   "Amniocentesis",
+   "Gram stain of amniotic fluid"
+  ]
+ },
+ "m325_1764": {
+  "seeds": [
+   "Cholinergic urticaria",
+   "Cold urticaria",
+   "Aquagenic urticaria",
+   "Dermatographism",
+   "Physical urticaria",
+   "Systemic lupus erythematosus",
+   "Asthma",
+   "Seasonal allergic rhinitis",
+   "Expiratory wheezing",
+   "Wheal-and-flare reaction",
+   "Ice cube test",
+   "Histamine release",
+   "Mast cell degranulation"
+  ]
+ },
+ "m325_1785": {
+  "seeds": [
+   "Infective endocarditis",
+   "Subacute bacterial endocarditis",
+   "Mitral regurgitation",
+   "Septic embolic stroke",
+   "Embolic cerebral infarction",
+   "Janeway lesions",
+   "Osler nodes",
+   "Roth spots",
+   "Petechiae",
+   "New systolic murmur",
+   "Blood culture",
+   "Echocardiography"
+  ]
+ },
+ "m325_179": {
+  "seeds": [
+   "Fat embolism syndrome",
+   "Fat embolism",
+   "Pulmonary embolism",
+   "Postoperative hypoxemia",
+   "Acute respiratory distress syndrome",
+   "Femoral neck fracture",
+   "Hip arthroplasty",
+   "Hypoxemia",
+   "Petechial rash",
+   "Altered mental status",
+   "Tachycardia",
+   "Anemia",
+   "Creatine kinase",
+   "Pulse oximetry",
+   "Arterial blood gas"
+  ]
+ },
+ "m325_180": {
+  "seeds": [
+   "Oppositional defiant disorder",
+   "Conduct disorder",
+   "Disruptive behavior disorder",
+   "Intermittent explosive disorder",
+   "Attention-deficit/hyperactivity disorder",
+   "Adolescent behavioral problems",
+   "Defiant behavior",
+   "Argumentative behavior",
+   "Angry outbursts",
+   "School impairment"
+  ]
+ },
+ "m325_1835": {
+  "seeds": [
+   "Carcinoid syndrome",
+   "Metastatic neuroendocrine tumor of the small intestine",
+   "Small cell lung carcinoma",
+   "Bronchial carcinoid tumor",
+   "Irritable bowel syndrome",
+   "Inflammatory bowel disease",
+   "Flushing",
+   "Secretory diarrhea",
+   "Bronchospasm",
+   "5-hydroxyindoleacetic acid urinary test",
+   "Chromogranin A test",
+   "Octreotide"
+  ]
+ },
+ "m325_1847": {
+  "seeds": [
+   "Virilization",
+   "Ovarian hyperthecosis",
+   "Androgen-secreting ovarian tumor",
+   "Sertoli-Leydig cell tumor",
+   "Granulosa cell tumor",
+   "Polycystic ovary syndrome",
+   "Hirsutism",
+   "Acne vulgaris",
+   "Clitoromegaly",
+   "Deepening of the voice",
+   "Serum testosterone level",
+   "Transvaginal ultrasonography",
+   "Pelvic examination",
+   "Oophorectomy"
+  ]
+ },
+ "m325_1912": {
+  "seeds": [
+   "Schizophrenia",
+   "Paranoid schizophrenia",
+   "Psychotic disorder",
+   "Delusions",
+   "Disorganized speech",
+   "Flat affect",
+   "Social withdrawal",
+   "Alogia",
+   "Hallucinations",
+   "Second-generation antipsychotic",
+   "Positive symptoms of schizophrenia",
+   "Negative symptoms of schizophrenia"
+  ]
+ },
+ "m325_1914": {
+  "seeds": [
+   "Schizophrenia",
+   "Schizoaffective disorder",
+   "Bipolar I disorder",
+   "Manic episode",
+   "Psychotic features",
+   "Auditory hallucinations",
+   "Disorganized speech",
+   "Flight of ideas",
+   "Grandiose delusions",
+   "Decreased need for sleep",
+   "Impulsive spending",
+   "Antipsychotic medication"
+  ]
+ },
+ "m325_1922": {
+  "seeds": [
+   "Familial Mediterranean fever",
+   "Acute osteomyelitis",
+   "Cellulitis",
+   "Septic arthritis",
+   "Beta thalassemia major",
+   "Sickle cell disease",
+   "Splenectomy",
+   "Pneumococcal infection",
+   "Erythema and edema of the distal shin",
+   "Limping child",
+   "Fever",
+   "Periostitis",
+   "X-ray of the affected limb",
+   "Blood culture",
+   "Ceftriaxone"
+  ]
+ },
+ "m325_1928": {
+  "seeds": [
+   "Pre-renal azotemia",
+   "Acute kidney injury",
+   "Volume depletion",
+   "Renal hypoperfusion",
+   "Rhabdomyolysis",
+   "Acute tubular necrosis",
+   "Pelvic fracture",
+   "Trauma",
+   "Elevated blood urea nitrogen to creatinine ratio",
+   "Fractional excretion of sodium",
+   "Urine osmolality",
+   "Serum creatinine"
+  ]
+ },
+ "m325_194": {
+  "seeds": [
+   "Eosinophilic granulomatosis with polyangiitis",
+   "Asthma",
+   "Chronic sinusitis",
+   "Peripheral neuropathy",
+   "Glomerulonephritis",
+   "Pulmonary eosinophilia",
+   "Red blood cell casts",
+   "Eosinophilia",
+   "Subcutaneous nodules",
+   "ANCA-associated vasculitis",
+   "Necrotizing granulomatous vasculitis",
+   "Renal insufficiency"
+  ]
+ },
+ "m325_197": {
+  "seeds": [
+   "Tardive dyskinesia",
+   "Neuroleptic-induced extrapyramidal symptoms",
+   "Risperidone",
+   "Fluphenazine",
+   "Schizophrenia",
+   "Orofacial dyskinesia",
+   "Choreoathetoid movements",
+   "Tongue protrusion",
+   "Lip smacking",
+   "Dopamine D2 receptor blockade",
+   "Atypical antipsychotics",
+   "Typical antipsychotics"
+  ]
+ },
+ "m325_227": {
+  "seeds": [
+   "Superior vena cava syndrome",
+   "Mediastinal malignancy",
+   "Bronchogenic carcinoma",
+   "Non-small cell lung carcinoma",
+   "Small cell lung carcinoma",
+   "Lymphoma",
+   "Facial edema",
+   "Neck vein distention",
+   "Chest wall venous collaterals",
+   "Arm swelling",
+   "Computed tomography of the chest",
+   "Mediastinal mass"
+  ]
+ },
+ "m325_230": {
+  "seeds": [
+   "Prosthetic valve endocarditis",
+   "Subacute bacterial endocarditis",
+   "Infective endocarditis",
+   "Staphylococcus epidermidis infection",
+   "Aortic valve regurgitation",
+   "Aortic prosthetic valve replacement",
+   "Diastolic murmur",
+   "Leukocytosis",
+   "Elevated erythrocyte sedimentation rate",
+   "Blood culture",
+   "Transesophageal echocardiography",
+   "Biofilm formation"
+  ]
+ },
+ "m325_24": {
+  "seeds": [
+   "Asthma",
+   "Exercise-induced asthma",
+   "Nocturnal asthma",
+   "Atopic asthma",
+   "Bronchial hyperresponsiveness",
+   "Wheezing",
+   "Nonproductive cough",
+   "Chest radiograph normal",
+   "Spirometry",
+   "Albuterol"
+  ]
+ },
+ "m325_25": {
+  "seeds": [
+   "Dilated cardiomyopathy",
+   "Radiation-induced cardiomyopathy",
+   "Anthracycline cardiotoxicity",
+   "Heart failure with reduced ejection fraction",
+   "Atrial fibrillation",
+   "Atrial enlargement",
+   "Congestive heart failure",
+   "Cardiomegaly",
+   "Pulmonary edema",
+   "Irregularly irregular rhythm",
+   "Absent P waves",
+   "Transthoracic echocardiography",
+   "Left ventricular dilatation",
+   "Reduced ejection fraction"
+  ]
+ },
+ "m325_266": {
+  "seeds": [
+   "Ischemic stroke",
+   "Paradoxical embolism",
+   "Deep vein thrombosis",
+   "Pulmonary embolism",
+   "Patent foramen ovale",
+   "Hypercoagulable state",
+   "Oral contraceptive use",
+   "Recent prolonged travel",
+   "Right-sided hemiparesis",
+   "Babinski sign",
+   "Hyperreflexia",
+   "Venous duplex ultrasonography",
+   "Transesophageal echocardiography"
+  ]
+ },
+ "m325_272": {
+  "seeds": [
+   "Stevens-Johnson syndrome",
+   "Toxic epidermal necrolysis",
+   "Erythema multiforme major",
+   "Drug-induced hypersensitivity reaction",
+   "Carbamazepine adverse effect",
+   "Trigeminal neuralgia",
+   "Mucosal ulceration",
+   "Nikolsky sign",
+   "Conjunctival injection",
+   "Bullous dermatitis",
+   "Desquamation of the palms and soles",
+   "Dysuria"
+  ]
+ },
+ "m325_284": {
+  "seeds": [
+   "Cluster headache",
+   "Migraine headache",
+   "Tension-type headache",
+   "Horner syndrome",
+   "Trigeminal autonomic cephalalgia",
+   "Indomethacin",
+   "Miosis",
+   "Ptosis",
+   "Lacrimation",
+   "Rhinorrhea"
+  ]
+ },
+ "m325_339": {
+  "seeds": [
+   "Obsessive-compulsive personality disorder",
+   "Generalized anxiety disorder",
+   "Obsessive-compulsive disorder",
+   "Insomnia",
+   "Social anxiety disorder",
+   "Adjustment disorder with anxiety",
+   "Perfectionism",
+   "Preoccupation with orderliness and control",
+   "Difficulty delegating tasks",
+   "Insomnia due to rumination"
+  ]
+ },
+ "m325_348": {
+  "seeds": [
+   "Acute hepatitis B",
+   "Hepatitis B virus infection",
+   "Serum sickness-like reaction",
+   "Jaundice",
+   "Scleral icterus",
+   "Elevated aminotransferases",
+   "HBsAg",
+   "Anti-HBc IgM",
+   "HBV DNA",
+   "Hepatitis A virus infection",
+   "Hepatitis C virus infection",
+   "Yellow fever"
+  ]
+ },
+ "m325_373": {
+  "seeds": [
+   "Perforated peptic ulcer",
+   "Gastric ulcer",
+   "Duodenal ulcer",
+   "Nonsteroidal anti-inflammatory drug-induced peptic ulcer disease",
+   "Pneumoperitoneum",
+   "Peritonitis",
+   "Epigastric pain relieved by food",
+   "Free subdiaphragmatic air on chest x-ray",
+   "Helicobacter pylori infection",
+   "Ibuprofen",
+   "Abdominal guarding",
+   "Decreased bowel sounds"
+  ]
+ },
+ "m325_417": {
+  "seeds": [
+   "Obsessive-compulsive disorder",
+   "Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infections",
+   "Tourette syndrome",
+   "Chronic motor tic disorder",
+   "Obsessive-compulsive symptoms",
+   "Motor tics",
+   "Compulsive counting",
+   "Repetitive grooming behavior",
+   "Cognitive behavioral therapy",
+   "Selective serotonin reuptake inhibitor"
+  ]
+ },
+ "m325_429": {
+  "seeds": [
+   "Acute otitis media",
+   "Viral upper respiratory tract infection",
+   "Eustachian tube dysfunction",
+   "Otalgia",
+   "Fever",
+   "Bulging tympanic membrane",
+   "Erythematous tympanic membrane",
+   "Middle ear effusion",
+   "Pneumatic otoscopy",
+   "Tympanometry"
+  ]
+ },
+ "m325_441": {
+  "seeds": [
+   "Presbycusis",
+   "Otosclerosis",
+   "Cholesteatoma",
+   "Chronic otitis media",
+   "Sensorineural hearing loss",
+   "Tinnitus",
+   "Vertigo",
+   "Rinne test",
+   "Weber test",
+   "Air conduction greater than bone conduction",
+   "Bone conduction greater than air conduction",
+   "Conductive hearing loss"
+  ]
+ },
+ "m325_449": {
+  "seeds": [
+   "Acute bacterial sialadenitis",
+   "Parotitis",
+   "Submandibular sialadenitis",
+   "Salivary gland infection",
+   "Postoperative dehydration",
+   "Sialolithiasis",
+   "Mumps",
+   "Peritonsillar abscess",
+   "Neck swelling",
+   "Jaw pain on chewing",
+   "Tender submandibular mass",
+   "Fever"
+  ]
+ },
+ "m325_471": {
+  "seeds": [
+   "IgA vasculitis",
+   "Henoch-Sch\u00f6nlein purpura",
+   "Poststreptococcal glomerulonephritis",
+   "Group A streptococcal pharyngitis",
+   "Palpable purpura",
+   "Arthralgia",
+   "Abdominal pain",
+   "Occult blood positive stool test",
+   "Leukocytoclastic vasculitis",
+   "Serum IgA elevation",
+   "Urinalysis",
+   "Skin biopsy"
+  ]
+ },
+ "m325_487": {
+  "seeds": [
+   "Echinococcosis",
+   "Hydatid cyst of the liver",
+   "Echinococcus granulosus infection",
+   "Cystic echinococcosis",
+   "Hepatic calcification",
+   "Peripheral eosinophilia",
+   "Abdominal distension",
+   "Nausea and vomiting",
+   "CT scan of the abdomen",
+   "Liver cyst"
+  ]
+ },
+ "m325_53": {
+  "seeds": [
+   "Diverticulitis",
+   "Diverticulosis",
+   "Colonic diverticular disease",
+   "Left lower quadrant abdominal pain",
+   "Constipation",
+   "Diarrhea",
+   "Nausea and vomiting",
+   "Fever",
+   "Leukocytosis",
+   "Abdominal CT scan",
+   "Bowel obstruction",
+   "Colorectal cancer"
+  ]
+ },
+ "m325_565": {
+  "seeds": [
+   "Giardiasis",
+   "Giardia lamblia",
+   "Giardia duodenalis",
+   "Travelers' diarrhea",
+   "Malabsorption syndrome",
+   "Steatorrhea",
+   "Foul-smelling diarrhea",
+   "Watery diarrhea",
+   "Abdominal cramping",
+   "Stool ova and parasite microscopy",
+   "Trophozoites with flagella",
+   "Camping-associated diarrheal illness",
+   "Contaminated water exposure",
+   "Secondary lactose intolerance"
+  ]
+ },
+ "m325_602": {
+  "seeds": [
+   "Acute hepatitis B",
+   "Hepatitis B virus infection",
+   "Acute viral hepatitis",
+   "Jaundice",
+   "Marked alanine aminotransferase elevation",
+   "Hepatitis B surface antigen positive",
+   "Hepatitis B core IgM antibody positive",
+   "Hepatitis B e antigen",
+   "Chronic hepatitis B",
+   "Hepatitis D virus coinfection",
+   "Hepatitis A virus infection",
+   "Hepatitis C virus infection"
+  ]
+ },
+ "m325_62": {
+  "seeds": [
+   "Delusional disorder, persecutory type",
+   "Brief psychotic disorder",
+   "Schizophrenia",
+   "Schizophreniform disorder",
+   "Paranoid personality disorder",
+   "Posttraumatic stress disorder",
+   "Persecutory delusion",
+   "Ideas of reference",
+   "Urine toxicology screening",
+   "Mental status examination",
+   "Hallucinations",
+   "Reality testing"
+  ]
+ },
+ "m325_623": {
+  "seeds": [
+   "Esophageal squamous cell carcinoma",
+   "Esophageal adenocarcinoma",
+   "Esophageal cancer",
+   "Dysphagia",
+   "Odynophagia",
+   "Progressive dysphagia to solids and liquids",
+   "Unintentional weight loss",
+   "Anemia",
+   "Retrosternal chest pain",
+   "Upper endoscopy",
+   "Exophytic esophageal mass",
+   "Lower third of the esophagus"
+  ]
+ },
+ "m325_631": {
+  "seeds": [
+   "Atopic dermatitis",
+   "Allergic contact dermatitis",
+   "Periorificial dermatitis",
+   "Seborrheic dermatitis",
+   "Impetigo",
+   "Asthma",
+   "Pruritus",
+   "Erythematous scaly rash",
+   "Wheezing",
+   "Topical corticosteroids",
+   "Emollients",
+   "Skin barrier dysfunction"
+  ]
+ },
+ "m325_645": {
+  "seeds": [
+   "Small bowel obstruction",
+   "Intestinal obstruction",
+   "Adhesive small bowel obstruction",
+   "Small intestinal neoplasm",
+   "Crohn disease",
+   "Volvulus",
+   "Incarcerated hernia",
+   "Postoperative adhesions",
+   "Abdominal distension",
+   "Tympany on percussion",
+   "Dilated loops of small bowel",
+   "Collapsed large bowel",
+   "Computed tomography of the abdomen",
+   "Contrast-enhanced abdominal CT"
+  ]
+ },
+ "m325_685": {
+  "seeds": [
+   "Laryngeal cancer",
+   "Hypopharyngeal squamous cell carcinoma",
+   "Esophageal carcinoma",
+   "Head and neck squamous cell carcinoma",
+   "Vocal cord paralysis",
+   "Hoarseness",
+   "Dysphagia",
+   "Weight loss",
+   "Smoking",
+   "Flexible laryngoscopy",
+   "Computed tomography of the neck"
+  ]
+ },
+ "m325_698": {
+  "seeds": [
+   "Schizophrenia",
+   "Schizophreniform disorder",
+   "Schizoaffective disorder",
+   "Psychotic disorder due to another medical condition",
+   "Substance-induced psychotic disorder",
+   "Auditory hallucinations",
+   "Thought echo",
+   "Flat affect",
+   "Disorganized behavior",
+   "Urine toxicology screen",
+   "Positive symptoms of schizophrenia",
+   "Negative symptoms of schizophrenia"
+  ]
+ },
+ "m325_708": {
+  "seeds": [
+   "Creutzfeldt-Jakob disease",
+   "Prion disease",
+   "Rapidly progressive dementia",
+   "Myoclonus",
+   "Periodic sharp wave complexes",
+   "14-3-3 protein in cerebrospinal fluid",
+   "Electroencephalography",
+   "Magnetic resonance imaging of the brain",
+   "Lumbar puncture",
+   "Sporadic Creutzfeldt-Jakob disease"
+  ]
+ },
+ "m325_750": {
+  "seeds": [
+   "Celiac disease",
+   "Chronic diarrhea",
+   "Failure to thrive",
+   "Infantile malabsorption syndrome",
+   "Cow's milk protein allergy",
+   "Lactose intolerance",
+   "Toddler's diarrhea",
+   "Short stature",
+   "Growth faltering",
+   "Small bowel biopsy",
+   "Anti-tissue transglutaminase antibody",
+   "Anti-endomysial antibody"
+  ]
+ },
+ "m325_766": {
+  "seeds": [
+   "Schizoaffective disorder",
+   "Schizophrenia",
+   "Major depressive disorder with psychotic features",
+   "Bipolar I disorder with psychotic features",
+   "Psychotic disorder",
+   "Auditory hallucinations",
+   "Insomnia",
+   "Weight loss",
+   "Feelings of worthlessness",
+   "Poor hygiene",
+   "Avolition",
+   "Homicidal ideation",
+   "Violence",
+   "Antipsychotic medications",
+   "Mood symptoms"
+  ]
+ },
+ "m325_780": {
+  "seeds": [
+   "Bipolar I disorder",
+   "Bipolar disorder",
+   "Major depressive episode",
+   "Manic episode",
+   "Depressive episode",
+   "Affective disorder",
+   "Anhedonia",
+   "Decreased need for sleep",
+   "Flight of ideas",
+   "Distractibility",
+   "Major depressive disorder",
+   "Screening for bipolar disorder",
+   "Mood stabilizer",
+   "Normal laboratory tests"
+  ]
+ },
+ "m325_787": {
+  "seeds": [
+   "Microbial keratitis",
+   "Acanthamoeba keratitis",
+   "Pseudomonas aeruginosa keratitis",
+   "Corneal ulcer",
+   "Contact lens\u2013associated keratitis",
+   "Corneal abrasion",
+   "Conjunctivitis",
+   "Acute angle-closure glaucoma",
+   "Slit-lamp examination",
+   "Fluorescein staining",
+   "Corneal epithelial defect",
+   "Photophobia",
+   "Decreased visual acuity"
+  ]
+ },
+ "m325_788": {
+  "seeds": [
+   "Osteoarthritis",
+   "Heberden nodes",
+   "Thumb carpometacarpal osteoarthritis",
+   "Knee osteoarthritis",
+   "Rheumatoid arthritis",
+   "Calcium pyrophosphate deposition disease",
+   "Gout",
+   "Bouchard nodes",
+   "Morning stiffness",
+   "Crepitus",
+   "Distal interphalangeal joint nodules",
+   "Joint space narrowing"
+  ]
+ },
+ "m325_803": {
+  "seeds": [
+   "Sigmoid volvulus",
+   "Large bowel obstruction",
+   "Intestinal obstruction",
+   "Colonic volvulus",
+   "Adynamic ileus",
+   "Fecal impaction",
+   "Abdominal distension",
+   "Obstipation",
+   "Hypotension",
+   "Tachycardia",
+   "Plain abdominal radiography"
+  ]
+ },
+ "m325_807": {
+  "seeds": [
+   "Osteochondritis dissecans",
+   "Juvenile osteochondritis dissecans",
+   "Knee pain",
+   "Subchondral radiolucency",
+   "Femoral condyle tenderness",
+   "Joint swelling",
+   "Erythema",
+   "Radiograph",
+   "Articular cartilage injury",
+   "Subchondral bone necrosis",
+   "Osteonecrosis",
+   "Meniscal injury"
+  ]
+ },
+ "m325_823": {
+  "seeds": [
+   "Generalized anxiety disorder",
+   "Fibromyalgia",
+   "Major depressive disorder",
+   "Panic disorder",
+   "Insomnia disorder",
+   "Somatic symptom disorder",
+   "Excessive anxiety and worry",
+   "Muscle pain",
+   "Poor sleep",
+   "Daytime fatigue",
+   "Psychotherapy",
+   "Selective serotonin reuptake inhibitor"
+  ]
+ },
+ "m325_832": {
+  "seeds": [
+   "Rocky Mountain spotted fever",
+   "Meningococcemia",
+   "Cellulitis",
+   "Impetigo",
+   "Varicella",
+   "Pityriasis rosea",
+   "Petechiae",
+   "Purpura",
+   "Fever",
+   "Tachycardia",
+   "Confusion",
+   "Outdoor tick exposure"
+  ]
+ },
+ "m325_836": {
+  "seeds": [
+   "Ankylosing spondylitis",
+   "Inflammatory back pain",
+   "Sacroiliitis",
+   "Decreased lumbar spine flexion",
+   "Morning stiffness",
+   "Lumbar spine radiograph",
+   "Bamboo spine",
+   "HLA-B27 spondyloarthropathy",
+   "Axial spondyloarthritis"
+  ]
+ },
+ "m325_855": {
+  "seeds": [
+   "Serotonin syndrome",
+   "Neuroleptic malignant syndrome",
+   "Anticholinergic toxicity",
+   "Sedative-hypnotic withdrawal",
+   "Opioid withdrawal",
+   "Selegiline",
+   "Fluoxetine",
+   "Clonus",
+   "Hyperreflexia",
+   "Diaphoresis",
+   "Agitation",
+   "Altered mental status"
+  ]
+ },
+ "m325_92": {
+  "seeds": [
+   "Primary central nervous system lymphoma",
+   "HIV-associated diffuse large B-cell lymphoma",
+   "Epstein-Barr virus encephalitis",
+   "Cerebral toxoplasmosis",
+   "Toxoplasma gondii encephalitis",
+   "Progressive multifocal leukoencephalopathy",
+   "Ring-enhancing brain lesion",
+   "Corpus callosum lesion",
+   "CD4 lymphocyte count <100/\u03bcL",
+   "Cerebrospinal fluid Epstein-Barr virus DNA PCR",
+   "Magnetic resonance imaging with contrast",
+   "Lumbar puncture with cerebrospinal fluid analysis"
+  ]
+ },
+ "m325_931": {
+  "seeds": [
+   "Normal pressure hydrocephalus",
+   "Dementia with Lewy bodies",
+   "Alzheimer disease",
+   "Vascular dementia",
+   "Subdural hematoma",
+   "Gait apraxia",
+   "Urinary incontinence",
+   "Cognitive impairment",
+   "Magnetic gait",
+   "Head CT scan"
+  ]
+ },
+ "m325_970": {
+  "seeds": [
+   "Paroxysmal supraventricular tachycardia",
+   "Atrioventricular nodal reentrant tachycardia",
+   "Wolff-Parkinson-White syndrome",
+   "Atrial flutter",
+   "Atrial fibrillation",
+   "Panic attack",
+   "Palpitations",
+   "Shortness of breath",
+   "Electrocardiogram",
+   "Delta wave",
+   "Supraventricular tachycardia"
+  ]
+ },
+ "m325_971": {
+  "seeds": [
+   "Major depressive disorder",
+   "Persistent depressive disorder",
+   "Recurrent depressive disorder",
+   "Bipolar II disorder",
+   "Adjustment disorder with depressed mood",
+   "Bereavement",
+   "Depressed mood",
+   "Constricted affect",
+   "Insomnia",
+   "Poor appetite",
+   "Difficulty concentrating",
+   "Functional impairment"
+  ]
+ },
+ "v2_test_4409": {
+  "seeds": [
+   "Parkinson disease",
+   "Essential tremor",
+   "Multiple system atrophy",
+   "Dementia with Lewy bodies",
+   "Progressive supranuclear palsy",
+   "Rem sleep behavior disorder",
+   "Resting tremor",
+   "Bradykinesia",
+   "Cogwheel rigidity",
+   "Postural instability",
+   "Masked facies",
+   "Dopamine loss in substantia nigra pars compacta",
+   "Lewy bodies",
+   "Dopamine transporter scan"
+  ]
+ },
+ "v2_test_4423": {
+  "seeds": [
+   "Primary sclerosing cholangitis",
+   "Ulcerative colitis",
+   "Cholestatic liver disease",
+   "Bile duct stricture",
+   "Sclerosing cholangitis",
+   "Pruritus",
+   "Scleral icterus",
+   "Elevated alkaline phosphatase",
+   "Magnetic resonance cholangiopancreatography",
+   "Endoscopic retrograde cholangiopancreatography",
+   "Antimitochondrial antibody negative",
+   "P-ANCA-associated disease"
+  ]
+ },
+ "v2_test_4425": {
+  "seeds": [
+   "Metastatic prostate adenocarcinoma",
+   "Osteolytic bone metastases",
+   "Osteoblastic bone metastases",
+   "Mixed lytic and sclerotic bone metastases",
+   "Primary bone sarcoma",
+   "Chondrosarcoma",
+   "Osteosarcoma",
+   "Multiple myeloma",
+   "Paget disease of bone",
+   "Aggressive periosteal reaction",
+   "Moth-eaten bone destruction",
+   "Pelvic radiography",
+   "Serum prostate-specific antigen test",
+   "Bone scan"
+  ]
+ },
+ "v2_test_4473": {
+  "seeds": [
+   "Postoperative hemorrhage",
+   "Hemophilia A",
+   "Hemophilia B",
+   "von Willebrand disease",
+   "Factor XI deficiency",
+   "Factor XIII deficiency",
+   "Platelet dysfunction",
+   "Aspirin",
+   "Bleeding time",
+   "Prothrombin time",
+   "Activated partial thromboplastin time",
+   "Open right hemicolectomy"
+  ]
+ },
+ "v2_test_4499": {
+  "seeds": [
+   "Coccidioidomycosis",
+   "Coccidioides immitis",
+   "Erythema multiforme",
+   "Raynaud phenomenon",
+   "Dry cough",
+   "Fatigue",
+   "Myalgias",
+   "Anemia",
+   "Annular erythematous lesions with central duskiness",
+   "Basic training in southern California",
+   "Complement fixation serology",
+   "Spherules with endospores"
+  ]
+ },
+ "v2_test_4534": {
+  "seeds": [
+   "Post-myocardial infarction pericarditis",
+   "Dressler syndrome",
+   "Acute pericarditis",
+   "ST-elevation myocardial infarction",
+   "Coronary stent implantation",
+   "Pericardial friction rub",
+   "Cardiomegaly",
+   "Pleural effusion",
+   "Pleuritic chest pain",
+   "Pericardial inflammation",
+   "Autoimmune post-cardiac injury syndrome"
+  ]
+ },
+ "v2_test_4562": {
+  "seeds": [
+   "Ischemic colitis",
+   "Mesenteric ischemia",
+   "Acute diverticulitis",
+   "Ulcerative colitis",
+   "Infectious colitis",
+   "Clostridioides difficile colitis",
+   "Abdominal pain",
+   "Bloody diarrhea",
+   "Mucoid diarrhea",
+   "Left lower quadrant tenderness",
+   "Computed tomography of the abdomen",
+   "Bowel wall thickening",
+   "Pneumatosis intestinalis"
+  ]
+ },
+ "v2_test_4677": {
+  "seeds": [
+   "Conjunctivitis",
+   "Acute anterior uveitis",
+   "Episcleritis",
+   "Scleritis",
+   "Orbital cellulitis",
+   "Herpetic keratitis",
+   "Hordeolum",
+   "Corneal abrasion",
+   "Ciliary flush",
+   "Pupillary miosis",
+   "Anterior chamber inflammation",
+   "Fluorescein staining",
+   "Slit-lamp examination",
+   "Sexually transmitted infection"
+  ]
+ },
+ "v2_test_4715": {
+  "seeds": [
+   "Ascites",
+   "Cirrhosis",
+   "Portal hypertension",
+   "Hepatic venous outflow obstruction",
+   "Budd-Chiari syndrome",
+   "Malignant ascites",
+   "Heart failure",
+   "Nephrotic syndrome",
+   "Serum-ascites albumin gradient",
+   "Paracentesis",
+   "Ascitic fluid analysis",
+   "Abdominal ultrasound"
+  ]
+ },
+ "v2_test_4734": {
+  "seeds": [
+   "Hypocalcemia",
+   "Postoperative hypoparathyroidism",
+   "Bilateral cataracts",
+   "Paresthesia",
+   "Prolonged QT interval",
+   "Tetany",
+   "Parathyroid hormone deficiency",
+   "Medullary thyroid carcinoma",
+   "Total thyroidectomy",
+   "Serum calcium test",
+   "Serum phosphorus test",
+   "Electrocardiogram"
+  ]
+ },
+ "v2_test_4748": {
+  "seeds": [
+   "Staphylococcal scalded skin syndrome",
+   "Bullous impetigo",
+   "Toxic epidermal necrolysis",
+   "Stevens-Johnson syndrome",
+   "Scarlet fever",
+   "Erythema multiforme",
+   "Exfoliative toxin",
+   "Desmoglein 1",
+   "Nikolsky sign",
+   "Skin biopsy",
+   "Fever"
+  ]
+ },
+ "v2_test_4750": {
+  "seeds": [
+   "Diabetic ketoacidosis",
+   "Hyperosmolar hyperglycemic state",
+   "Anion gap metabolic acidosis",
+   "Dehydration",
+   "Hypovolemic shock",
+   "Hyperkalemia",
+   "Hypophosphatemia",
+   "Insulin therapy",
+   "Continuous insulin infusion",
+   "Electrocardiogram",
+   "Inferior vena cava collapse",
+   "Acute kidney injury"
+  ]
+ },
+ "v2_test_4778": {
+  "seeds": [
+   "Acute coronary syndrome",
+   "Unstable angina",
+   "Non-ST elevation myocardial infarction",
+   "Stable angina pectoris",
+   "Myocardial ischemia",
+   "Atherosclerotic coronary artery disease",
+   "Exertional chest pain",
+   "Electrocardiogram",
+   "ST-segment depression",
+   "T-wave inversion",
+   "Cardiac troponin test",
+   "Diabetes mellitus",
+   "Hypertension"
+  ]
+ },
+ "v2_test_4807": {
+  "seeds": [
+   "Malignant pleural effusion",
+   "Pleural effusion",
+   "Metastatic renal cell carcinoma",
+   "Clear cell renal cell carcinoma",
+   "Hemothorax",
+   "Pneumothorax",
+   "Tracheal deviation",
+   "Decreased breath sounds",
+   "Dullness to percussion",
+   "Mediastinal shift",
+   "Thoracentesis",
+   "Chest radiograph"
+  ]
+ },
+ "v2_test_4821": {
+  "seeds": [
+   "Lung cancer",
+   "Non-small cell lung carcinoma",
+   "Squamous cell carcinoma of the lung",
+   "Small cell lung carcinoma",
+   "Hemoptysis",
+   "Hyponatremia",
+   "Weight loss",
+   "Smoking history",
+   "Chest radiograph",
+   "Anemia"
+  ]
+ },
+ "v2_test_4848": {
+  "seeds": [
+   "Hereditary angioedema",
+   "C1 esterase inhibitor deficiency",
+   "Bradykinin-mediated angioedema",
+   "Recurrent angioedema",
+   "Abdominal pain",
+   "Laryngeal edema",
+   "Autosomal dominant inheritance",
+   "Low C4 complement level",
+   "C1 inhibitor level",
+   "Swelling of the face",
+   "Swelling of the hands"
+  ]
+ },
+ "v2_test_4850": {
+  "seeds": [
+   "Silicosis",
+   "Pneumoconiosis",
+   "Pulmonary fibrosis",
+   "Interstitial lung disease",
+   "Chronic hypersensitivity pneumonitis",
+   "Eggshell calcification of hilar lymph nodes",
+   "Reticulonodular infiltrate on chest radiograph",
+   "Diminished breath sounds",
+   "Chest radiograph",
+   "Occupational lung disease"
+  ]
+ },
+ "v2_test_4874": {
+  "seeds": [
+   "Boerhaave syndrome",
+   "Esophageal perforation",
+   "Mallory-Weiss syndrome",
+   "Pneumomediastinum",
+   "Chest pain",
+   "Hematemesis",
+   "Severe retching",
+   "Alcohol binge drinking",
+   "Subcutaneous emphysema",
+   "Crepitus",
+   "Contrast esophagography",
+   "Bochdalek hernia"
+  ]
+ },
+ "v2_test_4885": {
+  "seeds": [
+   "Celiac disease",
+   "Tropical sprue",
+   "Whipple disease",
+   "Crohn disease",
+   "Lymphocytic colitis",
+   "Small intestinal bacterial overgrowth",
+   "Malabsorption syndrome",
+   "Duodenal biopsy",
+   "Villous atrophy",
+   "Crypt hyperplasia",
+   "Intraepithelial lymphocytosis",
+   "Anti-tissue transglutaminase antibody test",
+   "D-xylose absorption test",
+   "Iron deficiency anemia"
+  ]
+ },
+ "v2_test_4887": {
+  "seeds": [
+   "Sheehan syndrome",
+   "Postpartum hypopituitarism",
+   "Postpartum hemorrhage",
+   "Lactation failure",
+   "Hypotension",
+   "Tachycardia",
+   "Pituitary ischemic necrosis",
+   "Prolactin deficiency",
+   "Hypopituitarism",
+   "Amenorrhea",
+   "Empty sella syndrome"
+  ]
+ },
+ "v2_test_4899": {
+  "seeds": [
+   "Rhino-orbital-cerebral mucormycosis",
+   "Mucormycosis",
+   "Diabetic ketoacidosis",
+   "Type 1 diabetes mellitus",
+   "Hyperglycemia",
+   "Glycosuria",
+   "Ketonuria",
+   "Black necrotic eschar",
+   "Facial pain",
+   "Headache",
+   "Blurry vision",
+   "Computed tomography of the paranasal sinuses",
+   "Amphotericin B"
+  ]
+ },
+ "v2_test_4936": {
+  "seeds": [
+   "Congenital rubella syndrome",
+   "Maternal rubella infection",
+   "Congenital cataract",
+   "Congenital sensorineural hearing loss",
+   "Patent ductus arteriosus",
+   "Pulmonary artery stenosis",
+   "Periventricular calcifications",
+   "Retinal cherry-red spot",
+   "Fetal rubella syndrome",
+   "Ophthalmologic fundus abnormality",
+   "Rubella IgM serology",
+   "Echocardiography"
+  ]
+ },
+ "v2_test_5066": {
+  "seeds": [
+   "Acute aortic dissection",
+   "Acute pancreatitis",
+   "Acute myocardial infarction",
+   "Boerhaave syndrome",
+   "Esophageal perforation",
+   "Pulmonary embolism",
+   "Retrosternal chest pain",
+   "Epigastric tenderness",
+   "Computed tomography angiography",
+   "Mediastinal widening",
+   "Intimal flap"
+  ]
+ },
+ "v2_test_5104": {
+  "seeds": [
+   "Stress ulcer",
+   "Acute erosive gastritis",
+   "Cushing ulcer",
+   "Curling ulcer",
+   "Upper gastrointestinal hemorrhage",
+   "Hematemesis",
+   "Endoscopy",
+   "Gastric fundus erosions",
+   "Shallow hemorrhagic gastric lesions",
+   "Lamina propria acute inflammatory infiltrate",
+   "Patchy loss of epithelium",
+   "Head trauma"
+  ]
+ },
+ "v2_test_5118": {
+  "seeds": [
+   "Bulimia nervosa",
+   "Major depressive disorder",
+   "Anorexia nervosa",
+   "Electrolyte disturbance",
+   "Hypokalemic metabolic alkalosis",
+   "Self-induced vomiting",
+   "Russell sign",
+   "Dehydration",
+   "Brittle nails",
+   "Dry skin",
+   "Weight loss",
+   "Fatigue"
+  ]
+ },
+ "v2_test_5143": {
+  "seeds": [
+   "Orbital cellulitis",
+   "Preseptal cellulitis",
+   "Bacterial keratitis",
+   "Acute bacterial conjunctivitis",
+   "Endophthalmitis",
+   "Cavernous sinus thrombosis",
+   "Diabetic ketoacidosis",
+   "Type 1 diabetes mellitus",
+   "Ophthalmoplegia",
+   "Cranial nerve III palsy",
+   "Painful extraocular movements",
+   "Fever",
+   "Purulent eye discharge"
+  ]
+ },
+ "v2_test_5225": {
+  "seeds": [
+   "Cystic fibrosis",
+   "Exocrine pancreatic insufficiency",
+   "Malabsorption syndrome",
+   "Giardiasis",
+   "Celiac disease",
+   "Common variable immunodeficiency",
+   "Steatorrhea",
+   "Fecal fat globules",
+   "Stool ova and parasite examination",
+   "Sweat chloride test",
+   "Cystic fibrosis transmembrane conductance regulator"
+  ]
+ },
+ "v2_test_5242": {
+  "seeds": [
+   "Acute pancreatitis",
+   "Drug-induced pancreatitis",
+   "Gallstone pancreatitis",
+   "Alcohol-induced pancreatitis",
+   "Hypertriglyceridemia-induced pancreatitis",
+   "Epigastric pain radiating to the back",
+   "Elevated serum lipase",
+   "Elevated serum amylase",
+   "Peripancreatic fluid collection",
+   "Edematous pancreas",
+   "Contrast-enhanced abdominal CT",
+   "Antiretroviral therapy"
+  ]
+ },
+ "v2_test_5256": {
+  "seeds": [
+   "Superior vena cava syndrome",
+   "Small cell lung carcinoma",
+   "Bronchogenic carcinoma",
+   "Metastatic breast cancer",
+   "Invasive ductal carcinoma of the breast",
+   "Mediastinal mass",
+   "Jugular venous distention",
+   "Facial edema",
+   "Upper extremity edema",
+   "Engorged anterior chest wall veins",
+   "Headache worsened by leaning forward",
+   "Chest CT scan"
+  ]
+ },
+ "v2_test_5323": {
+  "seeds": [
+   "Polycystic ovary syndrome",
+   "Hirsutism",
+   "Oligomenorrhea",
+   "Amenorrhea",
+   "Insulin resistance",
+   "Acanthosis nigricans",
+   "Obesity",
+   "Transvaginal ultrasound",
+   "Polycystic ovaries",
+   "Endometrial hyperplasia",
+   "Endometrial carcinoma",
+   "Hyperandrogenism"
+  ]
+ },
+ "v2_test_5331": {
+  "seeds": [
+   "Blunt abdominal trauma",
+   "Retroperitoneal hemorrhage",
+   "Renal trauma",
+   "Renal laceration",
+   "Adrenal injury",
+   "Liver laceration",
+   "Splenic injury",
+   "Hemoperitoneum",
+   "Focused assessment with sonography for trauma",
+   "Ecchymosis of flank",
+   "Hypotension",
+   "Acute blood loss anemia",
+   "Computed tomography of the abdomen"
+  ]
+ },
+ "v2_test_5349": {
+  "seeds": [
+   "Epiglottitis",
+   "Haemophilus influenzae type b infection",
+   "Acute upper airway obstruction",
+   "Drooling",
+   "Tripod positioning",
+   "Stridor",
+   "Retropharyngeal abscess",
+   "Peritonsillar abscess",
+   "Diphtheria",
+   "Laryngotracheobronchitis",
+   "Lateral neck radiograph",
+   "Haemophilus influenzae type b vaccine"
+  ]
+ },
+ "v2_test_5427": {
+  "seeds": [
+   "Chloroquine retinopathy",
+   "Bull's eye maculopathy",
+   "Night blindness",
+   "Retinal toxicity",
+   "Rheumatoid arthritis",
+   "Type 2 diabetes mellitus",
+   "Citalopram",
+   "Macular degeneration",
+   "Dark adaptation defect",
+   "Visual field defect",
+   "Optical coherence tomography",
+   "Funduscopic examination",
+   "Chloroquine-induced retinal pigment epithelium damage"
+  ]
+ },
+ "v2_test_5434": {
+  "seeds": [
+   "Pancreatic pseudocyst",
+   "Chronic pancreatitis",
+   "Obstructive jaundice",
+   "Choledocholithiasis",
+   "Pancreatic adenocarcinoma",
+   "Cholangiocarcinoma",
+   "Dubin-Johnson syndrome",
+   "Primary sclerosing cholangitis",
+   "Pale stool",
+   "Dark urine",
+   "Conjugated hyperbilirubinemia",
+   "Intrahepatic and extrahepatic bile duct dilation",
+   "Abdominal ultrasonography",
+   "Anechoic cystic mass"
+  ]
+ },
+ "v2_test_5487": {
+  "seeds": [
+   "Uterine inversion",
+   "Postpartum hemorrhage",
+   "Retained placenta",
+   "Uterine atony",
+   "Oxytocin administration",
+   "Controlled cord traction",
+   "Fundal pressure",
+   "Manual placental extraction",
+   "Third-trimester pregnancy",
+   "Von Willebrand disease",
+   "Vaginal bleeding",
+   "Hypotension",
+   "Tachycardia",
+   "Absence of palpable uterine fundus"
+  ]
+ },
+ "v2_test_5534": {
+  "seeds": [
+   "Cushing syndrome",
+   "Polycystic ovary syndrome",
+   "Obesity",
+   "Hirsutism",
+   "Hyperandrogenism",
+   "Glucose intolerance",
+   "Hypokalemia",
+   "Proximal muscle weakness",
+   "Dexamethasone suppression test",
+   "Late-night salivary cortisol",
+   "24-hour urinary free cortisol",
+   "Abdominal striae"
+  ]
+ },
+ "v2_test_5564": {
+  "seeds": [
+   "Lumbar disc herniation",
+   "Lumbar radiculopathy",
+   "Sciatica",
+   "Cauda equina syndrome",
+   "Herniated intervertebral disc",
+   "L4-L5 disc herniation",
+   "L5 radiculopathy",
+   "Positive straight leg raise test",
+   "Decreased patellar reflex",
+   "Saddle anesthesia"
+  ]
+ },
+ "v2_test_5608": {
+  "seeds": [
+   "Irritable bowel syndrome",
+   "Alosetron",
+   "Ischemic colitis",
+   "Bowel ischemia",
+   "Acute mesenteric ischemia",
+   "Sepsis",
+   "Peritonitis",
+   "Metabolic acidosis",
+   "Positive fecal occult blood test",
+   "Abdominal tenderness with guarding",
+   "Hypotension",
+   "Leukocytosis",
+   "Hypoactive bowel sounds",
+   "Abdominal pain"
+  ]
+ },
+ "v2_test_5610": {
+  "seeds": [
+   "Mixed cryoglobulinemia",
+   "Hepatitis C virus infection",
+   "Leukocytoclastic vasculitis",
+   "Palpable purpura",
+   "Arthralgia",
+   "Myalgia",
+   "Rheumatoid factor positivity",
+   "Low complement C4 level",
+   "Cryoglobulin precipitation",
+   "Skin biopsy",
+   "Positive HCV RNA test",
+   "Polyarteritis nodosa"
+  ]
+ },
+ "v2_test_5636": {
+  "seeds": [
+   "Ruptured ectopic pregnancy",
+   "Hemoperitoneum",
+   "Pelvic inflammatory disease",
+   "Tubal pregnancy",
+   "Ovarian torsion",
+   "Ruptured corpus luteum cyst",
+   "Fitz-Hugh-Curtis syndrome",
+   "Positive urinary beta-hCG",
+   "Hypovolemic shock",
+   "Transvaginal ultrasound",
+   "Sexually transmitted infection"
+  ]
+ },
+ "v2_test_5642": {
+  "seeds": [
+   "Iron deficiency anemia",
+   "Pityriasis versicolor",
+   "Erythrasma",
+   "Candidal intertrigo",
+   "Acrodermatitis enteropathica",
+   "Microcytic anemia",
+   "Conjunctival pallor",
+   "Thrombocytosis",
+   "Elevated red cell distribution width",
+   "Hemoglobin A1c",
+   "Gastric ulcer",
+   "Aspirin-induced gastrointestinal bleeding"
+  ]
+ },
+ "v2_test_5688": {
+  "seeds": [
+   "Migraine without aura",
+   "Migraine headache",
+   "Tension-type headache",
+   "Cluster headache",
+   "Medication overuse headache",
+   "Subarachnoid hemorrhage",
+   "Photophobia",
+   "Phonophobia",
+   "Nausea",
+   "Oral contraceptive use",
+   "Stress",
+   "Caffeine use"
+  ]
+ },
+ "v2_test_5745": {
+  "seeds": [
+   "Tricuspid regurgitation",
+   "Infective endocarditis",
+   "Right-sided infective endocarditis",
+   "Tricuspid valve endocarditis",
+   "Septic pulmonary emboli",
+   "Pulmonary embolism",
+   "Right-sided heart failure",
+   "Cardiac murmur",
+   "Jugular venous distention",
+   "Hepatomegaly",
+   "Echocardiography",
+   "Fever",
+   "Night sweats",
+   "Pleuritic chest pain"
+  ]
+ },
+ "v2_test_5813": {
+  "seeds": [
+   "Lambert-Eaton myasthenic syndrome",
+   "Small cell lung carcinoma",
+   "Myasthenia gravis",
+   "Proximal muscle weakness",
+   "Facilitation after repeated muscle contraction",
+   "Hyporeflexia",
+   "Sluggish pupillary light reflex",
+   "Dry mouth",
+   "Paraneoplastic syndrome",
+   "Electromyography",
+   "Repetitive nerve stimulation",
+   "Voltage-gated calcium channel antibodies"
+  ]
+ },
+ "v2_test_5879": {
+  "seeds": [
+   "Bacterial vaginosis",
+   "Trichomoniasis",
+   "Candida vaginitis",
+   "Postpartum endometritis",
+   "Retained products of conception",
+   "Vaginal laceration",
+   "Vaginal discharge",
+   "Elevated vaginal pH",
+   "Clue cells",
+   "Gardnerella vaginalis"
+  ]
+ },
+ "v2_train_103": {
+  "seeds": [
+   "Reactive arthritis",
+   "Disseminated gonococcal infection",
+   "Septic arthritis",
+   "Chlamydia trachomatis urethritis",
+   "Conjunctivitis",
+   "Enthesitis",
+   "Achilles tendonitis",
+   "Oligoarthritis",
+   "Sterile pyuria",
+   "Inflammatory synovial fluid",
+   "Arthrocentesis",
+   "Gram stain negative synovial fluid"
+  ]
+ },
+ "v2_train_1044": {
+  "seeds": [
+   "Shock",
+   "Hypovolemic shock",
+   "Hemorrhagic shock",
+   "Acute tubular necrosis",
+   "Prerenal azotemia",
+   "Renal hypoperfusion",
+   "Renal vasoconstriction",
+   "Increased filtration fraction",
+   "Decreased renal perfusion pressure",
+   "Orthostatic hypotension",
+   "Syncope",
+   "Serum creatinine"
+  ]
+ },
+ "v2_train_1064": {
+  "seeds": [
+   "Secondary syphilis",
+   "Pityriasis rosea",
+   "Tinea corporis",
+   "Nummular eczema",
+   "Psoriasis",
+   "Keratoderma blennorrhagicum",
+   "RPR test",
+   "Treponema pallidum serologic testing",
+   "Condyloma lata",
+   "Mucous patches",
+   "Copper-colored papulosquamous rash",
+   "Palms and soles involvement"
+  ]
+ },
+ "v2_train_115": {
+  "seeds": [
+   "Diabetic peripheral neuropathy",
+   "Diabetic retinopathy",
+   "Diabetic nephropathy",
+   "Poorly controlled type 2 diabetes mellitus",
+   "Peripheral sensory neuropathy",
+   "Decreased vibration sense",
+   "Decreased proprioception",
+   "Microalbuminuria",
+   "Proteinuria",
+   "Hemoglobin A1c",
+   "Retinal laser photocoagulation",
+   "Orthostatic hypotension"
+  ]
+ },
+ "v2_train_1282": {
+  "seeds": [
+   "Tetralogy of Fallot",
+   "Hypercyanotic spell",
+   "Right ventricular outflow tract obstruction",
+   "Ventricular septal defect",
+   "Overriding aorta",
+   "Right ventricular hypertrophy",
+   "Pulmonary stenosis",
+   "Squatting position",
+   "Boot-shaped heart",
+   "Echocardiography",
+   "Cyanosis"
+  ]
+ },
+ "v2_train_1286": {
+  "seeds": [
+   "Insulinoma",
+   "Hypoglycemia",
+   "Generalized tonic-clonic seizure",
+   "Neuroglycopenia",
+   "Whipple triad",
+   "Endogenous hyperinsulinemic hypoglycemia",
+   "Fasting hypoglycemia",
+   "Pancreatic neuroendocrine tumor",
+   "Plasma insulin level",
+   "C-peptide",
+   "Sulfonylurea poisoning"
+  ]
+ },
+ "v2_train_1303": {
+  "seeds": [
+   "Vitamin A toxicity",
+   "Hypervitaminosis A",
+   "Constipation",
+   "Abdominal pain",
+   "Epigastric pain",
+   "Multivitamin overdose",
+   "Fat-soluble vitamin toxicity",
+   "Hypercalcemia",
+   "Nonspecific abdominal tenderness",
+   "Adverse drug effect"
+  ]
+ },
+ "v2_train_1352": {
+  "seeds": [
+   "Rheumatic mitral stenosis",
+   "Atrial fibrillation",
+   "Left atrial enlargement",
+   "Mitral valvular disease",
+   "Congestive heart failure",
+   "Dyspnea",
+   "Hoarseness of voice",
+   "Rumbling mid-diastolic murmur",
+   "Opening snap",
+   "Echocardiography",
+   "Chest radiography",
+   "Rheumatic fever",
+   "Infective endocarditis"
+  ]
+ },
+ "v2_train_1362": {
+  "seeds": [
+   "Cardiac tamponade",
+   "Pericardial effusion",
+   "Uremic pericarditis",
+   "Myocardial infarction",
+   "Acute decompensated heart failure",
+   "Cardiogenic shock",
+   "Left ventricular systolic dysfunction",
+   "Global hypokinesis",
+   "Right ventricular collapse",
+   "Elevated troponin I",
+   "Bedside transthoracic echocardiography",
+   "Point-of-care ultrasound"
+  ]
+ },
+ "v2_train_1429": {
+  "seeds": [
+   "Histoplasmosis",
+   "Disseminated histoplasmosis",
+   "Histoplasma capsulatum infection",
+   "Acute lymphoblastic leukemia",
+   "Langerhans cell histiocytosis",
+   "Sporotrichosis",
+   "Pseudolymphoma",
+   "Pancytopenia",
+   "Lymphoblasts on peripheral blood smear",
+   "Osteolytic bone lesions",
+   "Centrilobular pulmonary nodules",
+   "Skin biopsy"
+  ]
+ },
+ "v2_train_1435": {
+  "seeds": [
+   "Aspergilloma",
+   "Pulmonary aspergillosis",
+   "Aspergillus fumigatus",
+   "Posttuberculous lung cavity",
+   "Hemoptysis",
+   "Chronic cough",
+   "Pulmonary tuberculosis",
+   "Chest radiography",
+   "Sputum culture for acid-fast bacilli",
+   "Radiopaque pulmonary mass"
+  ]
+ },
+ "v2_train_1438": {
+  "seeds": [
+   "Traveler's diarrhea",
+   "Enterotoxigenic Escherichia coli infection",
+   "Watery diarrhea",
+   "Dehydration",
+   "Hypotension",
+   "Acute infectious gastroenteritis",
+   "Stool ova and parasite examination",
+   "Stool leukocytes",
+   "Stool occult blood test",
+   "Amoebic dysentery",
+   "Shigellosis",
+   "Giardiasis"
+  ]
+ },
+ "v2_train_1469": {
+  "seeds": [
+   "Atrial fibrillation",
+   "Alcohol intoxication",
+   "Holiday heart syndrome",
+   "Palpitations",
+   "Absent P waves",
+   "Irregularly irregular rhythm",
+   "Electrocardiogram",
+   "Atrial flutter",
+   "Supraventricular tachycardia",
+   "Left atrial enlargement",
+   "Rate control therapy",
+   "Beta blockers"
+  ]
+ },
+ "v2_train_1510": {
+  "seeds": [
+   "Acute myocardial infarction",
+   "ST-elevation myocardial infarction",
+   "Lateral wall myocardial infarction",
+   "Left circumflex artery occlusion",
+   "Coronary artery stent placement",
+   "Cardiogenic syncope",
+   "Nitrate-induced hypotension",
+   "Myocardial ischemia",
+   "Pathologic Q waves",
+   "Electrocardiogram",
+   "Coronary angiography",
+   "Clopidogrel",
+   "Isosorbide mononitrate",
+   "Sildenafil",
+   "Prazosin"
+  ]
+ },
+ "v2_train_153": {
+  "seeds": [
+   "Shiga toxin-producing Escherichia coli infection",
+   "Campylobacter jejuni enteritis",
+   "Shigella dysenteriae infection",
+   "Salmonella enterocolitis",
+   "Entamoeba histolytica infection",
+   "Bloody diarrhea",
+   "Abdominal pain",
+   "Fecal-oral transmission",
+   "Contaminated stream water exposure",
+   "Stool culture",
+   "Shiga toxin assay",
+   "Dysentery",
+   "Fever"
+  ]
+ },
+ "v2_train_1536": {
+  "seeds": [
+   "Lithium",
+   "Pregnancy",
+   "Intrauterine pregnancy",
+   "Hypothyroidism",
+   "Nephrogenic diabetes insipidus",
+   "Fetal Ebstein anomaly",
+   "Congenital cardiac malformation",
+   "Positive urine pregnancy test",
+   "Pelvic ultrasound",
+   "First-trimester teratogenic exposure"
+  ]
+ },
+ "v2_train_1555": {
+  "seeds": [
+   "Acute myocardial infarction",
+   "Coronary artery disease",
+   "Sudden cardiac death",
+   "Ventricular fibrillation",
+   "Atherosclerosis",
+   "Myocardial ischemia",
+   "Chest pain radiating to the left arm",
+   "Cardiopulmonary resuscitation",
+   "Troponin I test",
+   "Electrocardiogram"
+  ]
+ },
+ "v2_train_158": {
+  "seeds": [
+   "Scarlet fever",
+   "Group A streptococcal pharyngitis",
+   "Streptococcus pyogenes infection",
+   "Erythrogenic toxin",
+   "Pastia lines",
+   "Strawberry tongue",
+   "Circumoral pallor",
+   "Diffuse blanching erythematous rash",
+   "Pharyngeal erythema",
+   "Fever"
+  ]
+ },
+ "v2_train_159": {
+  "seeds": [
+   "Herpes simplex keratitis",
+   "Corneal ulcer",
+   "Conjunctivitis",
+   "Blepharitis",
+   "Acute anterior uveitis",
+   "Atopic dermatitis",
+   "Dendritic corneal ulcer",
+   "Fluorescein staining",
+   "Slit-lamp examination",
+   "Topical triamcinolone",
+   "Photophobia",
+   "Eye pain"
+  ]
+ },
+ "v2_train_160": {
+  "seeds": [
+   "Necrotizing fasciitis",
+   "Clostridial myonecrosis",
+   "Gas gangrene",
+   "Polymicrobial necrotizing soft tissue infection",
+   "Group A streptococcal infection",
+   "Loxosceles reclusa envenomation",
+   "Crepitus",
+   "Dusky skin discoloration",
+   "Soft tissue edema",
+   "Tissue biopsy"
+  ]
+ },
+ "v2_train_1614": {
+  "seeds": [
+   "Acute mesenteric ischemia",
+   "Superior mesenteric artery embolism",
+   "Atrial fibrillation",
+   "Metabolic acidosis",
+   "Elevated amylase",
+   "Diffuse abdominal tenderness",
+   "Decreased bowel sounds",
+   "Lactate dehydrogenase elevation",
+   "CT angiography of the abdomen",
+   "Lactic acidosis",
+   "Embolic intestinal infarction"
+  ]
+ },
+ "v2_train_1633": {
+  "seeds": [
+   "Schizophrenia",
+   "Schizophreniform disorder",
+   "Schizoaffective disorder",
+   "Delusional disorder",
+   "Brief psychotic disorder",
+   "Auditory hallucinations",
+   "Persecutory delusion",
+   "Disorganized behavior",
+   "Anxiety",
+   "Urine toxicology screen",
+   "Comprehensive metabolic panel",
+   "Thyroid-stimulating hormone test",
+   "Negative urine toxicology"
+  ]
+ },
+ "v2_train_1673": {
+  "seeds": [
+   "Bipolar I disorder",
+   "Bipolar II disorder",
+   "Major depressive disorder",
+   "Hypomanic episode",
+   "Manic episode",
+   "Depressive episode",
+   "Blunted affect",
+   "Insomnia",
+   "Increased appetite",
+   "Decreased need for sleep",
+   "Suicidal ideation",
+   "Mental status examination"
+  ]
+ },
+ "v2_train_1697": {
+  "seeds": [
+   "Pulmonary embolism",
+   "Saddle pulmonary embolus",
+   "Paradoxical embolism",
+   "Patent foramen ovale",
+   "Intracardiac right-to-left shunt",
+   "Ischemic stroke",
+   "Cerebral venous sinus thrombosis",
+   "Cerebral edema",
+   "Papilledema",
+   "Dysarthria",
+   "Decreased consciousness",
+   "Pulmonary angiography",
+   "Thrombolytic therapy"
+  ]
+ },
+ "v2_train_17": {
+  "seeds": [
+   "Spontaneous abortion",
+   "Inevitable abortion",
+   "Incomplete abortion",
+   "Threatened abortion",
+   "Cervical os dilation",
+   "Products of conception in the cervical os",
+   "First-trimester vaginal bleeding",
+   "Suction curettage",
+   "Miscarriage",
+   "Decreased human chorionic gonadotropin level",
+   "Subchorionic hemorrhage",
+   "Chromosomal abnormality"
+  ]
+ },
+ "v2_train_1725": {
+  "seeds": [
+   "Achalasia",
+   "Secondary achalasia",
+   "Chagas disease",
+   "Trypanosoma cruzi infection",
+   "Esophageal dysphagia",
+   "Aperistalsis of the esophagus",
+   "Lower esophageal sphincter relaxation failure",
+   "Bird-beak sign",
+   "Barium swallow study",
+   "Esophageal manometry",
+   "Dysphagia to solids and liquids",
+   "Noncardiac chest pain"
+  ]
+ },
+ "v2_train_1730": {
+  "seeds": [
+   "Erectile dysfunction",
+   "Male hypogonadism",
+   "Age-related androgen decline",
+   "Benign prostatic hyperplasia",
+   "Psychogenic erectile dysfunction",
+   "Diabetes mellitus",
+   "Peripheral arterial disease",
+   "Andropause",
+   "Decreased serum testosterone",
+   "Symmetrically enlarged prostate",
+   "Prostate-specific antigen test",
+   "Fasting serum glucose",
+   "Penile erection physiology",
+   "Ejaculatory dysfunction",
+   "Libido impairment"
+  ]
+ },
+ "v2_train_1735": {
+  "seeds": [
+   "Posterior communicating artery aneurysm",
+   "Oculomotor nerve palsy",
+   "Third nerve palsy",
+   "Subarachnoid hemorrhage",
+   "Adult polycystic kidney disease",
+   "Intracranial aneurysm",
+   "Down and out eye position",
+   "Pupil-involving third nerve palsy",
+   "Extraocular muscle weakness",
+   "Computed tomography angiography",
+   "Digital subtraction angiography",
+   "Pupil dilation"
+  ]
+ },
+ "v2_train_1763": {
+  "seeds": [
+   "Acute bacterial prostatitis",
+   "Benign prostatic hyperplasia",
+   "Lower urinary tract symptoms",
+   "Dysuria",
+   "Urinary urgency",
+   "Urinary frequency",
+   "Nocturia",
+   "Prostate tenderness",
+   "Rectal examination",
+   "Urinalysis",
+   "Urine culture",
+   "Chlamydia trachomatis",
+   "Prostate enlargement"
+  ]
+ },
+ "v2_train_1792": {
+  "seeds": [
+   "Post-traumatic stress disorder",
+   "Acute stress disorder",
+   "Nightmare disorder",
+   "Adjustment disorder",
+   "Major depressive disorder",
+   "Insomnia",
+   "Flashbacks",
+   "Nightmares",
+   "Hyperarousal",
+   "Intrusive memories",
+   "Exploratory laparotomy",
+   "Femoral intramedullary nailing",
+   "Femoral artery repair"
+  ]
+ },
+ "v2_train_1871": {
+  "seeds": [
+   "Postpartum endometritis",
+   "Mastitis",
+   "Surgical site infection",
+   "Wound cellulitis",
+   "Urinary tract infection",
+   "Puerperal fever",
+   "Uterine tenderness",
+   "Foul-smelling lochia",
+   "Leukocytosis",
+   "Cesarean section"
+  ]
+ },
+ "v2_train_1888": {
+  "seeds": [
+   "Pituitary apoplexy",
+   "Pituitary macroadenoma",
+   "Pituitary adenoma",
+   "Hyperprolactinemia",
+   "Prolactinoma",
+   "Bitemporal hemianopsia",
+   "Amenorrhea",
+   "Diplopia",
+   "Acute adrenal insufficiency",
+   "Magnetic resonance imaging of the sella turcica",
+   "Prolactin level",
+   "Adrenocorticotropic hormone deficiency",
+   "Transient severe headache"
+  ]
+ },
+ "v2_train_1905": {
+  "seeds": [
+   "Silicosis",
+   "Pneumoconiosis",
+   "Progressive massive fibrosis",
+   "Sarcoidosis",
+   "Pulmonary fibrosis",
+   "Chronic obstructive pulmonary disease",
+   "Reduced diffusing capacity for carbon monoxide",
+   "Calcified hilar lymph nodes",
+   "Upper lobe pulmonary nodules",
+   "Bibasilar inspiratory crackles",
+   "Chest radiography",
+   "Pulmonary function tests",
+   "Lung biopsy"
+  ]
+ },
+ "v2_train_1908": {
+  "seeds": [
+   "Aspiration pneumonia",
+   "Esophageal diverticulum",
+   "Zenker diverticulum",
+   "Esophageal motility disorder",
+   "Achalasia",
+   "Tracheoesophageal fistula",
+   "Right lower lobe infiltrate",
+   "Fever",
+   "Leukocytosis",
+   "Crackles",
+   "Chest x-ray",
+   "Sputum culture",
+   "Bronchoscopy"
+  ]
+ },
+ "v2_train_1961": {
+  "seeds": [
+   "Lymphogranuloma venereum",
+   "Chlamydia trachomatis serovars L1-L3 infection",
+   "Inguinal buboes",
+   "Painless genital ulcer",
+   "Tender ulcerative inguinal lymphadenitis",
+   "Dark discoloration of lymph nodes",
+   "Genital ulcer disease",
+   "Sexually transmitted infection",
+   "NAAT for Chlamydia trachomatis",
+   "Groin mass"
+  ]
+ },
+ "v2_train_1998": {
+  "seeds": [
+   "Myocardial infarction",
+   "Acute coronary syndrome",
+   "Left ventricular free wall rupture",
+   "Cardiac tamponade",
+   "Ventricular septal rupture",
+   "Papillary muscle rupture",
+   "Postinfarction myocardial rupture",
+   "Hemopericardium",
+   "Sudden cardiac death",
+   "Chest pain",
+   "Severe shortness of breath",
+   "Autopsy",
+   "Echocardiography"
+  ]
+ },
+ "v2_train_200": {
+  "seeds": [
+   "Transposition of the great arteries",
+   "Maternal diabetes mellitus",
+   "Central cyanosis",
+   "Single second heart sound",
+   "Neonatal cyanotic congenital heart disease",
+   "Dextroposition of the aorta",
+   "Prostaglandin E1 therapy",
+   "Echocardiography",
+   "Chest radiograph",
+   "Oxygen saturation measurement",
+   "Atrial septal defect",
+   "Ventricular septal defect"
+  ]
+ },
+ "v2_train_2030": {
+  "seeds": [
+   "Normal pressure hydrocephalus",
+   "Alzheimer disease",
+   "Vascular dementia",
+   "Parkinson disease",
+   "Dementia with Lewy bodies",
+   "Gait apraxia",
+   "Urinary urgency",
+   "Broad-based gait",
+   "Cognitive impairment",
+   "Ventriculomegaly"
+  ]
+ },
+ "v2_train_2053": {
+  "seeds": [
+   "Delirium",
+   "Postoperative delirium",
+   "Opioid-induced delirium",
+   "Catheter-associated urinary tract infection",
+   "Urinary retention",
+   "Indwelling urinary catheter",
+   "Acute confusional state",
+   "Advanced age",
+   "Recent surgery",
+   "Orthopedic surgery",
+   "Depressive symptoms"
+  ]
+ },
+ "v2_train_2066": {
+  "seeds": [
+   "Infective endocarditis",
+   "Aortic regurgitation",
+   "Aortic valve vegetation",
+   "Septic emboli",
+   "Cardiogenic shock",
+   "Acute pulmonary edema",
+   "Osler nodes",
+   "Janeway lesions",
+   "Splinter hemorrhages",
+   "Tricuspid regurgitation",
+   "Transesophageal echocardiography",
+   "Atrioventricular dissociation"
+  ]
+ },
+ "v2_train_2086": {
+  "seeds": [
+   "Systemic lupus erythematosus",
+   "Juvenile idiopathic arthritis",
+   "Rheumatoid arthritis",
+   "Autoimmune disease",
+   "Lupus nephritis",
+   "Pancytopenia",
+   "Painless oral ulcer",
+   "Proteinuria",
+   "Antinuclear antibody test",
+   "Anti\u2013double-stranded DNA antibody",
+   "Anti-Smith antibody",
+   "Complement hypocomplementemia"
+  ]
+ },
+ "v2_train_2131": {
+  "seeds": [
+   "Iliotibial band syndrome",
+   "Lateral knee pain",
+   "Positive Ober test",
+   "Iliotibial band friction syndrome",
+   "Patellofemoral pain syndrome",
+   "Lateral meniscus tear",
+   "Lateral collateral ligament sprain",
+   "Knee sprain",
+   "Ober test",
+   "Knee physical examination",
+   "Ibuprofen",
+   "Albuterol"
+  ]
+ },
+ "v2_train_2152": {
+  "seeds": [
+   "Duodenal ulcer",
+   "Peptic ulcer disease",
+   "Gastric ulcer",
+   "Helicobacter pylori infection",
+   "Stress ulcer",
+   "Iron deficiency anemia",
+   "Melena",
+   "Epigastric pain",
+   "Conjunctival pallor",
+   "Upper gastrointestinal endoscopy",
+   "Fecal occult blood test",
+   "Proton pump inhibitor therapy"
+  ]
+ },
+ "v2_train_226": {
+  "seeds": [
+   "Wernicke encephalopathy",
+   "Alcoholic liver disease",
+   "Alcohol use disorder",
+   "Hepatic encephalopathy",
+   "Metabolic encephalopathy",
+   "Thiamine deficiency",
+   "Asterixis",
+   "Nystagmus",
+   "Ataxia",
+   "Magnetic resonance imaging of the brain",
+   "Thiamine administration",
+   "Elevated gamma-glutamyl transferase"
+  ]
+ },
+ "v2_train_2276": {
+  "seeds": [
+   "Erectile dysfunction",
+   "Hypogonadism",
+   "Testicular atrophy",
+   "Spinal cord injury",
+   "Bipolar disorder",
+   "Sexual dysfunction",
+   "Decreased libido",
+   "Nocturnal penile tumescence",
+   "Prolactin elevation",
+   "Antipsychotic drug therapy",
+   "Libido",
+   "Lumbar vertebral injury"
+  ]
+ },
+ "v2_train_2281": {
+  "seeds": [
+   "Somatic symptom disorder",
+   "Illness anxiety disorder",
+   "Functional abdominal pain syndrome",
+   "Nonspecific low back pain",
+   "Mechanical back pain",
+   "Chronic back pain",
+   "Constipation",
+   "Abdominal bloating",
+   "Paraspinal muscle tenderness",
+   "Normal spine radiograph",
+   "CT scan of the abdomen"
+  ]
+ },
+ "v2_train_2318": {
+  "seeds": [
+   "Central retinal artery occlusion",
+   "Branch retinal artery occlusion",
+   "Amaurosis fugax",
+   "Giant cell arteritis",
+   "Optic neuritis",
+   "Retinal embolism",
+   "Cherry-red spot",
+   "Retinal whitening",
+   "Relative afferent pupillary defect",
+   "Brisk direct pupillary reflex",
+   "Brisk indirect pupillary reflex",
+   "Hollenhorst plaque",
+   "Carotid artery atherosclerosis",
+   "Temporal artery biopsy"
+  ]
+ },
+ "v2_train_2354": {
+  "seeds": [
+   "Chronic pancreatitis",
+   "Pancreatic pseudocyst",
+   "Gastric outlet obstruction",
+   "Peptic ulcer disease",
+   "Alcohol use disorder",
+   "Cigarette smoking",
+   "Bilious vomiting",
+   "Epigastric mass",
+   "Abdominal computed tomography",
+   "Upper gastrointestinal endoscopy",
+   "Pancreatic duct obstruction",
+   "Pseudocyst compression of the duodenum"
+  ]
+ },
+ "v2_train_2361": {
+  "seeds": [
+   "Chronic bronchitis",
+   "COPD",
+   "Emphysema",
+   "Cor pulmonale",
+   "Smoking",
+   "Chronic productive cough",
+   "Hyperinflated lungs",
+   "Pulmonary function tests",
+   "Decreased FEV1/FVC ratio",
+   "Increased residual volume"
+  ]
+ },
+ "v2_train_2410": {
+  "seeds": [
+   "Medullary thyroid carcinoma",
+   "Multiple endocrine neoplasia type 2A",
+   "Pheochromocytoma",
+   "Thyroid nodule",
+   "Cervical lymph node metastasis",
+   "Calcitonin",
+   "Thyroid ultrasound",
+   "Fine-needle aspiration biopsy",
+   "Carcinoembryonic antigen",
+   "Ret gene mutation"
+  ]
+ },
+ "v2_train_2445": {
+  "seeds": [
+   "Torsades de pointes",
+   "Ventricular fibrillation",
+   "Cardiac arrest",
+   "QT prolongation",
+   "Clarithromycin",
+   "Pneumonia",
+   "Hypomagnesemia",
+   "Hyperkalemia",
+   "Bradyarrhythmia",
+   "Electrocardiography",
+   "Serum magnesium test",
+   "Cardiopulmonary resuscitation"
+  ]
+ },
+ "v2_train_2465": {
+  "seeds": [
+   "Multiple myeloma",
+   "Plasmacytoma",
+   "Metastatic bone disease",
+   "Osteolytic bone lesions",
+   "Hypercalcemia of malignancy",
+   "Anemia of chronic disease",
+   "Normocytic anemia",
+   "Renal insufficiency",
+   "Bence Jones proteinuria",
+   "Serum protein electrophoresis",
+   "Lumbosacral computed tomography",
+   "Bone marrow biopsy"
+  ]
+ },
+ "v2_train_2571": {
+  "seeds": [
+   "Pregnancy-related low back pain",
+   "Sacroiliac joint dysfunction",
+   "Pelvic girdle pain of pregnancy",
+   "Relaxin",
+   "Posterior pelvic pain",
+   "FABER test",
+   "Straight leg raise test",
+   "Lumbar radiculopathy",
+   "Herniated intervertebral disc",
+   "Ankylosing spondylitis",
+   "Rheumatoid arthritis",
+   "Sacroiliitis",
+   "Sacroiliac joint pain"
+  ]
+ },
+ "v2_train_2584": {
+  "seeds": [
+   "Schizophrenia",
+   "Delusional disorder",
+   "Schizotypal personality disorder",
+   "Brief psychotic disorder",
+   "Schizoaffective disorder",
+   "Auditory hallucinations",
+   "Delusions",
+   "Social withdrawal",
+   "Disorganized behavior",
+   "Flat affect",
+   "Antipsychotic medications",
+   "Mental status examination"
+  ]
+ },
+ "v2_train_2662": {
+  "seeds": [
+   "Nasal foreign body",
+   "Rhinolith",
+   "Unilateral purulent nasal discharge",
+   "Foul-smelling nasal discharge",
+   "Anterior rhinoscopy",
+   "Paranasal sinus radiography",
+   "Pediatric nasal obstruction",
+   "Foreign body aspiration",
+   "Epistaxis",
+   "Nasal mucosal trauma",
+   "Organic foreign body",
+   "Button battery in the nose"
+  ]
+ },
+ "v2_train_2663": {
+  "seeds": [
+   "Peripheral arterial disease",
+   "Intermittent claudication",
+   "Atherosclerosis",
+   "Chronic limb-threatening ischemia",
+   "Diabetic peripheral angiopathy",
+   "Smoking",
+   "Type 2 diabetes mellitus",
+   "Absent pedal pulse",
+   "Ankle-brachial index",
+   "Straight leg raise test",
+   "Metformin",
+   "Hypertension"
+  ]
+ },
+ "v2_train_267": {
+  "seeds": [
+   "Celiac disease",
+   "Iron deficiency anemia",
+   "Dermatitis herpetiformis",
+   "Irritable bowel syndrome",
+   "Malabsorption syndrome",
+   "Oral aphthous ulcers",
+   "Microcytic hypochromic anemia",
+   "Fecal occult blood test",
+   "Conjunctival pallor",
+   "Chronic diarrhea"
+  ]
+ },
+ "v2_train_2701": {
+  "seeds": [
+   "Vitamin B12 deficiency",
+   "Subacute combined degeneration of the spinal cord",
+   "Megaloblastic anemia",
+   "Crohn disease",
+   "Ileocolectomy",
+   "Peripheral neuropathy",
+   "Posterior column dysfunction",
+   "Ataxia",
+   "Positive Romberg sign",
+   "Decreased vibration sensation",
+   "Decreased proprioception",
+   "Methylmalonic acid test"
+  ]
+ },
+ "v2_train_2721": {
+  "seeds": [
+   "Cytomegalovirus retinitis",
+   "AIDS-related retinitis",
+   "Retinal hemorrhage",
+   "Granular yellow-white retinal opacities",
+   "Dot-blot hemorrhages",
+   "Kaposi sarcoma",
+   "Human immunodeficiency virus infection",
+   "CD4 count <50 cells/mm3",
+   "Fungal esophagitis",
+   "Efavirenz",
+   "Tenofovir",
+   "Emtricitabine",
+   "Trimethoprim-sulfamethoxazole"
+  ]
+ },
+ "v2_train_2779": {
+  "seeds": [
+   "Infective endocarditis",
+   "Right-sided infective endocarditis",
+   "Tricuspid valve endocarditis",
+   "Septic shock",
+   "Acute toxic encephalopathy",
+   "Hypotension",
+   "Diastolic murmur",
+   "Pulmonary septic emboli",
+   "Acute kidney injury",
+   "Acute liver injury",
+   "Prolonged prothrombin time",
+   "Prolonged activated partial thromboplastin time"
+  ]
+ },
+ "v2_train_2831": {
+  "seeds": [
+   "Delirium",
+   "Postoperative delirium",
+   "Opioid-induced delirium",
+   "Oxycodone",
+   "Hip fracture repair",
+   "Inattention",
+   "Disorientation",
+   "Sleep-wake cycle disturbance",
+   "Urine dipstick test",
+   "Normal vital signs"
+  ]
+ },
+ "v2_train_2868": {
+  "seeds": [
+   "Hereditary hemochromatosis",
+   "Iron overload",
+   "Cirrhosis",
+   "Hepatocellular carcinoma",
+   "Diabetes mellitus",
+   "Cardiomyopathy",
+   "Arthralgia",
+   "Right upper quadrant pain",
+   "Jaundice",
+   "Bronze skin hyperpigmentation",
+   "Serum ferritin test",
+   "Transferrin saturation test",
+   "Liver biopsy"
+  ]
+ },
+ "v2_train_2886": {
+  "seeds": [
+   "Constitutional growth delay",
+   "Familial short stature",
+   "Growth hormone deficiency",
+   "Hypothyroidism",
+   "Chronic systemic disease",
+   "Delayed bone age",
+   "Tanner stage 2",
+   "Bone age radiograph",
+   "Insulin-like growth factor 1 deficiency",
+   "Pituitary dwarfism",
+   "Pediatric short stature evaluation",
+   "Growth chart"
+  ]
+ },
+ "v2_train_2910": {
+  "seeds": [
+   "Acute mesenteric ischemia",
+   "Ischemic colitis",
+   "Nonocclusive mesenteric ischemia",
+   "Colonic ischemia",
+   "Cardiopulmonary bypass",
+   "Perioperative hypotension",
+   "Atherosclerosis",
+   "Hypercholesterolemia",
+   "Type 2 diabetes mellitus",
+   "Hematochezia",
+   "Abdominal cramping",
+   "Decreased bowel sounds",
+   "Computed tomography angiography",
+   "Lactate dehydrogenase"
+  ]
+ },
+ "v2_train_2931": {
+  "seeds": [
+   "Posttraumatic stress disorder",
+   "Acute stress disorder",
+   "Panic attacks",
+   "Major depressive disorder",
+   "Adjustment disorder",
+   "Hashimoto thyroiditis",
+   "Levothyroxine",
+   "Nightmares",
+   "Hypervigilance",
+   "Avoidance behavior",
+   "Depressed mood",
+   "Negative affect"
+  ]
+ },
+ "v2_train_3070": {
+  "seeds": [
+   "Primary hyperparathyroidism",
+   "Parathyroid adenoma",
+   "Hyperthyroidism",
+   "Graves disease",
+   "Hypercalcemia",
+   "Hypercalciuria",
+   "Nephrolithiasis",
+   "Osteitis fibrosa cystica",
+   "Parathyroid hormone",
+   "Serum calcium test",
+   "24-hour urine calcium test",
+   "Thyroid-stimulating hormone test"
+  ]
+ },
+ "v2_train_3120": {
+  "seeds": [
+   "Alpha-1 antitrypsin deficiency",
+   "Panacinar emphysema",
+   "Cirrhosis",
+   "Asthma",
+   "Chronic obstructive pulmonary disease",
+   "Jaundice",
+   "Spider angioma",
+   "Barrel chest",
+   "Chest radiograph",
+   "Alpha-1 antitrypsin level",
+   "Pulmonary function tests"
+  ]
+ },
+ "v2_train_3162": {
+  "seeds": [
+   "Amphetamine intoxication",
+   "Stimulant use disorder",
+   "Cocaine intoxication",
+   "Methamphetamine intoxication",
+   "Acute psychosis",
+   "Sympathomimetic toxidrome",
+   "Mydriasis",
+   "Diaphoresis",
+   "Tachycardia",
+   "Hypertension",
+   "Hyperthermia",
+   "Haloperidol",
+   "Diazepam"
+  ]
+ },
+ "v2_train_3249": {
+  "seeds": [
+   "Vitamin B12 deficiency",
+   "Subacute combined degeneration of the spinal cord",
+   "Megaloblastic anemia",
+   "Peripheral neuropathy",
+   "Crohn disease",
+   "Ileal resection",
+   "Macrocytic anemia",
+   "Methylmalonic acid",
+   "Homocysteine",
+   "Intrinsic factor",
+   "Vitamin B12 absorption",
+   "MRI spine",
+   "Paresthesia"
+  ]
+ },
+ "v2_train_3261": {
+  "seeds": [
+   "Acute viral hepatitis",
+   "Fulminant hepatitis",
+   "Hepatic encephalopathy",
+   "Acute liver failure",
+   "Hepatitis B virus infection",
+   "Hepatitis A virus infection",
+   "Hepatitis C virus infection",
+   "Asterixis",
+   "Jaundice",
+   "Coagulopathy",
+   "Prothrombin time prolongation",
+   "International normalized ratio",
+   "Serum aminotransferase elevation",
+   "Epistaxis",
+   "Hepatitis serology"
+  ]
+ },
+ "v2_train_3266": {
+  "seeds": [
+   "Osteosarcoma",
+   "Ewing sarcoma",
+   "Osteochondroma",
+   "Chondroblastoma",
+   "Aneurysmal bone cyst",
+   "Night pain",
+   "Bone swelling",
+   "Localized bone pain",
+   "Plain radiography",
+   "MRI of the knee",
+   "Periosteal reaction",
+   "Sunburst pattern"
+  ]
+ },
+ "v2_train_3268": {
+  "seeds": [
+   "Cataract",
+   "Bilateral cataract",
+   "Age-related cataract",
+   "Hypertensive retinopathy",
+   "Diabetic retinopathy",
+   "Presbyopia",
+   "Blurry vision",
+   "Decreased visual acuity",
+   "Fundoscopic examination",
+   "Visual acuity test"
+  ]
+ },
+ "v2_train_3282": {
+  "seeds": [
+   "IgA vasculitis",
+   "Henoch-Schonlein purpura",
+   "Leukocytoclastic vasculitis",
+   "Palpable purpura",
+   "Arthralgia",
+   "Arthritis",
+   "Abdominal pain",
+   "Gastrointestinal hemorrhage",
+   "Positive stool occult blood test",
+   "Thrombocytosis",
+   "Recent upper respiratory tract infection",
+   "Streptococcal pharyngitis",
+   "Amoxicillin"
+  ]
+ },
+ "v2_train_3313": {
+  "seeds": [
+   "Thyroglossal duct cyst",
+   "Midline neck mass",
+   "Thyroid nodule",
+   "Euthyroid goiter",
+   "Branchial cleft cyst",
+   "Dermoid cyst",
+   "Hyperthyroidism",
+   "Thyroid ultrasonography",
+   "Fine-needle aspiration biopsy",
+   "Sistrunk procedure",
+   "Thyroid function tests",
+   "Ectopic thyroid tissue"
+  ]
+ },
+ "v2_train_3346": {
+  "seeds": [
+   "Pelvic inflammatory disease",
+   "Ectopic pregnancy",
+   "Appendicitis",
+   "Ruptured ovarian cyst",
+   "Ovarian torsion",
+   "Mittelschmerz",
+   "Right adnexal tenderness",
+   "Lower abdominal guarding",
+   "Cul-de-sac fluid collection",
+   "Pelvic ultrasound",
+   "Beta-human chorionic gonadotropin"
+  ]
+ },
+ "v2_train_3358": {
+  "seeds": [
+   "Cataract",
+   "Age-related cataract",
+   "Nuclear sclerosis",
+   "Posterior subcapsular cataract",
+   "Painless vision loss",
+   "Glare sensitivity",
+   "Halos around lights",
+   "Absent red reflex",
+   "Slit-lamp examination",
+   "Ophthalmoscopy"
+  ]
+ },
+ "v2_train_3375": {
+  "seeds": [
+   "Normal bereavement",
+   "Acute stress disorder",
+   "Adjustment disorder",
+   "Persistent complex bereavement disorder",
+   "Prolonged grief disorder",
+   "Childhood grief reaction",
+   "Tearfulness",
+   "Social functioning",
+   "Preschool teacher report",
+   "Depressive disorder"
+  ]
+ },
+ "v2_train_3395": {
+  "seeds": [
+   "Pica",
+   "Iron deficiency anemia",
+   "Pagophagia",
+   "Geophagia",
+   "Fatigue",
+   "Unintentional weight loss",
+   "Glossitis",
+   "Microcytic hypochromic anemia",
+   "Low ferritin level",
+   "Decreased serum iron level",
+   "Increased total iron-binding capacity",
+   "Positive stool guaiac test"
+  ]
+ },
+ "v2_train_3434": {
+  "seeds": [
+   "Alcohol use disorder",
+   "Acute alcoholic hepatitis",
+   "Alcoholic cirrhosis",
+   "Hepatocellular carcinoma",
+   "Aspiration pneumonia",
+   "Alcohol withdrawal",
+   "Chronic pancreatitis",
+   "Hepatic encephalopathy",
+   "Spider angioma",
+   "Scleral icterus",
+   "Halitosis",
+   "Liver function tests"
+  ]
+ },
+ "v2_train_3439": {
+  "seeds": [
+   "Malignant pleural mesothelioma",
+   "Asbestos exposure",
+   "Pleural effusion",
+   "Lung cancer",
+   "Bronchogenic carcinoma",
+   "Lung carcinoma",
+   "Pleuritic chest pain",
+   "Dyspnea",
+   "Chronic cough",
+   "Dullness to percussion",
+   "Decreased breath sounds",
+   "Chest radiograph",
+   "Tissue biopsy"
+  ]
+ },
+ "v2_train_3458": {
+  "seeds": [
+   "Torus palatinus",
+   "Exostosis",
+   "Benign oral bony growth",
+   "Osteoma",
+   "Hard palate mass",
+   "Maxillary torus",
+   "Oral cavity benign tumor",
+   "Bony hard palatal swelling",
+   "Oral examination",
+   "Computed tomography of the maxillofacial region"
+  ]
+ },
+ "v2_train_3485": {
+  "seeds": [
+   "Acute rheumatic fever",
+   "Migratory polyarthritis",
+   "Rheumatic fever with carditis",
+   "Subcutaneous nodules",
+   "Poststreptococcal immune-mediated disease",
+   "Group A Streptococcus pharyngitis",
+   "Antistreptolysin O titer",
+   "Elevated erythrocyte sedimentation rate",
+   "Sterile synovial fluid",
+   "Arthrocentesis"
+  ]
+ },
+ "v2_train_3492": {
+  "seeds": [
+   "Osgood-Schlatter disease",
+   "Tibial tubercle apophysitis",
+   "Patellar tendinopathy",
+   "Sinding-Larsen-Johansson syndrome",
+   "Adolescent overuse injury",
+   "Tibial tubercle traction apophysitis",
+   "Anterior knee pain",
+   "Tenderness over tibial tuberosity",
+   "Pain with resisted knee extension",
+   "Lateral knee radiograph"
+  ]
+ },
+ "v2_train_3496": {
+  "seeds": [
+   "Sensorineural hearing loss",
+   "Unilateral hearing loss",
+   "Tinnitus",
+   "Presbycusis",
+   "Otosclerosis",
+   "M\u00e9ni\u00e8re disease",
+   "Conductive hearing loss",
+   "Rinne test",
+   "Weber test",
+   "Diabetes mellitus type 2",
+   "Raynaud syndrome"
+  ]
+ },
+ "v2_train_3516": {
+  "seeds": [
+   "Placental insufficiency",
+   "Intrauterine growth restriction",
+   "Oligohydramnios",
+   "Gestational hypertension",
+   "Chronic fetal hypoxemia",
+   "Nonreassuring fetal heart rate tracing",
+   "Fetal distress",
+   "Decreased fetal movements",
+   "Preterm labor",
+   "Umbilical cord compression",
+   "Nonstress test",
+   "Amniotic fluid index",
+   "Labetalol"
+  ]
+ },
+ "v2_train_3520": {
+  "seeds": [
+   "Acute aortic dissection",
+   "Stanford type A aortic dissection",
+   "Aortic regurgitation",
+   "Hypertensive emergency",
+   "Aortic aneurysm",
+   "Chest pain",
+   "Diastolic murmur",
+   "Left ventricular hypertrophy",
+   "Chest computed tomography angiography",
+   "Transesophageal echocardiography",
+   "D-dimer",
+   "Hypertension"
+  ]
+ },
+ "v2_train_3555": {
+  "seeds": [
+   "Mallory-Weiss syndrome",
+   "Upper gastrointestinal bleeding",
+   "Hematemesis",
+   "Alcohol intoxication",
+   "Esophageal tear",
+   "Esophageal laceration",
+   "Hypovolemic shock",
+   "Endoscopy",
+   "Type and crossmatch",
+   "Intravenous fluid resuscitation",
+   "Distal esophagus"
+  ]
+ },
+ "v2_train_3586": {
+  "seeds": [
+   "Plague",
+   "Yersinia pestis infection",
+   "Pneumonic plague",
+   "Bubonic plague",
+   "Septicemic plague",
+   "Acute respiratory distress syndrome",
+   "Hemoptysis",
+   "Tender inguinal lymphadenitis",
+   "Bubo",
+   "Gram-negative coccobacillus",
+   "CT scan of the chest",
+   "Septic shock",
+   "Necrotizing lymphadenitis",
+   "Flea-borne transmission"
+  ]
+ },
+ "v2_train_3622": {
+  "seeds": [
+   "Acute pancreatitis",
+   "Alcohol-induced acute pancreatitis",
+   "Biliary pancreatitis",
+   "Choledocholithiasis",
+   "Cholangitis",
+   "Hyperlipasemia",
+   "Hyperamylasemia",
+   "Elevated bilirubin",
+   "Leukocytosis",
+   "Abdominal pain radiating to the back",
+   "Fever"
+  ]
+ },
+ "v2_train_3690": {
+  "seeds": [
+   "Peptic ulcer disease",
+   "Gastric ulcer",
+   "Helicobacter pylori gastritis",
+   "Antral gastritis",
+   "Duodenal ulcer",
+   "Chronic active gastritis",
+   "Foveolar hyperplasia",
+   "Lamina propria lymphoplasmacytic infiltrate",
+   "Gastric mucosal ulceration",
+   "Helicobacter pylori infection",
+   "Upper endoscopy",
+   "Biopsy histopathology"
+  ]
+ },
+ "v2_train_3692": {
+  "seeds": [
+   "Acute myocardial infarction",
+   "Coronary atherosclerosis",
+   "Coronary thrombosis",
+   "Ischemic heart disease",
+   "Sudden cardiac death",
+   "Atherosclerotic cardiovascular disease",
+   "Crushing chest pain",
+   "Electrocardiogram",
+   "Troponin I",
+   "Cardiac arrhythmia"
+  ]
+ },
+ "v2_train_407": {
+  "seeds": [
+   "Chronic obstructive pulmonary disease",
+   "Emphysema",
+   "Centrilobular emphysema",
+   "Chronic bronchitis",
+   "Smoking-related COPD",
+   "Dyspnea on exertion",
+   "Wheezing",
+   "Obstructive ventilatory defect",
+   "Reduced FEV1/FVC ratio",
+   "Reduced diffusing capacity for carbon monoxide",
+   "Spirometry"
+  ]
+ },
+ "v2_train_414": {
+  "seeds": [
+   "Transfusion-related acute lung injury",
+   "Acute respiratory distress syndrome",
+   "Postoperative pneumonia",
+   "Pulmonary edema",
+   "Aspiration pneumonitis",
+   "Pancreatic adenocarcinoma",
+   "Whipple procedure",
+   "Packed red blood cell transfusion reaction",
+   "Acute hypoxemic respiratory failure",
+   "Diffuse bilateral pulmonary infiltrates",
+   "Leukocytosis",
+   "Hypoxemia",
+   "Mechanical ventilation",
+   "Transthoracic echocardiography"
+  ]
+ },
+ "v2_train_444": {
+  "seeds": [
+   "Glioblastoma multiforme",
+   "Meningioma",
+   "Brain metastasis",
+   "Low-grade astrocytoma",
+   "Oligodendroglioma",
+   "Seizure",
+   "Upper motor neuron lesion",
+   "Babinski sign",
+   "Spastic paresis",
+   "Brain MRI"
+  ]
+ },
+ "v2_train_465": {
+  "seeds": [
+   "Fat embolism syndrome",
+   "Fat embolism",
+   "Long bone fracture",
+   "Femur fracture",
+   "Internal fixation",
+   "Hypoxemia",
+   "Petechial rash",
+   "Acute respiratory distress",
+   "Delirium",
+   "Thrombocytopenia",
+   "Anemia",
+   "Tachycardia",
+   "Tachypnea"
+  ]
+ },
+ "v2_train_482": {
+  "seeds": [
+   "Acute myocardial infarction",
+   "Anterior wall myocardial infarction",
+   "Lateral wall myocardial infarction",
+   "Coronary artery thrombosis",
+   "Ventricular fibrillation",
+   "Sudden cardiac death",
+   "Cardiogenic shock",
+   "ST-segment elevation myocardial infarction",
+   "Electrocardiography",
+   "Troponin I",
+   "Coronary atherosclerosis",
+   "Ischemic heart disease"
+  ]
+ },
+ "v2_train_517": {
+  "seeds": [
+   "VACTERL association",
+   "Trisomy 18",
+   "Pierre Robin sequence",
+   "Congenital diaphragmatic hernia",
+   "Neonatal respiratory distress syndrome",
+   "Periportal fibrosis",
+   "Low-set ears",
+   "Retrognathia",
+   "Clubfoot",
+   "Fetal akinesia deformation sequence",
+   "Liver biopsy"
+  ]
+ },
+ "v2_train_520": {
+  "seeds": [
+   "Cystic fibrosis",
+   "Cystic fibrosis transmembrane conductance regulator gene mutation",
+   "Pancreatic exocrine insufficiency",
+   "Fat-soluble vitamin deficiency",
+   "Steatorrhea",
+   "Recurrent respiratory infections",
+   "Bronchiectasis",
+   "Malabsorption syndrome",
+   "Hypophosphatasia",
+   "Rickets",
+   "Failure to thrive",
+   "Sweat chloride test"
+  ]
+ },
+ "v2_train_542": {
+  "seeds": [
+   "Plica syndrome",
+   "Pes anserine bursitis",
+   "Patellofemoral pain syndrome",
+   "Tibial tubercle apophysitis",
+   "Medial meniscus tear",
+   "Osgood-Schlatter disease",
+   "Polycystic ovary syndrome",
+   "Obesity",
+   "Hirsutism",
+   "Oral contraceptive pills",
+   "Pivoting injury",
+   "Medial proximal tibial tenderness"
+  ]
+ },
+ "v2_train_560": {
+  "seeds": [
+   "Crohn disease",
+   "Inflammatory bowel disease",
+   "Chronic diarrhea",
+   "Malabsorption syndrome",
+   "Anal fissure",
+   "Perianal skin tags",
+   "Weight loss",
+   "Crampy abdominal pain",
+   "Fatigue",
+   "Colonoscopy",
+   "Endoscopic biopsy",
+   "Transmural inflammation"
+  ]
+ },
+ "v2_train_562": {
+  "seeds": [
+   "Rheumatoid arthritis",
+   "Inflammatory polyarthritis",
+   "Morning stiffness",
+   "Proximal interphalangeal joint swelling",
+   "Metacarpophalangeal joint swelling",
+   "Rheumatoid nodules",
+   "Joint space narrowing",
+   "Marginal erosions",
+   "Erythrocyte sedimentation rate elevation",
+   "Anemia of chronic disease",
+   "Soft tissue swelling",
+   "Wrist arthritis"
+  ]
+ },
+ "v2_train_569": {
+  "seeds": [
+   "Biliary colic",
+   "Acute cholecystitis",
+   "Cholelithiasis",
+   "Choledocholithiasis",
+   "Gallstone disease",
+   "Acute pancreatitis",
+   "Right upper quadrant abdominal pain",
+   "Fever",
+   "Right upper quadrant tenderness",
+   "Murphy sign",
+   "Abdominal ultrasound",
+   "Obesity"
+  ]
+ },
+ "v2_train_605": {
+  "seeds": [
+   "Paronychia",
+   "Felon",
+   "Herpetic whitlow",
+   "Cellulitis",
+   "Digital mucous cyst",
+   "Subungual hematoma",
+   "Fingertip abscess",
+   "Finger laceration",
+   "Erythema and tenderness of finger",
+   "Pain with palpation of the finger"
+  ]
+ },
+ "v2_train_62": {
+  "seeds": [
+   "Acute labyrinthitis",
+   "Vestibular neuritis",
+   "Benign paroxysmal positional vertigo",
+   "Acoustic neuroma",
+   "M\u00e9ni\u00e8re disease",
+   "Anterior inferior cerebellar artery infarction",
+   "Horizontal nystagmus",
+   "Sensorineural hearing loss",
+   "Tinnitus",
+   "Magnetic resonance imaging",
+   "Viral upper respiratory infection",
+   "Head impulse test",
+   "Audiometry"
+  ]
+ },
+ "v2_train_657": {
+  "seeds": [
+   "Chlamydial cervicitis",
+   "Gonococcal cervicitis",
+   "Human papillomavirus infection",
+   "Cervical dysplasia",
+   "Cervical cancer",
+   "Pelvic inflammatory disease",
+   "Cervical motion tenderness",
+   "Friable cervix",
+   "Postcoital bleeding",
+   "Mucopurulent cervical discharge",
+   "Pap smear",
+   "Nucleic acid amplification test",
+   "Gonorrhea",
+   "Chlamydia trachomatis infection"
+  ]
+ },
+ "v2_train_660": {
+  "seeds": [
+   "Medulloblastoma",
+   "Astrocytoma",
+   "Ependymoma",
+   "Pilocytic astrocytoma",
+   "Intracranial tumor",
+   "Broad-based gait",
+   "Papilledema",
+   "Ventriculoperitoneal shunt",
+   "Surgical excision",
+   "Magnetic resonance imaging"
+  ]
+ },
+ "v2_train_687": {
+  "seeds": [
+   "Polycythemia vera",
+   "Ischemic stroke",
+   "Transient ischemic attack",
+   "Cerebral infarction",
+   "Hypertension",
+   "Hereditary hemorrhagic telangiectasia",
+   "Arteriovenous malformation",
+   "Polycythemia",
+   "Elevated hematocrit",
+   "Erythromelalgia",
+   "Telangiectasia",
+   "Noncontrast head CT"
+  ]
+ },
+ "v2_train_751": {
+  "seeds": [
+   "Age-related macular degeneration",
+   "Dry age-related macular degeneration",
+   "Macular drusen",
+   "Diabetic retinopathy",
+   "Cataract",
+   "Presbyopia",
+   "Age-related macular degeneration progression",
+   "Funduscopic examination",
+   "Visual acuity loss",
+   "Hemoglobin A1c"
+  ]
+ },
+ "v2_train_764": {
+  "seeds": [
+   "Ischemic colitis",
+   "Nonocclusive mesenteric ischemia",
+   "Bowel infarction",
+   "Hemorrhagic infarction of the colon",
+   "Sigmoid colon ischemia",
+   "Atherosclerotic mesenteric ischemia",
+   "Postprandial abdominal pain",
+   "Bloody diarrhea",
+   "Hypotension",
+   "Percutaneous coronary intervention",
+   "Inferior wall STEMI",
+   "Vasopressor therapy"
+  ]
+ },
+ "v2_train_79": {
+  "seeds": [
+   "Alzheimer disease",
+   "Vascular dementia",
+   "Mild cognitive impairment",
+   "Dementia with Lewy bodies",
+   "Frontotemporal dementia",
+   "Normal pressure hydrocephalus",
+   "Short-term memory impairment",
+   "Disorientation to time",
+   "Aphasia",
+   "Serial sevens impairment",
+   "Clock drawing test",
+   "Executive dysfunction",
+   "Atrial fibrillation"
+  ]
+ },
+ "v2_train_827": {
+  "seeds": [
+   "Celiac disease",
+   "Tropical sprue",
+   "Whipple disease",
+   "Giardiasis",
+   "Irritable bowel syndrome",
+   "Fat malabsorption",
+   "Steatorrhea",
+   "D-xylose absorption test",
+   "Rifaximin",
+   "Pallor",
+   "Cheilitis",
+   "Iron deficiency anemia"
+  ]
+ },
+ "v2_train_867": {
+  "seeds": [
+   "Pyoderma gangrenosum",
+   "Venous stasis ulcer",
+   "Necrotizing vasculitis",
+   "Cutaneous anthrax",
+   "Necrobiosis lipoidica diabeticorum",
+   "Crohn disease",
+   "Anterior uveitis",
+   "Pathergy",
+   "Lower extremity edema",
+   "Varicose veins",
+   "Skin ulcer biopsy",
+   "Wound culture"
+  ]
+ },
+ "v2_train_893": {
+  "seeds": [
+   "Placenta previa",
+   "Painless vaginal bleeding in pregnancy",
+   "Cesarean scar pregnancy",
+   "Placental abruption",
+   "Vasa previa",
+   "Uterine rupture",
+   "Transvaginal ultrasonography",
+   "Low-lying placenta",
+   "Placenta accreta spectrum",
+   "Smoking during pregnancy",
+   "Absence of uterine tenderness",
+   "Absence of uterine contractions"
+  ]
+ },
+ "v2_train_9": {
+  "seeds": [
+   "Neonatal respiratory distress syndrome",
+   "Respiratory distress syndrome of the newborn",
+   "Surfactant deficiency",
+   "Prematurity",
+   "Hyaline membrane disease",
+   "Transient tachypnea of the newborn",
+   "Meconium aspiration syndrome",
+   "Neonatal pneumonia",
+   "Pneumothorax",
+   "Nasal flaring",
+   "Expiratory grunting",
+   "Atelectasis",
+   "Chest radiography"
+  ]
+ },
+ "v2_train_949": {
+  "seeds": [
+   "Pulmonary embolism",
+   "Acute coronary syndrome",
+   "Myocardial infarction",
+   "Panic attack",
+   "Pneumothorax",
+   "Aortic dissection",
+   "Elevated D-dimer",
+   "Cardiac troponin I",
+   "Electrocardiogram",
+   "Chest radiograph",
+   "Sinus tachycardia",
+   "Right heart strain"
+  ]
+ },
+ "v2_train_951": {
+  "seeds": [
+   "Pretibial myxedema",
+   "Graves disease",
+   "Hypothyroidism",
+   "Myxedema",
+   "Thyroid-stimulating immunoglobulin",
+   "Thyroid-stimulating hormone receptor antibody",
+   "Thyroid function tests",
+   "Free thyroxine level",
+   "Thyroid-stimulating hormone level",
+   "Thyroid ultrasound",
+   "Lymphedema",
+   "Chronic venous insufficiency"
+  ]
+ },
+ "v2_train_979": {
+  "seeds": [
+   "Acute pyelonephritis",
+   "Chronic pyelonephritis",
+   "Recurrent urinary tract infection",
+   "Vesicoureteral reflux",
+   "Myelomeningocele",
+   "Neurogenic bladder",
+   "Costovertebral angle tenderness",
+   "Fever",
+   "Renal cortical scarring",
+   "Thyroidization of renal tubules",
+   "Interstitial nephritis",
+   "Renal biopsy"
+  ]
+ },
+ "v2_val_3743": {
+  "seeds": [
+   "IgA nephropathy",
+   "Poststreptococcal glomerulonephritis",
+   "Gross hematuria",
+   "Dysmorphic red blood cells",
+   "Red blood cell casts",
+   "Pharyngitis",
+   "Tonsillitis",
+   "Hematuria",
+   "Proteinuria",
+   "Elevated serum creatinine",
+   "Renal biopsy",
+   "Renal ultrasound"
+  ]
+ },
+ "v2_val_3754": {
+  "seeds": [
+   "Acute flaccid myelitis",
+   "Poliomyelitis",
+   "Poliovirus infection",
+   "Viral anterior horn cell disease",
+   "Anterior horn cell syndrome",
+   "Lower motor neuron weakness",
+   "Areflexia",
+   "Cerebrospinal fluid lymphocytic pleocytosis",
+   "Albuminocytologic dissociation",
+   "Cerebrospinal fluid analysis",
+   "Inactivated poliovirus vaccine",
+   "Post-viral neurologic weakness"
+  ]
+ },
+ "v2_val_3764": {
+  "seeds": [
+   "Budd-Chiari syndrome",
+   "Polycythemia vera",
+   "Hepatic vein thrombosis",
+   "Portal vein thrombosis",
+   "Acute hepatitis",
+   "Choledocholithiasis",
+   "Obstructive jaundice",
+   "Right upper quadrant abdominal pain",
+   "Jaundice",
+   "Tender hepatomegaly",
+   "Elevated transaminases",
+   "Elevated hemoglobin concentration"
+  ]
+ },
+ "v2_val_3784": {
+  "seeds": [
+   "oligoarticular juvenile idiopathic arthritis",
+   "juvenile idiopathic arthritis",
+   "chronic anterior uveitis",
+   "iridocyclitis",
+   "antinuclear antibody positivity",
+   "rheumatoid factor negative",
+   "morning stiffness",
+   "slit-lamp examination",
+   "anterior chamber flare",
+   "synovitis",
+   "knee effusion",
+   "ankle arthritis"
+  ]
+ },
+ "v2_val_3803": {
+  "seeds": [
+   "Nephrolithiasis",
+   "Ureterolithiasis",
+   "Renal colic",
+   "Hypercalciuria",
+   "Dehydration",
+   "Calcium oxalate stone",
+   "Caffeine use",
+   "Naproxen",
+   "Urinalysis",
+   "Noncontrast helical CT of the abdomen and pelvis"
+  ]
+ },
+ "v2_val_3900": {
+  "seeds": [
+   "Osteoarthritis",
+   "Heberden nodes",
+   "Distal interphalangeal joint osteoarthritis",
+   "Knee osteoarthritis",
+   "Inflammatory arthritis",
+   "Rheumatoid arthritis",
+   "Morning stiffness",
+   "Obesity",
+   "Degenerative joint disease",
+   "Bouchard nodes",
+   "Hand joint deformity",
+   "Acetaminophen"
+  ]
+ },
+ "v2_val_3952": {
+  "seeds": [
+   "Pulmonary embolism",
+   "Deep vein thrombosis",
+   "Hypercoagulable state",
+   "Oral contraceptive use",
+   "Travel-associated venous thromboembolism",
+   "Heparin-induced thrombocytopenia",
+   "Warfarin-induced skin necrosis",
+   "Protein C deficiency",
+   "Anticoagulation therapy",
+   "Computed tomography pulmonary angiography",
+   "Pleuritic chest pain",
+   "Skin necrosis"
+  ]
+ },
+ "v2_val_3981": {
+  "seeds": [
+   "Schizophrenia",
+   "Schizoaffective disorder",
+   "Major depressive disorder with psychotic features",
+   "Brief psychotic disorder",
+   "Delusional disorder",
+   "Bizarre delusion",
+   "Alogia",
+   "Flat affect",
+   "Apathy",
+   "Negative symptoms of schizophrenia",
+   "Urine drug screen",
+   "Cannabis use disorder"
+  ]
+ },
+ "v2_val_3986": {
+  "seeds": [
+   "Postoperative pneumonia",
+   "Hospital-acquired pneumonia",
+   "Aspiration pneumonia",
+   "Postoperative delirium",
+   "Atelectasis",
+   "Pulmonary embolism",
+   "Sepsis",
+   "Pneumococcal pneumonia",
+   "Coarse crackles",
+   "Hypoxemia",
+   "Chest auscultation",
+   "Oxygen saturation",
+   "Temperature elevation",
+   "Tachypnea",
+   "Confusion"
+  ]
+ },
+ "v2_val_4069": {
+  "seeds": [
+   "Graves disease",
+   "Maternal hyperthyroidism",
+   "Fetal/neonatal thyrotoxicosis",
+   "Thyroid-stimulating immunoglobulin",
+   "Exophthalmos",
+   "Fine tremor",
+   "Heat intolerance",
+   "Palpitations",
+   "Tachycardia",
+   "Pretibial myxedema",
+   "TSH receptor antibody assay"
+  ]
+ },
+ "v2_val_4076": {
+  "seeds": [
+   "Sickle cell disease",
+   "Dactylitis",
+   "Vaso-occlusive crisis",
+   "Avascular necrosis of the humeral head",
+   "Osteonecrosis",
+   "Sickle cell anemia",
+   "Acute chest syndrome",
+   "Stroke",
+   "Hemoglobin S polymerization",
+   "Subchondral lucency",
+   "Joint space narrowing",
+   "Sclerosis"
+  ]
+ },
+ "v2_val_4100": {
+  "seeds": [
+   "IgA nephropathy",
+   "Poststreptococcal glomerulonephritis",
+   "Rapidly progressive glomerulonephritis",
+   "Granulomatosis with polyangiitis",
+   "Goodpasture syndrome",
+   "Nephritic syndrome",
+   "Red blood cell casts",
+   "Hematuria",
+   "Proteinuria",
+   "Urinalysis",
+   "Light microscopy",
+   "Upper respiratory tract infection"
+  ]
+ },
+ "v2_val_4110": {
+  "seeds": [
+   "Acute myocarditis",
+   "Dilated cardiomyopathy",
+   "Viral myocarditis",
+   "Heart failure",
+   "Myocardial inflammation",
+   "Atypical Kawasaki disease",
+   "Rheumatic fever",
+   "Cardiomegaly",
+   "Jugular venous distention",
+   "S3 gallop",
+   "Pulmonary crackles",
+   "Peripheral pitting edema",
+   "Chest radiograph",
+   "Electrocardiogram",
+   "Echocardiography",
+   "Troponin I"
+  ]
+ },
+ "v2_val_4119": {
+  "seeds": [
+   "Hairy cell leukemia",
+   "Splenomegaly",
+   "Pancytopenia",
+   "Thrombocytopenia",
+   "Anemia",
+   "Peripheral blood smear with hairy cells",
+   "Bone marrow aspiration failure due to dry tap",
+   "Bone marrow biopsy with reticulin fibrosis",
+   "Easy bruising",
+   "Epistaxis",
+   "Mucosal pallor",
+   "Weight loss"
+  ]
+ },
+ "v2_val_4141": {
+  "seeds": [
+   "Whipple disease",
+   "Tropheryma whipplei infection",
+   "Seronegative rheumatoid arthritis",
+   "Inflammatory bowel disease",
+   "Celiac disease",
+   "Iron deficiency anemia",
+   "Malabsorption syndrome",
+   "Duodenal biopsy",
+   "Periodic acid-Schiff stain",
+   "Small bowel mucosal biopsy",
+   "Murmur of aortic regurgitation",
+   "Generalized lymphadenopathy"
+  ]
+ },
+ "v2_val_4187": {
+  "seeds": [
+   "Axial spondyloarthritis",
+   "Ankylosing spondylitis",
+   "Inflammatory back pain",
+   "Sacroiliitis",
+   "Syndesmophytes",
+   "HLA-B27 antigen",
+   "Morning stiffness",
+   "Lumbar spine radiograph",
+   "Pelvic radiograph",
+   "Reduced spinal flexion",
+   "Aortic regurgitation",
+   "Uveitis",
+   "Cauda equina syndrome"
+  ]
+ },
+ "v2_val_4211": {
+  "seeds": [
+   "Venous stasis ulcer",
+   "Chronic venous insufficiency",
+   "Varicose veins",
+   "Deep vein thrombosis",
+   "Venous hypertension",
+   "Stasis dermatitis",
+   "Peripheral arterial disease",
+   "Diabetic foot ulcer",
+   "Warfarin therapy",
+   "Ankle-brachial index",
+   "Granulation tissue",
+   "Medial malleolus ulcer"
+  ]
+ },
+ "v2_val_4251": {
+  "seeds": [
+   "Erythema infectiosum",
+   "Parvovirus B19 infection",
+   "Rubella",
+   "Measles",
+   "Viral exanthem",
+   "Posterior cervical lymphadenopathy",
+   "Fifth disease",
+   "Slapped cheek rash",
+   "Maculopapular rash",
+   "Truncal rash",
+   "Low-grade fever"
+  ]
+ },
+ "v2_val_4280": {
+  "seeds": [
+   "Crohn disease",
+   "Aphthous ulcer",
+   "Cobblestone mucosa",
+   "Terminal ileitis",
+   "Iron deficiency anemia",
+   "Microcytic anemia",
+   "Leukocytosis",
+   "Inflammatory bowel disease",
+   "Gastrointestinal biopsy",
+   "Colonoscopy"
+  ]
+ },
+ "v2_val_4309": {
+  "seeds": [
+   "Focal aware motor seizure",
+   "Todd paralysis",
+   "Poststreptococcal infection",
+   "Rheumatic fever",
+   "Febrile seizure",
+   "Epilepsy",
+   "Electroencephalography",
+   "Antistreptolysin O titer",
+   "Throat culture for Group A Streptococcus",
+   "Brain magnetic resonance imaging"
+  ]
+ },
+ "v2_val_4316": {
+  "seeds": [
+   "Bipolar I disorder",
+   "Bipolar II disorder",
+   "Major depressive disorder",
+   "Substance/medication-induced bipolar and related disorder",
+   "Steroid-induced mania",
+   "Hypomanic episode",
+   "Manic episode",
+   "Pressured speech",
+   "Decreased need for sleep",
+   "Cocaine use disorder",
+   "Glucocorticoid therapy",
+   "Asthma exacerbation"
+  ]
+ },
+ "v2_val_4333": {
+  "seeds": [
+   "Ectopic pregnancy",
+   "Intrauterine pregnancy",
+   "Pregnancy of unknown location",
+   "Delayed menstrual period",
+   "Lower abdominal pain",
+   "Decidualization of endometrium",
+   "Absence of chorionic villi",
+   "Pelvic examination",
+   "Endometrial biopsy",
+   "Transvaginal ultrasonography",
+   "Serum beta-hCG test",
+   "Chlamydia trachomatis infection"
+  ]
+ },
+ "v2_val_4348": {
+  "seeds": [
+   "Hypoglycemia",
+   "Insulinoma",
+   "Endogenous hyperinsulinemic hypoglycemia",
+   "Whipple triad",
+   "Neuroglycopenia",
+   "Sulfonylurea-induced hypoglycemia",
+   "Factitious hypoglycemia",
+   "Type 2 diabetes mellitus",
+   "Insulin/C-peptide assay",
+   "72-hour supervised fast",
+   "Abdominal CT scan",
+   "Pancreatic neuroendocrine tumor"
+  ]
+ }
+}

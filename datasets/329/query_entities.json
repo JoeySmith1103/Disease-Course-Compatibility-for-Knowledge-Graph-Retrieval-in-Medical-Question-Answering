@@ -1,0 +1,7821 @@
+{
+ "aud_001": {
+  "symptoms_signs": [
+   "fever",
+   "chills",
+   "dyspnea",
+   "productive cough",
+   "oliguria",
+   "breathing problems",
+   "blood pressure 80/48 mm Hg",
+   "pulse 120/min",
+   "respiratory rate 28/min",
+   "body temperature 39.0\u00b0C",
+   "decreased breathing sounds left lung base",
+   "increased vocal resonance",
+   "pan-inspiratory crackles",
+   "mildly distended abdomen",
+   "positive fluid wave",
+   "disoriented level of consciousness",
+   "drowsiness"
+  ],
+  "diseases_mentioned": [
+   "hepatitis C",
+   "hypertension",
+   "hypercholesterolemia"
+  ],
+  "procedures": [
+   "transfer to ICU",
+   "vasoactive support"
+  ],
+  "drugs": [
+   "bisoprolol",
+   "hydrochlorothiazide",
+   "atorvastatin"
+  ],
+  "lab_findings": [
+   "leukocytosis",
+   "neutrophilia with bands",
+   "anuria"
+  ]
+ },
+ "aud_002": {
+  "symptoms_signs": [
+   "progressively worsening fatigue",
+   "headache",
+   "somnolent",
+   "oriented only to person"
+  ],
+  "diseases_mentioned": [
+   "HIV infection"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "CD4+ lymphocyte count 80/mm3",
+   "leukocyte count 30/mm3",
+   "60% lymphocytes in CSF",
+   "protein concentration 52 mg/dL",
+   "glucose concentration 37 mg/dL",
+   "India ink stain of CSF"
+  ]
+ },
+ "aud_004": {
+  "symptoms_signs": [
+   "crushing substernal chest pain",
+   "shortness of breath",
+   "temperature 98.1\u00b0F",
+   "blood pressure 137/98 mm Hg",
+   "pulse 100/min",
+   "respiratory rate 24/min",
+   "oxygen saturation 100% on room air"
+  ],
+  "diseases_mentioned": [
+   "morbid obesity",
+   "type II diabetes mellitus"
+  ],
+  "procedures": [
+   "ECG"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "aud_006": {
+  "symptoms_signs": [
+   "excruciating left knee pain",
+   "tender left knee joint",
+   "swollen left knee joint",
+   "limited range of motion",
+   "temperature 38.1\u00b0C",
+   "pulse 97/min",
+   "blood pressure 118/71 mm Hg"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "osteoarthritis",
+   "septic arthritis"
+  ],
+  "procedures": [
+   "total knee arthroplasty",
+   "prosthesis removal"
+  ],
+  "drugs": [
+   "glucosamine",
+   "amlodipine",
+   "meloxicam"
+  ],
+  "lab_findings": [
+   "analysis of synovial fluid"
+  ]
+ },
+ "aud_008": {
+  "symptoms_signs": [
+   "continuous and repetitive mouth movements",
+   "continuous and repetitive tongue movements",
+   "non-verbal at baseline",
+   "gaunt appearance",
+   "anxious appearance",
+   "drooling",
+   "chewing motion",
+   "tongue wagging",
+   "regular heart rate and rhythm",
+   "lungs clear to auscultation"
+  ],
+  "diseases_mentioned": [
+   "unspecified psychiatric disorder"
+  ],
+  "procedures": [],
+  "drugs": [
+   "fluphenazine"
+  ],
+  "lab_findings": [
+   "heart rate 90/min",
+   "respiratory rate 17/min",
+   "blood pressure 125/87 mm Hg",
+   "temperature 37.0\u00b0C",
+   "normal CMP",
+   "normal CBC",
+   "normal TSH",
+   "negative urine toxicology test"
+  ]
+ },
+ "aud_010": {
+  "symptoms_signs": [
+   "progressively worsening headache",
+   "photophobia",
+   "intermittent fever",
+   "frontal headache",
+   "headache radiates down neck",
+   "temperature 38.5\u00b0C",
+   "pale appearance",
+   "diaphoretic",
+   "fine erythematous rash on neck",
+   "fine erythematous rash on forearms"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "lumbar puncture"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "opening pressure 300 mm H2O",
+   "erythrocytes none",
+   "leukocytes 72/mm3",
+   "neutrophils 10%",
+   "lymphocytes 75%",
+   "mononuclear 15%",
+   "protein 100 mg/dL",
+   "glucose 70 mg/dL"
+  ]
+ },
+ "aud_011": {
+  "symptoms_signs": [
+   "persistent fatigue",
+   "temperature 36\u00b0C",
+   "pulse 121/min",
+   "blood pressure 120/78 mm Hg",
+   "pale conjunctivae"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "peripheral blood smear"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "aud_012": {
+  "symptoms_signs": [
+   "chest pain",
+   "pressure-like sensation over sternum",
+   "pain radiates into jaw",
+   "pain constant for 2 hours",
+   "diaphoretic",
+   "moderate distress",
+   "temperature 99.1\u00b0F",
+   "blood pressure 155/85 mmHg",
+   "pulse 115/min",
+   "respirations 22/min"
+  ],
+  "diseases_mentioned": [
+   "stable abdominal aortic aneurysm",
+   "hypertension",
+   "diabetes",
+   "hyperlipidemia"
+  ],
+  "procedures": [],
+  "drugs": [
+   "aspirin",
+   "enalapril",
+   "spironolactone",
+   "atorvastatin",
+   "canagliflozin",
+   "metformin"
+  ],
+  "lab_findings": []
+ },
+ "aud_014": {
+  "symptoms_signs": [
+   "shortness of breath",
+   "wheezing",
+   "bilateral knee pain",
+   "nasal polyp",
+   "disappearance of bilateral radial pulses on deep inspiration"
+  ],
+  "diseases_mentioned": [
+   "rhinitis"
+  ],
+  "procedures": [],
+  "drugs": [
+   "naproxen"
+  ],
+  "lab_findings": []
+ },
+ "aud_019": {
+  "symptoms_signs": [
+   "progressive frontal headaches",
+   "headaches worse in the morning",
+   "headaches wake her from sleep",
+   "no focal deficits",
+   "stable vital signs"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "brain imaging",
+   "biopsy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "mass lesion on brain imaging"
+  ]
+ },
+ "aud_022": {
+  "symptoms_signs": [
+   "chest pain",
+   "persistent chest pain",
+   "pain started about 1 hour ago",
+   "temperature 98.9\u00b0F",
+   "blood pressure 126/68 mmHg",
+   "pulse 119/min",
+   "respirations 19/min",
+   "oxygen saturation 99% on room air"
+  ],
+  "diseases_mentioned": [
+   "myocardial infarction",
+   "diabetes mellitus"
+  ],
+  "procedures": [
+   "EKG"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "aud_027": {
+  "symptoms_signs": [
+   "3-week history of dyspnea",
+   "chest pain",
+   "dry cough",
+   "painful swallowing",
+   "feeling of fullness in head",
+   "swelling of face and neck",
+   "redness of face and neck",
+   "distention of superficial veins",
+   "pulse 99/min",
+   "blood pressure 95/66 mm Hg"
+  ],
+  "diseases_mentioned": [
+   "gastroesophageal reflux disease"
+  ],
+  "procedures": [],
+  "drugs": [
+   "esomeprazole"
+  ],
+  "lab_findings": [
+   "plain radiographs show widened mediastinum",
+   "plain radiographs show unremarkable lung fields"
+  ]
+ },
+ "aud_030": {
+  "symptoms_signs": [
+   "fatigue",
+   "palpitations",
+   "symmetric joint pain",
+   "joint pain of hands",
+   "joint pain of wrists",
+   "joint pain of knees",
+   "joint pain of ankles",
+   "morning joint pain",
+   "runny nose",
+   "congestion",
+   "splenomegaly",
+   "pallor",
+   "generalized weakness"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "aud_031": {
+  "symptoms_signs": [
+   "fever",
+   "difficulty swallowing",
+   "anxious appearance",
+   "temperature 39.1\u00b0C",
+   "extended neck",
+   "excessive drooling",
+   "muffled voice",
+   "inspiratory stridor",
+   "tender bilateral cervical lymphadenopathy",
+   "pain on palpation of hyoid"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "leukocyte count 18,800/mm3",
+   "85% neutrophils"
+  ]
+ },
+ "aud_036": {
+  "symptoms_signs": [
+   "acute burning retrosternal sensation",
+   "radiation to jaw",
+   "paleness",
+   "perspiration",
+   "blood pressure 140/90 mm Hg",
+   "heart rate 84/min",
+   "respiratory rate 14/min",
+   "temperature 36.6\u2103"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "ECG",
+   "express troponin test"
+  ],
+  "drugs": [
+   "sublingual nitroglycerin"
+  ],
+  "lab_findings": [
+   "ECG increased R amplitude in I, II V3-V6",
+   "ECG ST depression 0.5 mm",
+   "express troponin test negative"
+  ]
+ },
+ "aud_038": {
+  "symptoms_signs": [
+   "upper abdominal discomfort",
+   "3\u20134 episodes of vomiting",
+   "frequent episodes of abdominal pain at night",
+   "pain relieved by eating",
+   "temperature 39.5\u00b0C",
+   "pulse 90/min",
+   "blood pressure 110/70 mm Hg",
+   "soft abdomen",
+   "mild tenderness to palpation in right upper quadrant",
+   "normal bowel sounds",
+   "positive stool occult blood test"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "right shoulder surgery"
+  ],
+  "drugs": [
+   "daily naproxen"
+  ],
+  "lab_findings": [
+   "hemoglobin concentration 13.1 g/dL",
+   "leukocyte count 23,100/mm3",
+   "platelet count 230,000/mm3",
+   "abdominal ultrasound 2-cm hypoechoic lesion in liver"
+  ]
+ },
+ "aud_042": {
+  "symptoms_signs": [
+   "fever",
+   "vomiting",
+   "abdominal pain",
+   "temperature 38.3\u00b0C",
+   "blood pressure 138/76 mm Hg",
+   "jaundice",
+   "tender hepatomegaly",
+   "enlarged liver"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "emergency appendectomy",
+   "transfusion of 1 unit packed red blood cells",
+   "liver biopsy",
+   "abdominal ultrasonography"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "Alkaline phosphatase 102 U/L",
+   "Aspartate aminotransferase 760 U/L",
+   "Total bilirubin 3.8 mg/dL",
+   "Direct bilirubin 3.1 mg/dL",
+   "Anti-HAV IgG positive",
+   "Anti-HAV IgM negative",
+   "Anti-HBs positive",
+   "HBsAg negative",
+   "Anti-HCV antibodies negative",
+   "massive centrilobular necrosis"
+  ]
+ },
+ "aud_043": {
+  "symptoms_signs": [
+   "swelling of the face",
+   "elevated blood pressure",
+   "temperature 98.6\u00b0F",
+   "blood pressure 154/78 mmHg",
+   "pulse 87/min",
+   "respirations 12/min"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "anti-hypertensive medication"
+  ],
+  "lab_findings": []
+ },
+ "aud_046": {
+  "symptoms_signs": [
+   "left-sided headache",
+   "right-sided blurry vision",
+   "dark urine",
+   "abdominal pain",
+   "mild abdominal tenderness",
+   "liver edge 4 cm below right costal margin"
+  ],
+  "diseases_mentioned": [
+   "sickle cell trait"
+  ],
+  "procedures": [
+   "peripheral smear",
+   "Doppler ultrasound of the liver",
+   "Magnetic resonance imaging of the brain"
+  ],
+  "drugs": [
+   "trimethoprim-sulfamethoxazole"
+  ],
+  "lab_findings": [
+   "Hemoglobin 7.0 g/dL",
+   "Platelets 149,000/mm^3",
+   "Reticulocyte count 5.4%",
+   "Lactate dehydrogenase 3128 U/L",
+   "Total bilirubin 2.1 mg/dL",
+   "Indirect bilirubin 1.4 mg/dL",
+   "Aspartate aminotransferase 78 U/L",
+   "Alanine aminotransferase 64 U/L",
+   "polychromasia on peripheral smear",
+   "decreased flow in right hepatic vein"
+  ]
+ },
+ "aud_047": {
+  "symptoms_signs": [
+   "progressive left-sided scrotal pain",
+   "throbbing pain",
+   "pain intensity 6 out of 10",
+   "vomited once",
+   "pain during urination",
+   "anxious appearance",
+   "temperature 36.9\u00b0C",
+   "pulse 94/min",
+   "blood pressure 124/78 mm Hg",
+   "tender left testicle",
+   "swollen left testicle",
+   "erythematous left hemiscrotum"
+  ],
+  "diseases_mentioned": [
+   "testicular cancer in father"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "urine dipstick leukocyte esterase",
+   "urinalysis shows WBCs"
+  ]
+ },
+ "aud_050": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "diabetes mellitus type 2",
+   "myocardial infarction"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "aud_053": {
+  "symptoms_signs": [
+   "chest pain",
+   "squeezing sensation in chest",
+   "heart racing",
+   "pulse of 110/min",
+   "respiratory rate of 28/min",
+   "blood pressure of 136/80 mm Hg",
+   "temperature of 37.0\u00b0C",
+   "fidgety and restless",
+   "sinus tachycardia"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "echocardiogram"
+  ],
+  "drugs": [
+   "aspirin"
+  ],
+  "lab_findings": []
+ },
+ "aud_054": {
+  "symptoms_signs": [
+   "throbbing left-sided headache",
+   "vomiting every 20 minutes",
+   "transient visual disturbance",
+   "mild sensitivity to light"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "ibuprofen",
+   "oral contraceptive"
+  ],
+  "lab_findings": [
+   "visual acuity 20/20",
+   "vital signs within normal limits",
+   "physical examination normal"
+  ]
+ },
+ "aud_055": {
+  "symptoms_signs": [
+   "left knee swelling",
+   "mild pain",
+   "generally unwell",
+   "palpitations",
+   "temperature 100\u00b0F",
+   "blood pressure 127/81 mmHg",
+   "pulse 60/min",
+   "respirations 17/min",
+   "oxygen saturation 98% on room air",
+   "left knee swollen",
+   "left knee warm to the touch"
+  ],
+  "diseases_mentioned": [
+   "viral illness",
+   "rheumatoid arthritis",
+   "anxiety"
+  ],
+  "procedures": [
+   "ECG"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "aud_058": {
+  "symptoms_signs": [
+   "malaise",
+   "recurrent fever",
+   "weight loss",
+   "ill appearance",
+   "temperature 39\u00b0C",
+   "generalized lymphadenopathy",
+   "hepatosplenomegaly"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "hemoglobin concentration 9.1 g/dL",
+   "leukocyte count 2900/mm3",
+   "platelet count 108000/mm3"
+  ]
+ },
+ "aud_060": {
+  "symptoms_signs": [
+   "slowly enlarging nodule left upper eyelid",
+   "heaviness of the eyelid",
+   "mild blurring of vision left eye",
+   "decreased visual acuity left eye",
+   "solitary rubbery nontender nodule left upper eyelid",
+   "lesion seen on eversion left eyelid"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "aud_064": {
+  "symptoms_signs": [
+   "yellowish discoloration of the skin",
+   "scleral icterus",
+   "jaundice of the face",
+   "jaundice of the chest",
+   "jaundice of the abdomen"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "uncomplicated vaginal delivery"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "Hemoglobin 17.6 g/dL",
+   "Reticulocytes 0.3%",
+   "Maternal blood group A, Rh-negative",
+   "Fetal blood group 0, Rh-positive",
+   "Total bilirubin 7 mg/dL",
+   "Direct bilirubin 0.6 mg/dL",
+   "Free T4 7 \u03bcg/dL"
+  ]
+ },
+ "aud_067": {
+  "symptoms_signs": [
+   "progressive muscle weakness",
+   "muscle soreness",
+   "weakness in shoulders",
+   "weakness in hips",
+   "difficulty getting up from chairs",
+   "difficulty climbing stairs",
+   "difficulty combing hair",
+   "difficulty swallowing solid foods",
+   "moderate weakness in arm abductors",
+   "moderate weakness in hip flexors",
+   "deep tendon reflexes 2+ bilaterally"
+  ],
+  "diseases_mentioned": [
+   "hyperlipidemia",
+   "Duchenne's muscular dystrophy",
+   "Hashimoto's thyroiditis"
+  ],
+  "procedures": [],
+  "drugs": [
+   "fluvastatin"
+  ],
+  "lab_findings": [
+   "Hemoglobin 13.7 g/dL",
+   "Leukocytes 11,200/mm3",
+   "Erythrocyte sedimentation rate 33 mm/h",
+   "Creatine kinase 212 U/L",
+   "Lactate dehydrogenase 164 U/L",
+   "AST 34 U/L",
+   "ALT 35 U/L"
+  ]
+ },
+ "aud_068": {
+  "symptoms_signs": [
+   "increasing shortness of breath",
+   "pain in both wrists",
+   "stiffness in both wrists",
+   "pain in distal interphalangeal joints",
+   "stiffness in distal interphalangeal joints",
+   "pain in metacarpophalangeal joints",
+   "stiffness in metacarpophalangeal joints",
+   "short rapid breathing",
+   "fine end-inspiratory rales",
+   "blood pressure 135/85 mm Hg",
+   "pulse rate 90/min",
+   "temperature 36.9\u00b0C",
+   "respiratory rate 22/min"
+  ],
+  "diseases_mentioned": [
+   "rheumatoid arthritis"
+  ],
+  "procedures": [
+   "echocardiogram",
+   "chest X-ray"
+  ],
+  "drugs": [
+   "methotrexate"
+  ],
+  "lab_findings": [
+   "ejection fraction 55%",
+   "diffuse bilateral reticular markings",
+   "multiple pulmonary nodules"
+  ]
+ },
+ "aud_070": {
+  "symptoms_signs": [
+   "progressive weakness",
+   "numbness",
+   "bilateral facial weakness",
+   "headaches",
+   "bilateral upper facial paralysis",
+   "bilateral lower facial paralysis",
+   "generalized muscle weakness",
+   "decreased sensation to light touch",
+   "absent sensation in fingertips",
+   "absent sensation in toes",
+   "deep tendon reflexes 1+ bilaterally"
+  ],
+  "diseases_mentioned": [
+   "hepatitis B",
+   "Graves' disease"
+  ],
+  "procedures": [],
+  "drugs": [
+   "methimazole",
+   "multivitamin"
+  ],
+  "lab_findings": []
+ },
+ "aud_071": {
+  "symptoms_signs": [
+   "acute abdominal pain",
+   "abdomen mildly distended",
+   "diffusely tender abdomen",
+   "positive rebound tenderness",
+   "temperature 36.7\u00b0C",
+   "blood pressure 96/54 mm Hg",
+   "heart rate 112/min",
+   "respiratory rate 19/min"
+  ],
+  "diseases_mentioned": [
+   "peptic ulcer disease"
+  ],
+  "procedures": [],
+  "drugs": [
+   "outpatient triple therapy"
+  ],
+  "lab_findings": []
+ },
+ "aud_080": {
+  "symptoms_signs": [
+   "progressive swelling left calf",
+   "pain in left calf",
+   "tenderness left lower extremity",
+   "swelling left lower extremity",
+   "temperature 100.4\u00b0F",
+   "pulse 84/min",
+   "blood pressure 135/92 mm Hg"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "chronic kidney disease"
+  ],
+  "procedures": [
+   "venous Doppler ultrasonography"
+  ],
+  "drugs": [
+   "enalapril",
+   "aspirin",
+   "simvastatin",
+   "vitamin D",
+   "unfractionated heparin"
+  ],
+  "lab_findings": [
+   "hemoglobin 11.2 g/dL",
+   "hemoglobin 11.1 g/dL",
+   "leukocyte count 5,500/mm3",
+   "leukocyte count 6,100/mm3",
+   "platelet count 230,000/mm3",
+   "platelet count 170,000/mm3",
+   "prothrombin time 12 seconds",
+   "prothrombin time 13 seconds",
+   "partial thromboplastin time 30 seconds",
+   "partial thromboplastin time 55 seconds",
+   "estimated glomerular filtration rate 29 mL/min/1.73 m2",
+   "estimated glomerular filtration rate 28 mL/min/1.73 m2",
+   "thrombus in left popliteal vein"
+  ]
+ },
+ "aud_083": {
+  "symptoms_signs": [
+   "burned out",
+   "irritable",
+   "edgy",
+   "unfocused",
+   "forgetful",
+   "severe anxiety",
+   "difficulty sleeping"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "mild sleep aids"
+  ],
+  "lab_findings": []
+ },
+ "aud_085": {
+  "symptoms_signs": [
+   "feels sad",
+   "frequent brief episodes of crying",
+   "sleeps in every morning",
+   "spends most time in bed",
+   "stopped going to the gym",
+   "eats more",
+   "gained 4 kg over 4 weeks",
+   "depressed mood"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "smokes marijuana a few times a week",
+   "drinks one glass of wine daily"
+  ],
+  "lab_findings": []
+ },
+ "aud_093": {
+  "symptoms_signs": [
+   "progressive weight loss",
+   "dizziness",
+   "nausea",
+   "vomiting",
+   "fever",
+   "diarrhea",
+   "cough",
+   "temperature 97.7\u00b0F",
+   "blood pressure 114/64 mmHg",
+   "pulse 105/min",
+   "respirations 72/min",
+   "oxygen saturation 99% on room air"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "Na+ 139 mEq/L",
+   "Cl- 100 mEq/L",
+   "K+ 6.3 mEq/L",
+   "HCO3- 15 mEq/L",
+   "BUN 20 mg/dL",
+   "Glucose 66 mg/dL",
+   "Creatinine 1.1 mg/dL",
+   "Ca2+ 10.2 mg/dL"
+  ]
+ },
+ "aud_099": {
+  "symptoms_signs": [
+   "progressive discomfort right shoulder",
+   "tenderness to palpation",
+   "firm mass superior right deltopectoral groove",
+   "limited range of motion",
+   "pain",
+   "stiffness"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "aud_102": {
+  "symptoms_signs": [
+   "left-sided visual loss",
+   "jagged edges",
+   "complete loss of central vision",
+   "blood pressure 145/89 mm Hg",
+   "no neurologic abnormalities"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "photograph of fundoscopic findings"
+  ]
+ },
+ "aud_105": {
+  "symptoms_signs": [
+   "sudden worsening pain right calf",
+   "pain in right foot",
+   "tingling sensation right leg",
+   "weakness right leg",
+   "right leg pale",
+   "right leg cool to touch",
+   "muscle strength mildly reduced right leg",
+   "absent pedal pulses right"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus",
+   "hypertension",
+   "systemic sclerosis"
+  ],
+  "procedures": [],
+  "drugs": [
+   "metformin",
+   "lisinopril"
+  ],
+  "lab_findings": [
+   "pulse 110/min",
+   "respirations 16/min",
+   "blood pressure 140/90 mm Hg"
+  ]
+ },
+ "aud_114": {
+  "symptoms_signs": [
+   "depressed mood",
+   "fatigue",
+   "early morning awakening",
+   "decrease in need for sleep",
+   "feels rested after 5 hours sleep",
+   "increased energy",
+   "increased libido",
+   "4-kg weight loss",
+   "irritable"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "fluoxetine"
+  ],
+  "lab_findings": []
+ },
+ "aud_115": {
+  "symptoms_signs": [
+   "low-grade fever",
+   "waxing and waning fever",
+   "temperatures 99.8\u00b0F to 101.0\u00b0F",
+   "symmetric joint swelling",
+   "joint swelling in knees",
+   "joint swelling in wrists",
+   "non-pruritic macular salmon-colored truncal rash",
+   "temperature 100.1\u00b0F",
+   "blood pressure 100/65 mmHg",
+   "pulse 105/min",
+   "respirations 18/min"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "rheumatoid factor negative",
+   "anti-nuclear antibody negative",
+   "anti-double stranded DNA negative",
+   "anti-SSA negative",
+   "anti-SSB negative",
+   "human leukocyte antigen B27 positive",
+   "erythrocyte sedimentation rate 30 mm/h"
+  ]
+ },
+ "aud_125": {
+  "symptoms_signs": [
+   "3-day history of diarrhea",
+   "moderate abdominal pain",
+   "weakness",
+   "mild nausea",
+   "lethargic",
+   "diffuse abdominal tenderness",
+   "hyperactive bowel sounds"
+  ],
+  "diseases_mentioned": [
+   "gastroesophageal reflux disease",
+   "shellfish allergy"
+  ],
+  "procedures": [],
+  "drugs": [
+   "ranitidine"
+  ],
+  "lab_findings": []
+ },
+ "aud_131": {
+  "symptoms_signs": [
+   "fever",
+   "nausea",
+   "nonproductive cough",
+   "headaches",
+   "generalized fatigue",
+   "muscle pain",
+   "joint pain",
+   "increasing shortness of breath",
+   "temperature 38.1\u00b0C",
+   "pulse 94/min",
+   "respirations 18/min",
+   "blood pressure 132/86 mm Hg",
+   "lungs clear to auscultation",
+   "multiple skin lesions with blue livid center",
+   "multiple skin lesions with pale intermediate zone",
+   "multiple skin lesions with dark red peripheral rim"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus",
+   "osteoarthritis of left knee"
+  ],
+  "procedures": [],
+  "drugs": [
+   "insulin",
+   "ibuprofen"
+  ],
+  "lab_findings": [
+   "hemoglobin 14.6 g/dL",
+   "leukocyte count 11,100/mm3",
+   "serum Na+ 137 mEq/L",
+   "serum K+ 4.1 mEq/L",
+   "serum Cl- 99 mEq/L",
+   "urea nitrogen 17 mg/dL",
+   "glucose 123 mg/dL",
+   "creatinine 0.9 mg/dL",
+   "chest x-ray"
+  ]
+ },
+ "aud_153": {
+  "symptoms_signs": [
+   "flank pain",
+   "myalgia",
+   "reddish discoloration of urine",
+   "fever",
+   "sore throat",
+   "faint maculopapular rash",
+   "soft abdomen",
+   "no costovertebral angle tenderness",
+   "no abnormalities in mouth and pharynx",
+   "temperature 37.9\u00b0C",
+   "pulse 70/min",
+   "blood pressure 128/75 mm Hg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "antibiotics"
+  ],
+  "lab_findings": [
+   "serum creatinine 2.4 mg/dL",
+   "protein 2+ in urinalysis",
+   "blood 2+ in urinalysis",
+   "RBC 20\u201330/hpf",
+   "WBC 12/hpf",
+   "bacteria none in urinalysis"
+  ]
+ },
+ "aud_154": {
+  "symptoms_signs": [
+   "left-sided facial pain",
+   "stinging pain",
+   "burning pain",
+   "constant pain",
+   "temperature 99.9 \u00b0F",
+   "blood pressure 139/87 mmHg",
+   "pulse 82/min",
+   "respirations 14/min",
+   "no rash",
+   "no skin change",
+   "pain on palpation of left cheek",
+   "pain on palpation of left mandible",
+   "full range of motion in jaw"
+  ],
+  "diseases_mentioned": [
+   "hyperlipidemia",
+   "multiple sclerosis",
+   "chickenpox"
+  ],
+  "procedures": [
+   "shingles vaccination",
+   "prednisone burst with taper"
+  ],
+  "drugs": [
+   "simvastatin",
+   "glatiramer acetate",
+   "prednisone"
+  ],
+  "lab_findings": []
+ },
+ "aud_159": {
+  "symptoms_signs": [
+   "extreme irritability",
+   "fatigue",
+   "loss of appetite",
+   "disrespectful behavior",
+   "distracted in class",
+   "avoids making eye contact",
+   "limited affect",
+   "irritable mood",
+   "easily distracted",
+   "difficulty focusing",
+   "sleeps 11\u201312 hours each night"
+  ],
+  "diseases_mentioned": [
+   "chronic lymphocytic leukemia"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "aud_197": {
+  "symptoms_signs": [
+   "low-grade fever",
+   "malaise",
+   "9 kg weight loss",
+   "extreme fatigue",
+   "temperature 38.1\u00b0C",
+   "respirations 22/min",
+   "pulse 102/min",
+   "blood pressure 138/78 mm Hg",
+   "2/6 holosystolic murmur",
+   "murmur loudest in apical area"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "mitral valve replacement"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "cor_289": {
+  "symptoms_signs": [
+   "fever",
+   "chest pain with deep breathing",
+   "4-kg weight loss",
+   "temperature 38\u00b0C",
+   "subpleural nodule in right lower lobe",
+   "right hilar lymphadenopathy"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "right hilar lymph node biopsy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "several granulomas with acellular cores"
+  ]
+ },
+ "cor_507": {
+  "symptoms_signs": [
+   "acute onset abdominal pain",
+   "left-sided abdominal pain",
+   "left-sided lower abdominal tenderness",
+   "guarding",
+   "tenderness of the left adnexa",
+   "clear mucous in the vaginal introitus",
+   "temperature 99\u00b0F",
+   "blood pressure 110/68 mmHg",
+   "pulse 88/min",
+   "respirations 14/min",
+   "oxygen saturation 98% on room air"
+  ],
+  "diseases_mentioned": [
+   "chlamydia"
+  ],
+  "procedures": [
+   "pelvic ultrasound with Doppler"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "large amount of fluid in the rectouterine pouch"
+  ]
+ },
+ "err_1611": {
+  "symptoms_signs": [
+   "early morning headaches",
+   "worsening fatigue",
+   "nausea",
+   "vomiting",
+   "falling frequently",
+   "difficulty performing steps",
+   "broad-based gait",
+   "unable to perform rapid alternating movements"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "MRI of the brain"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 36.8\u00b0C",
+   "pulse 98/min",
+   "blood pressure 105/65 mm Hg"
+  ]
+ },
+ "err_843": {
+  "symptoms_signs": [
+   "right-sided arm twitching",
+   "right-sided leg twitching",
+   "lip smacking",
+   "shaking episodes",
+   "rapid breathing",
+   "poor feeding",
+   "no fever",
+   "no trauma",
+   "temperature 37\u00b0C",
+   "pulse 230/min",
+   "respirations 70/min",
+   "irritable",
+   "jittery",
+   "intermittent spasms"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "serum calcium concentration 6 mg/dL",
+   "serum parathyroid hormone concentration 150 pg/mL"
+  ]
+ },
+ "m325_10": {
+  "symptoms_signs": [
+   "intermittently crying",
+   "does not want to get out of bed",
+   "feels sad",
+   "appears sad",
+   "very upset",
+   "pulse is 110/min",
+   "respirations are 20/min",
+   "blood pressure is 140/80 mm Hg"
+  ],
+  "diseases_mentioned": [
+   "exercise-induced asthma",
+   "acne"
+  ],
+  "procedures": [],
+  "drugs": [
+   "over-the-counter inhaler",
+   "oral isotretinoin"
+  ],
+  "lab_findings": [
+   "temperature is 37\u00b0C",
+   "pulse is 110/min",
+   "respirations are 20/min",
+   "blood pressure is 140/80 mm Hg"
+  ]
+ },
+ "m325_1007": {
+  "symptoms_signs": [
+   "fever",
+   "sore throat",
+   "nausea",
+   "fatigue",
+   "bilateral posterior cervical lymphadenopathy",
+   "exudates over palatine tonsil walls",
+   "soft palate petechiae",
+   "erythematous macular rash on trunk and arms",
+   "mild hepatosplenomegaly"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 38.3\u00b0C",
+   "pulse 72/min",
+   "blood pressure 118/63 mm Hg",
+   "respiratory rate 15/min"
+  ]
+ },
+ "m325_1025": {
+  "symptoms_signs": [
+   "confused state",
+   "unable to recall name",
+   "unable to recall address",
+   "unable to recall personal information",
+   "oriented only to time and place",
+   "not oriented to person",
+   "short-term memory intact",
+   "does not recognize husband",
+   "does not recall important life events",
+   "no abnormalities on physical exam",
+   "no abnormalities on neurological exam"
+  ],
+  "diseases_mentioned": [
+   "major depressive episodes",
+   "stress at work",
+   "anxiety"
+  ],
+  "procedures": [],
+  "drugs": [
+   "citalopram"
+  ],
+  "lab_findings": []
+ },
+ "m325_1074": {
+  "symptoms_signs": [
+   "right eye blindness",
+   "vision loss",
+   "passive suicidal ideation",
+   "unable to see right eye",
+   "normal vision left eye",
+   "cranial nerves intact",
+   "normal strength upper extremities",
+   "normal strength lower extremities",
+   "normal sensation upper extremities",
+   "normal sensation lower extremities",
+   "temperature 98.3\u00b0F",
+   "blood pressure 174/104 mmHg",
+   "pulse 80/min",
+   "respirations 12/min",
+   "oxygen saturation 98% on room air"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "fundoscopic examination"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_1144": {
+  "symptoms_signs": [
+   "expanding erythematous patch right shoulder",
+   "asymptomatic erythematous patch",
+   "small red bump",
+   "rash progression",
+   "no similar lesions elsewhere",
+   "felt ill",
+   "intermittent low-grade fevers",
+   "target-like erythematous patch left shoulder",
+   "7 cm diameter erythematous patch",
+   "axillary lymphadenopathy"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_1146": {
+  "symptoms_signs": [
+   "fever",
+   "diarrhea",
+   "bilateral red eye",
+   "mild dehydration",
+   "preauricular adenopathy",
+   "bilateral conjunctival injection",
+   "watery discharge",
+   "temperature of 37.5\u00b0C"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_1187": {
+  "symptoms_signs": [
+   "increasing shortness of breath",
+   "shortness of breath at rest",
+   "dry cough",
+   "fine inspiratory crackles",
+   "digital clubbing"
+  ],
+  "diseases_mentioned": [
+   "hypertension"
+  ],
+  "procedures": [
+   "hip replacement surgery"
+  ],
+  "drugs": [
+   "lisinopril"
+  ],
+  "lab_findings": [
+   "blood pressure 135/85 mm Hg",
+   "pulse rate 85/min",
+   "temperature 36.6\u00b0C",
+   "peripheral reticular opacities",
+   "traction bronchiectasis",
+   "decreased FEV1",
+   "decreased FVC",
+   "preserved FEV1/FVC ratio"
+  ]
+ },
+ "m325_1226": {
+  "symptoms_signs": [
+   "sudden onset of severe vomiting",
+   "vomited 5 times in 3 hours"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_1227": {
+  "symptoms_signs": [
+   "passing out",
+   "lightheaded",
+   "bit tongue",
+   "mild tachycardia",
+   "suprapubic tenderness"
+  ],
+  "diseases_mentioned": [
+   "gastroesophageal reflux disease",
+   "asthma",
+   "chlamydial infection"
+  ],
+  "procedures": [],
+  "drugs": [
+   "cimetidine",
+   "albuterol inhaler",
+   "azithromycin"
+  ],
+  "lab_findings": [
+   "electrocardiogram"
+  ]
+ },
+ "m325_1230": {
+  "symptoms_signs": [
+   "sadness",
+   "difficulty staying asleep",
+   "easily distracted",
+   "exhaustion",
+   "reduced appetite",
+   "makes little eye contact",
+   "alert and cooperative",
+   "no abnormalities on physical examination"
+  ],
+  "diseases_mentioned": [
+   "gestational diabetes"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "born at 36-weeks' gestation",
+   "BMI 20 kg/m2",
+   "vital signs within normal limits"
+  ]
+ },
+ "m325_1262": {
+  "symptoms_signs": [
+   "intense anal pain",
+   "pain with bowel movement",
+   "dull pain",
+   "throbbing pain",
+   "mild bright red bleeding",
+   "bleeding from rectum",
+   "bleeding aggravated during defecation",
+   "increased anal sphincter tone",
+   "impossible to introduce finger",
+   "severe pain on exam",
+   "heart rate 98/min",
+   "respiratory rate 16/min",
+   "temperature 37.6\u00b0C",
+   "blood pressure 110/66 mm Hg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_130": {
+  "symptoms_signs": [
+   "diarrhea",
+   "abdominal cramping",
+   "up to 10 watery stools per day",
+   "anorexia",
+   "nausea",
+   "thin appearance",
+   "temperature 38.3\u00b0C",
+   "pulse 115/min",
+   "blood pressure 85/65 mm Hg",
+   "dry mucous membranes",
+   "diffuse abdominal tenderness",
+   "no guarding or rebound",
+   "hyperactive bowel sounds"
+  ],
+  "diseases_mentioned": [
+   "HIV"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "CD4+ T-lymphocyte count 85/mm3",
+   "modified acid-fast stain stool oocysts"
+  ]
+ },
+ "m325_1300": {
+  "symptoms_signs": [
+   "feeding difficulties",
+   "vomits after every feeding",
+   "continuous cough",
+   "coughing spells",
+   "skin becoming cyanotic"
+  ],
+  "diseases_mentioned": [
+   "polyhydramnios"
+  ],
+  "procedures": [
+   "vaginal delivery"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "last ultrasound"
+  ]
+ },
+ "m325_1302": {
+  "symptoms_signs": [
+   "hematuria",
+   "productive cough",
+   "fever"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "renal biopsy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "granular IgA deposits",
+   "glomerular mesangium"
+  ]
+ },
+ "m325_1310": {
+  "symptoms_signs": [
+   "painless lesion on lower lip",
+   "single ulcer near vermillion border"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [
+   "captopril",
+   "metformin"
+  ],
+  "lab_findings": []
+ },
+ "m325_1316": {
+  "symptoms_signs": [
+   "leg weakness",
+   "left-leg weakness",
+   "unable to move left leg",
+   "normal leg movement",
+   "heart rate 80/min",
+   "blood pressure 148/92 mm Hg",
+   "respiratory rate 14/min",
+   "strength 5/5 bilateral upper extremities",
+   "strength 5/5 bilateral lower extremities",
+   "unremarkable neurological exam"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "hyperlipidemia"
+  ],
+  "procedures": [
+   "noncontrast CT scan of head"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_1330": {
+  "symptoms_signs": [
+   "severe dizziness",
+   "difficulty swallowing",
+   "difficulty forming sentences",
+   "unsteady gait",
+   "subtle nystagmus",
+   "ataxia",
+   "rapid onset of symptoms"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "blood pressure 132/86 mm Hg",
+   "heart rate 84/min",
+   "respiratory rate 15/min"
+  ]
+ },
+ "m325_1335": {
+  "symptoms_signs": [
+   "new skin lesion on hand",
+   "rapidly growing lesion",
+   "bleeding lesion",
+   "2 x 2.5 cm nodular lesion",
+   "dorsal hand lesion"
+  ],
+  "diseases_mentioned": [
+   "chronic renal failure",
+   "history of skin cancers"
+  ],
+  "procedures": [
+   "renal transplant",
+   "multiple surgeries for skin cancers"
+  ],
+  "drugs": [
+   "aspirin",
+   "atorvastatin",
+   "prednisone",
+   "tacrolimus",
+   "mycophenolate mofetil"
+  ],
+  "lab_findings": []
+ },
+ "m325_1348": {
+  "symptoms_signs": [
+   "altered mental status",
+   "rapid twitching of left hand",
+   "bizarre behavior",
+   "speech difficulties",
+   "left hand jerked uncontrollably",
+   "lethargic individual",
+   "neck stiffness",
+   "temperature 101\u00b0F"
+  ],
+  "diseases_mentioned": [
+   "syphilis infection"
+  ],
+  "procedures": [
+   "computed tomography of the head",
+   "cerebral spinal fluid study"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "CSF cell count 760/mm3",
+   "CSF lymphocytes",
+   "CSF glucose 60 mg/dL",
+   "CSF pressure 100 mmH2O",
+   "CSF proteins 35 mg/dL",
+   "CSF erythrocytes 130/mm3"
+  ]
+ },
+ "m325_1364": {
+  "symptoms_signs": [
+   "multiple episodes of staring into space",
+   "lip smacking",
+   "clasping his hands together",
+   "eyes open during episodes",
+   "no response to voice or name",
+   "episodes last 1-2 minutes",
+   "post-episode confusion",
+   "disoriented for 15 minutes",
+   "episodes occur once every few days",
+   "recent episode 10 minutes before arrival",
+   "mild confusion on arrival",
+   "disoriented on arrival",
+   "slow to respond",
+   "appears tired"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_1407": {
+  "symptoms_signs": [
+   "abdominal discomfort",
+   "pain on right flank",
+   "blood in urine",
+   "denies fever",
+   "denies chills",
+   "denies dysuria",
+   "vital signs T 37 C",
+   "HR 140/90 mmHg",
+   "HR 84/min",
+   "RR 14/min",
+   "O2 98%",
+   "physical exam unremarkable"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "hemoglobin 17",
+   "hematocrit 51%",
+   "urinalysis positive for red blood cells",
+   "urinalysis negative for leukocytes"
+  ]
+ },
+ "m325_1420": {
+  "symptoms_signs": [
+   "progressive right knee pain",
+   "pain worse at night",
+   "pain worse while doing sports",
+   "mild swelling",
+   "tenderness",
+   "limited range of motion",
+   "antalgic gait"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "x-ray of the right knee"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "alkaline phosphatase of 180 U/L",
+   "erythrocyte sedimentation rate of 80 mm/h"
+  ]
+ },
+ "m325_1421": {
+  "symptoms_signs": [
+   "coughing frequently",
+   "short of breath",
+   "frothy slightly pink sputum",
+   "nausea",
+   "headache"
+  ],
+  "diseases_mentioned": [
+   "asthma"
+  ],
+  "procedures": [],
+  "drugs": [
+   "albuterol inhaler",
+   "steroid inhaler"
+  ],
+  "lab_findings": []
+ },
+ "m325_1469": {
+  "symptoms_signs": [
+   "severe generalized abdominal pain",
+   "pain worse after meals",
+   "nauseated",
+   "occasional diarrhea mixed with blood",
+   "temperature 36.9\u00b0C",
+   "blood pressure 145/92 mm Hg",
+   "irregularly irregular pulse 105/min",
+   "mild periumbilical tenderness"
+  ],
+  "diseases_mentioned": [
+   "essential hypertension"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_147": {
+  "symptoms_signs": [
+   "episodic cough",
+   "shortness of breath",
+   "nonproductive cough",
+   "cough worsens when climbing stairs",
+   "cough worsens during the night",
+   "fever",
+   "sore throat",
+   "nasal congestion",
+   "pulse 78/min",
+   "respirations 18/min",
+   "blood pressure 145/95 mm Hg",
+   "oxygen saturation 96%",
+   "diffuse end-expiratory wheezes"
+  ],
+  "diseases_mentioned": [
+   "hypertension"
+  ],
+  "procedures": [
+   "chest x-ray",
+   "spirometry"
+  ],
+  "drugs": [
+   "enalapril"
+  ],
+  "lab_findings": [
+   "FEV1:FVC ratio 65%",
+   "FEV1 60%",
+   "chest x-ray no abnormalities"
+  ]
+ },
+ "m325_148": {
+  "symptoms_signs": [
+   "persistent cough productive of white phlegm",
+   "cough throughout the day",
+   "shortness of breath with exertion",
+   "end-expiratory wheeze throughout all lung zones"
+  ],
+  "diseases_mentioned": [
+   "hypertension"
+  ],
+  "procedures": [],
+  "drugs": [
+   "amlodipine"
+  ],
+  "lab_findings": []
+ },
+ "m325_1501": {
+  "symptoms_signs": [
+   "generalized rash",
+   "erythematous maculopapular rash",
+   "pustules with erythematous base",
+   "rash over trunk and extremities",
+   "rash sparing palms and soles",
+   "temperature 36.8\u00b0C",
+   "pulse 152/min",
+   "respirations 51/min",
+   "50th percentile head circumference",
+   "60th percentile length",
+   "55th percentile weight"
+  ],
+  "diseases_mentioned": [
+   "gonorrhea"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_1511": {
+  "symptoms_signs": [
+   "progressive hearing loss both ears",
+   "difficulties understanding conversations",
+   "no dizziness",
+   "no ear discharge",
+   "no ringing noise",
+   "no ear pain",
+   "pearly gray tympanic membranes",
+   "translucent tympanic membranes",
+   "normal light reflex",
+   "vibrating 512 Hz tuning fork test results",
+   "no lateralization with tuning fork"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "hypercholesterolemia",
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [
+   "enalapril",
+   "metformin",
+   "atorvastatin"
+  ],
+  "lab_findings": []
+ },
+ "m325_1514": {
+  "symptoms_signs": [
+   "headache",
+   "blurring of vision",
+   "numbness of the right leg",
+   "oriented only to person",
+   "temperature 37.3\u00b0C",
+   "pulse 99/min",
+   "blood pressure 158/94 mm Hg",
+   "equal pupils reactive to light",
+   "normal muscle strength",
+   "deep tendon reflexes 2+ bilaterally",
+   "decreased sensation to fine touch and position over right lower extremity",
+   "loss of nasal field in left eye",
+   "loss of temporal field in right eye",
+   "macular sparing",
+   "unable to read phrases shown",
+   "can write dictated phrases",
+   "short-term memory deficits"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [
+   "enalapril",
+   "metformin"
+  ],
+  "lab_findings": []
+ },
+ "m325_1532": {
+  "symptoms_signs": [
+   "crampy abdominal pain",
+   "abdominal swelling",
+   "no stool passage",
+   "no flatus passage",
+   "vomiting",
+   "lower stool caliber",
+   "temperature 37.5\u00b0C",
+   "pulse 82/min",
+   "respirations 19/min",
+   "blood pressure 110/70 mm Hg",
+   "symmetric abdominal distension",
+   "active bowel sounds",
+   "generalized abdominal tenderness",
+   "no guarding",
+   "no rebound tenderness"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "appendectomy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "leukocyte count 10,000/mm3",
+   "upright abdominal X-ray",
+   "supine abdominal X-ray"
+  ]
+ },
+ "m325_1544": {
+  "symptoms_signs": [
+   "chronic fevers",
+   "fevers over 101F",
+   "T 100.9 F",
+   "HR 95 and regular",
+   "RR 16",
+   "BP 150/95",
+   "pain in left lower leg",
+   "pain in left foot",
+   "Grade IV ulcer",
+   "severe pain when bearing weight",
+   "diminished pulses",
+   "diminished sensation"
+  ],
+  "diseases_mentioned": [
+   "obesity",
+   "diabetes"
+  ],
+  "procedures": [],
+  "drugs": [
+   "insulin",
+   "antibiotics"
+  ],
+  "lab_findings": [
+   "HbA1C 8.5%",
+   "AP and lateral radiographs of left leg"
+  ]
+ },
+ "m325_1552": {
+  "symptoms_signs": [
+   "diffuse abdominal pain",
+   "temperature 39.1\u00b0C",
+   "numerous scars",
+   "excoriations along both arms",
+   "scleral icterus",
+   "tender hepatomegaly"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "alanine aminotransferase 927 U/L",
+   "aspartate aminotransferase 796 U/L",
+   "hepatitis B surface antigen positive",
+   "hepatitis B surface antibody negative",
+   "anti-hepatitis B core antibody negative",
+   "hepatitis C antibody negative"
+  ]
+ },
+ "m325_1586": {
+  "symptoms_signs": [
+   "increasing shortness of breath",
+   "non-productive cough",
+   "unable to perform daily activities",
+   "malaise",
+   "bilateral ankle pain",
+   "temperature 37.8\u00b0C",
+   "pulse 100/min",
+   "respirations 24/min",
+   "blood pressure 112/72 mm Hg",
+   "oxygen saturation 94%",
+   "no palpable cervical lymphadenopathy",
+   "no palpable axillary lymphadenopathy",
+   "lungs clear to auscultation",
+   "left eye ciliary injection",
+   "photophobia"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "x-ray of the chest"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "complete blood count within reference range",
+   "oxygen saturation 94%"
+  ]
+ },
+ "m325_163": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "superficial lacerations on left arm",
+   "tender erythematous area over epigastrium",
+   "soft abdomen",
+   "non-distended abdomen",
+   "gradually worsening upper abdominal pain",
+   "fever",
+   "poor appetite",
+   "vomiting",
+   "pulse 91/min",
+   "blood pressure 135/82 mm Hg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "CT scan of abdomen",
+   "lacerations cleaned and dressed"
+  ],
+  "drugs": [
+   "analgesics"
+  ],
+  "lab_findings": [
+   "CT scan shows no abnormalities"
+  ]
+ },
+ "m325_1638": {
+  "symptoms_signs": [
+   "exclusively breastfed",
+   "feeds for 30 minutes",
+   "6-7 times per day",
+   "urinates 8-10 times per day",
+   "passes 4-5 loose yellow stools",
+   "cries significantly more",
+   "cries 20-30 minutes",
+   "cries up to four times per day",
+   "crying worse in early evening",
+   "difficult to console",
+   "soft flat anterior fontanelle",
+   "soft non-tender non-distended abdomen",
+   "able to track to midline",
+   "temperature 97.4\u00b0F",
+   "blood pressure 74/52 mmHg",
+   "pulse 138/min",
+   "respirations 24/min"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_1670": {
+  "symptoms_signs": [
+   "restlessness",
+   "inability to sit or lie down",
+   "fidgety",
+   "anxious",
+   "well-oriented"
+  ],
+  "diseases_mentioned": [
+   "schizophrenia"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "blood pressure of 140/90 mm Hg",
+   "pulse of 96/min"
+  ]
+ },
+ "m325_1676": {
+  "symptoms_signs": [
+   "acute onset nausea",
+   "vomiting",
+   "vertigo",
+   "left-sided facial droop",
+   "decreased pinprick sensation right arm",
+   "decreased pinprick sensation right leg"
+  ],
+  "diseases_mentioned": [
+   "poorly-controlled type 2 diabetes mellitus",
+   "myocardial infarction",
+   "hypertension"
+  ],
+  "procedures": [
+   "cardiac stenting"
+  ],
+  "drugs": [
+   "lisinopril",
+   "aspirin",
+   "atorvastatin",
+   "warfarin",
+   "insulin"
+  ],
+  "lab_findings": []
+ },
+ "m325_1679": {
+  "symptoms_signs": [
+   "fever",
+   "malaise",
+   "painful itchy rash",
+   "rash on right shoulder",
+   "cervical lymphadenopathy"
+  ],
+  "diseases_mentioned": [
+   "atopic dermatitis"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "no abnormalities"
+  ]
+ },
+ "m325_168": {
+  "symptoms_signs": [
+   "dry cough",
+   "severe chest pain",
+   "temperature 38.5\u00b0C",
+   "pulse 92/min",
+   "respirations 22/min",
+   "blood pressure 130/80 mm Hg",
+   "high-pitched scratching sound",
+   "diffuse ST elevations"
+  ],
+  "diseases_mentioned": [
+   "inferior wall myocardial infarction",
+   "hypertension",
+   "hypercholesterolemia"
+  ],
+  "procedures": [
+   "stent implantation of right coronary artery"
+  ],
+  "drugs": [
+   "aspirin",
+   "clopidogrel",
+   "atorvastatin",
+   "enalapril"
+  ],
+  "lab_findings": [
+   "troponin I 0.2 ng/mL"
+  ]
+ },
+ "m325_1685": {
+  "symptoms_signs": [
+   "slow progressive behavior changes",
+   "vocabulary of several words",
+   "verbalizes in grunts",
+   "hand flapping",
+   "difficulty walking",
+   "stares absently",
+   "mild scoliosis"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "spontaneous vaginal delivery"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "heart rate 90/min",
+   "respiratory rate 22/min",
+   "blood pressure 110/65 mm Hg",
+   "temperature 36.9\u00b0C"
+  ]
+ },
+ "m325_1742": {
+  "symptoms_signs": [
+   "spontaneous rupture of membranes",
+   "mild abdominal discomfort",
+   "nausea",
+   "temperature 38.6\u00b0C",
+   "pulse 122/min",
+   "blood pressure 110/78 mm Hg",
+   "severe diffuse tenderness lower quadrants",
+   "malodorous blood-tinged fluid drainage"
+  ],
+  "diseases_mentioned": [
+   "gestational diabetes",
+   "placental abruption"
+  ],
+  "procedures": [
+   "lower segment transverse cesarean section"
+  ],
+  "drugs": [
+   "iron supplements",
+   "vitamin supplements"
+  ],
+  "lab_findings": [
+   "hemoglobin 11.1 g/dL",
+   "leukocyte count 13,100/mm3",
+   "serum Na+ 136 mEq/L",
+   "serum Cl- 101 mEq/L",
+   "serum K+ 3.9 mEq/L",
+   "serum glucose 108 mg/dL",
+   "serum creatinine 1.1 mg/dL",
+   "urine protein negative",
+   "urine glucose 1+",
+   "urine blood negative",
+   "urine WBC 3\u20134/hpf",
+   "urine RBC negative",
+   "urine nitrites negative",
+   "fetus in cephalic presentation",
+   "fetal heart rate 175/min",
+   "fetal heart rate reactive with no decelerations"
+  ]
+ },
+ "m325_1764": {
+  "symptoms_signs": [
+   "recurrent rash",
+   "pink and itchy rashes",
+   "diffuse mild expiratory wheezes"
+  ],
+  "diseases_mentioned": [
+   "systemic lupus erythematous",
+   "asthma",
+   "seasonal allergies"
+  ],
+  "procedures": [],
+  "drugs": [
+   "NSAIDS",
+   "albuterol inhaler"
+  ],
+  "lab_findings": [
+   "temperature 98\u00b0F",
+   "pulse 70/min",
+   "blood pressure 118/77 mmHg",
+   "respirations 13/min",
+   "oxygen saturation 98% on room air"
+  ]
+ },
+ "m325_1785": {
+  "symptoms_signs": [
+   "loss of consciousness",
+   "weakness of left arm and leg",
+   "slurred speech",
+   "fever for 10 days",
+   "temperature 38.6\u00b0C",
+   "pulse 106/min",
+   "blood pressure 160/90 mm Hg",
+   "multiple petechiae on trunk",
+   "painless macules over both palms",
+   "grade 3/6 systolic murmur at apex",
+   "left facial droop",
+   "muscle strength 4/5 left upper and lower extremities",
+   "deep tendon reflexes 3+ on left side",
+   "deep tendon reflexes 2+ on right side",
+   "left big toe extensor response",
+   "retinal hemorrhages with white centers"
+  ],
+  "diseases_mentioned": [
+   "bacterial sinusitis",
+   "hypertension",
+   "hypothyroidism",
+   "hyperlipidemia",
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [
+   "amoxicillin-clavulanate",
+   "amlodipine",
+   "hydrochlorothiazide",
+   "metformin",
+   "simvastatin",
+   "aspirin",
+   "levothyroxine"
+  ],
+  "lab_findings": [
+   "hemoglobin 15.3 g/dL",
+   "leukocyte count 12,300/mm3",
+   "serum Na+ 136 mEq/L",
+   "serum Cl- 103 mEq/L",
+   "serum K+ 4.3 mEq/L",
+   "serum glucose 108 mg/dL",
+   "serum creatinine 1.1 mg/dL",
+   "urine protein 1+",
+   "urine glucose negative",
+   "urine blood 1+",
+   "urine WBC 1\u20132/hpf",
+   "urine RBC 7\u201310/hpf"
+  ]
+ },
+ "m325_179": {
+  "symptoms_signs": [
+   "dyspnea",
+   "cyanotic",
+   "drowsy",
+   "oriented only to person",
+   "temperature 38.6\u00b0C",
+   "pulse 135/minute",
+   "respirations 36/min",
+   "blood pressure 155/95 mm Hg",
+   "oxygen saturation 81% on room air",
+   "scattered petechiae on anterior chest wall",
+   "sinus tachycardia"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "osteoporosis",
+   "osteoarthritis of right knee",
+   "displaced femoral neck fracture of left hip"
+  ],
+  "procedures": [
+   "bipolar prosthesis",
+   "surgery under general anesthesia with sevoflurane"
+  ],
+  "drugs": [
+   "ramipril",
+   "naproxen",
+   "ranitidine",
+   "multivitamin"
+  ],
+  "lab_findings": [
+   "hemoglobin concentration 10.5 g/dL",
+   "leukocyte count 9,000/mm3",
+   "platelet count 145,000/mm3",
+   "creatine kinase 190 U/L",
+   "oxygen saturation readings 96\u2013100% on 8 L oxygen"
+  ]
+ },
+ "m325_180": {
+  "symptoms_signs": [
+   "repeated behavioral problems",
+   "uncooperative behavior",
+   "disruptive behavior",
+   "persistent refusal to answer questions",
+   "insults teachers",
+   "annoys classmates",
+   "frequent violations of curfew",
+   "losing temper",
+   "screaming at parents",
+   "deteriorated grades",
+   "refusal to answer",
+   "disrupts physician\u2019s conversation"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_1835": {
+  "symptoms_signs": [
+   "episodes of watery stools",
+   "recurrent episodes of reddening of face",
+   "recurrent episodes of reddening of neck",
+   "recurrent episodes of reddening of chest",
+   "pale appearance",
+   "scattered expiratory wheezing",
+   "soft abdomen",
+   "mildly tender abdomen"
+  ],
+  "diseases_mentioned": [
+   "hypertension"
+  ],
+  "procedures": [],
+  "drugs": [
+   "enalapril"
+  ],
+  "lab_findings": []
+ },
+ "m325_1847": {
+  "symptoms_signs": [
+   "growth of unwanted hair",
+   "unwanted hair on upper lip",
+   "unwanted hair on chin",
+   "unwanted hair on chest",
+   "increase in blackheads",
+   "pimples on skin",
+   "deepening of voice",
+   "weight gain",
+   "changes in external genitalia",
+   "dark coarse stubbles",
+   "dark coarse stubbles on upper lip",
+   "dark coarse stubbles on chin",
+   "dark coarse stubbles on chest",
+   "dark coarse stubbles on back",
+   "oily skin",
+   "moderately inflamed acne",
+   "clitoris measuring 12 mm",
+   "firm enlarged left ovary",
+   "normal sized mobile retroverted uterus"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "pelvic examination",
+   "physical examination"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_1912": {
+  "symptoms_signs": [
+   "psychotic behavior",
+   "withdrawn from family and friends",
+   "no emotions",
+   "delusions of working for CIA",
+   "disconnected sentences",
+   "stating revealed too much information",
+   "fear of being eliminated by CIA"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "involuntary admission to psychiatric unit"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_1914": {
+  "symptoms_signs": [
+   "acting strangely",
+   "hearing voices",
+   "erratic behavior",
+   "periods of no sleep",
+   "redecorates apartment",
+   "spends huge amounts of money",
+   "unkept appearance",
+   "irritated",
+   "responds to invisible stimuli",
+   "jumps from topic to topic"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_1922": {
+  "symptoms_signs": [
+   "high temperature",
+   "running a fever",
+   "limping",
+   "trouble awakening",
+   "swelling around right ankle",
+   "redness around right ankle",
+   "temperature 102.4 deg F",
+   "blood pressure 90/60 mmHg",
+   "pulse 123/min",
+   "respirations 22/min",
+   "lethargic",
+   "erythema surrounding distal shin",
+   "edema surrounding distal shin"
+  ],
+  "diseases_mentioned": [
+   "something wrong with his blood"
+  ],
+  "procedures": [
+   "extra vaccinations"
+  ],
+  "drugs": [
+   "antibiotic everyday"
+  ],
+  "lab_findings": []
+ },
+ "m325_1928": {
+  "symptoms_signs": [
+   "multiple lacerations",
+   "pelvic fracture"
+  ],
+  "diseases_mentioned": [
+   "diabetes",
+   "benign prostatic hyperplasia",
+   "autoimmune diseases"
+  ],
+  "procedures": [],
+  "drugs": [
+   "metformin",
+   "prazosin"
+  ],
+  "lab_findings": [
+   "Serum Na+ 135 mEq/L",
+   "Creatinine 1.5 mg/dL",
+   "Blood urea nitrogen 37 mg/dL",
+   "Urine Na+ 13.5 mEq/L",
+   "Urine creatinine 18 mg/dL",
+   "Urine osmolality 580 mOsm/kg"
+  ]
+ },
+ "m325_194": {
+  "symptoms_signs": [
+   "progressively worsening shortness of breath",
+   "cough",
+   "diffuse wheezing",
+   "tender subcutaneous nodules on both elbows",
+   "foot drop"
+  ],
+  "diseases_mentioned": [
+   "asthma",
+   "chronic sinusitis"
+  ],
+  "procedures": [],
+  "drugs": [
+   "albuterol inhaler",
+   "inhaled corticosteroid"
+  ],
+  "lab_findings": [
+   "leukocyte count of 23000/mm3",
+   "26% eosinophils",
+   "serum creatinine of 1.7 mg/dL",
+   "red blood cell casts in urine"
+  ]
+ },
+ "m325_197": {
+  "symptoms_signs": [
+   "repetitive tongue twisting",
+   "abnormal movements of hands",
+   "abnormal movements of legs",
+   "protrusion of the tongue",
+   "smacking of the lips",
+   "twisting movements of the arms",
+   "frequently taps right foot"
+  ],
+  "diseases_mentioned": [
+   "schizophrenia"
+  ],
+  "procedures": [],
+  "drugs": [
+   "fluphenazine",
+   "risperidone"
+  ],
+  "lab_findings": []
+ },
+ "m325_227": {
+  "symptoms_signs": [
+   "intermittent swelling of left arm",
+   "feeling of fullness in head",
+   "left-sided facial edema",
+   "distention of superficial veins in neck",
+   "distention of superficial veins in left chest wall"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_230": {
+  "symptoms_signs": [
+   "fever",
+   "chills",
+   "myalgias",
+   "joint pain",
+   "temperature 39.3\u00b0C",
+   "weak",
+   "lethargic",
+   "crackles at lung bases",
+   "grade 2/6 blowing diastolic murmur"
+  ],
+  "diseases_mentioned": [
+   "high-grade aortic stenosis"
+  ],
+  "procedures": [
+   "aortic prosthetic valve replacement"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "leukocytosis",
+   "elevated erythrocyte sedimentation rate"
+  ]
+ },
+ "m325_24": {
+  "symptoms_signs": [
+   "episodic shortness of breath",
+   "nonproductive cough",
+   "difficulty breathing",
+   "mild scattered wheezing"
+  ],
+  "diseases_mentioned": [
+   "peanut allergy"
+  ],
+  "procedures": [
+   "chest x-ray"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "chest x-ray shows no abnormalities"
+  ]
+ },
+ "m325_25": {
+  "symptoms_signs": [
+   "progressively worsening dyspnea on exertion",
+   "fatigue",
+   "temperature 36.7\u00b0C",
+   "pulse 124/min",
+   "respirations 20/min",
+   "blood pressure 98/60 mm Hg",
+   "no murmurs",
+   "coarse crackles at lung bases bilaterally",
+   "irregularly irregular rhythm",
+   "absent P waves",
+   "globular enlargement of cardiac shadow",
+   "prominent hila",
+   "bilateral fluffy infiltrates",
+   "dilated left ventricle",
+   "ejection fraction of 40%"
+  ],
+  "diseases_mentioned": [
+   "Hodgkin lymphoma",
+   "amyloidosis"
+  ],
+  "procedures": [
+   "chemotherapy",
+   "radiation",
+   "ECG",
+   "x-ray of the chest",
+   "transthoracic echocardiography"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_266": {
+  "symptoms_signs": [
+   "sudden weakness of right arm",
+   "sudden weakness of right leg",
+   "temperature 38.0\u00b0C",
+   "pulse 115/min",
+   "blood pressure 155/85 mm Hg",
+   "decreased muscle strength right side",
+   "deep tendon reflexes 4+ right",
+   "Babinski sign present right",
+   "left lower leg swollen",
+   "left lower leg erythematous",
+   "left lower leg tender to palpation"
+  ],
+  "diseases_mentioned": [
+   "previously healthy"
+  ],
+  "procedures": [],
+  "drugs": [
+   "oral contraceptive"
+  ],
+  "lab_findings": []
+ },
+ "m325_272": {
+  "symptoms_signs": [
+   "malaise",
+   "dysuria",
+   "blurred vision",
+   "painful itchy rash",
+   "rash on chest and face",
+   "rash spread to limbs palms soles",
+   "ill appearance",
+   "temperature 38\u00b0C",
+   "pulse 110/min",
+   "conjunctival injection",
+   "ulceration on tongue and palate",
+   "confluent annular erythematous macules",
+   "bullae",
+   "desquamation of palms and soles",
+   "epidermis separates when lightly stroked"
+  ],
+  "diseases_mentioned": [
+   "trigeminal neuralgia"
+  ],
+  "procedures": [],
+  "drugs": [
+   "new medicine for trigeminal neuralgia"
+  ],
+  "lab_findings": []
+ },
+ "m325_284": {
+  "symptoms_signs": [
+   "severe headaches",
+   "pain on left forehead",
+   "pain on left eye",
+   "drooping of left eyelid",
+   "tearing of left eye",
+   "rhinorrhea",
+   "left pupil 2 mm",
+   "right pupil 4 mm",
+   "localized tenderness right supraspinatus muscle"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "indomethacin"
+  ],
+  "lab_findings": []
+ },
+ "m325_339": {
+  "symptoms_signs": [
+   "nervousness",
+   "difficulty sleeping",
+   "trouble falling asleep"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_348": {
+  "symptoms_signs": [
+   "nausea",
+   "abdominal discomfort",
+   "yellow discoloration of the eyes",
+   "fever",
+   "joint pain",
+   "swollen lymph nodes",
+   "itchy rash on trunk and extremities",
+   "temperature 39\u00b0C",
+   "scleral icterus"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_373": {
+  "symptoms_signs": [
+   "diffuse severe abdominal pain",
+   "nausea",
+   "vomiting",
+   "no blood in vomitus",
+   "no bile in vomitus",
+   "mild aching epigastric pain",
+   "weight gain 1.4 kg",
+   "lying supine",
+   "knees drawn up",
+   "avoids movement",
+   "temperature 38.5\u00b0C",
+   "pulse 112/min",
+   "respirations 20/min",
+   "blood pressure 115/70 mm Hg",
+   "abdominal tenderness",
+   "abdominal guarding",
+   "decreased bowel sounds"
+  ],
+  "diseases_mentioned": [
+   "osteoarthritis of both knees"
+  ],
+  "procedures": [],
+  "drugs": [
+   "ibuprofen"
+  ],
+  "lab_findings": [
+   "x-ray of the chest"
+  ]
+ },
+ "m325_417": {
+  "symptoms_signs": [
+   "acting oddly",
+   "combing hair of toy dolls",
+   "repetitive counting steps",
+   "brought to tears when confronted",
+   "occasional motor tics"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_429": {
+  "symptoms_signs": [
+   "crying",
+   "pulling at right ear",
+   "febrile",
+   "temperature 101.6 deg F",
+   "blood pressure 100/70 mmHg",
+   "pulse 120/min",
+   "respirations 22/min",
+   "otoscopic exam findings"
+  ],
+  "diseases_mentioned": [
+   "common cold"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_441": {
+  "symptoms_signs": [
+   "progressively worsening hearing loss",
+   "difficulty with understanding speech",
+   "background noise difficulty",
+   "steady ringing in both ears",
+   "dizziness",
+   "temperature 98.6\u00b0F",
+   "blood pressure 138/88 mmHg",
+   "pulse 14/min",
+   "respirations 13/min",
+   "sound appreciated equally on both ears",
+   "air conduction greater than bone conduction"
+  ],
+  "diseases_mentioned": [
+   "acute otitis media",
+   "cholesteatoma"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_449": {
+  "symptoms_signs": [
+   "swelling around right chin",
+   "swelling around right neck",
+   "pain moving jaw",
+   "pain chewing",
+   "temperature 38.4 degrees Celsius",
+   "exquisitely tender right side"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "tonsillectomy"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_471": {
+  "symptoms_signs": [
+   "rash",
+   "episode of pharyngitis",
+   "feeling nauseated",
+   "knees bothering him"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "stool sample positive for occult blood"
+  ]
+ },
+ "m325_487": {
+  "symptoms_signs": [
+   "abdominal distension",
+   "undulating pain",
+   "nausea",
+   "vomiting",
+   "mild abdominal distension",
+   "discomfort to palpation of upper abdominal quadrants"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "CT scan of the abdomen"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "mild eosinophilia",
+   "multiple small eggshell calcifications in right liver lobe"
+  ]
+ },
+ "m325_53": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "pain constant",
+   "pain rated 7/10",
+   "nausea",
+   "vomited twice",
+   "nonbloody diarrhea",
+   "intermittent constipation",
+   "temperature 38.4\u00b0C",
+   "lying back in hospital bed",
+   "appears uncomfortable",
+   "tenderness in left lower quadrant",
+   "soft abdomen",
+   "normal bowel sounds",
+   "no guarding or rebound tenderness"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "type 2 diabetes mellitus",
+   "mild intermittent asthma",
+   "allergic rhinitis"
+  ],
+  "procedures": [],
+  "drugs": [
+   "lisinopril",
+   "metformin",
+   "albuterol inhaler",
+   "fexofenadine",
+   "psyllium husk fiber"
+  ],
+  "lab_findings": [
+   "temperature 38.4\u00b0C",
+   "pulse 85/min",
+   "respirations 16/min",
+   "blood pressure 134/85 mm Hg",
+   "BMI 35 kg/m2"
+  ]
+ },
+ "m325_565": {
+  "symptoms_signs": [
+   "unremitting diarrhea",
+   "watery bowel movements",
+   "non-bloody bowel movements",
+   "foul-smelling bowel movements",
+   "greasy bowel movements",
+   "cramping abdominal pain",
+   "pulse 78/min",
+   "respiratory rate 15/min",
+   "temperature 37.2\u00b0C",
+   "blood pressure 120/70 mm Hg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "stool sample microscopic analysis"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_602": {
+  "symptoms_signs": [
+   "extreme fatigue",
+   "yellow skin",
+   "mild diffuse abdominal tenderness"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "illicit intravenous drugs"
+  ],
+  "lab_findings": [
+   "alanine aminotransferase level 2000 IU/L",
+   "Anti-HAV IgM negative",
+   "HBsAg positive",
+   "Anti-HBs negative",
+   "IgM anti-HBc positive",
+   "Anti-HCV negative",
+   "Anti-HDV negative"
+  ]
+ },
+ "m325_62": {
+  "symptoms_signs": [
+   "repeated thoughts",
+   "anxiety",
+   "fear of being harmed",
+   "worsened anxiety",
+   "taking detours",
+   "hiding from people",
+   "fear of failing coursework",
+   "alert and oriented",
+   "full range of affect",
+   "organized thought processes",
+   "organized speech",
+   "normal memory",
+   "normal attention"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "negative urine toxicology screening"
+  ]
+ },
+ "m325_623": {
+  "symptoms_signs": [
+   "heartburn",
+   "chest pain",
+   "retrosternal pain",
+   "pain with solid foods",
+   "pain with liquids",
+   "unintentional weight loss",
+   "normal physical examination",
+   "normal abdominal examination"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "esophagogastroduodenoscopy"
+  ],
+  "drugs": [
+   "antacids"
+  ],
+  "lab_findings": [
+   "Hgb 10 mg/dL",
+   "White blood cell total count 5 x 10^9/L",
+   "Platelet count 168 x 10^9/L",
+   "Hematocrit 38%",
+   "Red blood cell count 4.2 x 10^12/L",
+   "exophytic mass in lower third of esophagus",
+   "ulcerations",
+   "mucous plugs"
+  ]
+ },
+ "m325_631": {
+  "symptoms_signs": [
+   "rash around eyes and mouth",
+   "itchy rash",
+   "scratches his eyes often",
+   "scaly erythematous skin",
+   "expiratory wheezes in lower lungs"
+  ],
+  "diseases_mentioned": [
+   "asthma"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_645": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "nausea",
+   "vomiting",
+   "constipation",
+   "cannot pass flatus",
+   "pulse 105/min",
+   "afebrile",
+   "abdominal distension",
+   "diffuse abdominal tenderness",
+   "tympany on percussion"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "pneumonia"
+  ],
+  "procedures": [
+   "contrast CT scan of the abdomen"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "dilated loops of small bowel",
+   "collapsed large bowel"
+  ]
+ },
+ "m325_685": {
+  "symptoms_signs": [
+   "hoarseness",
+   "dysphagia",
+   "difficulty swallowing",
+   "weight loss 9 kg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_698": {
+  "symptoms_signs": [
+   "auditory hallucinations",
+   "hearing own thoughts aloud",
+   "hallucinations intermittently",
+   "flat affect",
+   "focus fluctuates",
+   "disheveled appearance",
+   "foul smell",
+   "difficulty focusing",
+   "does not understand surroundings"
+  ],
+  "diseases_mentioned": [
+   "hypertension"
+  ],
+  "procedures": [],
+  "drugs": [
+   "lisinopril",
+   "daily multivitamin"
+  ],
+  "lab_findings": [
+   "blood pressure 132/82 mm Hg",
+   "pulse 72/min",
+   "respiratory rate 18/min",
+   "temperature 36.7\u00b0C",
+   "urine toxicology screen negative"
+  ]
+ },
+ "m325_708": {
+  "symptoms_signs": [
+   "abnormal behavior",
+   "involuntary movements",
+   "difficulty remembering names",
+   "difficulty remembering dates",
+   "difficulty remembering events",
+   "fails to recognize pictures",
+   "episodic jerking of limbs",
+   "drowsy but arousable",
+   "disoriented",
+   "confused",
+   "normal extraocular movements",
+   "intact cranial nerves",
+   "no neck stiffness"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [
+   "head MRI",
+   "lumbar puncture",
+   "EEG"
+  ],
+  "drugs": [
+   "metformin",
+   "multivitamin"
+  ],
+  "lab_findings": [
+   "hemoglobin 14.3 g/dL",
+   "white blood cells 6900/mm3",
+   "platelets 347000/mm3",
+   "creatinine 1.0 mg/dL",
+   "sodium 146 mmol/L",
+   "potassium 4.1 mEq/L",
+   "calcium 9.1 mg/dL",
+   "glucose 132 mg/dL",
+   "TSH 2.5 mU/L",
+   "EEG periodic spike and slow waves",
+   "cerebrospinal fluid protein 14-3-3 positive"
+  ]
+ },
+ "m325_750": {
+  "symptoms_signs": [
+   "diarrhea",
+   "repeated episodes of diarrhea"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_766": {
+  "symptoms_signs": [
+   "violent behavior",
+   "threatened his parents with a knife",
+   "acting really crazy",
+   "hearing ghosts",
+   "insomnia",
+   "unintentional weight loss",
+   "sadness",
+   "feeling worthless",
+   "poor general hygiene",
+   "lack of motivation",
+   "refusal to make eye contact",
+   "refusal to speak"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_780": {
+  "symptoms_signs": [
+   "continuous feelings of sadness",
+   "feelings of rejection",
+   "unable to concentrate",
+   "missed several days of work",
+   "no interest in any activity",
+   "rejects invitations to go out",
+   "no interest in food",
+   "no interest in playing with her dog",
+   "easily distracted",
+   "several \u2018brilliant ideas\u2019",
+   "did not sleep much",
+   "wants to lie in bed all day"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "laboratory tests were normal"
+  ]
+ },
+ "m325_787": {
+  "symptoms_signs": [
+   "progressive pain right eye",
+   "blurry vision right eye",
+   "difficulty opening right eye",
+   "visual acuity left eye 20/25",
+   "count fingers at 3 feet right eye",
+   "temperature 37.0\u00b0C",
+   "pulse 85/min",
+   "blood pressure 135/75 mm Hg"
+  ],
+  "diseases_mentioned": [
+   "bronchial asthma"
+  ],
+  "procedures": [],
+  "drugs": [
+   "inhaled salbutamol"
+  ],
+  "lab_findings": []
+ },
+ "m325_788": {
+  "symptoms_signs": [
+   "bilateral wrist pain",
+   "bilateral knee pain",
+   "morning stiffness in joints",
+   "non-tender nodules on fingers",
+   "tenderness at base of thumbs",
+   "bilateral knee enlargement",
+   "pain on passive range of motion",
+   "crepitus on passive range of motion"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_803": {
+  "symptoms_signs": [
+   "crampy abdominal pain",
+   "bloating",
+   "no bowel movement for three days",
+   "no gas passage for three days",
+   "temperature 100.8\u00b0F",
+   "blood pressure 90/60 mmHg",
+   "pulse 110/min",
+   "respirations 24/min",
+   "distended abdomen",
+   "tender abdomen"
+  ],
+  "diseases_mentioned": [
+   "Alzheimer's disease",
+   "hypertension",
+   "stable angina"
+  ],
+  "procedures": [],
+  "drugs": [
+   "donepezil",
+   "aspirin",
+   "enalapril",
+   "metoprolol"
+  ],
+  "lab_findings": [
+   "frontal abdominal radiograph"
+  ]
+ },
+ "m325_807": {
+  "symptoms_signs": [
+   "knee pain",
+   "mild swelling",
+   "erythema over left knee",
+   "tenderness to palpation medial femoral condyle",
+   "tenderness to palpation lateral femoral condyle",
+   "intact full range of motion"
+  ],
+  "diseases_mentioned": [
+   "muscle strain"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "crescent-shaped radiolucency in subchondral bone of femur",
+   "normal remainder of radiograph"
+  ]
+ },
+ "m325_823": {
+  "symptoms_signs": [
+   "muscle pains",
+   "poor sleep",
+   "daytime fatigue",
+   "severe worrying"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_832": {
+  "symptoms_signs": [
+   "rash on head",
+   "rash spreading to body",
+   "ill lately",
+   "temperature 102\u00b0F",
+   "blood pressure 106/68 mmHg",
+   "pulse 167/min",
+   "respirations 25/min",
+   "oxygen saturation 99%",
+   "appears very ill",
+   "confused"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "homeopathic remedies",
+   "tuber oil"
+  ],
+  "lab_findings": []
+ },
+ "m325_836": {
+  "symptoms_signs": [
+   "lower back pain",
+   "stiffness",
+   "pain worse in the morning",
+   "pain improving with activity",
+   "decreased anterior flexion of lumbar spine"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "radiograph of lumbar spine"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_855": {
+  "symptoms_signs": [
+   "confusion",
+   "change in behavior",
+   "agitation",
+   "temperature 101\u00b0F",
+   "blood pressure 111/78 mmHg",
+   "pulse 117/min",
+   "respirations 22/min",
+   "oxygen saturation 99% on room air",
+   "irritable",
+   "sweaty",
+   "hyperreflexia of lower extremities",
+   "clonus"
+  ],
+  "diseases_mentioned": [
+   "depression",
+   "hypertension",
+   "diabetes",
+   "Parkinson disease"
+  ],
+  "procedures": [],
+  "drugs": [
+   "fluoxetine",
+   "lisinopril",
+   "insulin",
+   "metformin",
+   "selegiline",
+   "oxycodone",
+   "clonazepam"
+  ],
+  "lab_findings": []
+ },
+ "m325_92": {
+  "symptoms_signs": [
+   "headaches",
+   "vertigo",
+   "changes to personality",
+   "ataxia",
+   "apathy",
+   "Mini-Mental State Examination score 15/30"
+  ],
+  "diseases_mentioned": [
+   "HIV"
+  ],
+  "procedures": [
+   "MRI of the brain with contrast",
+   "lumbar puncture"
+  ],
+  "drugs": [
+   "antiretroviral therapy",
+   "trimethoprim-sulfamethoxazole"
+  ],
+  "lab_findings": [
+   "Hemoglobin 12.5 g/dL",
+   "Leukocyte count 8400/mm3",
+   "Segmented neutrophils 80%",
+   "Eosinophils 1%",
+   "Lymphocytes 17%",
+   "Monocytes 2%",
+   "CD4+ T-lymphocytes 90/\u03bcL",
+   "Platelet count 328,000/mm3",
+   "solitary ring-enhancing lesion involving corpus callosum 4.5 cm",
+   "slight pleocytosis",
+   "PCR positive for Epstein-Barr virus DNA"
+  ]
+ },
+ "m325_931": {
+  "symptoms_signs": [
+   "incoherent speech",
+   "confused elderly man",
+   "not responding coherently",
+   "healing scalp laceration",
+   "short steps gait",
+   "reduced gait cadence"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "hyperlipidemia",
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 98.9\u00b0F",
+   "blood pressure 167/108 mmHg",
+   "pulse 83/min",
+   "respirations 12/min",
+   "oxygen saturation 97% on room air"
+  ]
+ },
+ "m325_970": {
+  "symptoms_signs": [
+   "racing heart beat",
+   "palpitations",
+   "shortness of breath",
+   "nervousness",
+   "discomfort",
+   "vital signs",
+   "temperature 98.8F",
+   "heart rate 60 bpm",
+   "blood pressure 110/80 mmHg",
+   "respiratory rate 12",
+   "resting EKG"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "m325_971": {
+  "symptoms_signs": [
+   "difficulty sleeping",
+   "poor appetite",
+   "persistent sadness",
+   "difficulty concentrating",
+   "depressed mood",
+   "constricted affect"
+  ],
+  "diseases_mentioned": [
+   "breast cancer"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_test_4409": {
+  "symptoms_signs": [
+   "worsening tremor",
+   "tremor affects left hand",
+   "tremor improves with task",
+   "feeling stiffer throughout day",
+   "fallen twice in past year",
+   "no changes in cognition",
+   "no changes in mood",
+   "no difficulty sleeping",
+   "kicking and punching while dreaming",
+   "blank stare"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_test_4423": {
+  "symptoms_signs": [
+   "increasing generalized fatigue",
+   "severe pruritus",
+   "scleral icterus",
+   "multiple scratch marks on trunk",
+   "multiple scratch marks on extremities"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "ulcerative colitis"
+  ],
+  "procedures": [
+   "colonoscopy",
+   "abdominal ultrasound"
+  ],
+  "drugs": [
+   "lisinopril",
+   "rectal mesalamine"
+  ],
+  "lab_findings": [
+   "Hemoglobin 11.5 g/dL",
+   "Leukocyte count 7500/mm3",
+   "Platelet count 280,000/mm3",
+   "Serum Na+ 138 mEq/L",
+   "Serum Cl- 101 mEq/L",
+   "Serum K+ 4.7 mEq/L",
+   "Urea nitrogen 18 mg/dL",
+   "Glucose 91 mg/dL",
+   "Creatinine 0.8 mg/dL",
+   "Total bilirubin 1.5 mg/dL",
+   "Direct bilirubin 0.9 mg/dL",
+   "Alkaline phosphatase 460 U/L",
+   "AST 75 U/L",
+   "ALT 78 U/L",
+   "Anti-nuclear antibody negative",
+   "Antimitochondrial antibodies negative",
+   "thickening of bile ducts",
+   "focal bile duct dilatation"
+  ]
+ },
+ "v2_test_4425": {
+  "symptoms_signs": [
+   "worsening pain in left buttock",
+   "deep dull ache",
+   "pain worse at night",
+   "tenderness over left gluteal region",
+   "no focal neurologic findings"
+  ],
+  "diseases_mentioned": [
+   "hyperlipidemia"
+  ],
+  "procedures": [
+   "x-ray of the pelvis",
+   "chest x-ray",
+   "abdominal ultrasonography",
+   "rectal examination"
+  ],
+  "drugs": [
+   "simvastatin"
+  ],
+  "lab_findings": [
+   "4-cm poorly defined osteolytic lesion in left ilium",
+   "moth-eaten pattern of bone destruction",
+   "multiple well-defined sclerotic lesions",
+   "aggressive periosteal reaction"
+  ]
+ },
+ "v2_test_4473": {
+  "symptoms_signs": [
+   "wet and bloody surgical dressings",
+   "blood in stools",
+   "uncomfortable appearance",
+   "temperature 36\u00b0C",
+   "pulse 98/min",
+   "respirations 14/min",
+   "blood pressure 118/72 mm Hg",
+   "soft abdomen",
+   "14-cm midline incision",
+   "severe oozing of blood from incision margins",
+   "blood in colostomy bag"
+  ],
+  "diseases_mentioned": [
+   "colon cancer",
+   "hypertension",
+   "ischemic heart disease"
+  ],
+  "procedures": [
+   "open right hemicolectomy",
+   "colostomy"
+  ],
+  "drugs": [
+   "aspirin",
+   "metoprolol",
+   "enalapril",
+   "simvastatin"
+  ],
+  "lab_findings": [
+   "hemoglobin 12.3 g/dL",
+   "leukocyte count 11,200/mm3",
+   "platelet count 210,000/mm3",
+   "bleeding time 4 minutes",
+   "prothrombin time 15 seconds",
+   "INR 1.1",
+   "activated partial thromboplastin time 36 seconds",
+   "urea nitrogen 30 mg/dL",
+   "glucose 96 mg/dL",
+   "creatinine 1.1 mg/dL",
+   "AST 48 U/L",
+   "ALT 34 U/L",
+   "\u03b3-Glutamyltransferase 70 U/L"
+  ]
+ },
+ "v2_test_4499": {
+  "symptoms_signs": [
+   "fatigue",
+   "muscle aches",
+   "dry cough",
+   "painful bluish discoloration of fingertips",
+   "painful bluish discoloration of nose",
+   "painful bluish discoloration of earlobes",
+   "temperature 37.8\u00b0C",
+   "mildly pale conjunctivae",
+   "annular erythematous lesions on lower extremities",
+   "dusky central area on skin lesions"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_test_4534": {
+  "symptoms_signs": [
+   "sharp chest pain",
+   "nonproductive cough",
+   "pain worsens with deep inspiration",
+   "pain improves when leaning forward",
+   "temperature 38.4\u00b0C",
+   "blood pressure 132/85 mm Hg",
+   "high-pitched scratching sound during expiration",
+   "enlargement of the cardiac silhouette",
+   "left-sided pleural effusion"
+  ],
+  "diseases_mentioned": [
+   "ST-elevation myocardial infarction"
+  ],
+  "procedures": [
+   "stent implantation of the right coronary artery"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 38.4\u00b0C",
+   "blood pressure 132/85 mm Hg",
+   "enlargement of the cardiac silhouette",
+   "left-sided pleural effusion"
+  ]
+ },
+ "v2_test_4562": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "bloody mucoid diarrhea",
+   "temperature 38.4\u00b0C",
+   "pulse 92 per minute",
+   "blood pressure 134/82 mm Hg",
+   "tenderness left lower abdomen"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [
+   "CT scan of the abdomen"
+  ],
+  "drugs": [
+   "metformin",
+   "over-the-counter supplements for constipation"
+  ],
+  "lab_findings": []
+ },
+ "v2_test_4677": {
+  "symptoms_signs": [
+   "left eye pain",
+   "temperature 99.5\u00b0F",
+   "blood pressure 100/55 mmHg",
+   "pulse 72/min",
+   "respirations 11/min",
+   "oxygen saturation 98% on room air",
+   "healthy young man",
+   "cardiopulmonary exam normal"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "loratadine",
+   "nasal saline spray",
+   "diphenhydramine"
+  ],
+  "lab_findings": []
+ },
+ "v2_test_4715": {
+  "symptoms_signs": [
+   "abdominal swelling",
+   "worsened abdomen swelling",
+   "temperature 97.0\u00b0F",
+   "blood pressure 122/80 mmHg",
+   "pulse 80/min",
+   "respirations 12/min",
+   "oxygen saturation 98% on room air"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "bedside ultrasound",
+   "fluid sample taken"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "cell count < 50 leukocytes/mm^3",
+   "albumin 4.8 g/dL in fluid",
+   "total protein 2.0 g/dL in fluid",
+   "serum albumin 4.0 g/dL"
+  ]
+ },
+ "v2_test_4734": {
+  "symptoms_signs": [
+   "vision steadily declining",
+   "lips numb",
+   "feet numb",
+   "pupils opacified",
+   "extraocular movements slow",
+   "visual acuity decreased bilaterally",
+   "blood pressure 110/70 mmHg",
+   "pulse 80/min",
+   "respirations 12/min",
+   "alert and oriented"
+  ],
+  "diseases_mentioned": [
+   "medullary thyroid cancer"
+  ],
+  "procedures": [
+   "total thyroidectomy"
+  ],
+  "drugs": [
+   "levothyroxine"
+  ],
+  "lab_findings": [
+   "Na+ 139 mEq/L",
+   "Cl- 100 mEq/L",
+   "K+ 4.9 mEq/L",
+   "HCO3- 25 mEq/L",
+   "BUN 10 mg/dL",
+   "Glucose 110 mg/dL",
+   "Creatinine 0.8 mg/dL",
+   "Thyroid-stimulating hormone 1.5 \u00b5U/mL",
+   "Ca2+ 7.0 mEq/L",
+   "Phosphorus 6.5 mEq/L",
+   "Albumin 3.6 mg/dL"
+  ]
+ },
+ "v2_test_4748": {
+  "symptoms_signs": [
+   "fever",
+   "rash",
+   "irritable",
+   "temperature 102.0\u00b0F",
+   "blood pressure 90/50 mmHg",
+   "pulse 160/min",
+   "respirations 17/min",
+   "oxygen saturation 98% on room air",
+   "scarlatiniform rash",
+   "flaccid blisters",
+   "lesions surround mouth",
+   "painful rash"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_test_4750": {
+  "symptoms_signs": [
+   "nausea",
+   "abdominal pain",
+   "temperature 100.5\u00b0F",
+   "blood pressure 90/60 mmHg",
+   "pulse 130/min",
+   "respirations 30/min",
+   "pupils equal and reactive",
+   "poor skin turgor",
+   "poor capillary refill",
+   "collapsible inferior vena cava"
+  ],
+  "diseases_mentioned": [
+   "type I diabetes mellitus",
+   "obesity",
+   "osteoarthritis",
+   "diabetes",
+   "diabetic nephropathy",
+   "hypertension"
+  ],
+  "procedures": [
+   "bedside ultrasound",
+   "intensive care unit admission"
+  ],
+  "drugs": [
+   "insulin",
+   "lisinopril",
+   "atorvastatin",
+   "ibuprofen",
+   "regular insulin drip",
+   "0.9% isotonic saline"
+  ],
+  "lab_findings": [
+   "serum Na+ 119 mEq/L",
+   "serum Cl- 95 mEq/L",
+   "serum K+ 5.0 mEq/L",
+   "HCO3- not detectable",
+   "BUN 50 mg/dL",
+   "glucose 960 mg/dL",
+   "creatinine 1.6 mg/dL",
+   "Ca2+ 8.9 mg/dL",
+   "PO4- 3.5 mg/dL",
+   "serum Na+ 120 mEq/L",
+   "serum Cl- 90 mEq/L",
+   "serum K+ 4.2 mEq/L",
+   "HCO3- 2 mEq/L",
+   "BUN 50 mg/dL",
+   "glucose 680 mg/dL",
+   "creatinine 1.5 mg/dL",
+   "Ca2+ 8.5 mg/dL",
+   "PO4- 3.0 mg/dL"
+  ]
+ },
+ "v2_test_4778": {
+  "symptoms_signs": [
+   "chest pain",
+   "symptoms started yesterday",
+   "worsened by exertion",
+   "currently not experiencing pain"
+  ],
+  "diseases_mentioned": [
+   "diabetes",
+   "hypertension"
+  ],
+  "procedures": [
+   "ECG"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_test_4807": {
+  "symptoms_signs": [
+   "right-sided chest pain",
+   "difficulty breathing",
+   "trachea deviated to the left",
+   "diminished respiratory movements",
+   "decreased resonance on percussion",
+   "absence of breath sounds over right hemithorax"
+  ],
+  "diseases_mentioned": [
+   "clear cell carcinoma of the kidney"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "pulse rate 72/min",
+   "blood pressure 122/80 mm Hg",
+   "respiratory rate 16/min",
+   "temperature 37.0\u00b0C"
+  ]
+ },
+ "v2_test_4821": {
+  "symptoms_signs": [
+   "multiple episodes of hemoptysis",
+   "generalized weakness",
+   "decreased appetite",
+   "weight loss",
+   "pallor"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "chest X-ray"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "decreased hemoglobin",
+   "serum sodium value of 130 mEq/L",
+   "3 cm rounded opaque shadow"
+  ]
+ },
+ "v2_test_4848": {
+  "symptoms_signs": [
+   "recurrent episodes of swelling",
+   "swelling in face",
+   "swelling in hands",
+   "swelling in neck",
+   "occasional abdominal pain",
+   "swelling events",
+   "event restricting ability to eat",
+   "event restricting ability to swallow",
+   "swollen hand"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "extremely low C1-inhibitor levels"
+  ]
+ },
+ "v2_test_4850": {
+  "symptoms_signs": [
+   "shortness of breath",
+   "diminished respiratory sounds",
+   "heart rate 72/min",
+   "respiratory rate 30/min",
+   "blood pressure 130/80 mm Hg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "chest radiograph"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "interstitial fibrosis",
+   "reticulonodular infiltrate",
+   "eggshell calcification of multiple adenopathies"
+  ]
+ },
+ "v2_test_4874": {
+  "symptoms_signs": [
+   "severe chest pain",
+   "severe retching",
+   "bloody vomiting",
+   "crepitus over left lower lobe",
+   "blood pressure 110/68 mm Hg",
+   "pulse 90/min",
+   "respiratory rate 18/min",
+   "oxygen saturation 90% on room air"
+  ],
+  "diseases_mentioned": [
+   "gastric ulcer"
+  ],
+  "procedures": [
+   "surgical repair of gastric ulcer"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "unremarkable ECG"
+  ]
+ },
+ "v2_test_4885": {
+  "symptoms_signs": [
+   "diarrhea",
+   "abdominal pain",
+   "fatigue",
+   "weight loss",
+   "joint pain",
+   "problems with concentration",
+   "problems with memory"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "GI endoscopy",
+   "small bowel biopsy"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_test_4887": {
+  "symptoms_signs": [
+   "constant fatigue",
+   "difficulty with breastfeeding",
+   "blood pressure 88/56 mm Hg",
+   "heart rate 120/min"
+  ],
+  "diseases_mentioned": [
+   "severe postpartum hemorrhage"
+  ],
+  "procedures": [
+   "hospitalization",
+   "discharged from intensive care unit"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_test_4899": {
+  "symptoms_signs": [
+   "blurry vision",
+   "headaches",
+   "facial pain",
+   "black spot on face",
+   "frequency of urination",
+   "runny nose",
+   "cough",
+   "black necrotic eschar lateral to right nasal ala",
+   "weight loss of 2.7 kg"
+  ],
+  "diseases_mentioned": [
+   "type 1 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "blood pressure 122/98 mm Hg",
+   "temperature 37.2\u00b0C",
+   "urinalysis positive for glucose",
+   "urinalysis positive for ketones"
+  ]
+ },
+ "v2_test_4936": {
+  "symptoms_signs": [
+   "mild fever",
+   "rash",
+   "muscle pain",
+   "swollen lymph nodes",
+   "tender lymph nodes",
+   "normal vital signs",
+   "retinal examination findings"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "spontaneous vaginal delivery"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_test_5066": {
+  "symptoms_signs": [
+   "nausea",
+   "vomiting",
+   "retrosternal pain",
+   "pain radiates to the back",
+   "tenderness to palpation in epigastric area"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "CT scan of the chest"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_test_5104": {
+  "symptoms_signs": [
+   "bloody vomiting",
+   "burning upper abdominal pain",
+   "head injury",
+   "coma for 3 days",
+   "multiple shallow hemorrhagic lesions",
+   "patchy loss of epithelium",
+   "acute inflammatory infiltrate in lamina propria"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "endoscopy",
+   "biopsies"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "hemorrhagic lesions in gastric fundus",
+   "hemorrhagic lesions in greater curvature",
+   "inflammatory infiltrate does not extend beyond muscularis mucosa"
+  ]
+ },
+ "v2_test_5118": {
+  "symptoms_signs": [
+   "fatigue",
+   "5-kg weight loss",
+   "no friends",
+   "spends most time in bed",
+   "pale",
+   "thin",
+   "dry skin",
+   "brittle nails",
+   "calluses on knuckles"
+  ],
+  "diseases_mentioned": [
+   "major depressive disorder"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "Hemoglobin 12.3 g/dL",
+   "Serum Na+ 133 mEq/L",
+   "Serum Cl- 90 mEq/L",
+   "Serum K+ 3.2 mEq/L",
+   "Serum HCO3- 30 mEq/L",
+   "Serum Ca+2 7.8 mg/dL"
+  ]
+ },
+ "v2_test_5143": {
+  "symptoms_signs": [
+   "eye pain",
+   "severe eye pain",
+   "discharge from eye",
+   "temperature 102\u00b0F",
+   "pain on cranial nerve III exam"
+  ],
+  "diseases_mentioned": [
+   "type I diabetes"
+  ],
+  "procedures": [],
+  "drugs": [
+   "insulin"
+  ],
+  "lab_findings": [
+   "temperature 102\u00b0F",
+   "blood pressure 127/68 mmHg",
+   "pulse 100/min",
+   "respirations 17/min",
+   "oxygen saturation 98% on room air"
+  ]
+ },
+ "v2_test_5225": {
+  "symptoms_signs": [
+   "intermittent abdominal cramps",
+   "recurrent episodes of foul-smelling greasy diarrhea",
+   "diffusely tender abdomen",
+   "abdomen resonant to percussion"
+  ],
+  "diseases_mentioned": [
+   "recurrent upper respiratory infection"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "photomicrograph of stool sample"
+  ]
+ },
+ "v2_test_5242": {
+  "symptoms_signs": [
+   "acute onset severe epigastric pain",
+   "pain radiating to the back",
+   "nausea",
+   "vomited twice",
+   "temperature 37.6\u00b0C",
+   "pulse 95/min",
+   "blood pressure 110/74 mm Hg",
+   "respiratory rate 12/min",
+   "body mass index 21 kg/m2"
+  ],
+  "diseases_mentioned": [
+   "diabetes type 2",
+   "HIV infection",
+   "mild intermittent asthma",
+   "generalized anxiety disorder"
+  ],
+  "procedures": [
+   "contrast CT of the abdomen"
+  ],
+  "drugs": [
+   "metformin"
+  ],
+  "lab_findings": [
+   "serum amylase 415 U/L",
+   "serum lipase 520 U/L",
+   "edematous pancreas",
+   "peripancreatic fluid collection",
+   "normal gallbladder"
+  ]
+ },
+ "v2_test_5256": {
+  "symptoms_signs": [
+   "lethargy",
+   "weakness",
+   "headache worsening when leaning forward",
+   "swollen arms",
+   "swollen face",
+   "temperature 37.2\u00b0C",
+   "pulse 103/min",
+   "blood pressure 98/56 mm Hg",
+   "jugular venous distention",
+   "mastectomy scar over left thorax",
+   "engorged veins on anterior chest wall",
+   "1+ pitting edema in both arms"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "invasive ductal carcinoma of the left breast"
+  ],
+  "procedures": [
+   "radical amputation of the left breast",
+   "radiation therapy"
+  ],
+  "drugs": [
+   "aspirin",
+   "hydrochlorothiazide",
+   "tamoxifen"
+  ],
+  "lab_findings": []
+ },
+ "v2_test_5323": {
+  "symptoms_signs": [
+   "recent hair growth along jaw line",
+   "irregular periods",
+   "last menstrual period three months ago",
+   "facial hirsutism along jawline",
+   "acanthosis nigricans in axillary folds",
+   "weight gain about ten pounds",
+   "mobile and nontender six-week-sized uterus"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "transvaginal ultrasound"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 98.6\u00b0F",
+   "pulse 72 per minute",
+   "blood pressure 136/86 mmHg",
+   "respirations 13 per minute",
+   "BMI 26 kg/m^2",
+   "normal external genitalia",
+   "no adnexal masses or tenderness"
+  ]
+ },
+ "v2_test_5331": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "right-sided flank pain",
+   "temperature 37.1\u00b0C",
+   "pulse 114/min",
+   "blood pressure 100/68 mm Hg",
+   "numerous ecchymoses over trunk and flanks",
+   "tender right abdomen",
+   "no palpable mass"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "focused assessment with sonography for trauma",
+   "FAST"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "hemoglobin concentration 7.6 g/dL",
+   "no intraperitoneal fluid collections"
+  ]
+ },
+ "v2_test_5349": {
+  "symptoms_signs": [
+   "sore throat",
+   "trouble breathing",
+   "temperature 103\u00b0F",
+   "blood pressure 100/64 mmHg",
+   "pulse 155/min",
+   "respirations 29/min",
+   "oxygen saturation 95% on room air",
+   "ill-appearing child",
+   "drooling",
+   "leaning forward to breathe",
+   "does not answer questions",
+   "appears very uncomfortable"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "daily multivitamin"
+  ],
+  "lab_findings": []
+ },
+ "v2_test_5427": {
+  "symptoms_signs": [
+   "black spots in vision",
+   "unable to drive at night",
+   "difficulty adapting to lighting",
+   "swan neck deformities of both hands",
+   "20/20 vision in both eyes",
+   "bilateral bull's eye macular lesions"
+  ],
+  "diseases_mentioned": [
+   "rheumatoid arthritis",
+   "type 2 diabetes mellitus",
+   "depression",
+   "glaucoma (family history)"
+  ],
+  "procedures": [],
+  "drugs": [
+   "metformin",
+   "citalopram",
+   "chloroquine"
+  ],
+  "lab_findings": [
+   "Hemoglobin 11.7 g/dL",
+   "Mean corpuscular volume 98 \u03bcm3",
+   "Alkaline phosphatase 65 U/L",
+   "Aspartate aminotransferase 20 U/L",
+   "Alanine aminotransferase 17 U/L",
+   "\u03b3-Glutamyltransferase 90 U/L"
+  ]
+ },
+ "v2_test_5434": {
+  "symptoms_signs": [
+   "yellow discoloration of skin",
+   "generalized pruritus",
+   "decreased appetite",
+   "weight loss",
+   "pale stool",
+   "dark urine",
+   "yellowing of conjunctivae and skin",
+   "soft cystic mass in right upper quadrant"
+  ],
+  "diseases_mentioned": [
+   "acute upper abdominal pain"
+  ],
+  "procedures": [],
+  "drugs": [
+   "IV fluids",
+   "NSAIDs"
+  ],
+  "lab_findings": [
+   "bilirubin total 5.6 mg/dL",
+   "bilirubin direct 4.8 mg/dL",
+   "alkaline phosphatase 192 U/L",
+   "AST 32 U/L",
+   "ALT 34 U/L",
+   "anechoic cystic mass in subhepatic region",
+   "dilation of intrahepatic bile ducts",
+   "dilation of extrahepatic bile ducts"
+  ]
+ },
+ "v2_test_5487": {
+  "symptoms_signs": [
+   "worsening abdominal pain",
+   "dizziness",
+   "pulse 110/min",
+   "blood pressure 85/50 mmHg",
+   "brisk vaginal bleeding",
+   "round mass protruding from vagina",
+   "fundus not palpable on abdominal exam"
+  ],
+  "diseases_mentioned": [
+   "occasional nosebleeds"
+  ],
+  "procedures": [
+   "spontaneous delivery",
+   "spontaneous rupture of membranes",
+   "administration of IV oxytocin",
+   "manual extraction of placenta",
+   "controlled cord traction",
+   "fundal pressure"
+  ],
+  "drugs": [
+   "IV oxytocin"
+  ],
+  "lab_findings": []
+ },
+ "v2_test_5534": {
+  "symptoms_signs": [
+   "irregular menses",
+   "generalized fatigue",
+   "facial hair",
+   "comedones on face",
+   "comedones on back",
+   "multiple ecchymotic patches on trunk",
+   "weakness of iliopsoas muscles",
+   "weakness of biceps muscles",
+   "temperature 37\u00b0C",
+   "pulse 90/min",
+   "blood pressure 146/100 mm Hg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "Hemoglobin 13.1 g/dL",
+   "Leukocyte count 13,500/mm3",
+   "Platelet count 510,000/mm3",
+   "Serum Na+ 145 mEq/L",
+   "Serum K+ 3.3 mEq/L",
+   "Serum Cl- 100 mEq/L",
+   "Glucose 188 mg/dL"
+  ]
+ },
+ "v2_test_5564": {
+  "symptoms_signs": [
+   "severe shooting pain lower back",
+   "pain radiates down back legs",
+   "decreased sensation to light touch",
+   "lateral thigh area sensation decrease",
+   "lateral calf sensation decrease",
+   "decreased patellar reflex",
+   "passive leg raise triggers shooting pain"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_test_5608": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "discomfort",
+   "alternating diarrhea and constipation",
+   "bloating",
+   "temperature 39.0\u00b0C",
+   "heart rate 115/min",
+   "blood pressure 90/60 mm Hg",
+   "respiratory rate 22/min",
+   "diffuse tenderness to palpation",
+   "guarding",
+   "no rebound",
+   "hypoactive bowel sounds",
+   "positive fecal occult blood test"
+  ],
+  "diseases_mentioned": [
+   "irritable bowel syndrome"
+  ],
+  "procedures": [],
+  "drugs": [
+   "imipramine",
+   "psyllium",
+   "loperamide",
+   "alosetron"
+  ],
+  "lab_findings": [
+   "white cell count 15,800/\u00b5L",
+   "metabolic acidosis"
+  ]
+ },
+ "v2_test_5610": {
+  "symptoms_signs": [
+   "fatigue",
+   "joint pain",
+   "pain in both knees",
+   "pain in both elbows",
+   "diffuse muscle pain",
+   "nonpruritic rash on lower extremities",
+   "temperature 37.9\u00b0C",
+   "pulse 90/min",
+   "blood pressure 140/90 mm Hg",
+   "raised purple papules on lower extremities"
+  ],
+  "diseases_mentioned": [
+   "hepatitis C"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "hemoglobin 13.9 g/dL",
+   "leukocyte count 8,500/mm3",
+   "platelets 160,000/mm3",
+   "serum creatinine 1.1 mg/dL",
+   "ALT 123 U/L",
+   "AST 113 U/L"
+  ]
+ },
+ "v2_test_5636": {
+  "symptoms_signs": [
+   "severe abdominal pain",
+   "dull and progressive pain",
+   "suddenly worse pain exercising",
+   "athletic young woman",
+   "burly shoulders",
+   "thick neck",
+   "acne on forehead and back",
+   "diffuse tenderness",
+   "10/10 pain right upper quadrant",
+   "blood pressure 80/40 mmHg",
+   "pulse 110/minute",
+   "temperature 99.5\u00b0F",
+   "respirations 15/minute",
+   "oxygen saturation 96% on room air"
+  ],
+  "diseases_mentioned": [
+   "depression",
+   "anxiety",
+   "gonococcal urethritis"
+  ],
+  "procedures": [],
+  "drugs": [
+   "oral contraceptive pills",
+   "fluoxetine",
+   "alprazolam",
+   "ibuprofen",
+   "acetaminophen",
+   "folate"
+  ],
+  "lab_findings": [
+   "urinary \u00df-hCG ordered"
+  ]
+ },
+ "v2_test_5642": {
+  "symptoms_signs": [
+   "asymptomatic rash",
+   "rash in both axillae",
+   "conjunctival pallor"
+  ],
+  "diseases_mentioned": [
+   "diabetes mellitus",
+   "dyspepsia"
+  ],
+  "procedures": [],
+  "drugs": [
+   "metformin",
+   "aspirin"
+  ],
+  "lab_findings": [
+   "Hemoglobin 9 g/dL",
+   "Mean corpuscular volume 72 \u03bcm3",
+   "Platelet count 469,000/mm3",
+   "Red cell distribution width 18%",
+   "HbA1C 6.5%"
+  ]
+ },
+ "v2_test_5688": {
+  "symptoms_signs": [
+   "recurrent headaches",
+   "nausea",
+   "headaches on right side",
+   "headaches on left side",
+   "headaches exacerbated by loud sounds",
+   "headaches exacerbated by bright light"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "oral contraceptive"
+  ],
+  "lab_findings": [
+   "visual acuity 20/20"
+  ]
+ },
+ "v2_test_5745": {
+  "symptoms_signs": [
+   "shortness of breath",
+   "bilateral pleuritic chest pain",
+   "fatigue",
+   "low grade fever",
+   "night sweats",
+   "temperature 38.1\u00b0C",
+   "pulse 106/min",
+   "respiratory rate 26/min",
+   "blood pressure 136/88 mm Hg",
+   "diaphoretic",
+   "mild respiratory distress",
+   "faint 2/6 systolic murmur",
+   "distended neck veins",
+   "significant hepatomegaly"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "echocardiography"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_test_5813": {
+  "symptoms_signs": [
+   "3-month history of cough",
+   "progressively worsening difficulty walking up stairs",
+   "easier to climb stairs after exercise",
+   "4.6-kg weight loss over 6 months",
+   "dry mucous membranes",
+   "pupils equal and react sluggishly to light",
+   "muscle strength in proximal lower extremity 3/5 initially",
+   "muscle strength increases to 5/5 after repeated tapping",
+   "achilles reflex 1+"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_test_5879": {
+  "symptoms_signs": [
+   "intense shaking",
+   "chills",
+   "malodorous vaginal discharge",
+   "tan vaginal discharge",
+   "1.5 cm dark red velvety lesion",
+   "posterior vaginal wall lesion",
+   "discharge pH 6.4"
+  ],
+  "diseases_mentioned": [
+   "vaginal candidiasis"
+  ],
+  "procedures": [
+   "vaginal delivery",
+   "extensive vaginal laceration suturing"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 98.8\u00b0F",
+   "blood pressure 122/73 mmHg",
+   "pulse 88/min",
+   "respirations 16/min",
+   "BMI 33 kg/m^2"
+  ]
+ },
+ "v2_train_103": {
+  "symptoms_signs": [
+   "increasing pain of right knee",
+   "swelling of right knee",
+   "pain with urination",
+   "painful swollen left ankle joint",
+   "bilateral inflammation of conjunctiva",
+   "tender right knee",
+   "erythematous right knee",
+   "swollen right knee",
+   "limited range of motion by pain",
+   "tenderness at left Achilles tendon insertion site",
+   "anxious appearance",
+   "temperature 38\u00b0C",
+   "pulse 68/min",
+   "blood pressure 100/80 mm Hg"
+  ],
+  "diseases_mentioned": [
+   "rheumatoid arthritis"
+  ],
+  "procedures": [
+   "arthrocentesis"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "hemoglobin 14.5 g/dL",
+   "leukocyte count 12,300/mm3",
+   "platelet count 310,000/mm3",
+   "erythrocyte sedimentation rate 38 mm/h",
+   "urea nitrogen 18 mg/dL",
+   "glucose 89 mg/dL",
+   "creatinine 1.0 mg/dL",
+   "urine protein negative",
+   "urine blood negative",
+   "urine WBC 12\u201316/hpf",
+   "urine RBC 1\u20132/hpf",
+   "HIV ELISA test negative",
+   "synovial fluid cloudy",
+   "synovial fluid Gram stain negative",
+   "synovial fluid leukocyte count 26,000/mm3",
+   "synovial fluid 75% neutrophils"
+  ]
+ },
+ "v2_train_1044": {
+  "symptoms_signs": [
+   "unconscious",
+   "temperature 37.2\u00b0C",
+   "pulse 120/min",
+   "respirations 18/min",
+   "blood pressure 70/50 mm Hg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "glomerular filtration rate 70 mL/min/1.73 m2",
+   "increased filtration fraction"
+  ]
+ },
+ "v2_train_1064": {
+  "symptoms_signs": [
+   "new rash",
+   "seasonal allergies",
+   "mild diarrhea",
+   "skin findings",
+   "anxiety",
+   "weight loss"
+  ],
+  "diseases_mentioned": [
+   "irritable bowel syndrome",
+   "asthma"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_115": {
+  "symptoms_signs": [
+   "worsening tingling of feet",
+   "decreased sense of vibration",
+   "decreased proprioception in toes",
+   "decreased proprioception in ankles",
+   "blood pressure 130/85 mm Hg sitting",
+   "blood pressure 118/70 mm Hg standing"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [
+   "retinal laser photocoagulation"
+  ],
+  "drugs": [
+   "insulin"
+  ],
+  "lab_findings": [
+   "serum hemoglobin A1C 11%",
+   "urine dipstick 2+ protein"
+  ]
+ },
+ "v2_train_1282": {
+  "symptoms_signs": [
+   "lips turned blue",
+   "similar episodes during feeding",
+   "25th percentile for length",
+   "below 5th percentile for weight",
+   "temperature 37\u00b0C",
+   "pulse 130/min",
+   "blood pressure 83/55 mm Hg",
+   "respirations 42/min",
+   "oxygen saturation 90%",
+   "lips and fingers turn blue"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "oxygen saturation 90%"
+  ]
+ },
+ "v2_train_1286": {
+  "symptoms_signs": [
+   "loss of consciousness",
+   "sustained rhythmic contractions",
+   "confused but arousable",
+   "episodes of sweating",
+   "palpitations",
+   "anxiety"
+  ],
+  "diseases_mentioned": [
+   "epilepsy",
+   "type 1 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "Na+ 136 mEq/L",
+   "K+ 3.8 mEq/L",
+   "Cl- 100 mEq/L",
+   "HCO3- 19 mEq/L",
+   "BUN 16 mg/dL",
+   "Creatinine 0.9 mg/dL",
+   "Glucose 54 mg/dL",
+   "Low C-peptide"
+  ]
+ },
+ "v2_train_1303": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "progressively worsening constipation",
+   "epigastric pain",
+   "no defecation for 5 days",
+   "nonspecific tenderness to deep palpation"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "wife's multivitamins"
+  ],
+  "lab_findings": [
+   "vital signs within normal limits"
+  ]
+ },
+ "v2_train_1352": {
+  "symptoms_signs": [
+   "progressively worsening dyspnea",
+   "cough",
+   "hoarseness of voice",
+   "pulse 92/min",
+   "irregularly irregular pulse",
+   "respirations 20/min",
+   "blood pressure 110/75 mm Hg",
+   "rumbling mid-diastolic murmur",
+   "murmur best heard at apex",
+   "left lateral decubitus position"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_1362": {
+  "symptoms_signs": [
+   "shortness of breath",
+   "temperature 98.7\u00b0F",
+   "blood pressure 87/48 mmHg",
+   "pulse 130/min",
+   "respirations 27/min",
+   "oxygen saturation 92% on room air",
+   "anechoic rim surrounding the heart",
+   "poor cardiac squeeze",
+   "global hypokinesis",
+   "right ventricular collapse",
+   "pleural sliding"
+  ],
+  "diseases_mentioned": [
+   "diabetes mellitus",
+   "COPD",
+   "ST-elevation myocardial infarction"
+  ],
+  "procedures": [
+   "dialysis",
+   "bedside ultrasound"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "cardiac troponin 0.72 ng/mL",
+   "cardiac troponin 0.71 ng/mL"
+  ]
+ },
+ "v2_train_1429": {
+  "symptoms_signs": [
+   "skin lesions",
+   "worsening bone pain",
+   "scaling papulonodular skin lesions",
+   "bone pain in right forearm",
+   "bone pain in right thigh",
+   "persistent dry cough",
+   "fatigue",
+   "temperature 99\u00b0F",
+   "blood pressure 110/68 mmHg",
+   "pulse 88/min",
+   "respirations 17/min",
+   "oxygen saturation 97% on room air"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "biopsy of skin lesion"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "pancytopenia",
+   "lymphoblasts on peripheral blood smear",
+   "multiple centrilobular nodules in left upper lobe on CT chest",
+   "osteolytic bone lesions on radiograph"
+  ]
+ },
+ "v2_train_1435": {
+  "symptoms_signs": [
+   "2-month history of cough",
+   "productive of yellow sputum",
+   "occasional streaks of blood",
+   "afebrile",
+   "inspiratory crackles at left infraclavicular area"
+  ],
+  "diseases_mentioned": [
+   "pulmonary tuberculosis"
+  ],
+  "procedures": [
+   "chest x-ray"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "radiopaque mass in left upper lung lobe",
+   "mass that shifts upon repositioning",
+   "sputum sample without acid-fast bacteria"
+  ]
+ },
+ "v2_train_1438": {
+  "symptoms_signs": [
+   "watery diarrhea",
+   "malaise",
+   "anorexia",
+   "abdominal cramps",
+   "temperature 98.6\u00b0F",
+   "respiratory rate 15/min",
+   "pulse 107/min",
+   "blood pressure 90/68 mm Hg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "physical examination",
+   "intravenous fluids started",
+   "stool sample sent to lab"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "stool negative for ova",
+   "stool negative for parasites",
+   "stool negative for blood cells",
+   "stool negative for pus cells"
+  ]
+ },
+ "v2_train_1469": {
+  "symptoms_signs": [
+   "palpitations",
+   "absent P waves",
+   "irregularly irregular rhythm"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "EKG"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "absent P waves",
+   "irregularly irregular rhythm"
+  ]
+ },
+ "v2_train_1510": {
+  "symptoms_signs": [
+   "acute onset of chest pain",
+   "substernal pain",
+   "pain radiates to left arm",
+   "fainting spells",
+   "temperature 97\u00b0F",
+   "blood pressure 89/53 mmHg",
+   "pulse 90/min",
+   "physical examination unremarkable"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "diabetes mellitus",
+   "erectile dysfunction",
+   "benign prostate hyperplasia",
+   "panic disorder"
+  ],
+  "procedures": [
+   "electrocardiogram",
+   "catherization",
+   "stent placement"
+  ],
+  "drugs": [
+   "aspirin",
+   "lisinopril",
+   "metformin",
+   "sildenafil",
+   "prazosin",
+   "citalopram"
+  ],
+  "lab_findings": [
+   "new ST-elevations in lateral leads",
+   "lateral Q waves",
+   "no ST or T wave abnormalities"
+  ]
+ },
+ "v2_train_153": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "bloody diarrhea",
+   "6 episodes moderate volume diarrhea per day",
+   "temperature 38.0\u00b0C",
+   "heart rate 94/min",
+   "blood pressure 106/74 mm Hg",
+   "respiratory rate 14/min",
+   "no acute tenderness",
+   "no rebound tenderness",
+   "no abnormal bowel sounds"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_1536": {
+  "symptoms_signs": [
+   "nausea",
+   "fatigue",
+   "last menstrual period 8 weeks ago"
+  ],
+  "diseases_mentioned": [
+   "bipolar disorder",
+   "hypothyroidism",
+   "nephrogenic diabetes insipidus"
+  ],
+  "procedures": [
+   "urine pregnancy test",
+   "ultrasound of the pelvis"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "positive urine pregnancy test",
+   "viable intrauterine pregnancy on ultrasound"
+  ]
+ },
+ "v2_train_1555": {
+  "symptoms_signs": [
+   "left-sided chest pain",
+   "shortness of breath",
+   "intense pain",
+   "pain spread to upper left arm",
+   "collapse",
+   "unresponsive"
+  ],
+  "diseases_mentioned": [
+   "obesity",
+   "hyperlipidemia",
+   "heart attack"
+  ],
+  "procedures": [
+   "cardiopulmonary resuscitation"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_158": {
+  "symptoms_signs": [
+   "generalized non-itchy rash",
+   "fever",
+   "sore throat",
+   "flushed face",
+   "diffuse papular erythematous rash",
+   "rash that blanches with pressure",
+   "pharyngeal erythema",
+   "red beefy tongue"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "leukocyte count 11200/mm3",
+   "75% segmented neutrophils",
+   "22% lymphocytes"
+  ]
+ },
+ "v2_train_159": {
+  "symptoms_signs": [
+   "irritated eyes",
+   "rubbing his eyes",
+   "eyes appeared slightly red",
+   "couldn\u2019t open his eyes",
+   "temperature 101.3\u00b0F",
+   "blood pressure 102/60 mmHg",
+   "pulse 110/min",
+   "extraocular eye movements intact",
+   "pupils equal and reactive to light"
+  ],
+  "diseases_mentioned": [
+   "atopic dermatitis",
+   "eustachian tube dysfunction"
+  ],
+  "procedures": [
+   "surgery for eustachian tube dysfunction"
+  ],
+  "drugs": [
+   "topical triamcinolone"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_160": {
+  "symptoms_signs": [
+   "excruciating pain left calf",
+   "calf swollen",
+   "calf red",
+   "calf extremely painful",
+   "temperature 102.8 F",
+   "heart rate 112 bpm",
+   "blood pressure 134/76",
+   "distal left leg swollen",
+   "distal left leg extremely tender",
+   "distal left leg purples and dusky",
+   "crepitus present"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "biopsy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "biopsy results"
+  ]
+ },
+ "v2_train_1614": {
+  "symptoms_signs": [
+   "worsening abdominal pain",
+   "nausea",
+   "temperature 37.6 C",
+   "blood pressure 146/80 mm Hg",
+   "pulse 115/min",
+   "respiratory rate 20/min",
+   "acute distress",
+   "scattered wheezes",
+   "decreased air entry",
+   "irregularly irregular heart rate",
+   "no murmurs",
+   "no rubs",
+   "no gallops",
+   "decreased bowel sounds",
+   "diffuse tenderness"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus",
+   "hypertension",
+   "coronary artery disease",
+   "stroke",
+   "atrial fibrillation",
+   "peptic ulcer disease"
+  ],
+  "procedures": [
+   "appendectomy"
+  ],
+  "drugs": [
+   "metformin",
+   "lisinopril",
+   "metoprolol",
+   "omeprazole"
+  ],
+  "lab_findings": [
+   "Na 138 mEq/L",
+   "Cl 101 mEq/L",
+   "HCO3 12 mEq/L",
+   "BUN 21 mg/dL",
+   "Cr 0.9 mg/dL",
+   "glucose 190 mg/dL",
+   "amylase 240 U/L"
+  ]
+ },
+ "v2_train_1633": {
+  "symptoms_signs": [
+   "anxious",
+   "preoccupied with thoughts of school",
+   "preoccupied with thoughts of getting a job",
+   "odd behavior",
+   "wearing winter jacket in summer",
+   "hears voices",
+   "describes a plot to have him killed",
+   "heart rate 90/min",
+   "respiratory rate 17/min",
+   "blood pressure 110/65 mm Hg",
+   "temperature 36.8\u00b0C",
+   "appears gaunt",
+   "anxious appearance",
+   "heart regular rate and rhythm",
+   "lungs clear to auscultation bilaterally"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "psychiatric evaluation"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "CMP normal",
+   "CBC normal",
+   "TSH normal",
+   "urine toxicology test negative"
+  ]
+ },
+ "v2_train_1673": {
+  "symptoms_signs": [
+   "persistent sadness",
+   "difficulty sleeping",
+   "increased appetite",
+   "feeling very energetic",
+   "rested after 3 hours of sleep",
+   "blunted affect"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_1697": {
+  "symptoms_signs": [
+   "shortness of breath",
+   "chest pain",
+   "lethargic",
+   "slurred speech",
+   "decreased consciousness",
+   "dysarthria",
+   "optic disc swelling bilaterally"
+  ],
+  "diseases_mentioned": [
+   "large saddle embolus in the pulmonary arteries"
+  ],
+  "procedures": [
+   "pulmonary angiography",
+   "CT scan of the chest"
+  ],
+  "drugs": [
+   "emergency drug therapy"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_17": {
+  "symptoms_signs": [
+   "sudden vaginal bleeding",
+   "mild lower abdominal cramps",
+   "dizziness",
+   "weakness",
+   "light spotting",
+   "increased bleeding",
+   "passage of clots",
+   "open cervical os",
+   "blood pooling in vagina",
+   "products of conception in os",
+   "nausea subsided"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "suction curettage"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "blood pressure 100/60 mm Hg",
+   "pulse 100/min",
+   "respiration rate 15/min"
+  ]
+ },
+ "v2_train_1725": {
+  "symptoms_signs": [
+   "difficulty swallowing",
+   "difficulty swallowing solid foods",
+   "difficulty swallowing liquid foods",
+   "no associated pain",
+   "no shortness of breath",
+   "no leg swelling",
+   "unremarkable physical examination"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "barium swallow study",
+   "esophageal manometry"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_1730": {
+  "symptoms_signs": [
+   "decreased sexual performance",
+   "delayed penile erection",
+   "inability to maintain erection",
+   "less forceful ejaculations",
+   "prolonged refractory period",
+   "coarse dark pubic hair",
+   "coarse dark axillary hair",
+   "warm lower extremity skin",
+   "intact pedal pulses",
+   "intact sensation",
+   "symmetrically enlarged prostate"
+  ],
+  "diseases_mentioned": [
+   "gastroesophageal reflux disease"
+  ],
+  "procedures": [],
+  "drugs": [
+   "esomeprazole"
+  ],
+  "lab_findings": [
+   "fasting serum glucose 96 mg/dL",
+   "prostate-specific antigen 3.9 ng/mL"
+  ]
+ },
+ "v2_train_1735": {
+  "symptoms_signs": [
+   "difficulty watching a movie",
+   "left eye fixed in down and outward position",
+   "right eye full range of motion",
+   "unable to look at daughter since previous day"
+  ],
+  "diseases_mentioned": [
+   "adult polycystic kidney disease",
+   "COPD"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_1763": {
+  "symptoms_signs": [
+   "increased urinary frequency",
+   "nocturia",
+   "urgency to urinate",
+   "lower back pain",
+   "subjective warmth",
+   "slightly enlarged prostate",
+   "tender prostate on palpation"
+  ],
+  "diseases_mentioned": [
+   "chlamydial infection"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_1792": {
+  "symptoms_signs": [
+   "nightmares",
+   "flashbacks",
+   "difficulty sleeping",
+   "cannot concentrate",
+   "well-healed surgical incisions"
+  ],
+  "diseases_mentioned": [
+   "multiple gunshot wounds"
+  ],
+  "procedures": [
+   "exploratory laparotomy",
+   "femoral intramedullary nail",
+   "femoral artery vascular repair"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_1871": {
+  "symptoms_signs": [
+   "lower abdominal pain",
+   "fevers",
+   "malodorous lochia",
+   "difficulty breastfeeding",
+   "breast pain",
+   "appears ill",
+   "temperature 38.8\u00b0C",
+   "pulse 120/min",
+   "respirations 22/min",
+   "blood pressure 110/70 mm Hg",
+   "urinary catheter in place",
+   "engorged and tender breasts",
+   "cracked nipples with mild erythema",
+   "erythema surrounding incision",
+   "mildly tender low transverse incision",
+   "dark-red foul-smelling lochia",
+   "uterine tenderness"
+  ],
+  "diseases_mentioned": [
+   "prolonged labor",
+   "group B streptococcus"
+  ],
+  "procedures": [
+   "cesarean delivery",
+   "intravenous intrapartum penicillin"
+  ],
+  "drugs": [
+   "intravenous intrapartum penicillin"
+  ],
+  "lab_findings": [
+   "hemoglobin concentration 9 g/dL",
+   "leukocyte count 16,000/mm3",
+   "platelet count 300,000/mm3",
+   "12-cm low transverse incision"
+  ]
+ },
+ "v2_train_1888": {
+  "symptoms_signs": [
+   "severe headache",
+   "sudden-onset headache",
+   "throbbing headache",
+   "double vision",
+   "frequent headaches",
+   "absence of menstruation",
+   "blood pressure 93/61 mm Hg",
+   "decreased visual acuity",
+   "loss of peripheral vision"
+  ],
+  "diseases_mentioned": [
+   "migraine headaches"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_1905": {
+  "symptoms_signs": [
+   "progressive shortness of breath",
+   "nonproductive cough",
+   "bibasilar inspiratory crackles"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "biopsy specimen of a lung nodule"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "multiple nodular opacities in upper lobes",
+   "calcified hilar nodules",
+   "FEV1:FVC ratio of 80%",
+   "severely decreased diffusing capacity for carbon monoxide"
+  ]
+ },
+ "v2_train_1908": {
+  "symptoms_signs": [
+   "fever",
+   "progressive weakness",
+   "cough for five days",
+   "cough during meals",
+   "coughing up undigested food",
+   "frequent productive cough",
+   "yellowish-green sputum",
+   "retrosternal discomfort",
+   "thin appearance",
+   "temperature 40.1\u00b0C",
+   "pulse 118/min",
+   "respirations 22/min",
+   "blood pressure 125/90 mm Hg",
+   "right basal crackles",
+   "dullness on percussion right lung base"
+  ],
+  "diseases_mentioned": [
+   "hypertension"
+  ],
+  "procedures": [
+   "hospitalized for 10 days"
+  ],
+  "drugs": [
+   "hydrochlorothiazide",
+   "pantoprazole"
+  ],
+  "lab_findings": [
+   "hemoglobin 15.4 g/dL",
+   "leukocyte count 17,000/mm3",
+   "platelet count 350,000/mm3",
+   "sodium 139 mEq/L",
+   "potassium 4.6 mEq/L",
+   "chloride 102 mEq/L",
+   "bicarbonate 25 mEq/L",
+   "urea nitrogen 16 mg/dL",
+   "creatinine 1.3 mg/dL",
+   "chest x-ray right lower lobe infiltrate"
+  ]
+ },
+ "v2_train_1961": {
+  "symptoms_signs": [
+   "painful mass in left groin",
+   "painful mass",
+   "mass slowly enlarged",
+   "mass ruptured",
+   "mass ulcerated",
+   "small painless ulcer on labium majorum",
+   "left-sided tender ulcerative lymph nodes",
+   "dark discoloration of lymph nodes"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 99\u00b0F",
+   "blood pressure 139/84 mmHg",
+   "pulse 76/min",
+   "respirations 18/min"
+  ]
+ },
+ "v2_train_1998": {
+  "symptoms_signs": [
+   "sudden-onset chest pain",
+   "severe shortness of breath"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "autopsy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "heart at autopsy"
+  ]
+ },
+ "v2_train_200": {
+  "symptoms_signs": [
+   "bluish discoloration",
+   "bluish discoloration of lips",
+   "bluish discoloration of tongue",
+   "blood pressure 55/33 mm Hg",
+   "heart rate 150/min",
+   "respiratory rate 45/min",
+   "temperature 37\u00b0C",
+   "oxygen saturation 84% on room air",
+   "single second heart sound",
+   "no murmurs"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [
+   "spontaneous vaginal delivery"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "oxygen saturation 84% on room air",
+   "chest X-ray"
+  ]
+ },
+ "v2_train_2030": {
+  "symptoms_signs": [
+   "increased forgetfulness",
+   "unsteady gait",
+   "difficulty concentrating",
+   "urinary urgency",
+   "temperature 36.8\u00b0C",
+   "blood pressure 139/83 mm Hg",
+   "oriented only to person and place",
+   "recall 2 out of 3 words immediately",
+   "recall 1 out of 3 words after five minutes",
+   "slow broad-based gait",
+   "short steps"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "normal urinalysis"
+  ]
+ },
+ "v2_train_2053": {
+  "symptoms_signs": [
+   "agitation",
+   "trying to pull out IV",
+   "accusing nursing staff",
+   "no signs of memory loss",
+   "no behavioral changes",
+   "indwelling catheter"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "right total hip replacement"
+  ],
+  "drugs": [
+   "opioid-based pain regimen"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_2066": {
+  "symptoms_signs": [
+   "confusion",
+   "rapidly progressive dyspnea",
+   "fever",
+   "chills",
+   "pale",
+   "anxious",
+   "severe distress",
+   "temperature 39.3\u00b0C",
+   "respirations 30/min",
+   "pulse 59/min",
+   "blood pressure 80/50 mm Hg",
+   "oxygen saturation 75%",
+   "multiple linear hemorrhages underneath nails",
+   "nontender maculae on palms and soles",
+   "fine rales bilaterally on chest auscultation",
+   "S3 heart sound",
+   "grade 3/6 high-pitched decrescendo early diastolic murmur"
+  ],
+  "diseases_mentioned": [
+   "hepatitis C"
+  ],
+  "procedures": [
+   "chest x-ray",
+   "ECG",
+   "transesophageal echocardiography"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "normal sized heart on chest x-ray",
+   "pulmonary edema on chest x-ray",
+   "P waves and QRS complexes occurring independently on ECG"
+  ]
+ },
+ "v2_train_2086": {
+  "symptoms_signs": [
+   "fatigue",
+   "pain in right wrist",
+   "pain in left knee",
+   "weight loss",
+   "temperature 38\u00b0C",
+   "diffuse lymphadenopathy",
+   "painless oral ulcers",
+   "swollen right wrist",
+   "tender left knee"
+  ],
+  "diseases_mentioned": [
+   "rheumatoid arthritis"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "hemoglobin concentration 9.8 g/dL",
+   "leukocyte count 2000/mm3",
+   "platelet count 75000/mm3",
+   "urinalysis shows excessive protein"
+  ]
+ },
+ "v2_train_2131": {
+  "symptoms_signs": [
+   "lateral knee pain",
+   "tenderness to palpation over lateral right knee",
+   "right hip extended and abducted does not lower smoothly",
+   "adduction causes discomfort"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "albuterol",
+   "ibuprofen"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_2152": {
+  "symptoms_signs": [
+   "recurrent episodes of abdominal discomfort",
+   "abdominal pain",
+   "pain 2-3 hours after meals",
+   "pain at midnight",
+   "moderate to severe pain",
+   "fatigued all the time",
+   "conjunctival pallor",
+   "mild tenderness over epigastric region",
+   "temperature 98.6\u00b0F",
+   "respiratory rate 15/min",
+   "pulse 67/min",
+   "blood pressure 122/98 mm Hg",
+   "BMI 34"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "Hb 10 gm/dL",
+   "total count 11000 /mm3",
+   "neutrophils 70%",
+   "lymphocytes 25%",
+   "monocytes 5%",
+   "ESR 10 mm/hr"
+  ]
+ },
+ "v2_train_226": {
+  "symptoms_signs": [
+   "altered mental status",
+   "disorientation",
+   "flapping tremor of wrists",
+   "visual disturbances",
+   "horizontal nystagmus",
+   "staggering gait",
+   "temperature 37\u00b0C",
+   "respiratory rate 15/min",
+   "pulse 107/min",
+   "blood pressure 92/67 mm Hg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "intravenous D5 1/2NS"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "Serum Albumin 3.2 gm/dL",
+   "Alkaline phosphatase 150 U/L",
+   "Alanine aminotransferase 76 U/L",
+   "Aspartate aminotransferase 155 U/L",
+   "Gamma-glutamyl transpeptidase 202 U/L"
+  ]
+ },
+ "v2_train_2276": {
+  "symptoms_signs": [
+   "erectile dysfunction",
+   "cannot maintain an erection",
+   "rarely wakes up with an erection",
+   "decreased desire for sex",
+   "feeling embarrassed about sexual performance",
+   "testicular atrophy"
+  ],
+  "diseases_mentioned": [
+   "bipolar disorder",
+   "lumbar vertebral injury"
+  ],
+  "procedures": [],
+  "drugs": [
+   "medication for bipolar disorder"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_2281": {
+  "symptoms_signs": [
+   "chronic back pain",
+   "abdominal bloating",
+   "feeling of constipation",
+   "mild bilateral paraspinal muscle tenderness",
+   "soft abdomen",
+   "non-tender abdomen",
+   "non-distended abdomen"
+  ],
+  "diseases_mentioned": [
+   "episodic chest pain"
+  ],
+  "procedures": [
+   "medical evaluation",
+   "x-ray of the spine"
+  ],
+  "drugs": [
+   "daily multivitamins",
+   "glucosamine"
+  ],
+  "lab_findings": [
+   "laboratory studies within reference range",
+   "tests showed no pathological results"
+  ]
+ },
+ "v2_train_2318": {
+  "symptoms_signs": [
+   "sudden loss of vision right eye",
+   "no eye pain",
+   "several episodes of loss of vision",
+   "20/50 vision left eye",
+   "no perception of light right eye",
+   "brisk direct pupillary reflex left eye",
+   "absent direct pupillary reflex right eye",
+   "brisk indirect pupillary reflex right eye",
+   "absent indirect pupillary reflex left eye",
+   "intraocular pressure 18 mm Hg right eye",
+   "intraocular pressure 16 mm Hg left eye",
+   "white 1-mm corneal ring both eyes",
+   "pale white retina right eye",
+   "bright red area macula right eye",
+   "few soft and hard exudates left eye superior and nasal quadrants",
+   "optic disc normal both eyes"
+  ],
+  "diseases_mentioned": [
+   "coronary artery disease",
+   "hypertension",
+   "type 2 diabetes mellitus",
+   "multiple sclerosis",
+   "myocardial infarction"
+  ],
+  "procedures": [
+   "left carotid endarterectomy"
+  ],
+  "drugs": [
+   "aspirin",
+   "metoprolol",
+   "lisinopril",
+   "atorvastatin",
+   "metformin",
+   "glipizide",
+   "weekly intramuscular beta-interferon injections"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_2354": {
+  "symptoms_signs": [
+   "4-day history of abdominal pain",
+   "vomiting",
+   "bilious vomitus",
+   "epigastric mass"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_2361": {
+  "symptoms_signs": [
+   "chronic productive cough",
+   "enlarged heart"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "chest radiograph",
+   "pulmonary function tests"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "enlarged heart on chest radiograph"
+  ]
+ },
+ "v2_train_2410": {
+  "symptoms_signs": [
+   "swelling on neck",
+   "mildly painful swelling",
+   "intermittent throbbing headache",
+   "sweating",
+   "palpitations",
+   "thin appearance",
+   "pale appearance",
+   "fever 38.7\u00b0C",
+   "pulse 112/min",
+   "blood pressure 140/90 mm Hg",
+   "firm 3-cm neck swelling",
+   "neck swelling moves with swallowing",
+   "no lymphadenopathy",
+   "sinus tachycardia"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "Hemoglobin 13 g/dL",
+   "Leukocyte count 9500/mm3",
+   "Platelet count 230,000/mm3",
+   "Serum Na+ 136 mEq/L",
+   "Serum K+ 3.5 mEq/L",
+   "Serum Cl- 104 mEq/L",
+   "TSH 2.3 \u03bcU/mL",
+   "Calcitonin 300 ng/dL",
+   "electrocardiogram sinus tachycardia"
+  ]
+ },
+ "v2_train_2445": {
+  "symptoms_signs": [
+   "unresponsive",
+   "no carotid pulse",
+   "QT prolongation"
+  ],
+  "diseases_mentioned": [
+   "severe pneumonia"
+  ],
+  "procedures": [
+   "cardiopulmonary resuscitation"
+  ],
+  "drugs": [
+   "clarithromycin",
+   "ceftriaxone"
+  ],
+  "lab_findings": [
+   "Serum Na+ 145 mEq/L",
+   "Serum K+ 6.1 mEq/L",
+   "Serum Ca2+ 10.5 mEq/L",
+   "Serum Mg2+ 1.8 mEq/L",
+   "Thyroid-stimulating hormone 0.1 \u03bcU/mL"
+  ]
+ },
+ "v2_train_2465": {
+  "symptoms_signs": [
+   "severe lower back pain",
+   "fatigue",
+   "pain increases with activity",
+   "pale conjunctivae",
+   "tenderness over 1st lumbar vertebra",
+   "blood pressure 105/65 mm Hg",
+   "pulse 86/min",
+   "respirations 16/min",
+   "temperature 36.7\u2103",
+   "no lymphadenopathy"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "lumbosacral computed tomography scan"
+  ],
+  "drugs": [
+   "ibuprofen"
+  ],
+  "lab_findings": [
+   "hemoglobin 9 g/dL",
+   "mean corpuscular volume 90 \u03bcm3",
+   "leukocyte count 5,500/mm3 with normal differential",
+   "platelet count 350,000/mm3",
+   "serum calcium 11.5 mg/dL",
+   "albumin 3.8 g/dL",
+   "urea nitrogen 54 mg/dL",
+   "creatinine 2.5 mg/dL",
+   "low-density lesion in 1st lumbar vertebra",
+   "several similar lesions in pelvic bones"
+  ]
+ },
+ "v2_train_2571": {
+  "symptoms_signs": [
+   "worsening back pain",
+   "pain worse with walking",
+   "pain worse with standing",
+   "pain worse with sitting",
+   "bilateral pain along sacroiliac joint",
+   "difficulty raising either leg",
+   "normal motor function",
+   "normal sensory function",
+   "deep tendon reflexes 2+",
+   "absent Babinski sign",
+   "uterus consistent with 37-weeks gestation",
+   "no abdominal tenderness"
+  ],
+  "diseases_mentioned": [
+   "rheumatoid arthritis"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_2584": {
+  "symptoms_signs": [
+   "failing health",
+   "trouble conversing with animals via telepathy",
+   "symptoms persisted for eight months",
+   "dressed in an all burlap ensemble"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "assortment of Peruvian herbs"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_2662": {
+  "symptoms_signs": [
+   "foul-smelling discharge from one side of nose",
+   "mucoid discharge from left nostril",
+   "panics with nasal speculum use",
+   "no tenderness over facial bones"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "spontaneous vaginal delivery",
+   "X-ray of paranasal sinuses"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "X-ray shows no abnormality"
+  ]
+ },
+ "v2_train_2663": {
+  "symptoms_signs": [
+   "tingling pain in right foot",
+   "pain in right foot when raised",
+   "right calf cramps",
+   "pain disappears after rest",
+   "pulse 82/min",
+   "blood pressure 170/92 mm Hg",
+   "pallor in right foot",
+   "tingling pain on straight leg raise test",
+   "absence of right pedal pulses",
+   "palpable femoral pulses",
+   "normal muscle strength",
+   "no pain in back"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus",
+   "smoking history"
+  ],
+  "procedures": [],
+  "drugs": [
+   "metformin"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_267": {
+  "symptoms_signs": [
+   "exertional dyspnea",
+   "fatigue",
+   "oral aphthous ulcers",
+   "mild conjunctival pallor",
+   "rash on peripheral extremities"
+  ],
+  "diseases_mentioned": [
+   "irritable bowel syndrome",
+   "microcytic hypochromic anemia"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "microcytic hypochromic anemia",
+   "negative FOBT"
+  ]
+ },
+ "v2_train_2701": {
+  "symptoms_signs": [
+   "progressive numbness in fingers and toes",
+   "tingling in fingers and toes",
+   "feeling weak in arms and legs",
+   "decreased sensation to light touch",
+   "decreased sensation to temperature",
+   "decreased sensation to vibration",
+   "ataxia",
+   "positive Romberg sign"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "Crohn's disease"
+  ],
+  "procedures": [
+   "ileocolectomy"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_2721": {
+  "symptoms_signs": [
+   "decreasing vision",
+   "seeing black spots in right eye",
+   "no pain",
+   "left eye asymptomatic",
+   "cervical lymphadenopathy",
+   "multiple violaceous plaques over trunk and extremities",
+   "granular yellow-white opacities around retinal vessels",
+   "multiple areas of dot-blot hemorrhages"
+  ],
+  "diseases_mentioned": [
+   "AIDS",
+   "fungal esophagitis",
+   "Kaposi's sarcoma"
+  ],
+  "procedures": [],
+  "drugs": [
+   "efavirenz",
+   "tenofovir",
+   "emtricitabine",
+   "azithromycin",
+   "trimethoprim-sulfamethoxazole",
+   "multivitamins",
+   "nutritional supplement",
+   "fluconazole"
+  ],
+  "lab_findings": [
+   "height 170 cm",
+   "weight 45 kg",
+   "BMI 15.6 kg/m2",
+   "temperature 37\u00b0C",
+   "pulse 89/min",
+   "blood pressure 110/70 mm Hg",
+   "CD4+ T-lymphocyte count 36/mm3"
+  ]
+ },
+ "v2_train_2779": {
+  "symptoms_signs": [
+   "minimally responsive",
+   "withdraws extremities to pain",
+   "temperature 99.5\u00b0F",
+   "blood pressure 90/48 mmHg",
+   "pulse 150/min",
+   "respirations 17/min",
+   "oxygen saturation 95% on room air",
+   "tachycardia",
+   "diastolic murmur left lower sternal border",
+   "bilateral crackles pulmonary exam"
+  ],
+  "diseases_mentioned": [
+   "IV drug abuse",
+   "diabetes",
+   "alcohol abuse",
+   "malnutrition",
+   "pancreatitis",
+   "sepsis"
+  ],
+  "procedures": [
+   "hospitalized previously"
+  ],
+  "drugs": [
+   "vancomycin",
+   "piperacillin-tazobactam",
+   "IV fluids"
+  ],
+  "lab_findings": [
+   "hemoglobin 9 g/dL",
+   "hematocrit 30%",
+   "leukocyte count 11,500/mm^3",
+   "platelet count 297,000/mm^3",
+   "Na+ 139 mEq/L",
+   "Cl- 100 mEq/L",
+   "K+ 4.0 mEq/L",
+   "HCO3- 28 mEq/L",
+   "BUN 33 mg/dL",
+   "glucose 60 mg/dL",
+   "creatinine 1.7 mg/dL",
+   "Ca2+ 9.7 mg/dL",
+   "PT 20 seconds",
+   "aPTT 60 seconds",
+   "AST 1010 U/L",
+   "ALT 950 U/L",
+   "hemoglobin 10 g/dL",
+   "hematocrit 32%",
+   "leukocyte count 9,500/mm^3",
+   "platelet count 199,000/mm^3",
+   "Na+ 140 mEq/L",
+   "Cl- 102 mEq/L",
+   "K+ 4.3 mEq/L",
+   "HCO3- 24 mEq/L",
+   "BUN 31 mg/dL",
+   "glucose 100 mg/dL",
+   "creatinine 1.6 mg/dL",
+   "Ca2+ 9.0 mg/dL",
+   "PT 40 seconds",
+   "aPTT 90 seconds",
+   "AST 150 U/L",
+   "ALT 90 U/L"
+  ]
+ },
+ "v2_train_2831": {
+  "symptoms_signs": [
+   "agitated",
+   "confused",
+   "unarousable during the day",
+   "awake and impulsive during the night",
+   "requiring frequent reorientation",
+   "distressed",
+   "oriented to person but not to place or time",
+   "inattentiveness",
+   "no focal deficits"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "surgical repair of a hip fracture"
+  ],
+  "drugs": [
+   "oxycodone"
+  ],
+  "lab_findings": [
+   "urine dipstick is normal",
+   "vital signs within normal limits"
+  ]
+ },
+ "v2_train_2868": {
+  "symptoms_signs": [
+   "right upper quadrant pain",
+   "unexplained weakness",
+   "joint pains",
+   "sclera are icteric",
+   "generalized pain on right upper quadrant palpation",
+   "skin appears bronzed on extremities"
+  ],
+  "diseases_mentioned": [
+   "controlled diabetes",
+   "cardiomyopathy"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_2886": {
+  "symptoms_signs": [
+   "shorter than his peers",
+   "well-fed",
+   "well-developed male",
+   "vital signs within normal range",
+   "physical examination normal",
+   "sexual development Tanner stage 2",
+   "height and weight drifted from average",
+   "approached 5th percentile",
+   "delayed bone age"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "X-ray of left hand"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_2910": {
+  "symptoms_signs": [
+   "progressively worsening abdominal pain",
+   "crampy pain",
+   "urge to defecate",
+   "2 bloody bowel movements",
+   "temperature 37.9\u00b0C",
+   "pulse 95/min",
+   "blood pressure 115/69 mm Hg",
+   "soft abdomen",
+   "mild tenderness in left quadrants",
+   "no rebound tenderness",
+   "no guarding",
+   "decreased bowel sounds",
+   "blood on rectal examination finger"
+  ],
+  "diseases_mentioned": [
+   "hypercholesterolemia",
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [
+   "open valve replacement",
+   "cardiopulmonary bypass",
+   "2 transfusions of red blood cells"
+  ],
+  "drugs": [
+   "prophylactic perioperative antibiotics",
+   "opioid pain management"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_2931": {
+  "symptoms_signs": [
+   "difficulty sleeping",
+   "poor concentration",
+   "wakes up frequently",
+   "palpitations",
+   "profuse sweating",
+   "nightmares",
+   "yelling at coworkers",
+   "depressed mood",
+   "negative affect"
+  ],
+  "diseases_mentioned": [
+   "Hashimoto thyroiditis",
+   "pelvic inflammatory disease"
+  ],
+  "procedures": [],
+  "drugs": [
+   "levothyroxine"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_3070": {
+  "symptoms_signs": [
+   "weight loss",
+   "increased appetite",
+   "hyperhidrosis",
+   "increased urinary volume",
+   "increased urinary frequency",
+   "anxious woman",
+   "tachycardic pulse"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "serum sodium 139 mEq/L",
+   "serum chloride 100 mEq/L",
+   "serum potassium 4.3 mEq/L",
+   "serum bicarbonate 25 mEq/L",
+   "serum calcium 12.2 mg/dL",
+   "elevated urine calcium level"
+  ]
+ },
+ "v2_train_3120": {
+  "symptoms_signs": [
+   "shortness of breath",
+   "chest tightness on exertion",
+   "mildly jaundiced conjunctivae",
+   "several spider nevi on upper torso",
+   "barrel-chested appearance"
+  ],
+  "diseases_mentioned": [
+   "asthma"
+  ],
+  "procedures": [
+   "chest X-ray"
+  ],
+  "drugs": [
+   "asthma medication"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_3162": {
+  "symptoms_signs": [
+   "aggressive behavior",
+   "unusual behavior",
+   "stress",
+   "reclusive behavior",
+   "irritability",
+   "yelling at computer",
+   "fever 101\u00b0F",
+   "blood pressure 137/98 mmHg",
+   "pulse 120/min",
+   "respirations 23/min",
+   "oxygen saturation 99% on room air",
+   "irritable young man",
+   "tachycardia",
+   "bilateral clear breath sounds",
+   "dilated pupils",
+   "diaphoretic",
+   "rapid speech",
+   "aggressive"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "placement in soft restraints"
+  ],
+  "drugs": [
+   "haloperidol",
+   "diphenhydramine",
+   "diazepam"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_3249": {
+  "symptoms_signs": [
+   "numbness in hands",
+   "tingling bilaterally in hands"
+  ],
+  "diseases_mentioned": [
+   "Crohn\u2019s disease",
+   "glucose intolerance"
+  ],
+  "procedures": [
+   "ileal resection"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "WBC 7.0",
+   "Hgb 10.8",
+   "Hct 31.1",
+   "MCV 110",
+   "Hgb A1c 5.6%",
+   "T 98.7 F",
+   "HR 98",
+   "BP 128/76",
+   "O2 Sat 98%"
+  ]
+ },
+ "v2_train_3261": {
+  "symptoms_signs": [
+   "agitation",
+   "yellowish coloring of skin and eyes",
+   "psychomotor agitation",
+   "disorientation to time and space",
+   "asterixis",
+   "jaundice on skin and mucous membranes",
+   "epistaxis",
+   "heart rate of 94/min",
+   "respiratory rate of 13/min",
+   "temperature of 37.0\u00b0C",
+   "blood pressure of 110/60 mm Hg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "cocaine",
+   "ecstasy",
+   "alcohol"
+  ],
+  "lab_findings": [
+   "hemoglobin 16.3 g/dL",
+   "hematocrit 47%",
+   "leukocyte count 9,750/mm3",
+   "neutrophils 58%",
+   "bands 2%",
+   "eosinophils 1%",
+   "basophils 0%",
+   "lymphocytes 24%",
+   "monocytes 2%",
+   "platelet count 365,000/mm3",
+   "bilirubin 25 mg/dL",
+   "AST 600 IU/L",
+   "ALT 650 IU/L",
+   "TP activity < 40%",
+   "INR 1.5"
+  ]
+ },
+ "v2_train_3266": {
+  "symptoms_signs": [
+   "increasing pain left knee",
+   "swelling of left knee",
+   "pain awakening from sleep",
+   "mildly swollen left knee",
+   "tender left knee",
+   "limited range of motion"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "x-ray of left knee"
+  ],
+  "drugs": [
+   "ibuprofen"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_3268": {
+  "symptoms_signs": [
+   "progressive blurry vision",
+   "blurry vision in both eyes",
+   "visual acuity 20/80 right eye",
+   "visual acuity 20/60 left eye",
+   "blood pressure 155/98 mm Hg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "fundoscopic examination"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_3282": {
+  "symptoms_signs": [
+   "intermittent diffuse abdominal pain",
+   "nonpruritic rash on legs",
+   "swelling of ankles",
+   "non-blanching raised erythematous papules",
+   "swollen ankle joints",
+   "warm ankle joints",
+   "limited range of motion by pain"
+  ],
+  "diseases_mentioned": [
+   "sore throat"
+  ],
+  "procedures": [],
+  "drugs": [
+   "oral amoxicillin"
+  ],
+  "lab_findings": [
+   "platelet count of 450,000/mm3",
+   "positive stool occult blood test"
+  ]
+ },
+ "v2_train_3313": {
+  "symptoms_signs": [
+   "swollen neck",
+   "small round painless swelling",
+   "sweaty palms and soles",
+   "insomnia",
+   "irritability",
+   "nervousness",
+   "fatigue",
+   "3 x 3 cm round swelling",
+   "non-tender swelling",
+   "non-fluctuant swelling",
+   "non-pulsatile swelling"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "total white blood cell count 10,200/mm3",
+   "70% neutrophils",
+   "30% lymphocytes",
+   "zero eosinophils",
+   "erythrocyte sedimentation rate 20 mm/hr"
+  ]
+ },
+ "v2_train_3346": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "pain localized to right lower abdomen",
+   "moderate distress",
+   "lower abdominal tenderness",
+   "guarding",
+   "tenderness of right adnexa",
+   "temperature 99\u00b0F",
+   "blood pressure 110/74 mmHg",
+   "pulse 89/min",
+   "respirations 14/min",
+   "oxygen saturation 98% on room air",
+   "clear mucous in vaginal introitus",
+   "mobile uterus"
+  ],
+  "diseases_mentioned": [
+   "perforated appendicitis (brother)",
+   "diverticulitis (mother)"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "leukocyte count 10,000/mm^3 with normal differential",
+   "hemoglobin 13.5 g/dL",
+   "platelet count 200,000/mm^3",
+   "beta-human chorionic gonadotropin pending",
+   "small fluid collection in cul-de-sac posterior to uterus"
+  ]
+ },
+ "v2_train_3358": {
+  "symptoms_signs": [
+   "painless blurry vision",
+   "worsened vision past year",
+   "halos around lights",
+   "trouble driving at night",
+   "glare from headlights",
+   "absence of red reflex"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_3375": {
+  "symptoms_signs": [
+   "claims to have spoken to grandfather",
+   "tearful",
+   "says missing grandpa",
+   "talks to grandfather when mom absent",
+   "taken out of preschool for 3 days"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_3395": {
+  "symptoms_signs": [
+   "worsening fatigue",
+   "unintentional 6.8-kg weight loss",
+   "unusual appetite for soil and clay",
+   "pulse 116/minute",
+   "blood pressure 125/84 mm Hg",
+   "diffuse teeth abrasions",
+   "dirt in sublingual folds"
+  ],
+  "diseases_mentioned": [
+   "osteoarthritis of the knees"
+  ],
+  "procedures": [],
+  "drugs": [
+   "acetaminophen"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_3434": {
+  "symptoms_signs": [
+   "cough for 2 weeks",
+   "difficulty breathing",
+   "feeling warm",
+   "halitosis",
+   "mild scleral icterus"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_3439": {
+  "symptoms_signs": [
+   "chest pain",
+   "shortness of breath",
+   "chronic cough",
+   "dullness to percussion right lung base",
+   "decreased air movement right side",
+   "temperature 98.8\u00b0F",
+   "blood pressure 124/68 mmHg",
+   "pulse 78/min",
+   "respirations 13/min"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "myocardial infarction"
+  ],
+  "procedures": [
+   "tissue biopsy"
+  ],
+  "drugs": [
+   "daily multivitamin",
+   "occasional ibuprofen"
+  ],
+  "lab_findings": [
+   "radiographic features concerning for malignancy",
+   "all cardiac studies within normal limits"
+  ]
+ },
+ "v2_train_3458": {
+  "symptoms_signs": [
+   "progressive swelling in mouth",
+   "difficulty chewing food",
+   "1.5-cm smooth unilobular mass",
+   "bony hard mass",
+   "nontender mass",
+   "mass in midline of hard palate",
+   "no pain",
+   "no cervical lymphadenopathy",
+   "no submandibular lymphadenopathy",
+   "temperature 37\u00b0C",
+   "pulse 70/min",
+   "blood pressure 110/70 mm Hg"
+  ],
+  "diseases_mentioned": [
+   "bronchial asthma"
+  ],
+  "procedures": [],
+  "drugs": [
+   "albuterol inhaler"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_3485": {
+  "symptoms_signs": [
+   "fever",
+   "malaise",
+   "severe right knee joint pain",
+   "right knee swelling",
+   "abdominal pain",
+   "epistaxis",
+   "left ankle joint swelling",
+   "left ankle joint pain",
+   "sore throat",
+   "temperature 38.7\u00b0C",
+   "pulse 119/min",
+   "blood pressure 90/60 mm Hg",
+   "swollen right knee",
+   "tender right knee",
+   "limited range of motion right knee",
+   "painless 3- to 4-mm nodules over elbow"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "arthrocentesis of right knee joint"
+  ],
+  "drugs": [
+   "symptomatic treatment"
+  ],
+  "lab_findings": [
+   "hemoglobin concentration 12.3 g/dL",
+   "leukocyte count 11,800/mm3",
+   "erythrocyte sedimentation rate 58 mm/h",
+   "clear, straw-colored synovial fluid",
+   "synovial fluid leukocyte count 1,350/mm3",
+   "synovial fluid 17% neutrophils",
+   "no organisms on Gram stain"
+  ]
+ },
+ "v2_train_3492": {
+  "symptoms_signs": [
+   "6-day history of left knee pain",
+   "pain exacerbated by movement",
+   "pain exacerbated by kneeling",
+   "no pain at rest",
+   "mild swelling of left anterior superior tibia",
+   "tenderness to palpation of left anterior superior tibia",
+   "pain on extension of left knee against resistance",
+   "limited knee flexion due to pain",
+   "no local erythema",
+   "no knee effusion",
+   "vital signs within normal limits"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "lateral view x-ray of left knee"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_3496": {
+  "symptoms_signs": [
+   "tinnitus",
+   "progressive hearing loss left ear",
+   "vibrating tuning fork test results"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus",
+   "Raynaud syndrome"
+  ],
+  "procedures": [
+   "tuning fork test"
+  ],
+  "drugs": [
+   "metformin",
+   "nifedipine",
+   "multivitamin"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_3516": {
+  "symptoms_signs": [
+   "onset of labor",
+   "contractions every 8\u201310 minutes",
+   "decreased fetal movements",
+   "temperature 36.8\u00b0C",
+   "pulse 94/min",
+   "blood pressure 154/96 mm Hg",
+   "cervix 40% effaced",
+   "cervix 2 cm dilated",
+   "vertex at -2 station",
+   "uterus size consistent with 30-week gestation",
+   "decreased amount of amniotic fluid"
+  ],
+  "diseases_mentioned": [
+   "gestational hypertension"
+  ],
+  "procedures": [
+   "pelvic examination",
+   "ultrasonography"
+  ],
+  "drugs": [
+   "labetalol",
+   "pregnancy multivitamin"
+  ],
+  "lab_findings": [
+   "fetus in vertex position"
+  ]
+ },
+ "v2_train_3520": {
+  "symptoms_signs": [
+   "severe migrating anterior chest pain",
+   "shortness of breath",
+   "sweating at rest",
+   "severe distress",
+   "pulse 110/min",
+   "respirations 20/min",
+   "blood pressure 150/85 mm Hg",
+   "oxygen saturation 98%",
+   "grade 3/6 high-pitched blowing diastolic murmur",
+   "murmur over right sternal border",
+   "decreased femoral pulses bilaterally"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "hypercholesterolemia",
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [
+   "atorvastatin",
+   "hydrochlorothiazide",
+   "lisinopril",
+   "metformin"
+  ],
+  "lab_findings": [
+   "ECG sinus tachycardia",
+   "ECG left ventricular hypertrophy",
+   "lungs clear to auscultation"
+  ]
+ },
+ "v2_train_3555": {
+  "symptoms_signs": [
+   "persistent vomiting",
+   "vomited up blood",
+   "vomit contains streaks of blood",
+   "in shock",
+   "temperature 37\u00b0C",
+   "respirations 15/min",
+   "pulse 107/min",
+   "blood pressure 90/68 mm Hg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "physical examination",
+   "intravenous fluids started",
+   "blood sample drawn",
+   "upper gastrointestinal endoscopy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "longitudinal mucosal tear distal esophagus"
+  ]
+ },
+ "v2_train_3586": {
+  "symptoms_signs": [
+   "severe dyspnea",
+   "productive cough with blood streaks",
+   "pruritic papular rash",
+   "painful inguinal swelling",
+   "confusion",
+   "temperature 39.5\u2103",
+   "pulse 105/min",
+   "respiration rate 32/min",
+   "blood pressure 95/45 mm Hg",
+   "rales in left lower lung",
+   "enlarged right inguinal lymph nodes",
+   "spongy lymph node consistency",
+   "underlying hard core in lymph node",
+   "edematous surrounding area"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "computerized tomography scan"
+  ],
+  "drugs": [
+   "painkillers"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_3622": {
+  "symptoms_signs": [
+   "worsening abdominal discomfort",
+   "radiation to the back",
+   "malaise",
+   "chills",
+   "nausea",
+   "vomiting",
+   "febrile to 39.5\u00b0C",
+   "diffusely tender to abdominal palpation"
+  ],
+  "diseases_mentioned": [
+   "alcoholism"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "13500 white blood cells",
+   "bilirubin 2.1",
+   "lipase 842",
+   "amylase 3210"
+  ]
+ },
+ "v2_train_3690": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "pain worsens when eating"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "biopsy specimen",
+   "endoscopy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "single ulcerated lesion",
+   "'punched out' appearance"
+  ]
+ },
+ "v2_train_3692": {
+  "symptoms_signs": [
+   "acute onset chest pain",
+   "crushing chest pain"
+  ],
+  "diseases_mentioned": [
+   "hyperlipidemia",
+   "peripheral vascular disease"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_407": {
+  "symptoms_signs": [
+   "increasing shortness of breath",
+   "dry cough",
+   "scattered expiratory wheezes in both lung fields"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [
+   "spirometry"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "FEV1:FVC ratio of 65%",
+   "FEV1 of 70% of predicted",
+   "diffusing capacity for carbon monoxide 42% of predicted"
+  ]
+ },
+ "v2_train_414": {
+  "symptoms_signs": [
+   "shortness of breath",
+   "temperature 38.8\u00b0C",
+   "pulse 110/min",
+   "respirations 26/min",
+   "blood pressure 95/55 mm Hg",
+   "oxygen saturation 85%",
+   "normal heart sounds",
+   "no jugular venous distention",
+   "diffuse crackles bilaterally",
+   "warm extremities",
+   "no edema"
+  ],
+  "diseases_mentioned": [
+   "newly-diagnosed pancreatic cancer"
+  ],
+  "procedures": [
+   "Whipple procedure",
+   "intraoperative transfusion",
+   "intubation",
+   "mechanical ventilation"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "leukocyte count 17,000/mm3",
+   "hemoglobin concentration 9.8 g/dL",
+   "arterial blood gas pH 7.35",
+   "arterial blood gas PaO2 41 mm Hg",
+   "arterial blood gas PaCO2 38 mm Hg",
+   "arterial blood gas HCO3- 25 mEq/L",
+   "x-ray of the chest",
+   "transthoracic echocardiography normally contracting left ventricle"
+  ]
+ },
+ "v2_train_444": {
+  "symptoms_signs": [
+   "seizure",
+   "recurrent headaches",
+   "increasing irritability",
+   "spastic paresis of right lower extremity",
+   "Babinski sign on right side"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "MRI of the brain"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_465": {
+  "symptoms_signs": [
+   "sudden shortness of breath",
+   "oriented only to person",
+   "temperature 38.3\u00b0C",
+   "pulse 122/min",
+   "respiratory rate 31/min",
+   "blood pressure 152/90 mm Hg",
+   "oxygen saturation 83%",
+   "scattered petechiae on anterior chest wall"
+  ],
+  "diseases_mentioned": [
+   "displaced right femoral fracture"
+  ],
+  "procedures": [
+   "internal fixation of displaced right femoral fracture"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "hemoglobin concentration 10.3 g/dL",
+   "leukocyte count 9,500/mm3",
+   "platelet count 140,000/mm3"
+  ]
+ },
+ "v2_train_482": {
+  "symptoms_signs": [
+   "severe retrosternal chest pain",
+   "shortness of breath",
+   "unresponsive to painful stimuli",
+   "no respiration",
+   "no pulse"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "ECG recorded en route",
+   "lifesaving measures"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "ST-segment elevation in I",
+   "ST-segment elevation in aVL",
+   "ST-segment elevation in precordial leads"
+  ]
+ },
+ "v2_train_517": {
+  "symptoms_signs": [
+   "respiratory distress",
+   "low-set ears",
+   "retrognathia",
+   "club feet"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "autopsy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "periportal fibrosis of the liver"
+  ]
+ },
+ "v2_train_520": {
+  "symptoms_signs": [
+   "large-volume stools",
+   "loose stools",
+   "greasy stools",
+   "5th percentile for height",
+   "3rd percentile for weight",
+   "softening of occipital bones",
+   "softening of parietal bones",
+   "scattered expiratory wheezing",
+   "rhonchi in lung fields"
+  ],
+  "diseases_mentioned": [
+   "otitis media",
+   "recurrent respiratory tract infections"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_542": {
+  "symptoms_signs": [
+   "knee pain",
+   "tenderness over medial tibia",
+   "obese woman",
+   "facial hair",
+   "BMI 37 kg/m^2"
+  ],
+  "diseases_mentioned": [
+   "polycystic ovarian syndrome"
+  ],
+  "procedures": [],
+  "drugs": [
+   "oral contraceptive pills"
+  ],
+  "lab_findings": [
+   "temperature 98.5\u00b0F",
+   "blood pressure 137/88 mmHg",
+   "pulse 90/min",
+   "respirations 12/min",
+   "oxygen saturation 98% on room air"
+  ]
+ },
+ "v2_train_560": {
+  "symptoms_signs": [
+   "several months of diarrhea",
+   "crampy abdominal pain",
+   "many watery non-bloody bowel movements",
+   "fatigue",
+   "weight loss of 10 pounds",
+   "BMI of 20",
+   "skin tags",
+   "anal fissure"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_train_562": {
+  "symptoms_signs": [
+   "bilateral joint pain",
+   "stiffness in hand joints",
+   "difficulty holding coffee cup",
+   "difficulty holding pen",
+   "morning stiffness",
+   "low-grade fever",
+   "mild swelling in proximal interphalangeal joints",
+   "tenderness in proximal interphalangeal joints",
+   "mild swelling in metacarpophalangeal joints",
+   "tenderness in metacarpophalangeal joints",
+   "mild swelling in wrists",
+   "tenderness in wrists",
+   "nontender nodules near elbows",
+   "non-pruritic nodules near elbows"
+  ],
+  "diseases_mentioned": [
+   "dysthymia",
+   "gastroesophageal reflux disease"
+  ],
+  "procedures": [],
+  "drugs": [
+   "ibuprofen"
+  ],
+  "lab_findings": [
+   "soft tissue swelling on hand X-rays",
+   "joint space narrowing on hand X-rays",
+   "bony erosions on hand X-rays",
+   "hematocrit 32%",
+   "erythrocyte sedimentation rate 40 mm/hr"
+  ]
+ },
+ "v2_train_569": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "pain started while eating",
+   "pain persisted for 6 hours",
+   "vomited once",
+   "HR 88",
+   "BP 110/70 mmHg",
+   "T 38.5\u00b0C",
+   "tenderness in right upper quadrant",
+   "normal skin appearance"
+  ],
+  "diseases_mentioned": [
+   "obesity"
+  ],
+  "procedures": [
+   "right upper quadrant abdominal ultrasound"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "normal liver function tests",
+   "normal amylase levels",
+   "normal lipase levels",
+   "ultrasound not able to visualize gallstones"
+  ]
+ },
+ "v2_train_605": {
+  "symptoms_signs": [
+   "pain on finger",
+   "rash on finger",
+   "pain with palpation of finger"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 98.7\u00b0F (37.1\u00b0C)",
+   "blood pressure 129/82 mmHg",
+   "pulse 83/min",
+   "respirations 15/min",
+   "oxygen saturation 99% on room air"
+  ]
+ },
+ "v2_train_62": {
+  "symptoms_signs": [
+   "dizziness",
+   "ringing in ears",
+   "left-sided hearing loss",
+   "horizontal nystagmus",
+   "temperature 98.7\u00b0F",
+   "blood pressure 159/92 mmHg",
+   "pulse 88/min",
+   "respirations 12/min",
+   "oxygen saturation 99% on room air"
+  ],
+  "diseases_mentioned": [
+   "recent cold"
+  ],
+  "procedures": [
+   "MRI"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "initial laboratory tests unremarkable"
+  ]
+ },
+ "v2_train_657": {
+  "symptoms_signs": [
+   "postcoital pain",
+   "blood-tinged vaginal discharge",
+   "tender cervix to motion",
+   "bleeding on cervical touch"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "Pap smear",
+   "bimanual exam",
+   "speculum exam"
+  ],
+  "drugs": [
+   "combined oral contraceptive"
+  ],
+  "lab_findings": [
+   "normal Pap smear"
+  ]
+ },
+ "v2_train_660": {
+  "symptoms_signs": [
+   "recurrent vomiting",
+   "difficulty walking",
+   "broad-based gait",
+   "bilateral optic disc swelling"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "ventriculoperitoneal shunt placement",
+   "surgical excision of the tumor"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "intracranial tumor on MRI"
+  ]
+ },
+ "v2_train_687": {
+  "symptoms_signs": [
+   "right-sided weakness",
+   "slurred speech",
+   "difficulty holding fork",
+   "fell to the ground",
+   "aphasic"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "hypercholesterolemia",
+   "multiple episodes of epistaxis",
+   "migraine headaches",
+   "iron deficiency anemia",
+   "hemorrhagic stroke",
+   "gastrointestinal bleeding"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "hemoglobin of 20 g/dL",
+   "hematocrit of 60%",
+   "sinus rhythm",
+   "mild tachycardia"
+  ]
+ },
+ "v2_train_751": {
+  "symptoms_signs": [
+   "dry eyes",
+   "visual acuity 20/40 OD",
+   "visual acuity 20/40 OS",
+   "scattered bright yellow drusen",
+   "needs to blink several times",
+   "no floaters",
+   "no diplopia",
+   "no blurred vision"
+  ],
+  "diseases_mentioned": [
+   "diabetes mellitus"
+  ],
+  "procedures": [
+   "diabetic screening exams",
+   "foot examination",
+   "eye exam",
+   "fundoscopic examination"
+  ],
+  "drugs": [
+   "glargine",
+   "insulin lispro"
+  ],
+  "lab_findings": [
+   "hemoglobin A1c of 7.2%",
+   "normal lipid levels"
+  ]
+ },
+ "v2_train_764": {
+  "symptoms_signs": [
+   "acute onset abdominal pain",
+   "severe abdominal pain",
+   "bloody diarrhea",
+   "pale",
+   "confused",
+   "blood pressure 80/40 mm Hg",
+   "heart rate 108/min",
+   "respiratory rate 22/min",
+   "temperature 35.6\u00b0C"
+  ],
+  "diseases_mentioned": [
+   "chronic constipation",
+   "postprandial abdominal pain",
+   "inferior wall STEMI"
+  ],
+  "procedures": [
+   "percutaneous intervention"
+  ],
+  "drugs": [
+   "nitroglycerin",
+   "intravenous fluids",
+   "vasopressors"
+  ],
+  "lab_findings": [
+   "dark hemorrhagic appearance of the sigmoid colon"
+  ]
+ },
+ "v2_train_79": {
+  "symptoms_signs": [
+   "increasing forgetfulness",
+   "misplace keys",
+   "forget dog's name",
+   "forget phone number",
+   "forgets television content",
+   "forgets reading content",
+   "stopped walking",
+   "became lost returning home",
+   "leaving gas stove on",
+   "agitation when questioned",
+   "unconcerned about history",
+   "alert and oriented to place and person",
+   "not oriented to time",
+   "short-term memory deficits",
+   "long-term memory deficits",
+   "normal speech rhythm",
+   "frequent speech interruptions",
+   "errors performing serial sevens",
+   "impaired clock drawing",
+   "draws 14 numbers"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "coronary artery disease",
+   "hypercholesterolemia"
+  ],
+  "procedures": [],
+  "drugs": [
+   "aspirin",
+   "enalapril",
+   "carvedilol",
+   "atorvastatin"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_827": {
+  "symptoms_signs": [
+   "recurrent abdominal cramps",
+   "bloating",
+   "diarrhea",
+   "greasy stools",
+   "foul-smelling stools",
+   "difficult to flush stools",
+   "weight loss",
+   "pallor",
+   "cheilitis"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "rifaximin"
+  ],
+  "lab_findings": [
+   "hemoglobin concentration of 11 g/dL",
+   "serum electrolytes within reference range",
+   "urea nitrogen within reference range",
+   "creatinine within reference range",
+   "stool occult blood negative",
+   "stool microscopy no pathogens",
+   "stool microscopy no leukocytes",
+   "24-hour stool fat 12 g",
+   "urinary d-xylose 2 g"
+  ]
+ },
+ "v2_train_867": {
+  "symptoms_signs": [
+   "painful skin lesion on right leg",
+   "small red spot",
+   "pitting pedal edema",
+   "4-cm tender ulcerative lesion",
+   "central necrotic base",
+   "purplish irregular borders",
+   "dilated tortuous veins in lower legs",
+   "temperature 37.6\u00b0C",
+   "pulse 98/min",
+   "blood pressure 126/88 mm Hg"
+  ],
+  "diseases_mentioned": [
+   "anterior uveitis",
+   "Crohn's disease",
+   "type 2 diabetes mellitus",
+   "hypertension"
+  ],
+  "procedures": [],
+  "drugs": [
+   "corticosteroids",
+   "insulin",
+   "mesalamine",
+   "enalapril",
+   "aspirin"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_893": {
+  "symptoms_signs": [
+   "vaginal bleeding",
+   "no uterine contractions",
+   "no abdominal pain",
+   "perineum mildly bloody",
+   "no abdominal tenderness",
+   "no palpable uterine contractions",
+   "small amount of blood through cervix"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "cesarean delivery"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "blood pressure 130/80 mm Hg",
+   "heart rate 84/min",
+   "respiratory rate 12/min",
+   "temperature 36.8\u2103 (98.2\u2109)",
+   "33 weeks gestation"
+  ]
+ },
+ "v2_train_9": {
+  "symptoms_signs": [
+   "respiratory distress",
+   "temperature 36.9\u00b0C",
+   "pulse 140/min",
+   "respirations 69/min",
+   "blood pressure 60/30 mm Hg",
+   "oxygen saturation 92%",
+   "nasal flaring",
+   "expiratory grunting"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "delivery"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "x-ray of the chest"
+  ]
+ },
+ "v2_train_949": {
+  "symptoms_signs": [
+   "sudden chest pain",
+   "shortness of breath",
+   "temperature 98.3\u00b0F",
+   "blood pressure 129/61 mmHg",
+   "pulse 129/min",
+   "respirations 15/min",
+   "oxygen saturation 98% on room air"
+  ],
+  "diseases_mentioned": [
+   "asthma"
+  ],
+  "procedures": [
+   "ECG",
+   "chest radiograph"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "cardiac troponins 0.8 ng/mL",
+   "elevated D-dimer"
+  ]
+ },
+ "v2_train_951": {
+  "symptoms_signs": [
+   "swelling of legs",
+   "itchy legs",
+   "hoarseness",
+   "bilateral pretibial non-pitting edema",
+   "indurated skin",
+   "cool skin",
+   "dry skin",
+   "peripheral pulses palpated bilaterally"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "constipation",
+   "coronary artery disease",
+   "type-2 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [
+   "aspirin",
+   "bisoprolol",
+   "atorvastatin"
+  ],
+  "lab_findings": []
+ },
+ "v2_train_979": {
+  "symptoms_signs": [
+   "intermittent low grade fevers",
+   "lethargy",
+   "lower extremity weakness",
+   "bowel dysfunction",
+   "bladder dysfunction",
+   "costovertebral angle tenderness worse on right"
+  ],
+  "diseases_mentioned": [
+   "myelomeningocele",
+   "recurrent urinary tract infections"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 100.7\u00b0F (38.2\u00b0C)",
+   "blood pressure 115/70 mmHg",
+   "pulse 115/min",
+   "respirations 20/min",
+   "15th percentile for height",
+   "15th percentile for weight"
+  ]
+ },
+ "v2_val_3743": {
+  "symptoms_signs": [
+   "pink urine",
+   "sore throat",
+   "difficulty swallowing",
+   "low-grade fever",
+   "temperature 38.3\u00b0C",
+   "pulse 76/min",
+   "blood pressure 120/80 mm Hg",
+   "erythematous pharynx",
+   "enlarged tonsils"
+  ],
+  "diseases_mentioned": [
+   "systemic lupus erythematosus"
+  ],
+  "procedures": [
+   "oral examination",
+   "ultrasound of both kidneys"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "leukocyte count 20,000/mm3",
+   "urea nitrogen 8 mg/dL",
+   "creatinine 1.4 mg/dL",
+   "urine blood 3+",
+   "urine protein 1+",
+   "urine RBC 15\u201317/hpf with dysmorphic features",
+   "urine RBC casts numerous"
+  ]
+ },
+ "v2_val_3754": {
+  "symptoms_signs": [
+   "lower limb weakness",
+   "flu-like symptoms",
+   "deep tendon reflexes 1+ right lower extremity",
+   "absent deep tendon reflexes left lower extremity"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "cerebrospinal fluid leukocyte count 38 cells/mm3",
+   "cerebrospinal fluid 68% lymphocytes",
+   "cerebrospinal fluid protein concentration 49 mg/dL",
+   "cerebrospinal fluid glucose concentration 60 mg/dL"
+  ]
+ },
+ "v2_val_3764": {
+  "symptoms_signs": [
+   "progressively worsening abdominal pain",
+   "pain localized to right upper quadrant",
+   "yellowing of eyes and skin",
+   "jaundice",
+   "distended abdomen",
+   "tender hepatomegaly",
+   "no jugular venous distention"
+  ],
+  "diseases_mentioned": [
+   "hypertension"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "hemoglobin concentration 19.2 g/dL",
+   "aspartate aminotransferase 420 U/L",
+   "alanine aminotransferase 318 U/L",
+   "total bilirubin 2.2 mg/dL"
+  ]
+ },
+ "v2_val_3784": {
+  "symptoms_signs": [
+   "progressive intermittent pain",
+   "swelling involving both knees",
+   "swelling right ankle",
+   "swelling right wrist",
+   "affected joints feel stuck",
+   "difficulty moving joints in morning",
+   "joint movement after few minutes",
+   "occasional mild eye pain",
+   "swollen joints",
+   "erythematous joints",
+   "tender joints",
+   "anterior chamber flare",
+   "iris inflammation bilaterally"
+  ],
+  "diseases_mentioned": [
+   "upper respiratory tract infection"
+  ],
+  "procedures": [
+   "slit-lamp examination"
+  ],
+  "drugs": [
+   "acetaminophen",
+   "ice packs"
+  ],
+  "lab_findings": [
+   "hemoglobin 12.6 g/dL",
+   "leukocyte count 8,000/mm3",
+   "segmented neutrophils 76%",
+   "eosinophils 1%",
+   "lymphocytes 20%",
+   "monocytes 3%",
+   "platelet count 360,000/mm3",
+   "erythrocyte sedimentation rate 36 mm/hr",
+   "antinuclear antibodies 1:320",
+   "rheumatoid factor negative"
+  ]
+ },
+ "v2_val_3803": {
+  "symptoms_signs": [
+   "left flank pain",
+   "colicky pain",
+   "pain intensity 8 out of 10",
+   "nausea",
+   "vomited once",
+   "temperature 37.3\u00b0C",
+   "pulse 98/min",
+   "blood pressure 124/78 mm Hg",
+   "soft abdomen",
+   "nontender abdomen",
+   "no costovertebral angle tenderness"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "naproxen"
+  ],
+  "lab_findings": [
+   "unremarkable urinalysis"
+  ]
+ },
+ "v2_val_3900": {
+  "symptoms_signs": [
+   "pain in fingers",
+   "pain in knees",
+   "stiffness in fingers",
+   "stiffness in knees",
+   "morning stiffness lasting 10 minutes",
+   "knee pain worse in evening",
+   "firm nodules on distal interphalangeal joints",
+   "firm nodules on index fingers",
+   "firm nodules on ring fingers",
+   "firm nodules on little fingers"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "acetaminophen"
+  ],
+  "lab_findings": [
+   "height 175 cm",
+   "weight 102 kg",
+   "BMI 33 kg/m2"
+  ]
+ },
+ "v2_val_3952": {
+  "symptoms_signs": [
+   "acute onset chest pain",
+   "7/10 chest pain",
+   "chest pain worse with deep inspirations",
+   "skin findings"
+  ],
+  "diseases_mentioned": [
+   "embolus at the right lung"
+  ],
+  "procedures": [
+   "computed tomography scan"
+  ],
+  "drugs": [
+   "oral contraceptives",
+   "intravenous heparin"
+  ],
+  "lab_findings": []
+ },
+ "v2_val_3981": {
+  "symptoms_signs": [
+   "looking for cameras",
+   "stopped playing basketball",
+   "no longer interested in sport",
+   "stayed in bedroom most of day",
+   "often tearful",
+   "talking about death frequently",
+   "skipping many meals",
+   "significant weight loss",
+   "apathetic",
+   "uses obscure word",
+   "flat affect",
+   "bizarre delusions",
+   "no hallucinations",
+   "no suicidal ideations",
+   "no homicidal ideations"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "smokes 2 packs of cigarettes daily"
+  ],
+  "lab_findings": [
+   "marijuana positive urine drug screen",
+   "blood pressure 130/88 mm Hg",
+   "pulse 92/min",
+   "respiratory rate 16/min",
+   "temperature 37.3\u00b0C"
+  ]
+ },
+ "v2_val_3986": {
+  "symptoms_signs": [
+   "confusion",
+   "temperature of 38.5\u00b0C",
+   "respiratory rate of 28/min",
+   "oxygen saturation of 92% on 2 L oxygen",
+   "tachycardia at 118/min",
+   "blood pressure 110/65 mm Hg",
+   "coarse crackles in right lung base",
+   "surgical wound healing well",
+   "soft and nontender abdomen"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus",
+   "essential hypertension",
+   "angina on exertion"
+  ],
+  "procedures": [
+   "elective right hemicolectomy"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_val_4069": {
+  "symptoms_signs": [
+   "irritability",
+   "palpitations",
+   "heat intolerance",
+   "frequent bowel movements",
+   "pulse 118/min",
+   "blood pressure 133/80 mm Hg",
+   "anxious appearance",
+   "fine tremor in the hands",
+   "bilateral exophthalmos",
+   "warm moist skin"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "v2_val_4076": {
+  "symptoms_signs": [
+   "progressive right shoulder pain",
+   "episodes of joint pain",
+   "episodes of bone pain",
+   "recurrent painful swelling of hands and feet",
+   "tenderness of right anterior humerus",
+   "decreased active range of motion right shoulder",
+   "decreased passive range of motion right shoulder",
+   "pain with shoulder movement"
+  ],
+  "diseases_mentioned": [
+   "intellectual disability"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "leukocyte count 4600/mm3",
+   "x-ray right shoulder subchondral lucency humeral head",
+   "x-ray sclerosis humeral head",
+   "x-ray joint space narrowing"
+  ]
+ },
+ "v2_val_4100": {
+  "symptoms_signs": [
+   "fatigue",
+   "malaise",
+   "dry cough",
+   "occasional painless hematuria",
+   "sore throat",
+   "diffusely coarse breath sounds bilaterally"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "2+ protein in urinalysis",
+   "2+ blood in urinalysis",
+   "numerous red blood cell casts in urine"
+  ]
+ },
+ "v2_val_4110": {
+  "symptoms_signs": [
+   "fatigue",
+   "dyspnea",
+   "mild chest pain on exertion",
+   "jugular venous distention",
+   "1+ pitting edema on both ankles",
+   "scattered inspiratory crackles",
+   "S3 heard at the apex"
+  ],
+  "diseases_mentioned": [
+   "upper respiratory infection"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 36.9\u00b0C (98.4\u00b0F)",
+   "heart rate 96/min",
+   "blood pressure 106/74 mm Hg",
+   "oxygen saturation 96%",
+   "hemoglobin concentration 11.6 g/dL",
+   "leukocyte count 8900/mm3",
+   "ESR 10 mm/hr",
+   "chest x-ray shows mild cardiac enlargement"
+  ]
+ },
+ "v2_val_4119": {
+  "symptoms_signs": [
+   "easy bruising",
+   "recurrent nosebleeds",
+   "weakness",
+   "10-kg weight loss",
+   "mucosal pallor",
+   "bruising on extremities",
+   "spleen palpated 4 cm below left costal margin"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "bone marrow biopsy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "anemia",
+   "thrombocytopenia",
+   "peripheral blood smear"
+  ]
+ },
+ "v2_val_4141": {
+  "symptoms_signs": [
+   "severe pain in both knees",
+   "swelling in both knees",
+   "unintentional weight loss",
+   "episodic abdominal pain",
+   "loose stools",
+   "pale conjunctivae",
+   "cheilitis",
+   "hyperpigmentation of the neck skin",
+   "generalized lymphadenopathy",
+   "bilateral warmth of knee joints",
+   "erythema of knee joints",
+   "swelling of knee joints",
+   "tenderness of knee joints",
+   "limited range of motion in knees",
+   "grade 2/6 early diastolic murmur",
+   "S3 heart sound"
+  ],
+  "diseases_mentioned": [
+   "rheumatoid arthritis"
+  ],
+  "procedures": [
+   "esophagogastroduodenoscopy"
+  ],
+  "drugs": [
+   "methotrexate",
+   "naproxen",
+   "folic acid"
+  ],
+  "lab_findings": [
+   "hemoglobin 9.1 g/dL",
+   "leukocyte count 3800/mm3",
+   "platelet count 140,000/mm3",
+   "mean corpuscular volume 67 \u03bcm3",
+   "erythrocyte sedimentation rate 62 mm/h",
+   "serum glucose 100 mg/dL",
+   "creatinine 0.7 mg/dL",
+   "TIBC 500 mcg/dL",
+   "ferritin 10 mcg/dL",
+   "rheumatoid factor negative",
+   "anti-CCP negative"
+  ]
+ },
+ "v2_val_4187": {
+  "symptoms_signs": [
+   "low back pain",
+   "non-radiating low back pain",
+   "pain worse in the morning",
+   "morning stiffness",
+   "stiffness improves throughout the day",
+   "slightly limited spine flexion",
+   "slightly limited spine extension",
+   "no pain on lumbar spine palpation"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "ibuprofen"
+  ],
+  "lab_findings": [
+   "radiograph of pelvis"
+  ]
+ },
+ "v2_val_4211": {
+  "symptoms_signs": [
+   "oozing red area above left ankle",
+   "yellow-brown spots over lower extremities",
+   "dilated tortuous veins over lower extremities",
+   "edematous feet and left calf",
+   "3-cm painless shallow exudative ulcer",
+   "granulation tissue surrounding ulcer",
+   "slight drooping of right side of face"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus",
+   "hypertension",
+   "atrial fibrillation",
+   "ulcerative colitis",
+   "myocardial infarction",
+   "stroke"
+  ],
+  "procedures": [],
+  "drugs": [
+   "warfarin",
+   "metformin",
+   "aspirin",
+   "atorvastatin",
+   "carvedilol",
+   "mesalamine"
+  ],
+  "lab_findings": [
+   "temperature 36.7\u00b0C",
+   "pulse 90/min",
+   "respirations 12/min",
+   "blood pressure 135/90 mm Hg",
+   "femoral pulses palpable bilaterally",
+   "popliteal pulses palpable bilaterally",
+   "pedal pulses palpable bilaterally"
+  ]
+ },
+ "v2_val_4251": {
+  "symptoms_signs": [
+   "rash",
+   "pink rash on face",
+   "rash on trunk",
+   "temperature 100.2\u00b0F",
+   "posterior cervical lymphadenopathy"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "blood pressure 104/74 mmHg",
+   "pulse 99/min",
+   "respirations 19/min",
+   "oxygen saturation 99% on room air"
+  ]
+ },
+ "v2_val_4280": {
+  "symptoms_signs": [
+   "fatigue",
+   "crampy abdominal pain",
+   "watery diarrhea",
+   "pain in mouth and gums",
+   "three 1.5-cm painful mouth ulcers",
+   "mild tenderness in right lower quadrant"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "colonoscopy",
+   "biopsy specimen"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "hemoglobin concentration 11.2 g/dL",
+   "mean corpuscular volume 75 fL",
+   "leukocyte count 11,900 mm3",
+   "cobblestone mucosa on colonoscopy"
+  ]
+ },
+ "v2_val_4309": {
+  "symptoms_signs": [
+   "violent, jerky movements of right arm",
+   "sweating profusely during episode",
+   "felt a chill down his spine",
+   "weakness in right arm",
+   "unable to lift right arm above head",
+   "sore throat three weeks ago",
+   "episode of jerky movements with high-grade fever as toddler"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "over-the-counter medication"
+  ],
+  "lab_findings": [
+   "temperature 37\u00b0C (98.6\u00b0F)",
+   "pulse 98/min",
+   "blood pressure 94/54 mm Hg",
+   "complete blood count within reference range",
+   "serum glucose within reference range",
+   "serum electrolytes within reference range",
+   "serum calcium within reference range",
+   "serum creatinine within reference range"
+  ]
+ },
+ "v2_val_4316": {
+  "symptoms_signs": [
+   "irritable mood",
+   "staying up late at night",
+   "energetic despite sleeping less than 4 hours",
+   "easily distracted",
+   "spent paycheck on supplies",
+   "felt too fatigued to go to school",
+   "slept until 2 pm every day for 2 weeks",
+   "cried excessively",
+   "very indecisive",
+   "expressed feelings of worthlessness",
+   "irritable",
+   "pressured speech",
+   "linear thought process"
+  ],
+  "diseases_mentioned": [
+   "asthma"
+  ],
+  "procedures": [],
+  "drugs": [
+   "bronchodilators",
+   "steroids"
+  ],
+  "lab_findings": []
+ },
+ "v2_val_4333": {
+  "symptoms_signs": [
+   "delayed menstrual period",
+   "intermittent lower abdominal pain",
+   "soft mildly enlarged uterus"
+  ],
+  "diseases_mentioned": [
+   "chlamydia infection"
+  ],
+  "procedures": [
+   "endometrial biopsy",
+   "pelvic examination"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "decidualization of the endometrium without chorionic villi"
+  ]
+ },
+ "v2_val_4348": {
+  "symptoms_signs": [
+   "lightheadedness",
+   "left arm weakness",
+   "tremors",
+   "palpitations",
+   "diaphoresis",
+   "increased appetite",
+   "weight gain",
+   "BMI 36 kg/m2",
+   "pulse 78/min",
+   "blood pressure 130/80 mm Hg",
+   "temperature 37\u00b0C"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "hyperlipidemia",
+   "anxiety disorder",
+   "gastroesophageal reflux"
+  ],
+  "procedures": [],
+  "drugs": [
+   "enalapril",
+   "atorvastatin",
+   "fluoxetine",
+   "omeprazole"
+  ],
+  "lab_findings": [
+   "Na+ 140 mEq/L",
+   "K+ 3.5 mEq/L",
+   "HCO3- 22 mEq/L",
+   "Creatinine 0.8 mg/dL",
+   "Glucose 37 mg/dL",
+   "Insulin 280 \u03bcU/mL",
+   "Thyroid-stimulating hormone 2.8 \u03bcU/mL",
+   "C-peptide 4.9 ng/mL",
+   "Urine screen for sulfonylurea negative"
+  ]
+ }
+}

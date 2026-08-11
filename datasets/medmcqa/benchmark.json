@@ -1,0 +1,2147 @@
+[
+ {
+  "uid": "mmc_00207",
+  "question": "A 2 month old girl has failure to thrive, polyuria and medullary nephrocalcinosis affecting both kidneys. Investigations show blood pH 7.48, bicarbonate 25 mEq/l, potassium 2 mEq/l, sodium 126 mEq/l and chloride 88 mEq/l. The most likely diagnosis is -",
+  "options": {
+   "A": "Distal renal tubular acidosis",
+   "B": "Primary hyperaldosteronism",
+   "C": "Bartter syndrome",
+   "D": "Pseudohypoaldosteronism"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00219",
+  "question": "A 25-year-old lady presents with sudden severe bilateral loss of vision, more so on the right side, with no perception of light. Rest of the examination including pupillary reflexes, fundus and optokinetic nystagmus are normal. She was able to touch the tips of her fingers with her right eye closed but not with her left eye closed. The most like1 tgnosis is:",
+  "options": {
+   "A": "Optic neuritis",
+   "B": "Anterior ischemic optic neuropathy",
+   "C": "CMV retinitis",
+   "D": "Functional vision loss"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Ophthalmology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00273",
+  "question": "A 38-years old patient who had a total abdominal hysterectomy presents 2 months postop complaining of leakage of urine from the vagina. On examination, no fistula can be identified. Dilute methylene blue (100mL) is injected into the bladder through a Foley catheter and a tampon is placed in the vagina. The patient is asked to walk for about 15 minutes, after which the patient is found to be wet, but there is no blue stain anywhere on the tampon. Which of the following is true:-",
+  "options": {
+   "A": "100mL was probably not enough methylene blue, and the test should be repeated with a higher volume",
+   "B": "The patient probably has stress incontinence not a fistula",
+   "C": "The patient probably has a ureterovaginal fistula",
+   "D": "The patient most likely has small apical vesicovaginal fistula that was too small to leak the dye in 15 minutes"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00284",
+  "question": "Patient is a known case of epilepsy, taking levetiracetam 1 gm BD. He is now seizure free from 2 years but he developed agitation and anger issues interfering with day to day activities as a result of the drug intake. What should be the next best step?",
+  "options": {
+   "A": "Stop levetiracetam and sta on a different antiepileptic",
+   "B": "Discontinue the drug as he is seizure free",
+   "C": "Slowly taper the drug over next 6 months",
+   "D": "Continue levetiracetam since a 5-year seizure free interval is needed"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Pharmacology",
+  "temporal_critical": true,
+  "temporal_axis": "seizure_free_interval"
+ },
+ {
+  "uid": "mmc_00327",
+  "question": "A 10 year old boy following a road traffic accident presents to the casualty with contaminated wound over the left leg. He has received his com- plete primary immunization before preschool age and received a booster of DT at school entry age. All of following can be done except :",
+  "options": {
+   "A": "Injection of TT",
+   "B": "Injection of human antiserum",
+   "C": "Broad spectrum antibiotics",
+   "D": "Wound debridement and cleaning"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Microbiology",
+  "temporal_critical": true,
+  "temporal_axis": "interval_since_event"
+ },
+ {
+  "uid": "mmc_00351",
+  "question": "A 11-year-old child comes to the dental office one hour\nafter injury to a maxillary central incisor. The tooth is\nvital and\tslightly\tmobile.\tRadiographic\texamination\nreveals a fracture at the apical third of the root. What is\nthe best treatment at this point of time:",
+  "options": {
+   "A": "Render palliative therapy",
+   "B": "Extract the tooth",
+   "C": "Relieve the occlusion and splint the tooth",
+   "D": "Perform immediate root canal treatment and splint"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Dental",
+  "temporal_critical": true,
+  "temporal_axis": "time_since_injury"
+ },
+ {
+  "uid": "mmc_00357",
+  "question": "A 40 years old female presented with acute onset shoness of breath. She has a history of nephrotic syndrome 1 year back and recent prolonged air travel. She has a BP of 90/60 mm Hg, hea rate of 115 per minute and sinus tachycardia on ECG. A 2-D echocardiogram revealed dilation of right ventricle with bulging of the interventricular septum to the left. What will be the primary treatment modality?",
+  "options": {
+   "A": "Thrombectomy",
+   "B": "Intravenous tissue plasminogen activator",
+   "C": "Unfractionated heparin",
+   "D": "d. IVC filter"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00365",
+  "question": "A 38 years old female presented to the emergency with extensive burns. The patient had grade 3 burns on the face, back, upper arms and forearms along with singeing of hairs. Which of the following is not a proof of inhalation burns?",
+  "options": {
+   "A": "Yellow colored sputum",
+   "B": "Blackish soot deposit on posterior pa of tongue",
+   "C": "Hoarseness & stridor of voice",
+   "D": "Singeing of eyebrows and facial hair"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Forensic Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00432",
+  "question": "A 5 years old child presented with continuous fever and features of sepsis with a BP of 90/60 mm Hg, Pulse rate 144/min and respiratory rate of 30/min. What is the initial fluid of choice for management?",
+  "options": {
+   "A": "10 mL/kg of 10% dextrose",
+   "B": "10 mL/kg of hydroxyethyl starch",
+   "C": "20 mL/kg of 0.45% normal saline",
+   "D": "20 mL/kg of 0.9% normal saline"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00469",
+  "question": "An infant presented to the OPD with a history of vomiting and malnutrition. Patient has blue eyes, blonde hair & fair skin. On investigation, Guthrie test was found to be positive. All are true regarding this disease EXCEPT:",
+  "options": {
+   "A": "Due to PAH enzyme defect",
+   "B": "White patch of hair due to tryptophan deficiency",
+   "C": "Phenyl acetate positive in urine",
+   "D": "Mental retardation is present"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Biochemistry",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00474",
+  "question": "A 22 years old male presented with history of fever, sore throat and enlarged neck lymph nodes. He was ordered a Paul-Bunnell test with a suspicion of Infectious mononucleosis. What is the immunological basis behind the use of this test?",
+  "options": {
+   "A": "Heterophile antibody test",
+   "B": "Complement mediated agglutination reaction",
+   "C": "Homophile antibody test",
+   "D": "Latex agglutination test"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Microbiology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00478",
+  "question": "A 19-year-old woman presented with primary amenorrhea, sho stature, webbed neck and widely spaced nipples. Examination showed weak pulses in lower extremity and streak ovaries, raised FSH, no oocyte in histology of ovary. Karyotype most likely to be present:KCET 12; JIPMER 12; AIIMS 13; PGI 13",
+  "options": {
+   "A": "45XO",
+   "B": "47XXY",
+   "C": "46XY",
+   "D": "46XX"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Forensic Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00488",
+  "question": "A 42 years old male patient presented with jaundice. His AST was 48 U, ALT was 51 U, ALP, GGTP were normal. Ultrasound of liver was suggestive of cirrhosis. Viral markers were done and the following results were obtained.TestResultAnti-HAVNegativeAnti-HBsAgNegativeAnti-HBeAgNegativeAnti-HBcAg IgGPositiveAnti-HBcAg IgMNegativeHBsAgNegativeAnti-HCVPositiveAnti-HEVNegativeWhat is the next best step in management of this patient?",
+  "options": {
+   "A": "Sta interferon therapy",
+   "B": "Liver biopsy",
+   "C": "-PCR for hepatitis C virus",
+   "D": "PCR for HBV-DNA"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00540",
+  "question": "A two year old girl child is brought to the out patient with features of hand wringing stereotype movements, impaired language and communication development, breath holding spells, poor social skills and deceleration of head growth after 6 months of age. The most likely diagnosis is \u2013",
+  "options": {
+   "A": "Asperger's syndrome",
+   "B": "Rett's syndrome",
+   "C": "Fragile x\u2013syndrome",
+   "D": "Colarad syndrome"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": true,
+  "temporal_axis": "regression_timing"
+ },
+ {
+  "uid": "mmc_00577",
+  "question": "A 20 years old boy presented with persistent cervical lymphadenopathy for the past 1 year. Histopathology of lymph node shows Reed-Sternberg cells with focal nodularity and background of T reactive lymphocytes. The cells were positive for CD20, LCA, EMA and negative for CD15 and CD30 and EBV negative. Diagnosis is:",
+  "options": {
+   "A": "Nodular lymphocyte predominant Hodgkin's lymphoma",
+   "B": "Lymphocyte rich Hodgkin's lymphoma",
+   "C": "Diffuse large B-cell lymphoma",
+   "D": "Small cell lymphoma"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pathology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00605",
+  "question": "A 16-year old girl was brought with primary amenorrhea. Her mother mentioned that she staed developing breast at the age of 12. She was prescribed OCPs 2 years back by a doctor with no effect. She was having normal stature and was a football player. On examination, breasts were well developed (Tanner's stage 5) and pubic hair was minimal (Tanner's stage 1). What is the most probable diagnosis?",
+  "options": {
+   "A": "Premature ovarian failure",
+   "B": "Turner's syndrome",
+   "C": "Miillerian agenesis",
+   "D": "Androgen insensitivity"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00696",
+  "question": "26 year old, 6 feet 4 inch male presented to the emergency depament with complaints of acute onset dysnea. On examination, he was tachypneic, other vitals were stable. A chest xray was done which shown the following pathology:",
+  "options": {
+   "A": "Pneumothorax",
+   "B": "Hydropnemo thorax",
+   "C": "Massive pleural effusion",
+   "D": "Pulmonary embolism"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Radiology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00713",
+  "question": "A 60-year-old chronic smoker presented with progres-sive jaundice, pruritus and clay colored stools for 2 months. History of waxing and waning of jaundice was present. A CT scan revealed dilated main pancre-atic duct and common bile duct. What is the likely di-agnosis?",
+  "options": {
+   "A": "Carcinoma head of pancreas",
+   "B": "Periampullary carcinoma",
+   "C": "Chronic pancreatitis",
+   "D": "H lar cholangiocarcinoma"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": true,
+  "temporal_axis": "fluctuation_pattern"
+ },
+ {
+  "uid": "mmc_00751",
+  "question": "40-year male patient who was a known smoker presents in AIIMS OPD with fever, latigue, jaundice, yellow colored urine with clay colored stools. For the past few days he had developed aversion to cigarette smoking. On examination scleral icterus was present. LFT are:Total Bill18.5Direct Bill7.5SGOT723SGPT812What investigations will you send for ruling out acute viral hepatitis?",
+  "options": {
+   "A": "HBsAg, IgM antiHBC, AntiHCV AntiHEV",
+   "B": "AntiHAV, HBsAg, IgM antiHBc, AntiHCV",
+   "C": "HBsAg, IgM antiHBC,AntiHDV AntiHCV AntiHEV",
+   "D": "AntiHAV IgMantiHBC, AntiHCV, AntiHEV."
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00771",
+  "question": "A boy presented with a history of fever, headache and vomiting since 3 days and disorientation since I day. On examination, neck rigidity was positive. He also had 1 episode of generalized tonic clonic seizures (GTC) and then he became unconscious. CECT was found to be normal. CSF examination reveals a cell count of 300 cells/mm3 (polymorphs: 50-70%), protein 70 mg/dL, sugar 50 mg/dL (blood: 95 mg/dL). Which of the following is the most likely diagnosis?",
+  "options": {
+   "A": "Pyogenic meningitis",
+   "B": "Tubercular meningitis",
+   "C": "Herpes encephalitis",
+   "D": "Cerebral malaria"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": true,
+  "temporal_axis": "symptom_duration"
+ },
+ {
+  "uid": "mmc_00796",
+  "question": "A 55-year-old male presents with renal failure. He gives a history of mild bone pains for the last 7 years. X-ray pelvis shows osteolytic lesions. Serum electrophoresis reveals a M spike. Peripheral blood evaluation showed rouleaux formation of RBCs with 35% plasma cells. Bone marrow examination showed a increase in plasma cells with aberrant antigen expression. The most likely diagnosis is:",
+  "options": {
+   "A": "Multiple myeloma",
+   "B": "Monoclonal gammopathy with unknown significance",
+   "C": "Smouldering myeloma",
+   "D": "Plasma cell leukemia"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00810",
+  "question": "A 12 - year - old boy had a cut in his forearm 4 days ago. Now the bleeding has been stopped due to granulation tissue formation. While taking a skin biopsy a pa of the granulation tissue was also included in the specimen. The histology of granulation tissue is shown below. Which type of collagen is found in this granulation tissue?",
+  "options": {
+   "A": "Type 1",
+   "B": "Type 2",
+   "C": "Type 3",
+   "D": "Type 4"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Pathology",
+  "temporal_critical": true,
+  "temporal_axis": "wound_healing_phase"
+ },
+ {
+  "uid": "mmc_00811",
+  "question": "A 61 years old post-menopausal woman with a family history of ovarian cancer presents with pain abdomen. She is on hormone replacement therapy. An abdominal ultrasound revealed a smooth cyst in the right ovary. What should be done next?",
+  "options": {
+   "A": "Observe and reassure the patient",
+   "B": "Laparoscopic surgery to visualize the nature of the cyst",
+   "C": "Drilling of cysts",
+   "D": "Check CA-125 levels and advise regular follow-up if normal"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00828",
+  "question": "A diabetic patient presented with uncontrolled blood sugar level. He has history of pancreatitis and family history of urinary bladder carcinoma. He does not want to take injectable drugs. Which of the following drug can be added to control his blood sugar?",
+  "options": {
+   "A": "Liraglutide",
+   "B": "Sitagliptin",
+   "C": "Canagliflozin",
+   "D": "Pioglitazone"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Pharmacology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00852",
+  "question": "A young female patient presents with jaundice and elevated liver enzymes. She has a history of two smilar episodes in the past. Her serum ANA was 1:40 and IgG was 2400 IU. Her serum copper levels were normal and viral markers were negative. A liver biopsy was carried out and based on the pathology repo, you treated her with immunosuppressants and the patient's condition improved. What was the most likely finding on pathology repo to suggest the treatment?",
+  "options": {
+   "A": "Non-alcoholic steatohepatitis",
+   "B": "Hemosiderosis",
+   "C": "Autoimmune hepatitis",
+   "D": "Primary biliary cirrhosis"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00861",
+  "question": "A child presents with high grade fever, inspiratory stridor and develops swallowing difficulty with drooling of saliva since last 4-6 hours. Which of the following treatment is recommended apa from general airway management?",
+  "options": {
+   "A": "Nebulized racemic epinephrine",
+   "B": "Anti-diphtheria toxin",
+   "C": "Coicosteroids",
+   "D": "IV ceftriaxone"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "ENT",
+  "temporal_critical": true,
+  "temporal_axis": "onset_speed"
+ },
+ {
+  "uid": "mmc_00891",
+  "question": "A 65 year old edentulous patient is treated for squamous cell carcinoma involving 2/3rd of tongue with 50 Gy radiation dose. Which of the following material is best for making impression in this patient?",
+  "options": {
+   "A": "Polysulfide",
+   "B": "Polyether",
+   "C": "ZOE",
+   "D": "Irreversible hydrocolloids"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Dental",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00901",
+  "question": "A 50 years old female on junk food diet presented with point hemorrhages in scalp, bleeding in joints and erythemataous lesions in the skin. X-ray of knee joint was suggestive of hemahrosis. Problem lies with:",
+  "options": {
+   "A": "Hydroxylation of proline and lysine",
+   "B": "Carboxylation of glutamic acid",
+   "C": "Carboxylation of coagulation factors",
+   "D": "Platelet aggregation defect"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00911",
+  "question": "A five year old male child presents with complaints of fever and abdominal distension. IIe is having vomiting for the last five days. On examination there are 6\u20138 Pus Cell/hpf in urine. WBC count shows 78% neutrophils. What is the best line of management \u2013",
+  "options": {
+   "A": "Send urine for culture and sensitivity and wait for results",
+   "B": "Send urine for culture and sensitivity and start I.V. antibiotics immediately",
+   "C": "Send urine for culture, do an USG and start chloroquine",
+   "D": "Radio nucleotide studies"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_00912",
+  "question": "A doctor who performed the autopsy on a 26-year-old married woman, committing suicide found the cause of death to be aluminium phosphide poisoning. She was summoned in a cou of law where he willingly hides this information. This is punishable under which section?",
+  "options": {
+   "A": "IPC 193",
+   "B": "CrPC 175",
+   "C": "CrPC 69",
+   "D": "IPC 189"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Forensic Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01006",
+  "question": "A young healthy male patient presented with abdominal pain and history of altered bowel habits from the last 6 months. On CT examination, there was dilated distal pa of ileum, thickened ileocecal junction with thickened cecum with presence of sacculations on the antimesenteric border. The vascularity of adjoining mesentery is also increased and there is surrounding mesentery fat. Which of the following is not a differential diagnosis?",
+  "options": {
+   "A": "Ulcerative colitis",
+   "B": "Crohn's disease",
+   "C": "Tuberculosis",
+   "D": "Ischemic bowel disease"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": true,
+  "temporal_axis": "symptom_duration"
+ },
+ {
+  "uid": "mmc_01044",
+  "question": "10-year-old boy visits dentist with complicated crown fracture with abscess formation in 12. X-ray reveals radiolucency in relation to 11, 12. 12 is having immature  blunderbuss canal while 11 has complete root formation, vitality of 11, 21 is negative. What would be the management of this patient?",
+  "options": {
+   "A": "Apexification of 12 and RCT of 11",
+   "B": "Revascularization in 12 and RCT of 11",
+   "C": "RCT of 12 and 11",
+   "D": "Extraction of 12 and RCT in 11"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Dental",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01155",
+  "question": "A 23 years old boy, a badminton player, sustained injury of left ankle. He was immobilized for 3 months, the cast was removed and patient was able to walk normally. Later he complained of pain and swelling in the left calf, left ankle and foot. His mother massaged him for 30 minutes. After a while he developed acute onset of breathlessness and was brought to emergency and died. Most likely cause of death is:",
+  "options": {
+   "A": "Pulmonary thromboembolism",
+   "B": "Congestive cardiac failure",
+   "C": "Massive stroke",
+   "D": "Hypovolemic shock"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": true,
+  "temporal_axis": "temporal_ordering"
+ },
+ {
+  "uid": "mmc_01186",
+  "question": "An 8 year old female child following URTI developed maculopapular rash on the jaw spreading onto the trunk which cleared on the 3T day without desquamation and tender post auricular and suboccipital lymphadenopathy. The diagnosis is \u2013",
+  "options": {
+   "A": "Kawasaki disease",
+   "B": "Erythema infectiosiun",
+   "C": "Rubella",
+   "D": "Measles"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": true,
+  "temporal_axis": "rash_duration"
+ },
+ {
+  "uid": "mmc_01191",
+  "question": "A 68 years old man had severe chest pain. The patient died on the way to the hospital. In the hospital, at autopsy tetrazolium chloride staining of the hea was done. What will be the color of ble myocardium?",
+  "options": {
+   "A": "Red",
+   "B": "Blue",
+   "C": "Dark brown",
+   "D": "Pink"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pathology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01200",
+  "question": "A 42 years old woman from a dry state who ingested rye for long time presented with complaints of weakness in both lower limbs, nausea and fatigue. Over due course of time, she is completely unable to walk. What is the most likely cause?",
+  "options": {
+   "A": "Argemone mexicana",
+   "B": "Amanita",
+   "C": "Ergot alkaloids",
+   "D": "Lathyrus sativus"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Social & Preventive Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01212",
+  "question": "A 60 years old man presents to the emergency depament with history of A, in unconscious state and gains consciousness in between but again becomes unconscious. The time when he becomes conscious is called as:",
+  "options": {
+   "A": "Lucid Interval",
+   "B": "Extradural hematoma",
+   "C": "Subdural hematoma",
+   "D": "None"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": true,
+  "temporal_axis": "lucid_interval"
+ },
+ {
+  "uid": "mmc_01219",
+  "question": "Dinesh, a 24-year-old male, complains of loose teeth\nin a single quadrant. His radiograph shows irregular bone loss and histopathology reveals eosinophils and histiocytes. The most probable diagnosis is:",
+  "options": {
+   "A": "Hand-Schuller-Christian disease",
+   "B": "Paget's disease",
+   "C": "Osteoclastoma",
+   "D": "Albright's syndrome"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pathology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01232",
+  "question": "A 45 years old patient presented with complaints of pain in abdomen and menorrhagia. Endometrial biopsy was normal and sonogram of uterus showed diffusely enlarged uterus with no adnexal mass. What is the diagnosis?",
+  "options": {
+   "A": "Fibroid uterus",
+   "B": "Endometritis",
+   "C": "Endometriosis",
+   "D": "Adenomyosis"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01273",
+  "question": "A patient with Hb 7 was to be transfused with 2 packs of blood. The first pack was transfused in 2 hours after which vitals were stable and then the transfusion of the next pack was staed . But suddenly the patient develops breathlessness and hypeension. What can be the cause of this sudden reaction?",
+  "options": {
+   "A": "transfusion related circulatory overload (TACO)",
+   "B": "allergic reaction to transfused blood",
+   "C": "transfusion related acute lung injury (TRALI)",
+   "D": "transfusion related acute renal failure"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01281",
+  "question": "A Female patient was brought to the ER with altered sensorium. On examination BP was 88/67mm with a pulse of 60/min. Rectal temperature was 34 Celsius. There was associated history of constipation, dry skin and menorrhagia. What is the diagnosis?",
+  "options": {
+   "A": "Myxedema Coma",
+   "B": "Septic Shock",
+   "C": "Hypothermia",
+   "D": "Cardiogenic Shock"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01362",
+  "question": "A 1-month-old child presented with conjugated bilirubinemia and intrahepatic cholestasis. On Liver biopsy staining with PAS, red colored granules were seen inside the hepatocytes. Probable diagnosis is:",
+  "options": {
+   "A": "Congenital hepatic fibrosis",
+   "B": "Wilson's disease",
+   "C": "Alpha-1 antitrypsin deficiency",
+   "D": "Hemochromatosis"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01368",
+  "question": "A 50-year-old male presented with complains of ptosis, difficulty in chewing and occasional difficulty in swallowing. There is no history of diplopia or visual loss. On examination, there is symmetric ptosis and mild restriction of extraocular muscle movement with finger abduction test 60deg. Nerve conduction study shows decremental response in orbicularis only. ERG revealed a myopathic pattern. Anti-AchR radioimmunoassay was negative. The most probable diagnosis would be:",
+  "options": {
+   "A": "Ocular myasthenia gravis",
+   "B": "Generalized myasthenia gravis",
+   "C": "As anti-ACHR is negative you will consider an alternative diagnosis",
+   "D": "Chronic progressive external ophthalmoplegia (CPEO)"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01374",
+  "question": "A 30 year old patient has right upper limb BP of 180/95 mm Hg and left upper limb BP of 130/90 mm Hg. He also has early diastolic murmur in right 2 intercostal space. Which of the following would be LEAST likely associated with these findings?",
+  "options": {
+   "A": "Supravalvular aoic Stenosis",
+   "B": "Coarctation of aoa",
+   "C": "Takayasu aeritis",
+   "D": "Aoic dissection"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01428",
+  "question": "A girl child with fever, cough, dyspnoea with x\u2013ray showing right lower lobe patchy consolidation, for which treatment was given. After 8 weeks symptom improved but x-ray showed more dense consolidation involving the whole of the right lower lobe. What is the next best line of investigation ?",
+  "options": {
+   "A": "Bronchoscopy",
+   "B": "Culture from nasopharynx",
+   "C": "Barium esophagogram",
+   "D": "Allergic skin test"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": true,
+  "temporal_axis": "resolution_interval"
+ },
+ {
+  "uid": "mmc_01529",
+  "question": "A 16-year-old female with normal pubic hair and breast development, presented with complaints of primary amenorrhea. Investigation shows normal karyotype. Most likely diagnosis is:AFMC 12; JIPMER 12; AIIMS 12, 13",
+  "options": {
+   "A": "Mullerian agenesis",
+   "B": "Turner syndrome",
+   "C": "Testicular feminization",
+   "D": "Kallmann syndrome"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Forensic Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01574",
+  "question": "A 40 years old patient came with complaints of spikes of fever and difficulty in breathing. Transesophageal ECHO found out the vegetations in the hea. The culture was positive for Burkholderia cepacia. Drug of choice for Burkholderia cepacia pneumonia is:",
+  "options": {
+   "A": "Aminoglycoside and colistin",
+   "B": "Carbapenems with 3rd generation cephalosporins",
+   "C": "Tigecycline and cefipime",
+   "D": "Cotrimoxazole with 3rd generation cephalosporins"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01587",
+  "question": "A 10 year old patient reported to department with BCLP (bilateral cleft lip & palate); the maxillary transverse width was normal, lateral incisor was congenitally missing with impacted canine. What will be the treatment approach?",
+  "options": {
+   "A": "SABG only",
+   "B": "SABG followed by expansion",
+   "C": "Expansion followed by SABG",
+   "D": "Only expansion"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Dental",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01639",
+  "question": "A 48-year old lady presented with bony pain and hepatosplenomegaly. On examination of biopsy speci!men from spleen, crumpled tissue paper appearance is seen. Which of the following product is likely to have accumulated?",
+  "options": {
+   "A": "Ganglioside",
+   "B": "Sulfatide",
+   "C": "Sphingomyelin",
+   "D": "Glucocerebroside"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Biochemistry",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01673",
+  "question": "A 7-year old boy presented with severe abdominal pain. On examination, he had xanthoma. Blood sample was taken for work-up blood sample had milky appearance of plasma. Which of the following lipoprotein is increased?",
+  "options": {
+   "A": "LDL",
+   "B": "HDL",
+   "C": "Chylomicron",
+   "D": "Chylomicron remnants"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Biochemistry",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01685",
+  "question": "A female of 36 weeks gestation presents with hypertension, blurring of vision and headache. Her blood pressure reading was 180/120 mm Hg and 174/110 mm Hg after 20 minutes. How will you manage the patient?",
+  "options": {
+   "A": "Admit the patient and observe",
+   "B": "Admit the patient, start antihypertensives and continue pregnancy till term.",
+   "C": "Admit the patient, start antihypertensives, MgSO4 and terminate the pregnancy",
+   "D": "Admit oral antihypertensives and follow up in out-patient department"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": true,
+  "temporal_axis": "gestational_window"
+ },
+ {
+  "uid": "mmc_01703",
+  "question": "A recently delivered woman with a 15 days old child suffering from cough, sneezing and fever needs help. She has no money for transpoation to nearby hospital. Which of the national programme can help this woman?",
+  "options": {
+   "A": "JSSK",
+   "B": "Indira Gandhi YojanaF-IMNCI",
+   "C": "F-IMNCI",
+   "D": "Home-based Care"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Social & Preventive Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01746",
+  "question": "A gravida 2 patient with previous LSCS comes at 37 weeks, has BP= 150/100 mm of hg. And on pervaginal examination, cervix is 50% effaced station-3, os is closed and pelvis is adequate. Protein uria is +1, Most appropriate step at the moment would be:",
+  "options": {
+   "A": "Antihypertensive regime and wait for spontaneous labor",
+   "B": "Wait and watch",
+   "C": "Induce labour",
+   "D": "caesarean section"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": true,
+  "temporal_axis": "gestational_window"
+ },
+ {
+  "uid": "mmc_01748",
+  "question": "A 26 years old female presented with mild pain in lower abdomen. She has had 2 full-term normal delivery earlier. Her last menstrual period was 3 weeks back. On pelvic examination, you find a palpable mass in the adnexa. On USG pelvis, you find a 5 cm ovarian cyst. What should be your next step?",
+  "options": {
+   "A": "Observation and follow-up for cyst after 2-3 months",
+   "B": "CA-125 levels",
+   "C": "Diagnostic exploratory laparotomy",
+   "D": "CECT of pelvis"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": true,
+  "temporal_axis": "menstrual_cycle_timing"
+ },
+ {
+  "uid": "mmc_01831",
+  "question": "A 12 years old boy develops sore throat of 4 day s duration. On examination, yellow grayish patch seen over both the tonsils and foul smell coming from his mouth. Which of the following non-suppurative complication is of concern?",
+  "options": {
+   "A": "Acute rheumatic fever",
+   "B": "Acute glomerulonephritis",
+   "C": "Both acute rheumatic fever and acute glomerulonephritis",
+   "D": "Scarlet fever"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01865",
+  "question": "A 27 years old pregnant lady comes with severe jaundice and altered sensorium. On examination, the patient is deeply icteric, not responding to commands and pelvic sonogram reveals intrauterine fetal death. Serum bilirubin levels are 28.8 mg/dL (direct = 18.6 mg/dL), AST levels are 1063 and ALT levels are 1191. The viral markers are as follows. What is the likely diagnosis?Anti-HAV IgGReactiveAnti-HAV IgMNonreactiveHbSAgNon reactiveAnti-HbSAgNonreactiveAnti-HBc IgMNonreactiveAnti-HBc IgGReactiveAnti-HCV IgGNonreactiveAnti-HEV IgMReactiveAnti-HEV IgGNon reactive",
+  "options": {
+   "A": "Acute hepatitis E superimposed on chronic liver failure due to hepatitis B",
+   "B": "Fulminant hepatitis due to hepatitis B infection",
+   "C": "Acute hepatitis E with chronic hepatitis A",
+   "D": "Fulminant hepatitis due to hepatitis E infection"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_01870",
+  "question": "A 24 years old female presented with patchy hair loss in the right temporal and occipital region. Examination revealed non- scarring alopecia with multiple small broken hairs. Scrapings from scalp showed mild inflammation, peri-follicular hemorrhage and surrounding mild lymphocytic infiltration. What is the most likely diagnosis?",
+  "options": {
+   "A": "Alopecia areata",
+   "B": "Androgenic alopecia",
+   "C": "Loose anagen hair",
+   "D": "Trichotillomania"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Skin",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02082",
+  "question": "A 25 years old lady with a history of fever for 1 month presents with headache and ataxia.Brain imaging shows dilated ventricles and significant basal exudates. Which of the following will be the most likely CSF finding?",
+  "options": {
+   "A": "Lymphocytosis, Low Glucose, High protein",
+   "B": "Lymphocytosis, Normal Glucose, High protein",
+   "C": "Lymphocytosis, Low Glucose, Normal protein",
+   "D": "Neutrophilia, Low glucose, Low Protein"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": true,
+  "temporal_axis": "symptom_duration"
+ },
+ {
+  "uid": "mmc_02089",
+  "question": "A pregnant woman with G3P2L0 presented to you with a pregnancy at period of gestation of 9 weeks. She has a history of conization one year back currently on follow up with no recurrence on PAP smean She also has the history of preterm bihs at 30 and 32 weeks during her last 2 pregnancy. What is your next step in the management of this patient?",
+  "options": {
+   "A": "USG to see cervical length",
+   "B": "Cervical cerclage",
+   "C": "Complete bed rest",
+   "D": "Abdominal cerclage"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": true,
+  "temporal_axis": "gestational_window"
+ },
+ {
+  "uid": "mmc_02156",
+  "question": "An 8 year old boy complaints of increasing muscle weakness. On examination, his calves are bulky and show muscle tightening. His serum creatine kinase levels are increasing with age. Which of the following is the most likely diagnosis?",
+  "options": {
+   "A": "Hereditary sensorimotor neuropathy",
+   "B": "Myelin deficiency",
+   "C": "Dystrophin deficiency",
+   "D": "Congenital myopathy"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02179",
+  "question": "A 13 year old girl with soft painful swelling on posterior aspect of thigh. Color Doppler showed multiple venous channels without any major arterial feeder. All of the following are liquid embolizing agents except",
+  "options": {
+   "A": "Cyanoarylate",
+   "B": "Sodiumtetradecyl sulphate",
+   "C": "Polyvinyl alcohol",
+   "D": "Absolute alcohol"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02186",
+  "question": "A patient with history of coronary aery disease presents with pulse rate of 48/min and low BP. Patient has decreased myocardial contractility on Echo. Which of these anesthetic agents is contraindicated?",
+  "options": {
+   "A": "Fentanyl",
+   "B": "Etomidate",
+   "C": "Ketamine",
+   "D": "Dexmedetomidine"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Anaesthesia",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02205",
+  "question": "A 49 years old male with 35 pack years presented with painless mass in left scrotal sac and microscopic hematuria. On laboratory investigation, Alphafetoprotein and lactate dehydrogenase was negative. What is the most probable diagnosis?",
+  "options": {
+   "A": "Epididymitis",
+   "B": "Seminoma",
+   "C": "Renal cell carcinoma",
+   "D": "Carcinoma lung"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02336",
+  "question": "A 2-year-old child with fever and barking cough for last 2 days presented to the pediatric emergency at 2.30 am. On examination, respiratory rate is 36/ min, temperature of 39 degC and stridor heard only on crying. No other abnormality is found. What is the next best step in management?",
+  "options": {
+   "A": "High-dose dexamethasone",
+   "B": "Racemic epinephrine nebulization",
+   "C": "Reassurance",
+   "D": "Intravenous antibiotics"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02354",
+  "question": "A 7-year-old child having yellowish discoloured spot of maxillary central incisor. His mother presents a history of injury to deciduous tooth 3 years back with recurrent infections & swelling. The diagnosis is",
+  "options": {
+   "A": "Turners hypoplasia",
+   "B": "Generalised dental fluorosis",
+   "C": "Syphilitic hypoplasia",
+   "D": "Rickets hypomineralisation"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pathology",
+  "temporal_critical": true,
+  "temporal_axis": "developmental_window"
+ },
+ {
+  "uid": "mmc_02377",
+  "question": "A 15 years old boy presents with loose motions and intermittent abdominal pain over the past 1 year. Wet mount stool specimen showed the presence of multiple ova, which are more than 100 p in diameter. The causative organism for the disease shall not include:",
+  "options": {
+   "A": "Fasciola gigantica",
+   "B": "Gastrodiscoides hominis",
+   "C": "Echinostoma ilocanum",
+   "D": "Opistorchis viverrini"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Microbiology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02403",
+  "question": "A 25-year-old lady with submucosal fibroid was undergoing myomectomy. The surgeon was using 1.5 yo glycine as irrigating fluid for the cavity. During the surgery the nurse informs the surgeon that there is a 500m1 fluid deficit. What is the next step to be done?",
+  "options": {
+   "A": "Stop the'surgery",
+   "B": "Change the fluid to normal saline",
+   "C": "Continue the surgery with careful monitoring of fluid status",
+   "D": "Give furosemide to the patient and continue surgery"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02412",
+  "question": "5 years and 4 month old child having small chin, he clinically presents with distal step 2nd molar relation and narrow width of maxilla, having normal SNA angle, decreased SNB angle, with low FMA angle, then. What would be the appropriate treatment protocol for this patient?",
+  "options": {
+   "A": "Wait and watch for 6 years",
+   "B": "Kloehn head gear to treat maxillary protrusion",
+   "C": "FR II appliance",
+   "D": "Twin block appliance"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Dental",
+  "temporal_critical": true,
+  "temporal_axis": "growth_stage_timing"
+ },
+ {
+  "uid": "mmc_02413",
+  "question": "A 32-year-old woman is 9 weeks pregnant and has a 10 year old Down's syndrome child. What test would you recommend for the mother so that she can know about her chances of getting a Down's syndrome baby is this present pregnancy. How will you assure the mother about the chances of Down's syndrome in the present pregnancy?",
+  "options": {
+   "A": "Blood test",
+   "B": "USG",
+   "C": "Chorionic villus sampling",
+   "D": "Assure her there is no chance since she is less than 35 years of age"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02416",
+  "question": "A patient with Tubercular meningitis was taking ATT regularly. At end of 1 month of regular intake of drugs deterioration in sensorium is noted in condition of the patient despite good compliance for drugs. Which of the following investigations is not required as emergency condition?",
+  "options": {
+   "A": "MRI",
+   "B": "NCCT",
+   "C": "CSF examination",
+   "D": "Liver function tests"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02429",
+  "question": "A 40 years old female currently on a drug for psychiatric illness and hypeension presents with NYHA class III hea failure with dyspnea, pedal edema and K+ levels of 5.5 mEq/L and creatinine 2.5 mg%. Which of the following drug is best avoided?",
+  "options": {
+   "A": "Carvedilol",
+   "B": "Enalapril",
+   "C": "Spironolactone",
+   "D": "Digoxin"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02461",
+  "question": "A 45 years old male presents with itchy papules over face, neck and V area of chest for the last three years, which are exacerbated in summers and improved in winters. What test will you do to confirm diagnosis?",
+  "options": {
+   "A": "Patch test",
+   "B": "Prick test",
+   "C": "IgE levels",
+   "D": "Skin biopsy"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Skin",
+  "temporal_critical": true,
+  "temporal_axis": "seasonal_pattern"
+ },
+ {
+  "uid": "mmc_02468",
+  "question": "A 16-year-old male complains of nasal obstruction and recurrent epistaxis for several months. On CT scan of Nose and Paranasal Sinuses, an enhancing mass is seen in the nasopharynx with minimal extension into sphenoid sinus and no lateral extension. What is the stage of this lesion?",
+  "options": {
+   "A": "IA",
+   "B": "IB",
+   "C": "IIA",
+   "D": "IIB"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "ENT",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02470",
+  "question": "A 50 years old lady, who has a known diagnosis of bronchial asthma, presented to the AIIMS emergency with complaints of severe breathlessness, diaphoresis and wheezing. On examination, you find that the patient is conscious with a respiratory rate of 30 per minute, blood pressure of 96/64 mm Hg and a pulse rate of 144 per minute. An aerial blood gas analysis showed a pH of 7.2, p02 of 50 mm Hg and pCO, of 70 mm Hg. How will you manage the patient?",
+  "options": {
+   "A": "Ventilation with continuous positive airway pressure",
+   "B": "Oxygen supplementation by nasal mask",
+   "C": "Mechanical ventilation with controlled ventilation",
+   "D": "Intubation"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02476",
+  "question": "A morbidly obese diabetic woman was on failed metformin therapy. She has the history of pancreatitis and family history of bladder cancer. Patient does not want to take injections. Which of the following would be suitable to reduce her glucose levels?",
+  "options": {
+   "A": "Liraglutide",
+   "B": "Sitagliptin",
+   "C": "Canagliflozin",
+   "D": "Pioglitazone"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Pharmacology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02490",
+  "question": "A known HIV patient on anti - retroviral therapy presented with diarrhea of six months duration. Stoll microscopy was done in which 10-30 micrometer cysts were seen, Kinyoun stain was positive. What is the most likely diagnosis?",
+  "options": {
+   "A": "Cystoisospora",
+   "B": "Cryptosporidium",
+   "C": "Balantidium coli",
+   "D": "Strongyloides"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Microbiology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02494",
+  "question": "A 56-year-old female presents with nocturnal pain in the right thumb, index and middle finger for the past 3 months. All of the following provocative tests can be performed for the diagnosis of the condition except :",
+  "options": {
+   "A": "Phalen's test",
+   "B": "Finkelstein test",
+   "C": "Tinel's sign",
+   "D": "Tourniquet test"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02519",
+  "question": "A 10 year old boy is having polyuria, polydipsia,laboratory data showed (in mEq/lit) \u2013 Na\u2013 154 K\u2013 4.5 HCO3\u2013  \n 22 Serum osmolality \u2013 295 Blood urea \u2013 50 Urine specific gravity \u2013 1.005 The likely diagnosis is \u2013",
+  "options": {
+   "A": "Diabetes insipidus",
+   "B": "Renal tubular acidosis",
+   "C": "Barter's syndrome",
+   "D": "Recurrent UTI"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02523",
+  "question": "A patient with acute history of blistering and denudation involving >30% BSA along with erosions of the lips with hemorrhagic crusting and other mucosa for few days. What is the most common triggering factor?",
+  "options": {
+   "A": "Bacterial infection",
+   "B": "Viral infection",
+   "C": "Drug induced",
+   "D": "Idiopathic"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Dental",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02547",
+  "question": "A 46 years old male patient was given subarachnoid block with bupivacaine (heavy) by the anesthetist. After 10 minutes he was found to have a BP of 72/44 mm Hg and hea rate of 52/min. On checking the level of block it was found to be T6. What is the likely explanation for the bradvcardia?",
+  "options": {
+   "A": "Bezold-Jarisch reflex",
+   "B": "Bainbridge reflex",
+   "C": "Block of Cardio-accelerator fibers of synthetic origin",
+   "D": "Reverse Bainbridge reflex"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Anaesthesia",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02549",
+  "question": "Patient who is a known case of thalassemia major already on repeated blood transfusions with history of iron overload previously treated with chelating agents. She also has a history of cardiac arrhythmia. She came for BT now. During BT patient complained of backache and looks extremely anxious. What is next management?",
+  "options": {
+   "A": "Observe for a change in colour of the urine",
+   "B": "Continue BT, do ECG",
+   "C": "Stop BT and wait for patient to get normal and sta",
+   "D": "Stop BT and Do clerical check"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02575",
+  "question": "A 60 years old patient who had myocardial infarction 2 weeks back, the lipid profile is done for a patient and reveals HDL 32 mgldL, LDL 126 mg/dl, TG 276 mgl/dL. Which of the following is preferred for this patient ?",
+  "options": {
+   "A": "Rosuvastatin + Fenofibrate",
+   "B": "Fenofibrate alone",
+   "C": "Rosuvastatin 10 mg",
+   "D": "Atorvastatin 80 mg"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": true,
+  "temporal_axis": "post_event_interval"
+ },
+ {
+  "uid": "mmc_02588",
+  "question": "An 8 year old boy during a routine checkup is found to have E. coli 1,00,000 cc/ml on a urine culture. The urine specimen was obtained by mid\u2013stream clean\u2013catch void. The child is asymptomatic. Which is the most appropriate next step in the management \u2013",
+  "options": {
+   "A": "Treat as an acute episode of urinary tract infection",
+   "B": "No therapy",
+   "C": "Prophylactic antibiotics for 6 months",
+   "D": "Administer long term urine alkalinizer"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02613",
+  "question": "A 27 years old lady with 20 weeks pregnancy presented with a thyroid nodule on right side. FNAC from the nodule was suggestive of papillary carcinoma. Which of the following is contraindicated in her management?",
+  "options": {
+   "A": "Total thyroidectomy plus neck node dissection",
+   "B": "Right lobectomy",
+   "C": "Radioactive iodine ablation",
+   "D": "Total thyroidectomy"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02627",
+  "question": "A 6 weeks old baby presents with cough and cold for the last three days. Respiratory rate is 48/min. Patient is febrile, there are no chest retractions but wheezing is present. Which of the following statement is not true?",
+  "options": {
+   "A": "Antibiotics are not required",
+   "B": "Child is suffering from pneumonia",
+   "C": "Treat only wheezing",
+   "D": "Treat only fever"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02636",
+  "question": "A 36 years old patient underwent breast conservation therapy and chemotherapy for a 1.5 x 1.2 cm ER positive breast cancer with one positive axillary lymph node. She is now on tamoxifen. How will you follow-up the patient?",
+  "options": {
+   "A": "Annual bone scan",
+   "B": "Assessment of tumor markers 6 monthly",
+   "C": "Routine clinical examination 3 monthly in 1st year with annual mammogram",
+   "D": "Routine clinical examination 3 monthly and 6 monthly liver function tests"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": true,
+  "temporal_axis": "surveillance_interval"
+ },
+ {
+  "uid": "mmc_02713",
+  "question": "In a 32 year female patient, left supraclavicular lymph node biopsy histologically shows acidophilic owl eye nucleoli lying freely in empty spaces showing immunohistocompatibility with CD 15 & CD 30, it is suggestive of",
+  "options": {
+   "A": "Nodular sclerosis Hodgkin's lymphoma",
+   "B": "Lymphocytic predominant Hodgkin's Lymphoma",
+   "C": "Reactive nodular hyperplasia",
+   "D": "Large cell lymphoma"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pathology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02751",
+  "question": "A 10\u2013year old male child was presented to the pediatrician for evaluation of a seizure disorder. On examination a vascular plaque was found along the ophthalmic and maxillary divisions of the trigeminal nerve. The mother informed the pediatrician that the lesion was present since birth and there was no change in morphology. The most likely possibility is \u2013",
+  "options": {
+   "A": "Sturge Weber syndrome",
+   "B": "Infantile hemangioma",
+   "C": "Congenital hemangioma",
+   "D": "Proteus syndrome"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": true,
+  "temporal_axis": "lesion_temporal_behaviour"
+ },
+ {
+  "uid": "mmc_02758",
+  "question": "A middle-aged woman came to OPD with a twin pregnancy. She already had 2 first trimester aboion and she has a 3 years old female child who was born at the end of ninth month of gestation. Which of the following is her accurate representation? C = gravid, P = para?",
+  "options": {
+   "A": "G4P1 1+2+1",
+   "B": "G4P1 0+1+2",
+   "C": "G5P1 2+0+1",
+   "D": "G5P0 1+0+2"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": true,
+  "temporal_axis": "gestational_classification"
+ },
+ {
+  "uid": "mmc_02763",
+  "question": "A surgeon decides to operate a patient under epidural anesthesia. 3% Xylocaine with adrenaline is used for administering epidural anesthesia. The patient suddenly develops hypotension after 3 minutes of administration. What is the most likely cause for this?",
+  "options": {
+   "A": "Systemic absorption of the drug",
+   "B": "Vasovagal effect",
+   "C": "Allergy to the drug preparation",
+   "D": "Penetration into the subarachnoid space"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Anaesthesia",
+  "temporal_critical": true,
+  "temporal_axis": "latency"
+ },
+ {
+  "uid": "mmc_02771",
+  "question": "A 10 years old boy came to emergency with complains of severe pain in right scrotum that is not relieved for the past 1 hour. On examination, testicular torsion of the right side is suspected. The surgical intervention should be:",
+  "options": {
+   "A": "Immediate scrotal exploration of the affected side and operate opposite side if symptomatic",
+   "B": "Delay exploration and operate opposite side if symptomatic",
+   "C": "Immediate exploration of the affected side and operate opposite side even if asymptomatic",
+   "D": "Delayed exploration on the affected side along with the opposite side even if asymptomatic"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": true,
+  "temporal_axis": "therapeutic_window"
+ },
+ {
+  "uid": "mmc_02828",
+  "question": "A young girl hospitalised with anorexia nervosa is on treatment, Even after taking adequate food according to the recommended diet plan for last 1 week, there is no gain in weight, what is the next step in management:",
+  "options": {
+   "A": "Increase fluid intake",
+   "B": "Observe patient for 2 hours after meal",
+   "C": "Increase the do se of anxiolytics",
+   "D": "Increase the caloric intake from 1500 kcal to 2000 kcal per day"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Psychiatry",
+  "temporal_critical": true,
+  "temporal_axis": "treatment_trial"
+ },
+ {
+  "uid": "mmc_02848",
+  "question": "A 35 years old female patient present with hearing loss with improvement in hearing in noisy environment. On examination Rinne's is negative and weber's is centralized. Following is the audiometry repo. What is the most likely diagnosis:",
+  "options": {
+   "A": "Meniere's disease",
+   "B": "Perilymph fistula",
+   "C": "Stapedial Otosclerosis",
+   "D": "Vestibular Schwannoma"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "ENT",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02916",
+  "question": "A 10 year old child came to the OPD with pain and mass in right lumbar region with no fever, with right hip flexed. The pain increased on extension and X ray showed spine changes. Most probable diagnosis is:",
+  "options": {
+   "A": "Psoas abscess",
+   "B": "Pyonephrosis",
+   "C": "Appendicular lump in retrocecal position",
+   "D": "Torsion of Right undescended testis"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02977",
+  "question": "Presented edema, oliguria and frothy urine. He has no past history of similar complaints. On examination, his urine was positive for 3+ proteinuria, no RBCs/WBCs and no casts. His serum albumin was 2.5 gm/L and serum creatinine was 0.5 mg/dL. The most likely diagnosis is:",
+  "options": {
+   "A": "Minimal change disease",
+   "B": "IgA nephropathy",
+   "C": "Interstitial nephritis",
+   "D": "Membranous nephropathy"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_02983",
+  "question": "A mother and her 4 year old son are seated alone in\na reception area with the child staring off into space,\nrocking and constantly twisting a strand of hair about\nhis fingers. Upon entry of another person, the child\nbegins to beat his fist against the side of his face and\nbehaves as though he does not hear his mother speaking\nto him. This behavior is most characteristic of:",
+  "options": {
+   "A": "An autistic child",
+   "B": "A mentally retarded child",
+   "C": "First dental appointment anxieties of a 4 year old child",
+   "D": "A child with a chronic seizure disorder"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Dental",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03101",
+  "question": "A 5-year-old child from a rural area presented to the OPD with pustular lesions on the lower legs. The cuture from the lesion showed hemolytic colonies on the blood agar which were Gram-positive cocci. Which of the following reactions would help to provisionally confirm the diagnosis of group A streptococcal pyoderma?",
+  "options": {
+   "A": "Optochin sensitivity",
+   "B": "Bacitracin sensitivity",
+   "C": "Catalase positivity",
+   "D": "Bile solubility"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Microbiology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03152",
+  "question": "A 2 year old boy has vitamin D refractory rickets. Investigations show serum calcium 9 mg/dl. Phosphate 2.4 mg dl, alkaline phosphate 1040 parathyroid hormone and bicarbonate levels are normal. The most probable diagnosis is \u2013",
+  "options": {
+   "A": "Distal renal tubular acidosis",
+   "B": "Hypophosphatemic rickets.",
+   "C": "Vitamin D dependent rickets",
+   "D": "Proximal renal tubular acidosis"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03160",
+  "question": "A 5 year old child is rushed to casualty reportedly electrocuted while playing in a park. The child is apneic and is ventilated with bag and a mask. Which of the following will be the next step in the management \u2013",
+  "options": {
+   "A": "Check pulses",
+   "B": "Start chest compressions",
+   "C": "Intubate",
+   "D": "Check oxygen saturation"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03163",
+  "question": "A 30 year old male presented with severe dyspnea. His investigations showed mitral stenosis with left atrial enlargement. The histopathology repo from his mitral valve is shown below. What is the likely diagnosis of these patients?",
+  "options": {
+   "A": "Sarcoidosis",
+   "B": "Fungal granuloma",
+   "C": "Tuberculosis",
+   "D": "Rheumatic hea disease"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Pathology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03171",
+  "question": "A 50 years old patient presented with progressive jaundice. Liver function test was done in which conju!gated serum bilirubin-4.8% and total bilirubin-6.7%, alkaline phosphatase- 550 IU, SGOT-50, SGPT-65. Most probable diagnosis is;",
+  "options": {
+   "A": "Jaundice due to choledocholithiasis",
+   "B": "Dubin-Johnson syndrome",
+   "C": "Viral hepatitis",
+   "D": "Malignant obstructive jaundice"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03205",
+  "question": "An adolescent school girl complaints of dropping objects from hands, it gets precipitated during morning and during exams. There is no history of loss of consciousness and her cousin sister has been diagnosed with epilepsy. EEG was done and was suggestive of epileptic spikes. What is the diagnosis?",
+  "options": {
+   "A": "Juvenile myoclonic epilepsy",
+   "B": "Atypical absence",
+   "C": "Choreo - athetoid epilepsy",
+   "D": "Centrotemporal spikes"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": true,
+  "temporal_axis": "time_of_day"
+ },
+ {
+  "uid": "mmc_03217",
+  "question": "A 24 years old college student while playing hockey injured his right knee. This patient presents after 3 months with instability of knee joint in it full extension without instability at 90 degree of flexion. The structure most commonly damaged is:",
+  "options": {
+   "A": "Posterolatilal pa of anterior cruciate ligament",
+   "B": "Anteromedial pa of anterior cruciate ligament",
+   "C": "Posterior cruciate ligament",
+   "D": "Anterior hom of medial meniscus"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03328",
+  "question": "A 10-year-old girl presents with a mass in lower abdomen involving umbilical and the hypogastrium. On examination it is cystic and mobile and the examiner is unable to insinuate fingers between the mass and the pelvic bone. What is the likely diagnosis?",
+  "options": {
+   "A": "Duplication of small intestine",
+   "B": "Omental cyst",
+   "C": "Ovarian cyst",
+   "D": "Mesenteric cyst"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03341",
+  "question": "A 14 years old male child presented with abnormal body movements with MRI showing signal changes in corpus striatum, thalami, pons, medulla, centrum semiovale and asymmetric diffuse white matter involvement. Most likely diagnosis is:",
+  "options": {
+   "A": "Parkinsonism",
+   "B": "Nigrostriatal degeneration",
+   "C": "Wilson's disease",
+   "D": "Hallervorden-Spatz disease"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03348",
+  "question": "A girl complaints of acute abdominal pain on and off with tingling sensation of limbs. She had a history of eating paint from the wall of newly built house. Which of the following enzyme deficiency will be the cause of her condition?",
+  "options": {
+   "A": "ALA dehydratase",
+   "B": "ALA synthase",
+   "C": "Coproporphyrinogen synthase",
+   "D": "Heme synthase"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Biochemistry",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03358",
+  "question": "A young patient presented to casualty with a history of some substance abuse. His pulse was 130 beats per minute and respiratory rate was 30 per minute. Blood gas analysis revealed metabolic acidosis and his urea was 100 mg/dL and creatinine was 4 mg/dL. Urinalysis revealed calcium oxalate crystals. He improved symptomatically after management with intravenous fluids, gastric lavage, sodium bicarbonate, calcium gluconate and 4-methylpyrazole administration. What is the most likely substance that he consumed?",
+  "options": {
+   "A": "Formaldehyde",
+   "B": "Methyl alcohol",
+   "C": "Ethylene glycol",
+   "D": "Paraldehyde"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Forensic Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03368",
+  "question": "A 45 years old female presented with a history of pain!less breast lump of size 6 x 5 cm in left upper quadrant with no axillary lymph nodes. A true-cut biopsy was suggestive of ductal carcinoma in situ. She undergoes surgery with resection of all tumor tissue with adequate margins and postoperative HPE showing DCIS with high grade necrosis with 4 mm clearance on margins. Which of the following is needed?",
+  "options": {
+   "A": "Adjuvant chemotherapy",
+   "B": "Adjuvant chemoradiotherapy",
+   "C": "Adjuvant radiotherapy",
+   "D": "No additional treatment"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03380",
+  "question": "A 4-year-old child has a normal complement of primary teeth, but they are grey and exhibit extensive occlusal and incisal wear. Radiographic examination indicates extensive deposits of secondary dentin in these teeth. Most likely this condition is:",
+  "options": {
+   "A": "Neonatal hypoplasia",
+   "B": "Amelogenesis imperfecta",
+   "C": "Cleidocranial dysplasia",
+   "D": "Dentinogenesis imperfecta"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Pathology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03386",
+  "question": "A 62 years old woman presented with acute onset confusion and bumping into th ings. On examination, she was ale, oriented with fluent speech and normal comprehension. Fuher examination revealed impaired writing (acalculia), right-left confusion, impaired arithmetic abilities, difficulty in finger identification. MRI demonstrated foci of coical and sub coical increase T2 signals and areas of leptomeningeal enhancement. Most likely diagnosis:",
+  "options": {
+   "A": "Gerstmann's syndrome",
+   "B": "Millard-Gubler syndrome",
+   "C": "Anton syndrome",
+   "D": "Korsakoff's psychosis"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03397",
+  "question": "A 12 year old child complains of recurrent pain over right maxillary posterior tooth but clinically no caries can be found. He also reports of cold and fever spells. What should be advised to the patient?",
+  "options": {
+   "A": "Extract the primary retained tooth i.e., 54, 55",
+   "B": "Extract the tooth 16, 54, 55",
+   "C": "Refer to physician for the evaluation of maxillary sinus",
+   "D": "Do nothing"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Dental",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03417",
+  "question": "A 27 year primigravida presents with pregnancy induced hypertension with blood pressure of 150/100 mm of Hg at 32 weeks of gestation with no other complications. Subsequently, her blood pressure is controlled on treatment. If there are no complications, the pregnancy should be terminated at:",
+  "options": {
+   "A": "40 completed weeks",
+   "B": "37 completed weeks",
+   "C": "35 completed weeks",
+   "D": "34 completed weeks"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": true,
+  "temporal_axis": "gestational_window"
+ },
+ {
+  "uid": "mmc_03418",
+  "question": "A 1.5 years old child was brought to emergency with history of burn by hot water on both hands and palms. The lesion was pink, oozing and painful to air and touch. Which of the following is the best management for this patient?",
+  "options": {
+   "A": "Paraffin gauze and dressing",
+   "B": "Collagen dressing",
+   "C": "Excision and grafting",
+   "D": "Apply 1% silver sulfasalazine ointment and keep the wound open"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03495",
+  "question": "A 34-year-old primigravida at 11 weeks gestation presents to her obstetrics clinic with chief complain of exposure to a rash. Her husband is HIV+ve and has broken out on a rash in his left buttock which consists of a grouped vesicles on a maculopapular base, 4 days back. She has got her HIV testing done which is negative. Her P/R is 86/min, B/P = 100/60 mm of hg, resp rate 10/min and temp = 98.7F.FHS is heard via Doppler.What is the next step in the management:",
+  "options": {
+   "A": "Administer high dose acyclovir to the infant at birth.",
+   "B": "Administer high dose acyclovir to the patient now.",
+   "C": "Administer varicella immunoglobulin to the infant at birth.",
+   "D": "Administer varicella immunoglobulin to the patient"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": true,
+  "temporal_axis": "therapeutic_window"
+ },
+ {
+  "uid": "mmc_03527",
+  "question": "A male child with coarse facial features, macroglossia, thick lips presents with copious mucous discharge from nose at 10 months of age. The child was absolutely normal at bih. On examination he was found to have enlarged Liver and Spleen. Diagnosis is:",
+  "options": {
+   "A": "Hurler's syndrome",
+   "B": "Beckwith-Weidman syndrome",
+   "C": "Hypothyroidism",
+   "D": "Proteus syndrome"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": true,
+  "temporal_axis": "onset_timing"
+ },
+ {
+  "uid": "mmc_03542",
+  "question": "A 2-year-old child was brought to the emergency depament at 3 AM. The child presented with fever and cough. On examination, respiratory rate was 36/ min, temperature was 39degC and saturation on pulse oximetry was 96%. The child had barking cough and stridor only on crying. Otherwise, the child was hydrated, able to drink and consolable. The nest step in management would be:",
+  "options": {
+   "A": "Racemic epinephrine nebulization",
+   "B": "Single dose of dexamethasone",
+   "C": "Complete blood count and culture",
+   "D": "Nasal washings for Respiratory Syncytial Virus (RSV) and influenza"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03584",
+  "question": "A 29-year-old, 4 months pregnant primigravida has history of juvenile myoclonic epilepsy. She has been regularly taking sodium valproate and now presents requesting for an opinion for a change in her anti-epileptic treatment. What would you sugeets her?",
+  "options": {
+   "A": "Immediately taper off valproate and sta lamotrigine",
+   "B": "Switch to carbamazepine",
+   "C": "Continue valproate and serial drug monitoring in blood",
+   "D": "Add lamotrigine to valproate"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": true,
+  "temporal_axis": "gestational_window"
+ },
+ {
+  "uid": "mmc_03607",
+  "question": "A known 60-year-old male Diabetic and hypeensive patient was found unconscious in the morning. On examination pulse- 120, bp- 180/100 and there was positive extensor plantar. What is next step to be done?",
+  "options": {
+   "A": "Order CT scan",
+   "B": "Immediately reduces bp with antihypeensives",
+   "C": "Give I/v mannitol",
+   "D": "Check blood glucose"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03610",
+  "question": "A 76 - year - old female presented with non - healing ulcer on labia majora for 6 months measuring 2 x 3 cm with no palpable lymphadenopathy. Biopsy shows Squamous cell carcinoma. Management of this patient includes?",
+  "options": {
+   "A": "Radical vulvectomy with sentinal LN biopsy",
+   "B": "Wide excision",
+   "C": "Simple vulvectomy",
+   "D": "Chemoradiation with resection"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Gynaecology & Obstetrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03652",
+  "question": "A child presented at 2 years of age with delayed motor development, mental retardation and finger biting. He was normal at bih. He subsequently develops cerebral palsy ahritis and dies due to renal failure at age of 25 years. What is the likely enzyme deficiency implicated?",
+  "options": {
+   "A": "Hexosaminidase deficiency",
+   "B": "Adenosine deaminase deficiency",
+   "C": "HGP deficiency",
+   "D": "Ornithine transcarbamoylase deficiency"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03661",
+  "question": "A 48 years old female presents with seizure, recurrent gross hematuria and left flank abdominal pain. Abdominal CT reveals left perinephric hematoma with 3 cm angiomyolipoma along with multiple right renal angiomyolipoma measuring 1.5 to 6.5 cm. What would be the most probable diagnosis?",
+  "options": {
+   "A": "VHL syndrome",
+   "B": "Autosomal dominant polycystic kidney disease",
+   "C": "Tuberous sclerosis",
+   "D": "Hereditary angiolipoma"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03690",
+  "question": "A 9 year old boy presenting with lytic lesion on midshaft tibia. On HPE, there are grooved nuclei, giant cells eosinophilic cytoplasm and fibroblastic proliferation. Xray is as shown below. What is the likely diagnosis?",
+  "options": {
+   "A": "Langerhans cell histiocytosis",
+   "B": "Giant cell tumor",
+   "C": "Chondroblastoma",
+   "D": "Osteoid osteoma"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Orthopaedics",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03722",
+  "question": "A 50-year-old male has fever for the past l-week with abdominal ilistention and loss of appetite. It is not responding to antibiotics and antimatarials. widal test is negative but RK39 dipstick test is positive.Which of the following drugs can be used in the above patient?",
+  "options": {
+   "A": "Bedaquiline",
+   "B": "Linezolid",
+   "C": "Fluconazole",
+   "D": "Liposomal AmPhotericin B"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Pharmacology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03729",
+  "question": "A 55 years old male patient presents with 4 cm x 5 cm lump in right neck. FNAC assessment revealed it to be a squamous cell carcinoma. Clinical assessment of the oral cavity, pharynx, hypopharynx and larynx did not yield any tumor. Whole body PET scan did not show any increased uptake except for the neck mass. A diagnosis of unknown primary was made. According to AJCC system of classification, the TNM status of the tumor would be:",
+  "options": {
+   "A": "T1N2M0",
+   "B": "TON2aMO",
+   "C": "T1N2aMO",
+   "D": "TxN2aMx"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03730",
+  "question": "A patient has an infectious process associated with maxillary right Lateral incisor that tooth is deeply carious and non-restorable. His temperature is 102\u00b0F. The patient has not been able to chew for the past 24 hours. The right side of the face is swollen. The patient cannot open his right eye, on palpation the area is soft, painful to touch and tissue rebound when palpated; treatment for the patient should be",
+  "options": {
+   "A": "Aspiration",
+   "B": "Antibiotics of Heat only",
+   "C": "Incision and Drainage",
+   "D": "Antibiotics, heat and fluid"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03746",
+  "question": "A 7 years old child comes with fever and tibial swelling exhibits on X- ray exhibits periosteal reaction. Laboratory results show raised ESR and TLC. What is the next step in diagnosis of the patient?",
+  "options": {
+   "A": "MRI",
+   "B": "Pus culture",
+   "C": "Bone biopsy",
+   "D": "Blood culture"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03754",
+  "question": "A patient complains of sensitivity in a Mandibular premolar. A well condensed class V amalgam restoration was placed in that tooth 5 months ago, with no discomfort for the first 4 months. Since then it has become increasingly sensitive. The problem probably relates to:",
+  "options": {
+   "A": "Marginal leakage",
+   "B": "Fractured restoration",
+   "C": "Irreversible pulpal damage",
+   "D": "Tooth brush abrasion"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Dental",
+  "temporal_critical": true,
+  "temporal_axis": "latency_pattern"
+ },
+ {
+  "uid": "mmc_03769",
+  "question": "A man presents it n rashes on face and also complains of decreased mental function. He is also having few macular lesions on his skin. On CT scan, intracranial calcification was seen. His wife is normal. His 10-year old daughter is also normal but his 6-year old son is also having similar skin lesions. What would be the most likely diagnosis?",
+  "options": {
+   "A": "Neurofibrornatosis-1",
+   "B": "Neurofibromatosis-2",
+   "C": "Xeroderma pigmentosum",
+   "D": "Autosomal dominant inheritance"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Skin",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03820",
+  "question": "A 25 year old lady on treatment for rheumatoid ahritis has following lab findings: Hb-9gm/dl, MCV- 55fl, serum iron-30microgm/d1, ferritin 200 ng/ml, TIBC- 298 micrograms/dl. What is the most probable diagnosis?",
+  "options": {
+   "A": "Thalassemia minor",
+   "B": "Thalassemia major",
+   "C": "Anemia of chronic disease",
+   "D": "Iron deficiency anemia"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03839",
+  "question": "A 9 year old child's mother comes to dental clinic with the complaint of oral ulceration, fever and shedding of skin of palms and soles; she is giving history of premature shedding of teeth and increased sweating, she is also giving one month history of using any new teething gel available in market. The child is suffering from.",
+  "options": {
+   "A": "Acrodynia",
+   "B": "Pemphigus vulgaris",
+   "C": "Epidermolysis Bullosa",
+   "D": "Erosive lichen planus"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pathology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03876",
+  "question": "A man comes with history of abnormal excessive blinking and grunting. He says he has no control over his symptoms, which have risen in frequency of late. This has staed affecting his social life making him depressed. Which of the following medications should be used in him?",
+  "options": {
+   "A": "Risperidone",
+   "B": "Imipramine",
+   "C": "Carbamazepine",
+   "D": "Methylphenidate"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Psychiatry",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_03880",
+  "question": "A patient comes to your clinic with a complaint of multiple episodes of loose watery stool for 3 days. On probing, you discover that these episodes sta after he had ingested shellfish at a local restaurant 3 days back and other people who had food from that restaurant had similar symptoms. What is the most common cause of viral diarrhoea in adults?",
+  "options": {
+   "A": "Calicivirus",
+   "B": "Rotavirus",
+   "C": "Adenovirus",
+   "D": "Norovirus"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Microbiology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_04005",
+  "question": "A 30-year-old gentleman has exce' cep at work attributed to sleep discomfo at night. He also has recent history of falling while paying with friends. What are the other features that can be seenassociated with his condition?",
+  "options": {
+   "A": "Paralysis during sleep-wake transition with hallucinations",
+   "B": "Snoring with witnessed sleep apnea",
+   "C": "Pain in the legs before going to sleep",
+   "D": "Generalized seizures in the wake state"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_04022",
+  "question": "A 20-year-old male presents with hard painless testicular swellingon investigation AFP is 3080. No paraaoic or iliac nodes as well as no mediastinal lymph nodes found. usG shows uniform echotexture and small areas of necrosis surrounding structures are normal.What is the next best steP:",
+  "options": {
+   "A": "FNAC",
+   "B": "Trucut bioPsY",
+   "C": "High inguinal orchidectomy",
+   "D": "PET-CT"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_04030",
+  "question": "A patient with a history of fall after hypoglycemic episode presents with pain in bilateral preauricular region and deviation of the mandible to right side on mouth opening, probable diagnosis will be",
+  "options": {
+   "A": "Fracture of right condyle",
+   "B": "Fracture of left condyle",
+   "C": "Dislocation of left condyle",
+   "D": "Dislocation of both condyles"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_04061",
+  "question": "A middle aged female presents with slowly progressive weakness of lower limbs, spasticity and recent onset hesitancy of Micturition. On neurological examination there is evidence of dorsal myelopathy. MRI scan of spine reveals middorsal intradural contrast enhancing mass lesion. Diagnosis is:",
+  "options": {
+   "A": "Intradural lipoma",
+   "B": "Dermoid cyst",
+   "C": "Meningioma",
+   "D": "Epidermoid cyst"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Radiology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_04079",
+  "question": "A patient with tubercular meningitis was taking ATT regularly. At end of 1 month of regular intake of drugs deterioration in sensorium is noted in condition of the patient. Which of the following investions is not required on emergency evaluation ?.",
+  "options": {
+   "A": "MRI",
+   "B": "NCCT",
+   "C": "CSF examination",
+   "D": "Liver function tests"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_04091",
+  "question": "Following a blunt trauma abdomen, a patient had renal laceration and urinoma. Even after 12 days, urinoma persisted, but the patient was stable and there was no fever. Next step in management would be:",
+  "options": {
+   "A": "Percutaneous exploration and repair",
+   "B": "Wait and watch",
+   "C": "J-shaped urinary stent",
+   "D": "Percutaneous nephrostomy"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Surgery",
+  "temporal_critical": true,
+  "temporal_axis": "persistence_duration"
+ },
+ {
+  "uid": "mmc_04123",
+  "question": "A patient presented with pain in the right lower quadrant of abdomen. He has history of renal stones in right kidney. He was prescribed an opioid which is agonist at kappa receptors and antagonist at mu receptors. The likely drug given was:",
+  "options": {
+   "A": "Pentazocine",
+   "B": "Buprenorphine",
+   "C": "Tramadol",
+   "D": "Fentanyl"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pharmacology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_04129",
+  "question": "A child underwent a tonsillectomy at 6 years of age with no complications. He underwent a preoperative screening for bleeding at the age of 12 years before an elective laparotomy, and was found to have a prolonged partial thromboplastin time, but normal prothrombin time. There was no family history of bleeding. The patient is likely to have acquired Vitamin K deficiency:",
+  "options": {
+   "A": "Acquired Vitamin K deficiency",
+   "B": "Acquired liver disease",
+   "C": "Factor XII deficiency",
+   "D": "Mild hemophilia A"
+  },
+  "answer": "C",
+  "source": "medmcqa_validation",
+  "subject": "Medicine",
+  "temporal_critical": true,
+  "temporal_axis": "temporal_ordering"
+ },
+ {
+  "uid": "mmc_04161",
+  "question": "A 70 years old hypeensive patient with stage 5 chronic kidney disease was diagnosed recently with Type 2 diabetes mellitus. He doesn't want to take injectable insulin. Which of the following oral hypoglycemic agents will be preferred in this patient, which won't require any renal dose modification?",
+  "options": {
+   "A": "Linagliptin",
+   "B": "Repaglinide",
+   "C": "Vildagliptin",
+   "D": "Glimepiride"
+  },
+  "answer": "A",
+  "source": "medmcqa_validation",
+  "subject": "Pharmacology",
+  "temporal_critical": false,
+  "temporal_axis": null
+ },
+ {
+  "uid": "mmc_04169",
+  "question": "A young adult presents 2 days after trauma to the eye with proptosis and pain in the right eye. On examination, hi is found to have a bruise on the right eye and forehead. The most likely diagnosis is:",
+  "options": {
+   "A": "Fracture sphenoid bone",
+   "B": "Cavernous sinus thrombosis",
+   "C": "Internal carotid aery aneurysm",
+   "D": "Carotico-cavernous fistula"
+  },
+  "answer": "D",
+  "source": "medmcqa_validation",
+  "subject": "Ophthalmology",
+  "temporal_critical": true,
+  "temporal_axis": "latency"
+ },
+ {
+  "uid": "mmc_04181",
+  "question": "A 9 year old boy has steroid dependent nephrotic syndrome for the last 5 year. The patient is markedly cushingoid with blood pressure of 120/86 mmHg and small subcapsular cataracts. The most appropriate therapy of choice is \u2013",
+  "options": {
+   "A": "Longterm frusemide with enalapril",
+   "B": "Cyclophosphamide",
+   "C": "Intravenous immunoglobulin",
+   "D": "Intravenous pulse corticosteroids"
+  },
+  "answer": "B",
+  "source": "medmcqa_validation",
+  "subject": "Pediatrics",
+  "temporal_critical": true,
+  "temporal_axis": "treatment_duration"
+ }
+]

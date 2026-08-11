@@ -1,0 +1,2912 @@
+{
+  "mmc_00207": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "2 month old",
+        "role": "age",
+        "value": 2,
+        "unit": "month",
+        "days": 60.0
+      }
+    ]
+  },
+  "mmc_00219": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "25-year-old",
+        "role": "age",
+        "value": 25,
+        "unit": "year",
+        "days": 9125.0
+      }
+    ]
+  },
+  "mmc_00273": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "38-years old",
+        "role": "age",
+        "value": 38,
+        "unit": "year",
+        "days": 13870.0
+      },
+      {
+        "span": "2 months postop",
+        "role": "past_medical_history",
+        "value": 2,
+        "unit": "month",
+        "days": 60
+      },
+      {
+        "span": "15 minutes",
+        "role": "observation_window",
+        "value": 15,
+        "unit": null,
+        "days": 0.0104
+      }
+    ]
+  },
+  "mmc_00284": {
+    "value": 2,
+    "unit": "year",
+    "days": 730,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "2 years",
+    "spans": [
+      {
+        "span": "2 years",
+        "role": "chief_complaint",
+        "value": 2,
+        "unit": "year",
+        "days": 730
+      }
+    ]
+  },
+  "mmc_00327": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "10 year old",
+        "role": "age",
+        "value": 10,
+        "unit": "year",
+        "days": 3650.0
+      },
+      {
+        "span": "before preschool age",
+        "role": "past_medical_history",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "school entry age",
+        "role": "past_medical_history",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_00351": {
+    "value": 1,
+    "unit": "hour",
+    "days": 0.0416,
+    "source": "llm_role_tagged",
+    "role": "onset_to_presentation",
+    "span": "one hour after injury",
+    "spans": [
+      {
+        "span": "11-year-old",
+        "role": "age",
+        "value": 11,
+        "unit": "year",
+        "days": 4015.0
+      },
+      {
+        "span": "one hour after injury",
+        "role": "onset_to_presentation",
+        "value": 1,
+        "unit": "hour",
+        "days": 0.0416
+      }
+    ]
+  },
+  "mmc_00357": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "40 years old",
+        "role": "age",
+        "value": 40,
+        "unit": "year",
+        "days": 14600.0
+      },
+      {
+        "span": "1 year back",
+        "role": "past_medical_history",
+        "value": 1,
+        "unit": "year",
+        "days": 365
+      },
+      {
+        "span": "recent",
+        "role": "exposure",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "per minute",
+        "role": "other",
+        "value": 1,
+        "unit": "minute",
+        "days": 0.000694
+      }
+    ]
+  },
+  "mmc_00365": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": []
+  },
+  "mmc_00432": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "5 years old",
+        "role": "age",
+        "value": 5,
+        "unit": "year",
+        "days": 1825.0
+      },
+      {
+        "span": "continuous",
+        "role": "chief_complaint",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_00469": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "infant",
+        "role": "age",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_00474": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "22 years old",
+        "role": "age",
+        "value": 22,
+        "unit": "year",
+        "days": 8030.0
+      }
+    ]
+  },
+  "mmc_00478": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "19-year-old",
+        "role": "age",
+        "value": 19,
+        "unit": "year",
+        "days": 6935.0
+      }
+    ]
+  },
+  "mmc_00488": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "42 years",
+        "role": "age",
+        "value": 42,
+        "unit": "year",
+        "days": 15330.0
+      }
+    ]
+  },
+  "mmc_00540": {
+    "value": 6,
+    "unit": "month",
+    "days": 180,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "after 6 months of age",
+    "spans": [
+      {
+        "span": "two year old",
+        "role": "age",
+        "value": 2,
+        "unit": "year",
+        "days": 730.0
+      },
+      {
+        "span": "after 6 months of age",
+        "role": "chief_complaint",
+        "value": 6,
+        "unit": "month",
+        "days": 180
+      }
+    ]
+  },
+  "mmc_00577": {
+    "value": 1,
+    "unit": "year",
+    "days": 365,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "past 1 year",
+    "spans": [
+      {
+        "span": "20 years old",
+        "role": "age",
+        "value": 20,
+        "unit": "year",
+        "days": 7300.0
+      },
+      {
+        "span": "past 1 year",
+        "role": "chief_complaint",
+        "value": 1,
+        "unit": "year",
+        "days": 365
+      }
+    ]
+  },
+  "mmc_00605": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "16-year old",
+        "role": "age",
+        "value": 16,
+        "unit": "year",
+        "days": 5840.0
+      },
+      {
+        "span": "age of 12",
+        "role": "other",
+        "value": 12,
+        "unit": "year",
+        "days": 4380.0
+      },
+      {
+        "span": "2 years back",
+        "role": "medication",
+        "value": 2,
+        "unit": "year",
+        "days": 730
+      }
+    ]
+  },
+  "mmc_00696": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "26 year old",
+        "role": "age",
+        "value": 26,
+        "unit": "year",
+        "days": 9490.0
+      },
+      {
+        "span": "acute",
+        "role": "chief_complaint",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_00713": {
+    "value": 2,
+    "unit": "month",
+    "days": 60,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "for 2 months",
+    "spans": [
+      {
+        "span": "60-year-old",
+        "role": "age",
+        "value": 60,
+        "unit": "year",
+        "days": 21900.0
+      },
+      {
+        "span": "for 2 months",
+        "role": "chief_complaint",
+        "value": 2,
+        "unit": "month",
+        "days": 60
+      }
+    ]
+  },
+  "mmc_00751": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "40-year",
+        "role": "age",
+        "value": 40,
+        "unit": "year",
+        "days": 14600.0
+      },
+      {
+        "span": "past few days",
+        "role": "onset_to_presentation",
+        "value": null,
+        "unit": "day",
+        "days": null
+      }
+    ]
+  },
+  "mmc_00771": {
+    "value": 3,
+    "unit": "day",
+    "days": 3,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "3 days",
+    "spans": [
+      {
+        "span": "3 days",
+        "role": "chief_complaint",
+        "value": 3,
+        "unit": "day",
+        "days": 3
+      },
+      {
+        "span": "1 day",
+        "role": "chief_complaint",
+        "value": 1,
+        "unit": "day",
+        "days": 1
+      },
+      {
+        "span": "1 episode",
+        "role": "other",
+        "value": 1,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_00796": {
+    "value": 7,
+    "unit": "year",
+    "days": 2555,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "last 7 years",
+    "spans": [
+      {
+        "span": "55-year-old",
+        "role": "age",
+        "value": 55,
+        "unit": "year",
+        "days": 20075.0
+      },
+      {
+        "span": "last 7 years",
+        "role": "chief_complaint",
+        "value": 7,
+        "unit": "year",
+        "days": 2555
+      }
+    ]
+  },
+  "mmc_00810": {
+    "value": 4,
+    "unit": "day",
+    "days": 4,
+    "source": "llm_role_tagged",
+    "role": "onset_to_presentation",
+    "span": "4 days ago",
+    "spans": [
+      {
+        "span": "12 - year - old",
+        "role": "age",
+        "value": 12,
+        "unit": "year",
+        "days": 4380.0
+      },
+      {
+        "span": "4 days ago",
+        "role": "onset_to_presentation",
+        "value": 4,
+        "unit": "day",
+        "days": 4
+      }
+    ]
+  },
+  "mmc_00811": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "61 years old",
+        "role": "age",
+        "value": 61,
+        "unit": "year",
+        "days": 22265.0
+      },
+      {
+        "span": "post-menopausal",
+        "role": "other",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_00828": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": []
+  },
+  "mmc_00852": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "two",
+        "role": "past_medical_history",
+        "value": 2,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_00861": {
+    "value": 5,
+    "unit": "hour",
+    "days": 0.208,
+    "source": "llm_role_tagged",
+    "role": "onset_to_presentation",
+    "span": "last 4-6 hours",
+    "spans": [
+      {
+        "span": "last 4-6 hours",
+        "role": "onset_to_presentation",
+        "value": 5,
+        "unit": "hour",
+        "days": 0.208
+      }
+    ]
+  },
+  "mmc_00891": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "65 year old",
+        "role": "age",
+        "value": 65,
+        "unit": "year",
+        "days": 23725.0
+      }
+    ]
+  },
+  "mmc_00901": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "50 years old",
+        "role": "age",
+        "value": 50,
+        "unit": "year",
+        "days": 18250.0
+      }
+    ]
+  },
+  "mmc_00911": {
+    "value": 5,
+    "unit": "day",
+    "days": 5,
+    "source": "llm_role_tagged",
+    "role": "onset_to_presentation",
+    "span": "last five days",
+    "spans": [
+      {
+        "span": "five year old",
+        "role": "age",
+        "value": 5,
+        "unit": "year",
+        "days": 1825.0
+      },
+      {
+        "span": "last five days",
+        "role": "onset_to_presentation",
+        "value": 5,
+        "unit": "day",
+        "days": 5
+      },
+      {
+        "span": "per hpf",
+        "role": "other",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_00912": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "26-year-old",
+        "role": "age",
+        "value": 26,
+        "unit": "year",
+        "days": 9490.0
+      }
+    ]
+  },
+  "mmc_01006": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "last 6 months",
+        "role": "past_medical_history",
+        "value": 6,
+        "unit": "month",
+        "days": 180
+      }
+    ]
+  },
+  "mmc_01044": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "10-year-old",
+        "role": "age",
+        "value": 10,
+        "unit": "year",
+        "days": 3650.0
+      }
+    ]
+  },
+  "mmc_01155": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "23 years old",
+        "role": "age",
+        "value": 23,
+        "unit": "year",
+        "days": 8395.0
+      },
+      {
+        "span": "3 months",
+        "role": "procedure",
+        "value": 3,
+        "unit": "month",
+        "days": 90
+      },
+      {
+        "span": "30 minutes",
+        "role": "other",
+        "value": 30,
+        "unit": null,
+        "days": 0.02
+      },
+      {
+        "span": "After a while",
+        "role": "other",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "acute onset",
+        "role": "onset_to_presentation",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_01186": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "8 year old",
+        "role": "age",
+        "value": 8,
+        "unit": "year",
+        "days": 2920.0
+      },
+      {
+        "span": "3T day",
+        "role": "other",
+        "value": 3,
+        "unit": "day",
+        "days": 3
+      }
+    ]
+  },
+  "mmc_01191": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "68 years old",
+        "role": "age",
+        "value": 68,
+        "unit": "year",
+        "days": 24820.0
+      }
+    ]
+  },
+  "mmc_01200": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "42 years old",
+        "role": "age",
+        "value": 42,
+        "unit": "year",
+        "days": 15330.0
+      },
+      {
+        "span": "long time",
+        "role": "exposure",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "Over due course of time",
+        "role": "chief_complaint",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_01212": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "60 years",
+        "role": "age",
+        "value": 60,
+        "unit": "year",
+        "days": 21900.0
+      }
+    ]
+  },
+  "mmc_01219": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "24-year-old",
+        "role": "age",
+        "value": 24,
+        "unit": "year",
+        "days": 8760.0
+      }
+    ]
+  },
+  "mmc_01232": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "45 years old",
+        "role": "age",
+        "value": 45,
+        "unit": "year",
+        "days": 16425.0
+      }
+    ]
+  },
+  "mmc_01273": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "2 hours",
+        "role": "procedure",
+        "value": 2,
+        "unit": "hour",
+        "days": 0.083
+      }
+    ]
+  },
+  "mmc_01281": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": []
+  },
+  "mmc_01362": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "1-month-old",
+        "role": "age",
+        "value": 1,
+        "unit": "month",
+        "days": 30.0
+      }
+    ]
+  },
+  "mmc_01368": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "50-year-old",
+        "role": "age",
+        "value": 50,
+        "unit": "year",
+        "days": 18250.0
+      }
+    ]
+  },
+  "mmc_01374": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "30 year old",
+        "role": "age",
+        "value": 30,
+        "unit": "year",
+        "days": 10950.0
+      }
+    ]
+  },
+  "mmc_01428": {
+    "value": 8,
+    "unit": "week",
+    "days": 56,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "8 weeks",
+    "spans": [
+      {
+        "span": "8 weeks",
+        "role": "chief_complaint",
+        "value": 8,
+        "unit": "week",
+        "days": 56
+      }
+    ]
+  },
+  "mmc_01529": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "16-year-old",
+        "role": "age",
+        "value": 16,
+        "unit": "year",
+        "days": 5840.0
+      }
+    ]
+  },
+  "mmc_01574": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "40 years",
+        "role": "age",
+        "value": 40,
+        "unit": "year",
+        "days": 14600.0
+      }
+    ]
+  },
+  "mmc_01587": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "10 year old",
+        "role": "age",
+        "value": 10,
+        "unit": "year",
+        "days": 3650.0
+      }
+    ]
+  },
+  "mmc_01639": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "48-year old",
+        "role": "age",
+        "value": 48,
+        "unit": "year",
+        "days": 17520.0
+      }
+    ]
+  },
+  "mmc_01673": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "7-year old",
+        "role": "age",
+        "value": 7,
+        "unit": "year",
+        "days": 2555.0
+      }
+    ]
+  },
+  "mmc_01685": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "36 weeks",
+        "role": "other",
+        "value": 36,
+        "unit": "week",
+        "days": 252
+      },
+      {
+        "span": "20 minutes",
+        "role": "procedure",
+        "value": 20,
+        "unit": null,
+        "days": 0.013888888888888888
+      }
+    ]
+  },
+  "mmc_01703": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "recently",
+        "role": "other",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "15 days old",
+        "role": "age",
+        "value": 15,
+        "unit": "day",
+        "days": 15.0
+      }
+    ]
+  },
+  "mmc_01746": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "gravida 2",
+        "role": "other",
+        "value": 2,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "37 weeks",
+        "role": "other",
+        "value": 37,
+        "unit": "week",
+        "days": 259
+      }
+    ]
+  },
+  "mmc_01748": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "26 years old",
+        "role": "age",
+        "value": 26,
+        "unit": "year",
+        "days": 9490.0
+      },
+      {
+        "span": "earlier",
+        "role": "past_medical_history",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "3 weeks back",
+        "role": "other",
+        "value": 3,
+        "unit": "week",
+        "days": 21
+      }
+    ]
+  },
+  "mmc_01831": {
+    "value": 4,
+    "unit": "day",
+    "days": 4,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "4 day s",
+    "spans": [
+      {
+        "span": "12 years old",
+        "role": "age",
+        "value": 12,
+        "unit": "year",
+        "days": 4380.0
+      },
+      {
+        "span": "4 day s",
+        "role": "chief_complaint",
+        "value": 4,
+        "unit": "day",
+        "days": 4
+      }
+    ]
+  },
+  "mmc_01865": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "27 years old",
+        "role": "age",
+        "value": 27,
+        "unit": "year",
+        "days": 9855.0
+      },
+      {
+        "span": "pregnant",
+        "role": "other",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_01870": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "24 years old",
+        "role": "age",
+        "value": 24,
+        "unit": "year",
+        "days": 8760.0
+      }
+    ]
+  },
+  "mmc_02082": {
+    "value": 1,
+    "unit": "month",
+    "days": 30,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "1 month",
+    "spans": [
+      {
+        "span": "25 years old",
+        "role": "age",
+        "value": 25,
+        "unit": "year",
+        "days": 9125.0
+      },
+      {
+        "span": "1 month",
+        "role": "chief_complaint",
+        "value": 1,
+        "unit": "month",
+        "days": 30
+      }
+    ]
+  },
+  "mmc_02089": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "9 weeks",
+        "role": "other",
+        "value": 9,
+        "unit": "week",
+        "days": 63
+      },
+      {
+        "span": "one year back",
+        "role": "past_medical_history",
+        "value": 1,
+        "unit": "year",
+        "days": 365
+      },
+      {
+        "span": "30",
+        "role": "past_medical_history",
+        "value": 30,
+        "unit": "week",
+        "days": 210
+      },
+      {
+        "span": "32 weeks",
+        "role": "past_medical_history",
+        "value": 32,
+        "unit": "week",
+        "days": 224
+      }
+    ]
+  },
+  "mmc_02156": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "8 year old",
+        "role": "age",
+        "value": 8,
+        "unit": "year",
+        "days": 2920.0
+      }
+    ]
+  },
+  "mmc_02179": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "13 year old",
+        "role": "age",
+        "value": 13,
+        "unit": "year",
+        "days": 4745.0
+      }
+    ]
+  },
+  "mmc_02186": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": []
+  },
+  "mmc_02205": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "49 years old",
+        "role": "age",
+        "value": 49,
+        "unit": "year",
+        "days": 17885.0
+      },
+      {
+        "span": "35 pack years",
+        "role": "exposure",
+        "value": 35,
+        "unit": "year",
+        "days": 12775.0
+      }
+    ]
+  },
+  "mmc_02336": {
+    "value": 2,
+    "unit": "day",
+    "days": 2,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "last 2 days",
+    "spans": [
+      {
+        "span": "2-year-old",
+        "role": "age",
+        "value": 2,
+        "unit": "year",
+        "days": 730.0
+      },
+      {
+        "span": "last 2 days",
+        "role": "chief_complaint",
+        "value": 2,
+        "unit": "day",
+        "days": 2
+      },
+      {
+        "span": "2.30 am",
+        "role": "other",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_02354": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "7-year-old",
+        "role": "age",
+        "value": 7,
+        "unit": "year",
+        "days": 2555.0
+      },
+      {
+        "span": "3 years back",
+        "role": "past_medical_history",
+        "value": 3,
+        "unit": "year",
+        "days": 1095
+      }
+    ]
+  },
+  "mmc_02377": {
+    "value": 1,
+    "unit": "year",
+    "days": 365,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "past 1 year",
+    "spans": [
+      {
+        "span": "15 years old",
+        "role": "age",
+        "value": 15,
+        "unit": "year",
+        "days": 5475.0
+      },
+      {
+        "span": "past 1 year",
+        "role": "chief_complaint",
+        "value": 1,
+        "unit": "year",
+        "days": 365
+      }
+    ]
+  },
+  "mmc_02403": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "25-year-old",
+        "role": "age",
+        "value": 25,
+        "unit": "year",
+        "days": 9125.0
+      },
+      {
+        "span": "1.5 yo",
+        "role": "exposure",
+        "value": 1.5,
+        "unit": "year",
+        "days": 547.5
+      }
+    ]
+  },
+  "mmc_02412": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "5 years and 4 month",
+        "role": "age",
+        "value": 64,
+        "unit": "month",
+        "days": 1920.0
+      }
+    ]
+  },
+  "mmc_02413": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "32-year-old",
+        "role": "age",
+        "value": 32,
+        "unit": "year",
+        "days": 11680.0
+      },
+      {
+        "span": "9 weeks",
+        "role": "other",
+        "value": 9,
+        "unit": "week",
+        "days": 63
+      },
+      {
+        "span": "10 year old",
+        "role": "age",
+        "value": 10,
+        "unit": "year",
+        "days": 3650.0
+      }
+    ]
+  },
+  "mmc_02416": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "1 month",
+        "role": "medication",
+        "value": 1,
+        "unit": "month",
+        "days": 30
+      }
+    ]
+  },
+  "mmc_02429": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "40 years old",
+        "role": "age",
+        "value": 40,
+        "unit": "year",
+        "days": 14600.0
+      }
+    ]
+  },
+  "mmc_02461": {
+    "value": 3,
+    "unit": "year",
+    "days": 1095,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "for the last three years",
+    "spans": [
+      {
+        "span": "45 years old",
+        "role": "age",
+        "value": 45,
+        "unit": "year",
+        "days": 16425.0
+      },
+      {
+        "span": "for the last three years",
+        "role": "chief_complaint",
+        "value": 3,
+        "unit": "year",
+        "days": 1095
+      },
+      {
+        "span": "summers",
+        "role": "other",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "winters",
+        "role": "other",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_02468": {
+    "value": null,
+    "unit": "month",
+    "days": 90,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "several months",
+    "spans": [
+      {
+        "span": "16-year-old",
+        "role": "age",
+        "value": 16,
+        "unit": "year",
+        "days": 5840.0
+      },
+      {
+        "span": "several months",
+        "role": "chief_complaint",
+        "value": null,
+        "unit": "month",
+        "days": 90
+      }
+    ]
+  },
+  "mmc_02470": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "50 years old",
+        "role": "age",
+        "value": 50,
+        "unit": "year",
+        "days": 18250.0
+      },
+      {
+        "span": "per minute",
+        "role": "other",
+        "value": 1,
+        "unit": "hour",
+        "days": 0.0416
+      },
+      {
+        "span": "per minute",
+        "role": "other",
+        "value": 1,
+        "unit": "hour",
+        "days": 0.0416
+      }
+    ]
+  },
+  "mmc_02476": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": []
+  },
+  "mmc_02490": {
+    "value": 6,
+    "unit": "month",
+    "days": 180,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "six months",
+    "spans": [
+      {
+        "span": "six months",
+        "role": "chief_complaint",
+        "value": 6,
+        "unit": "month",
+        "days": 180
+      }
+    ]
+  },
+  "mmc_02494": {
+    "value": 3,
+    "unit": "month",
+    "days": 90,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "past 3 months",
+    "spans": [
+      {
+        "span": "56-year-old",
+        "role": "age",
+        "value": 56,
+        "unit": "year",
+        "days": 20440.0
+      },
+      {
+        "span": "past 3 months",
+        "role": "chief_complaint",
+        "value": 3,
+        "unit": "month",
+        "days": 90
+      }
+    ]
+  },
+  "mmc_02519": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "10 year old",
+        "role": "age",
+        "value": 10,
+        "unit": "year",
+        "days": 3650.0
+      }
+    ]
+  },
+  "mmc_02523": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "few days",
+        "role": "chief_complaint",
+        "value": null,
+        "unit": "day",
+        "days": null
+      }
+    ]
+  },
+  "mmc_02547": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "46 years old",
+        "role": "age",
+        "value": 46,
+        "unit": "year",
+        "days": 16790.0
+      },
+      {
+        "span": "10 minutes",
+        "role": "procedure",
+        "value": 10,
+        "unit": "hour",
+        "days": 0.00694
+      }
+    ]
+  },
+  "mmc_02549": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "now",
+        "role": "chief_complaint",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_02575": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "60 years old",
+        "role": "age",
+        "value": 60,
+        "unit": "year",
+        "days": 21900.0
+      },
+      {
+        "span": "2 weeks back",
+        "role": "past_medical_history",
+        "value": 2,
+        "unit": "week",
+        "days": 14
+      }
+    ]
+  },
+  "mmc_02588": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "8 year old",
+        "role": "age",
+        "value": 8,
+        "unit": "year",
+        "days": 2920.0
+      }
+    ]
+  },
+  "mmc_02613": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "27 years old",
+        "role": "age",
+        "value": 27,
+        "unit": "year",
+        "days": 9855.0
+      },
+      {
+        "span": "20 weeks",
+        "role": "other",
+        "value": 20,
+        "unit": "week",
+        "days": 140
+      }
+    ]
+  },
+  "mmc_02627": {
+    "value": 3,
+    "unit": "day",
+    "days": 3,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "last three days",
+    "spans": [
+      {
+        "span": "6 weeks old",
+        "role": "age",
+        "value": 6,
+        "unit": "week",
+        "days": 42.0
+      },
+      {
+        "span": "last three days",
+        "role": "chief_complaint",
+        "value": 3,
+        "unit": "day",
+        "days": 3
+      }
+    ]
+  },
+  "mmc_02636": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "36 years old",
+        "role": "age",
+        "value": 36,
+        "unit": "year",
+        "days": 13140.0
+      }
+    ]
+  },
+  "mmc_02713": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "32 year",
+        "role": "age",
+        "value": 32,
+        "unit": "year",
+        "days": 11680.0
+      }
+    ]
+  },
+  "mmc_02751": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "10–year old",
+        "role": "age",
+        "value": 10,
+        "unit": "year",
+        "days": 3650.0
+      },
+      {
+        "span": "since birth",
+        "role": "other",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_02758": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "middle-aged",
+        "role": "age",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "2",
+        "role": "past_medical_history",
+        "value": 2,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "first trimester",
+        "role": "past_medical_history",
+        "value": 3,
+        "unit": "month",
+        "days": 90
+      },
+      {
+        "span": "3 years old",
+        "role": "age",
+        "value": 3,
+        "unit": "year",
+        "days": 1095.0
+      },
+      {
+        "span": "ninth month",
+        "role": "other",
+        "value": 9,
+        "unit": "month",
+        "days": 270
+      }
+    ]
+  },
+  "mmc_02763": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "3 minutes",
+        "role": "procedure",
+        "value": 3,
+        "unit": "minute",
+        "days": 0.00208
+      }
+    ]
+  },
+  "mmc_02771": {
+    "value": 1,
+    "unit": "hour",
+    "days": 0.041666666666666664,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "past 1 hour",
+    "spans": [
+      {
+        "span": "10 years old",
+        "role": "age",
+        "value": 10,
+        "unit": "year",
+        "days": 3650.0
+      },
+      {
+        "span": "past 1 hour",
+        "role": "chief_complaint",
+        "value": 1,
+        "unit": "hour",
+        "days": 0.041666666666666664
+      }
+    ]
+  },
+  "mmc_02828": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "last 1 week",
+        "role": "medication",
+        "value": 1,
+        "unit": "week",
+        "days": 7
+      }
+    ]
+  },
+  "mmc_02848": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "35 years old",
+        "role": "age",
+        "value": 35,
+        "unit": "year",
+        "days": 12775.0
+      }
+    ]
+  },
+  "mmc_02916": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "10 year old",
+        "role": "age",
+        "value": 10,
+        "unit": "year",
+        "days": 3650.0
+      }
+    ]
+  },
+  "mmc_02977": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": []
+  },
+  "mmc_02983": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "4 year old",
+        "role": "age",
+        "value": 4,
+        "unit": "year",
+        "days": 1460.0
+      }
+    ]
+  },
+  "mmc_03101": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "5-year-old",
+        "role": "age",
+        "value": 5,
+        "unit": "year",
+        "days": 1825.0
+      }
+    ]
+  },
+  "mmc_03152": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "2 year old",
+        "role": "age",
+        "value": 2,
+        "unit": "year",
+        "days": 730.0
+      }
+    ]
+  },
+  "mmc_03160": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "5 year old",
+        "role": "age",
+        "value": 5,
+        "unit": "year",
+        "days": 1825.0
+      }
+    ]
+  },
+  "mmc_03163": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "30 year old",
+        "role": "age",
+        "value": 30,
+        "unit": "year",
+        "days": 10950.0
+      }
+    ]
+  },
+  "mmc_03171": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "50 years old",
+        "role": "age",
+        "value": 50,
+        "unit": "year",
+        "days": 18250.0
+      }
+    ]
+  },
+  "mmc_03205": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "adolescent",
+        "role": "age",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "morning",
+        "role": "chief_complaint",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_03217": {
+    "value": 3,
+    "unit": "month",
+    "days": 90,
+    "source": "llm_role_tagged",
+    "role": "onset_to_presentation",
+    "span": "3 months",
+    "spans": [
+      {
+        "span": "24 years old",
+        "role": "age",
+        "value": 24,
+        "unit": "year",
+        "days": 8760.0
+      },
+      {
+        "span": "3 months",
+        "role": "onset_to_presentation",
+        "value": 3,
+        "unit": "month",
+        "days": 90
+      },
+      {
+        "span": "90 degree",
+        "role": "other",
+        "value": 90,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_03328": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "10-year-old",
+        "role": "age",
+        "value": 10,
+        "unit": "year",
+        "days": 3650.0
+      }
+    ]
+  },
+  "mmc_03341": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "14 years old",
+        "role": "age",
+        "value": 14,
+        "unit": "year",
+        "days": 5110.0
+      }
+    ]
+  },
+  "mmc_03348": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "acute",
+        "role": "chief_complaint",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "on and off",
+        "role": "chief_complaint",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_03358": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": []
+  },
+  "mmc_03368": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "45 years old",
+        "role": "age",
+        "value": 45,
+        "unit": "year",
+        "days": 16425.0
+      }
+    ]
+  },
+  "mmc_03380": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "4-year-old",
+        "role": "age",
+        "value": 4,
+        "unit": "year",
+        "days": 1460.0
+      }
+    ]
+  },
+  "mmc_03386": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "62 years",
+        "role": "age",
+        "value": 62,
+        "unit": "year",
+        "days": 22630.0
+      }
+    ]
+  },
+  "mmc_03397": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "12 year old",
+        "role": "age",
+        "value": 12,
+        "unit": "year",
+        "days": 4380.0
+      },
+      {
+        "span": "recurrent",
+        "role": "chief_complaint",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_03417": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "27 year",
+        "role": "age",
+        "value": 27,
+        "unit": "year",
+        "days": 9855.0
+      },
+      {
+        "span": "32 weeks",
+        "role": "other",
+        "value": 32,
+        "unit": "week",
+        "days": 224
+      }
+    ]
+  },
+  "mmc_03418": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "1.5 years",
+        "role": "age",
+        "value": 1.5,
+        "unit": "year",
+        "days": 547.5
+      }
+    ]
+  },
+  "mmc_03495": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "34-year-old",
+        "role": "age",
+        "value": 34,
+        "unit": "year",
+        "days": 12410.0
+      },
+      {
+        "span": "11 weeks",
+        "role": "other",
+        "value": 11,
+        "unit": "week",
+        "days": 77
+      },
+      {
+        "span": "4 days back",
+        "role": "exposure",
+        "value": 4,
+        "unit": "day",
+        "days": 4
+      }
+    ]
+  },
+  "mmc_03527": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "10 months",
+        "role": "age",
+        "value": 10,
+        "unit": "month",
+        "days": 300.0
+      }
+    ]
+  },
+  "mmc_03542": {
+    "value": 3,
+    "unit": "hour",
+    "days": 0.125,
+    "source": "llm_role_tagged",
+    "role": "onset_to_presentation",
+    "span": "3 AM",
+    "spans": [
+      {
+        "span": "2-year-old",
+        "role": "age",
+        "value": 2,
+        "unit": "year",
+        "days": 730.0
+      },
+      {
+        "span": "3 AM",
+        "role": "onset_to_presentation",
+        "value": 3,
+        "unit": "hour",
+        "days": 0.125
+      }
+    ]
+  },
+  "mmc_03584": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "29-year-old",
+        "role": "age",
+        "value": 29,
+        "unit": "year",
+        "days": 10585.0
+      },
+      {
+        "span": "4 months",
+        "role": "other",
+        "value": 4,
+        "unit": "month",
+        "days": 120
+      },
+      {
+        "span": "juvenile",
+        "role": "past_medical_history",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_03607": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "60-year-old",
+        "role": "age",
+        "value": 60,
+        "unit": "year",
+        "days": 21900.0
+      },
+      {
+        "span": "in the morning",
+        "role": "onset_to_presentation",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_03610": {
+    "value": 6,
+    "unit": "month",
+    "days": 180,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "6 months",
+    "spans": [
+      {
+        "span": "76 - year - old",
+        "role": "age",
+        "value": 76,
+        "unit": "year",
+        "days": 27740.0
+      },
+      {
+        "span": "6 months",
+        "role": "chief_complaint",
+        "value": 6,
+        "unit": "month",
+        "days": 180
+      }
+    ]
+  },
+  "mmc_03652": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "2 years of age",
+        "role": "age",
+        "value": 2,
+        "unit": "year",
+        "days": 730.0
+      },
+      {
+        "span": "25 years",
+        "role": "age",
+        "value": 25,
+        "unit": "year",
+        "days": 9125.0
+      }
+    ]
+  },
+  "mmc_03661": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "48 years old",
+        "role": "age",
+        "value": 48,
+        "unit": "year",
+        "days": 17520.0
+      }
+    ]
+  },
+  "mmc_03690": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "9 year old",
+        "role": "age",
+        "value": 9,
+        "unit": "year",
+        "days": 3285.0
+      }
+    ]
+  },
+  "mmc_03722": {
+    "value": 1,
+    "unit": "week",
+    "days": 7,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "past l-week",
+    "spans": [
+      {
+        "span": "50-year-old",
+        "role": "age",
+        "value": 50,
+        "unit": "year",
+        "days": 18250.0
+      },
+      {
+        "span": "past l-week",
+        "role": "chief_complaint",
+        "value": 1,
+        "unit": "week",
+        "days": 7
+      }
+    ]
+  },
+  "mmc_03729": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "55 years old",
+        "role": "age",
+        "value": 55,
+        "unit": "year",
+        "days": 20075.0
+      }
+    ]
+  },
+  "mmc_03730": {
+    "value": 24,
+    "unit": "hour",
+    "days": 1,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "past 24 hours",
+    "spans": [
+      {
+        "span": "past 24 hours",
+        "role": "chief_complaint",
+        "value": 24,
+        "unit": "hour",
+        "days": 1
+      }
+    ]
+  },
+  "mmc_03746": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "7 years old",
+        "role": "age",
+        "value": 7,
+        "unit": "year",
+        "days": 2555.0
+      }
+    ]
+  },
+  "mmc_03754": {
+    "value": 4,
+    "unit": "month",
+    "days": 120,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "first 4 months",
+    "spans": [
+      {
+        "span": "5 months ago",
+        "role": "procedure",
+        "value": 5,
+        "unit": "month",
+        "days": 150
+      },
+      {
+        "span": "first 4 months",
+        "role": "chief_complaint",
+        "value": 4,
+        "unit": "month",
+        "days": 120
+      },
+      {
+        "span": "Since then",
+        "role": "onset_to_presentation",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_03769": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "10-year old",
+        "role": "age",
+        "value": 10,
+        "unit": "year",
+        "days": 3650.0
+      },
+      {
+        "span": "6-year old",
+        "role": "age",
+        "value": 6,
+        "unit": "year",
+        "days": 2190.0
+      }
+    ]
+  },
+  "mmc_03820": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "25 year old",
+        "role": "age",
+        "value": 25,
+        "unit": "year",
+        "days": 9125.0
+      }
+    ]
+  },
+  "mmc_03839": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "9 year old",
+        "role": "age",
+        "value": 9,
+        "unit": "year",
+        "days": 3285.0
+      },
+      {
+        "span": "one month",
+        "role": "medication",
+        "value": 1,
+        "unit": "month",
+        "days": 30
+      }
+    ]
+  },
+  "mmc_03876": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": []
+  },
+  "mmc_03880": {
+    "value": 3,
+    "unit": "day",
+    "days": 3,
+    "source": "llm_role_tagged",
+    "role": "chief_complaint",
+    "span": "3 days",
+    "spans": [
+      {
+        "span": "3 days",
+        "role": "chief_complaint",
+        "value": 3,
+        "unit": "day",
+        "days": 3
+      },
+      {
+        "span": "3 days back",
+        "role": "onset_to_presentation",
+        "value": 3,
+        "unit": "day",
+        "days": 3
+      },
+      {
+        "span": "3 days back",
+        "role": "exposure",
+        "value": 3,
+        "unit": "day",
+        "days": 3
+      }
+    ]
+  },
+  "mmc_04005": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "30-year-old",
+        "role": "age",
+        "value": 30,
+        "unit": "year",
+        "days": 10950.0
+      },
+      {
+        "span": "at night",
+        "role": "other",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "recent",
+        "role": "past_medical_history",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_04022": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "20-year-old",
+        "role": "age",
+        "value": 20,
+        "unit": "year",
+        "days": 7300.0
+      }
+    ]
+  },
+  "mmc_04030": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "history of fall",
+        "role": "past_medical_history",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_04061": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "middle aged",
+        "role": "age",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "slowly progressive",
+        "role": "chief_complaint",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "recent onset",
+        "role": "chief_complaint",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_04079": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "1 month",
+        "role": "medication",
+        "value": 1,
+        "unit": "month",
+        "days": 30
+      }
+    ]
+  },
+  "mmc_04091": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "12 days",
+        "role": "observation_window",
+        "value": 12,
+        "unit": "day",
+        "days": 12
+      }
+    ]
+  },
+  "mmc_04123": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": []
+  },
+  "mmc_04129": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "6 years",
+        "role": "age",
+        "value": 6,
+        "unit": "year",
+        "days": 2190.0
+      },
+      {
+        "span": "12 years",
+        "role": "age",
+        "value": 12,
+        "unit": "year",
+        "days": 4380.0
+      }
+    ]
+  },
+  "mmc_04161": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "70 years old",
+        "role": "age",
+        "value": 70,
+        "unit": "year",
+        "days": 25550.0
+      },
+      {
+        "span": "recently",
+        "role": "past_medical_history",
+        "value": null,
+        "unit": null,
+        "days": null
+      }
+    ]
+  },
+  "mmc_04169": {
+    "value": 2,
+    "unit": "day",
+    "days": 2,
+    "source": "llm_role_tagged",
+    "role": "onset_to_presentation",
+    "span": "2 days",
+    "spans": [
+      {
+        "span": "young adult",
+        "role": "age",
+        "value": null,
+        "unit": null,
+        "days": null
+      },
+      {
+        "span": "2 days",
+        "role": "onset_to_presentation",
+        "value": 2,
+        "unit": "day",
+        "days": 2
+      }
+    ]
+  },
+  "mmc_04181": {
+    "value": null,
+    "unit": null,
+    "days": null,
+    "source": "llm_role_tagged",
+    "role": null,
+    "spans": [
+      {
+        "span": "9 year old",
+        "role": "age",
+        "value": 9,
+        "unit": "year",
+        "days": 3285.0
+      },
+      {
+        "span": "last 5 year",
+        "role": "past_medical_history",
+        "value": 5,
+        "unit": "year",
+        "days": 1825
+      }
+    ]
+  }
+}

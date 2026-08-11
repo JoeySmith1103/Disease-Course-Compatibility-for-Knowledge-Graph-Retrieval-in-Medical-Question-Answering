@@ -1,0 +1,3577 @@
+{
+ "aud_001": {
+  "symptoms": [
+   "fever",
+   "chills",
+   "dyspnea",
+   "productive cough",
+   "oliguria",
+   "decreased breath sounds at left lung base",
+   "increased vocal resonance",
+   "pan-inspiratory crackles",
+   "mild abdominal distension with positive fluid wave",
+   "disorientation",
+   "drowsiness"
+  ],
+  "duration_summary": "72 hours"
+ },
+ "aud_002": {
+  "symptoms": [
+   "progressively worsening fatigue",
+   "headache",
+   "somnolence",
+   "disorientation to time and place"
+  ],
+  "duration_summary": "4 weeks"
+ },
+ "aud_004": {
+  "symptoms": [
+   "crushing substernal chest pain",
+   "shortness of breath"
+  ],
+  "duration_summary": "started 2 hours ago"
+ },
+ "aud_006": {
+  "symptoms": [
+   "excruciating left knee pain",
+   "tender left knee joint",
+   "swollen left knee joint",
+   "limited range of motion due to pain",
+   "fever"
+  ],
+  "duration_summary": "4 days"
+ },
+ "aud_008": {
+  "symptoms": [
+   "continuous mouth movements",
+   "repetitive tongue movements",
+   "drooling",
+   "chewing motions",
+   "anxious appearance",
+   "gaunt appearance"
+  ],
+  "duration_summary": "about 2 weeks"
+ },
+ "aud_010": {
+  "symptoms": [
+   "progressively worsening headache",
+   "photophobia",
+   "intermittent fever",
+   "frontal headache radiating down neck",
+   "temperature 38.5\u00b0C",
+   "pale appearance",
+   "diaphoresis",
+   "fine erythematous rash on neck and forearms"
+  ],
+  "duration_summary": "6 days"
+ },
+ "aud_011": {
+  "symptoms": [
+   "persistent fatigue",
+   "pale conjunctivae",
+   "tachycardia"
+  ],
+  "duration_summary": "4 months"
+ },
+ "aud_012": {
+  "symptoms": [
+   "chest pain",
+   "pressure-like sensation over sternum",
+   "radiation of pain into jaw",
+   "diaphoresis",
+   "moderate distress",
+   "tachycardia"
+  ],
+  "duration_summary": "sudden onset 2 hours ago, constant since then"
+ },
+ "aud_014": {
+  "symptoms": [
+   "shortness of breath",
+   "wheezing",
+   "bilateral knee pain",
+   "nasal polyp",
+   "disappearance of bilateral radial pulses on deep inspiration"
+  ],
+  "duration_summary": "shortness of breath and wheezing over 2 days, bilateral knee pain over 1 month"
+ },
+ "aud_019": {
+  "symptoms": [
+   "progressive frontal headaches",
+   "headaches worse in the morning",
+   "headaches waking from sleep"
+  ],
+  "duration_summary": "2 months"
+ },
+ "aud_022": {
+  "symptoms": [
+   "chest pain",
+   "persistent pain"
+  ],
+  "duration_summary": "started about 1 hour ago and has not been improving"
+ },
+ "aud_027": {
+  "symptoms": [
+   "dyspnea",
+   "chest pain",
+   "dry cough",
+   "painful swallowing",
+   "feeling of fullness in head",
+   "swelling of face and neck",
+   "redness of face and neck",
+   "distention of superficial veins of neck and upper thorax",
+   "tachycardia",
+   "hypotension"
+  ],
+  "duration_summary": "3 weeks, progressively worsening"
+ },
+ "aud_030": {
+  "symptoms": [
+   "fatigue",
+   "palpitations",
+   "symmetric joint pain of hands, wrists, knees, and ankles",
+   "morning joint stiffness",
+   "runny nose",
+   "congestion",
+   "splenomegaly",
+   "pallor",
+   "generalized weakness"
+  ],
+  "duration_summary": "fatigue and palpitations for 3 days; joint pain for 1 week"
+ },
+ "aud_031": {
+  "symptoms": [
+   "fever",
+   "difficulty swallowing",
+   "anxiety",
+   "extended neck",
+   "excessive drooling",
+   "muffled voice",
+   "inspiratory stridor",
+   "tender bilateral cervical lymphadenopathy",
+   "pain upon palpation of the hyoid"
+  ],
+  "duration_summary": "5 hours"
+ },
+ "aud_036": {
+  "symptoms": [
+   "burning retrosternal sensation",
+   "radiation to jaw",
+   "paleness",
+   "perspiration"
+  ],
+  "duration_summary": "20 minutes"
+ },
+ "aud_038": {
+  "symptoms": [
+   "upper abdominal discomfort",
+   "vomiting",
+   "abdominal pain at night",
+   "fever",
+   "right upper quadrant tenderness",
+   "positive stool occult blood"
+  ],
+  "duration_summary": "upper abdominal discomfort and vomiting for 2 weeks; abdominal pain at night over 1 year"
+ },
+ "aud_042": {
+  "symptoms": [
+   "fever",
+   "vomiting",
+   "abdominal pain",
+   "jaundice",
+   "tender hepatomegaly"
+  ],
+  "duration_summary": "1 day"
+ },
+ "aud_043": {
+  "symptoms": [
+   "facial swelling"
+  ],
+  "duration_summary": "1 week"
+ },
+ "aud_046": {
+  "symptoms": [
+   "left-sided headache",
+   "right-sided blurry vision",
+   "dark urine",
+   "abdominal pain",
+   "mild abdominal tenderness",
+   "liver edge palpable 4 cm below right costal margin"
+  ],
+  "duration_summary": "symptoms began 2 weeks ago with dark urine and abdominal pain; headache and blurry vision developed on day of presentation"
+ },
+ "aud_047": {
+  "symptoms": [
+   "left-sided scrotal pain",
+   "throbbing pain",
+   "vomiting",
+   "pain during urination",
+   "tender left testicle",
+   "swollen left testicle",
+   "erythematous left hemiscrotum",
+   "anxiety"
+  ],
+  "duration_summary": "progressive for 4 hours; pain during urination for 4 days"
+ },
+ "aud_050": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "aud_053": {
+  "symptoms": [
+   "chest pain",
+   "squeezing sensation in chest",
+   "heart racing",
+   "restlessness",
+   "sinus tachycardia"
+  ],
+  "duration_summary": "intermittent episodes over 5 days, current episode lasting 20 minutes"
+ },
+ "aud_054": {
+  "symptoms": [
+   "throbbing left-sided headache",
+   "vomiting every 20 minutes",
+   "transient visual disturbance",
+   "mild sensitivity to light"
+  ],
+  "duration_summary": "3 hours"
+ },
+ "aud_055": {
+  "symptoms": [
+   "left knee swelling",
+   "mild left knee pain",
+   "general malaise",
+   "palpitations"
+  ],
+  "duration_summary": "1 day for knee symptoms; several days for general malaise and palpitations"
+ },
+ "aud_058": {
+  "symptoms": [
+   "malaise",
+   "recurrent fever",
+   "weight loss",
+   "generalized lymphadenopathy",
+   "hepatosplenomegaly",
+   "temperature 39\u00b0C"
+  ],
+  "duration_summary": "malaise and fever for 3 weeks; weight loss over 3 months"
+ },
+ "aud_060": {
+  "symptoms": [
+   "slowly enlarging nodule on left upper eyelid",
+   "heaviness of eyelid",
+   "mild blurring of vision in left eye",
+   "decreased visual acuity in left eye",
+   "solitary rubbery nontender nodule on central left upper eyelid"
+  ],
+  "duration_summary": "6 months"
+ },
+ "aud_064": {
+  "symptoms": [
+   "yellowish discoloration of the skin",
+   "scleral icterus",
+   "jaundice of the face, chest, and abdomen"
+  ],
+  "duration_summary": "1 day"
+ },
+ "aud_067": {
+  "symptoms": [
+   "progressive muscle weakness",
+   "shoulder muscle weakness",
+   "hip muscle weakness",
+   "muscle soreness",
+   "difficulty getting up from chairs",
+   "difficulty climbing stairs",
+   "difficulty combing hair",
+   "difficulty swallowing solid foods"
+  ],
+  "duration_summary": "five months"
+ },
+ "aud_068": {
+  "symptoms": [
+   "shortness of breath",
+   "pain in wrists",
+   "stiffness in wrists",
+   "pain in distal interphalangeal joints",
+   "stiffness in distal interphalangeal joints",
+   "pain in metacarpophalangeal joints",
+   "stiffness in metacarpophalangeal joints",
+   "fine end-inspiratory rales",
+   "short rapid breathing"
+  ],
+  "duration_summary": "1 month"
+ },
+ "aud_070": {
+  "symptoms": [
+   "progressive weakness",
+   "numbness",
+   "bilateral facial weakness",
+   "headaches",
+   "bilateral upper and lower facial paralysis",
+   "generalized muscle weakness",
+   "decreased sensation to light touch",
+   "absent sensation in fingertips and toes",
+   "1+ deep tendon reflexes bilaterally"
+  ],
+  "duration_summary": "progressive over 3 months with facial weakness and headaches in last 5 days"
+ },
+ "aud_071": {
+  "symptoms": [
+   "acute abdominal pain",
+   "mild abdominal distension",
+   "diffuse abdominal tenderness",
+   "rebound tenderness"
+  ],
+  "duration_summary": "less than 2 hours"
+ },
+ "aud_080": {
+  "symptoms": [
+   "progressive swelling of left calf",
+   "pain in left calf",
+   "tenderness of left lower extremity",
+   "swelling of left lower extremity",
+   "fever"
+  ],
+  "duration_summary": "1 day"
+ },
+ "aud_083": {
+  "symptoms": [
+   "feeling burned out",
+   "irritability",
+   "edginess",
+   "lack of focus",
+   "forgetfulness",
+   "severe anxiety",
+   "difficulty sleeping"
+  ],
+  "duration_summary": "last 2 months"
+ },
+ "aud_085": {
+  "symptoms": [
+   "sadness",
+   "frequent brief episodes of crying",
+   "hypersomnia",
+   "anhedonia (not spending time with friends)",
+   "reduced physical activity",
+   "increased appetite",
+   "weight gain",
+   "depressed mood"
+  ],
+  "duration_summary": "approximately 4 weeks"
+ },
+ "aud_093": {
+  "symptoms": [
+   "progressive weight loss",
+   "dizziness",
+   "nausea",
+   "vomiting",
+   "fever",
+   "diarrhea",
+   "cough"
+  ],
+  "duration_summary": "several months"
+ },
+ "aud_099": {
+  "symptoms": [
+   "progressive right shoulder discomfort",
+   "tenderness to palpation",
+   "firm mass in superior right deltopectoral groove",
+   "limited range of motion",
+   "pain with movement",
+   "stiffness"
+  ],
+  "duration_summary": "4 months"
+ },
+ "aud_102": {
+  "symptoms": [
+   "left-sided visual loss",
+   "jagged edges in vision",
+   "abrupt complete loss of central vision in left eye"
+  ],
+  "duration_summary": "1 hour"
+ },
+ "aud_105": {
+  "symptoms": [
+   "sudden worsening pain in right calf and foot",
+   "tingling sensation in right leg",
+   "weakness in right leg",
+   "pale right leg",
+   "cool right leg",
+   "mildly reduced muscle strength in right leg",
+   "absent pedal pulses on right"
+  ],
+  "duration_summary": "started 30 minutes ago"
+ },
+ "aud_114": {
+  "symptoms": [
+   "depressed mood",
+   "fatigue",
+   "early morning awakening",
+   "decreased need for sleep",
+   "feeling rested after 5 hours of sleep",
+   "increased energy",
+   "increased libido",
+   "weight loss",
+   "irritability"
+  ],
+  "duration_summary": "2 years with recent changes over past week and prior episodes 6 months and 1 year ago"
+ },
+ "aud_115": {
+  "symptoms": [
+   "low-grade fever",
+   "waxing and waning fever",
+   "symmetric joint swelling in knees and wrists",
+   "non-pruritic macular salmon-colored truncal rash"
+  ],
+  "duration_summary": "fever for 6 days, joint swelling for 8 weeks"
+ },
+ "aud_125": {
+  "symptoms": [
+   "diarrhea",
+   "moderate abdominal pain",
+   "weakness",
+   "mild nausea",
+   "lethargy",
+   "diffuse abdominal tenderness",
+   "hyperactive bowel sounds"
+  ],
+  "duration_summary": "3 days"
+ },
+ "aud_131": {
+  "symptoms": [
+   "fever",
+   "nausea",
+   "nonproductive cough",
+   "headaches",
+   "generalized fatigue",
+   "muscle pain",
+   "joint pain",
+   "increasing shortness of breath",
+   "multiple skin lesions with blue livid center, pale intermediate zone, and dark red peripheral rim"
+  ],
+  "duration_summary": "7 days with shortness of breath increasing over last 2 days"
+ },
+ "aud_153": {
+  "symptoms": [
+   "flank pain",
+   "myalgia",
+   "reddish discoloration of urine",
+   "fever",
+   "sore throat",
+   "faint maculopapular rash over trunk and extremities"
+  ],
+  "duration_summary": "flank pain, myalgia, and urine discoloration for 2 days; fever and sore throat 1 week ago"
+ },
+ "aud_154": {
+  "symptoms": [
+   "left-sided facial pain",
+   "stinging pain",
+   "burning pain",
+   "constant pain",
+   "pain on gentle palpation of left cheek and mandible"
+  ],
+  "duration_summary": "started yesterday"
+ },
+ "aud_159": {
+  "symptoms": [
+   "extreme irritability",
+   "fatigue",
+   "loss of appetite",
+   "excessive sleep",
+   "disrespectful behavior",
+   "distracted in class",
+   "difficulty focusing",
+   "limited affect",
+   "irritable mood",
+   "avoids eye contact"
+  ],
+  "duration_summary": "3 weeks"
+ },
+ "aud_197": {
+  "symptoms": [
+   "low-grade fever",
+   "malaise",
+   "weight loss",
+   "extreme fatigue",
+   "2/6 holosystolic murmur"
+  ],
+  "duration_summary": "4 months"
+ },
+ "cor_289": {
+  "symptoms": [
+   "fever",
+   "chest pain with deep breathing",
+   "weight loss",
+   "temperature 38\u00b0C",
+   "subpleural nodule in right lower lobe",
+   "right hilar lymphadenopathy"
+  ],
+  "duration_summary": "1 month"
+ },
+ "cor_507": {
+  "symptoms": [
+   "acute onset abdominal pain",
+   "left-sided abdominal pain",
+   "left-sided lower abdominal tenderness",
+   "guarding",
+   "tenderness of the left adnexa",
+   "clear mucous in vaginal introitus"
+  ],
+  "duration_summary": "sudden onset during kickboxing class"
+ },
+ "err_1611": {
+  "symptoms": [
+   "early morning headaches",
+   "worsening fatigue",
+   "headache-associated nausea",
+   "vomiting relieving headaches",
+   "frequent falling",
+   "difficulty performing ballet steps",
+   "broad-based gait",
+   "inability to perform rapid alternating hand movements"
+  ],
+  "duration_summary": "4 months"
+ },
+ "err_843": {
+  "symptoms": [
+   "right-sided arm and leg twitching",
+   "lip smacking",
+   "rapid breathing",
+   "poor feeding",
+   "irritability",
+   "jitteriness",
+   "intermittent spasms"
+  ],
+  "duration_summary": "several episodes over last hour, starting three days after delivery"
+ },
+ "m325_10": {
+  "symptoms": [
+   "intermittent crying",
+   "refusal to get out of bed",
+   "feelings of sadness",
+   "being very upset",
+   "tachycardia"
+  ],
+  "duration_summary": "6 hours"
+ },
+ "m325_1007": {
+  "symptoms": [
+   "fever",
+   "sore throat",
+   "nausea",
+   "fatigue",
+   "bilateral posterior cervical lymphadenopathy",
+   "exudates over palatine tonsil walls",
+   "soft palate petechiae",
+   "erythematous macular rash on trunk and arms",
+   "mild hepatosplenomegaly"
+  ],
+  "duration_summary": "1 week"
+ },
+ "m325_1025": {
+  "symptoms": [
+   "confused state",
+   "inability to recall personal information",
+   "disorientation to person",
+   "anxiety about work deadline",
+   "short-term memory intact",
+   "lack of recognition of husband",
+   "failure to recall important life events"
+  ],
+  "duration_summary": "found confused after being missing for three days"
+ },
+ "m325_1074": {
+  "symptoms": [
+   "right eye blindness",
+   "passive suicidal ideation"
+  ],
+  "duration_summary": "since waking up this morning"
+ },
+ "m325_1144": {
+  "symptoms": [
+   "expanding erythematous patch on right shoulder",
+   "target-like erythematous patch on left shoulder",
+   "axillary lymphadenopathy",
+   "intermittent low-grade fevers",
+   "illness"
+  ],
+  "duration_summary": "3 days"
+ },
+ "m325_1146": {
+  "symptoms": [
+   "fever",
+   "diarrhea",
+   "bilateral red eye",
+   "mild dehydration",
+   "preauricular adenopathy",
+   "bilateral conjunctival injection with watery discharge"
+  ],
+  "duration_summary": "7 days"
+ },
+ "m325_1187": {
+  "symptoms": [
+   "increasing shortness of breath",
+   "dry cough",
+   "shortness of breath at rest",
+   "fine inspiratory crackles",
+   "digital clubbing"
+  ],
+  "duration_summary": "8 months"
+ },
+ "m325_1226": {
+  "symptoms": [
+   "severe vomiting"
+  ],
+  "duration_summary": "a few hours"
+ },
+ "m325_1227": {
+  "symptoms": [
+   "passing out",
+   "lightheadedness",
+   "tongue biting",
+   "mild tachycardia",
+   "suprapubic tenderness"
+  ],
+  "duration_summary": "episode lasted about 15 minutes"
+ },
+ "m325_1230": {
+  "symptoms": [
+   "sadness",
+   "difficulty staying asleep",
+   "easy distractibility",
+   "loss of interest in cooking",
+   "fatigue",
+   "decreased appetite",
+   "reduced eye contact"
+  ],
+  "duration_summary": "started 6 weeks ago"
+ },
+ "m325_1262": {
+  "symptoms": [
+   "intense anal pain",
+   "dull and throbbing pain",
+   "pain during bowel movement",
+   "mild bright red rectal bleeding",
+   "increased anal sphincter tone",
+   "severe pain on attempted finger introduction"
+  ],
+  "duration_summary": "4 weeks"
+ },
+ "m325_130": {
+  "symptoms": [
+   "diarrhea",
+   "abdominal cramping",
+   "watery stools",
+   "anorexia",
+   "nausea",
+   "fever",
+   "tachycardia",
+   "hypotension",
+   "dry mucous membranes",
+   "diffuse abdominal tenderness",
+   "hyperactive bowel sounds"
+  ],
+  "duration_summary": "2 weeks"
+ },
+ "m325_1300": {
+  "symptoms": [
+   "feeding difficulties",
+   "vomiting after every feeding",
+   "continuous cough",
+   "coughing spells",
+   "skin cyanosis during coughing"
+  ],
+  "duration_summary": "1 day"
+ },
+ "m325_1302": {
+  "symptoms": [
+   "hematuria",
+   "productive cough",
+   "fever"
+  ],
+  "duration_summary": "3 days"
+ },
+ "m325_1310": {
+  "symptoms": [
+   "painless lesion on lower lip",
+   "single ulcer near vermillion border"
+  ],
+  "duration_summary": "3 months"
+ },
+ "m325_1316": {
+  "symptoms": [
+   "left-leg weakness"
+  ],
+  "duration_summary": "sudden onset 4 hours ago lasting 3 hours, resolved completely"
+ },
+ "m325_1330": {
+  "symptoms": [
+   "severe dizziness",
+   "difficulty swallowing",
+   "difficulty forming sentences",
+   "unsteady gait",
+   "subtle nystagmus",
+   "ataxia"
+  ],
+  "duration_summary": "rapid onset with symptoms severe within 1 minute, began to improve after 10 minutes, largely resolved by 35 minutes, completely resolved by 45 minutes"
+ },
+ "m325_1335": {
+  "symptoms": [
+   "new skin lesion on hand",
+   "rapid growth of lesion",
+   "traumatized area",
+   "bleeding from lesion",
+   "2 x 2.5 cm nodular lesion on dorsal hand"
+  ],
+  "duration_summary": "2 weeks"
+ },
+ "m325_1348": {
+  "symptoms": [
+   "altered mental status",
+   "rapid twitching of left hand",
+   "bizarre behavior",
+   "speech difficulties",
+   "left hand jerking uncontrollably",
+   "fever",
+   "lethargy",
+   "neck stiffness"
+  ],
+  "duration_summary": "symptoms started 3 hours ago with bizarre behavior noted 2 weeks ago"
+ },
+ "m325_1364": {
+  "symptoms": [
+   "staring episodes",
+   "lip smacking",
+   "hand clasping",
+   "eyes open without response",
+   "post-episode confusion",
+   "disorientation",
+   "mild confusion on arrival",
+   "slow response to questions",
+   "appears tired"
+  ],
+  "duration_summary": "episodes over past 3 weeks"
+ },
+ "m325_1407": {
+  "symptoms": [
+   "right flank pain",
+   "blood in urine"
+  ],
+  "duration_summary": "several months for pain, blood in urine for 1 week"
+ },
+ "m325_1420": {
+  "symptoms": [
+   "right knee pain",
+   "pain worse at night",
+   "pain during sports",
+   "mild swelling of right knee",
+   "tenderness of right knee",
+   "limited range of motion",
+   "antalgic gait"
+  ],
+  "duration_summary": "3 months"
+ },
+ "m325_1421": {
+  "symptoms": [
+   "frequent coughing",
+   "shortness of breath",
+   "frothy pink sputum",
+   "nausea",
+   "headache"
+  ],
+  "duration_summary": "last few hours, with some worsening in the past hour"
+ },
+ "m325_1469": {
+  "symptoms": [
+   "severe generalized abdominal pain",
+   "pain worse after meals",
+   "nausea",
+   "occasional bloody diarrhea",
+   "periumbilical tenderness",
+   "irregularly irregular pulse"
+  ],
+  "duration_summary": "2 days"
+ },
+ "m325_147": {
+  "symptoms": [
+   "episodic cough",
+   "shortness of breath",
+   "nonproductive cough",
+   "worsening cough on stair climbing",
+   "worsening cough at night",
+   "fever",
+   "sore throat",
+   "nasal congestion",
+   "diffuse end-expiratory wheezes"
+  ],
+  "duration_summary": "1 month for cough and shortness of breath; 8 weeks for fever, sore throat, and nasal congestion"
+ },
+ "m325_148": {
+  "symptoms": [
+   "persistent cough productive of white phlegm",
+   "shortness of breath with exertion",
+   "end-expiratory wheeze throughout all lung zones"
+  ],
+  "duration_summary": "4 months"
+ },
+ "m325_1501": {
+  "symptoms": [
+   "generalized rash",
+   "erythematous maculopapular rash",
+   "pustules with erythematous base over trunk and extremities",
+   "rash sparing palms and soles"
+  ],
+  "duration_summary": "1 day"
+ },
+ "m325_1511": {
+  "symptoms": [
+   "progressive hearing loss in both ears",
+   "difficulty understanding conversations in crowded places",
+   "difficulty understanding when more than one person talks"
+  ],
+  "duration_summary": "over the past year"
+ },
+ "m325_1514": {
+  "symptoms": [
+   "headache",
+   "blurring of vision",
+   "numbness of right leg",
+   "decreased sensation to fine touch and position over right lower extremity",
+   "loss of nasal visual field in left eye",
+   "loss of temporal visual field in right eye",
+   "inability to read phrases",
+   "short-term memory deficits"
+  ],
+  "duration_summary": "2 hours"
+ },
+ "m325_1532": {
+  "symptoms": [
+   "crampy abdominal pain",
+   "abdominal swelling",
+   "absence of stool passage",
+   "absence of flatus",
+   "vomiting",
+   "lower stool caliber",
+   "abdominal distension",
+   "active bowel sounds",
+   "generalized abdominal tenderness"
+  ],
+  "duration_summary": "2 days for pain and swelling; over 12 hours for no stool or flatus; 1 month for lower stool caliber"
+ },
+ "m325_1544": {
+  "symptoms": [
+   "chronic fevers over 101F",
+   "pain in left lower leg and foot",
+   "Grade IV ulcer on left foot",
+   "severe pain when bearing weight on left leg",
+   "diminished pulses in extremities",
+   "diminished sensation in extremities"
+  ],
+  "duration_summary": "past month"
+ },
+ "m325_1552": {
+  "symptoms": [
+   "diffuse abdominal pain",
+   "fever",
+   "numerous scars and excoriations along both arms",
+   "scleral icterus",
+   "tender hepatomegaly"
+  ],
+  "duration_summary": "one week"
+ },
+ "m325_1586": {
+  "symptoms": [
+   "increasing shortness of breath",
+   "non-productive cough",
+   "inability to perform daily activities",
+   "malaise",
+   "bilateral ankle pain",
+   "ciliary injection of left eye",
+   "photophobia"
+  ],
+  "duration_summary": "2 months"
+ },
+ "m325_163": {
+  "symptoms": [
+   "abdominal pain",
+   "superficial lacerations on left arm",
+   "tender erythematous epigastric area",
+   "gradually worsening upper abdominal pain",
+   "fever",
+   "poor appetite",
+   "vomiting"
+  ],
+  "duration_summary": "initial presentation 30 minutes after trauma; symptoms worsen over 4 days"
+ },
+ "m325_1638": {
+  "symptoms": [
+   "excessive crying",
+   "crying before feeds",
+   "worse crying in early evening",
+   "difficulty consoling",
+   "feeds for 30 minutes 6-7 times per day",
+   "passes 4-5 loose seedy yellow stools per day",
+   "urinates 8-10 times per day",
+   "sleeps about ten hours at night",
+   "takes 3-4 naps of 2-3 hours"
+  ],
+  "duration_summary": "about 1 month"
+ },
+ "m325_1670": {
+  "symptoms": [
+   "restlessness",
+   "inability to sit or lie down",
+   "fidgetiness",
+   "anxiety"
+  ],
+  "duration_summary": "2 days"
+ },
+ "m325_1676": {
+  "symptoms": [
+   "nausea",
+   "vomiting",
+   "vertigo",
+   "left-sided facial droop",
+   "decreased pinprick sensation at right arm and leg"
+  ],
+  "duration_summary": "acute onset, 3 hours"
+ },
+ "m325_1679": {
+  "symptoms": [
+   "fever",
+   "malaise",
+   "painful itchy rash on right shoulder",
+   "cervical lymphadenopathy"
+  ],
+  "duration_summary": "2 weeks worsening over past 4 days"
+ },
+ "m325_168": {
+  "symptoms": [
+   "dry cough",
+   "severe chest pain",
+   "fever",
+   "high-pitched scratching sound on cardiac exam"
+  ],
+  "duration_summary": "beginning that morning"
+ },
+ "m325_1685": {
+  "symptoms": [
+   "slow progressive behavioral changes",
+   "loss of vocabulary",
+   "verbalizes in grunts",
+   "hand flapping",
+   "difficulty walking",
+   "absent staring",
+   "mild scoliosis"
+  ],
+  "duration_summary": "about 2 years"
+ },
+ "m325_1742": {
+  "symptoms": [
+   "spontaneous rupture of membranes",
+   "mild abdominal discomfort",
+   "nausea",
+   "fever",
+   "tachycardia",
+   "severe diffuse lower quadrant abdominal tenderness",
+   "malodorous blood-tinged vaginal fluid",
+   "fetal tachycardia"
+  ],
+  "duration_summary": "1 day"
+ },
+ "m325_1764": {
+  "symptoms": [
+   "recurrent rash",
+   "pink itchy rashes on arms and legs",
+   "diffuse mild expiratory wheezes",
+   "rash triggered by cold exposure"
+  ],
+  "duration_summary": "since 6 weeks ago"
+ },
+ "m325_1785": {
+  "symptoms": [
+   "loss of consciousness",
+   "left arm weakness",
+   "left leg weakness",
+   "slurred speech",
+   "fever",
+   "petechiae on trunk",
+   "painless macules on palms",
+   "new systolic murmur",
+   "left facial droop",
+   "difficulty naming objects",
+   "left big toe extensor response",
+   "retinal hemorrhages with white centers"
+  ],
+  "duration_summary": "loss of consciousness 1 hour ago lasting 3 minutes; fever for 10 days"
+ },
+ "m325_179": {
+  "symptoms": [
+   "dyspnea",
+   "cyanosis",
+   "drowsiness",
+   "disorientation",
+   "fever",
+   "tachycardia",
+   "tachypnea",
+   "scattered petechiae on anterior chest wall",
+   "low oxygen saturation"
+  ],
+  "duration_summary": "sudden onset shortly after surgery"
+ },
+ "m325_180": {
+  "symptoms": [
+   "repeated behavioral problems",
+   "uncooperative behavior",
+   "disruptive behavior",
+   "persistent refusal to answer questions",
+   "insulting teachers",
+   "annoying classmates",
+   "frequent curfew violations",
+   "losing temper",
+   "screaming at parents",
+   "deteriorated grades"
+  ],
+  "duration_summary": "past 10 months"
+ },
+ "m325_1835": {
+  "symptoms": [
+   "watery stools",
+   "reddening of the face, neck, and chest",
+   "pallor",
+   "expiratory wheezing",
+   "mild abdominal tenderness"
+  ],
+  "duration_summary": "6 weeks"
+ },
+ "m325_1847": {
+  "symptoms": [
+   "unwanted hair growth on upper lip, chin, and chest",
+   "increase in blackheads and pimples",
+   "deepening of voice",
+   "weight gain",
+   "changes in external genitalia",
+   "dark coarse stubbles on upper lip, chin, chest, back",
+   "oily skin",
+   "moderately inflamed acne",
+   "clitoromegaly"
+  ],
+  "duration_summary": "8 months"
+ },
+ "m325_1912": {
+  "symptoms": [
+   "psychotic behavior",
+   "social withdrawal",
+   "flat affect",
+   "delusions",
+   "disorganized speech"
+  ],
+  "duration_summary": "3 months"
+ },
+ "m325_1914": {
+  "symptoms": [
+   "hearing voices",
+   "erratic behavior",
+   "insomnia lasting several days",
+   "excessive online shopping",
+   "unkept appearance",
+   "irritability",
+   "responding to invisible stimuli",
+   "disorganized speech"
+  ],
+  "duration_summary": "7 months with episodes lasting about 2 weeks every other month"
+ },
+ "m325_1922": {
+  "symptoms": [
+   "high temperature",
+   "fever",
+   "limping",
+   "difficulty awakening",
+   "swelling around right ankle",
+   "redness around right ankle",
+   "lethargy",
+   "erythema surrounding distal shin",
+   "edema surrounding distal shin"
+  ],
+  "duration_summary": "past week"
+ },
+ "m325_1928": {
+  "symptoms": [
+   "multiple lacerations",
+   "pelvic fracture"
+  ],
+  "duration_summary": "found on arrival after fall"
+ },
+ "m325_194": {
+  "symptoms": [
+   "progressively worsening shortness of breath",
+   "cough",
+   "diffuse wheezing over both lung fields",
+   "tender subcutaneous nodules on both elbows",
+   "foot drop"
+  ],
+  "duration_summary": "1 month"
+ },
+ "m325_197": {
+  "symptoms": [
+   "repetitive tongue twisting",
+   "abnormal movements of hands and legs",
+   "protrusion of the tongue",
+   "lip smacking",
+   "twisting movements of the arms",
+   "frequent tapping of right foot"
+  ],
+  "duration_summary": "started several days ago"
+ },
+ "m325_227": {
+  "symptoms": [
+   "intermittent swelling of left arm",
+   "feeling of fullness in head",
+   "left-sided facial edema",
+   "distention of superficial veins in neck",
+   "distention of superficial veins in left chest wall"
+  ],
+  "duration_summary": "3 weeks"
+ },
+ "m325_230": {
+  "symptoms": [
+   "fever",
+   "chills",
+   "myalgias",
+   "joint pain",
+   "weakness",
+   "lethargy",
+   "crackles at both lung bases",
+   "grade 2/6 blowing diastolic murmur over right sternal border"
+  ],
+  "duration_summary": "1 month after valve replacement"
+ },
+ "m325_24": {
+  "symptoms": [
+   "episodic shortness of breath",
+   "nonproductive cough",
+   "difficulty breathing at night",
+   "wheezing in the thorax",
+   "shortness of breath with exertion"
+  ],
+  "duration_summary": "3 months"
+ },
+ "m325_25": {
+  "symptoms": [
+   "dyspnea on exertion",
+   "fatigue",
+   "tachycardia",
+   "coarse crackles at lung bases",
+   "irregularly irregular pulse",
+   "absence of P waves",
+   "globular cardiac enlargement",
+   "bilateral fluffy infiltrates"
+  ],
+  "duration_summary": "2 months"
+ },
+ "m325_266": {
+  "symptoms": [
+   "sudden weakness of right arm and leg",
+   "fever",
+   "tachycardia",
+   "hypertension",
+   "decreased muscle strength on right side",
+   "hyperactive deep tendon reflexes on right",
+   "positive Babinski sign on right",
+   "swollen left lower leg",
+   "erythema of left lower leg",
+   "tenderness to palpation of left lower leg"
+  ],
+  "duration_summary": "3 hours"
+ },
+ "m325_272": {
+  "symptoms": [
+   "malaise",
+   "dysuria",
+   "blurred vision",
+   "painful itchy rash",
+   "conjunctival injection",
+   "ulceration on tongue and palate",
+   "confluent annular erythematous macules",
+   "bullae",
+   "desquamation of palms and soles",
+   "epidermal separation with light stroking"
+  ],
+  "duration_summary": "3 days"
+ },
+ "m325_284": {
+  "symptoms": [
+   "severe headaches",
+   "pain on left forehead and eye",
+   "drooping of left eyelid",
+   "tearing of left eye",
+   "rhinorrhea",
+   "left pupil 2 mm",
+   "right pupil 4 mm",
+   "localized tenderness along right supraspinatus muscle"
+  ],
+  "duration_summary": "2 days"
+ },
+ "m325_339": {
+  "symptoms": [
+   "nervousness",
+   "difficulty sleeping",
+   "trouble falling asleep",
+   "preoccupation with work project",
+   "compulsive checking of teammates' work",
+   "spending hours making lists and schedules",
+   "refusal to delegate tasks"
+  ],
+  "duration_summary": "2 weeks"
+ },
+ "m325_348": {
+  "symptoms": [
+   "nausea",
+   "abdominal discomfort",
+   "yellow discoloration of the eyes",
+   "fever",
+   "joint pain",
+   "swollen lymph nodes",
+   "itchy rash on trunk and extremities",
+   "scleral icterus"
+  ],
+  "duration_summary": "nausea, abdominal discomfort, and yellow discoloration of the eyes for 2 days; fever, joint pain, swollen lymph nodes, and itchy rash for 1 to 2 days six weeks ago"
+ },
+ "m325_373": {
+  "symptoms": [
+   "diffuse severe abdominal pain",
+   "nausea",
+   "vomiting",
+   "mild aching epigastric pain",
+   "abdominal tenderness",
+   "abdominal guarding",
+   "decreased bowel sounds",
+   "fever",
+   "tachycardia",
+   "lying supine with knees drawn up",
+   "avoidance of movement"
+  ],
+  "duration_summary": "5 hours of severe pain and related symptoms; mild epigastric pain started 2 weeks ago"
+ },
+ "m325_417": {
+  "symptoms": [
+   "repetitive hair combing",
+   "repetitive counting steps",
+   "emotional distress when confronted",
+   "occasional motor tics"
+  ],
+  "duration_summary": "several months"
+ },
+ "m325_429": {
+  "symptoms": [
+   "crying",
+   "pulling at right ear",
+   "fever"
+  ],
+  "duration_summary": "2 days"
+ },
+ "m325_441": {
+  "symptoms": [
+   "progressively worsening hearing loss",
+   "difficulty understanding speech especially with background noise",
+   "ringing in both ears",
+   "dizziness"
+  ],
+  "duration_summary": "7-8 years"
+ },
+ "m325_449": {
+  "symptoms": [
+   "swelling around right side of chin and neck",
+   "pain when moving jaw",
+   "pain when chewing",
+   "temperature 38.4 degrees Celsius",
+   "exquisite tenderness on right side"
+  ],
+  "duration_summary": "developed two days after tonsillectomy"
+ },
+ "m325_471": {
+  "symptoms": [
+   "rash",
+   "pharyngitis",
+   "nausea",
+   "knee pain",
+   "occult blood in stool"
+  ],
+  "duration_summary": "pharyngitis one week ago; recent nausea and knee pain"
+ },
+ "m325_487": {
+  "symptoms": [
+   "abdominal distension",
+   "undulating abdominal pain",
+   "nausea",
+   "vomiting",
+   "discomfort to palpation of upper abdominal quadrants"
+  ],
+  "duration_summary": "several months"
+ },
+ "m325_53": {
+  "symptoms": [
+   "abdominal pain",
+   "nausea",
+   "vomiting",
+   "nonbloody diarrhea",
+   "intermittent constipation",
+   "fever",
+   "left lower quadrant abdominal tenderness"
+  ],
+  "duration_summary": "abdominal pain for 12 hours, diarrhea in last 4 hours, constipation intermittent for 12 months"
+ },
+ "m325_565": {
+  "symptoms": [
+   "unremitting diarrhea",
+   "watery bowel movements",
+   "non-bloody diarrhea",
+   "foul-smelling stools",
+   "greasy stools",
+   "cramping abdominal pain"
+  ],
+  "duration_summary": "2 weeks"
+ },
+ "m325_602": {
+  "symptoms": [
+   "extreme fatigue",
+   "yellow skin",
+   "mild diffuse abdominal tenderness"
+  ],
+  "duration_summary": "2 days"
+ },
+ "m325_62": {
+  "symptoms": [
+   "repeated thoughts of being harmed",
+   "anxiety",
+   "worries about professors failing him",
+   "avoiding people by taking detours",
+   "fear related to witnessing pedestrian accident"
+  ],
+  "duration_summary": "two months"
+ },
+ "m325_623": {
+  "symptoms": [
+   "heartburn",
+   "chest pain",
+   "retrosternal pain",
+   "pain initially with solid foods",
+   "pain now with liquids",
+   "pain not relieved by antacids",
+   "worsening pain",
+   "unintentional weight loss"
+  ],
+  "duration_summary": "6 months"
+ },
+ "m325_631": {
+  "symptoms": [
+   "rash around eyes and mouth",
+   "itchy rash",
+   "scaly erythematous skin surrounding eyes and mouth",
+   "scratching eyes",
+   "expiratory wheezes in lower lung fields"
+  ],
+  "duration_summary": "2 weeks"
+ },
+ "m325_645": {
+  "symptoms": [
+   "abdominal pain",
+   "nausea",
+   "vomiting",
+   "constipation",
+   "inability to pass flatus",
+   "abdominal distension",
+   "diffuse abdominal tenderness",
+   "tympany on abdominal percussion"
+  ],
+  "duration_summary": "abdominal pain worsening over 2 months, constipation worsening over 2 weeks"
+ },
+ "m325_685": {
+  "symptoms": [
+   "hoarseness",
+   "dysphagia",
+   "difficulty swallowing",
+   "weight loss"
+  ],
+  "duration_summary": "2 months"
+ },
+ "m325_698": {
+  "symptoms": [
+   "auditory hallucinations",
+   "hearing own thoughts spoken aloud",
+   "intermittent hallucinations",
+   "flat affect",
+   "fluctuating focus",
+   "disheveled appearance",
+   "foul smell",
+   "difficulty focusing",
+   "impaired understanding"
+  ],
+  "duration_summary": "past 8 months, intermittently for at least 1-month periods"
+ },
+ "m325_708": {
+  "symptoms": [
+   "abnormal behavior",
+   "involuntary movements",
+   "difficulty remembering names",
+   "difficulty remembering dates",
+   "difficulty remembering events",
+   "failure to recognize pictures of children",
+   "episodic jerking of limbs",
+   "drowsiness",
+   "disorientation",
+   "confusion"
+  ],
+  "duration_summary": "3 weeks"
+ },
+ "m325_750": {
+  "symptoms": [
+   "diarrhea",
+   "repeated episodes of diarrhea"
+  ],
+  "duration_summary": "last 9 months"
+ },
+ "m325_766": {
+  "symptoms": [
+   "violent behavior",
+   "threatening with a knife",
+   "hearing voices",
+   "insomnia",
+   "unintentional weight loss",
+   "sad mood",
+   "feelings of worthlessness",
+   "poor hygiene",
+   "lack of motivation",
+   "commands to harm others"
+  ],
+  "duration_summary": "9 months with a 4-week period of insomnia and weight loss"
+ },
+ "m325_780": {
+  "symptoms": [
+   "continuous feelings of sadness",
+   "feelings of rejection",
+   "inability to concentrate",
+   "missed several days of work",
+   "loss of interest in any activity",
+   "rejects social invitations",
+   "lack of interest in food",
+   "lack of interest in playing with dog",
+   "easily distracted",
+   "decreased sleep followed by hypersomnia",
+   "lying in bed all day"
+  ],
+  "duration_summary": "past couple of weeks"
+ },
+ "m325_787": {
+  "symptoms": [
+   "progressive pain in right eye",
+   "blurry vision in right eye",
+   "difficulty opening right eye due to pain"
+  ],
+  "duration_summary": "1 day"
+ },
+ "m325_788": {
+  "symptoms": [
+   "bilateral wrist pain",
+   "bilateral knee pain",
+   "morning joint stiffness",
+   "non-tender nodules on distal interphalangeal joints",
+   "tenderness at base of both thumbs",
+   "bilateral knee enlargement",
+   "pain on passive knee range of motion",
+   "crepitus on passive knee range of motion"
+  ],
+  "duration_summary": "10 years"
+ },
+ "m325_803": {
+  "symptoms": [
+   "crampy abdominal pain",
+   "abdominal bloating",
+   "no bowel movement for three days",
+   "no passage of gas for three days",
+   "abdominal distension",
+   "abdominal tenderness",
+   "fever",
+   "hypotension",
+   "tachycardia",
+   "tachypnea"
+  ],
+  "duration_summary": "3 days"
+ },
+ "m325_807": {
+  "symptoms": [
+   "knee pain",
+   "mild swelling",
+   "erythema over left knee",
+   "tenderness to palpation on medial and lateral femoral condyles",
+   "progressively worsening pain",
+   "interference with gym participation"
+  ],
+  "duration_summary": "4 months"
+ },
+ "m325_823": {
+  "symptoms": [
+   "muscle pains",
+   "poor sleep",
+   "daytime fatigue",
+   "severe worrying"
+  ],
+  "duration_summary": "since one year ago"
+ },
+ "m325_832": {
+  "symptoms": [
+   "rash on head spreading to body",
+   "fever",
+   "ill appearance",
+   "confusion"
+  ],
+  "duration_summary": "3 days"
+ },
+ "m325_836": {
+  "symptoms": [
+   "lower back pain",
+   "stiffness",
+   "worse pain in morning",
+   "pain improving with activity",
+   "decreased anterior flexion of lumbar spine"
+  ],
+  "duration_summary": "past few months"
+ },
+ "m325_855": {
+  "symptoms": [
+   "confusion",
+   "change in behavior",
+   "agitation",
+   "fever",
+   "irritability",
+   "sweating",
+   "hyperreflexia of lower extremities",
+   "clonus"
+  ],
+  "duration_summary": "3 days, worsening this morning"
+ },
+ "m325_92": {
+  "symptoms": [
+   "headaches",
+   "vertigo",
+   "personality changes",
+   "ataxia",
+   "apathy",
+   "cognitive impairment"
+  ],
+  "duration_summary": "past few weeks"
+ },
+ "m325_931": {
+  "symptoms": [
+   "incoherent speech",
+   "confusion",
+   "non-coherent response to questions",
+   "use of adult diapers",
+   "healing scalp laceration",
+   "short step gait",
+   "reduced gait cadence"
+  ],
+  "duration_summary": "started a few weeks ago, steadily worsening"
+ },
+ "m325_970": {
+  "symptoms": [
+   "racing heart beat",
+   "palpitations",
+   "shortness of breath",
+   "nervousness",
+   "discomfort"
+  ],
+  "duration_summary": "episodes lasting a few minutes, occurring approximately twice weekly"
+ },
+ "m325_971": {
+  "symptoms": [
+   "difficulty sleeping",
+   "poor appetite",
+   "persistent sadness",
+   "difficulty concentrating",
+   "depressed mood",
+   "constricted affect"
+  ],
+  "duration_summary": "past 4 weeks, recurrent over 3 years"
+ },
+ "v2_test_4409": {
+  "symptoms": [
+   "worsening tremor",
+   "tremor affecting left hand",
+   "tremor improves with hand use",
+   "increased stiffness throughout the day",
+   "two falls in past year",
+   "blank stare"
+  ],
+  "duration_summary": "tremor began one year ago; abnormal dream behaviors for almost a decade"
+ },
+ "v2_test_4423": {
+  "symptoms": [
+   "generalized fatigue",
+   "severe pruritus",
+   "scleral icterus",
+   "multiple scratch marks on trunk and extremities"
+  ],
+  "duration_summary": "2 months"
+ },
+ "v2_test_4425": {
+  "symptoms": [
+   "left buttock pain",
+   "deep dull ache",
+   "pain worse at night",
+   "tenderness over left gluteal region"
+  ],
+  "duration_summary": "2 months"
+ },
+ "v2_test_4473": {
+  "symptoms": [
+   "wet and bloody surgical dressings",
+   "severe oozing of blood from incision margins",
+   "blood collected in colostomy bag",
+   "episodes of blood in stools",
+   "discomfort"
+  ],
+  "duration_summary": "eight hours post-surgery; episodes of blood in stools for 6 months"
+ },
+ "v2_test_4499": {
+  "symptoms": [
+   "fatigue",
+   "muscle aches",
+   "dry cough",
+   "painful bluish discoloration of fingertips",
+   "painful bluish discoloration of nose",
+   "painful bluish discoloration of earlobes",
+   "mildly pale conjunctivae",
+   "annular erythematous lesions with dusky central area on lower extremities"
+  ],
+  "duration_summary": "2 weeks"
+ },
+ "v2_test_4534": {
+  "symptoms": [
+   "sharp chest pain",
+   "nonproductive cough",
+   "fever",
+   "high-pitched scratching sound on cardiac auscultation",
+   "pleural effusion"
+  ],
+  "duration_summary": "2 days"
+ },
+ "v2_test_4562": {
+  "symptoms": [
+   "abdominal pain",
+   "bloody mucoid diarrhea",
+   "fever",
+   "left lower abdominal tenderness"
+  ],
+  "duration_summary": "3 days"
+ },
+ "v2_test_4677": {
+  "symptoms": [
+   "left eye pain"
+  ],
+  "duration_summary": "1 week, steadily worsening"
+ },
+ "v2_test_4715": {
+  "symptoms": [
+   "abdominal swelling"
+  ],
+  "duration_summary": "several months, worsened more rapidly last night"
+ },
+ "v2_test_4734": {
+  "symptoms": [
+   "declining vision",
+   "numbness of lips",
+   "numbness of feet",
+   "opacified pupils",
+   "decreased visual acuity bilaterally",
+   "slow extraocular movements"
+  ],
+  "duration_summary": "over the past two years"
+ },
+ "v2_test_4748": {
+  "symptoms": [
+   "fever",
+   "irritability",
+   "scarlatiniform rash",
+   "flaccid blisters",
+   "painful rash",
+   "lesions surrounding mouth sparing mucosa"
+  ],
+  "duration_summary": "since this morning, progressively worsening throughout the day"
+ },
+ "v2_test_4750": {
+  "symptoms": [
+   "nausea",
+   "abdominal pain",
+   "fever",
+   "hypotension",
+   "tachycardia",
+   "tachypnea",
+   "poor skin turgor",
+   "delayed capillary refill"
+  ],
+  "duration_summary": null
+ },
+ "v2_test_4778": {
+  "symptoms": [
+   "chest pain worsened by exertion"
+  ],
+  "duration_summary": "started yesterday"
+ },
+ "v2_test_4807": {
+  "symptoms": [
+   "right-sided chest pain",
+   "difficulty breathing",
+   "tracheal deviation to the left",
+   "diminished respiratory movements",
+   "decreased resonance on percussion",
+   "absence of breath sounds over right hemithorax"
+  ],
+  "duration_summary": "10 days"
+ },
+ "v2_test_4821": {
+  "symptoms": [
+   "hemoptysis",
+   "generalized weakness",
+   "decreased appetite",
+   "weight loss",
+   "pallor"
+  ],
+  "duration_summary": "multiple episodes over 1 week, weight loss over 2 months"
+ },
+ "v2_test_4848": {
+  "symptoms": [
+   "swelling in face",
+   "swelling in hands",
+   "swelling in neck",
+   "occasional abdominal pain",
+   "restricted ability to eat and swallow"
+  ],
+  "duration_summary": "recurrent episodes throughout life, recently more debilitating, symptoms last 2 to 3 days"
+ },
+ "v2_test_4850": {
+  "symptoms": [
+   "shortness of breath",
+   "exacerbation by physical activity",
+   "diminished respiratory sounds bilaterally"
+  ],
+  "duration_summary": "1 year"
+ },
+ "v2_test_4874": {
+  "symptoms": [
+   "severe chest pain",
+   "severe retching",
+   "bloody vomiting",
+   "crepitus over left lower lobe"
+  ],
+  "duration_summary": "2 hours"
+ },
+ "v2_test_4885": {
+  "symptoms": [
+   "diarrhea",
+   "abdominal pain",
+   "fatigue",
+   "weight loss",
+   "joint pain",
+   "problems with concentration",
+   "memory difficulties"
+  ],
+  "duration_summary": "2 months"
+ },
+ "v2_test_4887": {
+  "symptoms": [
+   "constant fatigue",
+   "difficulty with breastfeeding",
+   "low blood pressure",
+   "tachycardia"
+  ],
+  "duration_summary": "since severe postpartum hemorrhage after delivery 2 weeks ago"
+ },
+ "v2_test_4899": {
+  "symptoms": [
+   "blurry vision",
+   "headaches",
+   "facial pain",
+   "black spot on face increasing in size",
+   "frequency of urination",
+   "runny nose",
+   "cough",
+   "black necrotic eschar lateral to right nasal ala",
+   "weight loss"
+  ],
+  "duration_summary": "black spot increasing in size over last month; blurry vision and headaches started 2 days ago"
+ },
+ "v2_test_4936": {
+  "symptoms": [
+   "fever",
+   "rash",
+   "muscle pain",
+   "swollen and tender lymph nodes",
+   "retinal abnormalities"
+  ],
+  "duration_summary": "second month of gestation for maternal symptoms; neonatal findings at birth"
+ },
+ "v2_test_5066": {
+  "symptoms": [
+   "nausea",
+   "vomiting",
+   "retrosternal pain radiating to the back",
+   "epigastric tenderness to palpation"
+  ],
+  "duration_summary": "2 hours"
+ },
+ "v2_test_5104": {
+  "symptoms": [
+   "bloody vomiting",
+   "burning upper abdominal pain",
+   "multiple shallow hemorrhagic gastric lesions"
+  ],
+  "duration_summary": "1 week of abdominal pain; bloody vomiting this morning"
+ },
+ "v2_test_5118": {
+  "symptoms": [
+   "fatigue",
+   "weight loss",
+   "paleness",
+   "thin appearance",
+   "dry skin",
+   "brittle nails",
+   "calluses on knuckles"
+  ],
+  "duration_summary": "6 months"
+ },
+ "v2_test_5143": {
+  "symptoms": [
+   "eye pain",
+   "eye discharge",
+   "fever",
+   "pain on cranial nerve III examination"
+  ],
+  "duration_summary": "2 days"
+ },
+ "v2_test_5225": {
+  "symptoms": [
+   "intermittent abdominal cramps",
+   "recurrent episodes of foul-smelling greasy diarrhea",
+   "diffuse abdominal tenderness"
+  ],
+  "duration_summary": "3 months"
+ },
+ "v2_test_5242": {
+  "symptoms": [
+   "severe epigastric pain radiating to the back",
+   "nausea",
+   "vomiting"
+  ],
+  "duration_summary": "a few hours"
+ },
+ "v2_test_5256": {
+  "symptoms": [
+   "lethargy",
+   "weakness",
+   "headache worsened by leaning forward or lying down",
+   "swelling of arms and face",
+   "jugular venous distention",
+   "engorged veins on anterior chest wall",
+   "1+ pitting edema in both arms"
+  ],
+  "duration_summary": "lethargy and weakness for 5 days; headache during this period; swelling over 2 weeks"
+ },
+ "v2_test_5323": {
+  "symptoms": [
+   "hair growth along jaw line",
+   "weight gain",
+   "irregular periods",
+   "facial hirsutism",
+   "acanthosis nigricans"
+  ],
+  "duration_summary": "irregular periods over last year; hair growth recent (about one week no shaving); weight gain over several months"
+ },
+ "v2_test_5331": {
+  "symptoms": [
+   "abdominal pain",
+   "right-sided flank pain",
+   "numerous ecchymoses over trunk and flanks",
+   "tender right abdomen",
+   "tachycardia",
+   "hypotension"
+  ],
+  "duration_summary": "30 minutes"
+ },
+ "v2_test_5349": {
+  "symptoms": [
+   "sore throat",
+   "trouble breathing",
+   "fever",
+   "drooling",
+   "difficulty swallowing",
+   "ill appearance",
+   "leaning forward to breathe",
+   "non-responsiveness",
+   "discomfort"
+  ],
+  "duration_summary": "started last night with rapid worsening"
+ },
+ "v2_test_5427": {
+  "symptoms": [
+   "black spots in vision",
+   "inability to drive at night",
+   "difficulty adapting to changes in lighting",
+   "swan neck deformities of both hands",
+   "bilateral bull's eye macular lesions"
+  ],
+  "duration_summary": "6 months (black spots), 4 months (night driving difficulty)"
+ },
+ "v2_test_5434": {
+  "symptoms": [
+   "yellow discoloration of skin",
+   "generalized pruritus",
+   "decreased appetite",
+   "weight loss",
+   "pale stool",
+   "dark urine",
+   "yellowing of conjunctivae and skin",
+   "soft cystic mass in right upper quadrant"
+  ],
+  "duration_summary": "past 2 weeks"
+ },
+ "v2_test_5487": {
+  "symptoms": [
+   "worsening abdominal pain",
+   "dizziness",
+   "brisk vaginal bleeding",
+   "round mass protruding from the vagina",
+   "pulse 110/min",
+   "blood pressure 85/50 mmHg",
+   "fundus not palpable on abdominal exam"
+  ],
+  "duration_summary": "45 minutes after delivery"
+ },
+ "v2_test_5534": {
+  "symptoms": [
+   "irregular menses",
+   "generalized fatigue",
+   "facial hair",
+   "comedones on face and back",
+   "multiple ecchymotic patches on trunk",
+   "weakness of iliopsoas and biceps muscles bilaterally",
+   "blood pressure 146/100 mm Hg"
+  ],
+  "duration_summary": "4 months"
+ },
+ "v2_test_5564": {
+  "symptoms": [
+   "severe shooting lower back pain",
+   "pain radiating down back of both legs",
+   "decreased sensation to light touch over lateral thigh bilaterally",
+   "decreased sensation to light touch over lateral calf bilaterally",
+   "decreased patellar reflex bilaterally",
+   "shooting pain triggered by passive raising of either leg beyond 30 degrees"
+  ],
+  "duration_summary": "2 weeks"
+ },
+ "v2_test_5608": {
+  "symptoms": [
+   "abdominal pain",
+   "discomfort",
+   "alternating diarrhea and constipation",
+   "bloating",
+   "fever",
+   "tachycardia",
+   "hypotension",
+   "tachypnea",
+   "diffuse abdominal tenderness with guarding",
+   "hypoactive bowel sounds",
+   "positive fecal occult blood test"
+  ],
+  "duration_summary": "5 days"
+ },
+ "v2_test_5610": {
+  "symptoms": [
+   "fatigue",
+   "joint pain",
+   "pain in both knees",
+   "pain in both elbows",
+   "diffuse muscle pain",
+   "nonpruritic rash on lower extremities",
+   "raised purple papules on lower extremities"
+  ],
+  "duration_summary": "8 months"
+ },
+ "v2_test_5636": {
+  "symptoms": [
+   "severe abdominal pain",
+   "dull and progressive pain",
+   "sudden worsening of pain while exercising",
+   "diffuse abdominal tenderness",
+   "right upper quadrant tenderness",
+   "blood pressure 80/40 mmHg",
+   "pulse 110/minute",
+   "temperature 99.5\u00b0F",
+   "oxygen saturation 96%"
+  ],
+  "duration_summary": "progressive pain with sudden worsening during exercise"
+ },
+ "v2_test_5642": {
+  "symptoms": [
+   "asymptomatic rash",
+   "rash in both axillae",
+   "conjunctival pallor"
+  ],
+  "duration_summary": "2 weeks"
+ },
+ "v2_test_5688": {
+  "symptoms": [
+   "recurrent headaches",
+   "nausea",
+   "unilateral headache",
+   "photophobia",
+   "phonophobia"
+  ],
+  "duration_summary": "3 months"
+ },
+ "v2_test_5745": {
+  "symptoms": [
+   "progressively worsening shortness of breath",
+   "bilateral pleuritic chest pain",
+   "fatigue",
+   "low grade fever",
+   "night sweats",
+   "diaphoresis",
+   "mild respiratory distress",
+   "faint systolic murmur",
+   "neck vein distention",
+   "hepatomegaly"
+  ],
+  "duration_summary": "5 days"
+ },
+ "v2_test_5813": {
+  "symptoms": [
+   "cough",
+   "difficulty walking up stairs",
+   "improved stair climbing after exercise",
+   "weight loss",
+   "dry mucous membranes",
+   "sluggish pupil reaction to light",
+   "proximal lower extremity muscle weakness",
+   "achilles reflex 1+"
+  ],
+  "duration_summary": "3 months for cough and difficulty walking, 6 months for weight loss"
+ },
+ "v2_test_5879": {
+  "symptoms": [
+   "intense shaking and chills",
+   "malodorous vaginal discharge",
+   "tan vaginal discharge",
+   "vaginal laceration",
+   "dark red velvety vaginal lesion"
+  ],
+  "duration_summary": "intense shaking and chills resolved within 1 hour; vaginal discharge for 6 days"
+ },
+ "v2_train_103": {
+  "symptoms": [
+   "pain and swelling of right knee",
+   "pain with urination",
+   "painful, swollen left ankle joint",
+   "bilateral inflammation of the conjunctiva",
+   "right knee tenderness",
+   "erythema of right knee",
+   "limited range of motion of right knee due to pain",
+   "tenderness at left Achilles tendon insertion site",
+   "anxiety",
+   "fever (38\u00b0C)"
+  ],
+  "duration_summary": "right knee symptoms for 12 days; pain with urination for 3 weeks; left ankle swelling resolved 1 week ago"
+ },
+ "v2_train_1044": {
+  "symptoms": [
+   "unconsciousness",
+   "tachycardia",
+   "hypotension"
+  ],
+  "duration_summary": "1 hour"
+ },
+ "v2_train_1064": {
+  "symptoms": [
+   "rash",
+   "mild diarrhea",
+   "seasonal allergies",
+   "asthma"
+  ],
+  "duration_summary": "rash present for 1 week"
+ },
+ "v2_train_115": {
+  "symptoms": [
+   "tingling of feet at night",
+   "decreased sense of vibration in toes",
+   "decreased proprioception in ankles"
+  ],
+  "duration_summary": "6 months"
+ },
+ "v2_train_1282": {
+  "symptoms": [
+   "lips turning blue",
+   "cyanosis during feeding",
+   "cyanosis when crying"
+  ],
+  "duration_summary": "several minutes during episodes"
+ },
+ "v2_train_1286": {
+  "symptoms": [
+   "loss of consciousness",
+   "sustained rhythmic contractions of all 4 extremities",
+   "confusion",
+   "episodes of sweating",
+   "palpitations",
+   "anxiety"
+  ],
+  "duration_summary": "loss of consciousness 30 minutes ago; rhythmic contractions lasted approximately 1 minute; episodes of sweating, palpitations, and anxiety for past 2 months"
+ },
+ "v2_train_1303": {
+  "symptoms": [
+   "abdominal pain",
+   "progressively worsening constipation",
+   "epigastric pain",
+   "no defecation"
+  ],
+  "duration_summary": "5 days of no defecation, 3 weeks of multivitamin use"
+ },
+ "v2_train_1352": {
+  "symptoms": [
+   "progressively worsening dyspnea",
+   "cough",
+   "hoarseness of voice",
+   "irregularly irregular pulse",
+   "rumbling mid-diastolic murmur at the apex"
+  ],
+  "duration_summary": "1 month"
+ },
+ "v2_train_1362": {
+  "symptoms": [
+   "shortness of breath",
+   "low blood pressure",
+   "tachycardia",
+   "tachypnea",
+   "low oxygen saturation",
+   "right ventricular collapse"
+  ],
+  "duration_summary": "2 hours"
+ },
+ "v2_train_1429": {
+  "symptoms": [
+   "scaling papulonodular skin lesions on left hand and right wrist",
+   "bone pain in right forearm and right thigh",
+   "persistent dry cough",
+   "fatigue"
+  ],
+  "duration_summary": "developed during 6-month stay in Guatemala; living in Arizona for 2 weeks since return"
+ },
+ "v2_train_1435": {
+  "symptoms": [
+   "cough productive of yellow sputum",
+   "occasional streaks of blood",
+   "inspiratory crackles at left infraclavicular area"
+  ],
+  "duration_summary": "2 months"
+ },
+ "v2_train_1438": {
+  "symptoms": [
+   "watery diarrhea",
+   "malaise",
+   "anorexia",
+   "abdominal cramps",
+   "tachycardia",
+   "hypotension"
+  ],
+  "duration_summary": "2 days"
+ },
+ "v2_train_1469": {
+  "symptoms": [
+   "palpitations"
+  ],
+  "duration_summary": "since previous evening"
+ },
+ "v2_train_1510": {
+  "symptoms": [
+   "acute onset chest pain",
+   "substernal chest pain",
+   "pain radiating to left arm",
+   "fainting spells",
+   "low blood pressure"
+  ],
+  "duration_summary": "initial chest pain episode followed by fainting spells 5 days later"
+ },
+ "v2_train_153": {
+  "symptoms": [
+   "abdominal pain",
+   "bloody diarrhea",
+   "frequent diarrhea",
+   "6 episodes of moderate volume diarrhea per day",
+   "fever 38.0\u00b0C"
+  ],
+  "duration_summary": "4 days"
+ },
+ "v2_train_1536": {
+  "symptoms": [
+   "nausea",
+   "fatigue",
+   "absence of menstrual period"
+  ],
+  "duration_summary": "8 weeks"
+ },
+ "v2_train_1555": {
+  "symptoms": [
+   "left-sided chest pain",
+   "shortness of breath",
+   "intense pain spreading to upper left arm",
+   "collapse",
+   "unresponsiveness"
+  ],
+  "duration_summary": "sudden onset, progressed over 10 minutes before collapse"
+ },
+ "v2_train_158": {
+  "symptoms": [
+   "generalized non-itchy rash",
+   "fever",
+   "sore throat",
+   "flushed face sparing perioral area",
+   "diffuse papular erythematous rash blanching with pressure over trunk",
+   "pharyngeal erythema",
+   "red beefy tongue"
+  ],
+  "duration_summary": "rash for 2 days; fever and sore throat for 4 days"
+ },
+ "v2_train_159": {
+  "symptoms": [
+   "irritated eyes",
+   "eye rubbing",
+   "eye redness",
+   "inability to open eyes",
+   "crying upon waking",
+   "fever"
+  ],
+  "duration_summary": "2 days"
+ },
+ "v2_train_160": {
+  "symptoms": [
+   "excruciating left calf pain",
+   "calf swelling",
+   "redness of calf",
+   "extreme tenderness to palpation",
+   "purple and dusky skin discoloration",
+   "crepitus present",
+   "fever",
+   "tachycardia"
+  ],
+  "duration_summary": "3 days, with swelling and worsening pain starting yesterday"
+ },
+ "v2_train_1614": {
+  "symptoms": [
+   "worsening abdominal pain",
+   "nausea",
+   "scattered wheezes",
+   "decreased air entry",
+   "irregularly irregular heart rate",
+   "decreased bowel sounds",
+   "diffuse abdominal tenderness",
+   "acute distress due to pain"
+  ],
+  "duration_summary": "last few hours"
+ },
+ "v2_train_1633": {
+  "symptoms": [
+   "anxiety",
+   "preoccupation with thoughts of school and getting a job",
+   "odd behavior",
+   "wearing winter jacket in summer",
+   "auditory hallucinations",
+   "delusional thoughts about being poisoned",
+   "gaunt appearance"
+  ],
+  "duration_summary": "8 months"
+ },
+ "v2_train_1673": {
+  "symptoms": [
+   "persistent sadness",
+   "difficulty sleeping",
+   "increased appetite",
+   "blunted affect",
+   "periods of feeling very energetic",
+   "rest after 3 hours of sleep",
+   "long periods without eating"
+  ],
+  "duration_summary": "past 2 months with similar episodes 2 years ago and 9 months ago lasting 4 months each"
+ },
+ "v2_train_1697": {
+  "symptoms": [
+   "shortness of breath",
+   "chest pain",
+   "lethargy",
+   "slurred speech",
+   "decreased consciousness",
+   "dysarthria",
+   "bilateral optic disc swelling"
+  ],
+  "duration_summary": "symptoms developed within hours after admission"
+ },
+ "v2_train_17": {
+  "symptoms": [
+   "sudden vaginal bleeding",
+   "mild lower abdominal cramps",
+   "dizziness",
+   "weakness",
+   "light spotting",
+   "passage of clots",
+   "nausea subsided"
+  ],
+  "duration_summary": "light spotting over the last 3 days, increased bleeding today"
+ },
+ "v2_train_1725": {
+  "symptoms": [
+   "difficulty swallowing solids",
+   "difficulty swallowing liquids"
+  ],
+  "duration_summary": "5 months"
+ },
+ "v2_train_1730": {
+  "symptoms": [
+   "decreased sexual performance",
+   "delayed penile erection",
+   "reduced erection duration",
+   "less forceful ejaculation",
+   "prolonged refractory period after orgasm",
+   "coarse dark pubic and axillary hair",
+   "warm lower extremity skin"
+  ],
+  "duration_summary": "past 2 years"
+ },
+ "v2_train_1735": {
+  "symptoms": [
+   "difficulty watching a movie",
+   "left eye fixed in down and outward position",
+   "right eye full range of motion"
+  ],
+  "duration_summary": "since the previous day"
+ },
+ "v2_train_1763": {
+  "symptoms": [
+   "increased urinary frequency",
+   "nocturia",
+   "urgent urination",
+   "lower back pain",
+   "subjective warmth",
+   "tender enlarged prostate"
+  ],
+  "duration_summary": "3 days for urinary symptoms, 2 days for back pain and warmth"
+ },
+ "v2_train_1792": {
+  "symptoms": [
+   "nightmares",
+   "flashbacks",
+   "difficulty sleeping",
+   "impaired concentration"
+  ],
+  "duration_summary": "6 weeks"
+ },
+ "v2_train_1871": {
+  "symptoms": [
+   "lower abdominal pain",
+   "fever",
+   "malodorous lochia",
+   "breast pain",
+   "breast engorgement",
+   "tender breasts",
+   "cracked nipples",
+   "nipple erythema",
+   "erythema around abdominal incision",
+   "tender abdominal incision",
+   "uterine tenderness"
+  ],
+  "duration_summary": "4 days after cesarean delivery"
+ },
+ "v2_train_1888": {
+  "symptoms": [
+   "severe throbbing headache",
+   "double vision",
+   "frequent headaches",
+   "missed periods",
+   "decreased visual acuity",
+   "loss of peripheral vision"
+  ],
+  "duration_summary": "1 hour for current headache and double vision; several months of missed periods"
+ },
+ "v2_train_1905": {
+  "symptoms": [
+   "progressive shortness of breath",
+   "nonproductive cough",
+   "bibasilar inspiratory crackles"
+  ],
+  "duration_summary": "1 year"
+ },
+ "v2_train_1908": {
+  "symptoms": [
+   "fever",
+   "progressive weakness",
+   "cough",
+   "cough during meals",
+   "coughing up undigested food",
+   "productive cough with yellowish-green sputum",
+   "retrosternal discomfort while eating",
+   "right basal crackles",
+   "dullness on percussion at right lung base"
+  ],
+  "duration_summary": "5 days, with similar episode 2 months ago and persistent cough since then"
+ },
+ "v2_train_1961": {
+  "symptoms": [
+   "painful mass in left groin",
+   "slowly enlarging mass",
+   "ruptured mass",
+   "ulcerated mass",
+   "small painless ulcer on labium majorum",
+   "tender left-sided ulcerative lymph nodes with dark discoloration"
+  ],
+  "duration_summary": "4 days for mass; small ulcer 3 weeks prior"
+ },
+ "v2_train_1998": {
+  "symptoms": [
+   "sudden-onset chest pain",
+   "severe shortness of breath"
+  ],
+  "duration_summary": "chest pain at admission; shortness of breath developed three days after admission"
+ },
+ "v2_train_200": {
+  "symptoms": [
+   "bluish discoloration",
+   "cyanosis of lips and tongue",
+   "low blood pressure",
+   "tachycardia",
+   "tachypnea",
+   "low oxygen saturation",
+   "single second heart sound",
+   "absence of murmurs"
+  ],
+  "duration_summary": "2 hours"
+ },
+ "v2_train_2030": {
+  "symptoms": [
+   "increased forgetfulness",
+   "unsteady gait",
+   "difficulty concentrating",
+   "urinary urgency",
+   "disorientation to time",
+   "impaired immediate recall",
+   "impaired delayed recall",
+   "slow broad-based gait",
+   "short-stepped gait"
+  ],
+  "duration_summary": "3 months"
+ },
+ "v2_train_2053": {
+  "symptoms": [
+   "agitation",
+   "trying to pull out IV",
+   "accusing nursing staff of poisoning",
+   "change in behavior from baseline"
+  ],
+  "duration_summary": "past 4 hours"
+ },
+ "v2_train_2066": {
+  "symptoms": [
+   "confusion",
+   "rapidly progressive dyspnea",
+   "fever",
+   "chills",
+   "pallor",
+   "anxiety",
+   "severe distress",
+   "multiple linear hemorrhages underneath the nails",
+   "nontender maculae on palms and soles",
+   "fine bilateral rales",
+   "S3 heart sound",
+   "grade 3/6 high-pitched decrescendo early diastolic murmur along left sternal border and right second intercostal space",
+   "hypotension",
+   "bradycardia",
+   "low oxygen saturation"
+  ],
+  "duration_summary": "2 days of confusion and dyspnea; 5 days of fever and chills"
+ },
+ "v2_train_2086": {
+  "symptoms": [
+   "fatigue",
+   "recurrent pain in right wrist",
+   "recurrent pain in left knee",
+   "weight loss",
+   "fever",
+   "diffuse lymphadenopathy",
+   "painless oral ulcers",
+   "swollen right wrist",
+   "tender left knee"
+  ],
+  "duration_summary": "2 months"
+ },
+ "v2_train_2131": {
+  "symptoms": [
+   "lateral knee pain",
+   "tenderness to palpation over lateral right knee",
+   "discomfort with right hip adduction",
+   "impaired smooth lowering of right hip when extended and abducted"
+  ],
+  "duration_summary": "started this morning"
+ },
+ "v2_train_2152": {
+  "symptoms": [
+   "abdominal discomfort",
+   "abdominal pain",
+   "fatigue",
+   "conjunctival pallor",
+   "mild epigastric tenderness"
+  ],
+  "duration_summary": "past month"
+ },
+ "v2_train_226": {
+  "symptoms": [
+   "altered mental status",
+   "disorientation",
+   "flapping tremor of wrists",
+   "visual disturbances",
+   "horizontal nystagmus",
+   "staggering gait"
+  ],
+  "duration_summary": "1 day"
+ },
+ "v2_train_2276": {
+  "symptoms": [
+   "erectile dysfunction",
+   "inability to maintain erection during intercourse",
+   "rare nocturnal erections",
+   "decreased sexual desire",
+   "embarrassment about sexual performance",
+   "testicular atrophy"
+  ],
+  "duration_summary": "past month"
+ },
+ "v2_train_2281": {
+  "symptoms": [
+   "chronic back pain",
+   "abdominal bloating",
+   "feeling of constipation",
+   "mild bilateral paraspinal muscle tenderness"
+  ],
+  "duration_summary": "chronic back pain for 1 year, abdominal bloating and constipation for 3 weeks"
+ },
+ "v2_train_2318": {
+  "symptoms": [
+   "sudden loss of vision in right eye",
+   "no perception of light in right eye",
+   "20/50 vision in left eye",
+   "brisk direct pupillary reflex in left eye",
+   "absent direct pupillary reflex in right eye",
+   "brisk indirect pupillary reflex in right eye",
+   "absent indirect pupillary reflex in left eye",
+   "white 1-mm corneal ring in both eyes",
+   "pale white retina with bright red macular area in right eye",
+   "soft and hard exudates in superior and nasal retinal quadrants of left eye"
+  ],
+  "duration_summary": "50 minutes (current loss), prior episodes of vision loss with improvement"
+ },
+ "v2_train_2354": {
+  "symptoms": [
+   "abdominal pain",
+   "vomiting",
+   "bilious vomitus",
+   "epigastric mass"
+  ],
+  "duration_summary": "4 days"
+ },
+ "v2_train_2361": {
+  "symptoms": [
+   "productive cough"
+  ],
+  "duration_summary": "past few years"
+ },
+ "v2_train_2410": {
+  "symptoms": [
+   "swelling on neck",
+   "mild pain in neck swelling",
+   "intermittent throbbing headache",
+   "sweating",
+   "palpitations",
+   "fever",
+   "tachycardia",
+   "pallor",
+   "firm neck swelling moving with swallowing"
+  ],
+  "duration_summary": "swelling for 5 months, headache/sweating/palpitations for 3 months"
+ },
+ "v2_train_2445": {
+  "symptoms": [
+   "unresponsiveness",
+   "absence of carotid pulse",
+   "severe pneumonia"
+  ],
+  "duration_summary": "four days into hospitalization"
+ },
+ "v2_train_2465": {
+  "symptoms": [
+   "severe lower back pain",
+   "fatigue",
+   "pain increases with activity",
+   "pale conjunctivae",
+   "tenderness over 1st lumbar vertebra"
+  ],
+  "duration_summary": "3 months"
+ },
+ "v2_train_2571": {
+  "symptoms": [
+   "worsening back pain",
+   "bilateral pain along sacroiliac joint",
+   "pain worse with walking",
+   "pain worse with standing",
+   "pain worse with sitting",
+   "difficulty actively raising either leg with extended knee"
+  ],
+  "duration_summary": "3 weeks"
+ },
+ "v2_train_2584": {
+  "symptoms": [
+   "failing health",
+   "difficulty telepathically conversing with animals"
+  ],
+  "duration_summary": "8 months"
+ },
+ "v2_train_2662": {
+  "symptoms": [
+   "foul-smelling discharge from left nostril",
+   "mucoid nasal discharge",
+   "panic with nasal speculum insertion",
+   "no facial tenderness"
+  ],
+  "duration_summary": "2 weeks"
+ },
+ "v2_train_2663": {
+  "symptoms": [
+   "tingling pain in the sole of right foot",
+   "right calf cramps",
+   "pain triggered by raising foot above chest level",
+   "pain triggered by using incline on treadmill",
+   "pain relieved by rest",
+   "pallor on straight leg raise test",
+   "tingling pain on straight leg raise test",
+   "absent right pedal pulses"
+  ],
+  "duration_summary": "6 weeks"
+ },
+ "v2_train_267": {
+  "symptoms": [
+   "exertional dyspnea",
+   "fatigue",
+   "oral aphthous ulcers",
+   "mild conjunctival pallor",
+   "rash on peripheral extremities"
+  ],
+  "duration_summary": "3 months"
+ },
+ "v2_train_2701": {
+  "symptoms": [
+   "progressive numbness in fingers and toes",
+   "tingling in fingers and toes",
+   "weakness in arms and legs",
+   "decreased sensation to light touch in bilateral lower extremities",
+   "decreased sensation to temperature in bilateral lower extremities",
+   "decreased sensation to vibration in bilateral lower extremities",
+   "ataxia",
+   "positive Romberg sign"
+  ],
+  "duration_summary": "several months"
+ },
+ "v2_train_2721": {
+  "symptoms": [
+   "decreasing vision",
+   "black spots in right eye",
+   "cervical lymphadenopathy",
+   "multiple violaceous plaques on trunk and extremities",
+   "granular yellow-white opacities around retinal vessels",
+   "multiple areas of dot-blot hemorrhages"
+  ],
+  "duration_summary": "2 days"
+ },
+ "v2_train_2779": {
+  "symptoms": [
+   "minimally responsive",
+   "withdrawal of extremities to painful stimuli",
+   "tachycardia",
+   "diastolic murmur at left lower sternal border",
+   "bilateral crackles on pulmonary exam",
+   "hypotension",
+   "intoxication",
+   "sepsis"
+  ],
+  "duration_summary": "at presentation"
+ },
+ "v2_train_2831": {
+  "symptoms": [
+   "agitation",
+   "confusion",
+   "unarousable during the day",
+   "awake and impulsive during the night",
+   "requiring frequent reorientation",
+   "distress",
+   "disorientation to place and time",
+   "inattentiveness"
+  ],
+  "duration_summary": "six days after surgery"
+ },
+ "v2_train_2868": {
+  "symptoms": [
+   "right upper quadrant pain",
+   "unexplained weakness",
+   "joint pains",
+   "icteric sclera",
+   "generalized pain on palpation of right upper quadrant",
+   "bronzed skin on extremities"
+  ],
+  "duration_summary": "right upper quadrant pain for 3 months; joint pains over 1 year"
+ },
+ "v2_train_2886": {
+  "symptoms": [
+   "shorter than peers",
+   "delayed bone age"
+  ],
+  "duration_summary": "since after 6 months of age"
+ },
+ "v2_train_2910": {
+  "symptoms": [
+   "progressively worsening abdominal pain",
+   "crampy abdominal pain",
+   "urge to defecate",
+   "bloody bowel movements",
+   "mild tenderness to palpation in the left quadrants",
+   "decreased bowel sounds",
+   "blood on rectal examination"
+  ],
+  "duration_summary": "5 hours"
+ },
+ "v2_train_2931": {
+  "symptoms": [
+   "difficulty sleeping",
+   "poor concentration",
+   "frequent night awakenings",
+   "palpitations",
+   "profuse sweating",
+   "nightmares",
+   "yelling at coworkers",
+   "depressed mood",
+   "negative affect"
+  ],
+  "duration_summary": "since sexual assault three weeks ago"
+ },
+ "v2_train_3070": {
+  "symptoms": [
+   "weight loss",
+   "increased appetite",
+   "hyperhidrosis",
+   "increased urinary volume",
+   "increased urinary frequency",
+   "anxiety",
+   "tachycardic pulse"
+  ],
+  "duration_summary": "2 months"
+ },
+ "v2_train_3120": {
+  "symptoms": [
+   "shortness of breath on exertion",
+   "chest tightness on exertion",
+   "mildly jaundiced conjunctivae",
+   "several spider nevi on upper torso",
+   "barrel-chested appearance"
+  ],
+  "duration_summary": "2 months"
+ },
+ "v2_train_3162": {
+  "symptoms": [
+   "aggressive behavior",
+   "unusual behavior",
+   "irritability",
+   "yelling",
+   "dilated pupils",
+   "tachycardia",
+   "diaphoresis",
+   "rapid speech"
+  ],
+  "duration_summary": "hours"
+ },
+ "v2_train_3249": {
+  "symptoms": [
+   "numbness in hands",
+   "tingling in hands"
+  ],
+  "duration_summary": "past month"
+ },
+ "v2_train_3261": {
+  "symptoms": [
+   "agitation",
+   "yellowish coloring of skin and eyes",
+   "psychomotor agitation",
+   "disorientation to time and space",
+   "asterixis",
+   "jaundice on skin and mucous membranes",
+   "epistaxis"
+  ],
+  "duration_summary": "agitation for 24 hours; yellowing for past week"
+ },
+ "v2_train_3266": {
+  "symptoms": [
+   "left knee pain",
+   "left knee swelling",
+   "pain waking from sleep",
+   "left knee tenderness",
+   "limited range of motion due to pain"
+  ],
+  "duration_summary": "2 months"
+ },
+ "v2_train_3268": {
+  "symptoms": [
+   "progressive blurry vision",
+   "decreased visual acuity"
+  ],
+  "duration_summary": "6 months"
+ },
+ "v2_train_3282": {
+  "symptoms": [
+   "intermittent diffuse abdominal pain",
+   "nonpruritic rash on legs",
+   "ankle swelling",
+   "non-blanching raised erythematous papules on lower extremities",
+   "ankle joint swelling and warmth",
+   "limited range of motion of ankle joints due to pain",
+   "positive stool occult blood"
+  ],
+  "duration_summary": "abdominal pain for 2 days, rash and ankle swelling for 1 week"
+ },
+ "v2_train_3313": {
+  "symptoms": [
+   "swollen neck",
+   "small round painless swelling in neck",
+   "increased size of swelling",
+   "sweaty palms and soles",
+   "insomnia",
+   "irritability",
+   "nervousness",
+   "fatigue",
+   "3 x 3 cm non-tender neck swelling"
+  ],
+  "duration_summary": "3 weeks"
+ },
+ "v2_train_3346": {
+  "symptoms": [
+   "abdominal pain",
+   "lower abdominal tenderness",
+   "guarding",
+   "right adnexal tenderness",
+   "moderate distress",
+   "clear mucous in vaginal introitus"
+  ],
+  "duration_summary": "6 hours"
+ },
+ "v2_train_3358": {
+  "symptoms": [
+   "painless blurry vision",
+   "halos around lights",
+   "difficulty driving at night due to glare",
+   "absence of red reflex"
+  ],
+  "duration_summary": "worsened in the past year"
+ },
+ "v2_train_3375": {
+  "symptoms": [
+   "claiming to have spoken to deceased grandfather",
+   "tearfulness",
+   "expressing missing grandfather",
+   "talking to grandfather when mother is not around"
+  ],
+  "duration_summary": "since grandfather's death 2 months ago"
+ },
+ "v2_train_3395": {
+  "symptoms": [
+   "worsening fatigue",
+   "unintentional weight loss",
+   "unusual appetite for soil and clay",
+   "diffuse teeth abrasions",
+   "dirt in sublingual folds",
+   "tachycardia"
+  ],
+  "duration_summary": "several months (appetite), 2 months (weight loss)"
+ },
+ "v2_train_3434": {
+  "symptoms": [
+   "cough",
+   "dyspnea",
+   "feeling warm",
+   "halitosis",
+   "mild scleral icterus",
+   "skin findings"
+  ],
+  "duration_summary": "2 weeks with feeling warm for a couple of days"
+ },
+ "v2_train_3439": {
+  "symptoms": [
+   "chest pain",
+   "shortness of breath",
+   "chronic cough",
+   "dullness to percussion at the base of right lung",
+   "decreased air movement on right side"
+  ],
+  "duration_summary": "several weeks"
+ },
+ "v2_train_3458": {
+  "symptoms": [
+   "progressive swelling in mouth",
+   "difficulty chewing food",
+   "1.5-cm smooth unilobular bony hard nontender mass in midline of hard palate"
+  ],
+  "duration_summary": "progressive swelling noticed 5 years ago; difficulty chewing began 1 month ago"
+ },
+ "v2_train_3485": {
+  "symptoms": [
+   "fever",
+   "malaise",
+   "right knee joint pain",
+   "right knee joint swelling",
+   "abdominal pain episodes",
+   "epistaxis episodes",
+   "left ankle joint swelling and pain (resolved)",
+   "sore throat",
+   "painless nodules over the elbow",
+   "limited range of motion in right knee"
+  ],
+  "duration_summary": "3 days for most symptoms, sore throat 3 weeks ago, left ankle symptoms 5 days ago (resolved)"
+ },
+ "v2_train_3492": {
+  "symptoms": [
+   "left knee pain",
+   "pain exacerbated by movement",
+   "pain exacerbated by kneeling",
+   "mild swelling of left anterior superior tibia",
+   "tenderness to palpation of left anterior superior tibia",
+   "pain with knee extension against resistance",
+   "limited knee flexion due to pain"
+  ],
+  "duration_summary": "6 days"
+ },
+ "v2_train_3496": {
+  "symptoms": [
+   "tinnitus",
+   "progressive hearing loss in the left ear"
+  ],
+  "duration_summary": "6 months"
+ },
+ "v2_train_3516": {
+  "symptoms": [
+   "contractions every 8\u201310 minutes",
+   "decreased fetal movements",
+   "cervix 40% effaced",
+   "2 cm dilated cervix",
+   "vertex at -2 station",
+   "uterus consistent with 30-week size",
+   "decreased amniotic fluid"
+  ],
+  "duration_summary": "last 2 days for decreased fetal movements; onset of labor 30 minutes ago"
+ },
+ "v2_train_3520": {
+  "symptoms": [
+   "severe migrating anterior chest pain",
+   "shortness of breath",
+   "sweating at rest",
+   "severe distress",
+   "pulse 110/min",
+   "respirations 20/min",
+   "blood pressure 150/85 mm Hg",
+   "grade 3/6 high-pitched blowing diastolic murmur over right sternal border",
+   "bilaterally decreased femoral pulses"
+  ],
+  "duration_summary": "30 minutes"
+ },
+ "v2_train_3555": {
+  "symptoms": [
+   "persistent vomiting",
+   "vomiting blood",
+   "vomit with streaks of blood",
+   "shock"
+  ],
+  "duration_summary": "overnight"
+ },
+ "v2_train_3586": {
+  "symptoms": [
+   "severe dyspnea",
+   "productive cough with streaks of blood",
+   "pruritic papular rash on right thigh",
+   "severely painful right inguinal swelling",
+   "confusion",
+   "fever",
+   "tachycardia",
+   "tachypnea",
+   "hypotension",
+   "rales in lower lobe of left lung",
+   "enlarged right inguinal lymph nodes with spongy consistency and hard core",
+   "edematous area around right inguinal lymph nodes without erythema or cellulitis"
+  ],
+  "duration_summary": "since the day before (symptoms began the day before admission), rash appeared the day before swelling"
+ },
+ "v2_train_3622": {
+  "symptoms": [
+   "abdominal discomfort",
+   "radiation of pain to the back",
+   "malaise",
+   "chills",
+   "nausea",
+   "vomiting",
+   "fever",
+   "diffuse abdominal tenderness"
+  ],
+  "duration_summary": "several hours"
+ },
+ "v2_train_3690": {
+  "symptoms": [
+   "abdominal pain",
+   "pain worsened by eating"
+  ],
+  "duration_summary": "6 months"
+ },
+ "v2_train_3692": {
+  "symptoms": [
+   "acute onset crushing chest pain"
+  ],
+  "duration_summary": "sudden onset, less than 30 minutes before death"
+ },
+ "v2_train_407": {
+  "symptoms": [
+   "increasing shortness of breath",
+   "dry cough",
+   "scattered expiratory wheezes"
+  ],
+  "duration_summary": "6 months"
+ },
+ "v2_train_414": {
+  "symptoms": [
+   "shortness of breath",
+   "fever",
+   "tachycardia",
+   "tachypnea",
+   "hypotension",
+   "oxygen desaturation",
+   "diffuse bilateral lung crackles",
+   "warm extremities"
+  ],
+  "duration_summary": "4 days after surgery"
+ },
+ "v2_train_444": {
+  "symptoms": [
+   "seizure",
+   "recurrent headaches",
+   "increased irritability",
+   "spastic paresis of right lower extremity",
+   "Babinski sign on right side"
+  ],
+  "duration_summary": "3 months, with seizure 30 minutes prior to presentation"
+ },
+ "v2_train_465": {
+  "symptoms": [
+   "sudden shortness of breath",
+   "disorientation",
+   "fever",
+   "tachycardia",
+   "tachypnea",
+   "hypertension",
+   "hypoxemia",
+   "scattered petechiae on anterior chest wall"
+  ],
+  "duration_summary": "2 days after surgery"
+ },
+ "v2_train_482": {
+  "symptoms": [
+   "severe retrosternal chest pain",
+   "shortness of breath",
+   "unresponsiveness to painful stimuli",
+   "absence of respiration",
+   "absence of pulse"
+  ],
+  "duration_summary": "30 minutes"
+ },
+ "v2_train_517": {
+  "symptoms": [
+   "respiratory distress",
+   "low-set ears",
+   "retrognathia",
+   "club feet"
+  ],
+  "duration_summary": "shortly after birth"
+ },
+ "v2_train_520": {
+  "symptoms": [
+   "large-volume stools",
+   "loose stools",
+   "greasy stools",
+   "recurrent otitis media",
+   "recurrent respiratory tract infections",
+   "short stature",
+   "softening of occipital and parietal bones",
+   "expiratory wheezing",
+   "rhonchi in lung fields"
+  ],
+  "duration_summary": "since infancy"
+ },
+ "v2_train_542": {
+  "symptoms": [
+   "knee pain",
+   "tenderness over medial tibia just inferior to patella"
+  ],
+  "duration_summary": "started yesterday, steadily worsening"
+ },
+ "v2_train_560": {
+  "symptoms": [
+   "diarrhea",
+   "crampy abdominal pain",
+   "watery non-bloody bowel movements",
+   "fatigue",
+   "weight loss",
+   "skin tags",
+   "anal fissure"
+  ],
+  "duration_summary": "several months"
+ },
+ "v2_train_562": {
+  "symptoms": [
+   "bilateral joint pain",
+   "stiffness in hand joints",
+   "difficulty holding objects",
+   "morning stiffness",
+   "low-grade fever",
+   "mild swelling in proximal interphalangeal joints",
+   "tenderness in metacarpophalangeal joints and wrists",
+   "nontender nodules near elbows"
+  ],
+  "duration_summary": "3 months"
+ },
+ "v2_train_569": {
+  "symptoms": [
+   "abdominal pain",
+   "vomiting",
+   "right upper quadrant tenderness",
+   "fever"
+  ],
+  "duration_summary": "6 hours"
+ },
+ "v2_train_605": {
+  "symptoms": [
+   "pain in finger",
+   "rash on finger",
+   "pain with palpation of finger"
+  ],
+  "duration_summary": "started a week ago"
+ },
+ "v2_train_62": {
+  "symptoms": [
+   "dizziness",
+   "ringing in ears",
+   "left-sided hearing loss",
+   "horizontal nystagmus"
+  ],
+  "duration_summary": "a few days, gradually worsening"
+ },
+ "v2_train_657": {
+  "symptoms": [
+   "postcoital pain",
+   "blood-tinged vaginal discharge",
+   "cervical tenderness",
+   "cervical bleeding on touch"
+  ],
+  "duration_summary": "2 weeks"
+ },
+ "v2_train_660": {
+  "symptoms": [
+   "recurrent vomiting",
+   "difficulty walking",
+   "broad-based gait",
+   "bilateral optic disc swelling"
+  ],
+  "duration_summary": "3 weeks"
+ },
+ "v2_train_687": {
+  "symptoms": [
+   "right-sided weakness",
+   "slurred speech",
+   "difficulty holding fork with right hand",
+   "fall to the ground",
+   "aphasia"
+  ],
+  "duration_summary": "acute onset"
+ },
+ "v2_train_751": {
+  "symptoms": [
+   "dry eyes",
+   "need to blink several times for clear vision"
+  ],
+  "duration_summary": "at least 1 month"
+ },
+ "v2_train_764": {
+  "symptoms": [
+   "acute severe abdominal pain",
+   "bloody diarrhea",
+   "pallor",
+   "confusion",
+   "hypotension",
+   "tachycardia",
+   "tachypnea",
+   "low body temperature"
+  ],
+  "duration_summary": "acute onset"
+ },
+ "v2_train_79": {
+  "symptoms": [
+   "increasing forgetfulness",
+   "misplacing keys",
+   "forgetting dog's name",
+   "forgetting phone number",
+   "forgetting recent events",
+   "getting lost while walking",
+   "episodes of leaving gas stove on",
+   "agitation when questioned",
+   "unconcerned about deficits",
+   "memory deficits",
+   "impaired clock drawing",
+   "errors in serial sevens"
+  ],
+  "duration_summary": "over the past 2 years"
+ },
+ "v2_train_827": {
+  "symptoms": [
+   "recurrent abdominal cramps",
+   "bloating",
+   "diarrhea",
+   "greasy stools",
+   "foul-smelling stools",
+   "difficult to flush stools",
+   "weight loss",
+   "pallor",
+   "cheilitis"
+  ],
+  "duration_summary": "4 months"
+ },
+ "v2_train_867": {
+  "symptoms": [
+   "painful skin lesion on right leg",
+   "small red spot initially",
+   "rapid increase in lesion size",
+   "tender ulcerative lesion with central necrotic base",
+   "purplish irregular borders",
+   "pitting pedal edema",
+   "dilated tortuous veins in lower legs"
+  ],
+  "duration_summary": "1 month"
+ },
+ "v2_train_893": {
+  "symptoms": [
+   "vaginal bleeding",
+   "mildly bloody perineum",
+   "blood passing through the cervix"
+  ],
+  "duration_summary": "started last night"
+ },
+ "v2_train_9": {
+  "symptoms": [
+   "respiratory distress",
+   "nasal flaring",
+   "expiratory grunting",
+   "oxygen saturation 92%"
+  ],
+  "duration_summary": "three hours after delivery"
+ },
+ "v2_train_949": {
+  "symptoms": [
+   "sudden chest pain",
+   "shortness of breath",
+   "tachycardia"
+  ],
+  "duration_summary": "sudden onset"
+ },
+ "v2_train_951": {
+  "symptoms": [
+   "swelling of legs",
+   "itchy legs",
+   "hoarseness"
+  ],
+  "duration_summary": "leg swelling for 4 months, hoarseness for 1 month"
+ },
+ "v2_train_979": {
+  "symptoms": [
+   "intermittent low grade fevers",
+   "lethargy",
+   "costovertebral angle tenderness worse on right"
+  ],
+  "duration_summary": "past two weeks"
+ },
+ "v2_val_3743": {
+  "symptoms": [
+   "pink urine",
+   "sore throat",
+   "difficulty swallowing",
+   "low-grade fever",
+   "erythematous pharynx",
+   "enlarged tonsils"
+  ],
+  "duration_summary": "pink urine since that morning; sore throat and difficulty swallowing for 2 days; 2 similar episodes over past 2 years"
+ },
+ "v2_val_3754": {
+  "symptoms": [
+   "lower limb weakness",
+   "flu-like symptoms",
+   "reduced deep tendon reflexes"
+  ],
+  "duration_summary": "lower limb weakness for one day; flu-like symptoms for three days one week ago"
+ },
+ "v2_val_3764": {
+  "symptoms": [
+   "right upper quadrant abdominal pain",
+   "jaundice",
+   "distended abdomen",
+   "tender hepatomegaly",
+   "yellowing of eyes and skin"
+  ],
+  "duration_summary": "1 week"
+ },
+ "v2_val_3784": {
+  "symptoms": [
+   "intermittent pain",
+   "swelling of both knees",
+   "swelling of right ankle",
+   "swelling of right wrist",
+   "morning joint stiffness",
+   "difficulty moving joints upon waking",
+   "occasional mild eye pain",
+   "swollen and erythematous joints",
+   "tenderness to touch of joints",
+   "anterior chamber flare",
+   "iris inflammation bilaterally"
+  ],
+  "duration_summary": "3 months"
+ },
+ "v2_val_3803": {
+  "symptoms": [
+   "left flank pain",
+   "colicky pain",
+   "pain intensity 8 out of 10",
+   "nausea",
+   "vomiting"
+  ],
+  "duration_summary": "2 hours"
+ },
+ "v2_val_3900": {
+  "symptoms": [
+   "pain in fingers",
+   "pain in knees",
+   "stiffness in fingers",
+   "stiffness in knees",
+   "morning stiffness lasting 10 minutes",
+   "knee pain worse in evening",
+   "firm nodules on distal interphalangeal joints"
+  ],
+  "duration_summary": "1 year"
+ },
+ "v2_val_3952": {
+  "symptoms": [
+   "acute onset chest pain",
+   "chest pain worse with deep inspirations",
+   "skin findings"
+  ],
+  "duration_summary": "chest pain started 2 days ago; skin findings appeared 3 days after discharge"
+ },
+ "v2_val_3981": {
+  "symptoms": [
+   "looking for cameras planted by aliens",
+   "loss of interest in basketball",
+   "staying in bedroom most of the day",
+   "tearfulness",
+   "talking about death frequently",
+   "skipping meals",
+   "weight loss",
+   "apathetic appearance",
+   "use of obscure word",
+   "flat affect",
+   "bizarre delusions"
+  ],
+  "duration_summary": "delusions present for 2 weeks; depressive symptoms started approximately 3 months prior"
+ },
+ "v2_val_3986": {
+  "symptoms": [
+   "confusion",
+   "fever",
+   "tachypnea",
+   "low oxygen saturation",
+   "tachycardia",
+   "coarse crackles in right lung base"
+  ],
+  "duration_summary": "post-operative day 5"
+ },
+ "v2_val_4069": {
+  "symptoms": [
+   "irritability",
+   "palpitations",
+   "heat intolerance",
+   "frequent bowel movements",
+   "anxiety",
+   "fine hand tremor",
+   "bilateral exophthalmos",
+   "warm moist skin"
+  ],
+  "duration_summary": "5 months"
+ },
+ "v2_val_4076": {
+  "symptoms": [
+   "progressive right shoulder pain",
+   "tenderness of right anterior humerus",
+   "decreased active and passive range of motion of right shoulder",
+   "pain with shoulder movement",
+   "episodes of joint and bone pain",
+   "recurrent painful swelling of hands and feet"
+  ],
+  "duration_summary": "2 months"
+ },
+ "v2_val_4100": {
+  "symptoms": [
+   "fatigue",
+   "malaise",
+   "dry cough",
+   "painless hematuria",
+   "sore throat",
+   "diffusely coarse breath sounds bilaterally"
+  ],
+  "duration_summary": "several months"
+ },
+ "v2_val_4110": {
+  "symptoms": [
+   "fatigue",
+   "dyspnea",
+   "mild chest pain on exertion",
+   "jugular venous distention",
+   "1+ pitting edema on both ankles",
+   "scattered inspiratory crackles in thorax",
+   "S3 heard at apex"
+  ],
+  "duration_summary": "1 week"
+ },
+ "v2_val_4119": {
+  "symptoms": [
+   "easy bruising",
+   "recurrent nosebleeds",
+   "weakness",
+   "weight loss",
+   "mucosal pallor",
+   "bruising on upper and lower extremities",
+   "splenomegaly"
+  ],
+  "duration_summary": "4 months"
+ },
+ "v2_val_4141": {
+  "symptoms": [
+   "severe pain in both knees",
+   "swelling in both knees",
+   "unintentional weight loss",
+   "episodic abdominal pain",
+   "loose stools without blood",
+   "pale conjunctivae",
+   "cheilitis",
+   "hyperpigmentation of skin around neck",
+   "generalized lymphadenopathy",
+   "bilateral warmth of knee joints",
+   "erythema of knee joints",
+   "tenderness of knee joints",
+   "limited range of motion of knee joints",
+   "grade 2/6 early diastolic murmur at right second intercostal space",
+   "S3 heart sound"
+  ],
+  "duration_summary": "weight loss over 3 months; loose stools for 1 month; episodic abdominal pain timing not specified"
+ },
+ "v2_val_4187": {
+  "symptoms": [
+   "low back pain",
+   "morning stiffness",
+   "limited spine flexion and extension"
+  ],
+  "duration_summary": "gradual onset over 2 years, progressively worsening"
+ },
+ "v2_val_4211": {
+  "symptoms": [
+   "oozing red area above left ankle",
+   "yellow-brown spots over lower extremities",
+   "dilated tortuous veins over lower extremities",
+   "edema of feet and left calf",
+   "painless shallow exudative ulcer above medial left ankle",
+   "granulation tissue surrounding ulcer",
+   "slight drooping of right side of face"
+  ],
+  "duration_summary": "3 months"
+ },
+ "v2_val_4251": {
+  "symptoms": [
+   "pink rash on face",
+   "rash spread to trunk",
+   "posterior cervical lymphadenopathy",
+   "low-grade fever"
+  ],
+  "duration_summary": "approximately 2 days"
+ },
+ "v2_val_4280": {
+  "symptoms": [
+   "fatigue",
+   "crampy abdominal pain",
+   "watery diarrhea",
+   "pain in mouth and gums",
+   "painful oral ulcers",
+   "mild right lower quadrant abdominal tenderness"
+  ],
+  "duration_summary": "4 weeks"
+ },
+ "v2_val_4309": {
+  "symptoms": [
+   "violent jerky movements of right arm",
+   "profuse sweating during episode",
+   "chill down spine before episode",
+   "right arm weakness after episode",
+   "inability to lift right arm above head"
+  ],
+  "duration_summary": "2-minute episode with 3 hours since onset; arm weakness lasted 2 hours"
+ },
+ "v2_val_4316": {
+  "symptoms": [
+   "irritable mood",
+   "staying up late",
+   "sleeping less than 4 hours per day",
+   "increased energy",
+   "easy distractibility",
+   "spending paycheck impulsively",
+   "pressured speech",
+   "irritability"
+  ],
+  "duration_summary": "5 days"
+ },
+ "v2_val_4333": {
+  "symptoms": [
+   "delayed menstrual period",
+   "intermittent lower abdominal pain",
+   "soft mildly enlarged uterus"
+  ],
+  "duration_summary": "2 days of pain, last menstrual period 7 weeks ago"
+ },
+ "v2_val_4348": {
+  "symptoms": [
+   "lightheadedness",
+   "left arm weakness",
+   "tremors",
+   "palpitations",
+   "diaphoresis",
+   "increased appetite",
+   "weight gain"
+  ],
+  "duration_summary": "episode for the last hour; increased appetite and weight gain over past 3 months"
+ }
+}

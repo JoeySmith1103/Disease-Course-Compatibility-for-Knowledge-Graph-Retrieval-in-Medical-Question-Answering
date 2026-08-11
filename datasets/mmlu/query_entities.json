@@ -1,0 +1,5291 @@
+{
+ "mmlu_0007": {
+  "symptoms_signs": [
+   "progressive irritability",
+   "palpitations",
+   "heat intolerance",
+   "frequent bowel movements",
+   "weight loss",
+   "neck mass"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "enlarged thyroid gland",
+   "multiple areas of increased uptake",
+   "multiple areas of decreased uptake"
+  ]
+ },
+ "mmlu_0002": {
+  "symptoms_signs": [
+   "low-grade fever",
+   "cough",
+   "runny nose",
+   "38\u00b0C fever"
+  ],
+  "diseases_mentioned": [
+   "common cold"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0003": {
+  "symptoms_signs": [
+   "systolic murmur",
+   "left sternal border",
+   "weak femoral pulses",
+   "strong brachial pulses",
+   "radiofemoral delay",
+   "mild cardiomegaly",
+   "left ventricular prominence",
+   "left ventricular hypertrophy"
+  ],
+  "diseases_mentioned": [
+   "pneumonia"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0005": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "hyperglycemia",
+   "hyperinsulinemia"
+  ],
+  "procedures": [
+   "muscle biopsy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "increased malonyl-CoA"
+  ]
+ },
+ "mmlu_0004": {
+  "symptoms_signs": [
+   "numbness in right hand",
+   "tingling in right ring finger",
+   "tingling in right small finger",
+   "severe pain in ring and small fingers",
+   "decreased pinprick sensation",
+   "decreased light touch",
+   "medial half of ring finger",
+   "entire small finger",
+   "full muscle strength"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0001": {
+  "symptoms_signs": [
+   "active labor",
+   "regular contractions",
+   "intermittent weak contractions",
+   "fetal head engaged",
+   "membranes intact",
+   "normal fetal heart tones",
+   "cervix 100% effaced",
+   "7 cm dilated"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "pain medication"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0000": {
+  "symptoms_signs": [
+   "tingling of left thigh",
+   "numbness of left thigh",
+   "decreased light touch",
+   "lateral left anterior thigh",
+   "normal muscle strength"
+  ],
+  "diseases_mentioned": [
+   "pulmonary embolism",
+   "retroperitoneal hemorrhage",
+   "hematoma"
+  ],
+  "procedures": [
+   "hospital treatment",
+   "IVC filter placement"
+  ],
+  "drugs": [
+   "warfarin"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0006": {
+  "symptoms_signs": [
+   "cries all the time",
+   "will not get out of bed",
+   "pain 1 to 2",
+   "firm distended abdomen",
+   "moderate liver tenderness",
+   "sad affect",
+   "cries easily",
+   "oriented to person place time",
+   "good eye contact"
+  ],
+  "diseases_mentioned": [
+   "advanced ovarian cancer",
+   "liver metastases",
+   "hypertension",
+   "major depressive disorder"
+  ],
+  "procedures": [
+   "chemotherapy"
+  ],
+  "drugs": [
+   "oxycodone",
+   "hydrochlorothiazide",
+   "fluoxetine"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0008": {
+  "symptoms_signs": [
+   "tongue lump",
+   "speech interference",
+   "eating difficulty",
+   "weight loss",
+   "tongue mass"
+  ],
+  "diseases_mentioned": [
+   "squamous cell carcinoma"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "1.5-cm tongue mass"
+  ]
+ },
+ "mmlu_0011": {
+  "symptoms_signs": [
+   "low-grade fever",
+   "nonproductive cough",
+   "inspiratory crackles",
+   "patchy infiltrates"
+  ],
+  "diseases_mentioned": [
+   "previously healthy"
+  ],
+  "procedures": [
+   "chest x-ray"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 37.7\u00b0C",
+   "patchy infiltrates in both lungs"
+  ]
+ },
+ "mmlu_0010": {
+  "symptoms_signs": [
+   "poor eater",
+   "weight loss",
+   "loss of appetite",
+   "food tastes bad",
+   "nausea"
+  ],
+  "diseases_mentioned": [
+   "congestive heart failure"
+  ],
+  "procedures": [
+   "nursing facility placement"
+  ],
+  "drugs": [
+   "furosemide",
+   "digoxin"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0009": {
+  "symptoms_signs": [
+   "renal calculus"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "follow-up examination",
+   "24-hour urine collection",
+   "x-ray crystallographic analysis"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "increased calcium excretion",
+   "calcium primary cation"
+  ]
+ },
+ "mmlu_0012": {
+  "symptoms_signs": [
+   "confusion",
+   "agitation",
+   "fever",
+   "headache",
+   "stiff neck",
+   "vomiting",
+   "combative",
+   "hallucinations"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "lumbar puncture"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "CSF cysts",
+   "CSF trophozoites"
+  ]
+ },
+ "mmlu_0014": {
+  "symptoms_signs": [
+   "hit below right knee",
+   "lack of fluid motion",
+   "negative standing flexion test",
+   "intact cruciate ligaments",
+   "intact collateral ligaments",
+   "right foot drop"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0013": {
+  "symptoms_signs": [
+   "right shoulder pain",
+   "tenderness at greater tubercle",
+   "painful abduction"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0015": {
+  "symptoms_signs": [
+   "irritable",
+   "tense",
+   "reading symptoms aloud",
+   "written list"
+  ],
+  "diseases_mentioned": [
+   "post-traumatic stress disorder"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0017": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "bone marrow transplant recipient"
+  ],
+  "procedures": [
+   "bone marrow transplant"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "CMV DNA in blood"
+  ]
+ },
+ "mmlu_0016": {
+  "symptoms_signs": [
+   "fever",
+   "abdominal discomfort",
+   "moderately ill",
+   "tender liver",
+   "enlarged liver",
+   "intrahepatic abscess"
+  ],
+  "diseases_mentioned": [
+   "osteomyelitis",
+   "severe pneumonia",
+   "Aspergillus fumigatus infection",
+   "Staphylococcus aureus infection"
+  ],
+  "procedures": [
+   "ultrasonography of abdomen",
+   "culture of abscess fluid"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "failure of neutrophils oxidative burst"
+  ]
+ },
+ "mmlu_0019": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "vomiting",
+   "decreased appetite",
+   "right-sided abdominal pain",
+   "generalized abdominal pain",
+   "fever",
+   "guarding",
+   "diffuse rebound tenderness"
+  ],
+  "diseases_mentioned": [
+   "perforated appendix"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 38.8 C",
+   "pulse 100/min",
+   "respirations 20/min",
+   "blood pressure 143/83 mm Hg",
+   "CT scan perforated appendix"
+  ]
+ },
+ "mmlu_0018": {
+  "symptoms_signs": [
+   "respiratory distress",
+   "runny nose",
+   "barking sound",
+   "labored breathing",
+   "tired appearance",
+   "sits upright",
+   "fever",
+   "inspiratory stridor",
+   "profuse nasal discharge",
+   "tachypneic at rest",
+   "stridor at rest"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "oxygen via venturi mask",
+   "intravenous fluids",
+   "racemic epinephrine nebulizer"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 38.7 C",
+   "pulse 110/min",
+   "respirations 28/min",
+   "blood pressure 85/50 mm Hg",
+   "oxygen saturation 89%",
+   "oxygen saturation 93%"
+  ]
+ },
+ "mmlu_0020": {
+  "symptoms_signs": [
+   "low-grade fever",
+   "abdominal cramps",
+   "constipation",
+   "left lower quadrant tenderness",
+   "guarding",
+   "normal bowel sounds",
+   "no nausea",
+   "no vomiting",
+   "no urinary symptoms",
+   "no bloody stools"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "leiomyomata uteri",
+   "obesity"
+  ],
+  "procedures": [
+   "total abdominal hysterectomy",
+   "bilateral salpingo-oophorectomy"
+  ],
+  "drugs": [
+   "amoxicillin-clavulanate",
+   "metronidazole"
+  ],
+  "lab_findings": [
+   "temperature 38.1 C",
+   "blood pressure 150/80 mm Hg",
+   "BMI 32 kg/m2",
+   "leukocyte count 15000/mm3",
+   "negative occult blood",
+   "hemoglobin 14.5 g/dL",
+   "platelet count 280000/mm3",
+   "normal serum studies",
+   "normal urinalysis"
+  ]
+ },
+ "mmlu_0022": {
+  "symptoms_signs": [
+   "prepubescent"
+  ],
+  "diseases_mentioned": [
+   "Turner syndrome",
+   "coarctation of the aorta"
+  ],
+  "procedures": [
+   "work-up"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0023": {
+  "symptoms_signs": [
+   "word-finding difficulty",
+   "weakness of right arm",
+   "weakness of right leg",
+   "sensory loss of right arm",
+   "sensory loss of right leg",
+   "nonfluent aphasia",
+   "right upper extremity weakness",
+   "right lower extremity weakness",
+   "decreased sensation",
+   "right Babinski sign",
+   "irregular pulse",
+   "hypertension"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus",
+   "hypertension",
+   "atrial fibrillation"
+  ],
+  "procedures": [],
+  "drugs": [
+   "metformin",
+   "lisinopril",
+   "aspirin"
+  ],
+  "lab_findings": [
+   "serum glucose 162 mg/dL"
+  ]
+ },
+ "mmlu_0021": {
+  "symptoms_signs": [
+   "vaginal bleeding",
+   "bleeding every 2 weeks",
+   "passage of clots",
+   "normal-sized uterus",
+   "ovaries cannot be palpated",
+   "negative stool occult blood"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "negative stool occult blood"
+  ]
+ },
+ "mmlu_0024": {
+  "symptoms_signs": [
+   "mildly elevated blood pressure",
+   "third-stage blood loss",
+   "blood pressure 132/84 mm Hg",
+   "afebrile",
+   "normal deep tendon reflexes",
+   "firm uterine fundus",
+   "fundus at umbilicus",
+   "slightly edematous perineum",
+   "normal bonding"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "delivers baby girl"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "hematocrit 33%"
+  ]
+ },
+ "mmlu_0025": {
+  "symptoms_signs": [
+   "exercise-induced cough",
+   "nasal congestion",
+   "nonproductive cough",
+   "cough with running",
+   "cough resolves with rest"
+  ],
+  "diseases_mentioned": [
+   "asthma"
+  ],
+  "procedures": [
+   "spirometry",
+   "pulse oximetry",
+   "chest x-ray"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "oxygen saturation 99%",
+   "normal chest x-ray",
+   "FEV1:FVC ratio 90%",
+   "FEV1 90% predicted"
+  ]
+ },
+ "mmlu_0028": {
+  "symptoms_signs": [
+   "10 mm induration",
+   "puncture site induration",
+   "otherwise normal exam",
+   "healthy child"
+  ],
+  "diseases_mentioned": [
+   "homelessness"
+  ],
+  "procedures": [
+   "PPD skin test",
+   "routine screening"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "10 mm induration"
+  ]
+ },
+ "mmlu_0029": {
+  "symptoms_signs": [
+   "aphasia",
+   "right-sided hemiparesis",
+   "urinary incontinence"
+  ],
+  "diseases_mentioned": [
+   "urinary tract infection"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0030": {
+  "symptoms_signs": [
+   "severe right back pain",
+   "3-day history",
+   "tearful",
+   "demands MRI",
+   "fears cancer",
+   "normal examination",
+   "no fever",
+   "no chills",
+   "no weight loss",
+   "no neurologic abnormalities"
+  ],
+  "diseases_mentioned": [
+   "breast cancer",
+   "bone metastasis"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0031": {
+  "symptoms_signs": [
+   "severe pelvic pain",
+   "bruising of perineum",
+   "pain with pelvic motion",
+   "blood at urethral meatus",
+   "no penile trauma"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "retrograde urethrography"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "fracture of superior pubic ramus"
+  ]
+ },
+ "mmlu_0027": {
+  "symptoms_signs": [
+   "genetic counseling",
+   "prior to conception"
+  ],
+  "diseases_mentioned": [
+   "Duchenne muscular dystrophy"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "creatine kinase 120 U/L",
+   "creatine kinase 300 U/L"
+  ]
+ },
+ "mmlu_0032": {
+  "symptoms_signs": [
+   "chronic pelvic pain"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "hysterectomy",
+   "physical examination",
+   "CT scan"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "surgical sponge in pelvis"
+  ]
+ },
+ "mmlu_0033": {
+  "symptoms_signs": [
+   "leg pain",
+   "pain with weight-bearing",
+   "thin appearance",
+   "bilateral basilar crackles",
+   "left hip pain",
+   "pain with range of motion"
+  ],
+  "diseases_mentioned": [
+   "sarcoidosis"
+  ],
+  "procedures": [],
+  "drugs": [
+   "glucocorticoid therapy"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0036": {
+  "symptoms_signs": [
+   "black nipple discharge",
+   "right nipple discharge",
+   "increased glandularity",
+   "upper outer quadrant",
+   "scant black discharge"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "mammography",
+   "breast ultrasonography"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "likely benign findings"
+  ]
+ },
+ "mmlu_0034": {
+  "symptoms_signs": [
+   "increased lethargy",
+   "decreased ambulation",
+   "increased tremors",
+   "fever",
+   "appears ill",
+   "older than stated age",
+   "lethargic",
+   "masked facies",
+   "bradykinesia",
+   "cogwheel rigidity",
+   "rhonchi",
+   "orthostatic hypotension"
+  ],
+  "diseases_mentioned": [
+   "Parkinson disease",
+   "pneumonia",
+   "hypertension"
+  ],
+  "procedures": [
+   "intravenous antibiotic therapy"
+  ],
+  "drugs": [
+   "hydrochlorothiazide",
+   "atenolol",
+   "levodopa",
+   "carbidopa"
+  ],
+  "lab_findings": [
+   "right lower lobe infiltrate",
+   "supine blood pressure 100/60 mm Hg",
+   "standing blood pressure 80/50 mm Hg",
+   "temperature 38.9\u00b0C",
+   "pulse 60/min supine",
+   "pulse 68/min standing"
+  ]
+ },
+ "mmlu_0037": {
+  "symptoms_signs": [
+   "progressive diarrhea",
+   "weight loss",
+   "watery stools",
+   "scaphoid abdomen"
+  ],
+  "diseases_mentioned": [
+   "AIDS"
+  ],
+  "procedures": [],
+  "drugs": [
+   "triple antiretroviral therapy"
+  ],
+  "lab_findings": [
+   "CD4+ T-lymphocyte count 400/mm3"
+  ]
+ },
+ "mmlu_0035": {
+  "symptoms_signs": [
+   "increasing shortness of breath",
+   "sore throat",
+   "productive cough",
+   "white phlegm",
+   "nausea",
+   "excess coughing",
+   "weight loss",
+   "thin appearance",
+   "right supraclavicular lymph node"
+  ],
+  "diseases_mentioned": [
+   "asthma",
+   "tobacco use"
+  ],
+  "procedures": [
+   "chest x-ray",
+   "chest CT scan",
+   "lung mass biopsy"
+  ],
+  "drugs": [
+   "theophylline",
+   "inhaled beta-adrenergic agonists",
+   "inhaled corticosteroids"
+  ],
+  "lab_findings": [
+   "large right lower lobe density",
+   "7.5 cm right lower lobe mass",
+   "scattered calcifications",
+   "right lower peritracheal lymph nodes",
+   "precarinal lymph nodes",
+   "right hilar lymph nodes",
+   "subcarinal lymph nodes",
+   "1.5-cm right adrenal mass"
+  ]
+ },
+ "mmlu_0039": {
+  "symptoms_signs": [
+   "seizure",
+   "confusion",
+   "word-finding difficulty",
+   "headache",
+   "cough",
+   "fever",
+   "hyperreflexia",
+   "short-term memory deficits",
+   "difficulty naming objects",
+   "literal paraphasic errors"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "lumbar puncture"
+  ],
+  "drugs": [
+   "acetaminophen",
+   "dextromethorphan"
+  ],
+  "lab_findings": [
+   "temperature 38.9 C",
+   "bitemporal hyperintensities",
+   "erythrocyte count 340/mm3",
+   "leukocyte count 121/mm3",
+   "88% monocytes",
+   "protein 78 mg/dL"
+  ]
+ },
+ "mmlu_0040": {
+  "symptoms_signs": [
+   "increased facial hair growth",
+   "amenorrhea",
+   "temporal balding",
+   "coarse dark hair",
+   "clitoral enlargement",
+   "ovarian mass"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "pelvic examination",
+   "pelvic ultrasonography"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "increased serum testosterone",
+   "normal androstenedione",
+   "normal dehydroepiandrosterone",
+   "normal urinary 17-ketosteroids",
+   "12-cm ovarian mass"
+  ]
+ },
+ "mmlu_0041": {
+  "symptoms_signs": [
+   "syncopal event",
+   "systolic murmur",
+   "right upper sternal border",
+   "radiation into neck"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0038": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "healthy 22-year-old man"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "serum glucose within reference range"
+  ]
+ },
+ "mmlu_0042": {
+  "symptoms_signs": [
+   "frostbite of both feet",
+   "black right toes",
+   "slightly febrile",
+   "progressively more confused",
+   "cellulitis in midfoot"
+  ],
+  "diseases_mentioned": [
+   "frostbite",
+   "cellulitis"
+  ],
+  "procedures": [
+   "hospital admission",
+   "rapid rewarming",
+   "protective care of feet"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0044": {
+  "symptoms_signs": [
+   "pain and swelling",
+   "right arm pain",
+   "right arm swelling",
+   "fever",
+   "edema",
+   "fluctuant erythematous lesion",
+   "extremely tender lesion",
+   "tender to palpation"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 38.3\u00b0C"
+  ]
+ },
+ "mmlu_0043": {
+  "symptoms_signs": [
+   "mid low back pain",
+   "right leg radiation",
+   "severe pain",
+   "unable to find comfortable position",
+   "sleeping in recliner",
+   "appears uncomfortable",
+   "stands during examination",
+   "positive straight-leg raise",
+   "loss of right ankle reflex"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0046": {
+  "symptoms_signs": [
+   "decreased range of motion",
+   "affected hand not healed",
+   "upset"
+  ],
+  "diseases_mentioned": [
+   "Dupuytren contracture"
+  ],
+  "procedures": [
+   "repair of Dupuytren contracture"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0045": {
+  "symptoms_signs": [
+   "feels well"
+  ],
+  "diseases_mentioned": [
+   "type 1 diabetes mellitus",
+   "breast cancer"
+  ],
+  "procedures": [
+   "follow-up examination",
+   "normal Pap smear",
+   "ophthalmologist visit"
+  ],
+  "drugs": [
+   "insulin"
+  ],
+  "lab_findings": [
+   "hemoglobin A1c 6.2%",
+   "fingerstick blood glucose 118 mg/dL",
+   "BMI 20 kg/m2"
+  ]
+ },
+ "mmlu_0026": {
+  "symptoms_signs": [
+   "burn on left leg",
+   "pink soft granular wound",
+   "edematous wound"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "follow-up examination",
+   "emergency department treatment"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0047": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "healthy animal kidney"
+  ],
+  "procedures": [
+   "vascular bath preparation",
+   "afferent arterial pressure"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "100 mm Hg"
+  ]
+ },
+ "mmlu_0051": {
+  "symptoms_signs": [
+   "diffuse weakness",
+   "tingling of arms and legs",
+   "weakness of extensor muscles",
+   "weakness of flexor muscles",
+   "exaggerated deep tendon reflexes",
+   "decreased vibration sense",
+   "decreased position sense"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0048": {
+  "symptoms_signs": [
+   "28 weeks gestation",
+   "uterus consistent with 28 weeks"
+  ],
+  "diseases_mentioned": [
+   "pregnancy",
+   "previous spontaneous abortion"
+  ],
+  "procedures": [
+   "prenatal visit",
+   "physical examination",
+   "fetal ultrasonography"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "O Rh-negative blood group",
+   "B Rh-positive blood group",
+   "male fetus",
+   "no abnormalities"
+  ]
+ },
+ "mmlu_0049": {
+  "symptoms_signs": [
+   "severe substernal chest pain",
+   "tearing chest pain",
+   "pain radiating to neck"
+  ],
+  "diseases_mentioned": [
+   "Marfan syndrome",
+   "aortic insufficiency",
+   "mitral regurgitation"
+  ],
+  "procedures": [],
+  "drugs": [
+   "aspirin"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0052": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "chronic myeloid leukemia",
+   "blast crisis"
+  ],
+  "procedures": [
+   "complete blood counts",
+   "bone marrow assessments"
+  ],
+  "drugs": [
+   "tyrosine kinase inhibitor"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0054": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "HIV infection"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0053": {
+  "symptoms_signs": [
+   "chest pain",
+   "shortness of breath",
+   "radiating left arm pain",
+   "diaphoresis",
+   "sinus tachycardia",
+   "elevated blood pressure"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "supplemental oxygen",
+   "aspirin",
+   "intravenous nitroglycerin",
+   "lorazepam"
+  ],
+  "lab_findings": [
+   "pulse 110/min",
+   "blood pressure 200/100 mm Hg",
+   "oxygen saturation 95%",
+   "sinus tachycardia",
+   "no ST-segment abnormalities",
+   "no T-wave abnormalities"
+  ]
+ },
+ "mmlu_0059": {
+  "symptoms_signs": [
+   "intermittent right scrotal swelling",
+   "swelling worse when crying",
+   "right inguinal hernia"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0058": {
+  "symptoms_signs": [
+   "paraplegia",
+   "lower extremity muscle atrophy",
+   "incontinence"
+  ],
+  "diseases_mentioned": [
+   "spina bifida",
+   "recurrent calcium oxalate kidney stones",
+   "detrusor dysfunction",
+   "bladder neck dysfunction",
+   "latex allergy"
+  ],
+  "procedures": [
+   "periodic self-catheterization",
+   "urologic procedure",
+   "previous bladder expansion surgery",
+   "bowel anastomosis"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "normal vital signs",
+   "lower abdominal surgical scars"
+  ]
+ },
+ "mmlu_0056": {
+  "symptoms_signs": [
+   "painless left scrotal mass",
+   "6-cm soft mass",
+   "nontender scrotal mass",
+   "transilluminates",
+   "no bowel sounds"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0060": {
+  "symptoms_signs": [
+   "dizziness",
+   "light-headedness",
+   "orthostatic symptoms",
+   "needs to steady herself",
+   "sinus bradycardia"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [
+   "glyburide",
+   "diuretic",
+   "\u03b2-adrenergic blocking agent",
+   "ACE inhibitor"
+  ],
+  "lab_findings": [
+   "pulse 55/min",
+   "blood pressure 110/70 mm Hg",
+   "blood pressure 70/50 mm Hg",
+   "blood pressure 50/30 mm Hg",
+   "sinus bradycardia",
+   "reverse flow in left vertebral artery"
+  ]
+ },
+ "mmlu_0061": {
+  "symptoms_signs": [
+   "amenorrhea",
+   "unconcerned about menses",
+   "emaciated",
+   "low BMI",
+   "bradycardia",
+   "hypotension",
+   "irregular menses"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "BMI 15 kg/m2",
+   "pulse 54/min",
+   "blood pressure 80/50 mm Hg",
+   "weight 40 kg",
+   "height 163 cm"
+  ]
+ },
+ "mmlu_0062": {
+  "symptoms_signs": [
+   "not yet talking",
+   "irritable",
+   "resists eye contact",
+   "flapping hands",
+   "25th percentile height",
+   "15th percentile weight",
+   "90th percentile head circumference"
+  ],
+  "diseases_mentioned": [
+   "learning difficulties",
+   "cognitive disabilities"
+  ],
+  "procedures": [
+   "well-child examination"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0064": {
+  "symptoms_signs": [
+   "right lower extremity edema",
+   "sudden onset shortness of breath",
+   "pleuritic chest pain"
+  ],
+  "diseases_mentioned": [
+   "pulmonary embolism"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0063": {
+  "symptoms_signs": [
+   "frequent upper respiratory infections",
+   "daily purulent sputum",
+   "decreased exercise tolerance",
+   "low sperm count",
+   "expiratory wheezing",
+   "rhonchi",
+   "hyperinflation",
+   "decreased FEV1:FVC ratio"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "decreased FEV1:FVC ratio",
+   "hyperinflation"
+  ]
+ },
+ "mmlu_0057": {
+  "symptoms_signs": [
+   "fever",
+   "warm red lumps",
+   "enlarged axillary lymph nodes",
+   "bilateral axillary lymphadenopathy",
+   "tender lymph nodes",
+   "fluctuant lymph nodes",
+   "movable lymph nodes"
+  ],
+  "diseases_mentioned": [
+   "chronic granulomatous disease"
+  ],
+  "procedures": [
+   "fine-needle aspirate"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "38\u00b0C fever",
+   "gram-positive cocci in clusters",
+   "yellow \u03b2-hemolytic colonies",
+   "catalase positive",
+   "coagulase positive",
+   "mecA-positive organisms"
+  ]
+ },
+ "mmlu_0068": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "active ankylosing spondylitis"
+  ],
+  "procedures": [],
+  "drugs": [
+   "nonsteroidal anti-inflammatory drugs",
+   "sulfasalazine"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0069": {
+  "symptoms_signs": [
+   "chronic achiness",
+   "stiffness",
+   "fatigue",
+   "bilateral tender points"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "normal radiograph findings",
+   "normal laboratory study results"
+  ]
+ },
+ "mmlu_0065": {
+  "symptoms_signs": [
+   "active labor",
+   "shortness of breath",
+   "cyanosis",
+   "unresponsive",
+   "absent pulse",
+   "undetectable blood pressure",
+   "bleeding from nose",
+   "bleeding from mouth",
+   "bleeding from intravenous sites"
+  ],
+  "diseases_mentioned": [
+   "mild asthma"
+  ],
+  "procedures": [
+   "vaginal delivery",
+   "resuscitation"
+  ],
+  "drugs": [
+   "inhaled bronchodilators"
+  ],
+  "lab_findings": [
+   "41 weeks gestation",
+   "100% effaced cervix",
+   "10 cm dilated cervix",
+   "vertex at -1 station",
+   "reactive fetal heart rate",
+   "prolonged deceleration to 60/min"
+  ]
+ },
+ "mmlu_0066": {
+  "symptoms_signs": [
+   "severe dyspnea",
+   "productive cough",
+   "tenacious brownishyellow sputum",
+   "pursed lips",
+   "cyanotic nail beds",
+   "increased anteroposterior diameter",
+   "scattered wheezes",
+   "rhonchi",
+   "muffled heart sounds",
+   "S4",
+   "clubbed fingers"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "antibiotic therapy"
+  ],
+  "lab_findings": [
+   "oxygen saturation 70%",
+   "hyperinflated lungs",
+   "flattened diaphragm",
+   "large irregular upper lobe opacities",
+   "eggshell calcifications of hilar lymph nodes"
+  ]
+ },
+ "mmlu_0067": {
+  "symptoms_signs": [
+   "8 weeks gestation",
+   "first prenatal visit",
+   "blood pressure 100/70 mm Hg",
+   "no abnormalities",
+   "twin intrauterine pregnancy"
+  ],
+  "diseases_mentioned": [
+   "iron deficiency anemia"
+  ],
+  "procedures": [
+   "ultrasonography",
+   "spontaneous delivery"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "dichorionic-diamniotic twin pregnancy",
+   "consistent with 8 weeks gestation",
+   "34 weeks gestation"
+  ]
+ },
+ "mmlu_0050": {
+  "symptoms_signs": [
+   "sudden palpitations",
+   "left-sided chest pain",
+   "light-headedness",
+   "shortness of breath",
+   "rapid heart rate",
+   "pain free",
+   "pulse 146/min",
+   "pulse 160/min",
+   "blood pressure 122/78 mm Hg"
+  ],
+  "diseases_mentioned": [
+   "paroxysmal atrial fibrillation",
+   "atrial fibrillation"
+  ],
+  "procedures": [
+   "oxygen via nasal cannula",
+   "intravenous metoprolol"
+  ],
+  "drugs": [
+   "metoprolol"
+  ],
+  "lab_findings": [
+   "ECG atrial fibrillation",
+   "narrow QRS complex"
+  ]
+ },
+ "mmlu_0070": {
+  "symptoms_signs": [
+   "stab wound to chest",
+   "unresponsive to painful stimuli",
+   "tachycardia",
+   "shallow respirations",
+   "hypotension",
+   "jugular venous distention",
+   "normal breath sounds",
+   "midline trachea",
+   "heart sounds not audible"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "intubation",
+   "mechanical ventilation",
+   "intravenous saline infusion"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0075": {
+  "symptoms_signs": [
+   "progressive shortness of breath",
+   "nonproductive cough",
+   "crackles in lower lung fields"
+  ],
+  "diseases_mentioned": [
+   "systemic sclerosis"
+  ],
+  "procedures": [
+   "pulmonary function tests",
+   "lung biopsy specimen"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "total lung capacity 80% predicted",
+   "DLCO 65% predicted"
+  ]
+ },
+ "mmlu_0073": {
+  "symptoms_signs": [
+   "fever",
+   "lymphadenopathy",
+   "arthralgias",
+   "erythema on hands",
+   "erythema on feet"
+  ],
+  "diseases_mentioned": [
+   "bone marrow failure"
+  ],
+  "procedures": [
+   "rabbit antithymocyte globulin treatment"
+  ],
+  "drugs": [
+   "rabbit antithymocyte globulin"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0074": {
+  "symptoms_signs": [
+   "COPD exacerbation",
+   "right-sided pneumothorax",
+   "air leak",
+   "restlessness",
+   "combative behavior",
+   "diminished right breath sounds",
+   "tachycardia"
+  ],
+  "diseases_mentioned": [
+   "chronic obstructive pulmonary disease",
+   "pneumothorax"
+  ],
+  "procedures": [
+   "mechanical ventilation",
+   "tube thoracostomy",
+   "portable chest x-ray"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "blood pressure 130/80 mm Hg"
+  ]
+ },
+ "mmlu_0071": {
+  "symptoms_signs": [
+   "severe epigastric pain",
+   "vomiting",
+   "epigastric tenderness"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "serum amylase 467 U/L",
+   "\u03b3-glutamyltransferase 212 U/L"
+  ]
+ },
+ "mmlu_0072": {
+  "symptoms_signs": [
+   "oozing foot wound",
+   "foul-smelling wound",
+   "necrotizing wound",
+   "purplish black discoloration",
+   "crepitant bullae",
+   "serous drainage"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [
+   "tissue biopsy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "gram-positive rods"
+  ]
+ },
+ "mmlu_0076": {
+  "symptoms_signs": [
+   "fever",
+   "chills",
+   "tachypnea",
+   "sore throat",
+   "swollen glands",
+   "severe malaise",
+   "respiratory complications",
+   "myocardial involvement"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "gram-positive rod isolated",
+   "respiratory tract isolate"
+  ]
+ },
+ "mmlu_0077": {
+  "symptoms_signs": [
+   "pounding heart",
+   "poor sleep",
+   "generalized restlessness",
+   "unable to concentrate",
+   "worries about ability to adapt",
+   "called in sick"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0081": {
+  "symptoms_signs": [
+   "upper respiratory tract infections",
+   "increased incidence of common cold"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0082": {
+  "symptoms_signs": [
+   "mood changes",
+   "anxious",
+   "hyperactive",
+   "unable to sleep",
+   "acutely depressed",
+   "anorectic",
+   "irritable",
+   "lethargic",
+   "normal physical exam",
+   "infertility"
+  ],
+  "diseases_mentioned": [
+   "closed fallopian tube"
+  ],
+  "procedures": [
+   "tuboplasty"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0080": {
+  "symptoms_signs": [
+   "severe anxiety",
+   "shortness of breath",
+   "palpitations",
+   "numbness in hands",
+   "numbness in feet"
+  ],
+  "diseases_mentioned": [
+   "panic attacks"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "normal vital signs",
+   "normal physical examination",
+   "normal thyroid function studies",
+   "normal ECG"
+  ]
+ },
+ "mmlu_0055": {
+  "symptoms_signs": [
+   "odor of alcohol",
+   "tired appearance",
+   "disheveled appearance",
+   "alcohol on breath"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0084": {
+  "symptoms_signs": [
+   "dysuria",
+   "yellow urethral exudate",
+   "urethritis"
+  ],
+  "diseases_mentioned": [
+   "recurrent urethritis"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "numerous neutrophils",
+   "intracellular gram-negative diplococci"
+  ]
+ },
+ "mmlu_0083": {
+  "symptoms_signs": [
+   "vaginal irritation",
+   "pain with urination",
+   "erythema of vulva",
+   "erythema of vagina",
+   "thick white vaginal discharge"
+  ],
+  "diseases_mentioned": [
+   "streptococcal pharyngitis"
+  ],
+  "procedures": [
+   "pelvic examination"
+  ],
+  "drugs": [
+   "amoxicillin"
+  ],
+  "lab_findings": [
+   "vaginal pH 4"
+  ]
+ },
+ "mmlu_0085": {
+  "symptoms_signs": [
+   "severe jaw pain",
+   "pain after dental procedure"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "dental procedure"
+  ],
+  "drugs": [
+   "codeine"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0086": {
+  "symptoms_signs": [
+   "systolic ejection murmur",
+   "grade 2/6 murmur",
+   "upper left sternal border",
+   "widely split S2",
+   "fixed split S2",
+   "soft mid-diastolic murmur",
+   "lower left sternal border"
+  ],
+  "diseases_mentioned": [
+   "healthy child"
+  ],
+  "procedures": [
+   "well-child examination"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0087": {
+  "symptoms_signs": [
+   "band-like burning pain",
+   "right upper abdominal pain",
+   "pain to midline back",
+   "no abdominal tenderness"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "ultrasonography of gallbladder"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "normal gallbladder ultrasound",
+   "normal serum amylase"
+  ]
+ },
+ "mmlu_0088": {
+  "symptoms_signs": [
+   "headaches",
+   "morning headaches",
+   "blurring of optic disc margins",
+   "no prior headache history"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "over-the-counter analgesics"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0089": {
+  "symptoms_signs": [
+   "acne",
+   "open comedones",
+   "closed comedones"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0091": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "hypertension"
+  ],
+  "procedures": [
+   "randomized controlled trial"
+  ],
+  "drugs": [
+   "Drug X",
+   "standard antihypertensive therapy"
+  ],
+  "lab_findings": [
+   "blood pressure 150/95 mm Hg",
+   "blood pressure below 140/90 mm Hg"
+  ]
+ },
+ "mmlu_0093": {
+  "symptoms_signs": [
+   "persistent nonproductive cough",
+   "no fever",
+   "no weight loss",
+   "normal examination",
+   "normal chest x-ray"
+  ],
+  "diseases_mentioned": [
+   "hypertension"
+  ],
+  "procedures": [],
+  "drugs": [
+   "enalapril"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0090": {
+  "symptoms_signs": [
+   "nasal stuffiness",
+   "clear rhinorrhea",
+   "mild sore throat",
+   "feeling hot",
+   "fever",
+   "left maxillary sinus tenderness",
+   "clear fluid behind tympanic membrane",
+   "enlarged tonsils",
+   "pain with tapping upper incisors",
+   "left frontal sinus nontransilluminating"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "oral contraceptive"
+  ],
+  "lab_findings": [
+   "temperature 38.1 C",
+   "pulse 88/min",
+   "respirations 16/min",
+   "blood pressure 116/74 mm Hg",
+   "BMI 22 kg/m2"
+  ]
+ },
+ "mmlu_0095": {
+  "symptoms_signs": [
+   "increasing left foot pain",
+   "left lower extremity pallor",
+   "weak popliteal pulse",
+   "cool pulseless foot",
+   "clean well-approximated incision"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus",
+   "claudication"
+  ],
+  "procedures": [
+   "left femoral-popliteal bypass grafting"
+  ],
+  "drugs": [
+   "low-dose morphine",
+   "metformin"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0094": {
+  "symptoms_signs": [
+   "arm injury",
+   "fall from tree",
+   "extremely active",
+   "likes to climb",
+   "running wildly",
+   "talking excessively",
+   "out of seat",
+   "forgets homework",
+   "dislocated left shoulder",
+   "healing abrasions",
+   "ecchymoses",
+   "neutral affect",
+   "likes to run",
+   "climb trees"
+  ],
+  "diseases_mentioned": [
+   "attention-deficit hyperactivity disorder"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0092": {
+  "symptoms_signs": [
+   "progressive fatigue",
+   "ankle swelling",
+   "shortness of breath",
+   "mild exertion",
+   "jugular venous pulsations",
+   "crackles at lung bases",
+   "S3 gallop",
+   "bilateral lower leg edema"
+  ],
+  "diseases_mentioned": [
+   "anterior myocardial infarction"
+  ],
+  "procedures": [],
+  "drugs": [
+   "labetalol",
+   "daily aspirin"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0098": {
+  "symptoms_signs": [
+   "progressive numbness",
+   "numbness in hands",
+   "numbness in feet",
+   "weakness in legs",
+   "weakness when standing",
+   "areflexia"
+  ],
+  "diseases_mentioned": [
+   "non-Hodgkin lymphoma"
+  ],
+  "procedures": [
+   "chemotherapy"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0078": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "prostate cancer",
+   "chronic prostatitis"
+  ],
+  "procedures": [
+   "blood test",
+   "needle biopsy of prostate gland"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "serum prostate-specific antigen greater than 5 ng/mL",
+   "normal PSA less than 4 ng/mL"
+  ]
+ },
+ "mmlu_0079": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "berates nurses",
+   "berates staff",
+   "disgust toward missing child"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0100": {
+  "symptoms_signs": [
+   "sudden shortness of breath",
+   "severe chest pain",
+   "sweating",
+   "tachycardia",
+   "tachypnea",
+   "diastolic blowing murmur",
+   "decreased femoral pulses",
+   "left ventricular hypertrophy"
+  ],
+  "diseases_mentioned": [
+   "hypertension"
+  ],
+  "procedures": [],
+  "drugs": [
+   "hydrochlorothiazide"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0099": {
+  "symptoms_signs": [
+   "excessive daytime sleepiness",
+   "falls asleep early evening",
+   "fell asleep while driving",
+   "loud snoring",
+   "choking during sleep",
+   "gasping for breath",
+   "obesity",
+   "elevated blood pressure"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "BMI 33 kg/m2",
+   "blood pressure 150/76 mm Hg"
+  ]
+ },
+ "mmlu_0102": {
+  "symptoms_signs": [
+   "sudden loss of vision",
+   "right eye vision loss",
+   "no diplopia",
+   "normal external ocular movements",
+   "pallor of optic disk"
+  ],
+  "diseases_mentioned": [
+   "multiple sclerosis"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0104": {
+  "symptoms_signs": [
+   "severe back pain",
+   "abdominal pain",
+   "mild vaginal bleeding"
+  ],
+  "diseases_mentioned": [
+   "ectopic pregnancy"
+  ],
+  "procedures": [
+   "ultrasonography"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "2-cm ectopic pregnancy",
+   "ampulla rupture"
+  ]
+ },
+ "mmlu_0103": {
+  "symptoms_signs": [
+   "progressive lower abdominal pain",
+   "fever",
+   "malodorous vaginal discharge",
+   "severe lower quadrant tenderness",
+   "purulent cervical discharge",
+   "cervical motion tenderness",
+   "bilateral adnexal tenderness"
+  ],
+  "diseases_mentioned": [
+   "previously healthy"
+  ],
+  "procedures": [
+   "pelvic examination",
+   "urine pregnancy test"
+  ],
+  "drugs": [
+   "combination contraceptive patch"
+  ],
+  "lab_findings": [
+   "temperature 37.8 C",
+   "hemoglobin 10.5 g/dL",
+   "leukocyte count 13,000/mm3",
+   "platelet count 345,000/mm3",
+   "negative urine pregnancy test"
+  ]
+ },
+ "mmlu_0105": {
+  "symptoms_signs": [
+   "no chest pain",
+   "high-stress lifestyle",
+   "fast food diet",
+   "mild obesity",
+   "normal vital signs"
+  ],
+  "diseases_mentioned": [
+   "family history of early CAD",
+   "myocardial infarction",
+   "tension headaches"
+  ],
+  "procedures": [],
+  "drugs": [
+   "acetaminophen"
+  ],
+  "lab_findings": [
+   "fasting serum total cholesterol 249 mg/dL",
+   "BMI 28 kg/m2"
+  ]
+ },
+ "mmlu_0096": {
+  "symptoms_signs": [
+   "progressive weakness",
+   "purple-red facial discoloration",
+   "cheek discoloration",
+   "upper eyelid discoloration",
+   "unable to climb stairs",
+   "unable to walk long distances",
+   "unable to comb hair",
+   "unable to dress himself",
+   "weak appearance",
+   "lethargic",
+   "periorbital edema",
+   "erythematous plaques",
+   "scales over elbows",
+   "scales over knees",
+   "flat-topped red papules",
+   "knuckle papules",
+   "generalized weakness",
+   "proximal muscle atrophy"
+  ],
+  "diseases_mentioned": [
+   "dry scaly skin patches"
+  ],
+  "procedures": [],
+  "drugs": [
+   "topical corticosteroid"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0106": {
+  "symptoms_signs": [
+   "copious vaginal discharge",
+   "foul-smelling vaginal discharge",
+   "spotting",
+   "heavy bleeding",
+   "friable cervix",
+   "1-cm exophytic cervical mass",
+   "normal vaginal mucosa"
+  ],
+  "diseases_mentioned": [
+   "abnormal Pap smear"
+  ],
+  "procedures": [
+   "Pap smear",
+   "speculum examination",
+   "vasectomy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "BMI 32 kg/m2",
+   "blood pressure 155/96 mm Hg",
+   "temperature 37.2\u00b0C",
+   "pulse 90/min",
+   "respirations 14/min"
+  ]
+ },
+ "mmlu_0107": {
+  "symptoms_signs": [
+   "heat intolerance",
+   "weight loss",
+   "tachycardia",
+   "diffuse goiter",
+   "exophthalmos",
+   "periorbital inflammation",
+   "conjunctival inflammation",
+   "heart rate 140/min",
+   "warm velvety skin"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0108": {
+  "symptoms_signs": [
+   "bloody nose",
+   "nasal bleeding",
+   "bleeding from nares",
+   "blood pressure 180/90",
+   "septal mucosa bleeding",
+   "right naris bleeding"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "blood pressure 180/90 mmHg"
+  ]
+ },
+ "mmlu_0109": {
+  "symptoms_signs": [
+   "recurrent widespread blister formation",
+   "flexural lesions",
+   "axillae involvement",
+   "groin involvement",
+   "blisters do not break easily",
+   "no oral lesions"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0110": {
+  "symptoms_signs": [
+   "fever",
+   "anterior cervical lymphadenopathy",
+   "bilateral nonexudative conjunctivitis",
+   "strawberry tongue",
+   "erythematous truncal rash",
+   "edema of hands",
+   "edema of feet"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 39.4 C",
+   "fever for 8 days"
+  ]
+ },
+ "mmlu_0113": {
+  "symptoms_signs": [
+   "fever",
+   "rhonchi",
+   "malnourished",
+   "quadriparesis",
+   "sacral erythema"
+  ],
+  "diseases_mentioned": [
+   "multiple sclerosis",
+   "quadriplegia",
+   "left lower lobe pneumonia"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "negative stool occult blood"
+  ]
+ },
+ "mmlu_0111": {
+  "symptoms_signs": [
+   "fatigue",
+   "generalized aching",
+   "proximal muscle weakness",
+   "difficulty climbing into car",
+   "difficulty combing hair",
+   "joint aching",
+   "cracking skin of hands",
+   "tender upper arm muscles",
+   "tender leg muscles",
+   "appears uncomfortable"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "ibuprofen"
+  ],
+  "lab_findings": [
+   "creatine kinase 600 U/L",
+   "lactate dehydrogenase 800 U/L",
+   "complete blood count normal"
+  ]
+ },
+ "mmlu_0112": {
+  "symptoms_signs": [
+   "sudden-onset right knee swelling",
+   "no trauma",
+   "fluctuance of the joint",
+   "no increased warmth",
+   "mild restricted range of motion",
+   "numerous bruises",
+   "easy bruising",
+   "bleeding from gums"
+  ],
+  "diseases_mentioned": [
+   "cystic fibrosis"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0097": {
+  "symptoms_signs": [
+   "fever",
+   "chills",
+   "malaise",
+   "vulvar pain",
+   "vulvar pustule",
+   "ulcerated lesion",
+   "multiple satellite lesions",
+   "inguinal nodes",
+   "femoral nodes"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "smear of lesion fluid"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0115": {
+  "symptoms_signs": [
+   "nausea",
+   "vomiting",
+   "blood in vomit",
+   "stress",
+   "high coffee intake"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0118": {
+  "symptoms_signs": [
+   "moderate hemorrhaging"
+  ],
+  "diseases_mentioned": [
+   "thyroid cancer"
+  ],
+  "procedures": [
+   "radical thyroidectomy",
+   "ligation of vessels"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "calcium 7.5 mg/dL",
+   "albumin 4 g/dL",
+   "parathyroid hormone 200 pg/mL"
+  ]
+ },
+ "mmlu_0117": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "hip fractures"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "relative risk ratio 1.2",
+   "95% confidence interval 1.1 to 1.8"
+  ]
+ },
+ "mmlu_0116": {
+  "symptoms_signs": [
+   "circumoral numbness",
+   "fingertip paresthesias",
+   "anxiety",
+   "dry neck dressing",
+   "no stridor",
+   "warm extremities",
+   "brisk capillary refill"
+  ],
+  "diseases_mentioned": [
+   "follicular carcinoma"
+  ],
+  "procedures": [
+   "total thyroidectomy",
+   "excision of left jugular lymph nodes"
+  ],
+  "drugs": [
+   "intravenous 5% dextrose",
+   "0.45% saline",
+   "potassium"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0101": {
+  "symptoms_signs": [
+   "shortness of breath",
+   "hives",
+   "angioedema",
+   "blood pressure 160/100 mm Hg",
+   "pulse 100/min"
+  ],
+  "diseases_mentioned": [
+   "untreated hypertension"
+  ],
+  "procedures": [
+   "influenza virus vaccination"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "blood pressure 160/100 mm Hg",
+   "pulse 100/min"
+  ]
+ },
+ "mmlu_0119": {
+  "symptoms_signs": [
+   "hand pain",
+   "hand stiffness",
+   "wrist pain",
+   "wrist stiffness",
+   "knee pain",
+   "knee stiffness",
+   "fatigue",
+   "weight loss",
+   "drop attacks",
+   "leg weakness",
+   "loss of feeling",
+   "urinary incontinence",
+   "facial plethora",
+   "swollen metacarpophalangeal joints",
+   "painful metacarpophalangeal joints",
+   "swollen knee joints",
+   "painful knee joints",
+   "ulnar deviation"
+  ],
+  "diseases_mentioned": [
+   "rheumatoid arthritis"
+  ],
+  "procedures": [],
+  "drugs": [
+   "aspirin",
+   "ibuprofen"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0114": {
+  "symptoms_signs": [
+   "pregnant",
+   "19 weeks pregnant"
+  ],
+  "diseases_mentioned": [
+   "classic hemophilia"
+  ],
+  "procedures": [
+   "prenatal examination",
+   "karyotype",
+   "amniotic fluid sample"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "fetus is XY"
+  ]
+ },
+ "mmlu_0121": {
+  "symptoms_signs": [
+   "fever",
+   "sore throat",
+   "itchy eyes",
+   "tired appearance",
+   "conjunctival injection",
+   "conjunctival discharge",
+   "oropharyngeal erythema"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 39.4 C"
+  ]
+ },
+ "mmlu_0123": {
+  "symptoms_signs": [
+   "blank stare",
+   "flat facial expression",
+   "catatonic",
+   "rigidity",
+   "hostile behavior",
+   "attempts assault"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0120": {
+  "symptoms_signs": [
+   "refuses insulin injections",
+   "medical condition declined",
+   "no longer wishes to live",
+   "nearly blind",
+   "likely bilateral leg amputations",
+   "no family",
+   "friends sick or deceased",
+   "alert and cooperative",
+   "understands consequences",
+   "no evidence of depression"
+  ],
+  "diseases_mentioned": [
+   "diabetic ketoacidosis",
+   "blindness"
+  ],
+  "procedures": [
+   "hospitalization"
+  ],
+  "drugs": [
+   "insulin"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0122": {
+  "symptoms_signs": [
+   "nauseated",
+   "light-headed",
+   "vomits bright red blood",
+   "difficult to arouse",
+   "hypotension",
+   "tachycardia"
+  ],
+  "diseases_mentioned": [
+   "esophageal varices",
+   "alcohol-related cirrhosis",
+   "ascites"
+  ],
+  "procedures": [
+   "intravenous fluids"
+  ],
+  "drugs": [
+   "spironolactone"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0124": {
+  "symptoms_signs": [
+   "increased urination",
+   "occasional urinary incontinence",
+   "anxiety about flying",
+   "panicky feeling",
+   "mild symptoms before examinations"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "oral contraceptive"
+  ],
+  "lab_findings": [
+   "normal urinalysis",
+   "normal urine culture",
+   "normal vital signs",
+   "normal physical examination"
+  ]
+ },
+ "mmlu_0125": {
+  "symptoms_signs": [
+   "mild bowlegs",
+   "10-degree genu varum"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0126": {
+  "symptoms_signs": [
+   "fainting episodes",
+   "fatigue",
+   "cannon a waves",
+   "pulse 40/min",
+   "P-wave rate 90/min",
+   "R-wave rate 40/min",
+   "AV dissociation"
+  ],
+  "diseases_mentioned": [
+   "myocardial infarction"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "P-wave rate 90/min",
+   "R-wave rate 40/min",
+   "no relation between waves"
+  ]
+ },
+ "mmlu_0128": {
+  "symptoms_signs": [
+   "increased anxiety",
+   "abdominal discomfort",
+   "irritability",
+   "difficulty concentrating",
+   "dry skin",
+   "dry hair",
+   "appears anxious",
+   "glancing around quickly",
+   "sinus tachycardia"
+  ],
+  "diseases_mentioned": [
+   "hypothyroidism",
+   "exercise-induced asthma"
+  ],
+  "procedures": [],
+  "drugs": [
+   "levothyroxine",
+   "over-the-counter inhaler"
+  ],
+  "lab_findings": [
+   "leukocyte count 12,000/mm3",
+   "serum TSH 5.0 \u03bcU/mL"
+  ]
+ },
+ "mmlu_0132": {
+  "symptoms_signs": [
+   "persistent watery diarrhea",
+   "dry mucous membranes",
+   "slightly distended abdomen"
+  ],
+  "diseases_mentioned": [
+   "enteritis",
+   "dehydration"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0130": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "constipation",
+   "picky eater",
+   "request for laxative"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "BMI 18 kg/m2",
+   "weight 43 kg",
+   "height 158 cm",
+   "pulse 65/min"
+  ]
+ },
+ "mmlu_0131": {
+  "symptoms_signs": [
+   "inadequate glucose control",
+   "fatigue",
+   "irritability",
+   "feelings of hopelessness",
+   "noncompliance with diabetic regimen",
+   "avoiding family and friends",
+   "lonely",
+   "did not get out of bed",
+   "tired",
+   "restricted affect"
+  ],
+  "diseases_mentioned": [
+   "type 1 diabetes mellitus",
+   "depressive disorder"
+  ],
+  "procedures": [
+   "hospital admission"
+  ],
+  "drugs": [
+   "insulin"
+  ],
+  "lab_findings": [
+   "fasting serum glucose 120 mg/dL",
+   "BMI 36 kg/m2",
+   "blood pressure 150/85 mm Hg"
+  ]
+ },
+ "mmlu_0129": {
+  "symptoms_signs": [
+   "recurrent low back pain"
+  ],
+  "diseases_mentioned": [
+   "gestational diabetes mellitus",
+   "obesity"
+  ],
+  "procedures": [],
+  "drugs": [
+   "oral contraceptive"
+  ],
+  "lab_findings": [
+   "BMI 37 kg/m2"
+  ]
+ },
+ "mmlu_0133": {
+  "symptoms_signs": [
+   "active labor",
+   "regular contractions",
+   "weak contractions",
+   "intermittent contractions",
+   "fetal head engaged",
+   "membranes intact",
+   "normal fetal heart tones",
+   "100% effaced cervix",
+   "7 cm dilated cervix"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "pain medication"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0134": {
+  "symptoms_signs": [
+   "object protruding from bottom",
+   "difficulty passing stools",
+   "fear of worsening bowel movement"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0136": {
+  "symptoms_signs": [
+   "persistent dull headache",
+   "trouble focusing",
+   "insomnia",
+   "mild photophobia",
+   "serous middle ear effusion",
+   "stiff neck",
+   "painful neck flexion",
+   "electric shock sensation",
+   "expiratory wheezes",
+   "midsystolic click",
+   "striae",
+   "bilateral varicosities",
+   "lower extremity edema",
+   "muscle strength 4/5"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "acetaminophen"
+  ],
+  "lab_findings": [
+   "blood pressure 182/100 mm Hg"
+  ]
+ },
+ "mmlu_0127": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "major depressive disorder"
+  ],
+  "procedures": [
+   "2-week hospitalization"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0135": {
+  "symptoms_signs": [
+   "unconscious on floor",
+   "unable to provide history",
+   "erythema of upper back",
+   "warmth of upper back",
+   "induration of upper back",
+   "erythema of buttocks",
+   "warmth of buttocks",
+   "induration of buttocks",
+   "erythema of posterior thighs",
+   "warmth of posterior thighs",
+   "induration of posterior thighs"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "creatine kinase 10,300 U/L",
+   "urine toxicology positive opiates",
+   "urine toxicology positive cocaine",
+   "urine dipstick strongly positive blood",
+   "pigmented granular casts",
+   "rare erythrocytes"
+  ]
+ },
+ "mmlu_0139": {
+  "symptoms_signs": [
+   "nausea",
+   "vomiting",
+   "diarrhea",
+   "confused",
+   "agitated",
+   "tachycardia",
+   "tachypnea",
+   "hypotension",
+   "delayed capillary refill",
+   "cool extremities",
+   "low central venous oxygen saturation"
+  ],
+  "diseases_mentioned": [
+   "mild hypertension"
+  ],
+  "procedures": [],
+  "drugs": [
+   "diuretic"
+  ],
+  "lab_findings": [
+   "central venous oxyhemoglobin saturation 60%"
+  ]
+ },
+ "mmlu_0138": {
+  "symptoms_signs": [
+   "nontender penile lesions",
+   "sessile flesh-colored lesions",
+   "penile shaft lesions",
+   "no lymphadenopathy"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "lesions turn white with acetic acid"
+  ]
+ },
+ "mmlu_0137": {
+  "symptoms_signs": [
+   "sexual intercourse",
+   "various partners",
+   "no condom use",
+   "behavior concern",
+   "sullen mood",
+   "defiant behavior",
+   "rebellious behavior",
+   "smoking cigarettes",
+   "disobeying curfew",
+   "school truancy"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0142": {
+  "symptoms_signs": [
+   "nausea",
+   "vomiting",
+   "unable to eat"
+  ],
+  "diseases_mentioned": [
+   "cholecystitis",
+   "protracted ileus"
+  ],
+  "procedures": [
+   "cholecystectomy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "body mass index 23 kg/m2"
+  ]
+ },
+ "mmlu_0141": {
+  "symptoms_signs": [
+   "sluggish response to stimuli",
+   "polyuria",
+   "polydipsia"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "desmopressin"
+  ],
+  "lab_findings": [
+   "linear nondepressed basal skull fracture",
+   "serum glucose within reference range",
+   "increased serum osmolality",
+   "decreased urine osmolality",
+   "urine osmolality increases"
+  ]
+ },
+ "mmlu_0140": {
+  "symptoms_signs": [
+   "urticaria",
+   "lip swelling",
+   "difficulty breathing"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0143": {
+  "symptoms_signs": [
+   "nervousness",
+   "dizziness",
+   "palpitations",
+   "excess perspiration",
+   "recurrent episodes",
+   "stress"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "intravenous glucose administration"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "serum glucose 30 mg/dL"
+  ]
+ },
+ "mmlu_0146": {
+  "symptoms_signs": [
+   "midthoracic back pain"
+  ],
+  "diseases_mentioned": [
+   "breast cancer",
+   "metastatic carcinoma to bone"
+  ],
+  "procedures": [
+   "radiation",
+   "chemotherapy"
+  ],
+  "drugs": [
+   "analgesic agents"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0145": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "sickle cell disease",
+   "type 1 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [
+   "insulin"
+  ],
+  "lab_findings": [
+   "home fingerstick blood glucose 140-200 mg/dL",
+   "hemoglobin A1c 5.4%"
+  ]
+ },
+ "mmlu_0149": {
+  "symptoms_signs": [
+   "cocaine dependency",
+   "thin man"
+  ],
+  "diseases_mentioned": [
+   "aggravated robbery",
+   "assault and battery"
+  ],
+  "procedures": [],
+  "drugs": [
+   "cocaine"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0147": {
+  "symptoms_signs": [
+   "fever"
+  ],
+  "diseases_mentioned": [
+   "small cell carcinoma"
+  ],
+  "procedures": [
+   "chemotherapy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 38\u00b0C",
+   "leukocyte count 100/mm3",
+   "5% segmented neutrophils",
+   "95% lymphocytes"
+  ]
+ },
+ "mmlu_0148": {
+  "symptoms_signs": [
+   "nausea",
+   "intermittent diarrhea",
+   "weight loss",
+   "migrating serpiginous pruritic perianal rash",
+   "eosinophilia"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "leukocyte count 8000/mm3",
+   "20% eosinophils"
+  ]
+ },
+ "mmlu_0151": {
+  "symptoms_signs": [
+   "nonradiating low back pain",
+   "paravertebral muscle spasm",
+   "limited range of motion",
+   "negative straight-leg raising"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0150": {
+  "symptoms_signs": [
+   "embarrassed about breasts",
+   "breast enlargement",
+   "bilateral breast masses",
+   "normal penis",
+   "normal testes",
+   "pubic hair Tanner 3"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "gonadotropic hormones normal",
+   "estrogens normal",
+   "testosterone normal"
+  ]
+ },
+ "mmlu_0144": {
+  "symptoms_signs": [
+   "intermittent shooting pain",
+   "right cheek pain",
+   "right jaw pain",
+   "brief pain episodes",
+   "pain triggered by cold air",
+   "pain triggered by chewing",
+   "pain triggered by tactile stimulation",
+   "pain triggered by brushing teeth",
+   "facial touch intolerance",
+   "no facial weakness",
+   "no sensory loss"
+  ],
+  "diseases_mentioned": [
+   "tension headaches",
+   "obesity"
+  ],
+  "procedures": [
+   "gastric bypass surgery",
+   "CT scan of head"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "normal vital signs",
+   "normal head CT"
+  ]
+ },
+ "mmlu_0152": {
+  "symptoms_signs": [
+   "lower abdominal pain",
+   "nausea",
+   "fever",
+   "abdominal tenderness",
+   "rebound",
+   "guarding",
+   "leukorrhea",
+   "uterine tenderness",
+   "adnexal tenderness"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 38.3\u00b0C"
+  ]
+ },
+ "mmlu_0153": {
+  "symptoms_signs": [
+   "expressionless face",
+   "flexed posture",
+   "unable to open mouth wide",
+   "skin thickening",
+   "skin hardening",
+   "dorsum of hands",
+   "forearms",
+   "mild kyphosis",
+   "slow deliberate gait"
+  ],
+  "diseases_mentioned": [
+   "rheumatoid arthritis",
+   "Parkinson disease"
+  ],
+  "procedures": [
+   "preoperative evaluation",
+   "laparoscopic cholecystectomy"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0154": {
+  "symptoms_signs": [
+   "palpable thyroid nodule"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "preemployment physical examination",
+   "thyroid ultrasonography"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "normal thyroid-stimulating hormone",
+   "solid 1-cm thyroid nodule"
+  ]
+ },
+ "mmlu_0155": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [],
+  "procedures": [
+   "routine health maintenance examination",
+   "immunization update"
+  ],
+  "drugs": [
+   "diphtheria",
+   "tetanus",
+   "pertussis",
+   "DTaP immunization"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0159": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "Drug X"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0157": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [
+   "new drug",
+   "standard treatment"
+  ],
+  "lab_findings": [
+   "alpha 0.05",
+   "beta 0.20"
+  ]
+ },
+ "mmlu_0161": {
+  "symptoms_signs": [
+   "chronic headaches"
+  ],
+  "diseases_mentioned": [
+   "chronic headaches"
+  ],
+  "procedures": [
+   "acupuncture treatment"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0162": {
+  "symptoms_signs": [
+   "bee sting",
+   "mild lightheadedness",
+   "no difficulty swallowing",
+   "wheezing",
+   "bilateral wheezing",
+   "no urticaria"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0163": {
+  "symptoms_signs": [
+   "buzzing sensation",
+   "adjacent scar",
+   "loud murmur",
+   "thrill",
+   "dilated varicose veins",
+   "incompetent valves",
+   "lower leg"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "shot in right thigh"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "no fractures",
+   "no soft-tissue swelling"
+  ]
+ },
+ "mmlu_0160": {
+  "symptoms_signs": [
+   "chronic diarrhea",
+   "intermittent crampy lower abdominal pain",
+   "pain relieved with defecation",
+   "frequent urgent need to use bathroom",
+   "mild lower abdominal tenderness"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "laboratory studies within reference ranges",
+   "stool occult blood negative",
+   "antigliadin antibodies absent"
+  ]
+ },
+ "mmlu_0164": {
+  "symptoms_signs": [
+   "constant substernal chest pain",
+   "chest pain for 12 hours",
+   "pain worsened by coughing",
+   "pain worsened by inspiration",
+   "pain relieved by sitting up",
+   "pain relieved by leaning forward",
+   "fever",
+   "tachycardia",
+   "distant heart sounds",
+   "clear lungs"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "38\u00b0C temperature",
+   "pulse 120/min",
+   "blood pressure 110/60 mm Hg",
+   "diffuse ST-segment elevation",
+   "normal chest x-ray"
+  ]
+ },
+ "mmlu_0168": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "trigeminal neuralgia",
+   "osteoporosis"
+  ],
+  "procedures": [],
+  "drugs": [
+   "carbamazepine",
+   "vitamin D"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0166": {
+  "symptoms_signs": [
+   "painless left testicular swelling",
+   "size variation over months",
+   "no trauma history",
+   "transilluminating lesion",
+   "no palpable inguinal nodes"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "testicular scan"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "normal testicular scan"
+  ]
+ },
+ "mmlu_0169": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "squamous cell carcinoma",
+   "lung cancer"
+  ],
+  "procedures": [
+   "radiation therapy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "TP53 point mutation",
+   "inactive p53 gene product"
+  ]
+ },
+ "mmlu_0171": {
+  "symptoms_signs": [
+   "oligohydramnios",
+   "absent urethral opening"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "stillborn at 32 weeks"
+  ]
+ },
+ "mmlu_0172": {
+  "symptoms_signs": [
+   "minimally decreased hemoglobin concentration",
+   "microcytic anemia"
+  ],
+  "diseases_mentioned": [
+   "alpha-thalassemia",
+   "single gene deletion",
+   "two-gene deletion"
+  ],
+  "procedures": [
+   "preconceptional genetic counseling",
+   "genetic studies"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "minimally decreased hemoglobin concentration",
+   "microcytic anemia",
+   "single gene deletion",
+   "two-gene deletion"
+  ]
+ },
+ "mmlu_0170": {
+  "symptoms_signs": [
+   "progressive memory loss",
+   "repeats herself frequently",
+   "forgets routine medications",
+   "normal physical examination",
+   "MMSE score 23/30",
+   "mild volume loss"
+  ],
+  "diseases_mentioned": [
+   "mild systolic hypertension",
+   "hypothyroidism",
+   "vulvar cancer"
+  ],
+  "procedures": [
+   "wide excision",
+   "CT scan of head"
+  ],
+  "drugs": [
+   "hydrochlorothiazide",
+   "levothyroxine"
+  ],
+  "lab_findings": [
+   "serum vitamin B12 normal",
+   "thyroxine normal",
+   "thyroid-stimulating hormone normal"
+  ]
+ },
+ "mmlu_0156": {
+  "symptoms_signs": [
+   "respiratory difficulty",
+   "mild subcostal retractions",
+   "intercostal retractions",
+   "respiratory rate 70/min",
+   "oxygen saturation 95%"
+  ],
+  "diseases_mentioned": [
+   "chlamydial cervicitis"
+  ],
+  "procedures": [
+   "cesarean delivery",
+   "prenatal care"
+  ],
+  "drugs": [
+   "azithromycin"
+  ],
+  "lab_findings": [
+   "light particulate meconium",
+   "Apgar scores 9 and 9",
+   "prominent pulmonary vascular markings",
+   "fluid in intralobar fissures"
+  ]
+ },
+ "mmlu_0174": {
+  "symptoms_signs": [
+   "recurrent injuries",
+   "clumsier",
+   "chest pain",
+   "pain with exertion",
+   "knee swelling",
+   "ankle swelling",
+   "wrist pain",
+   "limp",
+   "midsystolic click",
+   "left ankle tender",
+   "limited range of motion",
+   "hypermobile joints",
+   "genu recurvatum"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "99th percentile height",
+   "50th percentile weight"
+  ]
+ },
+ "mmlu_0173": {
+  "symptoms_signs": [
+   "12 weeks gestation",
+   "feels well",
+   "uterus consistent size"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "folic acid",
+   "multivitamin"
+  ],
+  "lab_findings": [
+   "leukocyte esterase",
+   "WBCs",
+   "rare gram-negative rods"
+  ]
+ },
+ "mmlu_0158": {
+  "symptoms_signs": [
+   "severe neck pain",
+   "pain 7/10",
+   "no trauma",
+   "no radicular pain",
+   "no numbness",
+   "limited cervical range of motion",
+   "confused",
+   "nauseated",
+   "vertiginous"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "articulatory springing technique"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0176": {
+  "symptoms_signs": [
+   "5-day diarrhea",
+   "generalized abdominal pain"
+  ],
+  "diseases_mentioned": [
+   "mastoiditis"
+  ],
+  "procedures": [
+   "antibiotic courses"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "positive hektoen enteric agar culture"
+  ]
+ },
+ "mmlu_0175": {
+  "symptoms_signs": [
+   "intermittent nausea",
+   "postprandial abdominal pain",
+   "epigastric pain",
+   "right upper quadrant pain",
+   "right scapular pain",
+   "pain lasting 30 minutes",
+   "not relieved by antacids",
+   "no vomiting",
+   "obesity",
+   "currently asymptomatic"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0177": {
+  "symptoms_signs": [
+   "painful sacral swelling",
+   "low-grade fever",
+   "erythematous fluctuant mass",
+   "elevated mass",
+   "midline pores",
+   "no rectal induration",
+   "no rectal pain"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "rectal examination"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0165": {
+  "symptoms_signs": [
+   "red itchy rash",
+   "buttocks and legs rash"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0179": {
+  "symptoms_signs": [
+   "throbbing facial pain",
+   "severe facial pain",
+   "nasal congestion",
+   "purulent nasal discharge",
+   "sore throat",
+   "nonproductive cough",
+   "fever",
+   "congested nasal mucosa",
+   "left nasal discharge",
+   "left cheek tenderness",
+   "no transillumination",
+   "clear lungs"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 38.5\u00b0C",
+   "no transillumination left maxillary sinus"
+  ]
+ },
+ "mmlu_0182": {
+  "symptoms_signs": [
+   "lump on neck",
+   "2-cm freely movable mass",
+   "lower left thyroid lobe"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0181": {
+  "symptoms_signs": [
+   "amenorrhea",
+   "irregular menses",
+   "weight gain",
+   "acne",
+   "hirsutism",
+   "depressed mood",
+   "declining grades",
+   "mild obesity",
+   "facial acne",
+   "male pattern hair growth",
+   "enlarged uterus",
+   "enlarged ovaries"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "annual physical examination",
+   "cervical cytology",
+   "pelvic examination"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0180": {
+  "symptoms_signs": [
+   "shortness of breath",
+   "abdominal pain",
+   "tachycardia",
+   "tachypnea",
+   "hypotension",
+   "decreased breath sounds",
+   "left lung base",
+   "opacification left lower lung field",
+   "loss of diaphragmatic shadow"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "motor vehicle collision",
+   "chest tube placement"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "pulse 135/min",
+   "respirations 30/min",
+   "blood pressure 80/40 mm Hg",
+   "small amount of air",
+   "greenish fluid"
+  ]
+ },
+ "mmlu_0178": {
+  "symptoms_signs": [
+   "worsening shortness of breath",
+   "shortness of breath at rest",
+   "dyspneic",
+   "unable to complete sentence"
+  ],
+  "diseases_mentioned": [
+   "severe chronic obstructive pulmonary disease",
+   "cor pulmonale",
+   "pneumonia",
+   "sepsis"
+  ],
+  "procedures": [
+   "intubation",
+   "weaning program"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 37.8\u00b0C",
+   "pulse 88/min",
+   "respirations 35/min",
+   "blood pressure 100/70 mm Hg",
+   "oxygen saturation 84% on 4 L oxygen"
+  ]
+ },
+ "mmlu_0184": {
+  "symptoms_signs": [
+   "intermittent blood in stool",
+   "no pain with defecation",
+   "visible anal mass",
+   "mass below dentate line"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "biopsy of mass",
+   "physical examination"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0185": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "mesothelioma"
+  ],
+  "procedures": [
+   "chest x-rays"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0183": {
+  "symptoms_signs": [
+   "cold symptoms",
+   "progressive fatigue",
+   "fever",
+   "well-healed surgical scar",
+   "tripled urea nitrogen",
+   "tripled creatinine"
+  ],
+  "diseases_mentioned": [
+   "allograft rejection"
+  ],
+  "procedures": [
+   "kidney transplant"
+  ],
+  "drugs": [
+   "monoclonal anti-CD3 therapy",
+   "azathioprine",
+   "cyclosporine",
+   "prednisone"
+  ],
+  "lab_findings": [
+   "temperature 39\u00b0C",
+   "urea nitrogen tripled",
+   "creatinine tripled"
+  ]
+ },
+ "mmlu_0186": {
+  "symptoms_signs": [
+   "leg swelling",
+   "weight gain",
+   "periorbital edema",
+   "bulging flanks",
+   "shifting dullness",
+   "pitting edema",
+   "elevated blood pressure"
+  ],
+  "diseases_mentioned": [
+   "sickle cell trait",
+   "mild anemia",
+   "Achilles tendinitis"
+  ],
+  "procedures": [],
+  "drugs": [
+   "ibuprofen"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0190": {
+  "symptoms_signs": [
+   "worsening fever",
+   "headache",
+   "nausea",
+   "less responsive"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "lumbar puncture"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "protein 89 mg/dL",
+   "pleocytosis"
+  ]
+ },
+ "mmlu_0192": {
+  "symptoms_signs": [
+   "mild nausea",
+   "urinary urgency",
+   "urinary frequency",
+   "constipation",
+   "weight loss",
+   "vaginal bleeding",
+   "nodular cervix",
+   "irregular friable cervix",
+   "rock-hard pelvic mass",
+   "irregular immobile pelvic mass"
+  ],
+  "diseases_mentioned": [
+   "well-differentiated keratinizing squamous cell carcinoma"
+  ],
+  "procedures": [
+   "pelvic examination",
+   "biopsy of cervix",
+   "biopsy of vagina"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0191": {
+  "symptoms_signs": [
+   "intermittent loose stools",
+   "constipation",
+   "abdominal tenderness",
+   "denies hematochezia",
+   "denies melena",
+   "stress-related loose stools"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0188": {
+  "symptoms_signs": [
+   "worsening memory",
+   "unpaid bills",
+   "messy house",
+   "mental status change",
+   "left hand weakness",
+   "right extremity weakness",
+   "oriented only to self",
+   "disoriented to date",
+   "poor recall",
+   "unable to name objects",
+   "unable to draw pentagons",
+   "unable to count backwards"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "small strokes"
+  ],
+  "procedures": [],
+  "drugs": [
+   "metoprolol",
+   "hydrochlorothiazide",
+   "aspirin"
+  ],
+  "lab_findings": [
+   "blood pressure 196/112 mm Hg",
+   "oxygen saturation 93%"
+  ]
+ },
+ "mmlu_0187": {
+  "symptoms_signs": [
+   "anal pain",
+   "pain on defecation",
+   "spots of blood",
+   "small bilateral inguinal lymph nodes",
+   "tender fleshy perianal lesions",
+   "rectal tenderness",
+   "trace positive occult blood"
+  ],
+  "diseases_mentioned": [
+   "HIV infection",
+   "syphilis",
+   "genital herpes"
+  ],
+  "procedures": [],
+  "drugs": [
+   "antiretroviral therapy",
+   "penicillin",
+   "acyclovir"
+  ],
+  "lab_findings": [
+   "CD4 count 350/mm3",
+   "undetectable HIV viral load"
+  ]
+ },
+ "mmlu_0189": {
+  "symptoms_signs": [
+   "primary amenorrhea",
+   "normal female body habitus",
+   "normal breast development",
+   "normal external genitalia",
+   "absent axillary hair",
+   "absent pubic hair"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0195": {
+  "symptoms_signs": [
+   "inattentive",
+   "difficulty following instructions",
+   "drift off to sleep",
+   "school problems"
+  ],
+  "diseases_mentioned": [
+   "obstructive sleep apnea"
+  ],
+  "procedures": [
+   "polysomnogram"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0194": {
+  "symptoms_signs": [
+   "generalized tonic-clonic seizure",
+   "seizure for 25 minutes",
+   "cyanotic",
+   "oxygen saturation 75%",
+   "respirations 10/min",
+   "shallow respirations",
+   "fever 39.1\u00b0C"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "rectal diazepam",
+   "intravenous diazepam",
+   "bag-valve-mask ventilation",
+   "intubation",
+   "mechanical ventilation"
+  ],
+  "drugs": [
+   "diazepam"
+  ],
+  "lab_findings": [
+   "oxygen saturation 75%",
+   "temperature 39.1\u00b0C"
+  ]
+ },
+ "mmlu_0167": {
+  "symptoms_signs": [
+   "fever",
+   "cough",
+   "lowgrade fever",
+   "copious clear nasal discharge",
+   "moist nonproductive cough",
+   "rapid breathing",
+   "nasal flaring",
+   "rhinorrhea",
+   "intercostal retractions",
+   "bilateral diffuse wheezes",
+   "expiratory rhonchi"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0193": {
+  "symptoms_signs": [
+   "dyspnea",
+   "hemoptysis",
+   "cardiac murmur",
+   "pulse 130/min",
+   "irregularly irregular pulse",
+   "bilateral crackles",
+   "opening snap",
+   "low-pitched diastolic murmur",
+   "straight left cardiac border"
+  ],
+  "diseases_mentioned": [
+   "rheumatic fever",
+   "left atrial enlargement"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 36.7 C",
+   "blood pressure 98/60 mm Hg",
+   "pulmonary venous engorgement"
+  ]
+ },
+ "mmlu_0196": {
+  "symptoms_signs": [
+   "headache",
+   "stiff neck",
+   "sensitivity to light",
+   "lethargy",
+   "fever",
+   "diffuse petechiae",
+   "Kernig sign",
+   "Brudzinski sign"
+  ],
+  "diseases_mentioned": [
+   "chickenpox"
+  ],
+  "procedures": [
+   "lumbar puncture"
+  ],
+  "drugs": [
+   "daily multivitamin",
+   "herbal weight-loss preparation"
+  ],
+  "lab_findings": [
+   "CSF numerous segmented neutrophils",
+   "decreased CSF glucose",
+   "CSF gram-negative cocci"
+  ]
+ },
+ "mmlu_0198": {
+  "symptoms_signs": [
+   "shortness of breath",
+   "fatigue during exercise",
+   "heart murmur",
+   "normal S1",
+   "pronounced S2",
+   "late systolic murmur",
+   "right upper parasternal border",
+   "normal pulses"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "coronary artery disease",
+   "dyslipidemia",
+   "polymyalgia rheumatica"
+  ],
+  "procedures": [
+   "coronary angiography",
+   "stent placement"
+  ],
+  "drugs": [
+   "metoprolol",
+   "atorvastatin",
+   "lisinopril",
+   "omeprazole",
+   "prednisone"
+  ],
+  "lab_findings": [
+   "BMI 26 kg/m2",
+   "temperature 37.0\u00b0C",
+   "pulse 60/min",
+   "respirations 18/min",
+   "blood pressure 124/61 mm Hg",
+   "labs within reference ranges",
+   "ECG no abnormalities"
+  ]
+ },
+ "mmlu_0200": {
+  "symptoms_signs": [
+   "lower abdominal pain",
+   "fever",
+   "suprapubic tenderness",
+   "uterine tenderness"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "bimanual examination",
+   "swabs of cervical mucus"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0203": {
+  "symptoms_signs": [
+   "fever",
+   "right knee pain",
+   "right knee swelling",
+   "knee tenderness",
+   "knee warmth",
+   "knee erythema",
+   "limited range of motion"
+  ],
+  "diseases_mentioned": [
+   "inflammatory bowel disease"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 39 C"
+  ]
+ },
+ "mmlu_0202": {
+  "symptoms_signs": [
+   "asymptomatic",
+   "elevated blood pressure",
+   "blood pressure 150/95 mm Hg",
+   "blood pressure 155/94 mm Hg",
+   "blood pressure 145/90 mm Hg",
+   "blood pressure 150/92 mm Hg",
+   "blood pressure 150/90 mm Hg",
+   "obesity"
+  ],
+  "diseases_mentioned": [
+   "urinary tract infection"
+  ],
+  "procedures": [
+   "routine examination",
+   "blood pressure measurement",
+   "cardiac ultrasonography",
+   "renal ultrasonography"
+  ],
+  "drugs": [
+   "trimethoprim-sulfamethoxazole"
+  ],
+  "lab_findings": [
+   "hematocrit 40%",
+   "urinalysis normal",
+   "cardiac ultrasonography normal",
+   "renal ultrasonography normal"
+  ]
+ },
+ "mmlu_0201": {
+  "symptoms_signs": [
+   "early awakening",
+   "wakes up at night",
+   "wakes up 2:00 AM",
+   "wakes up 3:00 AM",
+   "no difficulty falling asleep",
+   "no depression",
+   "no nightmares",
+   "no snoring",
+   "normal physical examination",
+   "well-nourished man",
+   "well-developed man",
+   "not obese"
+  ],
+  "diseases_mentioned": [
+   "diabetes mellitus"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "blood pressure 135/90 mm Hg",
+   "temperature 37.1\u00b0C",
+   "pulse 96/min",
+   "respirations 18/min"
+  ]
+ },
+ "mmlu_0205": {
+  "symptoms_signs": [
+   "blistered fresh burns",
+   "hands burns",
+   "feet burns",
+   "stocking and glove distribution"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "debridement of the burns",
+   "thorough history",
+   "physical examination",
+   "baseline laboratory studies"
+  ],
+  "drugs": [
+   "pain management"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0206": {
+  "symptoms_signs": [
+   "malaise",
+   "muscle pain",
+   "joint pain",
+   "fever",
+   "temperature 38.4 C",
+   "leukopenia",
+   "elevated creatinine"
+  ],
+  "diseases_mentioned": [
+   "renal transplantation"
+  ],
+  "procedures": [
+   "cadaveric renal transplantation",
+   "kidney biopsy"
+  ],
+  "drugs": [
+   "cyclosporine",
+   "corticosteroids"
+  ],
+  "lab_findings": [
+   "leukocyte count 2700/mm3",
+   "serum creatinine 1.6 mg/dL",
+   "serum creatinine 0.8 mg/dL",
+   "therapeutic cyclosporine level",
+   "intracellular inclusion bodies"
+  ]
+ },
+ "mmlu_0199": {
+  "symptoms_signs": [
+   "worsening hand tremor",
+   "tremor present most life",
+   "tremor when tired",
+   "tremor when stressed",
+   "more noticeable tremor",
+   "more frequent tremor",
+   "embarrassed to eat",
+   "bilateral hand tremor",
+   "tremor not at rest"
+  ],
+  "diseases_mentioned": [
+   "grief",
+   "essential hypertension",
+   "hyperlipidemia",
+   "joint pain"
+  ],
+  "procedures": [],
+  "drugs": [
+   "fluoxetine",
+   "lisinopril",
+   "atorvastatin",
+   "ibuprofen",
+   "wine"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0208": {
+  "symptoms_signs": [
+   "gunshot wound",
+   "abdominal wound",
+   "tachycardia",
+   "tachypnea",
+   "hypotension",
+   "decreased left breath sounds",
+   "entrance wound",
+   "exit wound"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "intravenous fluid resuscitation"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0207": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [],
+  "procedures": [
+   "treadmill exercise session"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "pulse 175/min"
+  ]
+ },
+ "mmlu_0212": {
+  "symptoms_signs": [
+   "recurrent abdominal pain",
+   "varying physical symptoms",
+   "dramatic exaggerated descriptions",
+   "conflicting statements"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "surgical explorations"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0209": {
+  "symptoms_signs": [
+   "progressive dyspnea",
+   "wheezing",
+   "heart racing",
+   "bloodstreaked sputum",
+   "tachycardia",
+   "tachypnea",
+   "hypoxemia",
+   "decreased breath sounds",
+   "expiratory crackles",
+   "irregularly irregular rhythm",
+   "indistinct point of maximal impulse",
+   "loud S1",
+   "diastolic rumbling murmur",
+   "snapping sound"
+  ],
+  "diseases_mentioned": [
+   "pregnancy",
+   "hypothyroidism"
+  ],
+  "procedures": [
+   "intravenous catheter placement",
+   "nasal cannula oxygen"
+  ],
+  "drugs": [
+   "levothyroxine"
+  ],
+  "lab_findings": [
+   "oxygen saturation 92%",
+   "temperature 36.9 C",
+   "pulse 132/min",
+   "respirations 32/min",
+   "blood pressure 135/78 mm Hg",
+   "fetal heart rate 144/min"
+  ]
+ },
+ "mmlu_0210": {
+  "symptoms_signs": [
+   "sudden onset headache",
+   "severe occipital headache",
+   "stiff neck",
+   "decreased neck range of motion",
+   "neck pain",
+   "oriented to person place time",
+   "hypertension",
+   "tachycardia"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "gastroesophageal reflux disease"
+  ],
+  "procedures": [],
+  "drugs": [
+   "hydrochlorothiazide",
+   "ranitidine"
+  ],
+  "lab_findings": [
+   "blood pressure 160/90 mm Hg",
+   "temperature 36.7 C",
+   "pulse 100/min"
+  ]
+ },
+ "mmlu_0211": {
+  "symptoms_signs": [
+   "narrow palate",
+   "dental crowding",
+   "long slender extremities",
+   "joint laxity",
+   "95th percentile height",
+   "25th percentile weight"
+  ],
+  "diseases_mentioned": [
+   "Marfan syndrome"
+  ],
+  "procedures": [
+   "molecular testing for FBN1"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "single nucleotide difference",
+   "no amino acid change",
+   "same nucleotide change",
+   "15 of 200 individuals"
+  ]
+ },
+ "mmlu_0213": {
+  "symptoms_signs": [
+   "eating dirt",
+   "less active",
+   "headaches",
+   "good appetite",
+   "symmetrical cervical adenopathy"
+  ],
+  "diseases_mentioned": [
+   "toxoplasmosis"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "normal zinc",
+   "normal lead",
+   "normal iron"
+  ]
+ },
+ "mmlu_0197": {
+  "symptoms_signs": [
+   "crushing substernal chest pain",
+   "exertional chest pain"
+  ],
+  "diseases_mentioned": [
+   "myocardial infarction",
+   "tobacco use"
+  ],
+  "procedures": [],
+  "drugs": [
+   "nitroglycerin",
+   "aspirin",
+   "beta-adrenergic blocking agent"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0216": {
+  "symptoms_signs": [
+   "odynophagia",
+   "gastroesophageal reflux",
+   "hematemesis",
+   "positive occult blood"
+  ],
+  "diseases_mentioned": [
+   "AIDS"
+  ],
+  "procedures": [
+   "tilt test",
+   "rectal examination"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "CD4 count 30 cells/mcL",
+   "normal hemoglobin",
+   "brown stool",
+   "occult blood positive"
+  ]
+ },
+ "mmlu_0217": {
+  "symptoms_signs": [
+   "elevated blood pressure"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "blood pressure 165/95 mm Hg",
+   "pulse 80/min"
+  ]
+ },
+ "mmlu_0215": {
+  "symptoms_signs": [
+   "anxious",
+   "irritable",
+   "wakes up at night to smoke",
+   "smoking cigarettes",
+   "cannot go more than a day"
+  ],
+  "diseases_mentioned": [
+   "childhood febrile seizures"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "normal vital signs"
+  ]
+ },
+ "mmlu_0220": {
+  "symptoms_signs": [
+   "essential hypertension"
+  ],
+  "diseases_mentioned": [
+   "essential hypertension"
+  ],
+  "procedures": [
+   "clinical trial"
+  ],
+  "drugs": [
+   "new antihypertensive drug",
+   "placebo",
+   "standard therapy"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0218": {
+  "symptoms_signs": [
+   "overwhelming fear"
+  ],
+  "diseases_mentioned": [
+   "small tumor"
+  ],
+  "procedures": [
+   "stereotactic brain operation",
+   "conscious sedation"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0219": {
+  "symptoms_signs": [
+   "fever",
+   "painful left ankle swelling",
+   "recurrent cervical lymphadenitis",
+   "pneumonia",
+   "tender left ankle",
+   "erythematous ankle",
+   "edematous left ankle",
+   "point tenderness",
+   "medial malleolus tenderness"
+  ],
+  "diseases_mentioned": [
+   "cervical abscess",
+   "osteomyelitis"
+  ],
+  "procedures": [
+   "bone scan",
+   "bone aspirate culture",
+   "nitroblue tetrazolium test"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 38\u00b0C",
+   "increased uptake left tibial metaphysis",
+   "Serratia marcescens growth",
+   "no color change"
+  ]
+ },
+ "mmlu_0204": {
+  "symptoms_signs": [
+   "sore throat",
+   "fever",
+   "progressive fatigue",
+   "appears ill",
+   "cervical lymphadenopathy",
+   "pharyngeal erythema",
+   "creamy exudate"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "temperature 39\u00b0C"
+  ]
+ },
+ "mmlu_0223": {
+  "symptoms_signs": [
+   "dizziness",
+   "rotatory vertigo",
+   "imbalance",
+   "decreased hearing",
+   "tinnitus",
+   "ear fullness",
+   "vomiting",
+   "mild hearing loss"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0221": {
+  "symptoms_signs": [
+   "fever",
+   "severe muscle pain",
+   "diffuse painful swelling",
+   "neck swelling",
+   "underarm swelling",
+   "groin swelling",
+   "ill appearance",
+   "lethargy",
+   "generalized black maculae",
+   "erythematous tender mass",
+   "blood drainage",
+   "necrotic material"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0225": {
+  "symptoms_signs": [
+   "elevated blood pressure",
+   "headache",
+   "sweating",
+   "anxiety",
+   "nausea",
+   "vomiting",
+   "paroxysmal episodes"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "CT scan"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "left adrenal mass"
+  ]
+ },
+ "mmlu_0214": {
+  "symptoms_signs": [
+   "infertility",
+   "fair skin",
+   "little facial hair",
+   "mild gynecomastia",
+   "small firm testicles",
+   "no sperm on semen analysis"
+  ],
+  "diseases_mentioned": [
+   "male infertility"
+  ],
+  "procedures": [
+   "semen analysis"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "no sperm on semen analysis"
+  ]
+ },
+ "mmlu_0226": {
+  "symptoms_signs": [
+   "motor vehicle collision",
+   "unrestrained driver",
+   "numerous facial lacerations",
+   "facial ecchymoses",
+   "normal vision",
+   "intact ocular movements",
+   "intact facial movements",
+   "intact lingual movements",
+   "present gag reflex",
+   "absent facial sensation",
+   "absent tongue sensation"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "fractures of orbit",
+   "fractures of zygomatic arch",
+   "fractures of infratemporal fossa"
+  ]
+ },
+ "mmlu_0224": {
+  "symptoms_signs": [
+   "sore throat",
+   "fever",
+   "voice change",
+   "pain with swallowing",
+   "erythematous oropharynx",
+   "oropharyngeal edema",
+   "soft palate displacement",
+   "uvular deviation",
+   "white tonsillar exudate",
+   "trismus",
+   "enlarged cervical lymph nodes",
+   "tender cervical lymph nodes",
+   "mobile anterior cervical nodes"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [
+   "acetaminophen"
+  ],
+  "lab_findings": [
+   "temperature 40.0\u00b0C",
+   "pulse 130/min",
+   "blood pressure 102/66 mm Hg",
+   "oxygen saturation 97%"
+  ]
+ },
+ "mmlu_0222": {
+  "symptoms_signs": [
+   "pain and redness",
+   "left lower leg",
+   "swollen erythematous tender area",
+   "fever",
+   "scraped left leg"
+  ],
+  "diseases_mentioned": [
+   "HIV infection"
+  ],
+  "procedures": [],
+  "drugs": [
+   "antiretroviral therapy",
+   "ibuprofen"
+  ],
+  "lab_findings": [
+   "38.3 C fever",
+   "5\u00d78-cm area"
+  ]
+ },
+ "mmlu_0227": {
+  "symptoms_signs": [
+   "white oral lesions",
+   "white patches on tongue",
+   "white patches on buccal mucosa",
+   "lesions do not scrape off",
+   "breast-feeding well",
+   "normal urination",
+   "normal bowel movements",
+   "adequately hydrated",
+   "normal vital signs"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "spontaneous vaginal delivery"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "birth weight 3289 g",
+   "current weight 3629 kg"
+  ]
+ },
+ "mmlu_0228": {
+  "symptoms_signs": [
+   "right shoulder pain",
+   "pain after chopping wood",
+   "pain with resisted external rotation",
+   "no weakness",
+   "no bone deformities",
+   "no point tenderness"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0229": {
+  "symptoms_signs": [
+   "easy bruising",
+   "multiple ecchymoses"
+  ],
+  "diseases_mentioned": [
+   "lung cancer",
+   "hypertension"
+  ],
+  "procedures": [
+   "radiation therapy"
+  ],
+  "drugs": [
+   "thiazide diuretic",
+   "ACE inhibitor"
+  ],
+  "lab_findings": [
+   "hemoglobin 13 g/dL",
+   "leukocyte count 5000/mm3",
+   "platelet count 35,000/mm3",
+   "negative antiplatelet antibody assay"
+  ]
+ },
+ "mmlu_0230": {
+  "symptoms_signs": [
+   "concern about meningitis exposure",
+   "feels well",
+   "no abnormalities"
+  ],
+  "diseases_mentioned": [
+   "asthma"
+  ],
+  "procedures": [],
+  "drugs": [
+   "inhaled albuterol"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0231": {
+  "symptoms_signs": [
+   "fever",
+   "systolic heart murmur"
+  ],
+  "diseases_mentioned": [
+   "intravenous drug use"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0233": {
+  "symptoms_signs": [
+   "headache",
+   "dizziness",
+   "nausea",
+   "vomiting",
+   "weakness",
+   "faintness",
+   "diaphoresis",
+   "disorientation",
+   "high fever",
+   "tachycardia",
+   "tachypnea",
+   "hypotension"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0234": {
+  "symptoms_signs": [],
+  "diseases_mentioned": [
+   "severe respiratory illness"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "newly identified virus"
+  ]
+ },
+ "mmlu_0232": {
+  "symptoms_signs": [
+   "wheezing",
+   "chest tightness",
+   "scattered rhonchi",
+   "wheezes with forced expiration",
+   "more active asthma"
+  ],
+  "diseases_mentioned": [
+   "asthma",
+   "atopic allergies",
+   "cold-induced asthma",
+   "exercise-induced asthma"
+  ],
+  "procedures": [],
+  "drugs": [
+   "albuterol inhaler"
+  ],
+  "lab_findings": [
+   "peak expiratory flow rate 240 L/min"
+  ]
+ },
+ "mmlu_0235": {
+  "symptoms_signs": [
+   "right thigh pain",
+   "shaking chills",
+   "greenish fluid drainage",
+   "fever",
+   "edematous right lateral thigh",
+   "white exudative appearance",
+   "erythema surrounding burns",
+   "red streaks up thigh",
+   "fluctuance"
+  ],
+  "diseases_mentioned": [
+   "self-mutilation"
+  ],
+  "procedures": [
+   "burned right thigh",
+   "soaked thigh in hot water",
+   "massaged thigh"
+  ],
+  "drugs": [
+   "lithium carbonate"
+  ],
+  "lab_findings": [
+   "temperature 39.2\u00b0C",
+   "pulse 170/min",
+   "hemoglobin 14 g/dL",
+   "leukocyte count 19,000/mm3"
+  ]
+ },
+ "mmlu_0236": {
+  "symptoms_signs": [
+   "difficulty focusing",
+   "distracted at work",
+   "distracted at home",
+   "a lot of energy",
+   "does not complete tasks",
+   "newfound energy",
+   "needs 4 hours sleep",
+   "mood good",
+   "labile affect",
+   "rapid speech"
+  ],
+  "diseases_mentioned": [
+   "alcohol abuse",
+   "methamphetamine use",
+   "cocaine use"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0237": {
+  "symptoms_signs": [
+   "painless ankle swelling",
+   "shortness of breath",
+   "exertional dyspnea",
+   "orthopnea",
+   "paroxysmal nocturnal dyspnea",
+   "elevated jugular venous pressure",
+   "crackles at lung bases",
+   "soft S3",
+   "holosystolic murmur",
+   "apical murmur",
+   "murmur radiating to axilla",
+   "pitting edema"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0240": {
+  "symptoms_signs": [
+   "abdominal pain",
+   "thick nasal secretions",
+   "salty sweat",
+   "epigastric tenderness"
+  ],
+  "diseases_mentioned": [
+   "recurrent upper respiratory infections",
+   "sinusitis",
+   "pancreatitis"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "CFTR mutation G551D"
+  ]
+ },
+ "mmlu_0242": {
+  "symptoms_signs": [
+   "knife wound",
+   "left chest wound"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "air-fluid level",
+   "partial left lung collapse",
+   "elevated stomach bubble",
+   "midline mediastinum"
+  ]
+ },
+ "mmlu_0238": {
+  "symptoms_signs": [
+   "right arm pain",
+   "right arm swelling",
+   "erythema",
+   "moderate edema",
+   "exertional worsening"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "capillary refill less than 3 seconds"
+  ]
+ },
+ "mmlu_0241": {
+  "symptoms_signs": [
+   "increasing confusion",
+   "unable to answer questions",
+   "hearing voices",
+   "acute illness",
+   "fever",
+   "tachycardia",
+   "hypertension",
+   "profuse diaphoresis",
+   "muscle rigidity",
+   "psychomotor agitation",
+   "lethargy"
+  ],
+  "diseases_mentioned": [
+   "excessive drinking",
+   "illicit drug use"
+  ],
+  "procedures": [],
+  "drugs": [
+   "prescribed medication"
+  ],
+  "lab_findings": [
+   "leukocyte count 15600/mm3",
+   "creatine kinase 943 U/L"
+  ]
+ },
+ "mmlu_0239": {
+  "symptoms_signs": [
+   "progressive hypotension",
+   "slightly distended abdomen",
+   "sinus tachycardia",
+   "oliguria",
+   "low urine output"
+  ],
+  "diseases_mentioned": [
+   "colon carcinoma",
+   "hypertension",
+   "coronary artery disease"
+  ],
+  "procedures": [
+   "left hemicolectomy"
+  ],
+  "drugs": [
+   "intravenous crystalloid"
+  ],
+  "lab_findings": [
+   "temperature 35.8\u00b0C",
+   "pulse 130/min",
+   "blood pressure 80/50 mm Hg",
+   "urine output 10 mL",
+   "hematocrit 30%",
+   "preoperative hematocrit 41%",
+   "operative blood loss 200 mL",
+   "clear nasogastric drainage"
+  ]
+ },
+ "mmlu_0243": {
+  "symptoms_signs": [
+   "ventricular ectopy",
+   "pain",
+   "fever",
+   "normal oxygen saturation"
+  ],
+  "diseases_mentioned": [
+   "coronary artery disease",
+   "ejection fraction 0.20"
+  ],
+  "procedures": [
+   "left total knee replacement"
+  ],
+  "drugs": [
+   "fentanyl",
+   "atorvastatin",
+   "furosemide",
+   "carvedilol",
+   "lisinopril",
+   "aspirin"
+  ],
+  "lab_findings": [
+   "temperature 38.0 C",
+   "pulse 90/min",
+   "respirations 16/min",
+   "blood pressure 130/90 mm Hg",
+   "oxygen saturation 96%"
+  ]
+ },
+ "mmlu_0244": {
+  "symptoms_signs": [
+   "fatigue",
+   "dry skin",
+   "brittle hair",
+   "ankle swelling",
+   "cold intolerance",
+   "weight gain",
+   "bradycardia",
+   "hypertension",
+   "lethargy",
+   "thyroid enlargement",
+   "bilateral ankle edema",
+   "prolonged Achilles reflex relaxation"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0245": {
+  "symptoms_signs": [
+   "minor dysmorphic features",
+   "growth delay",
+   "developmental delay"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "chromosome analysis",
+   "blood samples"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "small unbalanced chromosome translocation",
+   "extra chromosomal material",
+   "tip of chromosome 3",
+   "normal chromosomes"
+  ]
+ },
+ "mmlu_0248": {
+  "symptoms_signs": [
+   "shortness of breath",
+   "marked increase shortness of breath"
+  ],
+  "diseases_mentioned": [
+   "glaucoma"
+  ],
+  "procedures": [],
+  "drugs": [
+   "eyedrops"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0247": {
+  "symptoms_signs": [
+   "low back pain",
+   "lumbar spine tenderness",
+   "compression fracture"
+  ],
+  "diseases_mentioned": [
+   "menopause",
+   "osteoporosis"
+  ],
+  "procedures": [
+   "DEXA scan",
+   "x-rays of spine"
+  ],
+  "drugs": [
+   "bisphosphonate drug"
+  ],
+  "lab_findings": [
+   "L1-2 compression fracture",
+   "decreased bone mineral density",
+   "normal serum calcium",
+   "normal serum phosphorus",
+   "normal alkaline phosphatase"
+  ]
+ },
+ "mmlu_0246": {
+  "symptoms_signs": [
+   "fever",
+   "left ear pain",
+   "ear displacement forward",
+   "ear displacement laterally",
+   "edema behind ear",
+   "tenderness behind ear",
+   "red tympanic membrane",
+   "dull tympanic membrane",
+   "immobile tympanic membrane"
+  ],
+  "diseases_mentioned": [
+   "left otitis media"
+  ],
+  "procedures": [
+   "otoscopic examination"
+  ],
+  "drugs": [
+   "amoxicillin"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0250": {
+  "symptoms_signs": [
+   "severely beaten",
+   "gunshot wound to abdomen",
+   "postoperative pain",
+   "not completely alert",
+   "worry about addiction"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "resection of perforated small bowel",
+   "plastic reconstruction of facial fractures",
+   "open reduction internal fixation",
+   "patient-controlled pump"
+  ],
+  "drugs": [
+   "intravenous morphine"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0251": {
+  "symptoms_signs": [
+   "hand cramping",
+   "foot cramping",
+   "perioral numbness",
+   "finger tingling",
+   "weight loss",
+   "bulky foul-smelling stools",
+   "cachectic appearance",
+   "hyperreflexia",
+   "Chvostek sign",
+   "Trousseau sign",
+   "severe abdominal pain"
+  ],
+  "diseases_mentioned": [
+   "alcohol use disorder",
+   "chronic pancreatitis"
+  ],
+  "procedures": [
+   "hospitalization"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "serum calcium 6.5 mg/dL"
+  ]
+ },
+ "mmlu_0252": {
+  "symptoms_signs": [
+   "degenerative joint disease",
+   "chronic renal failure"
+  ],
+  "diseases_mentioned": [
+   "type 2 diabetes mellitus",
+   "hypertension",
+   "chronic renal failure"
+  ],
+  "procedures": [
+   "replacement of left knee joint",
+   "tonsillectomy",
+   "laparoscopic cholecystectomy"
+  ],
+  "drugs": [
+   "enalapril",
+   "acetaminophen"
+  ],
+  "lab_findings": [
+   "serum creatinine 6.0 mg/dL"
+  ]
+ },
+ "mmlu_0249": {
+  "symptoms_signs": [
+   "increasing lethargy",
+   "awake but lethargic",
+   "fever",
+   "systolic click",
+   "decreased muscle tone"
+  ],
+  "diseases_mentioned": [
+   "Down syndrome",
+   "severe mental retardation"
+  ],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "leukocyte count 18,000/mm3",
+   "23% band neutrophils",
+   "normal serum electrolytes",
+   "negative urine toxicology screen"
+  ]
+ },
+ "mmlu_0254": {
+  "symptoms_signs": [
+   "left labial pain",
+   "left labial swelling",
+   "tender mass",
+   "fluctuant mass",
+   "introital opening compromise"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "pelvic examination"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "4 x 3-cm mass"
+  ]
+ },
+ "mmlu_0256": {
+  "symptoms_signs": [
+   "urticaria",
+   "recurrent hives"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0253": {
+  "symptoms_signs": [
+   "fatigue"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "leukocyte count 25.0 x 10^3/mcL",
+   "97% mature-appearing lymphocytes",
+   "B-cell origin lymphocytes"
+  ]
+ },
+ "mmlu_0255": {
+  "symptoms_signs": [
+   "abdominal bloating",
+   "upper abdominal discomfort",
+   "constipation",
+   "stress-related worsening",
+   "symptom relief after bowel movements"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "digital rectal examination",
+   "complete blood count",
+   "serum electrolyte tests",
+   "urease breath test",
+   "upper endoscopy",
+   "lower endoscopy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "negative urease breath test",
+   "normal complete blood count",
+   "normal serum electrolytes",
+   "normal endoscopy findings"
+  ]
+ },
+ "mmlu_0257": {
+  "symptoms_signs": [
+   "leg weakness",
+   "dry eyes",
+   "dry mouth",
+   "weight loss",
+   "mild ptosis",
+   "barrel-shaped chest",
+   "distant breath sounds",
+   "proximal muscle weakness",
+   "absent reflexes",
+   "difficulty rising from chair",
+   "normal sensory exam"
+  ],
+  "diseases_mentioned": [
+   "peptic ulcer disease",
+   "emphysema"
+  ],
+  "procedures": [],
+  "drugs": [
+   "cimetidine",
+   "theophylline",
+   "prednisone"
+  ],
+  "lab_findings": [
+   "hyperinflated chest",
+   "3 x 4-cm right hilar mass"
+  ]
+ },
+ "mmlu_0259": {
+  "symptoms_signs": [
+   "positive HIV test",
+   "extramarital sexual partners"
+  ],
+  "diseases_mentioned": [
+   "HIV"
+  ],
+  "procedures": [
+   "HIV test"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "positive HIV test"
+  ]
+ },
+ "mmlu_0258": {
+  "symptoms_signs": [
+   "chronic recurrent otitis media",
+   "brown irregular mass behind tympanic membrane"
+  ],
+  "diseases_mentioned": [
+   "otitis media"
+  ],
+  "procedures": [
+   "follow-up examination"
+  ],
+  "drugs": [
+   "antibiotics"
+  ],
+  "lab_findings": []
+ },
+ "mmlu_0260": {
+  "symptoms_signs": [
+   "hives",
+   "hoarseness",
+   "light-headedness",
+   "bee sting reaction",
+   "no abnormalities"
+  ],
+  "diseases_mentioned": [
+   "bee sting allergy",
+   "anaphylaxis"
+  ],
+  "procedures": [
+   "emergency department visit",
+   "follow-up examination"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0263": {
+  "symptoms_signs": [
+   "tiredness",
+   "irritability",
+   "sullen mood",
+   "groin lumps"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0264": {
+  "symptoms_signs": [
+   "pregnancy",
+   "initial prenatal visit",
+   "16 weeks gestation",
+   "uncertain last menstrual period"
+  ],
+  "diseases_mentioned": [
+   "primigravid"
+  ],
+  "procedures": [
+   "prenatal visit",
+   "stopped oral contraceptives"
+  ],
+  "drugs": [
+   "oral contraceptives"
+  ],
+  "lab_findings": [
+   "increased maternal serum alpha-fetoprotein",
+   "3 multiples of median"
+  ]
+ },
+ "mmlu_0261": {
+  "symptoms_signs": [
+   "semiconscious",
+   "incoherent",
+   "stuporous",
+   "cool damp skin",
+   "pinpoint pupils",
+   "sluggish pupillary response"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0266": {
+  "symptoms_signs": [
+   "sudden right knee pain",
+   "right knee swelling",
+   "warmth of right knee",
+   "erythema of right knee",
+   "knee effusion",
+   "exquisite tenderness",
+   "pain with range of motion"
+  ],
+  "diseases_mentioned": [
+   "mild osteoarthritis",
+   "osteoarthritis of both knees"
+  ],
+  "procedures": [
+   "joint aspiration"
+  ],
+  "drugs": [
+   "ibuprofen"
+  ],
+  "lab_findings": [
+   "clear synovial fluid",
+   "positively birefringent rhomboids"
+  ]
+ },
+ "mmlu_0267": {
+  "symptoms_signs": [
+   "difficulty swallowing saliva",
+   "slurred speech",
+   "tongue wasting",
+   "tongue fasciculation",
+   "decreased deep tendon reflexes",
+   "left lower extremity fasciculation",
+   "hyperactive deep tendon reflexes"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0265": {
+  "symptoms_signs": [
+   "low back pain",
+   "heavy menses"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "endometrial biopsy"
+  ],
+  "drugs": [],
+  "lab_findings": [
+   "regular tubular endometrial glands",
+   "abundant mitotic figures"
+  ]
+ },
+ "mmlu_0268": {
+  "symptoms_signs": [
+   "agitation",
+   "confusion",
+   "mild hypertension",
+   "uncooperative",
+   "refuses questions",
+   "tremulousness",
+   "disoriented to place",
+   "disoriented to time"
+  ],
+  "diseases_mentioned": [
+   "hypertension",
+   "right femur fracture"
+  ],
+  "procedures": [
+   "open reduction and internal fixation",
+   "CT scan of head"
+  ],
+  "drugs": [
+   "haloperidol",
+   "acetaminophen",
+   "atenolol",
+   "subcutaneous heparin"
+  ],
+  "lab_findings": [
+   "normal head CT"
+  ]
+ },
+ "mmlu_0270": {
+  "symptoms_signs": [
+   "swallowed a nail",
+   "no symptoms",
+   "not in acute distress",
+   "flat affect",
+   "distractibility",
+   "derailment of thoughts"
+  ],
+  "diseases_mentioned": [
+   "paranoid schizophrenia"
+  ],
+  "procedures": [
+   "x-ray of abdomen",
+   "admitting to hospital"
+  ],
+  "drugs": [
+   "haloperidol"
+  ],
+  "lab_findings": [
+   "4-cm nail in left upper quadrant",
+   "no free air visible",
+   "normal vital signs",
+   "no abnormalities on physical examination"
+  ]
+ },
+ "mmlu_0269": {
+  "symptoms_signs": [
+   "difficulty sleeping",
+   "fatigue",
+   "muscle tension",
+   "memory lapses",
+   "difficulty concentrating",
+   "arriving late",
+   "palpitations",
+   "shortness of breath",
+   "depressed mood",
+   "constricted affect",
+   "loss of interest",
+   "suicidal ideation"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": [
+   "hemoglobin 11 g/dL",
+   "serum ferritin 140 ng/mL"
+  ]
+ },
+ "mmlu_0271": {
+  "symptoms_signs": [
+   "chest pain",
+   "jaw radiation",
+   "pain while shoveling snow",
+   "S4"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [
+   "ECG"
+  ],
+  "drugs": [],
+  "lab_findings": []
+ },
+ "mmlu_0262": {
+  "symptoms_signs": [
+   "greenish left nipple discharge"
+  ],
+  "diseases_mentioned": [],
+  "procedures": [],
+  "drugs": [],
+  "lab_findings": []
+ }
+}

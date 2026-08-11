@@ -1,0 +1,3241 @@
+{
+ "mb_0003": {
+  "symptoms": [
+   "nausea",
+   "vomiting",
+   "weakness",
+   "syncope on standing",
+   "visual changes with yellow tint to objects",
+   "lightheadedness",
+   "inability to ambulate due to lightheadedness",
+   "bradycardia"
+  ],
+  "duration_summary": "Symptoms present today; visual changes noticed recently"
+ },
+ "mb_0007": {
+  "symptoms": [
+   "confusion",
+   "recurrent episodes of confusion",
+   "increasing frequency of episodes",
+   "symptom improvement with eating",
+   "poor command following"
+  ],
+  "duration_summary": "Several episodes over the past month, occurring with increasing frequency"
+ },
+ "mb_0002": {
+  "symptoms": [
+   "becoming more withdrawn",
+   "ignoring parents when asked to perform tasks",
+   "distracted during interview",
+   "responds only intermittently to directions"
+  ],
+  "duration_summary": "worsening over the last 8 weeks"
+ },
+ "mb_0000": {
+  "symptoms": [
+   "headache",
+   "nausea",
+   "right-sided constant pain",
+   "pain around the right eye and upper forehead",
+   "vomiting",
+   "difficulty seeing out of the right eye",
+   "excessive tearing",
+   "minimally responsive right pupil",
+   "firm right globe",
+   "right-sided carotid bruit"
+  ],
+  "duration_summary": "Symptoms began suddenly while rocking his grandson to sleep; headache and associated symptoms were ongoing at presentation."
+ },
+ "mb_0006": {
+  "symptoms": [
+   "right knee pain",
+   "sudden-onset sharp severe pain",
+   "non-radiating pain",
+   "erythematous right knee",
+   "edematous right knee",
+   "pain-limited passive extension"
+  ],
+  "duration_summary": "Started suddenly last night; woke with the pain."
+ },
+ "mb_0005": {
+  "symptoms": [
+   "fever",
+   "change in behavior",
+   "severe headache",
+   "stiff neck",
+   "minimal responsiveness",
+   "vomiting",
+   "dark cloudy urine",
+   "worsening condition",
+   "hypotension",
+   "tachycardia",
+   "tachypnea"
+  ],
+  "duration_summary": "Symptoms began last night and worsened by this morning; similar episodes occurred 6 weeks ago and a urinary tract infection was treated 10 weeks ago."
+ },
+ "mb_0004": {
+  "symptoms": [
+   "worsening constant diffuse headache",
+   "headache worse when lying down",
+   "photophobia",
+   "low-grade fever",
+   "night sweats",
+   "cough",
+   "malaise",
+   "poor appetite",
+   "unintentional weight loss",
+   "neck pain with passive flexion",
+   "ventricular enlargement"
+  ],
+  "duration_summary": "Headache for 1 month; systemic symptoms and 12-lb weight loss over the last 2 months."
+ },
+ "mb_0008": {
+  "symptoms": [
+   "syncope after standing up",
+   "no preceding symptoms",
+   "recent nausea",
+   "tachycardia"
+  ],
+  "duration_summary": "Fainted after several hours outdoors in the heat, immediately after standing up; returned to baseline within 1 minute."
+ },
+ "mb_0010": {
+  "symptoms": [
+   "fatigue",
+   "dark urine",
+   "conjunctival icterus",
+   "bilateral flank tenderness",
+   "left leg erythema"
+  ],
+  "duration_summary": "over the past day"
+ },
+ "mb_0012": {
+  "symptoms": [
+   "palpitations",
+   "menstrual irregularity",
+   "hair loss",
+   "heat intolerance",
+   "diaphoresis",
+   "tremulous hands",
+   "thyromegaly",
+   "proptosis",
+   "tachycardia"
+  ],
+  "duration_summary": "Intermittent symptoms for 2 months"
+ },
+ "mb_0013": {
+  "symptoms": [
+   "increasing seizure frequency",
+   "stiffening episodes",
+   "arm spreading episodes",
+   "hypsarrhythmia on EEG",
+   "hypopigmented macules",
+   "irregular thickened elevated plaque on lower back"
+  ],
+  "duration_summary": "Seizures have increased over the past 2 months; episodic stiffening/spreading occurs occasionally at home."
+ },
+ "mb_0014": {
+  "symptoms": [
+   "persistent facial skin lesions",
+   "acneiform facial lesions",
+   "weight gain"
+  ],
+  "duration_summary": "Facial lesions have persisted since age 13; symptoms unchanged after 1 month of treatment."
+ },
+ "mb_0016": {
+  "symptoms": [],
+  "duration_summary": "3-week hospitalization for liver failure complicated by myocardial infarction"
+ },
+ "mb_0015": {
+  "symptoms": [
+   "sudden unremitting severe headache",
+   "worst headache of life",
+   "disorientation to person, place, and time",
+   "nausea",
+   "vomiting",
+   "poor skin turgor",
+   "delayed capillary refill",
+   "tachycardia",
+   "low blood pressure"
+  ],
+  "duration_summary": "Headache began suddenly 1 hour before presentation; altered mental status and nausea/vomiting developed on hospital day 3."
+ },
+ "mb_0018": {
+  "symptoms": [
+   "chest pain",
+   "shortness of breath",
+   "left arm pain",
+   "tachycardia"
+  ],
+  "duration_summary": "Chest pain and shortness of breath occurred while barbecuing; chest pain recurred 2 days later."
+ },
+ "mb_0020": {
+  "symptoms": [
+   "poor feeding",
+   "weight loss",
+   "jaundice",
+   "hepatomegaly",
+   "splenomegaly",
+   "decreased response to visual stimuli",
+   "bilateral lens clouding"
+  ],
+  "duration_summary": "Symptoms present over the last 2 weeks; infant is 4 weeks old"
+ },
+ "mb_0001": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mb_0021": {
+  "symptoms": [
+   "trouble swallowing",
+   "regurgitation of solids",
+   "chest pain",
+   "shortness of breath",
+   "palpable crepitus above the clavicles",
+   "minor lymphadenopathy"
+  ],
+  "duration_summary": "Dysphagia and regurgitation with solids present before presentation; chest pain and shortness of breath developed several hours after a diagnostic test."
+ },
+ "mb_0023": {
+  "symptoms": [
+   "shortness of breath",
+   "sudden inability to breathe",
+   "poor bilateral air movement",
+   "tachycardia",
+   "hypoxemia",
+   "tachypnea"
+  ],
+  "duration_summary": "Sudden onset while hiking; symptoms improved somewhat with slow deep breaths."
+ },
+ "mb_0022": {
+  "symptoms": [
+   "somnolence",
+   "empty pill bottle found nearby",
+   "possible acetaminophen ingestion"
+  ],
+  "duration_summary": "Found somnolent about 3 hours ago"
+ },
+ "mb_0009": {
+  "symptoms": [
+   "confusion",
+   "disorientation",
+   "eyes open to voice",
+   "follows simple commands",
+   "multiple facial lacerations",
+   "multiple arm lacerations",
+   "bruising over abdomen"
+  ],
+  "duration_summary": "Acute, immediately after a motor vehicle crash; awake but disoriented at the scene"
+ },
+ "mb_0024": {
+  "symptoms": [
+   "full-body jerking",
+   "post-episode confusion",
+   "non-responsiveness",
+   "unable to answer questions",
+   "left facial droop",
+   "left-sided weakness",
+   "migraine headaches with aura"
+  ],
+  "duration_summary": "Episode lasted about 3 minutes; transient left-sided weakness and facial weakness improved after a few minutes."
+ },
+ "mb_0011": {
+  "symptoms": [
+   "fever",
+   "sweats",
+   "retro-orbital headache",
+   "sore throat",
+   "myalgias",
+   "arthralgias",
+   "new rash",
+   "tachycardia"
+  ],
+  "duration_summary": "Fever and associated symptoms for 5 days; returned from Thailand 10 days ago"
+ },
+ "mb_0025": {
+  "symptoms": [
+   "acute confusion",
+   "lethargy",
+   "diarrhea",
+   "profuse bloody diarrhea",
+   "hypotension",
+   "tachycardia"
+  ],
+  "duration_summary": "Sick for the past week; diarrhea ongoing and continued in the emergency department"
+ },
+ "mb_0027": {
+  "symptoms": [
+   "nasal congestion",
+   "blurry vision",
+   "diplopia",
+   "injected conjunctiva",
+   "rhinorrhea",
+   "fever"
+  ],
+  "duration_summary": "Nasal congestion for about 1 week; blurry vision started this morning; fever noted on presentation."
+ },
+ "mb_0028": {
+  "symptoms": [
+   "abnormal feet"
+  ],
+  "duration_summary": "present since the 2-week well-baby evaluation"
+ },
+ "mb_0026": {
+  "symptoms": [
+   "barking noises at school",
+   "daily throat-clearing noises",
+   "grimacing",
+   "rapid blinking"
+  ],
+  "duration_summary": "Throat-clearing noises have been present daily for the past 2 years; barking noises occur at school and abnormal facial movements were seen on exam."
+ },
+ "mb_0029": {
+  "symptoms": [
+   "muscle weakness",
+   "progressive lower extremity weakness",
+   "increased urinary frequency",
+   "mild tenderness of metacarpophalangeal and proximal interphalangeal joints",
+   "4/5 strength in lower extremities"
+  ],
+  "duration_summary": "Symptoms have progressively worsened over 2 weeks; nephrolithiasis occurred approximately 1 month ago."
+ },
+ "mb_0017": {
+  "symptoms": [
+   "increasing lower back pain",
+   "pain worse in the mornings",
+   "pain worse after rest",
+   "pain improved with exercise and physical activity",
+   "limited spinal flexion and extension",
+   "bilateral tenderness over patellar tendon insertions"
+  ],
+  "duration_summary": "6-month history of progressively worsening symptoms"
+ },
+ "mb_0032": {
+  "symptoms": [
+   "abdominal pain",
+   "foul-smelling diarrhea"
+  ],
+  "duration_summary": "Persisting for the past 2 years"
+ },
+ "mb_0030": {
+  "symptoms": [
+   "post-feed regurgitation of formula through nose and mouth",
+   "decreased interest in feeding after regurgitation episodes",
+   "progressive irritability around meal times",
+   "refusal of some feeds",
+   "downtrending weight percentile"
+  ],
+  "duration_summary": "After most feeds; progressively worsening over recent weeks (weight percentile fell over 4 weeks)"
+ },
+ "mb_0031": {
+  "symptoms": [
+   "scleral icterus",
+   "dark urine staining diaper",
+   "recent runny nose",
+   "recent cough",
+   "decreased appetite during recent illness"
+  ],
+  "duration_summary": "Runny nose and cough for a few days last week; decreased appetite during that illness, now resolved to baseline."
+ },
+ "mb_0019": {
+  "symptoms": [
+   "dull aching left-sided pain after fall",
+   "extensive bruising of the lateral left thigh",
+   "tenderness to palpation",
+   "easy bruising"
+  ],
+  "duration_summary": "Bruising has been occurring since he started playing soccer this fall; current pain and thigh bruising began after the scooter fall."
+ },
+ "mb_0034": {
+  "symptoms": [
+   "persistent nausea",
+   "abdominal discomfort",
+   "bloating",
+   "episodic loose stools",
+   "watery stools",
+   "thin appearance"
+  ],
+  "duration_summary": "Daily for the past 3 months"
+ },
+ "mb_0035": {
+  "symptoms": [
+   "right arm weakness",
+   "right hand weakness with dropping objects",
+   "decreased sensation in right arm",
+   "right arm pain",
+   "dull aching pain",
+   "burning pain",
+   "unintentional weight loss"
+  ],
+  "duration_summary": "Symptoms present for a few weeks; hand weakness worsened today"
+ },
+ "mb_0036": {
+  "symptoms": [
+   "palpitations",
+   "chest pain",
+   "nausea",
+   "vomiting",
+   "diarrhea",
+   "dry mucous membranes",
+   "tachycardia"
+  ],
+  "duration_summary": "Palpitations and chest pain for 30 minutes; nausea, vomiting, and diarrhea for 2 days"
+ },
+ "mb_0037": {
+  "symptoms": [
+   "uncontrollable coughing",
+   "continuous coughing",
+   "drooling",
+   "appears uncomfortable",
+   "tachypnea"
+  ],
+  "duration_summary": "Symptoms present for 3 hours"
+ },
+ "mb_0040": {
+  "symptoms": [
+   "bright red blood in toilet bowl after bowel movements",
+   "blood mixed with stool",
+   "unintentional weight loss",
+   "no abdominal pain",
+   "no change in stool habits"
+  ],
+  "duration_summary": "Bleeding occurred after the last 2 bowel movements; weight loss over the last 2 months."
+ },
+ "mb_0033": {
+  "symptoms": [
+   "poor muscle tone",
+   "wide nasal bridge",
+   "down-slanting palpebral fissures",
+   "widely spaced eyes",
+   "high-pitched cry"
+  ],
+  "duration_summary": "Noted at birth, evaluated 2 hours after delivery; poor tone present at 1 and 5 minutes of life"
+ },
+ "mb_0039": {
+  "symptoms": [
+   "right arm weakness",
+   "right hand weakness with dropping objects",
+   "decreased sensation in right arm",
+   "right arm dull aching pain",
+   "right arm burning pain",
+   "unilateral 2/5 strength in right arm"
+  ],
+  "duration_summary": "Symptoms present for a few weeks; hand weakness worsened today."
+ },
+ "mb_0041": {
+  "symptoms": [
+   "shortness of breath",
+   "distress",
+   "tachycardia",
+   "mild right lower extremity inflammation",
+   "right calf pain on palpation"
+  ],
+  "duration_summary": "Symptoms began abruptly while riding the train home from a business conference"
+ },
+ "mb_0042": {
+  "symptoms": [
+   "mild gynecomastia",
+   "sparse facial hair",
+   "small firm testes",
+   "tall stature",
+   "average muscle mass",
+   "coarse pubic hair"
+  ],
+  "duration_summary": "Not specified; findings were noted at the current visit, with a prior diagnosis several months ago."
+ },
+ "mb_0045": {
+  "symptoms": [
+   "bright red blood in stool",
+   "scant rectal bleeding yesterday",
+   "profuse vomiting overnight",
+   "grossly bloody stool on rectal exam"
+  ],
+  "duration_summary": "Bleeding began yesterday and is worse this morning; vomiting occurred overnight."
+ },
+ "mb_0043": {
+  "symptoms": [
+   "sudden severe lower extremity pain",
+   "lower extremity swelling",
+   "anasarca",
+   "asymmetric lower extremity swelling"
+  ],
+  "duration_summary": "Symptoms started suddenly while at a rehabilitation hospital"
+ },
+ "mb_0044": {
+  "symptoms": [
+   "sudden severe headache",
+   "confusion",
+   "diplopia",
+   "uncomfortable appearance",
+   "tachycardia",
+   "mild bibasilar crackles"
+  ],
+  "duration_summary": "Headache began suddenly and she presented within 30 minutes of symptom onset."
+ },
+ "mb_0046": {
+  "symptoms": [
+   "difficulty walking",
+   "right leg pain",
+   "fever",
+   "open thigh wound",
+   "surrounding erythema",
+   "surrounding edema"
+  ],
+  "duration_summary": "Right leg pain for the last few days; cat bite occurred last week and the wound remains present."
+ },
+ "mb_0047": {
+  "symptoms": [
+   "intermittent arm spasms",
+   "intermittent leg spasms",
+   "disorganized jerking motions",
+   "episodes after waking",
+   "episodes triggered by sleep deprivation"
+  ],
+  "duration_summary": "2-month history of intermittent episodes, typically after waking and with staying up late"
+ },
+ "mb_0048": {
+  "symptoms": [
+   "vomiting after most feedings",
+   "regurgitation of breast milk through the nose",
+   "blood-streaked stools",
+   "small amount of blood in rectal vault",
+   "facial and back rash",
+   "falling on growth curve"
+  ],
+  "duration_summary": "Symptoms began 1 week ago; growth faltering has occurred since surpassing birth weight at 2 weeks of age."
+ },
+ "mb_0049": {
+  "symptoms": [
+   "cough",
+   "runny nose",
+   "decreased oral intake",
+   "fussiness",
+   "injected bilateral conjunctivae",
+   "tonsillar redness",
+   "faint bilateral basilar rhonchi"
+  ],
+  "duration_summary": "Cough and runny nose for 3 days; decreased oral intake for 24 hours"
+ },
+ "mb_0050": {
+  "symptoms": [
+   "altered mental status",
+   "cardiac arrest",
+   "pulselessness",
+   "pulseless electrical activity",
+   "dilated hypokinetic right ventricle",
+   "septal bowing",
+   "hyperkinetic left ventricle"
+  ],
+  "duration_summary": "Acute presentation: altered mental status at home followed by pulselessness during transport and ongoing cardiac arrest on arrival."
+ },
+ "mb_0052": {
+  "symptoms": [
+   "regurgitation of breast milk through nose and mouth after feeds",
+   "mild irritability during regurgitation episodes",
+   "hunger soon after episodes",
+   "improvement with smaller feed volumes"
+  ],
+  "duration_summary": "Symptoms began about 2 weeks ago; growth percentiles were essentially stable over the past 4 weeks"
+ },
+ "mb_0051": {
+  "symptoms": [
+   "self-inflicted laceration of distal volar forearm",
+   "cut her own wrist",
+   "teary affect",
+   "apologizes for behavior",
+   "regrets actions",
+   "frightened appearance",
+   "furious reaction to being told she must stay overnight",
+   "unstable/struggling romantic relationships"
+  ],
+  "duration_summary": "Acute presentation now, with a prior similar emergency department visit in the past; chronic pattern of relationship instability"
+ },
+ "mb_0054": {
+  "symptoms": [
+   "rash",
+   "vesicular skin lesions exposure"
+  ],
+  "duration_summary": "rash not improving"
+ },
+ "mb_0053": {
+  "symptoms": [
+   "positive home pregnancy test",
+   "positive urine pregnancy test",
+   "intrauterine singleton pregnancy",
+   "pregnancy at approximately 9 weeks gestational age"
+  ],
+  "duration_summary": "Last menstrual period was 7 weeks prior to presentation; pregnancy measured about 9 weeks gestational age on ultrasound."
+ },
+ "mb_0055": {
+  "symptoms": [
+   "depressed mood",
+   "irritability",
+   "withdrawal",
+   "poor work performance",
+   "tearful affect",
+   "flat affect",
+   "facial grimace",
+   "sudden jerky upper extremity movements"
+  ],
+  "duration_summary": "Progressive change over the last 2 months"
+ },
+ "mb_0056": {
+  "symptoms": [
+   "shortness of breath",
+   "exertional onset of dyspnea while walking",
+   "fatigue",
+   "additional heart sound after S2 (S3)",
+   "bilateral crackles",
+   "bilateral lower extremity pitting edema",
+   "obese abdomen"
+  ],
+  "duration_summary": "Recurrent episodes over 1 month; current episode began \u0623\u062b\u0646\u0627\u0621 walking from car to restaurant"
+ },
+ "mb_0057": {
+  "symptoms": [
+   "headaches",
+   "blurry vision",
+   "tinnitus",
+   "papilledema bilaterally"
+  ],
+  "duration_summary": "Symptoms present over the past month; new oral medication started 2 months prior."
+ },
+ "mb_0058": {
+  "symptoms": [
+   "hematemesis",
+   "bright red blood in mouth and pharynx",
+   "distended abdomen with fluid wave",
+   "jaundice",
+   "scattered spider angiomas",
+   "multiple ecchymoses",
+   "tachycardia",
+   "hypotension"
+  ],
+  "duration_summary": "Started this evening while eating dinner; history of prior small blood-streaked vomiting episodes"
+ },
+ "mb_0059": {
+  "symptoms": [
+   "difficulty chewing",
+   "progressive left jaw pain",
+   "inability to close mouth after biting",
+   "bluish discoloration of lower left face",
+   "non-tender mass inferior to left mandible",
+   "thick exudate draining from skin opening",
+   "fever",
+   "tachycardia"
+  ],
+  "duration_summary": "Progressive over 1 week; transient inability to close mouth this morning; fever noted at presentation"
+ },
+ "mb_0038": {
+  "symptoms": [
+   "difficulty swallowing",
+   "slurred speech",
+   "coughing with liquids",
+   "voice change",
+   "tongue weakness with limited extension",
+   "tongue fasciculations",
+   "exaggerated jaw jerk"
+  ],
+  "duration_summary": "Symptoms have been present for 3 months."
+ },
+ "mb_0061": {
+  "symptoms": [
+   "altered mental status",
+   "obtundation",
+   "minimal interactivity",
+   "withdraws extremities to pain",
+   "hypothermia",
+   "hypotension",
+   "bradycardia",
+   "bradypnea",
+   "cool skin",
+   "pallor",
+   "thin hair"
+  ],
+  "duration_summary": "Last known normal the night before; found obtunded this morning."
+ },
+ "mb_0062": {
+  "symptoms": [
+   "altered mental status",
+   "unconsciousness",
+   "obtundation",
+   "vomiting",
+   "track marks on arm",
+   "skin abscesses",
+   "hypotension",
+   "tachycardia",
+   "tachypnea",
+   "jugular venous distension",
+   "low oxygen saturation"
+  ],
+  "duration_summary": "Acute presentation; found unconscious and arrived to the ED with ongoing altered mental status."
+ },
+ "mb_0063": {
+  "symptoms": [
+   "non-tender right anterior neck mass",
+   "slowly enlarging thyroid/neck mass",
+   "right thyroid lobe nodule",
+   "hypoechogenic thyroid nodule",
+   "microcalcifications on ultrasound"
+  ],
+  "duration_summary": "Slowly enlarging over the past 1 year"
+ },
+ "mb_0064": {
+  "symptoms": [
+   "right hand numbness",
+   "right hand tingling",
+   "intermittent symptoms starting in the middle finger",
+   "progression to nearly constant paresthesias",
+   "right arm/neck pain reproduced with axial loading",
+   "right elbow extension weakness",
+   "right wrist flexion weakness",
+   "decreased right triceps reflex"
+  ],
+  "duration_summary": "Symptoms present for 6 months, initially intermittent and now nearly constant."
+ },
+ "mb_0060": {
+  "symptoms": [
+   "tall stature",
+   "prominent sternum",
+   "joint hypermobility",
+   "hyperelastic skin",
+   "mild developmental delay",
+   "poor visual acuity",
+   "downward lens subluxation (right eye)"
+  ],
+  "duration_summary": "New patient visit; findings appear chronic/developmental with no specific acute onset or duration stated"
+ },
+ "mb_0066": {
+  "symptoms": [
+   "headache",
+   "confusion",
+   "repetitive questioning",
+   "inability to provide history"
+  ],
+  "duration_summary": "Acute after a motor vehicle accident; symptoms noted immediately following the crash"
+ },
+ "mb_0067": {
+  "symptoms": [
+   "sudden throbbing bitemporal headache",
+   "severe headache worse than usual migraines",
+   "nausea",
+   "vomiting",
+   "pain with neck flexion",
+   "moderate distress"
+  ],
+  "duration_summary": "Headache began suddenly about 5 hours prior to presentation."
+ },
+ "mb_0068": {
+  "symptoms": [
+   "sudden-onset painless vision loss in the right eye",
+   "\"curtain was pulled down\" over the right eye",
+   "decreased visual acuity in the right eye (20/800)",
+   "occasional palpitations",
+   "presyncope"
+  ],
+  "duration_summary": "Right-eye vision loss began suddenly 2 days ago."
+ },
+ "mb_0069": {
+  "symptoms": [
+   "copper-colored right nipple discharge",
+   "bloody right nipple discharge on expression",
+   "absence of breast tenderness",
+   "no skin changes of the breast",
+   "no palpable breast mass",
+   "no axillary lymphadenopathy"
+  ],
+  "duration_summary": "2 weeks of nipple discharge"
+ },
+ "mb_0071": {
+  "symptoms": [],
+  "duration_summary": "Asymptomatic; no acute complaints."
+ },
+ "mb_0072": {
+  "symptoms": [
+   "postprandial vomiting",
+   "progressively more frequent and forceful vomiting",
+   "non-bilious, non-bloody emesis",
+   "decreased urine output",
+   "dark yellow urine",
+   "poor weight gain / falling off growth curve",
+   "small for age"
+  ],
+  "duration_summary": "Vomiting began 3 weeks ago and has progressively worsened over that period."
+ },
+ "mb_0074": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mb_0076": {
+  "symptoms": [
+   "abdominal contractions",
+   "leakage of fluid from vagina",
+   "headache",
+   "blurry vision",
+   "abdominal pain",
+   "marked hypertension",
+   "vaginal bleeding",
+   "uterine contraction",
+   "uncomfortable appearance"
+  ],
+  "duration_summary": "At 40 weeks gestation during labor and immediately postpartum"
+ },
+ "mb_0075": {
+  "symptoms": [
+   "sudden unremitting severe headache",
+   "worst headache of life",
+   "disorientation to person, place, and time",
+   "nausea",
+   "vomiting",
+   "poor skin turgor",
+   "delayed capillary refill",
+   "tachycardia"
+  ],
+  "duration_summary": "Headache began suddenly 1 hour before presentation; disorientation and nausea/vomiting developed on hospital day 3."
+ },
+ "mb_0077": {
+  "symptoms": [
+   "confusion",
+   "obtundation",
+   "hypotension",
+   "tachycardia",
+   "tachypnea",
+   "purpuric rash on torso and extremities",
+   "recent profuse epistaxis"
+  ],
+  "duration_summary": "Confusion on presentation today; epistaxis occurred 2 days ago and has resolved since nasal packing."
+ },
+ "mb_0078": {
+  "symptoms": [
+   "hip pain",
+   "groin pain",
+   "morning pain",
+   "worsening pain by end of day",
+   "decreased range of motion of right hip",
+   "right hip crepitus"
+  ],
+  "duration_summary": "Present in the morning and worsens through the day"
+ },
+ "mb_0070": {
+  "symptoms": [
+   "right lower quadrant pain",
+   "loss of appetite",
+   "subjective fever",
+   "vague mild right upper quadrant discomfort",
+   "right lower quadrant tenderness to palpation",
+   "mild right upper quadrant pain",
+   "significant acne"
+  ],
+  "duration_summary": "Right lower quadrant pain began this afternoon; mild right upper quadrant discomfort has been present since the start of wrestling season."
+ },
+ "mb_0073": {
+  "symptoms": [
+   "stabbing pain behind right eye",
+   "eye tearing",
+   "right pupil constriction (2 mm)",
+   "anisocoria"
+  ],
+  "duration_summary": "Current episode; similar episode occurred about 1 month ago and resolved after a few hours"
+ },
+ "mb_0079": {
+  "symptoms": [
+   "syncope during basketball practices",
+   "recurrent fainting episodes",
+   "loss of consciousness lasting less than 1 minute",
+   "no prodromal symptoms",
+   "no injuries from episodes"
+  ],
+  "duration_summary": "Several fainting episodes, all occurring during basketball practice; each episode lasted less than a minute."
+ },
+ "mb_0080": {
+  "symptoms": [
+   "intermittent urinary leakage",
+   "daytime and nighttime urine loss",
+   "nocturia",
+   "urge to void followed by inability to reach bathroom in time",
+   "no urine leakage with coughing"
+  ],
+  "duration_summary": "5-month history of intermittent urinary incontinence"
+ },
+ "mb_0081": {
+  "symptoms": [
+   "action tremor",
+   "tremor during pouring drinks",
+   "tremor while pointing remote",
+   "tremor while fixing car",
+   "tremor on finger-to-nose testing"
+  ],
+  "duration_summary": "Occurs during specific activities; noticed recently enough to prompt a wellness-visit evaluation."
+ },
+ "mb_0085": {
+  "symptoms": [
+   "umbilical swelling",
+   "soft 1 cm bulge at the umbilicus",
+   "bulge increases when crying",
+   "easily reducible umbilical bulge",
+   "no apparent pain"
+  ],
+  "duration_summary": "Noticed over the past 3 weeks since birth; comes and goes"
+ },
+ "mb_0082": {
+  "symptoms": [
+   "diarrhea",
+   "bloating",
+   "flatulence",
+   "abdominal cramps",
+   "weight loss",
+   "pallor"
+  ],
+  "duration_summary": "Symptoms for 2 months"
+ },
+ "mb_0083": {
+  "symptoms": [
+   "muscle spasms",
+   "twitching in upper and lower extremities",
+   "fatigue",
+   "thin appearance",
+   "thinning hair",
+   "pallor",
+   "dry mucous membranes"
+  ],
+  "duration_summary": "Twitching for 3 days; fatigue for the past month"
+ },
+ "mb_0086": {
+  "symptoms": [
+   "murmur after S2 over left sternal border",
+   "elevated blood pressure"
+  ],
+  "duration_summary": "Found on routine general checkup; no symptom duration reported"
+ },
+ "mb_0084": {
+  "symptoms": [
+   "confusion",
+   "generalized pain",
+   "found on the floor",
+   "ill-appearing",
+   "dark-colored urine",
+   "4+ blood on urine dipstick"
+  ],
+  "duration_summary": "Found down on the floor with acute confusion; timing of pain/urine changes not further specified"
+ },
+ "mb_0065": {
+  "symptoms": [
+   "fundoscopic abnormality"
+  ],
+  "duration_summary": null
+ },
+ "mb_0088": {
+  "symptoms": [
+   "non-tender enlarged uterus",
+   "irregular uterine contour",
+   "intramural leiomyomas"
+  ],
+  "duration_summary": null
+ },
+ "mb_0087": {
+  "symptoms": [
+   "shortness of breath",
+   "worsening right shoulder pain",
+   "hemoptysis",
+   "weight loss",
+   "right pupillary constriction",
+   "paresthesias of right fourth and fifth digits"
+  ],
+  "duration_summary": "Symptoms began 3 months ago and have been worsening over that time."
+ },
+ "mb_0090": {
+  "symptoms": [
+   "rash",
+   "vesicular skin lesions exposure",
+   "non-improving skin eruption"
+  ],
+  "duration_summary": "Recently, with rash not improving"
+ },
+ "mb_0091": {
+  "symptoms": [
+   "increased work of breathing",
+   "progressive tachypnea",
+   "grunting",
+   "nasal flaring",
+   "subcostal retractions",
+   "decreased breath sounds at the bases bilaterally",
+   "central cyanosis"
+  ],
+  "duration_summary": "Onset within 30 minutes after birth, with progressive worsening over that period"
+ },
+ "mb_0089": {
+  "symptoms": [
+   "acute obtundation",
+   "unresponsive state",
+   "cold to touch",
+   "hypothermia",
+   "hypotension",
+   "bradycardia",
+   "bradypnea",
+   "mild hypoxemia",
+   "moves extremities to painful stimuli",
+   "sluggish pupils",
+   "does not follow commands"
+  ],
+  "duration_summary": "Not responding to phone calls for 3 days; found unresponsive on presentation"
+ },
+ "mb_0092": {
+  "symptoms": [
+   "fainting/syncope",
+   "dizziness on standing",
+   "transient loss of consciousness",
+   "diaphoresis"
+  ],
+  "duration_summary": "Syncope occurred after working all day in a hot, humid attic; unconscious for about 1 minute and returned to baseline afterward."
+ },
+ "mb_0093": {
+  "symptoms": [
+   "right ear pain",
+   "progressively worsening pain",
+   "pain worse at night",
+   "fever",
+   "chills",
+   "purulent foul-smelling ear discharge",
+   "toxic appearance",
+   "mild distress due to pain",
+   "granulation tissue in external auditory canal",
+   "purulent drainage from external auditory canal"
+  ],
+  "duration_summary": "Ear pain began 4 days prior and has progressively worsened; discharge noted this morning."
+ },
+ "mb_0095": {
+  "symptoms": [
+   "bright green vomiting",
+   "no stool passage",
+   "abdominal distension",
+   "firm abdomen",
+   "hypoactive bowel sounds",
+   "small stool and flatulence after rectal exam",
+   "upslanting palpebral fissures",
+   "epicanthal folds",
+   "single transverse palmar crease"
+  ],
+  "duration_summary": "Symptoms began on day 2 of life; vomiting occurred in the nursery after birth"
+ },
+ "mb_0094": {
+  "symptoms": [
+   "brief loss of consciousness",
+   "mild confusion after awakening",
+   "progressive somnolence",
+   "difficult to arouse",
+   "decreased Glasgow Coma Scale (15 to 7)"
+  ],
+  "duration_summary": "Loss of consciousness for about 30 seconds, followed by gradual worsening somnolence during transport."
+ },
+ "mb_0097": {
+  "symptoms": [
+   "nausea",
+   "fatigue",
+   "anxious appearance"
+  ],
+  "duration_summary": "Nausea for the last several mornings; fatigue for a few weeks"
+ },
+ "mb_0099": {
+  "symptoms": [
+   "suspected stroke",
+   "delayed tissue plasminogen activator administration",
+   "adverse outcomes",
+   "increased morbidity"
+  ],
+  "duration_summary": "tPA given about 10 minutes after presentation at one hospital versus about 2 hours at the teaching hospital"
+ },
+ "mb_0098": {
+  "symptoms": [
+   "diffuse scalp swelling",
+   "ecchymotic swelling over bilateral parietal bones",
+   "mild distress"
+  ],
+  "duration_summary": "Swelling first noted at 9 hours of life; head circumference unchanged over the next 12 hours"
+ },
+ "mb_0101": {
+  "symptoms": [
+   "vaginal discharge",
+   "scant pink mucoid discharge at the introitus"
+  ],
+  "duration_summary": "For the last 2 days in a 4-day-old neonate"
+ },
+ "mb_0103": {
+  "symptoms": [
+   "epistaxis",
+   "active bleeding in the anterior nares",
+   "bleeding not controlled with pressure, head elevation, or ice"
+  ],
+  "duration_summary": "epistaxis for the past hour"
+ },
+ "mb_0102": {
+  "symptoms": [
+   "severe depressed consciousness/coma",
+   "declining Glasgow coma score",
+   "motor vehicle crash-related trauma"
+  ],
+  "duration_summary": "After the motor vehicle accident; neurologic status worsened over 1 week"
+ },
+ "mb_0100": {
+  "symptoms": [
+   "worsening dyspnea",
+   "dyspnea on exertion with short distances",
+   "jugular venous distension",
+   "pulsus paradoxus"
+  ],
+  "duration_summary": "Dyspnea worsening over the past 48 hours; recent cold over the past week"
+ },
+ "mb_0104": {
+  "symptoms": [
+   "shortness of breath at rest",
+   "poor exercise tolerance",
+   "dyspnea with minimal exertion",
+   "increased work of breathing",
+   "bilateral crackles",
+   "wheezing",
+   "tachycardia",
+   "tachypnea",
+   "hypoxemia",
+   "uncomfortable appearance"
+  ],
+  "duration_summary": "Chronic baseline poor exertional tolerance, now worsened to dyspnea at rest after a recent cold"
+ },
+ "mb_0107": {
+  "symptoms": [
+   "mild morning sickness"
+  ],
+  "duration_summary": "12 weeks gestational age; symptoms otherwise absent"
+ },
+ "mb_0108": {
+  "symptoms": [
+   "tonic-clonic seizure",
+   "worsening headaches",
+   "constant dull headache",
+   "headache worse with sneezing or laughing",
+   "intermittent nausea",
+   "increasing nausea",
+   "vomiting",
+   "papilledema"
+  ],
+  "duration_summary": "Headaches and intermittent nausea have worsened over the past 5 months; vomiting occurred twice in the past 10 days."
+ },
+ "mb_0109": {
+  "symptoms": [
+   "lightheadedness",
+   "syncope during exertion",
+   "fatigue not reported",
+   "no chest pain",
+   "no dyspnea",
+   "no weakness",
+   "stable gait",
+   "no focal weakness"
+  ],
+  "duration_summary": "Acute episode while carrying boxes upstairs; currently back at baseline"
+ },
+ "mb_0111": {
+  "symptoms": [
+   "right leg pain",
+   "severe pain",
+   "right leg swelling",
+   "right knee swelling",
+   "pain with passive ankle/foot motion",
+   "crying out in pain"
+  ],
+  "duration_summary": "Pain developed after landing off a ski jump; acute onset"
+ },
+ "mb_0112": {
+  "symptoms": [
+   "bright green vomiting",
+   "poor feeding",
+   "abdominal distension",
+   "firm abdomen",
+   "hypoactive bowel sounds",
+   "mild distress"
+  ],
+  "duration_summary": "Symptoms began this morning in a 4-day-old infant; vomiting occurred over several episodes since then."
+ },
+ "mb_0105": {
+  "symptoms": [
+   "low back pain",
+   "severe pain (10/10)",
+   "pain radiating down the posterior right thigh",
+   "bilateral lower extremity weakness",
+   "diminished pinprick sensation over posterolateral legs and lateral feet",
+   "absent knee reflexes",
+   "absent ankle reflexes",
+   "urinary retention",
+   "wet underwear"
+  ],
+  "duration_summary": "Acute onset 6 hours prior, beginning while gardening and carrying a heavy bag."
+ },
+ "mb_0113": {
+  "symptoms": [
+   "fatigue",
+   "minor pallor"
+  ],
+  "duration_summary": "Fatigue described as having been present lately; otherwise no clear duration given."
+ },
+ "mb_0114": {
+  "symptoms": [
+   "new upper lip hair growth",
+   "daily facial shaving needed",
+   "thick facial hair growth",
+   "worsening acne",
+   "right-sided adnexal mass"
+  ],
+  "duration_summary": "Hair growth is new; acne began several weeks ago."
+ },
+ "mb_0096": {
+  "symptoms": [
+   "primary amenorrhea",
+   "absent breast development",
+   "external genitalia Tanner stage 1"
+  ],
+  "duration_summary": "Has not yet had her first menstrual period at age 15"
+ },
+ "mb_0117": {
+  "symptoms": [
+   "voice has not changed",
+   "short stature relative to classmates",
+   "absent facial hair",
+   "absent acne",
+   "absent pubic hair",
+   "small testicular volume"
+  ],
+  "duration_summary": "Concern noted at routine follow-up; voice delay and growth concerns ongoing, with no acute symptoms reported"
+ },
+ "mb_0115": {
+  "symptoms": [
+   "eye mass sensation",
+   "firm rubbery nodule inside left eyelid",
+   "painless eyelid lesion"
+  ],
+  "duration_summary": "Persisting for the past month"
+ },
+ "mb_0116": {
+  "symptoms": [
+   "urinary urgency",
+   "urinary incontinence",
+   "vaginal pruritus",
+   "dyspareunia",
+   "pale atrophic vulvar skin",
+   "reduced vulvar elasticity",
+   "vulvar petechiae",
+   "loss of vaginal rugae",
+   "friable vaginal mucosal irritation",
+   "minimal clear vaginal discharge"
+  ],
+  "duration_summary": "Symptoms present for 3 months; urinary incontinence occurs about 4 times daily over the same period."
+ },
+ "mb_0119": {
+  "symptoms": [],
+  "duration_summary": "Positive home pregnancy test 1 week ago; last menstrual period 8 weeks ago."
+ },
+ "mb_0121": {
+  "symptoms": [
+   "intermittent palpitations"
+  ],
+  "duration_summary": "Over the past few months"
+ },
+ "mb_0118": {
+  "symptoms": [
+   "hand pain",
+   "shoulder pain",
+   "knee pain",
+   "pain with activity",
+   "difficulty opening jars",
+   "pain with walking",
+   "pain with brushing teeth"
+  ],
+  "duration_summary": "Several months, with recent worsening"
+ },
+ "mb_0123": {
+  "symptoms": [
+   "rapidly growing nodular lesion on dorsal hand",
+   "recent hand trauma/scrape against window",
+   "bleeding from lesion"
+  ],
+  "duration_summary": "Lesion enlarged rapidly over the previous 2 weeks."
+ },
+ "mb_0120": {
+  "symptoms": [
+   "dusky blue discoloration of face, chest, and extremities during nursing",
+   "loud snoring",
+   "rapid breathing",
+   "color improvement when removed from breast and crying"
+  ],
+  "duration_summary": "Onset within the first 15 minutes after birth, occurring during the first attempted nursing"
+ },
+ "mb_0122": {
+  "symptoms": [
+   "nausea",
+   "dizziness",
+   "unsteadiness",
+   "spinning vertigo",
+   "hearing loss worse on the right side",
+   "delayed horizontal nystagmus"
+  ],
+  "duration_summary": "Symptoms have been present for \"a while\"; started as episodic unsteadiness and progressed to spinning vertigo."
+ },
+ "mb_0106": {
+  "symptoms": [
+   "trouble sleeping",
+   "cannot stay awake past 6 pm",
+   "caffeine ineffective",
+   "sleeps peacefully",
+   "feels rested on awakening"
+  ],
+  "duration_summary": "Since retirement from day-shift work; evening sleepiness began around that time"
+ },
+ "mb_0124": {
+  "symptoms": [
+   "worsening ability to organize",
+   "impaired planning",
+   "poor impulse control",
+   "needs reminders for daily tasks",
+   "left upper extremity weakness",
+   "left lower extremity weakness",
+   "left pronator drift",
+   "mild short-term memory impairment"
+  ],
+  "duration_summary": "Cognitive changes worsening over the last month; left-sided weakness began 3 months prior."
+ },
+ "mb_0126": {
+  "symptoms": [
+   "anxiety",
+   "intermittent palpitations",
+   "irregular pulse",
+   "tachycardia",
+   "scattered end-expiratory wheezes",
+   "increased oxygen requirement"
+  ],
+  "duration_summary": "Palpitations began 3 days ago."
+ },
+ "mb_0127": {
+  "symptoms": [
+   "sudden-onset altered mental status",
+   "confusion",
+   "slurred speech",
+   "weakness",
+   "dropping cup of coffee",
+   "left lower facial droop",
+   "inability to follow commands",
+   "right upper extremity not moving"
+  ],
+  "duration_summary": "Last seen normal 1 hour ago; symptoms began suddenly"
+ },
+ "mb_0110": {
+  "symptoms": [
+   "right-sided throbbing headache",
+   "nausea",
+   "bright spots in vision",
+   "relief with lying still in a dark, quiet room"
+  ],
+  "duration_summary": "Episodes occur every few weeks and began several years ago; each lasts several hours."
+ },
+ "mb_0129": {
+  "symptoms": [
+   "jawline hirsutism/facial hair growth requiring frequent shaving",
+   "weight gain",
+   "irregular menses",
+   "amenorrhea/last menstrual period 3 months ago",
+   "acanthosis nigricans in axillary folds"
+  ],
+  "duration_summary": "Hair growth is recent; weight gain over several months; menstrual irregularity over the last year with last menstrual period 3 months ago."
+ },
+ "mb_0130": {
+  "symptoms": [
+   "stab wound to left leg near inguinal ligament",
+   "pulsatile bleeding from wound",
+   "tachycardia",
+   "hypotension",
+   "tachypnea"
+  ],
+  "duration_summary": "Acute presentation after a stab wound with ongoing bleeding"
+ },
+ "mb_0128": {
+  "symptoms": [
+   "pain along the bottom of the foot",
+   "worsening symptoms with recent progression",
+   "burning plantar foot pain",
+   "aching plantar foot pain",
+   "intermittent numbness",
+   "numbness/tingling along the plantar surface of the foot",
+   "symptoms during running",
+   "symptoms at rest",
+   "no improvement with rest from training"
+  ],
+  "duration_summary": "Chronic symptoms in a long-time runner, worsening recently; persists despite taking time off from training."
+ },
+ "mb_0131": {
+  "symptoms": [
+   "difficulty speaking",
+   "difficulty eating",
+   "new-onset left-sided weakness",
+   "left upper and lower extremity weakness",
+   "tongue deviation to the right",
+   "decreased left-sided sensation to light touch and vibration"
+  ],
+  "duration_summary": "Sudden onset, present for 1 hour"
+ },
+ "mb_0132": {
+  "symptoms": [
+   "increasing lower back pain",
+   "pain worse in the mornings",
+   "pain worse after rest",
+   "pain improved with exercise and physical activity",
+   "limited spinal flexion and extension",
+   "bilateral tenderness over patellar tendon insertions"
+  ],
+  "duration_summary": "6-month history of progressively worsening symptoms"
+ },
+ "mb_0133": {
+  "symptoms": [
+   "failure to pass meconium",
+   "green vomiting",
+   "abdominal distension",
+   "firm abdomen",
+   "hypoactive bowel sounds",
+   "obstruction not relieved by digital rectal exam"
+  ],
+  "duration_summary": "Present since birth; evaluated at 3 days of life with 2 episodes of green vomiting"
+ },
+ "mb_0135": {
+  "symptoms": [
+   "infertility",
+   "small testes",
+   "receding hairline",
+   "bilateral palpable breast tissue (gynecomastia)"
+  ],
+  "duration_summary": "Infertility for 3 years; other findings noted at presentation"
+ },
+ "mb_0125": {
+  "symptoms": [
+   "fatigue",
+   "weight loss",
+   "abdominal pain",
+   "mild systolic murmur"
+  ],
+  "duration_summary": "recently; recent cold caused 1 week of missed work"
+ },
+ "mb_0134": {
+  "symptoms": [
+   "chest pain",
+   "dull chest pain",
+   "pain worse with exertion",
+   "shortness of breath",
+   "pain worse when leaning back",
+   "pain improved when leaning forward",
+   "syncope/fainting"
+  ],
+  "duration_summary": "Started 30 minutes ago and has been gradually worsening"
+ },
+ "mb_0136": {
+  "symptoms": [
+   "bilateral purulent eye discharge",
+   "eyelid edema",
+   "eye redness",
+   "thick yellow-white eye discharge"
+  ],
+  "duration_summary": "Symptoms began 1 day ago in a 4-day-old newborn, with discharge becoming thick and purulent this morning."
+ },
+ "mb_0139": {
+  "symptoms": [
+   "amber-colored urine"
+  ],
+  "duration_summary": "Noted about 1 week after appendectomy; persisted on repeat urinalysis 3 days later."
+ },
+ "mb_0137": {
+  "symptoms": [
+   "hip pain",
+   "back pain",
+   "sudden lower back pain after lifting a heavy object",
+   "buttock pain",
+   "pain radiating down the leg",
+   "electrical pain",
+   "burning pain"
+  ],
+  "duration_summary": "Started suddenly this weekend after lifting a heavy object; pain is intermittent in the leg"
+ },
+ "mb_0138": {
+  "symptoms": [
+   "recurrent colds",
+   "fatigue",
+   "fussiness",
+   "bone pain",
+   "decreased playfulness",
+   "fever",
+   "diffuse non-tender lymphadenopathy",
+   "hepatosplenomegaly"
+  ],
+  "duration_summary": "Over the past several weeks"
+ },
+ "mb_0141": {
+  "symptoms": [
+   "fatigue",
+   "cough",
+   "unintentional weight loss",
+   "low-grade fever",
+   "tachycardia"
+  ],
+  "duration_summary": "Fatigue and cough with about 15 lb weight loss over the past 3 weeks"
+ },
+ "mb_0140": {
+  "symptoms": [
+   "progressive shortness of breath",
+   "decreased exercise tolerance",
+   "intermittent palpitations",
+   "laterally displaced point of maximal impulse",
+   "2/6 diastolic murmur radiating to the axilla"
+  ],
+  "duration_summary": "Progressive symptoms; returned from South America 12 months ago, with a prior febrile episode and eyelid swelling during that trip."
+ },
+ "mb_0142": {
+  "symptoms": [
+   "persistent fever",
+   "malaise",
+   "subjective fevers",
+   "hypotension",
+   "tachycardia",
+   "systolic murmur along left sternal border",
+   "antecubital fossa scarring"
+  ],
+  "duration_summary": "Symptoms present for about 1 week"
+ },
+ "mb_0143": {
+  "symptoms": [
+   "pelvic pain",
+   "chronic cyclic pain worse just before menses",
+   "worsening dyspareunia",
+   "pain with lateral cervical displacement",
+   "menorrhagia"
+  ],
+  "duration_summary": "Pelvic pain for several years, dyspareunia worsening over the past 2 months, and menorrhagia improved on OCPs"
+ },
+ "mb_0144": {
+  "symptoms": [
+   "abnormal physical exam finding in Figure A"
+  ],
+  "duration_summary": "Not specified; found on routine checkup"
+ },
+ "mb_0145": {
+  "symptoms": [
+   "headache",
+   "nausea",
+   "vomiting",
+   "fever",
+   "neck pain",
+   "pain with passive neck flexion",
+   "appears uncomfortable"
+  ],
+  "duration_summary": "Started last night and has persisted"
+ },
+ "mb_0146": {
+  "symptoms": [
+   "abdominal pain",
+   "bloody diarrhea",
+   "intermittent loose stools",
+   "unintentional weight loss",
+   "mild diffuse abdominal tenderness"
+  ],
+  "duration_summary": "7-day history of abdominal pain with new bloody diarrhea; weight loss and loose stools noted over the same recent period"
+ },
+ "mb_0148": {
+  "symptoms": [
+   "fatigue",
+   "anhedonia",
+   "low motivation",
+   "heaviness in limbs",
+   "marked effort with activities",
+   "insomnia",
+   "prolonged inability to sleep",
+   "functional impairment at work and school"
+  ],
+  "duration_summary": "Symptoms have been present lately and persisted without improvement for 1 week after starting treatment."
+ },
+ "mb_0149": {
+  "symptoms": [
+   "exertional chest pain",
+   "pain relieved by rest",
+   "no chest pain at rest"
+  ],
+  "duration_summary": "for the past few months; not worsening"
+ },
+ "mb_0150": {
+  "symptoms": [
+   "generalized weakness",
+   "chronic cough",
+   "unintentional weight loss",
+   "oral mucosal hyperpigmentation",
+   "temporal muscle wasting"
+  ],
+  "duration_summary": "Weakness for 3 months; cough and weight loss over the past 6 months."
+ },
+ "mb_0152": {
+  "symptoms": [
+   "worsening seizure activity",
+   "suddenly drops while running",
+   "lack of response to voice commands",
+   "lack of response to auditory stimulation",
+   "sudden loss of consciousness after being startled"
+  ],
+  "duration_summary": "First seizure occurred 1 year ago; events have persisted since then and recently increased after daycare enrollment."
+ },
+ "mb_0153": {
+  "symptoms": [
+   "progressively worsening fatigue",
+   "shortness of breath",
+   "hypoxemia",
+   "tachypnea",
+   "elevated jugular venous pressure",
+   "S3 heart sound",
+   "bibasilar crackles",
+   "bilateral pitting edema to the knees"
+  ],
+  "duration_summary": "2 days of progressively worsening symptoms"
+ },
+ "mb_0154": {
+  "symptoms": [
+   "cyanosis",
+   "weak, shallow respirations",
+   "poor grip strength",
+   "progressive difficulty breathing",
+   "hypophonia",
+   "weak upper extremities",
+   "normal leg strength",
+   "hypoxemia",
+   "tachypnea"
+  ],
+  "duration_summary": "Respiratory and weakness symptoms worsened this morning after a urinary tract infection that began 5 days ago."
+ },
+ "mb_0155": {
+  "symptoms": [
+   "picky eating",
+   "refusal to eat vegetables",
+   "difficulty falling asleep for naps"
+  ],
+  "duration_summary": "Ongoing behavior noted at a routine well-child visit; sleep issue occurs during naps, while nighttime sleep is normal."
+ },
+ "mb_0158": {
+  "symptoms": [],
+  "duration_summary": "No presenting symptoms or abnormal findings reported; mother notes the infant has been doing well since hospital discharge."
+ },
+ "mb_0157": {
+  "symptoms": [
+   "sudden onset slurred speech",
+   "right upper extremity weakness",
+   "transient neurologic deficits",
+   "symptom-free on arrival"
+  ],
+  "duration_summary": "Symptoms lasted about 20 minutes and resolved before ED arrival."
+ },
+ "mb_0159": {
+  "symptoms": [
+   "fatigue",
+   "vaginal pain",
+   "chills",
+   "light red voluminous vaginal discharge",
+   "abdominal pain",
+   "abdominal cramps"
+  ],
+  "duration_summary": "Symptoms began after vaginal delivery, with chills and heavy vaginal discharge developing the next morning."
+ },
+ "mb_0160": {
+  "symptoms": [
+   "worsening memory",
+   "word-finding difficulties",
+   "irritability",
+   "wandering neighborhood",
+   "disorientation about getting home",
+   "difficulty caring for herself",
+   "cognitive impairment on MoCA"
+  ],
+  "duration_summary": "Progressive worsening over the past few years"
+ },
+ "mb_0163": {
+  "symptoms": [
+   "severe headache",
+   "worst headache of life",
+   "progressively worsening headache",
+   "left-sided head pain",
+   "photophobia",
+   "mild bilateral papilledema",
+   "cerebral edema",
+   "increased opening pressure"
+  ],
+  "duration_summary": "Started yesterday and has progressively worsened"
+ },
+ "mb_0162": {
+  "symptoms": [
+   "whole-body itching",
+   "joint swelling and pain in the hands",
+   "redness and burning pain in the hands and feet",
+   "swelling of the hands and feet",
+   "excoriations on the forearms",
+   "discomfort"
+  ],
+  "duration_summary": "Whole-body itching began at presentation; joint and extremity swelling/pain episodes occurred over the previous several months."
+ },
+ "mb_0161": {
+  "symptoms": [
+   "foul-smelling vaginal discharge",
+   "mild burning with urination",
+   "thick white cervical discharge",
+   "whitish urethral discharge"
+  ],
+  "duration_summary": "Started 1 day ago; not improved with hygiene products"
+ },
+ "mb_0164": {
+  "symptoms": [
+   "flat affect",
+   "moist oral mucosa",
+   "nasal polyps",
+   "thick neck",
+   "posterior cervical fat pad",
+   "itchy sweating underarms and chest",
+   "burning sensation with sweat stains"
+  ],
+  "duration_summary": "sweating-related irritation has been present with ongoing shirt-soaking sweat stains; no specific duration given for the other findings"
+ },
+ "mb_0166": {
+  "symptoms": [
+   "extensive ecchymoses along left posterior ribs",
+   "abrasions along left posterior ribs",
+   "ecchymoses of left flank",
+   "abrasions of left flank",
+   "hypotension",
+   "tachycardia"
+  ],
+  "duration_summary": "Acute after a head-on motor vehicle collision"
+ },
+ "mb_0147": {
+  "symptoms": [
+   "sudden vision loss in right eye",
+   "awoke unable to see out of right eye",
+   "right eye feels funny",
+   "pupils symmetric and equally reactive to light with accommodation",
+   "abnormal right fundoscopic exam"
+  ],
+  "duration_summary": "Sudden onset this morning upon waking"
+ },
+ "mb_0165": {
+  "symptoms": [
+   "new lump on head",
+   "3x3 cm fluctuant swelling over right parietal bone",
+   "scalp swelling that does not cross the midline",
+   "no overlying scalp discoloration"
+  ],
+  "duration_summary": "Noted at 6 hours of life; mother reports it was not present at birth."
+ },
+ "mb_0167": {
+  "symptoms": [
+   "partial amputation of right index finger",
+   "pulsatile bleeding",
+   "clean-cut wound on right second finger"
+  ],
+  "duration_summary": "Acute injury from a saw accident; arrived within 20 minutes of the accident."
+ },
+ "mb_0168": {
+  "symptoms": [
+   "sudden onset right upper extremity weakness",
+   "trouble speaking",
+   "decreased responsiveness to verbal stimuli",
+   "withdraws only left upper extremity and lower extremity to pain",
+   "seizure",
+   "agonal breathing",
+   "no response to painful stimuli"
+  ],
+  "duration_summary": "Sudden onset with rapid progression over a short period before ED arrival"
+ },
+ "mb_0151": {
+  "symptoms": [
+   "altered mental status",
+   "hyperthermia",
+   "tachycardia",
+   "tachypnea",
+   "dry mucous membranes",
+   "hot flushed skin",
+   "inappropriate responses"
+  ],
+  "duration_summary": "Acute onset after finishing a marathon"
+ },
+ "mb_0171": {
+  "symptoms": [
+   "abnormal newborn hemoglobinopathy screen"
+  ],
+  "duration_summary": "Identified on newborn screening at 6 weeks of age"
+ },
+ "mb_0170": {
+  "symptoms": [
+   "altered mental status",
+   "progressive confusion",
+   "diarrhea",
+   "nausea",
+   "vomiting",
+   "abdominal pain",
+   "garlic odor on breath",
+   "tachycardia",
+   "tachypnea"
+  ],
+  "duration_summary": "Confusion gradually worsened over several days; gastrointestinal symptoms present for the past week."
+ },
+ "mb_0169": {
+  "symptoms": [
+   "fluctuating right upper quadrant abdominal pain",
+   "increased pain severity",
+   "right upper quadrant tenderness to palpation",
+   "obesity"
+  ],
+  "duration_summary": "Pain was present on presentation, initially 4/10 and recently increased to 6/10; symptoms remained unchanged 24 hours later."
+ },
+ "mb_0172": {
+  "symptoms": [
+   "feels less well-rested on waking",
+   "reduced sleep duration compared with youth"
+  ],
+  "duration_summary": "Chronic change since retirement/over recent years; now sleeps about 7 hours nightly instead of 9 hours in youth"
+ },
+ "mb_0173": {
+  "symptoms": [
+   "dizziness",
+   "constant spinning sensation (vertigo)",
+   "trouble walking",
+   "vomiting",
+   "ataxic gait",
+   "rightward nystagmus",
+   "corrective saccade on head impulse test"
+  ],
+  "duration_summary": "Constant dizziness/vertigo, unchanged with Dix-Hallpike"
+ },
+ "mb_0156": {
+  "symptoms": [
+   "left plantar foot ulcer",
+   "ulcer on left metatarsal head"
+  ],
+  "duration_summary": "noticed 6 days ago"
+ },
+ "mb_0175": {
+  "symptoms": [
+   "confusion",
+   "generalized pain",
+   "found on the floor",
+   "ill-appearing",
+   "dark-colored urine",
+   "4+ blood on urine dipstick"
+  ],
+  "duration_summary": "Found on the floor after an unknown period; timing of symptoms not otherwise specified"
+ },
+ "mb_0174": {
+  "symptoms": [
+   "eye redness",
+   "ocular discharge",
+   "cough",
+   "nasal discharge",
+   "eyelid swelling",
+   "scattered crackles",
+   "hyperinflation with bilateral infiltrates"
+  ],
+  "duration_summary": "Symptoms present in a 13-day-old infant; eye symptoms and respiratory symptoms developed after birth, with ocular findings noted on presentation."
+ },
+ "mb_0176": {
+  "symptoms": [
+   "secondary amenorrhea",
+   "progressively irregular menses before cessation",
+   "rigorous athletic training"
+  ],
+  "duration_summary": "Amenorrhea for 7 months; menstrual irregularity began about 2 years ago before periods stopped"
+ },
+ "mb_0178": {
+  "symptoms": [
+   "intermittent bilateral hand tremor",
+   "tremor with brushing teeth",
+   "tremor while preparing coffee",
+   "high-frequency tremor on finger-to-nose testing"
+  ],
+  "duration_summary": "Present for several years; improves gradually over the course of the day"
+ },
+ "mb_0177": {
+  "symptoms": [
+   "multiple abdominal stab wounds",
+   "intoxication",
+   "tachycardia",
+   "hypotension",
+   "tachypnea",
+   "hypoxemia",
+   "sparse body hair with hair loss",
+   "rash at corners of mouth",
+   "multiple loose bowel movements",
+   "poor wound healing",
+   "surgical wound with minimal underlying healing"
+  ],
+  "duration_summary": "Initially after abdominal stabbing; hair loss/rash noted after extubation; loose bowel movements and poor wound healing by hospital day 6"
+ },
+ "mb_0181": {
+  "symptoms": [
+   "palpable thyroid nodule",
+   "cervical lymphadenopathy",
+   "perioral lesion"
+  ],
+  "duration_summary": null
+ },
+ "mb_0182": {
+  "symptoms": [
+   "painful genital ulcers",
+   "low-grade fever",
+   "malaise",
+   "multiple clustered vesicles",
+   "shallow vulvar ulcers"
+  ],
+  "duration_summary": "Genital ulcers present for 4 days"
+ },
+ "mb_0185": {
+  "symptoms": [
+   "solid, immobile neck mass",
+   "inferior to cricoid cartilage",
+   "left of midline",
+   "hypoechoic thyroid-region mass with microcalcifications"
+  ],
+  "duration_summary": "Detected on annual exam; duration not otherwise stated"
+ },
+ "mb_0187": {
+  "symptoms": [
+   "shortness of breath",
+   "substernal pain"
+  ],
+  "duration_summary": "Presented to the emergency department initially; at follow-up 4 weeks later he reports improvement"
+ },
+ "mb_0186": {
+  "symptoms": [
+   "increased sexual drive",
+   "inability to achieve orgasm",
+   "elevated home blood glucose readings",
+   "obesity"
+  ],
+  "duration_summary": "Since starting fluoxetine; home blood glucose has been higher lately."
+ },
+ "mb_0183": {
+  "symptoms": [
+   "bilateral hand tremors",
+   "sweating",
+   "palpitations",
+   "anxiety",
+   "tachycardia",
+   "mild diaphoresis",
+   "non-tender neck prominence"
+  ],
+  "duration_summary": "Symptoms began 4 weeks ago and have persisted despite treatment, with mild improvement."
+ },
+ "mb_0180": {
+  "symptoms": [
+   "developmental regression",
+   "struggles when placed on back",
+   "cannot roll from back to front",
+   "not able to sit without support",
+   "no attempt at bouncing when supported standing",
+   "hyperreflexia (4+ patellar reflexes)",
+   "ocular abnormality"
+  ],
+  "duration_summary": "Started a few weeks ago; developmental concerns noted over the past 2 months compared with prior normal development"
+ },
+ "mb_0188": {
+  "symptoms": [
+   "shortness of breath",
+   "dyspnea",
+   "lightheadedness",
+   "fatigue",
+   "hypotension",
+   "bradycardia",
+   "irregular rhythm",
+   "moderate distress"
+  ],
+  "duration_summary": "Dyspnea began 1 hour prior to presentation; symptoms occurred 2 weeks after mitral valve repair."
+ },
+ "mb_0189": {
+  "symptoms": [
+   "delayed passage of meconium",
+   "moderate distress",
+   "abdominal distension",
+   "non-tender abdomen",
+   "absent bowel sounds"
+  ],
+  "duration_summary": "3-day-old newborn with delayed meconium passage since birth"
+ },
+ "mb_0190": {
+  "symptoms": [
+   "anxiety",
+   "fatigue",
+   "exhaustion",
+   "difficulty studying",
+   "insomnia",
+   "tired appearance",
+   "anxious appearance"
+  ],
+  "duration_summary": "Symptoms present during the past week"
+ },
+ "mb_0192": {
+  "symptoms": [
+   "squinting while watching television",
+   "left eye wandering when focusing on a light",
+   "left eye refocuses when right eye is covered"
+  ],
+  "duration_summary": "Not specified; noted at the well-child visit as a recent parental concern."
+ },
+ "mb_0191": {
+  "symptoms": [
+   "sudden-onset abdominal pain",
+   "back pain",
+   "severe abdominal pain",
+   "loss of appetite",
+   "diffuse abdominal tenderness",
+   "diaphoresis",
+   "pallor",
+   "fatigue",
+   "hypotension",
+   "tachycardia"
+  ],
+  "duration_summary": "Symptoms began suddenly 3 hours ago"
+ },
+ "mb_0193": {
+  "symptoms": [
+   "explosive diarrhea",
+   "poor feeding",
+   "failure to regain birth weight",
+   "bilious vomiting",
+   "fever",
+   "moderate distress",
+   "firm distended abdomen",
+   "tight anal sphincter",
+   "release of gas and liquid stool after rectal exam"
+  ],
+  "duration_summary": "Diarrhea began 6 hours prior; poor feeding since birth; symptoms present since the neonatal period."
+ },
+ "mb_0198": {
+  "symptoms": [
+   "increased thirst",
+   "increased urination"
+  ],
+  "duration_summary": "3 weeks"
+ },
+ "mb_0196": {
+  "symptoms": [
+   "headache",
+   "fever",
+   "confusion",
+   "difficulty answering questions",
+   "rash",
+   "neck stiffness/meningismus",
+   "positive Brudzinski sign"
+  ],
+  "duration_summary": "Headache and fever for 2 days; confusion, difficulty answering questions, and rash developed this morning."
+ },
+ "mb_0195": {
+  "symptoms": [
+   "non-responsive state",
+   "hypothermia",
+   "bradycardia",
+   "bradypnea",
+   "dark bullae on extremities",
+   "altered mental status with rapid improvement after warming"
+  ],
+  "duration_summary": "Found non-responsive while hiking; mental status improved rapidly with rewarming"
+ },
+ "mb_0197": {
+  "symptoms": [
+   "chest pressure",
+   "crushing chest pain",
+   "diaphoresis",
+   "uncomfortable appearance",
+   "tachycardia",
+   "tachypnea"
+  ],
+  "duration_summary": "Symptoms began at work while lifting boxes and worsened over the course of the ED visit."
+ },
+ "mb_0179": {
+  "symptoms": [
+   "3 cm full-thickness abdominal wall defect to the right of the umbilicus",
+   "evisceration of bowel loop"
+  ],
+  "duration_summary": "Present at birth, noted at 1 hour of life"
+ },
+ "mb_0200": {
+  "symptoms": [
+   "frequent watery stools",
+   "nonbloody diarrhea",
+   "diffuse abdominal discomfort on palpation"
+  ],
+  "duration_summary": "Several days of diarrhea; recent clindamycin course completed 2 weeks earlier"
+ },
+ "mb_0202": {
+  "symptoms": [
+   "concern for possible pregnancy",
+   "unprotected sexual intercourse",
+   "request for emergency contraception"
+  ],
+  "duration_summary": "Intercourse occurred earlier that morning; last menstrual period ended 8 days ago."
+ },
+ "mb_0194": {
+  "symptoms": [
+   "irritability",
+   "anhedonia",
+   "decreased sleep",
+   "fall while walking in the dark",
+   "depressed affect",
+   "bilateral lower-extremity weakness",
+   "brisk patellar reflexes"
+  ],
+  "duration_summary": "Mood changes and recurrent falls over 3 months; decreased sleep over the last 2 weeks"
+ },
+ "mb_0184": {
+  "symptoms": [
+   "persistently worsening lower back pain",
+   "localized focal back pain",
+   "pain worse with physical activity",
+   "midline back tenderness to palpation at L2-L3"
+  ],
+  "duration_summary": "4 weeks of progressively worsening pain"
+ },
+ "mb_0203": {
+  "symptoms": [
+   "achy wrists",
+   "achy elbows",
+   "morning joint ache"
+  ],
+  "duration_summary": "Wakes up with the aches; chronicity otherwise not specified."
+ },
+ "mb_0205": {
+  "symptoms": [
+   "sudden onset vomiting",
+   "green bilious emesis",
+   "refusal to feed",
+   "mild distress",
+   "dry mucous membranes",
+   "abdominal distension",
+   "hypoactive bowel sounds"
+  ],
+  "duration_summary": "Symptoms began \u0905\u091a\u093e\u0928\u0915 this morning; previously feeding, voiding, and stooling well until today."
+ },
+ "mb_0207": {
+  "symptoms": [
+   "left arm weakness",
+   "left leg weakness",
+   "sudden inability to grasp with left hand",
+   "fall after stumbling",
+   "left-sided facial droop",
+   "3/5 strength in left upper extremity",
+   "3/5 strength in left lower extremity",
+   "rapid improvement after alteplase"
+  ],
+  "duration_summary": "Sudden onset \u10d3\u10d0\u10d0\u10ee\u10da\u10dd\u10d4\u10d1\u10d8\u10d7 45 minutes before arrival"
+ },
+ "mb_0201": {
+  "symptoms": [
+   "abdominal pain",
+   "bloating",
+   "mood swings",
+   "frequent arguments at work",
+   "difficulty concentrating",
+   "sleeping longer than usual",
+   "extreme anxiety",
+   "interpersonal distress"
+  ],
+  "duration_summary": "Recurrent episodes occurring together about every 4 weeks"
+ },
+ "mb_0208": {
+  "symptoms": [
+   "sudden fainting",
+   "unresponsiveness",
+   "cardiac arrest",
+   "pulselessness"
+  ],
+  "duration_summary": "Sudden onset while in class; found collapsed and remained unresponsive until death."
+ },
+ "mb_0206": {
+  "symptoms": [
+   "right elbow pain",
+   "crying due to pain",
+   "refusal to move the elbow",
+   "tenderness 2 cm proximal to the elbow",
+   "abnormal radial head position",
+   "inability to make a pincer grip with the right thumb and index finger",
+   "dropping a pen when trying to hold it",
+   "diminished right radial pulse"
+  ],
+  "duration_summary": "Immediate onset after a fall onto an outstretched right hand; symptoms began right away."
+ },
+ "mb_0209": {
+  "symptoms": [
+   "generalized weakness",
+   "morning-predominant weakness",
+   "persistent weakness throughout the day",
+   "unintentional weight loss",
+   "chronic cough",
+   "mild hypoxemia",
+   "elevated blood pressure"
+  ],
+  "duration_summary": "Weakness has been present recently, occurs every morning, and persists throughout the day; weight loss is recent and cough is chronic."
+ },
+ "mb_0210": {
+  "symptoms": [
+   "ill-appearing",
+   "intubated",
+   "tachycardia",
+   "hypotension",
+   "weak rapid pulses",
+   "abdominal bruising"
+  ],
+  "duration_summary": "Acute after a high-speed motorcycle crash"
+ },
+ "mb_0211": {
+  "symptoms": [
+   "fatigue",
+   "malaise",
+   "painful rash",
+   "abdominal pain",
+   "diarrhea",
+   "erythematous papules and plaques on face, torso, and extremities"
+  ],
+  "duration_summary": "Symptoms worsening over the past week"
+ },
+ "mb_0215": {
+  "symptoms": [
+   "posterior elbow pain",
+   "swelling",
+   "refusal to extend elbow due to pain"
+  ],
+  "duration_summary": "After a fall on an outstretched hand while rollerblading"
+ },
+ "mb_0212": {
+  "symptoms": [
+   "recurrent syncope",
+   "postural presyncope on standing",
+   "presyncope with exertion",
+   "presyncope with head turning",
+   "numbness",
+   "vertigo",
+   "trouble speaking before fainting",
+   "brief mild confusion after episodes",
+   "numbness and tingling on standing/walking"
+  ],
+  "duration_summary": "Episodes last 1-5 minutes with mild confusion on awakening that resolves within about a minute"
+ },
+ "mb_0213": {
+  "symptoms": [
+   "profuse watery diarrhea",
+   "diarrhea worsened by eating and drinking",
+   "decreased oral intake/withholding fluids",
+   "hypotension",
+   "tachycardia",
+   "dry mucous membranes"
+  ],
+  "duration_summary": "Symptoms present for the past 24 hours"
+ },
+ "mb_0214": {
+  "symptoms": [
+   "fever",
+   "chills",
+   "progressive diffuse erythematous rash",
+   "diarrhea",
+   "skin peeling/desquamation of hands",
+   "bilateral conjunctivitis",
+   "copious foul-smelling purulent nasal discharge",
+   "ill-appearing",
+   "hypotension",
+   "tachycardia"
+  ],
+  "duration_summary": "Several days of fever and chills with progressive rash and diarrhea; nasal packing in place for 1 week"
+ },
+ "mb_0217": {
+  "symptoms": [
+   "irregular menstruation",
+   "oligomenorrhea",
+   "flushing",
+   "dyspareunia",
+   "post-coital spotting",
+   "more frequent headaches"
+  ],
+  "duration_summary": "Only 2 menstrual periods in the last year; otherwise timing not further specified."
+ },
+ "mb_0199": {
+  "symptoms": [
+   "weight gain",
+   "increased eating",
+   "increased sleeping",
+   "loss of interest in activities",
+   "guilt",
+   "poor concentration",
+   "burning leg pain",
+   "electric pain with touch to lower extremities",
+   "reduced sensation in lower extremities",
+   "depressed affect"
+  ],
+  "duration_summary": "Symptoms have been present for about 4 months, since his wife died; leg pain is chronic and worsening over years"
+ },
+ "mb_0219": {
+  "symptoms": [
+   "altered mental status",
+   "suicide note",
+   "fever",
+   "tachycardia"
+  ],
+  "duration_summary": "Acute presentation; found at home and brought to the ED"
+ },
+ "mb_0216": {
+  "symptoms": [
+   "progressive bilateral vision decline",
+   "numbness of lips",
+   "numbness of feet",
+   "opacified pupils",
+   "slow extraocular movements",
+   "decreased visual acuity bilaterally"
+  ],
+  "duration_summary": "vision has been steadily declining over the past 2 years; numbness timing not specified"
+ },
+ "mb_0220": {
+  "symptoms": [
+   "chronic cough",
+   "cough worse at night",
+   "progressively worsening cough",
+   "weight loss",
+   "dark stools"
+  ],
+  "duration_summary": "Cough present for several years, worsening over the last few months; weight loss and dark stools over the last 3 months"
+ },
+ "mb_0218": {
+  "symptoms": [
+   "fixed persecutory delusions",
+   "belief neighbors are tampering with food",
+   "belief he has been poisoned",
+   "belief neighbors are trying to break into his house",
+   "belief neighbors are trying to steal his things",
+   "belief neighbors are retaliating against him",
+   "angry/irritable response",
+   "outrage at reassurance"
+  ],
+  "duration_summary": "Not specified; symptoms are described as current/presenting with no clear onset or duration stated."
+ },
+ "mb_0221": {
+  "symptoms": [
+   "recurrent frontal sinus pain/pressure",
+   "chronic productive cough",
+   "airway dilation on chest MRI",
+   "low-grade fever",
+   "tachycardia",
+   "mild hypoxemia"
+  ],
+  "duration_summary": "Since birth for the sinus symptoms, chronic productive cough, and growth pattern; recently for the current respiratory infection."
+ },
+ "mb_0222": {
+  "symptoms": [
+   "moderate scleral icterus",
+   "soft, flat anterior fontanelle",
+   "decreased weight from birth"
+  ],
+  "duration_summary": "Present at the 4-day newborn visit; jaundice noted since the early neonatal period"
+ },
+ "mb_0204": {
+  "symptoms": [
+   "altered mental status",
+   "confusion",
+   "disorientation",
+   "inability to answer coherently",
+   "hyperthermia",
+   "tachycardia",
+   "tachypnea",
+   "tonic-clonic seizure"
+  ],
+  "duration_summary": "Confusion began halfway through a marathon; the seizure lasted 1 minute and self-terminated."
+ },
+ "mb_0223": {
+  "symptoms": [
+   "several episodes of diarrhea",
+   "vomiting",
+   "concern for dehydration"
+  ],
+  "duration_summary": "GI symptoms began yesterday after a company picnic 2 days ago and have since improved/resolved"
+ },
+ "mb_0224": {
+  "symptoms": [
+   "belief he can converse with animals via telepathy",
+   "difficulty telepathically connecting with animals",
+   "attempts to telepathically connect with nearby animals during interview",
+   "wearing an all-burlap ensemble"
+  ],
+  "duration_summary": "Symptoms have persisted for the past 8 months."
+ },
+ "mb_0226": {
+  "symptoms": [
+   "altered mental status",
+   "unresponsiveness",
+   "slurred speech",
+   "somnolence",
+   "miotic pupils",
+   "rapidly falling asleep after arousal",
+   "decreased bowel sounds"
+  ],
+  "duration_summary": "Acute presentation, found unresponsive at a bus stop and still symptomatic on arrival"
+ },
+ "mb_0227": {
+  "symptoms": [
+   "pain with defecation",
+   "rectal bleeding on toilet paper",
+   "straining with bowel movements",
+   "difficulty defecating due to pain",
+   "small superficial anal fissure lateral to the anus",
+   "anal fissure lateral to the midline"
+  ],
+  "duration_summary": "Symptoms began a few weeks ago and have been worsening."
+ },
+ "mb_0229": {
+  "symptoms": [
+   "chest pain",
+   "shortness of breath",
+   "abdominal pain",
+   "pain requiring medication",
+   "marked hypertension",
+   "tachycardia",
+   "ST elevation in leads II, III, and aVF"
+  ],
+  "duration_summary": "Chest pain and shortness of breath on presentation; abdominal pain developed on hospital day 2."
+ },
+ "mb_0228": {
+  "symptoms": [
+   "fever",
+   "malaise",
+   "cough",
+   "worsening cough",
+   "hemoptysis",
+   "new left upper lobe nodules",
+   "hilar adenopathy"
+  ],
+  "duration_summary": "Cough and hemoptysis worsened over the last week; similar symptoms occurred about 5 weeks ago."
+ },
+ "mb_0225": {
+  "symptoms": [
+   "chest pain",
+   "shortness of breath",
+   "abdominal pain",
+   "pain requiring medication",
+   "marked tachycardia",
+   "severe hypertension",
+   "ST elevation in II, III, and aVF",
+   "physical exam finding consistent with abdominal wall pathology"
+  ],
+  "duration_summary": "Chest pain and shortness of breath on ED presentation; abdominal pain developed on hospital day 2."
+ },
+ "mb_0231": {
+  "symptoms": [
+   "pruritus",
+   "skin lesions",
+   "nonblanching thick skin lesions",
+   "possible recurrent pneumonia symptoms"
+  ],
+  "duration_summary": "Itchy recently, with skin lesions appearing afterward; pneumonia symptoms may be returning about 1 week after discharge."
+ },
+ "mb_0232": {
+  "symptoms": [
+   "rash",
+   "intermittent pruritus",
+   "lace-like white lines on buccal mucosa"
+  ],
+  "duration_summary": "Rash noticed 2 weeks prior; itchiness is intermittent."
+ },
+ "mb_0230": {
+  "symptoms": [
+   "nighttime headaches",
+   "sudden stabbing/electrical pain over left eye",
+   "left eye tearing",
+   "fear of sleeping due to pain"
+  ],
+  "duration_summary": "Headaches began over 1 year ago, recurred 3 weeks ago, occur several times per week at night, and each episode lasts 2-3 hours."
+ },
+ "mb_0234": {
+  "symptoms": [
+   "minimal impairment in daily functioning"
+  ],
+  "duration_summary": "Assessed longitudinally over 5 years with 6-month follow-up intervals"
+ },
+ "mb_0235": {
+  "symptoms": [
+   "fluctuating changes in behavior",
+   "hallucinations",
+   "visual hallucinations of small people and animals",
+   "disorganized speech",
+   "memory lapses",
+   "slowed movements",
+   "difficulty with balance at rest"
+  ],
+  "duration_summary": "Fluctuating behavioral changes and hallucinations over the past 2 years; slowed movements and balance difficulty developed within the past year."
+ },
+ "mb_0233": {
+  "symptoms": [
+   "facial hirsutism",
+   "lower abdominal hirsutism",
+   "acne on face and back",
+   "amenorrhea",
+   "irregular menses",
+   "weight gain",
+   "slightly distended abdomen",
+   "coarse stubble along jawline and upper lip",
+   "hair along midline lower abdomen",
+   "mild clitoromegaly",
+   "large mildly tender left adnexal mass"
+  ],
+  "duration_summary": "Facial and lower abdominal hair growth started 1 month ago; acne has been present for several months; menstrual irregularity over the last year with no menses for over 3 months; recent weight gain."
+ },
+ "mb_0236": {
+  "symptoms": [
+   "paroxysmal crying episodes",
+   "bending at the waist",
+   "jerking of arms and legs",
+   "clusters of brief spells",
+   "developmental regression",
+   "decreased rolling over",
+   "worse head control",
+   "loss of social smiling"
+  ],
+  "duration_summary": "Several times daily; individual episodes last 1-2 seconds and occur in clusters every 20-30 seconds for several minutes."
+ },
+ "mb_0239": {
+  "symptoms": [
+   "trouble sleeping",
+   "urge to get up out of bed at night",
+   "need to walk around",
+   "perpetual uneasiness at night",
+   "relief with getting up and walking around"
+  ],
+  "duration_summary": "No daytime symptoms; symptoms occur at night when going to bed and waking her from sleep."
+ },
+ "mb_0238": {
+  "symptoms": [
+   "laceration over right 4th MCP joint",
+   "dog bite to closed fist",
+   "right hand pain"
+  ],
+  "duration_summary": "Injury occurred yesterday"
+ },
+ "mb_0237": {
+  "symptoms": [
+   "mutism",
+   "staring at the wall",
+   "nonresponse to name or hand waving",
+   "immobility/posturing",
+   "waxy flexibility",
+   "resistance to repositioning",
+   "ignoring external stimuli"
+  ],
+  "duration_summary": "Acute onset, noticed earlier the same day when found at home"
+ },
+ "mb_0240": {
+  "symptoms": [
+   "altered mental status",
+   "disorientation",
+   "right-sided headache",
+   "fever",
+   "right arm weakness",
+   "right leg weakness",
+   "seizure-like episode with eye-rolling",
+   "urinary incontinence"
+  ],
+  "duration_summary": "Headache for 5 days; disorientation noted this morning; seizure-like activity observed during exam lasting about 1 minute"
+ },
+ "mb_0242": {
+  "symptoms": [
+   "nausea and vomiting",
+   "tender swollen breasts",
+   "food cravings",
+   "abdominal distension"
+  ],
+  "duration_summary": "Symptoms present for about 2 months; pregnancy test was taken about 10 weeks ago."
+ },
+ "mb_0241": {
+  "symptoms": [
+   "severe circumferential thermal burn of left leg",
+   "screaming in pain",
+   "cold left toes",
+   "significant left leg edema",
+   "absent left dorsalis pedis pulse",
+   "absent left posterior tibial pulse",
+   "low left-leg delta pressure"
+  ],
+  "duration_summary": "Burn occurred on awakening after MRI; left-toe coldness and edema developed overnight."
+ },
+ "mb_0244": {
+  "symptoms": [
+   "malaise",
+   "weakness",
+   "night sweats",
+   "headache",
+   "blurry vision",
+   "weight loss",
+   "low-grade fever",
+   "decreased visual acuity",
+   "ataxic gait"
+  ],
+  "duration_summary": "Several days of malaise, weakness, and night sweats; headache and blurry vision today; 10-pound weight loss over the past month"
+ },
+ "mb_0247": {
+  "symptoms": [
+   "arm stiffness",
+   "difficulty combing hair",
+   "difficulty reaching high objects",
+   "decreased active shoulder range of motion",
+   "decreased passive shoulder range of motion",
+   "upper extremity weakness limited by pain"
+  ],
+  "duration_summary": null
+ },
+ "mb_0246": {
+  "symptoms": [
+   "depressed mood",
+   "loss of interest in activities",
+   "depressed appetite",
+   "inability to sleep",
+   "minimal improvement in symptoms",
+   "depressed appearance",
+   "tired appearance",
+   "resolved nausea"
+  ],
+  "duration_summary": "Several weeks of symptoms before starting citalopram; follow-up two months after initiation"
+ },
+ "mb_0248": {
+  "symptoms": [
+   "left eye pain",
+   "blurry vision",
+   "left conjunctival injection",
+   "decreased visual acuity in left eye",
+   "sluggish left pupillary constriction",
+   "elevated intraocular pressure in left eye"
+  ],
+  "duration_summary": "Acute onset after being punched in the eye during a bar fight"
+ },
+ "mb_0245": {
+  "symptoms": [
+   "chest pain",
+   "pain radiating to back",
+   "pain radiating to arms",
+   "pain radiating to abdomen",
+   "tearing quality of pain",
+   "diaphoresis",
+   "anxious appearance",
+   "diminished left wrist pulse",
+   "marked hypertension",
+   "tachycardia"
+  ],
+  "duration_summary": "Acute presentation; timing from onset not otherwise specified."
+ },
+ "mb_0249": {
+  "symptoms": [
+   "severe abdominal pain",
+   "dull progressive abdominal pain",
+   "sudden worsening of pain with exercise",
+   "diffuse abdominal tenderness",
+   "marked right upper quadrant tenderness",
+   "hypotension",
+   "tachycardia",
+   "low-grade fever",
+   "acne"
+  ],
+  "duration_summary": "Pain was progressive and then acutely worsened during exercise; timing otherwise not specified."
+ },
+ "mb_0250": {
+  "symptoms": [
+   "subjective fevers",
+   "chills",
+   "cough",
+   "night sweats",
+   "gradual weight loss",
+   "thin, ill-appearing appearance",
+   "faint inspiratory crackles in right upper lobe",
+   "fever"
+  ],
+  "duration_summary": "About 1 month of fevers, chills, cough, and night sweats; weight loss over the past year."
+ },
+ "mb_0251": {
+  "symptoms": [
+   "over-sedation",
+   "need for ICU transfer",
+   "airway monitoring"
+  ],
+  "duration_summary": "Subsequent to an accidental clonazepam order during overnight admission"
+ },
+ "mb_0252": {
+  "symptoms": [
+   "finger crush injury from car door",
+   "initial finger pain",
+   "physical exam with subungual hematoma/traumatic nail finding",
+   "radiographic soft-tissue injury without bone disruption"
+  ],
+  "duration_summary": "Injury occurred 5 hours prior to presentation; pain initially present and currently well controlled."
+ },
+ "mb_0253": {
+  "symptoms": [
+   "abnormal vaginal discharge",
+   "rash after sexual intercourse"
+  ],
+  "duration_summary": "Rash occurred 3 days after the initial visit; patient reports the rash appears every time she has sex."
+ },
+ "mb_0257": {
+  "symptoms": [
+   "percutaneous needlestick injury",
+   "puncture wound"
+  ],
+  "duration_summary": "Immediate injury at the time of blood draw; washed immediately afterward"
+ },
+ "mb_0254": {
+  "symptoms": [
+   "blistering erythematous rash on the arms and shoulders",
+   "new skin lesion on the arm",
+   "sunburned despite appropriate sunscreen"
+  ],
+  "duration_summary": "New arm lesion was present for 1 week before the prior visit; the new sunburn-like rash developed this morning within an hour of starting work."
+ },
+ "mb_0258": {
+  "symptoms": [
+   "fever",
+   "cough with yellow-green sputum",
+   "decreased breath sounds on the right side",
+   "increased dullness to percussion on the right side"
+  ],
+  "duration_summary": "Symptoms for the past 3 days; similar episode occurred 2 months ago and previously resolved after treatment"
+ },
+ "mb_0256": {
+  "symptoms": [
+   "fatigue",
+   "blurry vision",
+   "night sweats",
+   "new-onset headaches",
+   "dizziness",
+   "posterior and anterior chain lymphadenopathy",
+   "inguinal lymphadenopathy",
+   "splenomegaly",
+   "hepatomegaly",
+   "decreased sensation in hands and feet",
+   "numbness and tingling pain in extremities",
+   "multiple bruises on upper and lower extremities"
+  ],
+  "duration_summary": "Fatigue, dizziness, vision changes, night sweats, headaches, and extremity numbness/tingling have been present for about 1 month; blurry vision noticed today."
+ },
+ "mb_0259": {
+  "symptoms": [
+   "intermittent abdominal pain",
+   "blood in stool",
+   "episodes lasting several days",
+   "missed school due to pain",
+   "weight loss",
+   "thin appearance",
+   "conjunctival pallor",
+   "terminal ileum disease"
+  ],
+  "duration_summary": "Symptoms have occurred every few months for many years; episodes last several days."
+ },
+ "mb_0260": {
+  "symptoms": [
+   "sudden-onset severe headache",
+   "headache at maximal intensity within minutes",
+   "new headache unlike prior headaches",
+   "neck pain with passive and active movement"
+  ],
+  "duration_summary": "Headache present for a few hours 2 days ago, then recurrent sudden-onset headache today; current headache reached peak intensity within minutes."
+ },
+ "mb_0261": {
+  "symptoms": [
+   "mono-articular joint pain",
+   "swollen joint",
+   "tender joint",
+   "overlying erythema"
+  ],
+  "duration_summary": "2-day history of joint pain"
+ },
+ "mb_0262": {
+  "symptoms": [
+   "increasing seizure frequency",
+   "stiffening episodes",
+   "arm spreading",
+   "hypsarrhythmia on EEG",
+   "hypopigmented macules",
+   "irregular thickened elevated plaque on lower back"
+  ],
+  "duration_summary": "Seizures have been increasing over the past 2 months; episodic stiffening occurs intermittently at home."
+ },
+ "mb_0263": {
+  "symptoms": [
+   "progressive weakness",
+   "weight loss",
+   "intermittent abdominal pain",
+   "emaciated appearance"
+  ],
+  "duration_summary": "Symptoms have been present and worsening over several months; weight loss of 25 lb over that period."
+ },
+ "mb_0264": {
+  "symptoms": [
+   "vaginal bleeding",
+   "lower abdominal pain",
+   "worsening abdominal pain",
+   "diffuse abdominal tenderness",
+   "uterine tenderness",
+   "adnexal tenderness",
+   "hypotension",
+   "tachycardia"
+  ],
+  "duration_summary": "1 day of vaginal bleeding and lower abdominal pain, worsening over that day"
+ },
+ "mb_0243": {
+  "symptoms": [
+   "low back pain",
+   "achy and sore pain",
+   "bilateral paravertebral lumbar tenderness"
+  ],
+  "duration_summary": "Started the day prior to presentation after a home improvement project."
+ },
+ "mb_0265": {
+  "symptoms": [
+   "left groin pain",
+   "pain with climbing stairs",
+   "pain when rising from a seated position",
+   "anterior groin pain",
+   "pain at terminal hip abduction",
+   "pain at terminal hip internal rotation",
+   "progressive pain"
+  ],
+  "duration_summary": "Started 1 year ago and has progressively worsened; currently triggered by stairs and rising from a seated position."
+ },
+ "mb_0266": {
+  "symptoms": [
+   "neck pain",
+   "neck stiffness",
+   "inability to move neck",
+   "neck rotated to the right",
+   "fixed abnormal neck posture",
+   "uncomfortable appearance"
+  ],
+  "duration_summary": "Symptoms began approximately 20 minutes after receiving metoclopramide"
+ },
+ "mb_0267": {
+  "symptoms": [
+   "severe abdominal pain",
+   "nausea",
+   "vomiting",
+   "obstipation",
+   "worsening constant abdominal pain",
+   "abdominal distension",
+   "diffuse abdominal tenderness",
+   "guarding",
+   "rebound tenderness",
+   "increased bowel sounds",
+   "fever",
+   "hypotension",
+   "tachycardia",
+   "tachypnea"
+  ],
+  "duration_summary": "Abdominal pain, nausea, and vomiting for 2 hours; no gas or bowel movement for 4 days; pain worsened and became constant over the past 2 hours"
+ },
+ "mb_0269": {
+  "symptoms": [
+   "postprandial vomiting after breastfeeding",
+   "worsening vomiting",
+   "vomiting after every feed",
+   "vomitus resembling breast milk",
+   "decreased weight percentile",
+   "dry mucous membranes"
+  ],
+  "duration_summary": "Vomiting began 1 week ago and has progressively worsened over that week; growth percentile decline noted over the past 2 weeks."
+ },
+ "mb_0271": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mb_0270": {
+  "symptoms": [
+   "fatigue",
+   "severe nausea",
+   "vomiting",
+   "diarrhea",
+   "confusion",
+   "diffuse abdominal pain",
+   "dry mucous membranes",
+   "diffuse abdominal tenderness",
+   "tachycardia",
+   "tachypnea",
+   "hypotension"
+  ],
+  "duration_summary": "GI symptoms for 3 days; confusion began today"
+ },
+ "mb_0268": {
+  "symptoms": [
+   "back pain",
+   "pain severity 7/10",
+   "non-radiating pain",
+   "pain not relieved by rest",
+   "uncomfortable appearance"
+  ],
+  "duration_summary": "Acute onset after gardening; first episode of this pain"
+ },
+ "mb_0272": {
+  "symptoms": [
+   "intermittent epigastric/upper abdominal pain",
+   "nausea",
+   "tenderness to palpation above the umbilicus",
+   "positive stool guaiac"
+  ],
+  "duration_summary": "2-month history of episodic pain lasting 20-30 minutes at a time"
+ },
+ "mb_0255": {
+  "symptoms": [
+   "blurry vision",
+   "difficulty seeing the board from the back of the classroom",
+   "tall stature",
+   "long arms",
+   "thoracic scoliosis",
+   "bilateral upward lens subluxation"
+  ],
+  "duration_summary": "Over the past several months"
+ },
+ "mb_0275": {
+  "symptoms": [
+   "headache",
+   "nausea",
+   "vomiting",
+   "fever",
+   "neck pain",
+   "pain with passive neck flexion",
+   "appears uncomfortable"
+  ],
+  "duration_summary": "Started last night and has persisted"
+ },
+ "mb_0276": {
+  "symptoms": [
+   "palpitations",
+   "lightheadedness",
+   "inability to walk",
+   "somnolence",
+   "uncomfortable appearance",
+   "rapid regular pulse"
+  ],
+  "duration_summary": "Symptoms have been persistent today despite taking his medications."
+ },
+ "mb_0274": {
+  "symptoms": [
+   "joint pain",
+   "muscle pain",
+   "generalized aching pain in joints",
+   "hand pain",
+   "difficulty swallowing",
+   "mild hand edema",
+   "sunburn"
+  ],
+  "duration_summary": "All-day, constant joint aching; hand pain occurs at times and swallowing difficulty is occasional during eating."
+ },
+ "mb_0279": {
+  "symptoms": [
+   "fever",
+   "malaise",
+   "cough",
+   "worsening cough",
+   "hemoptysis"
+  ],
+  "duration_summary": "Cough worsening over the last week; similar episode about 5 weeks ago."
+ },
+ "mb_0278": {
+  "symptoms": [
+   "inattentiveness in school",
+   "daydreaming spells",
+   "brief unresponsive episodes during school activities",
+   "arm jerking on awakening"
+  ],
+  "duration_summary": "Episodes occur periodically during school and sometimes upon awakening; timing of overall symptoms is not specified."
+ },
+ "mb_0281": {
+  "symptoms": [],
+  "duration_summary": "No current presenting symptoms or abnormal physical findings; history notes prior bacterial pneumonia 6 weeks ago with resolution."
+ },
+ "mb_0282": {
+  "symptoms": [
+   "weight loss",
+   "abdominal pain",
+   "fatigue",
+   "syncope",
+   "pallor",
+   "thin appearance",
+   "positive fecal occult blood"
+  ],
+  "duration_summary": "Fatigue for the past month; weight loss and abdominal pain ongoing; fainted today."
+ },
+ "mb_0283": {
+  "symptoms": [
+   "persistent depressed mood",
+   "depressed affect"
+  ],
+  "duration_summary": "Symptoms have persisted with little change for 3 weeks since starting fluoxetine"
+ },
+ "mb_0284": {
+  "symptoms": [
+   "abdominal pain",
+   "nausea",
+   "vomiting",
+   "distended abdomen",
+   "tender abdomen",
+   "tachycardia"
+  ],
+  "duration_summary": "Symptoms began toward the end of a marathon and persisted after finishing the race."
+ },
+ "mb_0280": {
+  "symptoms": [
+   "weakness",
+   "fatigue",
+   "depressed mood",
+   "weight gain",
+   "rash on face and arms",
+   "severe proximal weakness in upper and lower extremities",
+   "sparse fine body hair"
+  ],
+  "duration_summary": "Weakness present for 6 months, worsened recently; rash noted after completing an antibiotic 3 weeks ago."
+ },
+ "mb_0277": {
+  "symptoms": [
+   "progressive proximal muscle weakness",
+   "difficulty climbing stairs",
+   "difficulty combing hair",
+   "difficulty standing from seated position",
+   "muscle aches",
+   "3/5 shoulder abduction strength bilaterally",
+   "3/5 hip flexion strength bilaterally"
+  ],
+  "duration_summary": "Symptoms began about 3 months ago and have progressively worsened"
+ },
+ "mb_0286": {
+  "symptoms": [
+   "nonhealing scalp cut",
+   "scalp lesion"
+  ],
+  "duration_summary": "present at follow-up 3 months later; cut on scalp not healing"
+ },
+ "mb_0287": {
+  "symptoms": [],
+  "duration_summary": null
+ },
+ "mb_0285": {
+  "symptoms": [
+   "palpitations",
+   "sensation of heart \"beating out of her chest\"",
+   "discomfort from palpitations",
+   "tachycardia"
+  ],
+  "duration_summary": "Acute presentation; no specific duration stated"
+ },
+ "mb_0290": {
+  "symptoms": [
+   "cough",
+   "abdominal pain",
+   "trouble focusing",
+   "unintentional weight loss",
+   "poorly controlled gastroesophageal reflux"
+  ],
+  "duration_summary": "Cough for 1 week; abdominal pain, trouble focusing, and weight loss worsening recently; reflux poorly controlled recently"
+ },
+ "mb_0288": {
+  "symptoms": [],
+  "duration_summary": "Postoperative recovery after renal transplant; currently doing well with normal vital signs and no presenting symptoms or positive physical findings described."
+ },
+ "mb_0289": {
+  "symptoms": [
+   "confusion",
+   "less talkative than usual",
+   "forgetfulness",
+   "disorientation to day of week",
+   "somnolence",
+   "difficult to rouse",
+   "lethargy",
+   "oriented only to person",
+   "disheveled appearance",
+   "generalized weakness",
+   "left knee ecchymosis"
+  ],
+  "duration_summary": "Confusion and decreased talkativeness for 2 weeks; other cognitive changes and somnolence developed during this period."
+ },
+ "mb_0291": {
+  "symptoms": [
+   "forgetfulness",
+   "misplacing items",
+   "abnormal behavior",
+   "disinhibition/sexual misconduct",
+   "difficulty concentrating",
+   "sudden jerking of arms and legs"
+  ],
+  "duration_summary": "Cognitive and behavioral changes began about 3 months ago; disinhibited behavior occurred about 1 month ago."
+ },
+ "mb_0293": {
+  "symptoms": [
+   "dizziness",
+   "lightheadedness",
+   "near-syncope",
+   "irregular heartbeat",
+   "mild lower extremity edema"
+  ],
+  "duration_summary": "Current episode of dizziness/lightheadedness; no true loss of consciousness reported"
+ },
+ "mb_0273": {
+  "symptoms": [
+   "chest pain",
+   "dyspnea",
+   "progressive shortness of breath on exertion",
+   "dyspnea at rest",
+   "jugular venous distension",
+   "mild abdominal distention",
+   "bilateral lower extremity edema"
+  ],
+  "duration_summary": "Dyspnea began 2 months ago after the flu, initially with climbing one flight of stairs and progressively worsened; chest pain and dyspnea acutely worsened this morning at rest."
+ },
+ "mb_0292": {
+  "symptoms": [
+   "head-on motor vehicle collision",
+   "acutely intoxicated",
+   "agitation/attempting to attack nurses",
+   "jugular venous distension",
+   "hypotension",
+   "tachycardia",
+   "tachypnea"
+  ],
+  "duration_summary": "Acute presentation immediately after a motor vehicle collision"
+ },
+ "mb_0294": {
+  "symptoms": [
+   "severe hypertension",
+   "mild tachycardia"
+  ],
+  "duration_summary": "Not specified; found at a general checkup"
+ },
+ "mb_0296": {
+  "symptoms": [
+   "blood-streaked stools",
+   "looser stools",
+   "regurgitation of feeds",
+   "soft stools"
+  ],
+  "duration_summary": "Blood-streaked, looser stools and feed regurgitation developed over the past 2 days / last few days."
+ },
+ "mb_0295": {
+  "symptoms": [
+   "bloody stools",
+   "bright red blood on stool surface",
+   "intermittent straining with bowel movements"
+  ],
+  "duration_summary": "6-week history"
+ },
+ "mb_0297": {
+  "symptoms": [
+   "difficulty breathing",
+   "recurrent similar episodes",
+   "lip swelling",
+   "tongue swelling",
+   "muffled voice",
+   "protruding enlarged tongue"
+  ],
+  "duration_summary": "Acute onset today after being hit in the face with a football; similar symptoms in the past"
+ },
+ "mb_0299": {
+  "symptoms": [
+   "involuntary hand tremor",
+   "resting tremor of left hand",
+   "tremor that improves with reaching/voluntary movement",
+   "increased tone in left upper extremity with passive range of motion"
+  ],
+  "duration_summary": "Started approximately 3 months ago"
+ },
+ "mb_0298": {
+  "symptoms": [
+   "trouble with focus and concentration",
+   "difficulty staying focused on tasks",
+   "daydreaming with blank stare",
+   "easily startled back to attention",
+   "fatigue",
+   "sudden sleep episodes while operating equipment",
+   "difficulty falling asleep"
+  ],
+  "duration_summary": "Symptoms began after starting work; sleep-onset difficulty has been present for the past month."
+ },
+ "mb_0301": {
+  "symptoms": [
+   "nausea",
+   "vomiting",
+   "symptom worsening with large fatty meals",
+   "symptom worsening with alcohol",
+   "obese abdomen",
+   "tympanitic abdomen",
+   "distended abdomen",
+   "systolic murmur at left upper sternal border",
+   "weak lower-extremity pulses"
+  ],
+  "duration_summary": "For the past week, with worsening recently"
+ },
+ "mb_0300": {
+  "symptoms": [
+   "central cyanosis",
+   "oxygen-refractory hypoxemia",
+   "oxygen saturation 80% on room air",
+   "tachycardia",
+   "tachypnea"
+  ],
+  "duration_summary": "present in the immediate newborn period"
+ },
+ "mb_0302": {
+  "symptoms": [
+   "urinary incontinence",
+   "frequent involuntary urine loss",
+   "dysuria",
+   "recurrent urinary tract infections",
+   "vaginal dryness",
+   "atrophic vagina",
+   "tender palpable anterior vaginal mass"
+  ],
+  "duration_summary": "Urinary incontinence for 2 years; dysuria for 10 days; recurrent UTIs over the past 6 months"
+ },
+ "mb_0305": {
+  "symptoms": [
+   "eye mass",
+   "firm rubbery nodule inside left eyelid",
+   "painless eyelid lesion"
+  ],
+  "duration_summary": "persisted for the past month"
+ },
+ "mb_0303": {
+  "symptoms": [
+   "worsening nasal discharge",
+   "worsening pain",
+   "unilateral purulent nasal discharge mixed with blood"
+  ],
+  "duration_summary": "Symptoms worsened since initial diagnosis of acute sinusitis; discharge and pain developed after decongestant treatment."
+ },
+ "mb_0307": {
+  "symptoms": [
+   "acute obtundation",
+   "shortness of breath",
+   "increased work of breathing",
+   "crackles",
+   "wheezing",
+   "hypoxemia",
+   "tachypnea"
+  ],
+  "duration_summary": "Acute onset; found down and then developed dyspnea after naloxone with immediate improvement in mental status and oxygenation"
+ },
+ "mb_0306": {
+  "symptoms": [
+   "sudden-onset weakness",
+   "double vision",
+   "left pupil dilation (anisocoria)",
+   "left eye deviated laterally and downward",
+   "left-sided ptosis",
+   "right upper extremity weakness",
+   "right lower extremity weakness",
+   "right-sided dysdiadochokinesia"
+  ],
+  "duration_summary": "Symptoms began suddenly 1 hour before presentation"
+ },
+ "mb_0304": {
+  "symptoms": [
+   "shouting on a subway",
+   "paranoid delusions that little people were trying to kill him",
+   "combative behavior",
+   "refusal of physical exam",
+   "continued delusional behavior making \"armor\" to defend himself"
+  ],
+  "duration_summary": "Symptoms persisted through the ED stay and continued over the next week"
+ }
+}

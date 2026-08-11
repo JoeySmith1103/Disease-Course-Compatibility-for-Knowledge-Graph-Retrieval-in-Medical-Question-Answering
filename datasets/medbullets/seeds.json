@@ -1,0 +1,4980 @@
+{
+ "mb_0003": {
+  "seeds": [
+   "Digoxin toxicity",
+   "Cardiac glycoside toxicity",
+   "Symptomatic bradycardia",
+   "Atrioventricular block",
+   "Syncope",
+   "Xanthopsia",
+   "Heart failure with reduced ejection fraction",
+   "Atrial fibrillation",
+   "Electrocardiogram",
+   "Serum digoxin level",
+   "Hypokalemia",
+   "Digoxin immune Fab"
+  ]
+ },
+ "mb_0007": {
+  "seeds": [
+   "Hypoglycemia",
+   "Sulfonylurea ingestion",
+   "Insulin overdose",
+   "Endogenous hyperinsulinemia",
+   "Insulinoma",
+   "Neuroglycopenia",
+   "C-peptide level",
+   "Sulfonylurea screen",
+   "Serum glucose test",
+   "Hypoglycemic encephalopathy",
+   "Factitious disorder"
+  ]
+ },
+ "mb_0006": {
+  "seeds": [
+   "Gout",
+   "Pseudogout",
+   "Septic arthritis",
+   "Calcium pyrophosphate deposition disease",
+   "Acute monoarthritis",
+   "Synovial fluid aspiration",
+   "Polarized light microscopy",
+   "Negatively birefringent monosodium urate crystals",
+   "Positively birefringent calcium pyrophosphate crystals",
+   "Knee effusion",
+   "Leukocyte count in synovial fluid"
+  ]
+ },
+ "mb_0000": {
+  "seeds": [
+   "Acute angle-closure glaucoma",
+   "Increased intraocular pressure",
+   "Halos around lights",
+   "Mid-dilated pupil",
+   "Fixed poorly reactive pupil",
+   "Firm globe",
+   "Headache",
+   "Nausea and vomiting",
+   "Periorbital pain",
+   "Excessive tearing",
+   "Carotid artery stenosis",
+   "Carotid bruit",
+   "Miotic pupil",
+   "Pilocarpine",
+   "Laser peripheral iridotomy"
+  ]
+ },
+ "mb_0002": {
+  "seeds": [
+   "Attention-deficit/hyperactivity disorder",
+   "Hearing loss",
+   "Chronic otitis media",
+   "Otitis media with effusion",
+   "Autism spectrum disorder",
+   "Normal developmental variation",
+   "Speech and language delay",
+   "Behavioral hearing screening",
+   "Pure-tone audiometry",
+   "Tympanometry",
+   "Preschool adjustment reaction",
+   "Selective mutism"
+  ]
+ },
+ "mb_0004": {
+  "seeds": [
+   "Cryptococcal meningitis",
+   "Cryptococcus neoformans infection",
+   "Human immunodeficiency virus infection",
+   "AIDS",
+   "HIV-associated immunosuppression",
+   "Communicating hydrocephalus",
+   "Elevated intracranial pressure",
+   "Meningitis",
+   "Meningismus",
+   "Cerebrospinal fluid opening pressure",
+   "India ink stain",
+   "Lumbar puncture"
+  ]
+ },
+ "mb_0005": {
+  "seeds": [
+   "Urinary tract infection",
+   "Pyelonephritis",
+   "Escherichia coli infection",
+   "Urosepsis",
+   "Septic shock",
+   "Bacterial meningitis",
+   "Meningismus",
+   "Glomerulonephritis",
+   "Dark cloudy urine",
+   "Hypotension",
+   "Tachycardia",
+   "Broad-spectrum antibiotics",
+   "Intravenous fluid resuscitation",
+   "Vasopressor therapy"
+  ]
+ },
+ "mb_0008": {
+  "seeds": [
+   "Long QT syndrome",
+   "Torsades de pointes",
+   "Syncope",
+   "Orthostatic hypotension",
+   "Heat syncope",
+   "Ondansetron",
+   "QT prolongation",
+   "Electrocardiogram",
+   "Ventricular arrhythmia",
+   "Sudden cardiac syncope"
+  ]
+ },
+ "mb_0012": {
+  "seeds": [
+   "Graves disease",
+   "Hyperthyroidism",
+   "Thyroid storm",
+   "Thyrotoxicosis",
+   "Exophthalmos",
+   "Thyromegaly",
+   "Pretibial myxedema",
+   "Atrial fibrillation",
+   "Tachycardia",
+   "Tremor",
+   "Atenolol",
+   "Thyroid-stimulating hormone receptor antibody"
+  ]
+ },
+ "mb_0010": {
+  "seeds": [
+   "Glucose-6-phosphate dehydrogenase deficiency",
+   "Acute hemolytic anemia",
+   "Drug-induced hemolytic anemia",
+   "Trimethoprim-sulfamethoxazole",
+   "Cellulitis",
+   "Jaundice",
+   "Dark urine",
+   "Elevated lactate dehydrogenase",
+   "Indirect hyperbilirubinemia",
+   "Conjunctival icterus",
+   "Bite cells",
+   "Heinz bodies"
+  ]
+ },
+ "mb_0011": {
+  "seeds": [
+   "Dengue fever",
+   "Dengue hemorrhagic fever",
+   "Yellow fever",
+   "Chikungunya fever",
+   "Zika virus infection",
+   "Malaria",
+   "Leukopenia",
+   "Thrombocytopenia",
+   "Elevated aspartate aminotransferase",
+   "Maculopapular rash",
+   "NS1 antigen test",
+   "Dengue virus reverse transcription polymerase chain reaction"
+  ]
+ },
+ "mb_0013": {
+  "seeds": [
+   "Tuberous sclerosis complex",
+   "Infantile spasms",
+   "Hypsarrhythmia",
+   "Hypomelanotic macules",
+   "Shagreen patch",
+   "Epilepsy",
+   "Electroencephalography",
+   "Lamotrigine",
+   "Valproic acid",
+   "Cortical tuber",
+   "Subependymal giant cell astrocytoma"
+  ]
+ },
+ "mb_0009": {
+  "seeds": [
+   "Traumatic brain injury",
+   "Acute alcohol intoxication",
+   "Cannabis intoxication",
+   "Blunt abdominal trauma",
+   "Intra-abdominal hemorrhage",
+   "Concussion",
+   "Altered mental status",
+   "Focused assessment with sonography for trauma",
+   "Computed tomography of the head",
+   "Primary survey in trauma",
+   "Glasgow Coma Scale",
+   "Cervical spine injury"
+  ]
+ },
+ "mb_0015": {
+  "seeds": [
+   "Subarachnoid hemorrhage",
+   "Ruptured cerebral aneurysm",
+   "Berry aneurysm",
+   "Cerebral vasospasm",
+   "Hyponatremia",
+   "Syndrome of inappropriate antidiuretic hormone secretion",
+   "Cerebral salt wasting syndrome",
+   "Hypovolemic hyponatremia",
+   "Headache",
+   "Computed tomography of the head without contrast",
+   "CT angiography",
+   "Aneurysm surgical clipping",
+   "Serum osmolality",
+   "Urine sodium concentration",
+   "Urine osmolality"
+  ]
+ },
+ "mb_0016": {
+  "seeds": [
+   "Informed consent",
+   "Autopsy",
+   "Postmortem care",
+   "Ethics",
+   "Professional misconduct",
+   "Deceased patient",
+   "Intubation",
+   "Myocardial infarction",
+   "Liver failure"
+  ]
+ },
+ "mb_0017": {
+  "seeds": [
+   "Ankylosing spondylitis",
+   "Axial spondyloarthritis",
+   "Sacroiliitis",
+   "Enthesitis",
+   "Inflammatory back pain",
+   "Reduced spinal mobility",
+   "Elevated erythrocyte sedimentation rate",
+   "Elevated C-reactive protein",
+   "HLA-B27 antigen test",
+   "Pelvic radiograph"
+  ]
+ },
+ "mb_0018": {
+  "seeds": [
+   "Acute myocardial infarction",
+   "ST-elevation myocardial infarction",
+   "Unstable angina",
+   "Aortic dissection",
+   "Non-ST-elevation myocardial infarction",
+   "Pericarditis",
+   "Postinfarction angina",
+   "Coronary artery disease",
+   "ST-segment elevation",
+   "T wave inversion",
+   "Troponin test",
+   "Electrocardiography",
+   "Percutaneous coronary intervention",
+   "Thrombolytic therapy"
+  ]
+ },
+ "mb_0019": {
+  "seeds": [
+   "Hemophilia A",
+   "Hemophilia B",
+   "Factor VIII deficiency",
+   "Factor IX deficiency",
+   "X-linked recessive inheritance",
+   "Prolonged partial thromboplastin time",
+   "Normal prothrombin time",
+   "Normal bleeding time",
+   "Easy bruising",
+   "Soft tissue hematoma",
+   "Von Willebrand disease",
+   "Factor XI deficiency",
+   "Mixing study"
+  ]
+ },
+ "mb_0021": {
+  "seeds": [
+   "Achalasia",
+   "Esophageal perforation",
+   "Iatrogenic esophageal perforation",
+   "Pneumomediastinum",
+   "Subcutaneous emphysema",
+   "Dysphagia to solids",
+   "Regurgitation of undigested food",
+   "Barium swallow study",
+   "Esophagram",
+   "Chest pain",
+   "Shortness of breath",
+   "Endoscopy"
+  ]
+ },
+ "mb_0001": {
+  "seeds": [
+   "Verapamil",
+   "Cardiac conduction system",
+   "Atrioventricular node",
+   "Sinoatrial node",
+   "Purkinje fibers",
+   "Bundle branches",
+   "Atrial myocardium",
+   "Ventricular myocardium",
+   "Conduction velocity",
+   "Exercise stress test",
+   "VO2 max",
+   "Negative chronotropy",
+   "Negative dromotropy"
+  ]
+ },
+ "mb_0024": {
+  "seeds": [
+   "Focal seizure with secondary generalization",
+   "Epilepsy",
+   "Todd paralysis",
+   "Postictal state",
+   "Migraine with aura",
+   "Hemiplegic migraine",
+   "Transient ischemic attack",
+   "Stroke",
+   "Electroencephalography",
+   "Brain MRI",
+   "Antiepileptic drug",
+   "Levetiracetam",
+   "Generalized tonic-clonic seizure",
+   "Focal neurologic deficit"
+  ]
+ },
+ "mb_0022": {
+  "seeds": [
+   "Acetaminophen poisoning",
+   "Acute drug overdose",
+   "Somnolence",
+   "Unintentional overdose",
+   "N-acetylcysteine",
+   "Serum acetaminophen concentration",
+   "Rumack-Matthew nomogram",
+   "Activated charcoal",
+   "Hepatotoxicity",
+   "Acute liver failure",
+   "Anxiety",
+   "Polycystic ovary syndrome"
+  ]
+ },
+ "mb_0025": {
+  "seeds": [
+   "Shigellosis",
+   "Enterohemorrhagic Escherichia coli infection",
+   "Hemorrhagic colitis",
+   "Hypovolemic shock",
+   "Dehydration",
+   "Acute infectious diarrhea",
+   "Toxic megacolon",
+   "Bacterial dysentery",
+   "Electrocardiogram",
+   "Intravenous fluid resuscitation",
+   "Bloody diarrhea",
+   "Sinus tachycardia"
+  ]
+ },
+ "mb_0023": {
+  "seeds": [
+   "Asthma",
+   "Status asthmaticus",
+   "Exercise-induced bronchoconstriction",
+   "Panic attack",
+   "Hyperventilation syndrome",
+   "Pulmonary embolism",
+   "Pneumothorax",
+   "Wheezing",
+   "Poor air movement",
+   "Spirometry",
+   "Forced expiratory volume in 1 second (FEV1)",
+   "Forced vital capacity (FVC)",
+   "Diffusing capacity of carbon monoxide (DLCO)",
+   "Beta2-adrenergic agonist"
+  ]
+ },
+ "mb_0026": {
+  "seeds": [
+   "Tourette syndrome",
+   "Motor tic disorder",
+   "Vocal tic disorder",
+   "Provisional tic disorder",
+   "Chronic tic disorder",
+   "Simple motor tic",
+   "Simple vocal tic",
+   "Throat clearing",
+   "Eye blinking tic",
+   "Facial grimacing",
+   "Haloperidol",
+   "Risperidone",
+   "Pimozide",
+   "Behavioral therapy",
+   "Comprehensive behavioral intervention for tics"
+  ]
+ },
+ "mb_0028": {
+  "seeds": [
+   "Congenital talipes equinovarus",
+   "Clubfoot",
+   "Metatarsus adductus",
+   "Calcaneovalgus deformity",
+   "Developmental dysplasia of the hip",
+   "Posteromedial tibial bowing",
+   "Ponseti method",
+   "Serial casting",
+   "Achilles tendon tenotomy",
+   "Benign flow murmur"
+  ]
+ },
+ "mb_0027": {
+  "seeds": [
+   "Invasive fungal sinusitis",
+   "Mucormycosis",
+   "Rhino-orbito-cerebral mucormycosis",
+   "Aspergillosis",
+   "Acute bacterial sinusitis",
+   "Cavernous sinus thrombosis",
+   "Immunocompromised host",
+   "HIV infection",
+   "CD4 lymphocyte count",
+   "Magnetic resonance imaging of the brain",
+   "Blurry vision",
+   "Diplopia",
+   "Rhinorrhea",
+   "Injected conjunctiva",
+   "Amphotericin B"
+  ]
+ },
+ "mb_0014": {
+  "seeds": [
+   "Acne vulgaris",
+   "Comedonal acne",
+   "Inflammatory acne",
+   "Benzoyl peroxide",
+   "Topical retinoids",
+   "Topical clindamycin",
+   "Oral isotretinoin",
+   "Excess sebum production",
+   "Follicular hyperkeratinization",
+   "Propionibacterium acnes infection",
+   "Diet high in refined carbohydrates",
+   "Adolescent obesity"
+  ]
+ },
+ "mb_0029": {
+  "seeds": [
+   "Primary hyperparathyroidism",
+   "Hypercalcemia",
+   "Hypokalemia",
+   "Hypophosphatemia",
+   "Distal renal tubular acidosis",
+   "Rheumatoid arthritis",
+   "Methotrexate",
+   "Nephrolithiasis",
+   "Calcium phosphate nephrolithiasis",
+   "Muscle weakness",
+   "Polyuria",
+   "Serum parathyroid hormone test",
+   "Serum calcium test",
+   "Urine pH",
+   "Metabolic acidosis"
+  ]
+ },
+ "mb_0031": {
+  "seeds": [
+   "Hemolytic disease of the newborn",
+   "Breast milk jaundice",
+   "Neonatal hepatitis",
+   "Biliary atresia",
+   "Congenital cytomegalovirus infection",
+   "G6PD deficiency",
+   "Scleral icterus",
+   "Dark urine",
+   "Conjugated hyperbilirubinemia",
+   "Elevated direct bilirubin",
+   "Elevated AST and ALT",
+   "Liver function tests"
+  ]
+ },
+ "mb_0030": {
+  "seeds": [
+   "Physiologic gastroesophageal reflux of infancy",
+   "Gastroesophageal reflux disease",
+   "Cow's milk protein allergy",
+   "Feeding refusal",
+   "Poor weight gain",
+   "Regurgitation",
+   "Esophagitis",
+   "Pyloric stenosis",
+   "Upper gastrointestinal series",
+   "Thickened feeds",
+   "Hydrolyzed formula"
+  ]
+ },
+ "mb_0032": {
+  "seeds": [
+   "Chronic pancreatitis",
+   "Pancreatic exocrine insufficiency",
+   "Steatorrhea",
+   "Alcohol-induced pancreatitis",
+   "Pancreatic calcifications",
+   "Sudan black stain",
+   "Hypocalcemia",
+   "Computed tomography of the abdomen",
+   "Pancreatic enzyme replacement therapy",
+   "Pancreatic ductal obstruction",
+   "Fat malabsorption",
+   "Alcohol use disorder"
+  ]
+ },
+ "mb_0034": {
+  "seeds": [
+   "Strongyloidiasis",
+   "Intestinal helminthiasis",
+   "Gastrointestinal strongyloidiasis",
+   "Hyperinfection syndrome",
+   "Eosinophilia",
+   "Peripheral eosinophilia",
+   "Vitamin D deficiency",
+   "Chronic diarrhea",
+   "Abdominal bloating",
+   "Stool ova and parasite examination",
+   "Strongyloides stercoralis serology",
+   "Agar plate stool culture"
+  ]
+ },
+ "mb_0033": {
+  "seeds": [
+   "Trisomy 21",
+   "Down syndrome",
+   "Nondisjunction",
+   "Hypotonia",
+   "Upward slanting palpebral fissures",
+   "Intellectual disability",
+   "Congenital heart disease",
+   "Atrioventricular septal defect",
+   "Transient myeloproliferative disorder",
+   "Single transverse palmar crease",
+   "Karyotype",
+   "Fluorescence in situ hybridization"
+  ]
+ },
+ "mb_0035": {
+  "seeds": [
+   "Pancoast tumor",
+   "Bronchogenic carcinoma",
+   "Non-small cell lung carcinoma",
+   "Apex of lung neoplasm",
+   "Brachial plexopathy",
+   "Lower brachial plexus compression",
+   "Horner syndrome",
+   "Smoking-related lung cancer",
+   "Anabolic steroid use",
+   "Weight loss",
+   "Right upper extremity weakness",
+   "Right arm sensory loss",
+   "Burning arm pain",
+   "Chest computed tomography"
+  ]
+ },
+ "mb_0020": {
+  "seeds": [
+   "Congenital cytomegalovirus infection",
+   "Congenital toxoplasmosis",
+   "Congenital rubella syndrome",
+   "Congenital syphilis",
+   "Galactosemia",
+   "Neonatal cholestasis",
+   "Hepatosplenomegaly",
+   "Jaundice",
+   "Bilateral cataracts",
+   "Sensorineural hearing loss",
+   "Newborn hearing screening",
+   "Maternal rubella vaccination"
+  ]
+ },
+ "mb_0038": {
+  "seeds": [
+   "Amyotrophic lateral sclerosis",
+   "Bulbar-onset amyotrophic lateral sclerosis",
+   "Dysphagia",
+   "Dysarthria",
+   "Tongue fasciculations",
+   "Jaw jerk reflex",
+   "Upper motor neuron signs",
+   "Lower motor neuron signs",
+   "Riluzole",
+   "Electromyography"
+  ]
+ },
+ "mb_0037": {
+  "seeds": [
+   "Foreign body aspiration",
+   "Aerodigestive foreign body",
+   "Esophageal foreign body",
+   "Acute airway obstruction",
+   "Button battery ingestion",
+   "Coin ingestion",
+   "Drooling",
+   "Choking",
+   "Chest radiograph",
+   "Rigid bronchoscopy",
+   "Flexible bronchoscopy",
+   "Atopic dermatitis",
+   "Asthma"
+  ]
+ },
+ "mb_0040": {
+  "seeds": [
+   "Hematochezia",
+   "Colorectal cancer",
+   "Colonic polyps",
+   "Ulcerative colitis",
+   "Hemorrhoids",
+   "Diverticular bleeding",
+   "Inflammatory bowel disease",
+   "Unintentional weight loss",
+   "Colonoscopy",
+   "Fecal occult blood test",
+   "Iron deficiency anemia",
+   "Bright red blood per rectum"
+  ]
+ },
+ "mb_0039": {
+  "seeds": [
+   "Pancoast tumor",
+   "Bronchogenic carcinoma",
+   "Non-small cell lung carcinoma",
+   "Apex of lung neoplasm",
+   "Brachial plexopathy",
+   "Lower trunk brachial plexus compression",
+   "Horner syndrome",
+   "Smoking",
+   "Anabolic steroid use",
+   "Right upper extremity weakness",
+   "Right arm sensory loss",
+   "Weight loss",
+   "Chest radiography",
+   "Computed tomography of the chest"
+  ]
+ },
+ "mb_0041": {
+  "seeds": [
+   "Pulmonary embolism",
+   "Deep vein thrombosis",
+   "Venous thromboembolism",
+   "Tachycardia",
+   "Hypoxemia",
+   "Pleuritic dyspnea",
+   "Right calf tenderness",
+   "Lower extremity swelling",
+   "Electrocardiogram",
+   "Chest radiograph",
+   "Computed tomography pulmonary angiography",
+   "D-dimer"
+  ]
+ },
+ "mb_0042": {
+  "seeds": [
+   "Klinefelter syndrome",
+   "Primary hypogonadism",
+   "Hypergonadotropic hypogonadism",
+   "Small firm testes",
+   "Gynecomastia",
+   "Sparse facial hair",
+   "Tall stature",
+   "Infertility",
+   "Elevated follicle-stimulating hormone",
+   "Elevated luteinizing hormone",
+   "Karyotype 47,XXY",
+   "Methylphenidate"
+  ]
+ },
+ "mb_0043": {
+  "seeds": [
+   "Deep vein thrombosis",
+   "Heparin-induced thrombocytopenia",
+   "Nephrotic syndrome",
+   "Acute kidney injury",
+   "Lower extremity edema",
+   "Anasarca",
+   "Doppler ultrasonography",
+   "Heparin therapy",
+   "Hyperkalemia",
+   "Hypocalcemia",
+   "Diabetic nephropathy",
+   "Immobilization"
+  ]
+ },
+ "mb_0044": {
+  "seeds": [
+   "Subarachnoid hemorrhage",
+   "Hypertensive emergency",
+   "Posterior reversible encephalopathy syndrome",
+   "Cerebral venous sinus thrombosis",
+   "Intracerebral hemorrhage",
+   "Thrombotic ischemic stroke",
+   "Thunderclap headache",
+   "Diplopia",
+   "Altered mental status",
+   "Severe hypertension",
+   "Noncontrast head CT",
+   "Lumbar puncture",
+   "Ophthalmologic papilledema"
+  ]
+ },
+ "mb_0046": {
+  "seeds": [
+   "Osteomyelitis",
+   "Cat bite wound infection",
+   "Pasteurella multocida infection",
+   "Cellulitis",
+   "Septic arthritis",
+   "Soft tissue abscess",
+   "Erythema",
+   "Edema",
+   "Magnetic resonance imaging",
+   "Wound irrigation",
+   "Amoxicillin-clavulanate",
+   "Vancomycin",
+   "Ceftriaxone",
+   "Blood cultures",
+   "Bone biopsy"
+  ]
+ },
+ "mb_0047": {
+  "seeds": [
+   "Juvenile myoclonic epilepsy",
+   "Myoclonic seizure",
+   "Generalized epilepsy",
+   "Sleep deprivation",
+   "Photosensitivity",
+   "Morning myoclonus",
+   "Generalized tonic-clonic seizure",
+   "Absence seizure",
+   "Electroencephalography",
+   "Spike-and-wave discharges",
+   "Valproate",
+   "Levetiracetam"
+  ]
+ },
+ "mb_0049": {
+  "seeds": [
+   "Measles",
+   "Adenovirus infection",
+   "Viral upper respiratory tract infection",
+   "Pharyngoconjunctival fever",
+   "Bilateral conjunctival injection",
+   "Tonsillar erythema",
+   "Rhonchi",
+   "Measles vaccination",
+   "Supportive care"
+  ]
+ },
+ "mb_0050": {
+  "seeds": [
+   "Massive pulmonary embolism",
+   "Pulmonary embolism",
+   "Pulmonary thromboembolism",
+   "Deep vein thrombosis",
+   "Right ventricular strain",
+   "Obstructive shock",
+   "Pulseless electrical activity",
+   "Septal bowing",
+   "Dilated right ventricle",
+   "Echocardiography",
+   "Epinephrine",
+   "Oral contraceptive use",
+   "Achilles tendon repair",
+   "Obesity",
+   "Cigarette smoking"
+  ]
+ },
+ "mb_0048": {
+  "seeds": [
+   "Cow's milk protein allergy",
+   "Food protein-induced allergic proctocolitis",
+   "Infantile colic",
+   "Gastroesophageal reflux disease",
+   "Hypertrophic pyloric stenosis",
+   "Intestinal malrotation with volvulus",
+   "Hematemesis",
+   "Blood-streaked stool",
+   "Rectal bleeding",
+   "Atopic dermatitis",
+   "Erythematous papules",
+   "Breastfeeding maternal elimination diet",
+   "Stool guaiac test"
+  ]
+ },
+ "mb_0053": {
+  "seeds": [
+   "Normal intrauterine pregnancy",
+   "First trimester pregnancy",
+   "Prenatal care",
+   "Exercise during pregnancy",
+   "Moderate-intensity aerobic exercise",
+   "Swimming",
+   "Stationary bicycle exercise",
+   "Soccer",
+   "Transvaginal ultrasound",
+   "Urine pregnancy test"
+  ]
+ },
+ "mb_0052": {
+  "seeds": [
+   "Physiologic gastroesophageal reflux",
+   "Infant regurgitation",
+   "Pyloric stenosis",
+   "Cow's milk protein allergy",
+   "Gastroesophageal reflux disease",
+   "Overfeeding",
+   "Failure to thrive",
+   "Sandifer syndrome",
+   "Upper gastrointestinal series",
+   "Thickened feeds",
+   "Projectile vomiting"
+  ]
+ },
+ "mb_0051": {
+  "seeds": [
+   "Borderline personality disorder",
+   "Histrionic personality disorder",
+   "Narcissistic personality disorder",
+   "Dependent personality disorder",
+   "Antisocial personality disorder",
+   "Self-injurious behavior",
+   "Impulsivity",
+   "Fear of abandonment",
+   "Affective instability",
+   "Attention-seeking behavior",
+   "Suicidal gesture",
+   "Dialectical behavior therapy"
+  ]
+ },
+ "mb_0055": {
+  "seeds": [
+   "Huntington disease",
+   "Huntington disease gene mutation",
+   "Chorea",
+   "Depression",
+   "Cognitive decline",
+   "Psychiatric symptoms",
+   "Caudate nucleus atrophy",
+   "Autosomal dominant inheritance",
+   "CAG trinucleotide repeat expansion",
+   "Brain MRI",
+   "Genetic testing for HTT mutation"
+  ]
+ },
+ "mb_0054": {
+  "seeds": [
+   "Herpes zoster",
+   "Varicella",
+   "Varicella-zoster virus infection",
+   "Contact dermatitis",
+   "Allergic contact dermatitis",
+   "Atopic dermatitis",
+   "Herpes simplex virus infection",
+   "Fitzpatrick skin type",
+   "Vesicular rash",
+   "Dermatomal rash",
+   "Tzanck smear",
+   "Direct fluorescent antibody test"
+  ]
+ },
+ "mb_0036": {
+  "seeds": [
+   "Bulimia nervosa",
+   "Hypokalemic metabolic alkalosis",
+   "Volume depletion",
+   "Gastroenteritis",
+   "Food poisoning",
+   "Escitalopram",
+   "Electrocardiogram",
+   "Urine chloride concentration",
+   "Urine potassium concentration",
+   "Arterial blood gas",
+   "Electrolyte panel",
+   "Prolonged QT interval"
+  ]
+ },
+ "mb_0056": {
+  "seeds": [
+   "Congestive heart failure",
+   "Heart failure with preserved ejection fraction",
+   "Cardiomyopathy",
+   "Coronary artery disease",
+   "Hypertensive heart disease",
+   "Left ventricular diastolic dysfunction",
+   "S3 gallop",
+   "Bilateral pulmonary crackles",
+   "Peripheral pitting edema",
+   "Brain natriuretic peptide test",
+   "Echocardiography",
+   "Chest radiograph"
+  ]
+ },
+ "mb_0058": {
+  "seeds": [
+   "Esophageal variceal hemorrhage",
+   "Cirrhosis",
+   "Portal hypertension",
+   "Alcoholic liver disease",
+   "Upper gastrointestinal bleeding",
+   "Hypovolemic shock",
+   "Ascites",
+   "Thrombocytopenia",
+   "Coagulopathy",
+   "Spider angiomas",
+   "Jaundice",
+   "Hematemesis",
+   "Endotracheal intubation",
+   "Esophagogastroduodenoscopy"
+  ]
+ },
+ "mb_0059": {
+  "seeds": [
+   "Actinomycosis",
+   "Cervicofacial actinomycosis",
+   "Mandibular osteomyelitis",
+   "Periapical dental abscess",
+   "Submandibular space infection",
+   "Jaw dislocation",
+   "Trismus",
+   "Cervicofacial mass",
+   "Sulfur granules",
+   "Gram-positive branching filamentous rods",
+   "Penicillin G",
+   "Amoxicillin"
+  ]
+ },
+ "mb_0060": {
+  "seeds": [
+   "Homocystinuria",
+   "Cystathionine beta-synthase deficiency",
+   "Lens subluxation",
+   "Downward lens dislocation",
+   "Marfan syndrome",
+   "Developmental delay",
+   "Tall stature",
+   "Joint hypermobility",
+   "Hyperelastic skin",
+   "Ectopia lentis",
+   "Thromboembolism",
+   "Methionine metabolism disorder"
+  ]
+ },
+ "mb_0062": {
+  "seeds": [
+   "Septic shock",
+   "Staphylococcus aureus bacteremia",
+   "Infective endocarditis",
+   "Right-sided infective endocarditis",
+   "Tricuspid regurgitation",
+   "Intravenous drug use",
+   "Acute respiratory distress syndrome",
+   "Fluid overload",
+   "Jugular venous distension",
+   "Electrocardiogram",
+   "Norepinephrine",
+   "Intubation"
+  ]
+ },
+ "mb_0061": {
+  "seeds": [
+   "Myxedema coma",
+   "Severe hypothyroidism",
+   "Hyponatremia",
+   "Altered mental status",
+   "Hypothermia",
+   "Bradycardia",
+   "Hypotension",
+   "Dementia",
+   "Thyroid-stimulating hormone test",
+   "Free thyroxine level",
+   "Thyroid peroxidase antibody",
+   "Levothyroxine",
+   "Adrenal insufficiency"
+  ]
+ },
+ "mb_0063": {
+  "seeds": [
+   "Papillary thyroid carcinoma",
+   "Thyroid nodule",
+   "Thyroid neoplasm",
+   "Multinodular goiter",
+   "Follicular thyroid carcinoma",
+   "Thyroid lymphoma",
+   "Medullary thyroid carcinoma",
+   "Hypoechoic thyroid nodule",
+   "Microcalcifications",
+   "Fine-needle aspiration biopsy",
+   "Bedside ultrasound",
+   "Cervical lymph node metastasis"
+  ]
+ },
+ "mb_0064": {
+  "seeds": [
+   "Cervical radiculopathy",
+   "Cervical spondylosis",
+   "C6-C7 disc herniation",
+   "C7 radiculopathy",
+   "Foraminal stenosis",
+   "Spurling test",
+   "Triceps reflex decrease",
+   "Dermatomal sensory loss",
+   "Elbow extension weakness",
+   "Wrist flexion weakness",
+   "Magnetic resonance imaging of the cervical spine"
+  ]
+ },
+ "mb_0065": {
+  "seeds": [
+   "Retinoblastoma",
+   "Leukocoria",
+   "Congenital cataract",
+   "Coats disease",
+   "Persistent fetal vasculature",
+   "Normal growth and development",
+   "Fundoscopic examination",
+   "Red reflex test",
+   "Dilated ophthalmologic examination",
+   "Computed tomography of the orbit"
+  ]
+ },
+ "mb_0045": {
+  "seeds": [
+   "Mallory-Weiss syndrome",
+   "Upper gastrointestinal hemorrhage",
+   "Esophageal tear",
+   "Hematemesis",
+   "Hematochezia",
+   "Alcohol-induced vomiting",
+   "Peptic ulcer disease",
+   "Esophageal varices",
+   "Diverticular bleeding",
+   "Hemorrhoids",
+   "Grossly bloody stool",
+   "Fecal occult blood test",
+   "Complete blood count"
+  ]
+ },
+ "mb_0066": {
+  "seeds": [
+   "Concussion",
+   "Mild traumatic brain injury",
+   "Anterograde amnesia",
+   "Retrograde amnesia",
+   "Posttraumatic amnesia",
+   "Closed head injury",
+   "Headache",
+   "Head CT scan",
+   "Glasgow Coma Scale",
+   "Loss of consciousness"
+  ]
+ },
+ "mb_0067": {
+  "seeds": [
+   "Subarachnoid hemorrhage",
+   "Ruptured saccular aneurysm",
+   "Anterior communicating artery aneurysm",
+   "Cocaine use disorder",
+   "Thunderclap headache",
+   "Meningismus",
+   "Neck stiffness",
+   "Nausea and vomiting",
+   "Noncontrast head CT",
+   "Sumatriptan",
+   "Cerebral vasospasm",
+   "Arachnoid mater"
+  ]
+ },
+ "mb_0068": {
+  "seeds": [
+   "Central retinal artery occlusion",
+   "Branch retinal artery occlusion",
+   "Retinal detachment",
+   "Amaurosis fugax",
+   "Retinal embolism",
+   "Atrial fibrillation",
+   "Cardioembolic stroke",
+   "Sudden painless monocular vision loss",
+   "Cherry-red spot",
+   "Retinal whitening",
+   "Fundoscopy",
+   "Carotid artery stenosis",
+   "Giant cell arteritis",
+   "Intraocular pressure measurement"
+  ]
+ },
+ "mb_0069": {
+  "seeds": [
+   "Intraductal papilloma",
+   "Duct ectasia",
+   "Fibrocystic change of breast",
+   "Breast carcinoma",
+   "Mammary duct fistula",
+   "Pathologic nipple discharge",
+   "Bloody nipple discharge",
+   "Subareolar breast mass",
+   "Mammography",
+   "Breast ultrasound",
+   "Core needle biopsy",
+   "Papillary lesion of the breast"
+  ]
+ },
+ "mb_0070": {
+  "seeds": [
+   "Acute appendicitis",
+   "Hepatic adenoma",
+   "Hepatocellular carcinoma",
+   "Liver mass",
+   "Right lower quadrant pain",
+   "Right upper quadrant pain",
+   "Anorexia",
+   "Abdominal computed tomography",
+   "Alpha-fetoprotein",
+   "Sexually transmitted infection screening",
+   "Hepatitis B infection",
+   "Hepatitis C infection"
+  ]
+ },
+ "mb_0071": {
+  "seeds": [
+   "Adult immunization",
+   "Tetanus toxoid vaccine",
+   "Diphtheria toxoid vaccine",
+   "Acellular pertussis vaccine",
+   "Meningococcal conjugate vaccine",
+   "Influenza vaccine",
+   "Catch-up vaccination",
+   "Tetanus, diphtheria, and acellular pertussis vaccine",
+   "Tdap booster",
+   "Routine preventive care"
+  ]
+ },
+ "mb_0072": {
+  "seeds": [
+   "Pyloric stenosis",
+   "Projectile vomiting",
+   "Hypertrophic pyloric muscle hypertrophy",
+   "Dehydration",
+   "Failure to thrive",
+   "Nonbilious vomiting",
+   "Hypochloremic metabolic alkalosis",
+   "Abdominal ultrasonography",
+   "Pyloromyotomy",
+   "Intestinal malrotation with midgut volvulus",
+   "Gastroesophageal reflux disease",
+   "Cow's milk protein allergy"
+  ]
+ },
+ "mb_0073": {
+  "seeds": [
+   "Cluster headache",
+   "Migraine headache",
+   "Trigeminal autonomic cephalalgia",
+   "Horner syndrome",
+   "Anisocoria",
+   "Pupil-sparing painful eye syndrome",
+   "Oxygen therapy",
+   "Verapamil",
+   "Sumatriptan",
+   "Gonadotropin-releasing hormone"
+  ]
+ },
+ "mb_0075": {
+  "seeds": [
+   "Subarachnoid hemorrhage",
+   "Ruptured cerebral aneurysm",
+   "Berry aneurysm",
+   "Cerebral vasospasm",
+   "Acute symptomatic hyponatremia",
+   "Diuretic-induced hypovolemic hyponatremia",
+   "Syndrome of inappropriate antidiuretic hormone secretion",
+   "Cerebral salt wasting syndrome",
+   "Computed tomography of the head without contrast",
+   "CT angiography",
+   "Hyponatremia",
+   "Low serum osmolality",
+   "Elevated urine sodium concentration",
+   "Concentrated urine osmolality"
+  ]
+ },
+ "mb_0076": {
+  "seeds": [
+   "Postpartum preeclampsia",
+   "Eclampsia",
+   "Severe preeclampsia",
+   "Acute severe hypertension",
+   "Placental abruption",
+   "HELLP syndrome",
+   "Magnesium sulfate",
+   "Intravenous labetalol",
+   "Intravenous hydralazine",
+   "Blood pressure measurement",
+   "Urinalysis for proteinuria",
+   "Thrombocytopenia",
+   "Elevated liver transaminases",
+   "Headache",
+   "Blurred vision",
+   "Epigastric pain"
+  ]
+ },
+ "mb_0077": {
+  "seeds": [
+   "Warfarin therapy",
+   "Atrial fibrillation",
+   "Septic shock",
+   "Meningococcemia",
+   "Disseminated intravascular coagulation",
+   "Purpura fulminans",
+   "Hypovolemic shock",
+   "Epistaxis",
+   "Altered mental status",
+   "Blood cultures",
+   "Intravenous fluids",
+   "Purpuric rash",
+   "Nasopharyngeal packing",
+   "Broad-spectrum intravenous antibiotics"
+  ]
+ },
+ "mb_0074": {
+  "seeds": [
+   "Human immunodeficiency virus infection",
+   "Acquired immunodeficiency syndrome",
+   "CD4 lymphocytopenia",
+   "Antiretroviral therapy noncompliance",
+   "Pneumococcal vaccination",
+   "13-valent pneumococcal conjugate vaccine",
+   "23-valent pneumococcal polysaccharide vaccine",
+   "Pneumococcal revaccination",
+   "Opportunistic infection prophylaxis",
+   "Pneumocystis jirovecii pneumonia prophylaxis",
+   "Trimethoprim-sulfamethoxazole",
+   "Pneumococcal immunization schedule"
+  ]
+ },
+ "mb_0080": {
+  "seeds": [
+   "Urge urinary incontinence",
+   "Overactive bladder syndrome",
+   "Stress urinary incontinence",
+   "Overflow urinary incontinence",
+   "Urinary incontinence",
+   "Postvoid residual volume",
+   "Urinalysis",
+   "Pelvic examination",
+   "Urinary urgency",
+   "Nocturia"
+  ]
+ },
+ "mb_0079": {
+  "seeds": [
+   "Hypertrophic cardiomyopathy",
+   "Arrhythmogenic syncope",
+   "Long QT syndrome",
+   "Wolff-Parkinson-White syndrome",
+   "Catecholaminergic polymorphic ventricular tachycardia",
+   "Aortic stenosis",
+   "Sudden cardiac death",
+   "Left ventricular outflow tract obstruction",
+   "Echocardiography",
+   "Electrocardiogram",
+   "Ventricular tachycardia",
+   "Exertional syncope"
+  ]
+ },
+ "mb_0057": {
+  "seeds": [
+   "Pseudotumor cerebri",
+   "Idiopathic intracranial hypertension",
+   "Tetracycline-induced intracranial hypertension",
+   "Papilledema",
+   "Blurred vision",
+   "Tinnitus",
+   "Acne vulgaris",
+   "Doxycycline",
+   "Isotretinoin",
+   "Lumbar puncture opening pressure",
+   "Headache"
+  ]
+ },
+ "mb_0078": {
+  "seeds": [
+   "Osteoarthritis of the hip",
+   "Avascular necrosis of the femoral head",
+   "Femoral neck fracture",
+   "Greater trochanteric pain syndrome",
+   "Osteomalacia",
+   "Vitamin D toxicity",
+   "Hip crepitus",
+   "Decreased range of motion of the hip",
+   "Groin pain",
+   "Plain radiography of the hip",
+   "Joint space narrowing",
+   "Subchondral sclerosis",
+   "Osteophyte formation"
+  ]
+ },
+ "mb_0081": {
+  "seeds": [
+   "Essential tremor",
+   "Parkinson disease",
+   "Cerebellar tremor",
+   "Alcohol-related tremor",
+   "Intention tremor",
+   "Action tremor",
+   "Finger-to-nose test",
+   "Romberg sign",
+   "Propranolol",
+   "Primidone",
+   "Tremor"
+  ]
+ },
+ "mb_0084": {
+  "seeds": [
+   "Rhabdomyolysis",
+   "Crush syndrome",
+   "Myoglobinuria",
+   "Acute kidney injury",
+   "Prolonged immobilization",
+   "Hyperkalemia",
+   "Dark urine",
+   "Positive urine dipstick for blood",
+   "Creatine kinase test",
+   "Serum creatinine",
+   "Urinalysis",
+   "Intravenous fluid resuscitation"
+  ]
+ },
+ "mb_0082": {
+  "seeds": [
+   "Celiac disease",
+   "Giardiasis",
+   "Tropical sprue",
+   "Whipple disease",
+   "Inflammatory bowel disease",
+   "Villous atrophy",
+   "Macrocytic anemia",
+   "Low reticulocyte count",
+   "Pancytopenia",
+   "Malabsorption syndrome",
+   "Small bowel biopsy",
+   "IgA anti-tissue transglutaminase antibody"
+  ]
+ },
+ "mb_0083": {
+  "seeds": [
+   "Anorexia nervosa",
+   "Bulimia nervosa",
+   "Hypokalemia",
+   "Hypothyroidism",
+   "Laxative abuse",
+   "Dehydration",
+   "Metabolic alkalosis",
+   "Iron deficiency anemia",
+   "Muscle cramps",
+   "Muscle weakness",
+   "Rhabdomyolysis",
+   "Electrolyte repletion"
+  ]
+ },
+ "mb_0085": {
+  "seeds": [
+   "Umbilical hernia",
+   "Omphalocele",
+   "Patent urachus",
+   "Umbilical granuloma",
+   "Omphalitis",
+   "Abdominal wall hernia",
+   "Reducible hernia",
+   "Valsalva maneuver",
+   "Umbilical ring defect",
+   "Watchful waiting"
+  ]
+ },
+ "mb_0087": {
+  "seeds": [
+   "Pancoast tumor",
+   "Non-small cell lung carcinoma",
+   "Squamous cell carcinoma of the lung",
+   "Apical lung mass",
+   "Horner syndrome",
+   "Brachial plexopathy",
+   "Superior sulcus tumor",
+   "Hemoptysis",
+   "Smoking history",
+   "Right shoulder pain",
+   "Weight loss",
+   "Chest radiograph",
+   "Computed tomography of the chest",
+   "Ulnar neuropathy"
+  ]
+ },
+ "mb_0086": {
+  "seeds": [
+   "Aortic dissection",
+   "Aortic aneurysm",
+   "Syphilitic aortitis",
+   "Aortic regurgitation",
+   "Bicuspid aortic valve",
+   "Diastolic decrescendo murmur",
+   "Wide pulse pressure",
+   "Acute back pain",
+   "Transesophageal echocardiography",
+   "Chest radiography",
+   "Computed tomography angiography",
+   "Marfan syndrome"
+  ]
+ },
+ "mb_0089": {
+  "seeds": [
+   "Myxedema coma",
+   "Severe hypothyroidism",
+   "Hypothermia",
+   "Bradycardia",
+   "Altered mental status",
+   "Adrenal insufficiency",
+   "Septic shock",
+   "Hypoglycemia",
+   "Myxedema coma treatment",
+   "Levothyroxine",
+   "Liothyronine",
+   "Hydrocortisone",
+   "Electrocardiogram",
+   "External rewarming"
+  ]
+ },
+ "mb_0090": {
+  "seeds": [
+   "Herpes zoster",
+   "Varicella",
+   "Varicella-zoster virus infection",
+   "Contact dermatitis",
+   "Allergic contact dermatitis",
+   "Atopic dermatitis",
+   "Psoriasis",
+   "Herpetiform vesicular rash",
+   "Vesicular skin lesions",
+   "Dermatomal rash",
+   "Direct fluorescent antibody test",
+   "Varicella-zoster vaccine"
+  ]
+ },
+ "mb_0092": {
+  "seeds": [
+   "Vasovagal syncope",
+   "Orthostatic hypotension",
+   "Heat exhaustion",
+   "Dehydration",
+   "Sinus bradycardia",
+   "First-degree atrioventricular block",
+   "Benign early repolarization",
+   "Cardiac syncope",
+   "Presyncope",
+   "Diaphoresis",
+   "Orthostatic vital signs",
+   "Electrocardiogram",
+   "Oral rehydration"
+  ]
+ },
+ "mb_0094": {
+  "seeds": [
+   "Epidural hematoma",
+   "Acute subdural hematoma",
+   "Concussion",
+   "Traumatic intracranial hemorrhage",
+   "Mass effect",
+   "Glasgow Coma Scale",
+   "Head computed tomography",
+   "Loss of consciousness",
+   "Progressive somnolence",
+   "Transient ischemic attack",
+   "Hypertension",
+   "Coronary artery disease"
+  ]
+ },
+ "mb_0095": {
+  "seeds": [
+   "Duodenal atresia",
+   "Malrotation with midgut volvulus",
+   "Hirschsprung disease",
+   "Meconium ileus",
+   "Trisomy 21",
+   "Down syndrome",
+   "Bilious vomiting",
+   "Failure to pass meconium",
+   "Double bubble sign",
+   "Nasogastric decompression",
+   "Abdominal radiograph"
+  ]
+ },
+ "mb_0096": {
+  "seeds": [
+   "Primary amenorrhea",
+   "Gonadal dysgenesis",
+   "Turner syndrome",
+   "M\u00fcllerian agenesis",
+   "Androgen insensitivity syndrome",
+   "Hypothalamic amenorrhea",
+   "Elevated follicle-stimulating hormone level",
+   "Delayed puberty",
+   "Absent breast development",
+   "Tanner stage 1",
+   "Pelvic ultrasonography",
+   "Karyotype analysis",
+   "Serum luteinizing hormone level",
+   "Estradiol level"
+  ]
+ },
+ "mb_0097": {
+  "seeds": [
+   "Advanced maternal age",
+   "Trisomy 21",
+   "Down syndrome",
+   "First-trimester prenatal screening",
+   "Chorionic villus sampling",
+   "Amniocentesis",
+   "Nuchal translucency ultrasound",
+   "Cell-free fetal DNA testing",
+   "Maternal serum alpha-fetoprotein",
+   "Escitalopram",
+   "Generalized anxiety disorder",
+   "Atopic dermatitis"
+  ]
+ },
+ "mb_0098": {
+  "seeds": [
+   "Caput succedaneum",
+   "Cephalohematoma",
+   "Subgaleal hemorrhage",
+   "Birth trauma",
+   "Vacuum-assisted vaginal delivery",
+   "Prolonged second stage of labor",
+   "Scalp ecchymosis",
+   "Periosteum",
+   "Subcutaneous tissue of the scalp",
+   "Potential space between the periosteum and skull",
+   "Calvarium",
+   "Neonatal head circumference monitoring"
+  ]
+ },
+ "mb_0100": {
+  "seeds": [
+   "Pulmonary embolism",
+   "Acute pericarditis",
+   "Cardiac tamponade",
+   "Constrictive pericarditis",
+   "Diastolic heart failure",
+   "Pulsus paradoxus",
+   "Jugular venous distension",
+   "Echocardiography",
+   "Electrocardiogram",
+   "Recent orthopedic surgery",
+   "Deep vein thrombosis",
+   "Impaired diastolic filling"
+  ]
+ },
+ "mb_0103": {
+  "seeds": [
+   "Epistaxis",
+   "Warfarin-associated bleeding",
+   "Atrial fibrillation",
+   "Anterior epistaxis",
+   "Coagulopathy",
+   "Nasal compression",
+   "Topical vasoconstrictor therapy",
+   "Anterior nasal packing",
+   "Prothrombin time",
+   "International normalized ratio"
+  ]
+ },
+ "mb_0101": {
+  "seeds": [
+   "Neonatal leukorrhea",
+   "Physiologic vaginal discharge of the newborn",
+   "Sexual abuse in a neonate",
+   "Neonatal chlamydial conjunctivitis",
+   "Chlamydia trachomatis infection",
+   "Congenital gonococcal infection",
+   "Neonatal sepsis",
+   "Sexually transmitted infection testing",
+   "Pink mucoid vaginal discharge",
+   "Estrogen withdrawal in the newborn",
+   "Vaginal foreign body",
+   "Child abuse evaluation"
+  ]
+ },
+ "mb_0102": {
+  "seeds": [
+   "Brain death",
+   "Severe traumatic brain injury",
+   "Coma",
+   "Diffuse axonal injury",
+   "Cerebral herniation",
+   "Hypoxic-ischemic brain injury",
+   "Glasgow Coma Scale",
+   "Apnea test",
+   "Pupillary light reflex",
+   "Corneal reflex",
+   "Oculocephalic reflex",
+   "Cough reflex",
+   "Sedative withdrawal"
+  ]
+ },
+ "mb_0088": {
+  "seeds": [
+   "Uterine leiomyoma",
+   "Intramural leiomyoma",
+   "Enlarged irregular uterus",
+   "Menorrhagia",
+   "Iron deficiency anemia",
+   "Infertility",
+   "Pregnancy loss",
+   "Pelvic pressure",
+   "Transvaginal ultrasound",
+   "Hydrochlorothiazide",
+   "Hypertension",
+   "Obesity"
+  ]
+ },
+ "mb_0104": {
+  "seeds": [
+   "Acute decompensated heart failure",
+   "Acute exacerbation of chronic obstructive pulmonary disease",
+   "Flash pulmonary edema",
+   "Myocardial infarction",
+   "Hypoxemic respiratory failure",
+   "Atrial fibrillation with rapid ventricular response",
+   "Bilateral crackles",
+   "Wheezing",
+   "Reduced left ventricular ejection fraction",
+   "BiPAP",
+   "Electrocardiogram",
+   "Chest radiograph"
+  ]
+ },
+ "mb_0105": {
+  "seeds": [
+   "Cauda equina syndrome",
+   "Lumbar intervertebral disc herniation",
+   "Lumbosacral radiculopathy",
+   "Spinal epidural abscess",
+   "Spinal epidural hematoma",
+   "Central canal spinal stenosis",
+   "Urinary retention",
+   "Saddle anesthesia",
+   "Decreased ankle reflex",
+   "Positive straight-leg raise test",
+   "Bladder scan",
+   "MRI of the lumbar spine"
+  ]
+ },
+ "mb_0106": {
+  "seeds": [
+   "Advanced sleep phase disorder",
+   "Circadian rhythm sleep-wake disorder",
+   "Insomnia disorder",
+   "Excessive daytime sleepiness",
+   "Delayed sleep phase disorder",
+   "Shift work sleep disorder",
+   "Sleep apnea syndrome",
+   "Polysomnography",
+   "Sleep diary",
+   "Melatonin",
+   "Light therapy",
+   "Dim light melatonin onset"
+  ]
+ },
+ "mb_0091": {
+  "seeds": [
+   "Transient tachypnea of the newborn",
+   "Neonatal respiratory distress syndrome",
+   "Meconium aspiration syndrome",
+   "Persistent pulmonary hypertension of the newborn",
+   "Delayed clearance of fetal lung fluid",
+   "Cesarean delivery",
+   "Gestational diabetes mellitus",
+   "Central cyanosis",
+   "Nasal flaring",
+   "Subcostal retractions",
+   "Grunting",
+   "Chest radiograph"
+  ]
+ },
+ "mb_0093": {
+  "seeds": [
+   "Malignant otitis externa",
+   "Necrotizing otitis externa",
+   "Pseudomonas aeruginosa infection",
+   "Otitis externa",
+   "Diabetes mellitus type 2",
+   "Granulation tissue in external auditory canal",
+   "Purulent otorrhea",
+   "Foul-smelling ear discharge",
+   "External auditory canal pain worse at night",
+   "Ciprofloxacin",
+   "Computed tomography of the temporal bone",
+   "Skull base osteomyelitis"
+  ]
+ },
+ "mb_0108": {
+  "seeds": [
+   "Brain metastasis",
+   "Glioblastoma multiforme",
+   "Meningioma",
+   "Intracranial mass lesion",
+   "Increased intracranial pressure",
+   "Papilledema",
+   "Generalized tonic-clonic seizure",
+   "Headache worsened by Valsalva maneuver",
+   "Nausea and vomiting",
+   "Computed tomography of the head"
+  ]
+ },
+ "mb_0107": {
+  "seeds": [
+   "Human immunodeficiency virus infection",
+   "HIV-1/2 antibody positive test",
+   "Pregnancy",
+   "First-trimester prenatal care",
+   "Asymptomatic HIV infection",
+   "Sexually transmitted infection exposure",
+   "Antiretroviral therapy",
+   "Zidovudine",
+   "Lamivudine",
+   "Nevirapine prophylaxis",
+   "HIV viral load",
+   "Perinatal HIV transmission",
+   "Neonatal antiretroviral prophylaxis",
+   "Mother-to-child transmission of HIV"
+  ]
+ },
+ "mb_0109": {
+  "seeds": [
+   "Arrhythmogenic syncope",
+   "Ventricular tachycardia",
+   "Ventricular fibrillation",
+   "Aortic stenosis",
+   "Hypertrophic cardiomyopathy",
+   "Orthostatic hypotension",
+   "Sinus bradycardia",
+   "Electrocardiogram",
+   "Troponin",
+   "Electrolyte panel",
+   "Syncope"
+  ]
+ },
+ "mb_0110": {
+  "seeds": [
+   "Migraine without aura",
+   "Migraine with aura",
+   "Migraine headache",
+   "Atypical migraine",
+   "Cerebral venous sinus thrombosis",
+   "Idiopathic intracranial hypertension",
+   "Subarachnoid hemorrhage",
+   "Tension-type headache",
+   "Nausea",
+   "Photophobia",
+   "Visual aura",
+   "Unilateral throbbing headache",
+   "Noncontrast head CT",
+   "Triptans",
+   "NSAIDs",
+   "Dark quiet room"
+  ]
+ },
+ "mb_0111": {
+  "seeds": [
+   "Acute compartment syndrome",
+   "Tibial shaft fracture",
+   "Tibial plateau fracture",
+   "Lower extremity fracture",
+   "Crush injury",
+   "Fasciotomy",
+   "Pain with passive stretch",
+   "Swelling of the leg",
+   "Radiograph"
+  ]
+ },
+ "mb_0112": {
+  "seeds": [
+   "Midgut volvulus",
+   "Intestinal malrotation",
+   "Duodenal obstruction",
+   "Annular pancreas",
+   "Duodenal atresia",
+   "Bile vomiting",
+   "Abdominal distension",
+   "Hypoactive bowel sounds",
+   "Upper gastrointestinal series",
+   "Abdominal radiograph",
+   "Neonatal intestinal obstruction",
+   "Ladd procedure"
+  ]
+ },
+ "mb_0113": {
+  "seeds": [
+   "Chronic lymphocytic leukemia",
+   "Small lymphocytic lymphoma",
+   "Leukocytosis",
+   "Anemia",
+   "Thrombocytopenia",
+   "Lymphocytosis",
+   "Peripheral blood smear",
+   "Smudge cells",
+   "Flow cytometry",
+   "CD5-positive B-cell neoplasm",
+   "Hypogammaglobulinemia",
+   "Bone marrow infiltration"
+  ]
+ },
+ "mb_0099": {
+  "seeds": [
+   "Acute ischemic stroke",
+   "Tissue plasminogen activator",
+   "Door-to-needle time",
+   "Stroke thrombolysis",
+   "Teaching hospital",
+   "Community hospital",
+   "Prospective cohort study",
+   "Process improvement analysis",
+   "Adverse outcomes",
+   "Morbidity"
+  ]
+ },
+ "mb_0114": {
+  "seeds": [
+   "Hyperandrogenism",
+   "Polycystic ovary syndrome",
+   "Pregnancy luteoma",
+   "Theca lutein cyst",
+   "Gestational diabetes mellitus",
+   "Maternal virilization",
+   "Ovarian mass in pregnancy",
+   "Transvaginal ultrasound",
+   "Serum testosterone level",
+   "Serum dehydroepiandrosterone sulfate level",
+   "Human chorionic gonadotropin",
+   "Androgen-secreting ovarian tumor"
+  ]
+ },
+ "mb_0115": {
+  "seeds": [
+   "Chalazion",
+   "Hordeolum",
+   "Meibomian gland dysfunction",
+   "Blepharitis",
+   "Eyelid sebaceous gland carcinoma",
+   "Eyelid cyst",
+   "Painless eyelid nodule",
+   "Firm rubbery eyelid mass",
+   "Meibomian gland obstruction",
+   "Eyelid biopsy"
+  ]
+ },
+ "mb_0116": {
+  "seeds": [
+   "Genitourinary syndrome of menopause",
+   "Atrophic vaginitis",
+   "Postmenopausal urogenital atrophy",
+   "Overactive bladder",
+   "Urge urinary incontinence",
+   "Dyspareunia",
+   "Vaginal pruritus",
+   "Pale atrophic vulvar skin",
+   "Loss of vaginal rugae",
+   "Vaginal mucosal friability",
+   "Topical vaginal estrogen",
+   "Urinalysis",
+   "Pelvic ultrasonography",
+   "Recurrent urinary tract infection"
+  ]
+ },
+ "mb_0121": {
+  "seeds": [
+   "Wolff-Parkinson-White syndrome",
+   "Atrioventricular reentrant tachycardia",
+   "Paroxysmal supraventricular tachycardia",
+   "Atrial fibrillation",
+   "Atrial flutter",
+   "Premature ventricular contractions",
+   "Palpitations",
+   "Short PR interval",
+   "Delta wave",
+   "Wide QRS complex",
+   "Accessory pathway",
+   "Electrocardiogram"
+  ]
+ },
+ "mb_0118": {
+  "seeds": [
+   "Systemic lupus erythematosus",
+   "Inflammatory polyarthritis",
+   "Arthralgia",
+   "Pancytopenia",
+   "Autoimmune hemolytic anemia",
+   "Leukopenia",
+   "Thrombocytopenia",
+   "Antinuclear antibody",
+   "Anti\u2013double-stranded DNA antibody",
+   "Anti-Smith antibody",
+   "Direct Coombs test",
+   "Libman-Sacks endocarditis"
+  ]
+ },
+ "mb_0119": {
+  "seeds": [
+   "Pregestational diabetes mellitus",
+   "Diabetic embryopathy",
+   "Congenital heart disease",
+   "Neural tube defect",
+   "Caudal regression syndrome",
+   "Spontaneous abortion",
+   "Macrosomia",
+   "Hydramnios",
+   "Hemoglobin A1c",
+   "Microalbuminuria",
+   "Lisinopril",
+   "First-trimester pregnancy exposure"
+  ]
+ },
+ "mb_0122": {
+  "seeds": [
+   "M\u00e9ni\u00e8re disease",
+   "Vestibular schwannoma",
+   "Chronic labyrinthitis",
+   "Benign paroxysmal positional vertigo",
+   "Vestibular neuritis",
+   "Central vertigo",
+   "Sensorineural hearing loss",
+   "Horizontal nystagmus",
+   "Audiometry",
+   "Electrocochleography",
+   "Endolymphatic hydrops",
+   "Meclizine"
+  ]
+ },
+ "mb_0117": {
+  "seeds": [
+   "Delayed puberty",
+   "Constitutional delay of growth and puberty",
+   "Hypogonadotropic hypogonadism",
+   "Klinefelter syndrome",
+   "Growth hormone deficiency",
+   "Pituitary adenoma",
+   "Panhypopituitarism",
+   "Testicular volume",
+   "Tanner stage",
+   "Bone age radiograph",
+   "Luteinizing hormone",
+   "Follicle-stimulating hormone",
+   "Testosterone level",
+   "Magnetic resonance imaging of the pituitary"
+  ]
+ },
+ "mb_0120": {
+  "seeds": [
+   "Choanal atresia",
+   "Cyclic cyanosis",
+   "Respiratory distress in a neonate",
+   "Obligate nasal breathing",
+   "Pierre Robin sequence",
+   "Tracheoesophageal fistula",
+   "Bilateral choanal atresia",
+   "Congenital nasal obstruction",
+   "Stenotic nares",
+   "Computed tomography of the nasal cavity",
+   "Nasal catheter test",
+   "Nasopharyngoscopy"
+  ]
+ },
+ "mb_0124": {
+  "seeds": [
+   "Vascular dementia",
+   "Subcortical ischemic vascular dementia",
+   "Strategic infarct dementia",
+   "Ischemic stroke",
+   "Left hemiparesis",
+   "Pronator drift",
+   "Mini-Mental State Examination",
+   "Brain magnetic resonance imaging",
+   "White matter ischemic changes",
+   "Frontotemporal dementia",
+   "Alzheimer disease",
+   "Mild cognitive impairment"
+  ]
+ },
+ "mb_0125": {
+  "seeds": [
+   "Chronic myelogenous leukemia",
+   "Splenomegaly",
+   "Leukocytosis",
+   "Elevated leukocyte alkaline phosphatase",
+   "Fatigue",
+   "Weight loss",
+   "Abdominal pain",
+   "Hypercalcemia",
+   "Anemia",
+   "Tyrosine kinase inhibitor therapy",
+   "BCR-ABL fusion gene",
+   "Philadelphia chromosome"
+  ]
+ },
+ "mb_0126": {
+  "seeds": [
+   "Atrial fibrillation",
+   "Atrial flutter",
+   "Supraventricular tachycardia",
+   "Alcohol-related atrial fibrillation",
+   "Chronic obstructive pulmonary disease",
+   "Hypoxemia",
+   "Irregularly irregular pulse",
+   "Palpitations",
+   "Electrocardiogram",
+   "Echocardiography",
+   "Rate control therapy",
+   "Diltiazem",
+   "Beta-agonist use"
+  ]
+ },
+ "mb_0128": {
+  "seeds": [
+   "Tarsal tunnel syndrome",
+   "Plantar fasciitis",
+   "Morton neuroma",
+   "Peripheral neuropathy",
+   "Tibial nerve entrapment",
+   "Vitamin B12 deficiency",
+   "Paresthesia",
+   "Plantar foot numbness",
+   "Tinel sign",
+   "Nerve conduction study",
+   "Electromyography"
+  ]
+ },
+ "mb_0130": {
+  "seeds": [
+   "Femoral artery injury",
+   "Hemorrhagic shock",
+   "Penetrating extremity trauma",
+   "Pulsatile bleeding",
+   "Inguinal ligament",
+   "Vascular surgery consultation",
+   "Tourniquet application",
+   "Direct pressure dressing",
+   "Focused assessment with sonography for trauma",
+   "Emergency laparotomy"
+  ]
+ },
+ "mb_0129": {
+  "seeds": [
+   "Polycystic ovary syndrome",
+   "Hirsutism",
+   "Oligomenorrhea",
+   "Amenorrhea",
+   "Acanthosis nigricans",
+   "Insulin resistance",
+   "Hyperandrogenism",
+   "Polycystic ovaries",
+   "Transvaginal ultrasound",
+   "Endometrial hyperplasia",
+   "Endometrial carcinoma",
+   "Metabolic syndrome"
+  ]
+ },
+ "mb_0131": {
+  "seeds": [
+   "Ischemic stroke",
+   "Lateral medullary syndrome",
+   "Medial medullary syndrome",
+   "Anterior spinal artery infarction",
+   "Posterior cerebral artery infarction",
+   "Internal carotid artery atherosclerosis",
+   "Corticobulbar tract lesion",
+   "Hypoglossal nerve palsy",
+   "Contralateral hemiparesis",
+   "Contralateral hemisensory loss",
+   "Computed tomography of the head",
+   "Magnetic resonance imaging of the brain"
+  ]
+ },
+ "mb_0132": {
+  "seeds": [
+   "Ankylosing spondylitis",
+   "Axial spondyloarthritis",
+   "Sacroiliitis",
+   "Enthesitis",
+   "Inflammatory back pain",
+   "Reduced spinal flexion",
+   "Elevated erythrocyte sedimentation rate",
+   "Elevated C-reactive protein",
+   "HLA-B27 antigen test",
+   "Pelvic radiograph"
+  ]
+ },
+ "mb_0134": {
+  "seeds": [
+   "Acute pericarditis",
+   "Acute myocardial infarction",
+   "ST-elevation myocardial infarction",
+   "Unstable angina",
+   "Acute coronary syndrome",
+   "Myocardial ischemia",
+   "Pericardial friction rub",
+   "Diffuse ST-segment elevation",
+   "PR-segment depression",
+   "Troponin test",
+   "Electrocardiogram",
+   "Syncope"
+  ]
+ },
+ "mb_0133": {
+  "seeds": [
+   "Hirschsprung disease",
+   "Meconium ileus",
+   "Distal intestinal obstruction syndrome",
+   "Small bowel obstruction in a neonate",
+   "Duodenal atresia",
+   "Trisomy 21",
+   "Bilious vomiting of the newborn",
+   "Failure to pass meconium",
+   "Abdominal distension",
+   "Contrast enema",
+   "Rectal suction biopsy",
+   "Absent ganglion cells"
+  ]
+ },
+ "mb_0135": {
+  "seeds": [
+   "Male infertility",
+   "Primary testicular failure",
+   "Hypogonadism",
+   "Anabolic steroid abuse",
+   "Gynecomastia",
+   "Testicular atrophy",
+   "Azoospermia",
+   "Suppression of hypothalamic-pituitary-gonadal axis",
+   "Aromatization of testosterone to estradiol",
+   "Elevated AST and ALT"
+  ]
+ },
+ "mb_0136": {
+  "seeds": [
+   "Neonatal conjunctivitis",
+   "Ophthalmia neonatorum",
+   "Chlamydia trachomatis infection",
+   "Neisseria gonorrhoeae infection",
+   "Dacryocystitis",
+   "Chemical conjunctivitis of the newborn",
+   "Maternal sexually transmitted infection screening",
+   "Erythromycin ophthalmic ointment",
+   "Purulent eye discharge",
+   "Eyelid edema",
+   "Conjunctival injection",
+   "Gram stain of conjunctival exudate",
+   "NAAT for Chlamydia trachomatis"
+  ]
+ },
+ "mb_0138": {
+  "seeds": [
+   "Acute lymphoblastic leukemia",
+   "B-cell acute lymphoblastic leukemia",
+   "Lymphoblasts in peripheral blood",
+   "Pancytopenia",
+   "Anemia",
+   "Thrombocytopenia",
+   "Hepatosplenomegaly",
+   "Diffuse lymphadenopathy",
+   "Bone pain",
+   "Bone marrow biopsy"
+  ]
+ },
+ "mb_0137": {
+  "seeds": [
+   "Lumbar radiculopathy",
+   "Lumbar intervertebral disc herniation",
+   "Sciatica",
+   "Mechanical low back pain",
+   "Lumbar strain",
+   "Nerve root compression",
+   "Positive straight leg raise test",
+   "Magnetic resonance imaging of the lumbar spine",
+   "Computed tomography of the lumbar spine",
+   "Electromyography",
+   "Cauda equina syndrome"
+  ]
+ },
+ "mb_0139": {
+  "seeds": [
+   "Appendectomy",
+   "Transient postoperative proteinuria",
+   "Orthostatic proteinuria",
+   "Benign orthostatic proteinuria of adolescence",
+   "Nephrotic syndrome",
+   "Glomerular proteinuria",
+   "Urinalysis",
+   "Proteinuria",
+   "Urine dipstick protein 3+",
+   "First-morning urine protein-to-creatinine ratio",
+   "24-hour urine protein collection",
+   "Pediatric nephrology referral",
+   "Laparoscopic surgery"
+  ]
+ },
+ "mb_0123": {
+  "seeds": [
+   "Squamous cell carcinoma",
+   "Keratoacanthoma",
+   "Cutaneous squamous cell carcinoma",
+   "Immunosuppression",
+   "Renal transplantation",
+   "Acantholytic squamous cell carcinoma",
+   "Basal cell carcinoma",
+   "Actinic keratosis",
+   "Rapidly growing skin nodule",
+   "Trauma-induced lesion",
+   "Tacrolimus",
+   "Mycophenolate mofetil"
+  ]
+ },
+ "mb_0141": {
+  "seeds": [
+   "Latent tuberculosis infection",
+   "Pulmonary tuberculosis",
+   "Miliary tuberculosis",
+   "Tuberculosis exposure in prison",
+   "Intravenous drug use",
+   "Weight loss",
+   "Chronic cough",
+   "Positive QuantiFERON-TB Gold test",
+   "Isoniazid",
+   "Rifampin",
+   "Pyrazinamide",
+   "Ethambutol"
+  ]
+ },
+ "mb_0140": {
+  "seeds": [
+   "Chagas disease",
+   "Trypanosoma cruzi infection",
+   "Dilated cardiomyopathy",
+   "Mitral regurgitation",
+   "Heart failure with reduced ejection fraction",
+   "Apical aneurysm of the left ventricle",
+   "Panstrongylus megistus transmission",
+   "Romana sign",
+   "Eosinophilia",
+   "Blood smear microscopy",
+   "Nifurtimox",
+   "Benznidazole"
+  ]
+ },
+ "mb_0127": {
+  "seeds": [
+   "Acute ischemic stroke",
+   "Intracerebral hemorrhage",
+   "Cardioembolic stroke",
+   "Atrial fibrillation",
+   "Transient ischemic attack",
+   "Warfarin-associated intracranial hemorrhage",
+   "Facial droop",
+   "Dysarthria",
+   "Unilateral upper extremity weakness",
+   "Noncontrast head CT",
+   "Thrombolytic therapy",
+   "International normalized ratio"
+  ]
+ },
+ "mb_0142": {
+  "seeds": [
+   "Infective endocarditis",
+   "Right-sided infective endocarditis",
+   "Tricuspid valve endocarditis",
+   "Intravenous drug use",
+   "Staphylococcus aureus bacteremia",
+   "Sepsis",
+   "Systolic murmur",
+   "Left sternal border murmur",
+   "Febrile hypotension",
+   "Antibiotic therapy",
+   "Blood cultures",
+   "Echocardiography",
+   "Transthoracic echocardiography",
+   "Transesophageal echocardiography"
+  ]
+ },
+ "mb_0143": {
+  "seeds": [
+   "Endometriosis",
+   "Chronic pelvic pain syndrome",
+   "Adenomyosis",
+   "Pelvic inflammatory disease",
+   "Deep dyspareunia",
+   "Cervical motion tenderness",
+   "Dysmenorrhea",
+   "Menorrhagia",
+   "Nulliparity",
+   "Transvaginal ultrasound",
+   "Urine pregnancy test",
+   "Diagnostic laparoscopy"
+  ]
+ },
+ "mb_0144": {
+  "seeds": [
+   "Lithium-induced hyperthyroidism",
+   "Thyroiditis",
+   "Goiter",
+   "Hyperthyroidism",
+   "Graves disease",
+   "Pretibial myxedema",
+   "Exophthalmos",
+   "Thyroid stimulating hormone test",
+   "Free thyroxine test",
+   "Thyroid peroxidase antibody"
+  ]
+ },
+ "mb_0145": {
+  "seeds": [
+   "Meningitis",
+   "Viral meningitis",
+   "Aseptic meningitis",
+   "Enteroviral meningitis",
+   "Migraine headache",
+   "Neck stiffness",
+   "Positive Brudzinski sign",
+   "Lumbar puncture",
+   "Cerebrospinal fluid analysis",
+   "Cerebrospinal fluid pleocytosis",
+   "Cerebrospinal fluid glucose",
+   "Cerebrospinal fluid protein"
+  ]
+ },
+ "mb_0148": {
+  "seeds": [
+   "Major depressive disorder",
+   "Melancholic depression",
+   "Insomnia",
+   "Anhedonia",
+   "Psychomotor retardation",
+   "Fatigue",
+   "Selective serotonin reuptake inhibitor",
+   "Cognitive behavioral therapy",
+   "Hamilton Depression Rating Scale",
+   "Electroconvulsive therapy"
+  ]
+ },
+ "mb_0146": {
+  "seeds": [
+   "Ulcerative colitis",
+   "Crohn disease",
+   "Inflammatory bowel disease",
+   "Primary sclerosing cholangitis",
+   "Pseudomembranous colitis",
+   "Ischemic colitis",
+   "p-ANCA positive",
+   "Bloody diarrhea",
+   "Weight loss",
+   "Colonoscopy",
+   "Continuous colonic inflammation",
+   "Crypt abscess",
+   "Superficial mucosal ulceration",
+   "Colorectal adenocarcinoma"
+  ]
+ },
+ "mb_0147": {
+  "seeds": [
+   "Central retinal artery occlusion",
+   "Branch retinal artery occlusion",
+   "Retinal detachment",
+   "Central retinal vein occlusion",
+   "Amaurosis fugax",
+   "Giant cell arteritis",
+   "Retinal pallor",
+   "Cherry-red spot",
+   "Fundoscopy",
+   "Visual acuity exam",
+   "Carotid artery atherosclerosis",
+   "Embolic stroke"
+  ]
+ },
+ "mb_0150": {
+  "seeds": [
+   "Primary adrenal insufficiency",
+   "Addison disease",
+   "Tuberculous adrenalitis",
+   "Adrenal tuberculosis",
+   "Bilateral adrenal calcifications",
+   "Adrenal crisis",
+   "Hyperpigmentation",
+   "Hyponatremia",
+   "Hyperkalemia",
+   "Low morning cortisol",
+   "Elevated ACTH",
+   "Cosyntropin stimulation test",
+   "Adrenal insufficiency"
+  ]
+ },
+ "mb_0149": {
+  "seeds": [
+   "Stable angina pectoris",
+   "Coronary artery disease",
+   "Chronic coronary syndrome",
+   "Myocardial ischemia",
+   "Atherosclerosis",
+   "Unstable angina",
+   "Non-ST elevation myocardial infarction",
+   "Exercise stress test",
+   "Electrocardiogram",
+   "Troponin I",
+   "Exertional chest pain",
+   "Hyperlipidemia",
+   "Type 2 diabetes mellitus",
+   "Hypertension"
+  ]
+ },
+ "mb_0153": {
+  "seeds": [
+   "Acute decompensated heart failure",
+   "Left-sided heart failure",
+   "Congestive heart failure",
+   "Pulmonary edema",
+   "Cardiogenic pulmonary edema",
+   "Myocardial infarction",
+   "Hypertensive heart disease",
+   "Hypoxemic respiratory failure",
+   "Respiratory alkalosis",
+   "Arterial blood gas",
+   "Chest radiograph",
+   "Loop diuretic therapy",
+   "Furosemide",
+   "S3 gallop",
+   "Elevated jugular venous pressure",
+   "Bibasilar crackles",
+   "Peripheral pitting edema"
+  ]
+ },
+ "mb_0156": {
+  "seeds": [
+   "Diabetic foot ulcer",
+   "Type 2 diabetes mellitus",
+   "Peripheral neuropathy",
+   "Plantar pressure ulcer",
+   "Metatarsal head ulcer",
+   "Monofilament testing",
+   "Vibration perception threshold testing",
+   "Neuropathic ulcer",
+   "Peripheral arterial disease",
+   "Smoking",
+   "Obesity",
+   "Foot ulcer recurrence"
+  ]
+ },
+ "mb_0155": {
+  "seeds": [
+   "Normal developmental milestones at 2 years of age",
+   "Language delay in toddlers",
+   "Expressive language disorder",
+   "Autism spectrum disorder",
+   "Hearing loss in toddlers",
+   "Global developmental delay",
+   "Fine motor delay",
+   "Normal growth velocity",
+   "Parallel play",
+   "Two-step command following",
+   "Copying a line",
+   "Throwing a ball",
+   "Balanced diet / iron deficiency risk due to excessive milk intake"
+  ]
+ },
+ "mb_0154": {
+  "seeds": [
+   "Myasthenic crisis",
+   "Myasthenia gravis",
+   "Gentamicin",
+   "Aminoglycoside toxicity",
+   "Acute hypercapnic respiratory failure",
+   "Acute hypoxemic respiratory failure",
+   "Arterial blood gas",
+   "Forced vital capacity",
+   "Negative inspiratory force",
+   "Intubation and mechanical ventilation",
+   "Pyridostigmine",
+   "Urinary tract infection"
+  ]
+ },
+ "mb_0157": {
+  "seeds": [
+   "Transient ischemic attack",
+   "Ischemic stroke",
+   "Carotid artery stenosis",
+   "Atherosclerosis",
+   "Atrial fibrillation",
+   "Hypertension",
+   "Diabetes mellitus",
+   "Obesity",
+   "Noncontrast head CT",
+   "Magnetic resonance imaging of the brain",
+   "Carotid duplex ultrasonography",
+   "Aspirin"
+  ]
+ },
+ "mb_0152": {
+  "seeds": [
+   "Long QT syndrome",
+   "Congenital deafness",
+   "Torsades de pointes",
+   "Ventricular tachycardia",
+   "Syncope",
+   "Seizure disorder",
+   "Jervell and Lange-Nielsen syndrome",
+   "Valproic acid",
+   "Electrocardiography",
+   "Electroencephalography",
+   "Hypokalemia",
+   "Hypomagnesemia",
+   "Sudden cardiac death"
+  ]
+ },
+ "mb_0158": {
+  "seeds": [
+   "Preterm birth",
+   "Neonatal respiratory distress syndrome",
+   "Routine childhood immunization schedule",
+   "DTaP vaccine",
+   "Hepatitis B vaccine",
+   "Haemophilus influenzae type b conjugate vaccine",
+   "Pneumococcal conjugate vaccine 13",
+   "Hepatitis A vaccine",
+   "Corrected gestational age",
+   "Catch-up immunization schedule",
+   "Vaccine contraindication",
+   "NICU history"
+  ]
+ },
+ "mb_0160": {
+  "seeds": [
+   "Alzheimer disease",
+   "Major neurocognitive disorder",
+   "Dementia with Lewy bodies",
+   "Vascular dementia",
+   "Frontotemporal dementia",
+   "Mild cognitive impairment",
+   "Montreal Cognitive Assessment",
+   "Word-finding difficulty",
+   "Wandering behavior",
+   "Memory loss",
+   "Irritability",
+   "Metformin"
+  ]
+ },
+ "mb_0161": {
+  "seeds": [
+   "Bacterial vaginosis",
+   "Vulvovaginal candidiasis",
+   "Trichomoniasis",
+   "Chlamydial cervicitis",
+   "Gonococcal cervicitis",
+   "Cervicitis",
+   "Foul-smelling vaginal discharge",
+   "Thick white vaginal discharge",
+   "Dysuria",
+   "Urine pregnancy test",
+   "Metronidazole",
+   "Fluconazole",
+   "Azithromycin"
+  ]
+ },
+ "mb_0159": {
+  "seeds": [
+   "Postpartum hemorrhage",
+   "Uterine atony",
+   "Retained placental tissue",
+   "Postpartum endometritis",
+   "Uterine rupture",
+   "Perineal laceration",
+   "Lochia rubra",
+   "Twin pregnancy",
+   "Macrosomia",
+   "Oxytocin",
+   "Bimanual uterine massage",
+   "Complete blood count",
+   "Pelvic examination",
+   "Postpartum infection"
+  ]
+ },
+ "mb_0162": {
+  "seeds": [
+   "Polycythemia vera",
+   "JAK2 V617F mutation",
+   "Aquagenic pruritus",
+   "Erythromelalgia",
+   "Thrombosis",
+   "Essential thrombocythemia",
+   "Myeloproliferative neoplasm",
+   "Splenomegaly",
+   "Complete blood count",
+   "JAK2 mutation testing",
+   "Phlebotomy",
+   "Aspirin"
+  ]
+ },
+ "mb_0164": {
+  "seeds": [
+   "Pityriasis versicolor",
+   "Candidal intertrigo",
+   "Hyperhidrosis",
+   "Acanthosis nigricans",
+   "Cushing syndrome",
+   "Obstructive sleep apnea",
+   "Morbid obesity",
+   "Nasal polyps",
+   "Type 2 diabetes mellitus",
+   "KOH preparation",
+   "Wood lamp examination",
+   "Topical clotrimazole"
+  ]
+ },
+ "mb_0163": {
+  "seeds": [
+   "Idiopathic intracranial hypertension",
+   "Pseudotumor cerebri",
+   "Cerebral edema",
+   "Papilledema",
+   "Increased intracranial pressure",
+   "Obesity",
+   "Headache",
+   "Measles postexposure prophylaxis",
+   "Intracranial venous sinus thrombosis",
+   "Migraine headache",
+   "Brain tumor",
+   "Lumbar puncture opening pressure"
+  ]
+ },
+ "mb_0165": {
+  "seeds": [
+   "Cephalohematoma",
+   "Birth trauma",
+   "Subperiosteal hemorrhage",
+   "Vacuum-assisted vaginal delivery",
+   "Prolonged labor",
+   "Neonatal jaundice",
+   "Unconjugated hyperbilirubinemia",
+   "Indirect hyperbilirubinemia",
+   "Skull fracture",
+   "Scalp swelling",
+   "Head ultrasound",
+   "Observation and reassurance"
+  ]
+ },
+ "mb_0167": {
+  "seeds": [
+   "Traumatic finger amputation",
+   "Digital artery laceration",
+   "Pulsatile bleeding",
+   "Distal interphalangeal joint amputation",
+   "Hand trauma",
+   "Extremity replantation",
+   "Amputated digit preservation",
+   "Saline-moistened gauze",
+   "Plastic bag transport",
+   "Ice water slurry",
+   "X-ray of the hand",
+   "Analgesia"
+  ]
+ },
+ "mb_0168": {
+  "seeds": [
+   "Acute ischemic stroke",
+   "Left middle cerebral artery infarction",
+   "Cardioembolic stroke",
+   "Embolic stroke from atrial fibrillation",
+   "Intracranial hemorrhage",
+   "Seizure",
+   "Global aphasia",
+   "Right upper extremity weakness",
+   "Hemiparesis",
+   "Atrial fibrillation",
+   "Noncontrast head CT",
+   "Fingerstick blood glucose",
+   "Apixaban"
+  ]
+ },
+ "mb_0169": {
+  "seeds": [
+   "Biliary colic",
+   "Acute cholecystitis",
+   "Choledocholithiasis",
+   "Gallstone pancreatitis",
+   "Sphincter of Oddi dysfunction",
+   "Right upper quadrant pain",
+   "Hyperbilirubinemia",
+   "Transaminitis",
+   "Right upper quadrant ultrasound",
+   "MRCP with secretin infusion",
+   "Cholecystectomy",
+   "Laparoscopic cholecystectomy"
+  ]
+ },
+ "mb_0170": {
+  "seeds": [
+   "Ethylene glycol poisoning",
+   "Isopropyl alcohol poisoning",
+   "Methanol poisoning",
+   "Organophosphate poisoning",
+   "Acetaminophen overdose",
+   "Metabolic acidosis",
+   "Elevated anion gap metabolic acidosis",
+   "Osmolar gap",
+   "Calcium oxalate crystals",
+   "Fluorescent urine",
+   "Serum ethylene glycol level",
+   "Serum methanol level",
+   "Wood alcohol poisoning",
+   "Diethylene glycol poisoning"
+  ]
+ },
+ "mb_0172": {
+  "seeds": [
+   "Normal aging sleep changes",
+   "Sleep fragmentation",
+   "Decreased slow-wave sleep",
+   "Decreased total sleep time",
+   "Decreased sleep efficiency",
+   "Primary insomnia",
+   "Obstructive sleep apnea",
+   "Central sleep apnea",
+   "Polysomnography",
+   "Age-related sleep architecture changes",
+   "Metformin",
+   "Lisinopril"
+  ]
+ },
+ "mb_0166": {
+  "seeds": [
+   "Splenic laceration",
+   "Grade V splenic injury",
+   "Hemorrhagic shock",
+   "Blunt abdominal trauma",
+   "Traumatic splenic rupture",
+   "Exploratory laparotomy",
+   "Splenectomy",
+   "Atraumatic abdominal ecchymosis",
+   "CT abdomen with intravenous contrast",
+   "Asplenia",
+   "Overwhelming post-splenectomy infection",
+   "Pneumococcal vaccination"
+  ]
+ },
+ "mb_0171": {
+  "seeds": [
+   "Sickle cell disease",
+   "Sickle cell trait",
+   "Sickle cell anemia",
+   "Hemoglobin S disease",
+   "Hemoglobin electrophoresis",
+   "Newborn screening test",
+   "Sickle cell crisis",
+   "Splenic sequestration crisis",
+   "Acute chest syndrome",
+   "Functional asplenia",
+   "Hemolytic anemia",
+   "Beta-globin gene mutation",
+   "Autosomal recessive inheritance",
+   "Sickling of red blood cells",
+   "Hydroxyurea"
+  ]
+ },
+ "mb_0151": {
+  "seeds": [
+   "Exertional heat stroke",
+   "Heat exhaustion",
+   "Dehydration",
+   "Hypernatremia",
+   "Acute kidney injury",
+   "Rhabdomyolysis",
+   "Altered mental status",
+   "Hot flushed skin",
+   "Dry mucous membranes",
+   "Core temperature measurement",
+   "Cold-water immersion"
+  ]
+ },
+ "mb_0173": {
+  "seeds": [
+   "Acute vestibular syndrome",
+   "Vestibular neuritis",
+   "Cerebellar stroke",
+   "Posterior circulation stroke",
+   "Benign paroxysmal positional vertigo",
+   "Labyrinthitis",
+   "Central vertigo",
+   "HINTS examination",
+   "Horizontal nystagmus",
+   "Ataxic gait",
+   "Dix-Hallpike maneuver",
+   "Head impulse test",
+   "Skew deviation"
+  ]
+ },
+ "mb_0174": {
+  "seeds": [
+   "Chlamydial conjunctivitis",
+   "Chlamydial pneumonia",
+   "Neonatal conjunctivitis",
+   "Neonatal pneumonia",
+   "Chlamydia trachomatis infection",
+   "Eye discharge",
+   "Eyelid swelling",
+   "Mucoid ocular discharge",
+   "Conjunctival injection",
+   "Hyperinflation on chest radiograph",
+   "Bilateral pulmonary infiltrates",
+   "Fluorescein staining test",
+   "Erythromycin",
+   "Silver nitrate prophylaxis"
+  ]
+ },
+ "mb_0175": {
+  "seeds": [
+   "Rhabdomyolysis",
+   "Crush syndrome",
+   "Myoglobinuria",
+   "Acute kidney injury",
+   "Hyperkalemia",
+   "Compartment syndrome",
+   "Found down syndrome",
+   "Traumatic rhabdomyolysis",
+   "Creatine kinase elevation",
+   "Urine dipstick positive for blood with few red blood cells",
+   "Dark urine",
+   "Electrocardiogram"
+  ]
+ },
+ "mb_0178": {
+  "seeds": [
+   "Essential tremor",
+   "Parkinson disease",
+   "Intention tremor",
+   "Cerebellar tremor",
+   "Postural tremor",
+   "Action tremor",
+   "Alcohol use disorder",
+   "Propranolol",
+   "Primidone",
+   "Finger-to-nose test",
+   "High-frequency tremor"
+  ]
+ },
+ "mb_0176": {
+  "seeds": [
+   "Functional hypothalamic amenorrhea",
+   "Secondary amenorrhea",
+   "Female athlete triad",
+   "Hypothalamic suppression",
+   "Low gonadotropin-releasing hormone secretion",
+   "Exercise-induced amenorrhea",
+   "Anorexia nervosa",
+   "Polycystic ovary syndrome",
+   "Pregnancy",
+   "Lactation amenorrhea",
+   "Serum beta-human chorionic gonadotropin test",
+   "Follicle-stimulating hormone and luteinizing hormone levels",
+   "Prolactin level",
+   "Pelvic examination"
+  ]
+ },
+ "mb_0177": {
+  "seeds": [
+   "Protein-energy malnutrition",
+   "Kwashiorkor",
+   "Marasmus",
+   "Zinc deficiency",
+   "Impaired wound healing",
+   "Perioral dermatitis",
+   "Alopecia",
+   "Diarrhea",
+   "Delayed surgical wound healing",
+   "Hypoalbuminemia",
+   "Exploratory laparotomy",
+   "Packed red blood cell transfusion"
+  ]
+ },
+ "mb_0179": {
+  "seeds": [
+   "Gastroschisis",
+   "Omphalocele",
+   "Abdominal wall defect",
+   "Evisceration of bowel",
+   "Failure to progress in labor",
+   "Cesarean section",
+   "Young maternal age",
+   "Maternal serum alpha-fetoprotein",
+   "Ultrasonography",
+   "Silo reduction",
+   "Intestinal atresia"
+  ]
+ },
+ "mb_0180": {
+  "seeds": [
+   "Sandhoff disease",
+   "Tay-Sachs disease",
+   "GM2 gangliosidosis",
+   "Hexosaminidase A deficiency",
+   "GM2 ganglioside accumulation",
+   "Cherry-red spot",
+   "Hyperreflexia",
+   "Infantile neurodegenerative disorder",
+   "Developmental regression",
+   "Ophthalmologic fundus examination",
+   "Lysosomal storage disease"
+  ]
+ },
+ "mb_0182": {
+  "seeds": [
+   "Genital herpes simplex virus infection",
+   "Herpes simplex virus type 2",
+   "Herpes simplex virus type 1",
+   "Painful genital ulcers",
+   "Clustered vesicles",
+   "Tzanck smear",
+   "Multinucleated giant cells",
+   "Acyclovir",
+   "Valacyclovir",
+   "Famciclovir",
+   "Primary herpetic vulvovaginitis",
+   "Vulvar ulcer"
+  ]
+ },
+ "mb_0184": {
+  "seeds": [
+   "Vertebral osteomyelitis",
+   "Spinal epidural abscess",
+   "Discitis",
+   "Spondylodiscitis",
+   "Back pain",
+   "Intravenous drug use",
+   "Midline back tenderness",
+   "Elevated erythrocyte sedimentation rate",
+   "Elevated C-reactive protein",
+   "Magnetic resonance imaging of the spine",
+   "Blood cultures",
+   "Staphylococcus aureus"
+  ]
+ },
+ "mb_0183": {
+  "seeds": [
+   "Graves disease",
+   "Thyrotoxicosis",
+   "Hyperthyroidism",
+   "Thyroid storm",
+   "Goiter",
+   "Thyroid-stimulating hormone (TSH) suppression",
+   "Elevated free thyroxine (free T4)",
+   "Propranolol",
+   "Propylthiouracil",
+   "Thyroid-stimulating immunoglobulin",
+   "Radioactive iodine uptake scan"
+  ]
+ },
+ "mb_0186": {
+  "seeds": [
+   "Selective serotonin reuptake inhibitor sexual dysfunction",
+   "Fluoxetine",
+   "Major depressive disorder",
+   "Diabetes mellitus",
+   "Hyperglycemia",
+   "Anorgasmia",
+   "Bupropion",
+   "Erectile dysfunction",
+   "Obesity",
+   "Serotonin reuptake inhibitor adverse effect",
+   "Sexual dysfunction",
+   "Antidepressant switch"
+  ]
+ },
+ "mb_0185": {
+  "seeds": [
+   "Papillary thyroid carcinoma",
+   "Thyroid nodule",
+   "Thyroid ultrasound",
+   "Fine-needle aspiration biopsy",
+   "Hypothyroidism",
+   "Elevated thyroid-stimulating hormone",
+   "Microcalcifications",
+   "Hypoechoic thyroid nodule",
+   "Solid fixed thyroid mass",
+   "Medullary thyroid carcinoma",
+   "Follicular thyroid carcinoma",
+   "Hashimoto thyroiditis"
+  ]
+ },
+ "mb_0181": {
+  "seeds": [
+   "Medullary thyroid carcinoma",
+   "Multiple endocrine neoplasia type 2A",
+   "MEN2A-associated pheochromocytoma",
+   "Pheochromocytoma",
+   "Primary hyperparathyroidism",
+   "RET proto-oncogene mutation",
+   "Thyroid nodule",
+   "Cervical lymphadenopathy",
+   "Mucosal neuroma",
+   "Marfanoid habitus",
+   "Serum calcitonin elevation",
+   "Elevated carcinoembryonic antigen"
+  ]
+ },
+ "mb_0187": {
+  "seeds": [
+   "Acute myocardial infarction",
+   "ST-elevation myocardial infarction",
+   "Unstable angina",
+   "Coronary artery disease",
+   "Post-myocardial infarction angina",
+   "Left ventricular aneurysm",
+   "Electrocardiogram",
+   "Aspirin",
+   "Clopidogrel",
+   "Atorvastatin",
+   "Metoprolol",
+   "Cardiac rehabilitation"
+  ]
+ },
+ "mb_0188": {
+  "seeds": [
+   "Atrioventricular block",
+   "Third-degree atrioventricular block",
+   "Symptomatic bradycardia",
+   "Postoperative conduction disturbance",
+   "Mitral valve repair",
+   "Myxomatous degeneration of the mitral valve",
+   "Atrial fibrillation",
+   "Atropine",
+   "Temporary transvenous pacing",
+   "Electrocardiogram"
+  ]
+ },
+ "mb_0192": {
+  "seeds": [
+   "Intermittent esotropia",
+   "Accommodative esotropia",
+   "Convergent strabismus",
+   "Strabismus",
+   "Amblyopia",
+   "Cycloplegic refraction",
+   "Pediatric ophthalmology referral",
+   "Cover test",
+   "Corneal light reflex test",
+   "Hirschberg test",
+   "Visual acuity assessment",
+   "Hyperopia"
+  ]
+ },
+ "mb_0191": {
+  "seeds": [
+   "Acute mesenteric ischemia",
+   "Embolic mesenteric ischemia",
+   "Mesenteric arterial thrombosis",
+   "Aortic dissection",
+   "Ruptured abdominal aortic aneurysm",
+   "Acute pancreatitis",
+   "Diffuse abdominal tenderness",
+   "Pain out of proportion to physical examination",
+   "Diaphoresis",
+   "Hypotension",
+   "Computed tomography angiography",
+   "Serum lactate"
+  ]
+ },
+ "mb_0195": {
+  "seeds": [
+   "Accidental hypothermia",
+   "Moderate hypothermia",
+   "Osborn wave",
+   "J (Osborn) wave",
+   "Frostbite",
+   "Cold-induced bullae",
+   "Hypothermia-induced bradycardia",
+   "Hypothermia-induced altered mental status",
+   "Rewarming",
+   "Warm air circulator",
+   "Warm water bath"
+  ]
+ },
+ "mb_0194": {
+  "seeds": [
+   "Major depressive disorder",
+   "Vitamin B12 deficiency",
+   "Subacute combined degeneration of the spinal cord",
+   "Copper deficiency myelopathy",
+   "Hypothyroidism",
+   "Bariatric surgery complication",
+   "Roux-en-Y gastric bypass",
+   "Gastric bypass surgery",
+   "Depressed affect",
+   "Anhedonia",
+   "Insomnia",
+   "Hyperreflexia",
+   "Bilateral lower extremity weakness"
+  ]
+ },
+ "mb_0193": {
+  "seeds": [
+   "Hirschsprung disease",
+   "Hirschsprung-associated enterocolitis",
+   "Congenital megacolon",
+   "Intestinal obstruction in a neonate",
+   "Constipation in a newborn",
+   "Tight anal sphincter",
+   "Explosive stool after digital rectal examination",
+   "Delayed passage of meconium",
+   "Bilious vomiting",
+   "Abdominal distension",
+   "Rectal suction biopsy",
+   "Absent ganglion cells",
+   "Acetylcholinesterase staining",
+   "Contrast enema"
+  ]
+ },
+ "mb_0196": {
+  "seeds": [
+   "Bacterial meningitis",
+   "Meningococcemia",
+   "Neisseria meningitidis infection",
+   "Meningoencephalitis",
+   "Sepsis",
+   "Kernig sign",
+   "Petechial rash",
+   "Nuchal rigidity",
+   "Altered mental status",
+   "Lumbar puncture",
+   "Blood cultures",
+   "Ceftriaxone"
+  ]
+ },
+ "mb_0190": {
+  "seeds": [
+   "Cocaine use disorder",
+   "Cannabis use disorder",
+   "Substance-induced anxiety disorder",
+   "Generalized anxiety disorder",
+   "Insomnia disorder",
+   "Fatigue",
+   "Anxiety",
+   "Sleep deprivation",
+   "Urine toxicology screen",
+   "Brief motivational interviewing",
+   "Cognitive behavioral therapy for insomnia",
+   "Substance withdrawal"
+  ]
+ },
+ "mb_0198": {
+  "seeds": [
+   "Type 2 diabetes mellitus",
+   "Diabetic nephropathy",
+   "Chronic kidney disease",
+   "Microalbuminuria",
+   "Urine albumin-to-creatinine ratio",
+   "Fasting plasma glucose",
+   "Hemoglobin A1c",
+   "Polyuria",
+   "Polydipsia",
+   "Obesity",
+   "Hypertension",
+   "Losartan"
+  ]
+ },
+ "mb_0200": {
+  "seeds": [
+   "Clostridioides difficile infection",
+   "Antibiotic-associated diarrhea",
+   "Pseudomembranous colitis",
+   "Clindamycin adverse effect",
+   "Stool nucleic acid amplification test for Clostridioides difficile toxin genes",
+   "Stool toxin assay for Clostridioides difficile toxin A and toxin B",
+   "Pseudomembranes",
+   "Leukocytosis",
+   "Watery diarrhea",
+   "Colonoscopy",
+   "Toxigenic Clostridioides difficile colonization"
+  ]
+ },
+ "mb_0201": {
+  "seeds": [
+   "Premenstrual dysphoric disorder",
+   "Premenstrual syndrome",
+   "Irritable bowel syndrome",
+   "Generalized anxiety disorder",
+   "Major depressive disorder",
+   "Cyclic abdominal pain",
+   "Mood swings",
+   "Bloating",
+   "Abdominal pain",
+   "Catamenial symptom pattern",
+   "Luteal phase hormonal fluctuation",
+   "Selective serotonin reuptake inhibitor therapy"
+  ]
+ },
+ "mb_0202": {
+  "seeds": [
+   "Emergency contraception",
+   "Levonorgestrel",
+   "Ulipristal acetate",
+   "Copper intrauterine device",
+   "Unprotected sexual intercourse",
+   "Negative urine pregnancy test",
+   "Last menstrual period",
+   "Adolescent confidentiality",
+   "Ovulation",
+   "Pregnancy testing"
+  ]
+ },
+ "mb_0203": {
+  "seeds": [
+   "Colorectal cancer",
+   "Colonoscopy",
+   "Family history of colon cancer",
+   "Screening colonoscopy",
+   "Adenomatous polyp",
+   "Postmenopausal woman",
+   "Age-appropriate cancer screening",
+   "Rheumatoid arthritis",
+   "Osteoarthritis",
+   "Carpal tunnel syndrome",
+   "Aspirin chemoprevention",
+   "Fecal immunochemical test"
+  ]
+ },
+ "mb_0204": {
+  "seeds": [
+   "Exertional heat stroke",
+   "Heat stroke",
+   "Generalized tonic-clonic seizure",
+   "Status epilepticus",
+   "Rhabdomyolysis",
+   "Myoglobinuria",
+   "Acute kidney injury",
+   "Hyponatremia",
+   "Hypoglycemia",
+   "Creatine kinase elevation",
+   "Urine dipstick positive for blood",
+   "Hyperthermia"
+  ]
+ },
+ "mb_0206": {
+  "seeds": [
+   "Supracondylar fracture of the humerus",
+   "Radial head dislocation",
+   "Posterior interosseous nerve palsy",
+   "Median nerve injury",
+   "Brachial artery injury",
+   "Elbow fracture",
+   "Outstretched hand injury",
+   "Anterior interosseous nerve palsy",
+   "Diminished radial pulse",
+   "Popeye sign"
+  ]
+ },
+ "mb_0207": {
+  "seeds": [
+   "Acute ischemic stroke",
+   "Right middle cerebral artery infarction",
+   "Cardioembolic stroke",
+   "Atrial fibrillation",
+   "Paroxysmal atrial fibrillation",
+   "Transient ischemic attack",
+   "Intravenous alteplase",
+   "Non-contrast head CT",
+   "Electrocardiogram",
+   "Facial droop",
+   "Unilateral arm and leg weakness",
+   "Hemiparesis",
+   "Oral anticoagulation",
+   "Direct oral anticoagulant"
+  ]
+ },
+ "mb_0199": {
+  "seeds": [
+   "Major depressive disorder",
+   "Complicated grief",
+   "Diabetic peripheral neuropathy",
+   "Diabetic neuropathic pain",
+   "Depression",
+   "Anhedonia",
+   "Hypersomnia",
+   "Psychomotor retardation",
+   "Stocking-glove sensory loss",
+   "Allodynia",
+   "Oxycodone",
+   "Selective serotonin reuptake inhibitor"
+  ]
+ },
+ "mb_0189": {
+  "seeds": [
+   "Hirschsprung disease",
+   "Meconium ileus",
+   "Small left colon syndrome",
+   "Intestinal atresia",
+   "Congenital hypothyroidism",
+   "Delayed passage of meconium",
+   "Abdominal distension",
+   "Absent bowel sounds",
+   "Contrast enema",
+   "Rectal suction biopsy",
+   "Rectal examination"
+  ]
+ },
+ "mb_0205": {
+  "seeds": [
+   "Malrotation with midgut volvulus",
+   "Intestinal malrotation",
+   "Midgut volvulus",
+   "Small bowel obstruction",
+   "Bile-stained vomiting",
+   "Abdominal distension",
+   "Hypoactive bowel sounds",
+   "Dehydration",
+   "Abdominal radiograph",
+   "Upper gastrointestinal series",
+   "Ladd procedure"
+  ]
+ },
+ "mb_0208": {
+  "seeds": [
+   "Long QT syndrome",
+   "Catecholaminergic polymorphic ventricular tachycardia",
+   "Brugada syndrome",
+   "Hypertrophic cardiomyopathy",
+   "Arrhythmogenic right ventricular cardiomyopathy",
+   "Sudden cardiac death",
+   "Ventricular fibrillation",
+   "Syncope",
+   "Electrocardiogram",
+   "Autopsy",
+   "Epinephrine",
+   "Defibrillation"
+  ]
+ },
+ "mb_0210": {
+  "seeds": [
+   "Hemorrhagic shock",
+   "Blunt abdominal trauma",
+   "Intra-abdominal hemorrhage",
+   "Splenic laceration",
+   "Liver laceration",
+   "Retroperitoneal hemorrhage",
+   "Focused assessment with sonography for trauma",
+   "Computed tomography of the abdomen and pelvis",
+   "Packed red blood cell transfusion",
+   "Endotracheal intubation",
+   "End-tidal CO2 monitoring",
+   "Lactated Ringer solution"
+  ]
+ },
+ "mb_0211": {
+  "seeds": [
+   "Necrolytic migratory erythema",
+   "Glucagonoma",
+   "Pancreatic neuroendocrine tumor",
+   "Diabetes mellitus",
+   "Hyperglycemia",
+   "Weight loss",
+   "Abdominal pain",
+   "Diarrhea",
+   "Acanthosis nigricans",
+   "Plasma glucagon level",
+   "CT abdomen",
+   "Somatostatin receptor scintigraphy",
+   "Zollinger-Ellison syndrome",
+   "Necrolytic erythema"
+  ]
+ },
+ "mb_0209": {
+  "seeds": [
+   "Lung cancer",
+   "Squamous cell carcinoma of the lung",
+   "Paraneoplastic syndrome",
+   "Hyponatremia",
+   "Syndrome of inappropriate antidiuretic hormone secretion",
+   "Lambert-Eaton myasthenic syndrome",
+   "Myasthenia gravis",
+   "Polymyalgia rheumatica",
+   "Tuberculosis",
+   "Chronic obstructive pulmonary disease",
+   "Chest radiograph",
+   "Serum sodium level",
+   "Computed tomography of the chest",
+   "Anti-voltage-gated calcium channel antibody test"
+  ]
+ },
+ "mb_0214": {
+  "seeds": [
+   "Toxic shock syndrome",
+   "Staphylococcus aureus",
+   "Menstrual toxic shock syndrome",
+   "Streptococcal toxic shock syndrome",
+   "Sepsis",
+   "Desquamating rash",
+   "Conjunctivitis",
+   "Hypotension",
+   "Fever",
+   "Tachycardia",
+   "Nasal packing",
+   "Nasal septoplasty",
+   "Copious purulent nasal discharge",
+   "Staphylococcal enterotoxin TSST-1"
+  ]
+ },
+ "mb_0213": {
+  "seeds": [
+   "Acute infectious diarrhea",
+   "Vibrio cholerae infection",
+   "Cholera",
+   "Secretory diarrhea",
+   "Hypovolemic shock",
+   "Severe dehydration",
+   "Orthostatic hypotension",
+   "Dry mucous membranes",
+   "Normal saline resuscitation",
+   "Oral rehydration therapy",
+   "Stool culture",
+   "Stool ova and parasite examination"
+  ]
+ },
+ "mb_0215": {
+  "seeds": [
+   "Olecranon fracture",
+   "Posterior fat pad sign",
+   "Elbow joint effusion",
+   "Radial head fracture",
+   "Distal humerus fracture",
+   "Elbow dislocation",
+   "Fall on outstretched hand",
+   "Pain with elbow extension",
+   "Posterior elbow swelling",
+   "Lateral elbow radiograph",
+   "Plain radiography"
+  ]
+ },
+ "mb_0197": {
+  "seeds": [
+   "Acute coronary syndrome",
+   "ST-segment elevation myocardial infarction",
+   "Unstable angina",
+   "Non-ST-segment elevation myocardial infarction",
+   "Coronary artery disease",
+   "Myocardial ischemia",
+   "Troponin I",
+   "Electrocardiogram",
+   "Nitroglycerin",
+   "Aspirin",
+   "Diabetes mellitus",
+   "Cigarette smoking"
+  ]
+ },
+ "mb_0216": {
+  "seeds": [
+   "Hypocalcemia",
+   "Post-thyroidectomy hypoparathyroidism",
+   "Medullary thyroid carcinoma",
+   "Cataract",
+   "Paresthesia",
+   "Prolonged QT interval",
+   "Tetany",
+   "Pseudohypoparathyroidism",
+   "Vitamin D deficiency",
+   "Parathyroid hormone deficiency",
+   "Serum calcium test",
+   "Electrocardiogram",
+   "Phosphorus elevation"
+  ]
+ },
+ "mb_0217": {
+  "seeds": [
+   "Primary ovarian insufficiency",
+   "Premature ovarian failure",
+   "Amenorrhea",
+   "Oligomenorrhea",
+   "Infertility",
+   "Hashimoto thyroiditis",
+   "Autoimmune polyglandular syndrome type 2",
+   "Elevated follicle-stimulating hormone",
+   "Low estradiol",
+   "Hypoestrogenism",
+   "Vasomotor symptoms",
+   "Dyspareunia",
+   "Transvaginal pelvic ultrasound",
+   "Karyotype analysis",
+   "Anti-M\u00fcllerian hormone"
+  ]
+ },
+ "mb_0218": {
+  "seeds": [
+   "Delusional disorder, persecutory type",
+   "Schizophrenia",
+   "Paranoid personality disorder",
+   "Brief psychotic disorder",
+   "Bipolar I disorder with psychotic features",
+   "Persecutory delusion",
+   "Systematized delusion",
+   "Auditory hallucination",
+   "Mental status examination",
+   "Antipsychotic medication",
+   "Psychotherapy",
+   "Dopamine hypothesis"
+  ]
+ },
+ "mb_0212": {
+  "seeds": [
+   "Carotid sinus hypersensitivity",
+   "Orthostatic hypotension",
+   "Vertebrobasilar insufficiency",
+   "Transient ischemic attack",
+   "Vasovagal syncope",
+   "Syncope",
+   "Presyncope",
+   "Dysarthria",
+   "Vertigo",
+   "Orthostatic vital signs",
+   "Carotid sinus massage",
+   "Atherosclerosis",
+   "Diabetic autonomic neuropathy"
+  ]
+ },
+ "mb_0219": {
+  "seeds": [
+   "Lithium toxicity",
+   "Acute lithium overdose",
+   "Bipolar disorder",
+   "Altered mental status",
+   "Serotonin syndrome",
+   "Neuroleptic malignant syndrome",
+   "Sinus tachycardia",
+   "Hyperthermia",
+   "Electrocardiogram",
+   "Serum lithium level",
+   "Nephrogenic diabetes insipidus",
+   "Torsades de pointes"
+  ]
+ },
+ "mb_0220": {
+  "seeds": [
+   "Gastroesophageal reflux disease",
+   "Laryngopharyngeal reflux",
+   "Esophageal adenocarcinoma",
+   "Peptic ulcer disease",
+   "Upper gastrointestinal bleeding",
+   "Melena",
+   "Chronic cough",
+   "Dysphagia",
+   "Weight loss",
+   "Esophagogastroduodenoscopy",
+   "Empiric proton pump inhibitor therapy"
+  ]
+ },
+ "mb_0221": {
+  "seeds": [
+   "Cystic fibrosis",
+   "Bronchiectasis",
+   "Chronic sinusitis",
+   "Recurrent respiratory infection",
+   "Pancreatic insufficiency",
+   "Failure to thrive",
+   "Thick mucus secretions",
+   "Sweat chloride test",
+   "CFTR gene mutation",
+   "Chest MRI",
+   "Tricuspid stenosis",
+   "Clubbing"
+  ]
+ },
+ "mb_0222": {
+  "seeds": [
+   "Breastfeeding jaundice",
+   "Neonatal unconjugated hyperbilirubinemia",
+   "Physiologic jaundice of the newborn",
+   "Breast milk jaundice",
+   "Excessive neonatal weight loss",
+   "Jaundice",
+   "Kernicterus",
+   "Total serum bilirubin",
+   "Direct bilirubin",
+   "Phototherapy",
+   "Breastfeeding support",
+   "Cephalohematoma"
+  ]
+ },
+ "mb_0223": {
+  "seeds": [
+   "nonstress test",
+   "fetal heart rate variability",
+   "fetal tachycardia",
+   "fetal sleep cycle",
+   "gestational diabetes mellitus",
+   "insulin therapy",
+   "acute gastroenteritis",
+   "foodborne illness",
+   "dehydration",
+   "loperamide",
+   "maternal hyperglycemia",
+   "placental insufficiency",
+   "fetal hypoxia"
+  ]
+ },
+ "mb_0224": {
+  "seeds": [
+   "Schizotypal personality disorder",
+   "Schizophrenia",
+   "Delusional disorder",
+   "Brief psychotic disorder",
+   "Schizoaffective disorder",
+   "Magical thinking",
+   "Ideas of reference",
+   "Odd/eccentric behavior",
+   "Social and interpersonal deficits",
+   "Perceptual disturbances",
+   "Psychiatric evaluation",
+   "Antipsychotic medication"
+  ]
+ },
+ "mb_0226": {
+  "seeds": [
+   "Opioid intoxication",
+   "Opioid overdose",
+   "Opioid-induced respiratory depression",
+   "Toxic encephalopathy",
+   "Altered mental status",
+   "Miosis",
+   "Respiratory depression",
+   "Decreased bowel sounds",
+   "Naloxone",
+   "Toxicology screen",
+   "Opioid use disorder",
+   "Somnolence"
+  ]
+ },
+ "mb_0225": {
+  "seeds": [
+   "Inferior myocardial infarction",
+   "Acute coronary syndrome",
+   "Acute pancreatitis",
+   "Epigastric ecchymosis",
+   "Cullen sign",
+   "Gray Turner sign",
+   "Cardiogenic shock",
+   "Cholesterol embolization syndrome",
+   "Abdominal pain",
+   "Serum lipase elevation",
+   "Electrocardiogram ST elevation",
+   "Coronary reperfusion therapy"
+  ]
+ },
+ "mb_0227": {
+  "seeds": [
+   "Anal fissure",
+   "Lateral anal fissure",
+   "Crohn disease",
+   "Perianal abscess",
+   "Anal fistula",
+   "Constipation",
+   "Painful defecation",
+   "Bright red blood per rectum",
+   "Topical nitroglycerin",
+   "Topical calcium channel blocker",
+   "Fiber supplementation",
+   "Stool softener"
+  ]
+ },
+ "mb_0228": {
+  "seeds": [
+   "HIV infection",
+   "Pneumocystis jirovecii pneumonia",
+   "Pulmonary tuberculosis",
+   "Immune reconstitution inflammatory syndrome",
+   "Mycobacterium tuberculosis",
+   "Hemoptysis",
+   "Hilar adenopathy",
+   "Upper lobe pulmonary infiltrate",
+   "CD4 lymphocyte count",
+   "HIV viral load",
+   "Chest radiograph",
+   "Antiretroviral therapy"
+  ]
+ },
+ "mb_0230": {
+  "seeds": [
+   "Cluster headache",
+   "Trigeminal autonomic cephalalgia",
+   "Trigeminal neuralgia",
+   "Migraine headache",
+   "Paroxysmal hemicrania",
+   "Temporal arteritis",
+   "Ipsilateral lacrimation",
+   "Periorbital pain",
+   "Nocturnal headache",
+   "CT scan of the head and sinuses",
+   "High-flow oxygen therapy",
+   "Lithium carbonate"
+  ]
+ },
+ "mb_0229": {
+  "seeds": [
+   "Inferior myocardial infarction",
+   "Acute pancreatitis",
+   "Aortic dissection",
+   "Epigastric ecchymosis",
+   "Cullen sign",
+   "Grey Turner sign",
+   "Serum lipase",
+   "Creatinine elevation",
+   "Hypertension",
+   "Coronary artery disease",
+   "Percutaneous coronary intervention",
+   "ST-segment elevation myocardial infarction"
+  ]
+ },
+ "mb_0231": {
+  "seeds": [
+   "Leukocytoclastic vasculitis",
+   "Palpable purpura",
+   "Henoch-Sch\u00f6nlein purpura",
+   "Immune thrombocytopenic purpura",
+   "Thrombocytopenic purpura",
+   "Meningococcemia",
+   "Rocky Mountain spotted fever",
+   "Secondary syphilis",
+   "Aspirin sensitivity",
+   "Biopsy of skin lesion",
+   "Direct immunofluorescence",
+   "Platelet count"
+  ]
+ },
+ "mb_0232": {
+  "seeds": [
+   "Lichen planus",
+   "Oral lichen planus",
+   "Chronic hepatitis C infection",
+   "Pruritic papular rash",
+   "Wickham striae",
+   "Koebner phenomenon",
+   "Buccal mucosa white reticular lesions",
+   "Hepatitis C serology",
+   "Hepatitis C virus infection",
+   "Lichen planus biopsy",
+   "Squamous cell carcinoma"
+  ]
+ },
+ "mb_0233": {
+  "seeds": [
+   "Polycystic ovary syndrome",
+   "Androgen-secreting ovarian tumor",
+   "Ovarian Sertoli-Leydig cell tumor",
+   "Ovarian thecoma",
+   "Nonclassic congenital adrenal hyperplasia",
+   "Hirsutism",
+   "Amenorrhea",
+   "Hyperandrogenism",
+   "Clitoromegaly",
+   "Transvaginal pelvic ultrasound",
+   "Serum testosterone level",
+   "DHEAS level",
+   "17-hydroxyprogesterone level"
+  ]
+ },
+ "mb_0235": {
+  "seeds": [
+   "Dementia with Lewy bodies",
+   "Alzheimer disease",
+   "Parkinson disease dementia",
+   "Vascular dementia",
+   "Frontotemporal dementia",
+   "Visual hallucinations",
+   "Fluctuating cognition",
+   "Parkinsonism",
+   "Bradykinesia",
+   "Postural instability",
+   "Lewy bodies",
+   "Alpha-synuclein aggregates"
+  ]
+ },
+ "mb_0236": {
+  "seeds": [
+   "Infantile spasms",
+   "West syndrome",
+   "Hypsarrhythmia",
+   "Developmental regression",
+   "Epileptic spasms",
+   "Infantile epileptic encephalopathy",
+   "Tuberous sclerosis complex",
+   "Cortical dysplasia",
+   "Mesial temporal sclerosis",
+   "Adrenocorticotropic hormone therapy",
+   "Vigabatrin",
+   "Electroencephalography"
+  ]
+ },
+ "mb_0234": {
+  "seeds": [
+   "Opioid use disorder",
+   "Substance use disorder",
+   "Longitudinal cohort study",
+   "Attrition bias",
+   "Selection bias",
+   "Response bias",
+   "Validated survey instrument",
+   "Loss to follow-up",
+   "Daily functioning impairment",
+   "Survivorship bias"
+  ]
+ },
+ "mb_0237": {
+  "seeds": [
+   "Catatonia",
+   "Major depressive disorder",
+   "Depressive disorder with catatonic features",
+   "Selective serotonin reuptake inhibitor",
+   "Phenelzine",
+   "Fluoxetine",
+   "Lorazepam challenge test",
+   "Mutism",
+   "Waxy flexibility",
+   "Posturing",
+   "Antipsychotic-induced malignant catatonia",
+   "Serotonin syndrome",
+   "Neuroleptic malignant syndrome"
+  ]
+ },
+ "mb_0241": {
+  "seeds": [
+   "Acute compartment syndrome",
+   "Thermal burn",
+   "Circumferential burn",
+   "Extremity ischemia",
+   "Peripheral arterial occlusion",
+   "Elevated compartment pressure",
+   "Midazolam infusion",
+   "Continuous electroencephalogram monitoring",
+   "Magnetic resonance imaging",
+   "Fasciotomy",
+   "Dorsalis pedis pulse",
+   "Posterior tibial pulse"
+  ]
+ },
+ "mb_0240": {
+  "seeds": [
+   "Brain abscess",
+   "Toxoplasma encephalitis",
+   "Primary central nervous system lymphoma",
+   "Focal seizure",
+   "Generalized tonic-clonic seizure",
+   "HIV infection",
+   "Altered mental status",
+   "Right-sided hemiparesis",
+   "Fever",
+   "Headache",
+   "Cerebral mass lesion",
+   "Contrast-enhanced brain MRI",
+   "Computed tomography of the head",
+   "Electroencephalography",
+   "Cerebral edema"
+  ]
+ },
+ "mb_0239": {
+  "seeds": [
+   "Restless legs syndrome",
+   "Insomnia",
+   "Periodic limb movement disorder",
+   "Anxiety disorder",
+   "Iron deficiency anemia",
+   "Pregnancy",
+   "Uremia",
+   "Dopamine agonist therapy",
+   "Ferritin test",
+   "Complete blood count",
+   "Iron studies",
+   "Renal function panel",
+   "Polysomnography",
+   "Pramipexole",
+   "Ropinirole"
+  ]
+ },
+ "mb_0242": {
+  "seeds": [
+   "Molar pregnancy",
+   "Hydatidiform mole",
+   "Gestational trophoblastic disease",
+   "Complete hydatidiform mole",
+   "Urine human chorionic gonadotropin test",
+   "Beta-human chorionic gonadotropin",
+   "Ultrasonography of the uterus",
+   "Snowstorm appearance",
+   "Pregnancy nausea and vomiting",
+   "Adenomyosis",
+   "Pregnancy"
+  ]
+ },
+ "mb_0243": {
+  "seeds": [
+   "Acute mechanical low back pain",
+   "Lumbar muscle strain",
+   "Lumbar paraspinal muscle strain",
+   "Vertebral compression fracture",
+   "Osteoporosis",
+   "Cauda equina syndrome",
+   "Lumbosacral radiculopathy",
+   "Sciatica",
+   "Straight leg raise test",
+   "Distal radius fracture",
+   "Paraspinal tenderness",
+   "Home improvement injury"
+  ]
+ },
+ "mb_0238": {
+  "seeds": [
+   "Dog bite wound",
+   "Clenched fist injury",
+   "Hand laceration",
+   "Metacarpophalangeal joint laceration",
+   "Cellulitis",
+   "Pasteurella multocida infection",
+   "Capnocytophaga canimorsus infection",
+   "Tetanus prophylaxis",
+   "Wound irrigation and debridement",
+   "Rabies postexposure prophylaxis",
+   "Amoxicillin-clavulanate",
+   "Flexor tenosynovitis",
+   "Septic arthritis"
+  ]
+ },
+ "mb_0245": {
+  "seeds": [
+   "Aortic dissection",
+   "Acute aortic syndrome",
+   "Hypertensive emergency",
+   "Torn intimal flap",
+   "Mediastinal widening",
+   "Pulse deficit",
+   "Transesophageal echocardiography",
+   "Computed tomography angiography",
+   "Intravenous beta blocker",
+   "Esmolol"
+  ]
+ },
+ "mb_0244": {
+  "seeds": [
+   "Acute myeloid leukemia",
+   "Hyperleukocytosis",
+   "Leukostasis",
+   "Retinal hemorrhage",
+   "Leukemia cutis",
+   "Pancytopenia",
+   "Acute lymphoblastic leukemia",
+   "Chronic myeloid leukemia",
+   "Bone marrow biopsy",
+   "Peripheral blood smear",
+   "Cytarabine",
+   "Leukapheresis"
+  ]
+ },
+ "mb_0246": {
+  "seeds": [
+   "Major depressive disorder",
+   "Selective serotonin reuptake inhibitor",
+   "Citalopram",
+   "Antidepressant nonresponse",
+   "Treatment-resistant depression",
+   "Medication dose titration",
+   "Patient adherence to antidepressant therapy",
+   "Depressed mood",
+   "Anhedonia",
+   "Insomnia",
+   "Decreased appetite",
+   "Nausea"
+  ]
+ },
+ "mb_0247": {
+  "seeds": [
+   "Adhesive capsulitis",
+   "Diabetic frozen shoulder",
+   "Shoulder stiffness",
+   "Decreased active range of motion of the shoulder",
+   "Decreased passive range of motion of the shoulder",
+   "Pain-limited weakness",
+   "Type 2 diabetes mellitus",
+   "Obesity",
+   "Hydrochlorothiazide",
+   "Shoulder pain",
+   "Rotator cuff tendinopathy",
+   "Subacromial bursitis"
+  ]
+ },
+ "mb_0248": {
+  "seeds": [
+   "Acute angle-closure glaucoma",
+   "Traumatic hyphema",
+   "Orbital compartment syndrome",
+   "Iritis",
+   "Blunt ocular trauma",
+   "Elevated intraocular pressure",
+   "Conjunctival injection",
+   "Sluggish pupillary reaction",
+   "Fluorescein stain",
+   "Tonometry",
+   "Anterior chamber paracentesis",
+   "Acetazolamide"
+  ]
+ },
+ "mb_0249": {
+  "seeds": [
+   "Right ovarian torsion",
+   "Ovarian torsion",
+   "Hemorrhagic ovarian cyst",
+   "Ruptured ectopic pregnancy",
+   "Pelvic inflammatory disease",
+   "Tubo-ovarian abscess",
+   "Acute cholecystitis",
+   "Pregnancy test",
+   "Urine beta-hCG",
+   "Hypotension",
+   "Tachycardia",
+   "Right upper quadrant tenderness",
+   "Oral contraceptive pill use",
+   "Hyperandrogenism"
+  ]
+ },
+ "mb_0251": {
+  "seeds": [
+   "Medication error",
+   "Clobazam",
+   "Clonazepam",
+   "Benzodiazepine overdose",
+   "Over-sedation",
+   "Airway monitoring",
+   "Intensive care unit admission",
+   "Electronic prescribing alert",
+   "Tall Man lettering",
+   "Medication reconciliation"
+  ]
+ },
+ "mb_0250": {
+  "seeds": [
+   "Pulmonary tuberculosis",
+   "Reactivation tuberculosis",
+   "Latent tuberculosis infection",
+   "Community-acquired pneumonia",
+   "Lung cancer",
+   "Tuberculosis screening",
+   "Chest radiograph",
+   "Acid-fast bacillus sputum smear",
+   "Mycobacterial culture",
+   "Interferon-gamma release assay",
+   "Purified protein derivative skin test",
+   "Airborne isolation"
+  ]
+ },
+ "mb_0252": {
+  "seeds": [
+   "Subungual hematoma",
+   "Fingertip crush injury",
+   "Distal phalanx fracture",
+   "Nail bed laceration",
+   "Open distal phalanx fracture",
+   "Onycholysis",
+   "Trephination",
+   "Plain radiograph of the finger",
+   "Acetaminophen",
+   "Fingernail avulsion"
+  ]
+ },
+ "mb_0253": {
+  "seeds": [
+   "Neisseria gonorrhoeae infection",
+   "Chlamydia trachomatis infection",
+   "Bacterial vaginosis",
+   "Trichomoniasis",
+   "Pelvic inflammatory disease",
+   "Disseminated gonococcal infection",
+   "Arthritis-dermatitis syndrome",
+   "Pustular skin rash",
+   "Tenosynovitis",
+   "Migratory polyarthralgia",
+   "Unprotected sexual intercourse",
+   "Nucleic acid amplification test",
+   "Ceftriaxone"
+  ]
+ },
+ "mb_0254": {
+  "seeds": [
+   "Pellagra",
+   "Niacin deficiency",
+   "Photosensitivity",
+   "Phototoxic drug reaction",
+   "Tetracycline",
+   "Doxycycline",
+   "Porphyria cutanea tarda",
+   "Polymorphous light eruption",
+   "Bullous pemphigoid",
+   "Blistering erythematous rash",
+   "Sunburn",
+   "Metformin"
+  ]
+ },
+ "mb_0255": {
+  "seeds": [
+   "Marfan syndrome",
+   "Ectopia lentis",
+   "Bilateral lens subluxation",
+   "Homocystinuria",
+   "Fibrillin-1 mutation",
+   "Thoracic aortic aneurysm",
+   "Aortic root dilation",
+   "Scoliosis",
+   "Tall stature",
+   "Arachnodactyly",
+   "Slit-lamp examination",
+   "Corrective lenses"
+  ]
+ },
+ "mb_0256": {
+  "seeds": [
+   "Waldenstr\u00f6m macroglobulinemia",
+   "B-cell lymphoma",
+   "Non-Hodgkin lymphoma",
+   "Chronic lymphocytic leukemia",
+   "Multiple myeloma",
+   "Hyperviscosity syndrome",
+   "Peripheral neuropathy",
+   "Lymphadenopathy",
+   "Splenomegaly",
+   "Hepatomegaly",
+   "Serum protein electrophoresis",
+   "Immunoglobulin M monoclonal gammopathy"
+  ]
+ },
+ "mb_0258": {
+  "seeds": [
+   "Community-acquired pneumonia",
+   "Right middle lobe pneumonia",
+   "Recurrent pneumonia",
+   "Bronchogenic carcinoma",
+   "Postobstructive pneumonia",
+   "Atelectasis",
+   "Smoker's cough",
+   "Chest radiograph",
+   "Sputum culture",
+   "Bronchoscopy",
+   "Pleural effusion",
+   "Decreased breath sounds"
+  ]
+ },
+ "mb_0259": {
+  "seeds": [
+   "Crohn disease",
+   "Inflammatory bowel disease",
+   "Terminal ileitis",
+   "Abdominal pain",
+   "Hematochezia",
+   "Weight loss",
+   "Growth retardation",
+   "Iron deficiency anemia",
+   "Conjunctival pallor",
+   "Perianal fissure",
+   "Abdominal computed tomography",
+   "Ileocolonoscopy",
+   "C-reactive protein",
+   "Fecal calprotectin"
+  ]
+ },
+ "mb_0257": {
+  "seeds": [
+   "Needlestick injury",
+   "Occupational HIV exposure",
+   "Post-exposure prophylaxis for HIV",
+   "Tenofovir disoproxil fumarate-emtricitabine",
+   "Raltegravir",
+   "Human immunodeficiency virus infection",
+   "High HIV viral load",
+   "Antiretroviral therapy",
+   "Percutaneous exposure",
+   "Hepatitis B vaccination",
+   "Hepatitis C virus exposure",
+   "HIV antigen/antibody test"
+  ]
+ },
+ "mb_0260": {
+  "seeds": [
+   "Subarachnoid hemorrhage",
+   "Ruptured intracranial aneurysm",
+   "Berry aneurysm",
+   "Sentinel headache",
+   "Thunderclap headache",
+   "Cerebral vasospasm",
+   "Meningismus",
+   "Meningeal irritation",
+   "Noncontrast head CT",
+   "CT head without contrast",
+   "Xanthochromia",
+   "Lumbar puncture"
+  ]
+ },
+ "mb_0262": {
+  "seeds": [
+   "Tuberous sclerosis complex",
+   "Infantile spasms",
+   "Hypsarrhythmia",
+   "Hypomelanotic macules",
+   "Shagreen patch",
+   "Epilepsy",
+   "Valproic acid",
+   "Lamotrigine",
+   "Electroencephalography",
+   "Cortical tuber",
+   "Subependymal giant cell astrocytoma"
+  ]
+ },
+ "mb_0261": {
+  "seeds": [
+   "Gout",
+   "Acute septic arthritis",
+   "Calcium pyrophosphate deposition disease",
+   "Pseudogout",
+   "Monosodium urate crystal arthritis",
+   "Hyperuricemia",
+   "Nephrolithiasis",
+   "Synovial fluid analysis",
+   "Polarized light microscopy",
+   "Needle-shaped negatively birefringent crystals",
+   "Joint radiograph",
+   "Chronic tophaceous gout"
+  ]
+ },
+ "mb_0263": {
+  "seeds": [
+   "Pancreatic adenocarcinoma",
+   "Cholangiocarcinoma",
+   "Gastric carcinoma",
+   "Colorectal cancer",
+   "Chronic pancreatitis",
+   "Unintentional weight loss",
+   "Abdominal pain",
+   "Painless jaundice",
+   "Gallstones",
+   "Smoking history",
+   "Computed tomography of the abdomen and pelvis",
+   "Endoscopic ultrasound",
+   "Carbohydrate antigen 19-9"
+  ]
+ },
+ "mb_0265": {
+  "seeds": [
+   "Avascular necrosis of the femoral head",
+   "Osteonecrosis of the femoral head",
+   "Sickle cell disease",
+   "Hip pain",
+   "Groin pain",
+   "Pain with hip internal rotation",
+   "Pain with hip abduction",
+   "Femoral head collapse",
+   "Magnetic resonance imaging of the hip",
+   "Plain radiograph of the hip",
+   "Vaso-occlusion",
+   "Corticosteroid therapy"
+  ]
+ },
+ "mb_0264": {
+  "seeds": [
+   "Ectopic pregnancy",
+   "Tubal ectopic pregnancy",
+   "Ruptured ectopic pregnancy",
+   "Hemorrhagic shock",
+   "Pregnancy of unknown location",
+   "Incomplete abortion",
+   "Spontaneous abortion",
+   "Pelvic inflammatory disease",
+   "Copper intrauterine device",
+   "Serum beta-human chorionic gonadotropin",
+   "Transvaginal ultrasonography",
+   "Adnexal tenderness",
+   "Peritoneal signs",
+   "Anemia"
+  ]
+ },
+ "mb_0266": {
+  "seeds": [
+   "Acute dystonic reaction",
+   "Metoclopramide adverse effect",
+   "Torticollis",
+   "Cervical dystonia",
+   "Acute extrapyramidal symptoms",
+   "Oculogyric crisis",
+   "Dystonia",
+   "Dopamine D2 receptor blockade",
+   "Benztropine",
+   "Diphenhydramine",
+   "Promethazine",
+   "Postoperative nausea and vomiting"
+  ]
+ },
+ "mb_0268": {
+  "seeds": [
+   "Vertebral compression fracture",
+   "Osteoporotic fracture",
+   "Glucocorticoid-induced osteoporosis",
+   "Acute mechanical low back pain",
+   "Lumbar strain",
+   "Multiple myeloma",
+   "Hypercalcemia",
+   "Thoracolumbar spine radiography",
+   "Magnetic resonance imaging of the spine",
+   "Straight leg raise test",
+   "Hip flexion test",
+   "Osteopenia"
+  ]
+ },
+ "mb_0270": {
+  "seeds": [
+   "Acute kidney injury",
+   "Pre-renal azotemia",
+   "Dehydration",
+   "Hypernatremia",
+   "Metabolic acidosis",
+   "Gastroenteritis",
+   "Delirium",
+   "Myocardial injury",
+   "Type 2 myocardial infarction",
+   "Acute coronary syndrome",
+   "Electrocardiogram",
+   "Serum troponin",
+   "Intravenous fluid resuscitation",
+   "Stool loss"
+  ]
+ },
+ "mb_0269": {
+  "seeds": [
+   "Pyloric stenosis",
+   "Hypertrophic pyloric stenosis",
+   "Infantile vomiting",
+   "Projectile vomiting",
+   "Dehydration",
+   "Failure to thrive",
+   "Hypochloremic metabolic alkalosis",
+   "Hypokalemia",
+   "Pyloromyotomy",
+   "Pyloric ultrasound",
+   "Ramstedt pyloromyotomy",
+   "Gastric outlet obstruction"
+  ]
+ },
+ "mb_0271": {
+  "seeds": [
+   "Normal developmental milestone",
+   "Toddler development",
+   "Language development milestone",
+   "Gross motor development",
+   "Fine motor development",
+   "Parallel play",
+   "2-word phrases",
+   "6-cube tower",
+   "Imitates a circle",
+   "Stair climbing",
+   "Jumping",
+   "Pediatric well-child visit"
+  ]
+ },
+ "mb_0272": {
+  "seeds": [
+   "Duodenal ulcer",
+   "Peptic ulcer disease",
+   "Helicobacter pylori infection",
+   "Gastric ulcer",
+   "Dyspepsia",
+   "Upper gastrointestinal bleeding",
+   "Positive stool guaiac test",
+   "Esophagogastroduodenoscopy",
+   "Mucosal biopsy",
+   "Histology with neutrophilic inflammation"
+  ]
+ },
+ "mb_0273": {
+  "seeds": [
+   "Constrictive pericarditis",
+   "Pericardial effusion",
+   "Dilated cardiomyopathy",
+   "Heart failure with reduced ejection fraction",
+   "Viral myocarditis",
+   "Restrictive cardiomyopathy",
+   "Elevated jugular venous pressure",
+   "Kussmaul sign",
+   "Peripheral edema",
+   "Ascites",
+   "Chest radiograph",
+   "Pericardiectomy"
+  ]
+ },
+ "mb_0274": {
+  "seeds": [
+   "Systemic sclerosis",
+   "CREST syndrome",
+   "Raynaud phenomenon",
+   "Sclerodactyly",
+   "Esophageal dysmotility",
+   "Skin thickening",
+   "Anti-centromere antibody",
+   "Anti-Scl-70 antibody",
+   "Electromyography",
+   "Antinuclear antibody test"
+  ]
+ },
+ "mb_0275": {
+  "seeds": [
+   "Meningitis",
+   "Viral meningitis",
+   "Aseptic meningitis",
+   "Bacterial meningitis",
+   "Subarachnoid hemorrhage",
+   "Migraine headache",
+   "Nuchal rigidity",
+   "Lumbar puncture",
+   "Cerebrospinal fluid analysis",
+   "Cerebrospinal fluid pleocytosis",
+   "Cerebrospinal fluid protein elevation",
+   "Cerebrospinal fluid glucose",
+   "Opening pressure"
+  ]
+ },
+ "mb_0278": {
+  "seeds": [
+   "Absence seizure",
+   "Juvenile myoclonic epilepsy",
+   "Myoclonic seizure",
+   "Generalized epilepsy",
+   "Hyperventilation test",
+   "Electroencephalography",
+   "Ethosuximide",
+   "Valproic acid",
+   "Lamotrigine",
+   "Benzodiazepine",
+   "Staring spells",
+   "Myoclonic jerks"
+  ]
+ },
+ "mb_0276": {
+  "seeds": [
+   "Supraventricular tachycardia",
+   "Atrial flutter",
+   "Atrial fibrillation",
+   "Sinus tachycardia",
+   "Ventricular tachycardia",
+   "Atrioventricular nodal reentrant tachycardia",
+   "Palpitations",
+   "Lightheadedness",
+   "Somnolence",
+   "Electrocardiogram",
+   "Adenosine",
+   "Vagal maneuver",
+   "Fluoxetine",
+   "Lorazepam"
+  ]
+ },
+ "mb_0277": {
+  "seeds": [
+   "Polymyositis",
+   "Dermatomyositis",
+   "Inclusion body myositis",
+   "Statin-induced myopathy",
+   "Muscular dystrophy",
+   "Proximal muscle weakness",
+   "Elevated creatine kinase",
+   "Muscle biopsy",
+   "Electromyography",
+   "Magnetic resonance imaging of muscle",
+   "Anti-Jo-1 antibody",
+   "Antisynthetase syndrome"
+  ]
+ },
+ "mb_0279": {
+  "seeds": [
+   "HIV infection",
+   "Pneumocystis jirovecii pneumonia",
+   "Pulmonary tuberculosis",
+   "Immune reconstitution inflammatory syndrome",
+   "Mycobacterium tuberculosis",
+   "Hemoptysis",
+   "Hilar adenopathy",
+   "Upper lobe pulmonary infiltrate",
+   "CD4 lymphocytopenia",
+   "HIV viral load",
+   "Chest radiograph",
+   "Antiretroviral therapy"
+  ]
+ },
+ "mb_0280": {
+  "seeds": [
+   "Polymyositis",
+   "Dermatomyositis",
+   "Inflammatory myopathy",
+   "Proximal muscle weakness",
+   "Gottron papules",
+   "Heliotrope rash",
+   "Perifascicular atrophy",
+   "Muscle biopsy",
+   "Creatine kinase elevation",
+   "Antinuclear antibody test",
+   "Anti\u2013Mi-2 antibody",
+   "Paraneoplastic syndrome"
+  ]
+ },
+ "mb_0282": {
+  "seeds": [
+   "Metastatic colon adenocarcinoma",
+   "Colorectal carcinoma",
+   "Occult gastrointestinal bleeding",
+   "Positive fecal occult blood test",
+   "Weight loss",
+   "Iron deficiency anemia",
+   "Syncope",
+   "Abdominal pain",
+   "CT abdomen with colonic mass",
+   "Peritoneal metastases",
+   "Prognosis",
+   "Clinical trial evidence"
+  ]
+ },
+ "mb_0283": {
+  "seeds": [
+   "Major depressive disorder",
+   "Depression due to a medical condition",
+   "Hypothyroidism",
+   "Selective serotonin reuptake inhibitor therapy",
+   "Fluoxetine",
+   "Thyroid-stimulating hormone test",
+   "Depressed affect",
+   "Adjustment disorder with depressed mood",
+   "Serotonin reuptake inhibitor nonresponse",
+   "Bereavement-related depression"
+  ]
+ },
+ "mb_0285": {
+  "seeds": [
+   "Supraventricular tachycardia",
+   "Atrioventricular nodal reentrant tachycardia",
+   "Atrial flutter",
+   "Atrial fibrillation with rapid ventricular response",
+   "Sinus tachycardia",
+   "Adenosine",
+   "Vagal maneuvers",
+   "Electrocardiogram",
+   "Palpitations",
+   "Transient flushing"
+  ]
+ },
+ "mb_0281": {
+  "seeds": [
+   "Primary immunodeficiency disorder",
+   "Severe combined immunodeficiency",
+   "Common variable immunodeficiency",
+   "X-linked agammaglobulinemia",
+   "Selective IgA deficiency",
+   "Transient hypogammaglobulinemia of infancy",
+   "Bacterial pneumonia",
+   "Chest radiograph",
+   "Thymus",
+   "Lymphoid tissue",
+   "Tonsils",
+   "Adenoids",
+   "Peyer patches",
+   "B cells",
+   "Immunoglobulin G"
+  ]
+ },
+ "mb_0284": {
+  "seeds": [
+   "Exercise-induced mesenteric ischemia",
+   "Acute mesenteric ischemia",
+   "Small bowel obstruction",
+   "Volvulus",
+   "Intestinal ischemia",
+   "Abdominal distension",
+   "Abdominal tenderness",
+   "Nausea and vomiting",
+   "Tachycardia",
+   "Abdominal radiograph"
+  ]
+ },
+ "mb_0267": {
+  "seeds": [
+   "Small bowel obstruction",
+   "Strangulated small bowel obstruction",
+   "Internal hernia",
+   "Adhesive small bowel obstruction",
+   "Peritonitis",
+   "Bowel ischemia",
+   "Acute mesenteric ischemia",
+   "Prior appendectomy",
+   "Rebound tenderness",
+   "Guarding",
+   "Elevated lactate",
+   "Abdominal radiography",
+   "Computed tomography of the abdomen and pelvis",
+   "Urgent exploratory laparotomy",
+   "Nasogastric tube decompression"
+  ]
+ },
+ "mb_0287": {
+  "seeds": [
+   "Hereditary nonpolyposis colorectal cancer syndrome",
+   "Familial adenomatous polyposis",
+   "Breast cancer",
+   "Colorectal cancer",
+   "Routine cervical cancer screening",
+   "Pap smear",
+   "Oral contraceptive pill",
+   "BRCA1 gene mutation",
+   "BRCA2 gene mutation",
+   "Genetic counseling",
+   "Colonoscopy",
+   "Mammography"
+  ]
+ },
+ "mb_0286": {
+  "seeds": [
+   "Chronic cutaneous porphyria",
+   "Pseudoporphyria",
+   "Photosensitive dermatitis",
+   "Porphyria cutanea tarda",
+   "Type 2 diabetes mellitus",
+   "Poor wound healing",
+   "Hypertrichosis",
+   "Bullous skin lesion",
+   "Skin fragility",
+   "Hepatic porphyria",
+   "Porphyrin urine fluorescence test",
+   "Plasma porphyrin level",
+   "Skin biopsy"
+  ]
+ },
+ "mb_0288": {
+  "seeds": [
+   "Kidney transplantation",
+   "Renal allograft rejection",
+   "Calcineurin inhibitor therapy",
+   "Cyclosporine",
+   "Tacrolimus",
+   "Mycophenolate mofetil",
+   "Prednisone",
+   "Herpes simplex virus infection",
+   "Diabetes mellitus",
+   "Chronic kidney disease",
+   "Dialysis",
+   "HLA matching",
+   "Acute rejection of renal transplant",
+   "Transplant immunosuppression",
+   "Serum creatinine"
+  ]
+ },
+ "mb_0290": {
+  "seeds": [
+   "Hypercalcemia",
+   "Primary hyperparathyroidism",
+   "Parathyroid adenoma",
+   "Sarcoidosis",
+   "Multiple myeloma",
+   "Hypercalcemia of malignancy",
+   "Cough",
+   "Abdominal pain",
+   "Cognitive impairment",
+   "Elevated alkaline phosphatase",
+   "Hypophosphatemia",
+   "Serum calcium test",
+   "Serum parathyroid hormone test",
+   "24-hour urine calcium"
+  ]
+ },
+ "mb_0289": {
+  "seeds": [
+   "Chronic subdural hematoma",
+   "Subdural hematoma",
+   "Minor head trauma",
+   "Brain herniation",
+   "Altered mental status",
+   "Delirium",
+   "Gait instability",
+   "Ecchymosis",
+   "Head CT without contrast",
+   "Cerebral bridging veins",
+   "Cerebral atrophy",
+   "Elder abuse"
+  ]
+ },
+ "mb_0291": {
+  "seeds": [
+   "Creutzfeldt-Jakob disease",
+   "Rapidly progressive dementia",
+   "Behavioral variant frontotemporal dementia",
+   "Alzheimer disease",
+   "Dementia with Lewy bodies",
+   "Cerebrospinal fluid 14-3-3 protein",
+   "Myoclonus",
+   "Spongiform encephalopathy",
+   "Executive dysfunction",
+   "Disinhibition",
+   "Cognitive decline",
+   "Electroencephalography"
+  ]
+ },
+ "mb_0292": {
+  "seeds": [
+   "Cardiac tamponade",
+   "Tension pneumothorax",
+   "Hemorrhagic shock",
+   "Blunt thoracic aortic injury",
+   "Constrictive pericarditis",
+   "Traumatic hemopericardium",
+   "Jugular venous distension",
+   "Electrocardiogram",
+   "Pericardiocentesis",
+   "Focused assessment with sonography for trauma"
+  ]
+ },
+ "mb_0294": {
+  "seeds": [
+   "Hypertensive retinopathy",
+   "Malignant hypertension",
+   "Hypertensive urgency",
+   "Essential hypertension",
+   "Medication nonadherence",
+   "Type 2 diabetes mellitus",
+   "Coronary artery disease",
+   "Old myocardial infarction",
+   "Left ventricular hypertrophy",
+   "S4 heart sound",
+   "Displaced apical impulse",
+   "Funduscopic examination"
+  ]
+ },
+ "mb_0295": {
+  "seeds": [
+   "Lower gastrointestinal bleeding",
+   "Hematochezia",
+   "Colorectal cancer",
+   "Colonic polyp",
+   "Diverticular bleeding",
+   "Angiodysplasia of the colon",
+   "Internal hemorrhoids",
+   "Anal fissure",
+   "Anoscopy",
+   "Colonoscopy",
+   "Fecal occult blood test",
+   "Iron deficiency anemia"
+  ]
+ },
+ "mb_0293": {
+  "seeds": [
+   "Atrial fibrillation",
+   "Atrial flutter",
+   "Atrioventricular block",
+   "Sick sinus syndrome",
+   "Sinus node dysfunction",
+   "Post-myocardial infarction arrhythmia",
+   "Cavotricuspid isthmus",
+   "Atrioventricular node",
+   "Palpitations",
+   "Irregularly irregular rhythm",
+   "Electrocardiogram",
+   "Myocardial infarction"
+  ]
+ },
+ "mb_0299": {
+  "seeds": [
+   "Parkinson disease",
+   "Resting tremor",
+   "Cogwheel rigidity",
+   "Bradykinesia",
+   "Parkinsonism",
+   "Essential tremor",
+   "Intention tremor",
+   "Basal ganglia dysfunction",
+   "Substantia nigra degeneration",
+   "Dopamine deficiency",
+   "Lewy bodies",
+   "Carbidopa-levodopa"
+  ]
+ },
+ "mb_0298": {
+  "seeds": [
+   "Narcolepsy",
+   "Insomnia disorder",
+   "Attention-deficit/hyperactivity disorder",
+   "Major depressive disorder",
+   "Delayed sleep-wake phase disorder",
+   "Excessive daytime sleepiness",
+   "Sleep-onset insomnia",
+   "Cataplexy",
+   "Polysomnography",
+   "Sleep diary",
+   "Modafinil"
+  ]
+ },
+ "mb_0297": {
+  "seeds": [
+   "Hereditary angioedema",
+   "Angioedema",
+   "Bradykinin-mediated angioedema",
+   "C1 esterase inhibitor deficiency",
+   "Upper airway edema",
+   "Tongue swelling",
+   "Muffled voice",
+   "Laryngeal edema",
+   "Facial trauma",
+   "Icatibant"
+  ]
+ },
+ "mb_0300": {
+  "seeds": [
+   "Transposition of the great arteries",
+   "Congenitally corrected transposition of the great arteries",
+   "Persistent truncus arteriosus",
+   "Tetralogy of Fallot",
+   "Total anomalous pulmonary venous return",
+   "Hypoplastic left heart syndrome",
+   "Central cyanosis",
+   "Hyperoxia test",
+   "Echocardiogram",
+   "Chest radiograph",
+   "Diabetic mother",
+   "Preductal and postductal oxygen saturation"
+  ]
+ },
+ "mb_0302": {
+  "seeds": [
+   "Cystocele",
+   "Stress urinary incontinence",
+   "Overactive bladder",
+   "Atrophic vaginitis",
+   "Urinary tract infection",
+   "Urethrocele",
+   "Pelvic organ prolapse",
+   "Anterior vaginal wall prolapse",
+   "Postvoid residual volume",
+   "Pelvic examination",
+   "Vaginal atrophy",
+   "Valsalva maneuver"
+  ]
+ },
+ "mb_0303": {
+  "seeds": [
+   "Acute bacterial sinusitis",
+   "Rhinosinusitis",
+   "Foreign body in the nasal cavity",
+   "Nasal septal hematoma",
+   "Allergic rhinitis",
+   "Epistaxis",
+   "Unilateral purulent nasal discharge",
+   "Purulent nasal discharge",
+   "Foul-smelling nasal discharge",
+   "Nasal obstruction",
+   "Computed tomography of the paranasal sinuses",
+   "Nasal endoscopy"
+  ]
+ },
+ "mb_0304": {
+  "seeds": [
+   "Schizophrenia",
+   "Paranoid schizophrenia",
+   "Delusional disorder",
+   "Substance-induced psychotic disorder",
+   "Cannabis use disorder",
+   "Hepatitis C infection",
+   "Antipsychotic resistance",
+   "Treatment-resistant schizophrenia",
+   "Clozapine",
+   "Extrapyramidal symptoms",
+   "Tardive dyskinesia",
+   "Positive symptoms of schizophrenia"
+  ]
+ },
+ "mb_0306": {
+  "seeds": [
+   "Midbrain infarction",
+   "Weber syndrome",
+   "Posterior cerebral artery infarction",
+   "Oculomotor nerve palsy",
+   "Cerebral peduncle infarction",
+   "Hypertensive intracerebral hemorrhage",
+   "Lacunar stroke",
+   "Ischemic stroke",
+   "Ptosis",
+   "Mydriasis",
+   "Dysdiadochokinesia",
+   "Computed tomography of the head",
+   "Magnetic resonance imaging of the brain"
+  ]
+ },
+ "mb_0301": {
+  "seeds": [
+   "Diabetic gastroparesis",
+   "Mechanical small bowel obstruction",
+   "Viral gastroenteritis",
+   "Hypertensive emergency",
+   "Peripheral arterial disease",
+   "Aortic stenosis",
+   "Mesenteric ischemia",
+   "Chronic mesenteric ischemia",
+   "Postoperative adhesions",
+   "Abdominal distension",
+   "Tympanitic abdomen",
+   "Delayed gastric emptying",
+   "Intestinal obstruction"
+  ]
+ },
+ "mb_0307": {
+  "seeds": [
+   "Naloxone-induced noncardiogenic pulmonary edema",
+   "Opioid overdose",
+   "Acute pulmonary edema",
+   "Acute decompensated heart failure",
+   "Cocaine-induced cardiomyopathy",
+   "Myocardial infarction",
+   "Aspiration pneumonitis",
+   "Pulmonary edema",
+   "Crackles",
+   "Wheezing",
+   "Chest radiograph",
+   "Naloxone",
+   "Hypoxemia",
+   "Polysubstance abuse"
+  ]
+ },
+ "mb_0305": {
+  "seeds": [
+   "Chalazion",
+   "Hordeolum",
+   "Meibomian gland dysfunction",
+   "Blepharitis",
+   "Eyelid nodule",
+   "Painless eyelid mass",
+   "Meibomian gland lipogranuloma",
+   "Squamous cell carcinoma of the eyelid",
+   "Basal cell carcinoma of the eyelid",
+   "Sebaceous gland carcinoma",
+   "Incision and curettage",
+   "Warm compresses"
+  ]
+ },
+ "mb_0296": {
+  "seeds": [
+   "Food protein-induced allergic proctocolitis",
+   "Cow's milk protein allergy",
+   "Allergic colitis",
+   "Hemorrhagic proctocolitis of infancy",
+   "Gastroesophageal reflux in infants",
+   "Infant regurgitation",
+   "Blood-streaked stool",
+   "Breastfed infant",
+   "Soft non-tender abdomen",
+   "Well-appearing infant",
+   "Eosinophilic infiltration of the colonic mucosa",
+   "Maternal dietary antigen exposure"
+  ]
+ }
+}

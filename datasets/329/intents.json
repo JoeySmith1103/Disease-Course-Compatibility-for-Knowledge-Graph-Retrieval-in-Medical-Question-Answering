@@ -1,0 +1,1318 @@
+{
+ "aud_001": {
+  "intent": "prognosis",
+  "axis_target": "additional finding"
+ },
+ "aud_002": {
+  "intent": "pathogen",
+  "axis_target": "fungal pathogen"
+ },
+ "aud_004": {
+  "intent": "prognosis",
+  "axis_target": "post-MI arrhythmia"
+ },
+ "aud_006": {
+  "intent": "pathogen",
+  "axis_target": "causal organism"
+ },
+ "aud_008": {
+  "intent": "treatment",
+  "axis_target": "management step"
+ },
+ "aud_010": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "aud_011": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "aud_012": {
+  "intent": "prognosis",
+  "axis_target": "complication"
+ },
+ "aud_014": {
+  "intent": "mechanism",
+  "axis_target": "cause of findings"
+ },
+ "aud_019": {
+  "intent": "prognosis",
+  "axis_target": "illness outcome"
+ },
+ "aud_022": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "aud_027": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "aud_030": {
+  "intent": "mechanism",
+  "axis_target": "pathophysiologic explanation"
+ },
+ "aud_031": {
+  "intent": "pathogen",
+  "axis_target": "causal organism"
+ },
+ "aud_036": {
+  "intent": "procedure",
+  "axis_target": "diagnostic test"
+ },
+ "aud_038": {
+  "intent": "pathogen",
+  "axis_target": "protozoal organism"
+ },
+ "aud_042": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "aud_043": {
+  "intent": "mechanism",
+  "axis_target": "angioedema mechanism"
+ },
+ "aud_046": {
+  "intent": "procedure",
+  "axis_target": "diagnostic test"
+ },
+ "aud_047": {
+  "intent": "procedure",
+  "axis_target": "next management step"
+ },
+ "aud_050": {
+  "intent": "other",
+  "axis_target": "transtheoretical stage"
+ },
+ "aud_053": {
+  "intent": "treatment",
+  "axis_target": "next best treatment"
+ },
+ "aud_054": {
+  "intent": "treatment",
+  "axis_target": "initial pharmacotherapy"
+ },
+ "aud_055": {
+  "intent": "pathogen",
+  "axis_target": "causative organism"
+ },
+ "aud_058": {
+  "intent": "pathogen",
+  "axis_target": "vector"
+ },
+ "aud_060": {
+  "intent": "procedure",
+  "axis_target": "next management step"
+ },
+ "aud_064": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "aud_067": {
+  "intent": "procedure",
+  "axis_target": "confirmatory test"
+ },
+ "aud_068": {
+  "intent": "mechanism",
+  "axis_target": "lung disease cause"
+ },
+ "aud_070": {
+  "intent": "physical_finding",
+  "axis_target": "further evaluation finding"
+ },
+ "aud_071": {
+  "intent": "procedure",
+  "axis_target": "next best step"
+ },
+ "aud_080": {
+  "intent": "procedure",
+  "axis_target": "next management step"
+ },
+ "aud_083": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "aud_085": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "aud_093": {
+  "intent": "mechanism",
+  "axis_target": "underlying etiology"
+ },
+ "aud_099": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "aud_102": {
+  "intent": "procedure",
+  "axis_target": "confirmatory test"
+ },
+ "aud_105": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "aud_114": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "aud_115": {
+  "intent": "prognosis",
+  "axis_target": "future complication"
+ },
+ "aud_125": {
+  "intent": "pathogen",
+  "axis_target": "causative organism"
+ },
+ "aud_131": {
+  "intent": "pathogen",
+  "axis_target": "causal organism"
+ },
+ "aud_153": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "aud_154": {
+  "intent": "treatment",
+  "axis_target": "medication"
+ },
+ "aud_159": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "aud_197": {
+  "intent": "pathogen",
+  "axis_target": "causative organism"
+ },
+ "cor_289": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "cor_507": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "err_1611": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "err_843": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "m325_10": {
+  "intent": "mechanism",
+  "axis_target": "cause of mood symptoms"
+ },
+ "m325_1007": {
+  "intent": "ddx",
+  "axis_target": "infectious mononucleosis"
+ },
+ "m325_1025": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_1074": {
+  "intent": "pathogen",
+  "axis_target": "etiology"
+ },
+ "m325_1144": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_1146": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_1187": {
+  "intent": "ddx",
+  "axis_target": "lung fibrosis"
+ },
+ "m325_1226": {
+  "intent": "pathogen",
+  "axis_target": "bacterial toxin"
+ },
+ "m325_1227": {
+  "intent": "mechanism",
+  "axis_target": "prolonged QT mechanism"
+ },
+ "m325_1230": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_1262": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_130": {
+  "intent": "pathogen",
+  "axis_target": "causal organism"
+ },
+ "m325_1300": {
+  "intent": "mechanism",
+  "axis_target": "cause of symptoms"
+ },
+ "m325_1302": {
+  "intent": "ddx",
+  "axis_target": "disease diagnosis"
+ },
+ "m325_1310": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_1316": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_1330": {
+  "intent": "mechanism",
+  "axis_target": "vascular occlusion"
+ },
+ "m325_1335": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_1348": {
+  "intent": "pathogen",
+  "axis_target": "causative organism"
+ },
+ "m325_1364": {
+  "intent": "ddx",
+  "axis_target": "seizure diagnosis"
+ },
+ "m325_1407": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_1420": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_1421": {
+  "intent": "mechanism",
+  "axis_target": "high-altitude pulmonary edema"
+ },
+ "m325_1469": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_147": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_148": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_1501": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_1511": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_1514": {
+  "intent": "mechanism",
+  "axis_target": "vascular lesion"
+ },
+ "m325_1532": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "m325_1544": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_1552": {
+  "intent": "prognosis",
+  "axis_target": "clinical outcome"
+ },
+ "m325_1586": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_163": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_1638": {
+  "intent": "ddx",
+  "axis_target": "condition"
+ },
+ "m325_1670": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_1676": {
+  "intent": "mechanism",
+  "axis_target": "etiology"
+ },
+ "m325_1679": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_168": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "m325_1685": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_1742": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_1764": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_1785": {
+  "intent": "pathogen",
+  "axis_target": "causative organism"
+ },
+ "m325_179": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_180": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "m325_1835": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_1847": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_1912": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "m325_1914": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "m325_1922": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_1928": {
+  "intent": "mechanism",
+  "axis_target": "cause of elevated creatinine"
+ },
+ "m325_194": {
+  "intent": "ddx",
+  "axis_target": "disease diagnosis"
+ },
+ "m325_197": {
+  "intent": "ddx",
+  "axis_target": "movement disorder diagnosis"
+ },
+ "m325_227": {
+  "intent": "mechanism",
+  "axis_target": "venous obstruction"
+ },
+ "m325_230": {
+  "intent": "pathogen",
+  "axis_target": "organism characteristic"
+ },
+ "m325_24": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_25": {
+  "intent": "mechanism",
+  "axis_target": "cause of cardiomyopathy"
+ },
+ "m325_266": {
+  "intent": "other",
+  "axis_target": "expected evaluation finding"
+ },
+ "m325_272": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_284": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_339": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_348": {
+  "intent": "pathogen",
+  "axis_target": "infectious agent"
+ },
+ "m325_373": {
+  "intent": "mechanism",
+  "axis_target": "cause of perforation"
+ },
+ "m325_417": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_429": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_441": {
+  "intent": "mechanism",
+  "axis_target": "cause of hearing loss"
+ },
+ "m325_449": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_471": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_487": {
+  "intent": "pathogen",
+  "axis_target": "etiologic parasite"
+ },
+ "m325_53": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_565": {
+  "intent": "pathogen",
+  "axis_target": "causative pathogen"
+ },
+ "m325_602": {
+  "intent": "ddx",
+  "axis_target": "hepatitis B infection"
+ },
+ "m325_62": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "m325_623": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_631": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_645": {
+  "intent": "mechanism",
+  "axis_target": "cause of small bowel obstruction"
+ },
+ "m325_685": {
+  "intent": "mechanism",
+  "axis_target": "tumor cause"
+ },
+ "m325_698": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_708": {
+  "intent": "ddx",
+  "axis_target": "Creutzfeldt-Jakob disease"
+ },
+ "m325_750": {
+  "intent": "ddx",
+  "axis_target": "disease condition"
+ },
+ "m325_766": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "m325_780": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "m325_787": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_788": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_803": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_807": {
+  "intent": "ddx",
+  "axis_target": "underlying disorder"
+ },
+ "m325_823": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_832": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_836": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "m325_855": {
+  "intent": "mechanism",
+  "axis_target": "serotonin excess"
+ },
+ "m325_92": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_931": {
+  "intent": "physical_finding",
+  "axis_target": "associated clinical finding"
+ },
+ "m325_970": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "m325_971": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_test_4409": {
+  "intent": "physical_finding",
+  "axis_target": "evaluation finding"
+ },
+ "v2_test_4423": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_test_4425": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_test_4473": {
+  "intent": "mechanism",
+  "axis_target": "factor XIII deficiency"
+ },
+ "v2_test_4499": {
+  "intent": "pathogen",
+  "axis_target": "causal organism"
+ },
+ "v2_test_4534": {
+  "intent": "mechanism",
+  "axis_target": "autoimmune post-MI reaction"
+ },
+ "v2_test_4562": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "v2_test_4677": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_test_4715": {
+  "intent": "mechanism",
+  "axis_target": "cause of ascites"
+ },
+ "v2_test_4734": {
+  "intent": "mechanism",
+  "axis_target": "parathyroid hormone deficiency"
+ },
+ "v2_test_4748": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_test_4750": {
+  "intent": "mechanism",
+  "axis_target": "electrolyte shift"
+ },
+ "v2_test_4778": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_test_4807": {
+  "intent": "ddx",
+  "axis_target": "clinical diagnosis"
+ },
+ "v2_test_4821": {
+  "intent": "ddx",
+  "axis_target": "lung cancer"
+ },
+ "v2_test_4848": {
+  "intent": "ddx",
+  "axis_target": "inherited disorder"
+ },
+ "v2_test_4850": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_test_4874": {
+  "intent": "mechanism",
+  "axis_target": "esophageal rupture"
+ },
+ "v2_test_4885": {
+  "intent": "physical_finding",
+  "axis_target": "histologic finding"
+ },
+ "v2_test_4887": {
+  "intent": "mechanism",
+  "axis_target": "pituitary ischemic necrosis"
+ },
+ "v2_test_4899": {
+  "intent": "pathogen",
+  "axis_target": "fungal pathogen"
+ },
+ "v2_test_4936": {
+  "intent": "prognosis",
+  "axis_target": "congenital heart defect"
+ },
+ "v2_test_5066": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_test_5104": {
+  "intent": "ddx",
+  "axis_target": "gastric erosion"
+ },
+ "v2_test_5118": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_test_5143": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_test_5225": {
+  "intent": "prognosis",
+  "axis_target": "associated risk"
+ },
+ "v2_test_5242": {
+  "intent": "mechanism",
+  "axis_target": "drug-induced pancreatitis"
+ },
+ "v2_test_5256": {
+  "intent": "mechanism",
+  "axis_target": "cause of superior vena cava syndrome"
+ },
+ "v2_test_5323": {
+  "intent": "prognosis",
+  "axis_target": "future risk"
+ },
+ "v2_test_5331": {
+  "intent": "other",
+  "axis_target": "injured organ"
+ },
+ "v2_test_5349": {
+  "intent": "pathogen",
+  "axis_target": "infectious etiology"
+ },
+ "v2_test_5427": {
+  "intent": "mechanism",
+  "axis_target": "drug toxicity"
+ },
+ "v2_test_5434": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_test_5487": {
+  "intent": "mechanism",
+  "axis_target": "uterine inversion"
+ },
+ "v2_test_5534": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_test_5564": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "v2_test_5608": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_test_5610": {
+  "intent": "physical_finding",
+  "axis_target": "histopathology finding"
+ },
+ "v2_test_5636": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_test_5642": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "v2_test_5688": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_test_5745": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "v2_test_5813": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_test_5879": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_103": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_1044": {
+  "intent": "mechanism",
+  "axis_target": "cause of increased filtration fraction"
+ },
+ "v2_train_1064": {
+  "intent": "physical_finding",
+  "axis_target": "associated finding"
+ },
+ "v2_train_115": {
+  "intent": "physical_finding",
+  "axis_target": "additional finding"
+ },
+ "v2_train_1282": {
+  "intent": "physical_finding",
+  "axis_target": "cardiac exam finding"
+ },
+ "v2_train_1286": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_1303": {
+  "intent": "mechanism",
+  "axis_target": "vitamin toxicity"
+ },
+ "v2_train_1352": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "v2_train_1362": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_1429": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_1435": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "v2_train_1438": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_1469": {
+  "intent": "mechanism",
+  "axis_target": "triggering factor"
+ },
+ "v2_train_1510": {
+  "intent": "mechanism",
+  "axis_target": "drug interaction"
+ },
+ "v2_train_153": {
+  "intent": "pathogen",
+  "axis_target": "causative pathogen"
+ },
+ "v2_train_1536": {
+  "intent": "prognosis",
+  "axis_target": "fetal anomaly risk"
+ },
+ "v2_train_1555": {
+  "intent": "ddx",
+  "axis_target": "cause of death"
+ },
+ "v2_train_158": {
+  "intent": "prognosis",
+  "axis_target": "complication risk"
+ },
+ "v2_train_159": {
+  "intent": "pathogen",
+  "axis_target": "viral cause"
+ },
+ "v2_train_160": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_1614": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_1633": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "v2_train_1673": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "v2_train_1697": {
+  "intent": "mechanism",
+  "axis_target": "neurological cause"
+ },
+ "v2_train_17": {
+  "intent": "mechanism",
+  "axis_target": "pregnancy loss cause"
+ },
+ "v2_train_1725": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "v2_train_1730": {
+  "intent": "mechanism",
+  "axis_target": "etiology"
+ },
+ "v2_train_1735": {
+  "intent": "mechanism",
+  "axis_target": "nerve compression"
+ },
+ "v2_train_1763": {
+  "intent": "mechanism",
+  "axis_target": "prostate inflammation"
+ },
+ "v2_train_1792": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "v2_train_1871": {
+  "intent": "pathogen",
+  "axis_target": "causative organism"
+ },
+ "v2_train_1888": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_1905": {
+  "intent": "pathogen",
+  "axis_target": "exposure agent"
+ },
+ "v2_train_1908": {
+  "intent": "mechanism",
+  "axis_target": "aspiration mechanism"
+ },
+ "v2_train_1961": {
+  "intent": "physical_finding",
+  "axis_target": "histopathology finding"
+ },
+ "v2_train_1998": {
+  "intent": "mechanism",
+  "axis_target": "cause of death"
+ },
+ "v2_train_200": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_2030": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_2053": {
+  "intent": "mechanism",
+  "axis_target": "delirium contributors"
+ },
+ "v2_train_2066": {
+  "intent": "physical_finding",
+  "axis_target": "TEE finding"
+ },
+ "v2_train_2086": {
+  "intent": "mechanism",
+  "axis_target": "laboratory finding"
+ },
+ "v2_train_2131": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_2152": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_226": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_2276": {
+  "intent": "mechanism",
+  "axis_target": "hormonal cause"
+ },
+ "v2_train_2281": {
+  "intent": "mechanism",
+  "axis_target": "somatic symptom disorder"
+ },
+ "v2_train_2318": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_2354": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_2361": {
+  "intent": "mechanism",
+  "axis_target": "PFT pattern"
+ },
+ "v2_train_2410": {
+  "intent": "mechanism",
+  "axis_target": "lab abnormality"
+ },
+ "v2_train_2445": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "v2_train_2465": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_2571": {
+  "intent": "mechanism",
+  "axis_target": "pelvic girdle laxity"
+ },
+ "v2_train_2584": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "v2_train_2662": {
+  "intent": "pathogen",
+  "axis_target": "foreign body cause"
+ },
+ "v2_train_2663": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_267": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_2701": {
+  "intent": "mechanism",
+  "axis_target": "vitamin B12 deficiency"
+ },
+ "v2_train_2721": {
+  "intent": "ddx",
+  "axis_target": "retinal diagnosis"
+ },
+ "v2_train_2779": {
+  "intent": "prognosis",
+  "axis_target": "current clinical status"
+ },
+ "v2_train_2831": {
+  "intent": "mechanism",
+  "axis_target": "delirium cause"
+ },
+ "v2_train_2868": {
+  "intent": "prognosis",
+  "axis_target": "future complication"
+ },
+ "v2_train_2886": {
+  "intent": "mechanism",
+  "axis_target": "cause of short stature"
+ },
+ "v2_train_2910": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "v2_train_2931": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "v2_train_3070": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_3120": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_3162": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_3249": {
+  "intent": "mechanism",
+  "axis_target": "vitamin B12 deficiency"
+ },
+ "v2_train_3261": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_3266": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_3268": {
+  "intent": "mechanism",
+  "axis_target": "pathophysiologic cause"
+ },
+ "v2_train_3282": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_3313": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_3346": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_3358": {
+  "intent": "physical_finding",
+  "axis_target": "lens opacity"
+ },
+ "v2_train_3375": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_3395": {
+  "intent": "physical_finding",
+  "axis_target": "lab finding"
+ },
+ "v2_train_3434": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_3439": {
+  "intent": "pathogen",
+  "axis_target": "causative organism"
+ },
+ "v2_train_3458": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_3485": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_3492": {
+  "intent": "mechanism",
+  "axis_target": "apophysitis cause"
+ },
+ "v2_train_3496": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_3516": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_3520": {
+  "intent": "ddx",
+  "axis_target": "aortic dissection"
+ },
+ "v2_train_3555": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_3586": {
+  "intent": "mechanism",
+  "axis_target": "pathophysiologic mechanism"
+ },
+ "v2_train_3622": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_3690": {
+  "intent": "physical_finding",
+  "axis_target": "histologic findings"
+ },
+ "v2_train_3692": {
+  "intent": "prognosis",
+  "axis_target": "cause of death"
+ },
+ "v2_train_407": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_414": {
+  "intent": "mechanism",
+  "axis_target": "transfusion-related lung injury"
+ },
+ "v2_train_444": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_465": {
+  "intent": "mechanism",
+  "axis_target": "fat embolism"
+ },
+ "v2_train_482": {
+  "intent": "prognosis",
+  "axis_target": "cause of death"
+ },
+ "v2_train_517": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "v2_train_520": {
+  "intent": "mechanism",
+  "axis_target": "CFTR mutation"
+ },
+ "v2_train_542": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_560": {
+  "intent": "physical_finding",
+  "axis_target": "endoscopic biopsy finding"
+ },
+ "v2_train_562": {
+  "intent": "prognosis",
+  "axis_target": "complication risk"
+ },
+ "v2_train_569": {
+  "intent": "mechanism",
+  "axis_target": "cause of symptoms"
+ },
+ "v2_train_605": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_62": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_657": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_660": {
+  "intent": "ddx",
+  "axis_target": "tumor diagnosis"
+ },
+ "v2_train_687": {
+  "intent": "mechanism",
+  "axis_target": "cause of symptoms"
+ },
+ "v2_train_751": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_764": {
+  "intent": "ddx",
+  "axis_target": "pathology"
+ },
+ "v2_train_79": {
+  "intent": "ddx",
+  "axis_target": "dementia diagnosis"
+ },
+ "v2_train_827": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_train_867": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_893": {
+  "intent": "procedure",
+  "axis_target": "ultrasound finding"
+ },
+ "v2_train_9": {
+  "intent": "mechanism",
+  "axis_target": "surfactant deficiency"
+ },
+ "v2_train_949": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_train_951": {
+  "intent": "prognosis",
+  "axis_target": "increased risk condition"
+ },
+ "v2_train_979": {
+  "intent": "physical_finding",
+  "axis_target": "kidney biopsy finding"
+ },
+ "v2_val_3743": {
+  "intent": "physical_finding",
+  "axis_target": "renal biopsy finding"
+ },
+ "v2_val_3754": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_val_3764": {
+  "intent": "mechanism",
+  "axis_target": "cause of symptoms"
+ },
+ "v2_val_3784": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_val_3803": {
+  "intent": "mechanism",
+  "axis_target": "underlying cause"
+ },
+ "v2_val_3900": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_val_3952": {
+  "intent": "mechanism",
+  "axis_target": "heparin-induced thrombocytopenia"
+ },
+ "v2_val_3981": {
+  "intent": "ddx",
+  "axis_target": "psychiatric diagnosis"
+ },
+ "v2_val_3986": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_val_4069": {
+  "intent": "prognosis",
+  "axis_target": "neonatal complication"
+ },
+ "v2_val_4076": {
+  "intent": "mechanism",
+  "axis_target": "pathophysiologic explanation"
+ },
+ "v2_val_4100": {
+  "intent": "ddx",
+  "axis_target": "disease diagnosis"
+ },
+ "v2_val_4110": {
+  "intent": "mechanism",
+  "axis_target": "cause of cardiomyopathy"
+ },
+ "v2_val_4119": {
+  "intent": "physical_finding",
+  "axis_target": "bone marrow histology"
+ },
+ "v2_val_4141": {
+  "intent": "physical_finding",
+  "axis_target": "duodenal biopsy finding"
+ },
+ "v2_val_4187": {
+  "intent": "prognosis",
+  "axis_target": "future complication"
+ },
+ "v2_val_4211": {
+  "intent": "mechanism",
+  "axis_target": "venous insufficiency"
+ },
+ "v2_val_4251": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_val_4280": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ },
+ "v2_val_4309": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_val_4316": {
+  "intent": "ddx",
+  "axis_target": "diagnosis"
+ },
+ "v2_val_4333": {
+  "intent": "other",
+  "axis_target": "supporting finding"
+ },
+ "v2_val_4348": {
+  "intent": "ddx",
+  "axis_target": "most likely diagnosis"
+ }
+}
