@@ -1,0 +1,33 @@
+  [10/308] extracted=7
+  [20/308] extracted=13
+  [30/308] extracted=20
+  [40/308] extracted=27
+  [50/308] extracted=33
+  [60/308] extracted=39
+  [70/308] extracted=45
+  [80/308] extracted=48
+  [90/308] extracted=53
+  [100/308] extracted=59
+  [110/308] extracted=64
+  [120/308] extracted=71
+  [130/308] extracted=78
+  [140/308] extracted=84
+  [150/308] extracted=91
+  [160/308] extracted=96
+  [170/308] extracted=100
+  [180/308] extracted=103
+  [190/308] extracted=108
+  [200/308] extracted=114
+  [210/308] extracted=119
+  [220/308] extracted=124
+  [230/308] extracted=129
+  [240/308] extracted=135
+  [250/308] extracted=140
+  [260/308] extracted=146
+  [270/308] extracted=154
+  [280/308] extracted=162
+  [290/308] extracted=165
+  [300/308] extracted=171
+
+Extracted chief_complaint duration for 175/308 items
+Saved: datasets/medbullets/durations.json

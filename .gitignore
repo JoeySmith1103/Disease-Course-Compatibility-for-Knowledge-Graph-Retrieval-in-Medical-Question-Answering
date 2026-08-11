@@ -1,0 +1,51 @@
+# ── credentials ───────────────────────────────────────────────────────────────
+# Nothing under api_key/ is ever committed. The loaders in code/llm_client.py read these files at
+# runtime and fall back to environment variables; there is no key in tracked source.
+api_key/
+*.key
+.env
+CLAUDE.local.md
+
+# ── licensed source data ──────────────────────────────────────────────────────
+# UMLS requires a UTS licence and its agreement restricts redistribution. cui_to_tui.csv is a
+# 443,700-row dump of UMLS CUI→semantic-type mappings, so publishing it would redistribute
+# licensed content. Regenerate it from your own licensed Neo4j instance — see README.
+cui_to_tui.csv
+cui_with_terms.csv
+*_umls_*.csv
+
+# ── large artefacts ───────────────────────────────────────────────────────────
+# ~1.9 GB total, and all of it is regenerable: cache/ from Neo4j + the LLM, frozen/ from
+# run_stage_a.sh, results/ from run_reader.py. A clone should be code, not outputs.
+cache/
+frozen/
+results/
+logs/
+prompt_dumps/
+oneshot/
+*.pkl
+*.pt
+*.zip
+*.jsonl.bak*
+
+# datasets/ holds derived benchmark files plus the hand-review labels. The labels are the part
+# worth versioning — 723 per-question verdicts that no script regenerates — so they come back in.
+# NB: the pattern excludes the CONTENTS (datasets/*/*), not the directory (datasets/*/). git will
+# not descend into an excluded directory, so a `!` re-include underneath one never takes effect.
+datasets/*/*
+!datasets/*/temporal_critical.json
+
+# _raw_* are download caches, not sources: build_new_dataset.py fetches each one over the network
+# when it is missing (MedBullets CSV, MedMCQA and MMLU via the HF datasets-server). Shipping 4 MB
+# of someone else's corpus adds nothing a clone cannot fetch itself.
+datasets/_raw_*
+
+# ── python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ── os ────────────────────────────────────────────────────────────────────────
+.DS_Store

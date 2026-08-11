@@ -1,0 +1,21 @@
+[verify] 329 · gpt-5.4-mini · N=5 · 329 to go (0 cached)
+  [20/329] {'control_fail': 10, 'perturb_fail': 1, 'not_duration_critical': 8, 'ambiguous': 1}
+  [40/329] {'control_fail': 21, 'perturb_fail': 5, 'not_duration_critical': 11, 'ambiguous': 1, 'duration_critical': 2}
+  [60/329] {'control_fail': 25, 'perturb_fail': 5, 'not_duration_critical': 21, 'ambiguous': 4, 'duration_critical': 5}
+  [80/329] {'control_fail': 27, 'perturb_fail': 6, 'not_duration_critical': 38, 'ambiguous': 4, 'duration_critical': 5}
+  [100/329] {'control_fail': 29, 'perturb_fail': 9, 'not_duration_critical': 52, 'ambiguous': 5, 'duration_critical': 5}
+  [120/329] {'control_fail': 29, 'perturb_fail': 10, 'not_duration_critical': 70, 'ambiguous': 5, 'duration_critical': 6}
+  [140/329] {'control_fail': 31, 'perturb_fail': 11, 'not_duration_critical': 84, 'ambiguous': 5, 'duration_critical': 9}
+  [160/329] {'control_fail': 36, 'perturb_fail': 15, 'not_duration_critical': 93, 'ambiguous': 7, 'duration_critical': 9}
+  [180/329] {'control_fail': 40, 'perturb_fail': 20, 'not_duration_critical': 103, 'ambiguous': 8, 'duration_critical': 9}
+  [200/329] {'control_fail': 43, 'perturb_fail': 23, 'not_duration_critical': 116, 'ambiguous': 8, 'duration_critical': 10}
+  [220/329] {'control_fail': 46, 'perturb_fail': 26, 'not_duration_critical': 128, 'ambiguous': 8, 'duration_critical': 12}
+  [240/329] {'control_fail': 50, 'perturb_fail': 27, 'not_duration_critical': 143, 'ambiguous': 8, 'duration_critical': 12}
+  [260/329] {'control_fail': 54, 'perturb_fail': 28, 'not_duration_critical': 157, 'ambiguous': 8, 'duration_critical': 13}
+  [280/329] {'control_fail': 55, 'perturb_fail': 29, 'not_duration_critical': 174, 'ambiguous': 8, 'duration_critical': 14}
+  [300/329] {'control_fail': 61, 'perturb_fail': 30, 'not_duration_critical': 187, 'ambiguous': 8, 'duration_critical': 14}
+  [320/329] {'control_fail': 66, 'perturb_fail': 31, 'not_duration_critical': 201, 'ambiguous': 8, 'duration_critical': 14}
+
+[verify] 329: {'control_fail': 66, 'perturb_fail': 32, 'not_duration_critical': 209, 'ambiguous': 8, 'duration_critical': 14}
+  真正 duration-critical: 14/223 = 6.3% （在控制組通過的題目中）
+  -> /Users/zengyuhua/Desktop/Master_thesis/new_duration_spectrum/pipeline/verification/329_duration_critical_gpt-5.4-mini.json

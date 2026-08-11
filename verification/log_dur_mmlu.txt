@@ -1,0 +1,28 @@
+  [10/256] extracted=7
+  [20/256] extracted=15
+  [30/256] extracted=19
+  [40/256] extracted=26
+  [50/256] extracted=32
+  [60/256] extracted=37
+  [70/256] extracted=42
+  [80/256] extracted=47
+  [90/256] extracted=55
+  [100/256] extracted=61
+  [110/256] extracted=68
+  [120/256] extracted=75
+  [130/256] extracted=83
+  [140/256] extracted=89
+  [150/256] extracted=94
+  [160/256] extracted=99
+  [170/256] extracted=107
+  [180/256] extracted=114
+  [190/256] extracted=123
+  [200/256] extracted=130
+  [210/256] extracted=136
+  [220/256] extracted=143
+  [230/256] extracted=150
+  [240/256] extracted=157
+  [250/256] extracted=162
+
+Extracted chief_complaint duration for 166/256 items
+Saved: pipeline/datasets/mmlu/durations.json

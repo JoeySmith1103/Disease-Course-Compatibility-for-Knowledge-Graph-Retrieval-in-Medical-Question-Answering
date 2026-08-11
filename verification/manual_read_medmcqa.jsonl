@@ -1,0 +1,143 @@
+{"uid":"mmc_00207","dur":null,"verdict":"no_duration","img":false,"note":"metabolic ALKALOSIS with hypokalemia excludes distal RTA outright; age is not a symptom duration"}
+{"uid":"mmc_00219","dur":"sudden bilateral vision loss","verdict":"not_critical","img":false,"note":"normal pupils, fundus and OKN plus internally inconsistent finger-to-nose -> functional"}
+{"uid":"mmc_00273","dur":"leakage 2 months postop; walked 15 minutes","verdict":"not_critical","img":false,"note":"wet tampon with NO dye is the discriminator -- urine is bypassing the bladder, so ureteric"}
+{"uid":"mmc_00284","dur":"seizure-free for 2 years on levetiracetam","verdict":"critical","axis":"seizure_free_interval","img":false,"note":"option D explicitly asserts a 5-year requirement and option B says stop now; the 2-year interval is precisely what decides between them"}
+{"uid":"mmc_00327","dur":"DT booster at school entry (~5 years ago)","verdict":"critical","axis":"interval_since_event","img":false,"note":"tetanus prophylaxis is interval arithmetic -- fully immunised within the window means antiserum is NOT indicated, which is what the EXCEPT is testing"}
+{"uid":"mmc_00351","dur":"presented ONE HOUR after injury, tooth still vital","verdict":"critical","axis":"time_since_injury","img":false,"note":"the stem literally asks 'at this point of time'; early and vital means splint, late and necrotic means root canal (option D)"}
+{"uid":"mmc_00357","dur":"acute onset; nephrotic syndrome 1 year back","verdict":"not_critical","img":false,"note":"hypotension with RV strain selects thrombolysis over heparin; the timeline is not the lever"}
+{"uid":"mmc_00365","dur":null,"verdict":"no_duration","img":false,"note":"which finding does NOT indicate inhalation injury"}
+{"uid":"mmc_00432","dur":"continuous fever","verdict":"not_critical","img":false,"note":"paediatric septic shock -> isotonic 20 mL/kg bolus"}
+{"uid":"mmc_00469","dur":null,"verdict":"no_duration","img":false,"note":"PKU fact recall in EXCEPT form"}
+{"uid":"mmc_00474","dur":null,"verdict":"no_duration","img":false,"note":"asks the immunological principle of Paul-Bunnell"}
+{"uid":"mmc_00478","dur":null,"verdict":"no_duration","img":false,"note":"Turner phenotype -> karyotype"}
+{"uid":"mmc_00488","dur":null,"verdict":"no_duration","img":false,"note":"serology panel already given; next step is viral load"}
+{"uid":"mmc_00540","dur":"head growth DECELERATED AFTER 6 MONTHS of age, after normal early development","verdict":"critical","axis":"regression_timing","img":false,"note":"Rett is defined by normal development followed by regression at 6-18 months; without that temporal shape the picture reads as a static disorder such as Asperger (option A)"}
+{"uid":"mmc_00577","dur":"lymphadenopathy for the past 1 year","verdict":"not_critical","img":false,"note":"CD20+/CD15-/CD30- immunophenotype settles NLPHL"}
+{"uid":"mmc_00605","dur":"thelarche at 12; OCPs tried 2 years ago","verdict":"not_critical","img":false,"note":"Tanner 5 breasts with Tanner 1 pubic hair is the dissociation that gives androgen insensitivity"}
+{"uid":"mmc_00696","dur":"acute onset dyspnea","verdict":"not_critical","img":true,"note":"stem refers to a radiograph that is not in the text; tall thin young male -> spontaneous pneumothorax"}
+{"uid":"mmc_00713","dur":"jaundice 2 months, WAXING AND WANING","verdict":"critical","axis":"fluctuation_pattern","img":false,"note":"intermittent jaundice (tumour sloughing) is what separates periampullary from pancreatic head carcinoma (option A), which gives progressive painless jaundice"}
+{"uid":"mmc_00751","dur":"symptoms for the past few days","verdict":"not_critical","img":false,"note":"asks which serology panel rules out ACUTE viral hepatitis; the answer is the marker set"}
+{"uid":"mmc_00771","dur":"fever 3 days, disorientation 1 day","verdict":"critical","axis":"symptom_duration","img":false,"note":"a 3-day course with polymorph-predominant CSF excludes tubercular meningitis (option B), which runs over 2-3 weeks with lymphocytes"}
+{"uid":"mmc_00796","dur":"bone pain for the last 7 years","verdict":"not_critical","img":false,"note":"MGUS vs smouldering vs myeloma is decided by end-organ damage (renal failure, lytic lesions), not by how long the pain ran"}
+{"uid":"mmc_00810","dur":"wound 4 days old, granulation tissue","verdict":"critical","axis":"wound_healing_phase","img":true,"note":"collagen type is a function of healing phase -- type III at days, converted to type I over months. The day count IS the answer"}
+{"uid":"mmc_00811","dur":null,"verdict":"no_duration","img":false,"note":"simple postmenopausal cyst -> tumour marker plus surveillance"}
+{"uid":"mmc_00828","dur":null,"verdict":"no_duration","img":false,"note":"drug selection by contraindication (pancreatitis, bladder cancer, oral route)"}
+{"uid":"mmc_00852","dur":"two similar episodes in the past","verdict":"not_critical","img":false,"note":"IgG 2400 with positive ANA and negative copper/viral markers gives autoimmune hepatitis"}
+{"uid":"mmc_00861","dur":"stridor and drooling SINCE 4-6 HOURS","verdict":"critical","axis":"onset_speed","img":false,"note":"hours-fast onset with drooling is epiglottitis, days-long barking is croup -- that is the whole discriminator. NB the keyed answer (racemic epinephrine) is the croup treatment and looks wrong for a drooling child"}
+{"uid":"mmc_00891","dur":null,"verdict":"no_duration","img":false,"note":"impression material choice after head and neck radiotherapy"}
+{"uid":"mmc_00901","dur":null,"verdict":"no_duration","img":false,"note":"scurvy -> collagen hydroxylation defect"}
+{"uid":"mmc_00911","dur":"vomiting for the last five days","verdict":"not_critical","img":false,"note":"febrile child with pyuria and neutrophilia -> culture AND immediate empiric antibiotics"}
+{"uid":"mmc_00912","dur":null,"verdict":"no_duration","img":false,"note":"medicolegal statute identification"}
+{"uid":"mmc_01006","dur":"pain and altered bowel habits for the last 6 months","verdict":"critical","axis":"symptom_duration","img":false,"note":"the 6-month chronic course is exactly why ISCHEMIC bowel disease is the odd one out; the other three are all chronic ileocecal diseases"}
+{"uid":"mmc_01044","dur":null,"verdict":"not_critical","img":false,"note":"root maturity (blunderbuss vs complete) is given as an anatomical fact, not a time quantity"}
+{"uid":"mmc_01155","dur":"immobilised 3 MONTHS, then calf swelling, then massage, then sudden death","verdict":"critical","axis":"temporal_ordering","img":false,"note":"the entire item is a temporal chain -- immobilisation window creates the DVT, massage dislodges it, death follows. Break the order and the answer collapses"}
+{"uid":"mmc_01186","dur":"rash CLEARED ON THE 3RD DAY without desquamation","verdict":"critical","axis":"rash_duration","img":false,"note":"rubella is literally 'three-day measles'; measles (option D) lasts 5-6 days and desquamates. The rash duration IS the diagnosis"}
+{"uid":"mmc_01191","dur":null,"verdict":"no_duration","img":false,"note":"asks the TTC colour of VIABLE myocardium; no duration in the stem"}
+{"uid":"mmc_01200","dur":"ingested the pulse for a long time","verdict":"not_critical","img":false,"note":"spastic paraparesis progressing to inability to walk is lathyrism; the exposure is chronic in every option that fits"}
+{"uid":"mmc_01212","dur":"conscious interval between two unconscious periods","verdict":"critical","axis":"lucid_interval","img":false,"note":"the answer IS the name of a time interval; the item is purely a temporal-concept question"}
+{"uid":"mmc_01219","dur":null,"verdict":"no_duration","img":false,"note":"eosinophils and histiocytes with irregular bone loss -> Langerhans cell histiocytosis"}
+{"uid":"mmc_01232","dur":null,"verdict":"no_duration","img":false,"note":"diffusely enlarged uterus with normal endometrium and no adnexal mass -> adenomyosis"}
+{"uid":"mmc_01273","dur":"first unit over 2 hours uneventful, reaction on starting the second","verdict":"not_critical","img":false,"note":"the blood-pressure direction (not the timing) separates TRALI from TACO"}
+{"uid":"mmc_01281","dur":null,"verdict":"no_duration","img":false,"note":"hypothermia + bradycardia + hypotension + hypothyroid history -> myxedema coma"}
+{"uid":"mmc_01362","dur":null,"verdict":"no_duration","img":false,"note":"PAS-positive diastase-resistant granules -> alpha-1 antitrypsin deficiency"}
+{"uid":"mmc_01368","dur":"occasional difficulty swallowing","verdict":"not_critical","img":false,"note":"decremental response on repetitive stimulation carries the diagnosis; fatigability is never quantified"}
+{"uid":"mmc_01374","dur":null,"verdict":"no_duration","img":false,"note":"right-vs-left ARM gradient excludes coarctation, which gives an upper-vs-lower limb gradient"}
+{"uid":"mmc_01428","dur":"AFTER 8 WEEKS the consolidation is denser despite clinical improvement","verdict":"critical","axis":"resolution_interval","img":false,"note":"non-resolving pneumonia is DEFINED by radiographic failure to clear at 4-8 weeks; at 1 week you simply wait and no investigation is indicated"}
+{"uid":"mmc_01529","dur":"age 16, primary amenorrhea","verdict":"not_critical","img":false,"note":"normal pubic hair (excludes androgen insensitivity) plus normal karyotype gives Mullerian agenesis"}
+{"uid":"mmc_01574","dur":null,"verdict":"no_duration","img":false,"note":"organism-directed antibiotic choice"}
+{"uid":"mmc_01587","dur":null,"verdict":"not_critical","img":false,"note":"the NORMAL transverse width is what removes expansion from the plan; graft timing is not varied"}
+{"uid":"mmc_01639","dur":null,"verdict":"no_duration","img":false,"note":"crumpled tissue paper macrophages -> Gaucher"}
+{"uid":"mmc_01673","dur":null,"verdict":"no_duration","img":false,"note":"milky plasma with xanthoma in a child -> chylomicronemia"}
+{"uid":"mmc_01685","dur":"36 weeks gestation; BP repeated after 20 minutes","verdict":"critical","axis":"gestational_window","img":false,"note":"option B is 'continue till term' -- at 36 weeks you deliver, at 28 weeks you would prolong. Gestational age decides between the two management arms"}
+{"uid":"mmc_01703","dur":"child is 15 days old","verdict":"no_duration","img":false,"note":"health-scheme entitlement question"}
+{"uid":"mmc_01746","dur":"37 weeks gestation with preeclampsia","verdict":"critical","axis":"gestational_window","img":false,"note":"at 37 weeks you deliver; at 32 weeks options A/B (expectant management) become correct. Gestational age is the whole decision"}
+{"uid":"mmc_01748","dur":"LMP 3 weeks ago; answer specifies follow-up in 2-3 months","verdict":"critical","axis":"menstrual_cycle_timing","img":false,"note":"luteal-phase timing makes a 5 cm cyst physiologic, and the ANSWER itself is an interval -- re-image after 2-3 cycles"}
+{"uid":"mmc_01831","dur":"sore throat of 4 days duration","verdict":"not_critical","img":false,"note":"asks which non-suppurative sequelae follow streptococcal pharyngitis"}
+{"uid":"mmc_01865","dur":null,"verdict":"not_critical","img":false,"note":"anti-HEV IgM reactive with a fulminant picture in pregnancy; serology settles it"}
+{"uid":"mmc_01870","dur":null,"verdict":"no_duration","img":false,"note":"broken hairs of varying length with perifollicular hemorrhage -> trichotillomania"}
+{"uid":"mmc_02082","dur":"fever for 1 MONTH before headache and ataxia","verdict":"critical","axis":"symptom_duration","img":false,"note":"a month-long prodrome with basal exudates is tubercular; option D (neutrophilia) is the answer for a 2-3 day pyogenic course. Exact mirror of mmc_00771"}
+{"uid":"mmc_02089","dur":"9 weeks now; prior preterm births at 30 and 32 weeks","verdict":"critical","axis":"gestational_window","img":false,"note":"cerclage (option B) is placed at 12-14 weeks, so at 9 weeks you measure cervical length first; the gestational clock orders the steps"}
+{"uid":"mmc_02156","dur":"CK rising with age","verdict":"not_critical","img":false,"note":"calf pseudohypertrophy with tightening -> dystrophinopathy"}
+{"uid":"mmc_02179","dur":null,"verdict":"no_duration","img":false,"note":"PVA is particulate, not liquid"}
+{"uid":"mmc_02186","dur":null,"verdict":"no_duration","img":false,"note":"bradycardia with poor contractility contraindicates an alpha-2 agonist"}
+{"uid":"mmc_02205","dur":null,"verdict":"no_duration","img":false,"note":"scrotal mass plus haematuria in a smoker -> RCC with varicocele"}
+{"uid":"mmc_02336","dur":"barking cough 2 days; stridor ONLY on crying","verdict":"not_critical","img":false,"note":"stridor-at-rest vs stridor-on-agitation is a severity state, not a time quantity, and it is what picks dexamethasone over epinephrine"}
+{"uid":"mmc_02354","dur":"injury to the DECIDUOUS predecessor 3 YEARS ago, during permanent tooth development","verdict":"critical","axis":"developmental_window","img":false,"note":"Turner hypoplasia requires the insult to land inside the successor's formation window; move the injury later and the enamel would already be formed"}
+{"uid":"mmc_02377","dur":"loose motions over the past 1 year","verdict":"not_critical","img":false,"note":"ova size (>100 micron) is the discriminator; Opisthorchis ova are ~30 micron"}
+{"uid":"mmc_02403","dur":null,"verdict":"no_duration","img":false,"note":"500 mL glycine deficit is below the intervention threshold"}
+{"uid":"mmc_02412","dur":"age 5y4m; the ANSWER is 'wait and watch for 6 years'","verdict":"critical","axis":"growth_stage_timing","img":false,"note":"functional appliances are timed to the pubertal growth spurt; at 5 years every active option is premature and the correct answer is literally an interval"}
+{"uid":"mmc_02413","dur":"9 weeks pregnant","verdict":"not_critical","img":false,"note":"no timing-alternative is offered (amniocentesis is absent), so the choice is definitive-vs-screening rather than when"}
+{"uid":"mmc_02416","dur":"deterioration at 1 month of ATT despite compliance","verdict":"not_critical","img":false,"note":"asks which test is NOT emergent; the 1-month interval frames a paradoxical reaction but does not pick the answer"}
+{"uid":"mmc_02429","dur":null,"verdict":"no_duration","img":false,"note":"K 5.5 with creatinine 2.5 contraindicates the aldosterone antagonist"}
+{"uid":"mmc_02461","dur":"3 years of papules, WORSE IN SUMMER and better in winter","verdict":"critical","axis":"seasonal_pattern","img":false,"note":"the summer/winter alternation in a photo-exposed distribution is what makes this airborne contact dermatitis (patch test) rather than atopic (prick/IgE)"}
+{"uid":"mmc_02468","dur":"obstruction and epistaxis for several months","verdict":"not_critical","img":false,"note":"JNA staging is by anatomical extent on the CT"}
+{"uid":"mmc_02470","dur":null,"verdict":"no_duration","img":false,"note":"severe asthma with respiratory acidosis; ventilatory strategy question"}
+{"uid":"mmc_02476","dur":null,"verdict":"no_duration","img":false,"near_dup_of":"mmc_00828","note":"NEAR-DUPLICATE of mmc_00828 (same contraindication set, same answer)"}
+{"uid":"mmc_02490","dur":"diarrhea of six months duration","verdict":"not_critical","img":false,"note":"oocyst SIZE (10-30 micron vs 4-6) separates Cystoisospora from Cryptosporidium"}
+{"uid":"mmc_02494","dur":"NOCTURNAL pain for the past 3 months","verdict":"not_critical","img":false,"note":"nocturnal timing does point to carpal tunnel, but the item asks which provocative test belongs to a different condition"}
+{"uid":"mmc_02519","dur":null,"verdict":"no_duration","img":false,"note":"hypernatremia with dilute urine -> diabetes insipidus"}
+{"uid":"mmc_02523","dur":"blistering for a few days","verdict":"not_critical","img":false,"note":"asks the commonest trigger of TEN"}
+{"uid":"mmc_02547","dur":"hypotension 10 minutes after the block","verdict":"not_critical","img":false,"note":"bradycardia with a T6 block -> Bezold-Jarisch; the 10 minutes is scene-setting"}
+{"uid":"mmc_02549","dur":null,"verdict":"not_critical","img":false,"note":"backache and anxiety during transfusion -> stop and verify identity"}
+{"uid":"mmc_02575","dur":"myocardial infarction 2 WEEKS ago","verdict":"critical","axis":"post_event_interval","img":false,"note":"recent ACS mandates high-intensity statin irrespective of the LDL number; in primary prevention the moderate-intensity option C would be right"}
+{"uid":"mmc_02588","dur":null,"verdict":"no_duration","img":false,"note":"significant colony count on clean-catch urine in a child"}
+{"uid":"mmc_02613","dur":"20 weeks pregnant","verdict":"not_critical","img":false,"note":"radioiodine is contraindicated across the whole of pregnancy, so the week number never bites (contrast mb_0183 where the trimester WAS the answer)"}
+{"uid":"mmc_02627","dur":"cough and cold for 3 days; age 6 weeks","verdict":"not_critical","img":false,"note":"RR 48 sits below the fast-breathing cutoff at any infant age band, so the age does not decide"}
+{"uid":"mmc_02636","dur":"the ANSWER is a surveillance schedule (3-monthly exam, annual mammogram)","verdict":"critical","axis":"surveillance_interval","img":false,"note":"every option is a different interval/modality combination; the item is entirely about follow-up periodicity"}
+{"uid":"mmc_02713","dur":null,"verdict":"no_duration","img":false,"note":"lacunar cells with CD15/CD30 -> nodular sclerosis Hodgkin"}
+{"uid":"mmc_02751","dur":"lesion PRESENT SINCE BIRTH with NO CHANGE in morphology","verdict":"critical","axis":"lesion_temporal_behaviour","img":false,"note":"present-at-birth-and-static is a capillary malformation; infantile hemangioma appears weeks later and proliferates then involutes, congenital hemangioma involutes. The temporal behaviour separates options A/B/C"}
+{"uid":"mmc_02758","dur":"two FIRST-TRIMESTER abortions; one delivery at end of ninth month","verdict":"critical","axis":"gestational_classification","img":false,"note":"the GPAL notation is built entirely out of gestational durations -- reclassify any pregnancy by length and the answer changes"}
+{"uid":"mmc_02763","dur":"hypotension 3 MINUTES after the epidural dose","verdict":"critical","axis":"latency","img":false,"note":"minutes-fast collapse means the drug reached the subarachnoid space; systemic absorption (option A) has a slower time course"}
+{"uid":"mmc_02771","dur":"pain unrelieved for the past 1 hour","verdict":"critical","axis":"therapeutic_window","img":false,"note":"options B and D both propose DELAY; torsion salvage is a clock, and the 1-hour presentation is what makes immediate exploration right"}
+{"uid":"mmc_02828","dur":"adequate intake for the LAST 1 WEEK with no weight gain","verdict":"critical","axis":"treatment_trial","img":false,"note":"one week of full intake should produce gain, so failure implicates purging; at one day the non-response would be expected and no action indicated"}
+{"uid":"mmc_02848","dur":"hearing better in noisy environments","verdict":"not_critical","img":true,"note":"paracusis Willisii is a contingency, not a time quantity; conductive pattern gives otosclerosis"}
+{"uid":"mmc_02916","dur":null,"verdict":"no_duration","img":false,"note":"flexed hip with pain on extension plus spinal changes -> psoas abscess"}
+{"uid":"mmc_02977","dur":"no past history of similar complaints","verdict":"not_critical","img":false,"note":"selective proteinuria with bland sediment and normal creatinine -> minimal change"}
+{"uid":"mmc_02983","dur":null,"verdict":"no_duration","img":false,"note":"stereotypy plus social non-response -> autism"}
+{"uid":"mmc_03101","dur":null,"verdict":"no_duration","img":false,"note":"bacitracin sensitivity for group A strep"}
+{"uid":"mmc_03152","dur":null,"verdict":"no_duration","img":false,"note":"low phosphate with normal calcium and PTH -> hypophosphatemic rickets"}
+{"uid":"mmc_03160","dur":null,"verdict":"no_duration","img":false,"note":"resuscitation sequence question"}
+{"uid":"mmc_03163","dur":null,"verdict":"not_critical","img":true,"note":"valve histopathology gives rheumatic disease"}
+{"uid":"mmc_03171","dur":"progressive jaundice","verdict":"not_critical","img":false,"note":"the ALP-dominant pattern establishes obstruction; the stone-vs-tumour split is not resolvable from the data given"}
+{"uid":"mmc_03205","dur":"precipitated IN THE MORNING and during exams (sleep deprivation)","verdict":"critical","axis":"time_of_day","img":false,"note":"morning myoclonus with sleep-deprivation triggering is the JME signature; third instance of this exact pattern after mb_0047 and mb_0278"}
+{"uid":"mmc_03217","dur":"presents 3 months after the injury","verdict":"not_critical","img":false,"note":"instability in full extension but not at 90 degrees localises the bundle; the 3 months only makes it chronic"}
+{"uid":"mmc_03328","dur":null,"verdict":"no_duration","img":false,"note":"cystic mobile mass arising from the pelvis -> ovarian"}
+{"uid":"mmc_03341","dur":null,"verdict":"no_duration","img":false,"note":"basal ganglia plus brainstem and white matter signal change in a teenager -> Wilson"}
+{"uid":"mmc_03348","dur":"abdominal pain on and off","verdict":"not_critical","img":false,"note":"pica for paint gives lead; the intermittency corroborates but the exposure history decides"}
+{"uid":"mmc_03358","dur":null,"verdict":"no_duration","img":false,"note":"oxalate crystals with anion gap acidosis reversed by fomepizole -> ethylene glycol"}
+{"uid":"mmc_03368","dur":null,"verdict":"no_duration","img":false,"note":"DCIS after breast conservation -> adjuvant radiotherapy"}
+{"uid":"mmc_03380","dur":null,"verdict":"no_duration","img":false,"note":"grey opalescent teeth with pulpal obliteration -> dentinogenesis imperfecta"}
+{"uid":"mmc_03386","dur":"acute onset confusion","verdict":"not_critical","img":false,"note":"the four-sign tetrad localises to the angular gyrus"}
+{"uid":"mmc_03397","dur":"recurrent pain; cold and fever spells","verdict":"not_critical","img":false,"note":"tooth pain without caries plus sinus symptoms -> referred sinus pain"}
+{"uid":"mmc_03417","dur":"PIH at 32 weeks, controlled; ANSWER is a gestational age","verdict":"critical","axis":"gestational_window","img":false,"note":"all four options are different week counts (34/35/37/40) -- the item is nothing but a timing decision"}
+{"uid":"mmc_03418","dur":null,"verdict":"no_duration","img":false,"note":"superficial partial-thickness scald -> non-adherent dressing"}
+{"uid":"mmc_03495","dur":"husband's rash appeared 4 DAYS ago; options differ by WHEN to give immunoglobulin","verdict":"critical","axis":"therapeutic_window","img":false,"note":"VZIG is only useful inside the post-exposure window, and options A/C defer it to birth; the 4-day interval is what makes 'now' correct"}
+{"uid":"mmc_03527","dur":"ABSOLUTELY NORMAL AT BIRTH, coarsening by 10 months","verdict":"critical","axis":"onset_timing","img":false,"note":"normal-at-birth-then-progressive is the storage disease signature; congenital hypothyroidism (option C) and Beckwith-Wiedemann are present from birth"}
+{"uid":"mmc_03542","dur":"barking cough; stridor only on crying","verdict":"not_critical","img":false,"near_dup_of":"mmc_02336","note":"NEAR-DUPLICATE of mmc_02336 (same 2-year-old croup scenario, same drug, different option letter)"}
+{"uid":"mmc_03584","dur":"4 MONTHS pregnant, already on valproate","verdict":"critical","axis":"gestational_window","img":false,"note":"the teratogenic window closed in the first trimester, so switching now only risks seizures; preconception or at 6 weeks the answer would be to switch (option A/B)"}
+{"uid":"mmc_03607","dur":"found unconscious IN THE MORNING","verdict":"not_critical","img":false,"note":"the morning timing hints at nocturnal hypoglycaemia, but checking glucose is first regardless"}
+{"uid":"mmc_03610","dur":"non-healing ulcer for 6 months","verdict":"not_critical","img":false,"note":"size and nodal status drive the operation, not the ulcer's age"}
+{"uid":"mmc_03652","dur":"normal at birth; finger biting at 2 years; renal failure at 25","verdict":"not_critical","img":false,"note":"self-mutilation is pathognomonic for Lesch-Nyhan on its own"}
+{"uid":"mmc_03661","dur":null,"verdict":"no_duration","img":false,"note":"seizures plus bilateral angiomyolipomas -> tuberous sclerosis"}
+{"uid":"mmc_03690","dur":null,"verdict":"no_duration","img":true,"note":"grooved nuclei with eosinophils -> Langerhans cell histiocytosis"}
+{"uid":"mmc_03722","dur":"fever for the past 1 week","verdict":"not_critical","img":false,"note":"positive rK39 settles visceral leishmaniasis"}
+{"uid":"mmc_03729","dur":null,"verdict":"no_duration","img":false,"note":"TNM notation for an unknown primary"}
+{"uid":"mmc_03730","dur":"unable to chew for the past 24 hours","verdict":"not_critical","img":false,"note":"tissue rebound on palpation means fluctuance -> aspirate"}
+{"uid":"mmc_03746","dur":null,"verdict":"no_duration","img":false,"note":"periosteal reaction with raised inflammatory markers -> MRI for osteomyelitis"}
+{"uid":"mmc_03754","dur":"restoration placed 5 months ago, ASYMPTOMATIC FOR THE FIRST 4 MONTHS, then progressive","verdict":"critical","axis":"latency_pattern","img":false,"note":"a silent interval followed by escalating sensitivity is irreversible pulpitis; marginal leakage (option A) would have hurt from the start"}
+{"uid":"mmc_03769","dur":null,"verdict":"no_duration","img":false,"note":"father and son affected, mother and daughter spared -> inheritance pattern question"}
+{"uid":"mmc_03820","dur":null,"verdict":"no_duration","img":false,"note":"low iron with HIGH ferritin and low-normal TIBC -> anemia of chronic disease"}
+{"uid":"mmc_03839","dur":"one month of using a teething gel","verdict":"not_critical","img":false,"note":"the acrodynia triad (desquamation, premature tooth loss, sweating) is decisive; the exposure length only names the source"}
+{"uid":"mmc_03876","dur":null,"verdict":"no_duration","img":false,"note":"motor plus vocal tics -> antipsychotic; no duration stated even though the DSM criterion needs one"}
+{"uid":"mmc_03880","dur":"loose stools for 3 days after shellfish","verdict":"not_critical","img":false,"note":"asks the commonest viral cause in adults; a pure fact question wrapped in a vignette"}
+{"uid":"mmc_04005","dur":null,"verdict":"not_critical","img":false,"note":"daytime sleepiness plus cataplexy -> narcolepsy; the sleep-phase wording lives in the answer, not the stem"}
+{"uid":"mmc_04022","dur":null,"verdict":"no_duration","img":false,"note":"never biopsy a testicular mass -> inguinal orchidectomy"}
+{"uid":"mmc_04030","dur":null,"verdict":"no_duration","img":false,"note":"deviation TOWARDS the fractured side on opening"}
+{"uid":"mmc_04061","dur":"slowly progressive weakness","verdict":"not_critical","img":false,"note":"all options are benign intradural masses; enhancement pattern gives meningioma"}
+{"uid":"mmc_04079","dur":"deterioration at 1 month of ATT","verdict":"not_critical","img":false,"dup_of":"mmc_02416","note":"DUPLICATE of mmc_02416 but with a CONTRADICTORY gold key (D here vs C there) -- a labelling error in MedMCQA itself"}
+{"uid":"mmc_04091","dur":"urinoma PERSISTING after 12 DAYS in a stable afebrile patient","verdict":"critical","axis":"persistence_duration","img":false,"note":"early on, wait-and-watch (option B) is right; persistence past ~10-14 days is exactly what converts this to drainage/diversion"}
+{"uid":"mmc_04123","dur":null,"verdict":"no_duration","img":false,"note":"kappa agonist / mu antagonist -> pentazocine"}
+{"uid":"mmc_04129","dur":"tonsillectomy at 6 WITHOUT bleeding; abnormal aPTT found at 12","verdict":"critical","axis":"temporal_ordering","img":false,"note":"an uneventful haemostatic challenge BEFORE the abnormal test is what excludes haemophilia (option D) and acquired causes; the ordering is the entire argument"}
+{"uid":"mmc_04161","dur":null,"verdict":"no_duration","img":false,"note":"agent requiring no renal dose adjustment in stage 5 CKD"}
+{"uid":"mmc_04169","dur":"presents 2 DAYS AFTER the trauma","verdict":"critical","axis":"latency","img":false,"note":"post-traumatic delay of days is the carotico-cavernous fistula signature; immediate proptosis would be a fracture/haemorrhage and a febrile course would be sinus thrombosis"}
+{"uid":"mmc_04181","dur":"steroid-DEPENDENT for the last 5 YEARS with cushingoid toxicity","verdict":"critical","axis":"treatment_duration","img":false,"note":"at first presentation steroids (option D) are correct; five years of dependence with cataracts is what forces a steroid-sparing agent"}

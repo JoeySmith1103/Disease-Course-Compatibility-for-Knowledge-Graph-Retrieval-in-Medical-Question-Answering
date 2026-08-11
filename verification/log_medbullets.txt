@@ -1,0 +1,20 @@
+[verify] medbullets · gpt-5.4-mini · N=5 · 305 to go (0 cached)
+  [20/305] {'control_fail': 7, 'perturb_fail': 2, 'not_duration_critical': 11}
+  [40/305] {'control_fail': 14, 'perturb_fail': 2, 'not_duration_critical': 22, 'ambiguous': 2}
+  [60/305] {'control_fail': 18, 'perturb_fail': 5, 'not_duration_critical': 35, 'ambiguous': 2}
+  [80/305] {'control_fail': 22, 'perturb_fail': 12, 'not_duration_critical': 44, 'ambiguous': 2}
+  [100/305] {'control_fail': 25, 'perturb_fail': 16, 'not_duration_critical': 55, 'ambiguous': 3, 'duration_critical': 1}
+  [120/305] {'control_fail': 33, 'perturb_fail': 17, 'not_duration_critical': 65, 'ambiguous': 4, 'duration_critical': 1}
+  [140/305] {'control_fail': 38, 'perturb_fail': 18, 'not_duration_critical': 77, 'ambiguous': 6, 'duration_critical': 1}
+  [160/305] {'control_fail': 43, 'perturb_fail': 19, 'not_duration_critical': 90, 'ambiguous': 6, 'duration_critical': 2}
+  [180/305] {'control_fail': 48, 'perturb_fail': 24, 'not_duration_critical': 99, 'ambiguous': 7, 'duration_critical': 2}
+  [200/305] {'control_fail': 52, 'perturb_fail': 26, 'not_duration_critical': 113, 'ambiguous': 7, 'duration_critical': 2}
+  [220/305] {'control_fail': 58, 'perturb_fail': 28, 'not_duration_critical': 123, 'ambiguous': 8, 'duration_critical': 3}
+  [240/305] {'control_fail': 64, 'perturb_fail': 31, 'not_duration_critical': 133, 'ambiguous': 9, 'duration_critical': 3}
+  [260/305] {'control_fail': 72, 'perturb_fail': 31, 'not_duration_critical': 145, 'ambiguous': 9, 'duration_critical': 3}
+  [280/305] {'control_fail': 77, 'perturb_fail': 33, 'not_duration_critical': 157, 'ambiguous': 9, 'duration_critical': 4}
+  [300/305] {'control_fail': 79, 'perturb_fail': 41, 'not_duration_critical': 164, 'ambiguous': 9, 'duration_critical': 7}
+
+[verify] medbullets: {'control_fail': 79, 'perturb_fail': 41, 'not_duration_critical': 169, 'ambiguous': 9, 'duration_critical': 7}
+  真正 duration-critical: 7/176 = 4.0% （在控制組通過的題目中）
+  -> /Users/zengyuhua/Desktop/Master_thesis/new_duration_spectrum/pipeline/verification/medbullets_duration_critical_gpt-5.4-mini.json

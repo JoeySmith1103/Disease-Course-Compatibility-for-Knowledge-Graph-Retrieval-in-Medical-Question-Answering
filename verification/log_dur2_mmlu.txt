@@ -1,0 +1,30 @@
+  [10/272] extracted=6
+  [20/272] extracted=13
+  [30/272] extracted=17
+  [40/272] extracted=24
+  [50/272] extracted=28
+  [60/272] extracted=32
+  [70/272] extracted=36
+  [80/272] extracted=40
+  [90/272] extracted=46
+  [100/272] extracted=53
+  [110/272] extracted=60
+  [120/272] extracted=66
+  [130/272] extracted=73
+  [140/272] extracted=81
+  [150/272] extracted=85
+  [160/272] extracted=89
+  [170/272] extracted=94
+  [180/272] extracted=101
+  [190/272] extracted=108
+  [200/272] extracted=117
+  [210/272] extracted=125
+  [220/272] extracted=129
+  [230/272] extracted=137
+  [240/272] extracted=143
+  [250/272] extracted=150
+  [260/272] extracted=155
+  [270/272] extracted=161
+
+Extracted chief_complaint duration for 163/272 items
+Saved: datasets/mmlu/durations.json

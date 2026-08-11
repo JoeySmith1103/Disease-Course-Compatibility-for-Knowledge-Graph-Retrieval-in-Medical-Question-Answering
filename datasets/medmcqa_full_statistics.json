@@ -1,0 +1,123 @@
+{
+ "train": {
+  "split": "train",
+  "n_questions": 182822,
+  "n_labelled": 182822,
+  "pct_labelled": 100.0,
+  "avg_question_chars": 78.7,
+  "median_question_chars": 55,
+  "p90_question_chars": 148,
+  "max_question_chars": 1568,
+  "avg_question_words": 12.7,
+  "median_question_words": 9,
+  "n_options": 4,
+  "avg_option_words": 2.6,
+  "vocabulary_size": 65887,
+  "len_buckets": {
+   "<100": 150618,
+   "100-199": 20554,
+   "200-399": 9215,
+   ">=400": 2435
+  },
+  "n_vignette": 20763,
+  "n_temporal": 15343,
+  "n_len200": 11650,
+  "n_vignette_len200": 9583,
+  "n_vignette_len200_temporal": 7948,
+  "answer_distribution": {
+   "0": 29.3,
+   "1": 26.2,
+   "2": 23.2,
+   "3": 21.3
+  },
+  "subjects": {
+   "Medicine": 17887,
+   "Surgery": 16862,
+   "Pathology": 14884,
+   "Anatomy": 14560,
+   "Pharmacology": 13758,
+   "Social & Preventive Medicine": 11882,
+   "Microbiology": 11314,
+   "Gynaecology & Obstetrics": 10013
+  }
+ },
+ "validation": {
+  "split": "validation",
+  "n_questions": 4183,
+  "n_labelled": 4183,
+  "pct_labelled": 100.0,
+  "avg_question_chars": 86.3,
+  "median_question_chars": 65,
+  "p90_question_chars": 175,
+  "max_question_chars": 582,
+  "avg_question_words": 14.1,
+  "median_question_words": 11,
+  "n_options": 4,
+  "avg_option_words": 3.0,
+  "vocabulary_size": 8933,
+  "len_buckets": {
+   "<100": 3133,
+   "100-199": 755,
+   "200-399": 270,
+   ">=400": 25
+  },
+  "n_vignette": 616,
+  "n_temporal": 426,
+  "n_len200": 295,
+  "n_vignette_len200": 197,
+  "n_vignette_len200_temporal": 143,
+  "answer_distribution": {
+   "0": 32.2,
+   "1": 25.9,
+   "2": 22.1,
+   "3": 19.7
+  },
+  "subjects": {
+   "Dental": 1318,
+   "Surgery": 369,
+   "Pathology": 337,
+   "Medicine": 295,
+   "Pharmacology": 243,
+   "Anatomy": 234,
+   "Pediatrics": 234,
+   "Gynaecology & Obstetrics": 224
+  }
+ },
+ "test": {
+  "split": "test",
+  "n_questions": 6150,
+  "n_labelled": 0,
+  "pct_labelled": 0.0,
+  "avg_question_chars": 59.9,
+  "median_question_chars": 50,
+  "p90_question_chars": 96,
+  "max_question_chars": 794,
+  "avg_question_words": 9.7,
+  "median_question_words": 8,
+  "n_options": 4,
+  "avg_option_words": 2.5,
+  "vocabulary_size": 9625,
+  "len_buckets": {
+   "<100": 5581,
+   "100-199": 444,
+   "200-399": 117,
+   ">=400": 8
+  },
+  "n_vignette": 307,
+  "n_temporal": 243,
+  "n_len200": 125,
+  "n_vignette_len200": 82,
+  "n_vignette_len200_temporal": 59,
+  "answer_distribution": {},
+  "subjects": {
+   "Dental": 1203,
+   "Unknown": 682,
+   "Gynaecology & Obstetrics": 532,
+   "Surgery": 501,
+   "Physiology": 388,
+   "Medicine": 372,
+   "Biochemistry": 352,
+   "Pharmacology": 317
+  }
+ }
+}

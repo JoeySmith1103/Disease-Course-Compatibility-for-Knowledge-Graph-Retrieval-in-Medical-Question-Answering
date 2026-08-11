@@ -1,0 +1,1972 @@
+{
+ "dataset": "medmcqa",
+ "model": "gpt-5.4-mini",
+ "n": 269,
+ "verdicts": {
+  "open_stable": 191,
+  "open_shift": 78
+ },
+ "results": [
+  {
+   "uid": "mmc_0007",
+   "duration_change": "for the past year -> for the past 2 days",
+   "open_dx_original": "Branchial cleft cyst",
+   "open_dx_perturbed": "Branchial cleft cyst",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0017",
+   "duration_change": "3 days -> 3 years",
+   "open_dx_original": "Neisseria gonorrhoeae disseminated gonococcal infection",
+   "open_dx_perturbed": "Disseminated gonococcal infection",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0023",
+   "duration_change": "1 month duration -> 2 years duration",
+   "open_dx_original": "Bipolar I disorder, current depressive episode",
+   "open_dx_perturbed": "Bipolar depression",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0002",
+   "duration_change": "during routine vaginal delivery of a term infant -> for 6 months before routine vaginal delivery of a term infant",
+   "open_dx_original": "Amniotic fluid embolism",
+   "open_dx_perturbed": "Amniotic fluid embolism",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0006",
+   "duration_change": "last 4 months -> last 4 hours",
+   "open_dx_original": "Polyarteritis nodosa",
+   "open_dx_perturbed": "Polyarteritis nodosa",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0016",
+   "duration_change": "for the past year -> for the past 2 days",
+   "open_dx_original": "Human immunodeficiency virus type 1",
+   "open_dx_perturbed": "Human immunodeficiency virus type 1 infection",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0010",
+   "duration_change": "since 2 weeks -> for 2 years",
+   "open_dx_original": "Bipolar I disorder, manic episode in pregnancy",
+   "open_dx_perturbed": "Bipolar I disorder, manic episode",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0003",
+   "duration_change": "for 6 months -> for 6 hours",
+   "open_dx_original": "Chronic myeloid leukemia with Philadelphia chromosome",
+   "open_dx_perturbed": "Chronic myeloid leukemia with Philadelphia chromosome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0026",
+   "duration_change": "2-month history -> 2-day history",
+   "open_dx_original": "Polyarteritis nodosa",
+   "open_dx_perturbed": "Polyarteritis nodosa",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0035",
+   "duration_change": "3 days -> 3 months",
+   "open_dx_original": "Hypertrophic pyloric stenosis",
+   "open_dx_perturbed": "Hypertrophic pyloric stenosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0038",
+   "duration_change": "1 week before presentation -> 6 months before presentation",
+   "open_dx_original": "IgA vasculitis (Henoch-Sch\u00f6nlein purpura)",
+   "open_dx_perturbed": "IgA vasculitis (Henoch-Sch\u00f6nlein purpura)",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0033",
+   "duration_change": "3-day history -> 3-month history",
+   "open_dx_original": "Parapneumonic pleural effusion",
+   "open_dx_perturbed": "Tuberculous pleural effusion",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0044",
+   "duration_change": "6-month history -> 6-hour history",
+   "open_dx_original": "HIV-associated dementia",
+   "open_dx_perturbed": "AIDS dementia complex",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0061",
+   "duration_change": "for 4 days -> for 6 months",
+   "open_dx_original": "Acute lymphoblastic leukemia",
+   "open_dx_perturbed": "Acute myeloid leukemia",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0062",
+   "duration_change": "for the past 2 days -> for the past 6 months",
+   "open_dx_original": "Anti-glomerular basement membrane disease",
+   "open_dx_perturbed": "Goodpasture syndrome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0072",
+   "duration_change": "acute -> chronic",
+   "open_dx_original": "Stenotrophomonas maltophilia ventilator-associated pneumonia",
+   "open_dx_perturbed": "Stenotrophomonas maltophilia pneumonia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0080",
+   "duration_change": "for 4 days -> for 4 months",
+   "open_dx_original": "Acute mastoiditis",
+   "open_dx_perturbed": "Acute mastoiditis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0073",
+   "duration_change": "several hours prior to his visit -> for several months prior to his visit",
+   "open_dx_original": "Diverticular hemorrhage",
+   "open_dx_perturbed": "Diverticular hemorrhage",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0075",
+   "duration_change": "3-week history -> 8-month history",
+   "open_dx_original": "Acute hepatitis C infection",
+   "open_dx_perturbed": "Chronic hepatitis C infection",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0082",
+   "duration_change": "within the past several months -> over the past 2 days",
+   "open_dx_original": "Osteogenesis imperfecta",
+   "open_dx_perturbed": "Osteogenesis imperfecta",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0092",
+   "duration_change": "since 9 months -> for 9 hours",
+   "open_dx_original": "Schizophrenia",
+   "open_dx_perturbed": "Acute mania with psychotic features",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0029",
+   "duration_change": "2-week history -> 6-month history",
+   "open_dx_original": "Foamy macrophages laden with acid-fast bacilli",
+   "open_dx_perturbed": "Foamy macrophages laden with intracellular mycobacteria",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0097",
+   "duration_change": "since 3 year of age -> for 3 days",
+   "open_dx_original": "Cystic fibrosis",
+   "open_dx_perturbed": "Celiac disease",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0095",
+   "duration_change": "for the past 4 months -> for the past 3 days",
+   "open_dx_original": "Chlamydia trachomatis serovars A, B, C",
+   "open_dx_perturbed": "Chlamydia trachomatis (serovars A, B, Ba, C)",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0093",
+   "duration_change": "2-hour history -> 2-year history",
+   "open_dx_original": "ST-segment elevation myocardial infarction",
+   "open_dx_perturbed": "Aortic dissection with coronary artery involvement",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0104",
+   "duration_change": "3 days -> 3 months",
+   "open_dx_original": "Botulism",
+   "open_dx_perturbed": "Botulism",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0100",
+   "duration_change": "since 1 moth -> since 1 year",
+   "open_dx_original": "Squamous cell carcinoma of lower lip",
+   "open_dx_perturbed": "Squamous cell carcinoma of lower lip",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0105",
+   "duration_change": "for a week -> for 2 years",
+   "open_dx_original": "Acute neutrophilic colitis with crypt abscesses",
+   "open_dx_perturbed": "Crohn disease",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0118",
+   "duration_change": "2 days prior to hospital admission -> 2 months prior to hospital admission",
+   "open_dx_original": "Right parietal lobe",
+   "open_dx_perturbed": "Parietal lobe abscess",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0126",
+   "duration_change": "10 days -> 10 months",
+   "open_dx_original": "Febrile neutropenia",
+   "open_dx_perturbed": "Febrile neutropenia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0128",
+   "duration_change": "A few days later -> For 3 months afterward",
+   "open_dx_original": "Staphylococcal scalded skin syndrome",
+   "open_dx_perturbed": "Staphylococcal scalded skin syndrome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0133",
+   "duration_change": "over the past 6 months -> for 6 hours",
+   "open_dx_original": "Congenital adrenal hyperplasia due to 21-hydroxylase deficiency",
+   "open_dx_perturbed": "Congenital adrenal hyperplasia due to 21-hydroxylase deficiency",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0136",
+   "duration_change": "for 2 years -> for 2 days",
+   "open_dx_original": "Benign familial hematuria",
+   "open_dx_perturbed": "Benign familial hematuria",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0145",
+   "duration_change": "the last 2 months -> the last 18 hours",
+   "open_dx_original": "Rectal adenocarcinoma, Dukes B, stage IIA",
+   "open_dx_perturbed": "Rectal adenocarcinoma, Dukes B, stage IIA",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0149",
+   "duration_change": "since the last 6 months -> since the last 6 hours",
+   "open_dx_original": "Psychogenic nonepileptic seizures",
+   "open_dx_perturbed": "Psychogenic nonepileptic seizures",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0162",
+   "duration_change": "over the past month -> for 2 days",
+   "open_dx_original": "Parakeratosis",
+   "open_dx_perturbed": "Parakeratosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0152",
+   "duration_change": "for the last 10 days -> for the last 10 months",
+   "open_dx_original": "Fungal keratitis due to Aspergillus species",
+   "open_dx_perturbed": "Fungal corneal ulcer (mycotic keratitis)",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0165",
+   "duration_change": "For last two days -> For last 2 months",
+   "open_dx_original": "Akathisia",
+   "open_dx_perturbed": "Akathisia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0167",
+   "duration_change": "for the last 8 years -> for the last 8 hours",
+   "open_dx_original": "Hypochondriacal disorder",
+   "open_dx_perturbed": "Somatic symptom disorder",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0168",
+   "duration_change": "2 years ago -> 2 days ago",
+   "open_dx_original": "Alcohol use disorder",
+   "open_dx_perturbed": "Alcohol use disorder",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0173",
+   "duration_change": "over the past 1 year -> over the past 12 hours",
+   "open_dx_original": "Wernicke-Korsakoff syndrome",
+   "open_dx_perturbed": "Wernicke encephalopathy",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0169",
+   "duration_change": "12 hour history -> 6 month history",
+   "open_dx_original": "Acute haemorrhagic pancreatitis",
+   "open_dx_perturbed": "Acute haemorrhagic pancreatitis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0144",
+   "duration_change": "3-day history -> 6-month history",
+   "open_dx_original": "Herpes zoster ophthalmicus",
+   "open_dx_perturbed": "Herpes zoster ophthalmicus",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0188",
+   "duration_change": "over the past 10 days -> for the past 10 months",
+   "open_dx_original": "Minimal change disease",
+   "open_dx_perturbed": "Minimal change disease",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0198",
+   "duration_change": "3-month history -> 3-day history",
+   "open_dx_original": "Chondrosarcoma",
+   "open_dx_perturbed": "Chondrosarcoma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0199",
+   "duration_change": "6 months ago -> 6 days ago",
+   "open_dx_original": "Anticholinergic side effects",
+   "open_dx_perturbed": "Anticholinergic side effects",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0205",
+   "duration_change": "3 weeks -> 3 years",
+   "open_dx_original": "Immune complex-mediated type III hypersensitivity glomerulonephritis",
+   "open_dx_perturbed": "Systemic lupus erythematosus glomerulonephritis",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0206",
+   "duration_change": "90 minutes -> 2 months",
+   "open_dx_original": "Failed thrombolysis requiring rescue PCI",
+   "open_dx_perturbed": "Left ventricular aneurysm",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0208",
+   "duration_change": "3-month history -> 3-day history",
+   "open_dx_original": "Congenital syphilis",
+   "open_dx_perturbed": "Congenital syphilis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0186",
+   "duration_change": "for 3 years -> for 3 days",
+   "open_dx_original": "Papular urticaria",
+   "open_dx_perturbed": "Papular urticaria",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0223",
+   "duration_change": "One week ago -> For several years",
+   "open_dx_original": "Allergic contact dermatitis to Neosporin",
+   "open_dx_perturbed": "Allergic contact dermatitis to Neosporin and lanolin",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0211",
+   "duration_change": "for 5 days -> for 5 years",
+   "open_dx_original": "von Willebrand disease",
+   "open_dx_perturbed": "von Willebrand disease",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0185",
+   "duration_change": "for 7 months -> for 7 days",
+   "open_dx_original": "Gestational choriocarcinoma",
+   "open_dx_perturbed": "Gestational choriocarcinoma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0228",
+   "duration_change": "over the past year -> for 2 days",
+   "open_dx_original": "Atherosclerotic coronary artery disease",
+   "open_dx_perturbed": "Atherosclerotic coronary artery stenosis",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0231",
+   "duration_change": "over many years -> for 3 days",
+   "open_dx_original": "Silicosis",
+   "open_dx_perturbed": "Silicosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0230",
+   "duration_change": "Six hours later -> Six months later",
+   "open_dx_original": "Cardiogenic shock due to acute myocardial ischemia",
+   "open_dx_perturbed": "Cardiogenic shock due to acute myocardial ischemia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0235",
+   "duration_change": "since mid-April, about 1 month ago -> for 2 days",
+   "open_dx_original": "Seasonal allergic rhinitis",
+   "open_dx_perturbed": "Seasonal allergic rhinitis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0237",
+   "duration_change": "for the last 3 hours -> for the last 3 years",
+   "open_dx_original": "Vitamin D deficiency",
+   "open_dx_perturbed": "Vitamin D deficiency",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0234",
+   "duration_change": "1 week -> 3 months",
+   "open_dx_original": "Staphylococcus aureus pneumonia",
+   "open_dx_perturbed": "Staphylococcus aureus pneumonia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0242",
+   "duration_change": "Two weeks later -> Two months later",
+   "open_dx_original": "Cyclosporine nephrotoxicity",
+   "open_dx_perturbed": "Cyclosporine nephrotoxicity",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0245",
+   "duration_change": "3-month history -> 3-day history",
+   "open_dx_original": "Craniopharyngioma",
+   "open_dx_perturbed": "Craniopharyngioma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0270",
+   "duration_change": "for the past 2 months -> for the past 3 days",
+   "open_dx_original": "Papillary thyroid carcinoma",
+   "open_dx_perturbed": "Papillary thyroid carcinoma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0267",
+   "duration_change": "4-month history -> 4-day history",
+   "open_dx_original": "Diffuse cutaneous systemic sclerosis",
+   "open_dx_perturbed": "Diffuse cutaneous systemic sclerosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0250",
+   "duration_change": "for the past 2 weeks -> for the past 2 years",
+   "open_dx_original": "Myocardial infarction with free wall rupture",
+   "open_dx_perturbed": "Myocardial infarction with free wall rupture",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0271",
+   "duration_change": "since 1 month -> for 1 day",
+   "open_dx_original": "Alzheimer disease",
+   "open_dx_perturbed": "Alzheimer disease",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0275",
+   "duration_change": "3 days -> 3 years",
+   "open_dx_original": "Toxic shock syndrome",
+   "open_dx_perturbed": "Toxic shock syndrome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0288",
+   "duration_change": "for the past 2 years -> for the past 2 days",
+   "open_dx_original": "Cocaine use",
+   "open_dx_perturbed": "Cocaine use",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0281",
+   "duration_change": "2 weeks later -> 2 years later",
+   "open_dx_original": "ACE inhibitor-induced dry cough",
+   "open_dx_perturbed": "Angiotensin-converting enzyme inhibitor-induced cough",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0309",
+   "duration_change": "for 10 days -> for 10 months",
+   "open_dx_original": "Anti-HBc IgM positive",
+   "open_dx_perturbed": "Acute hepatitis B infection",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0303",
+   "duration_change": "3-month history -> 3-day history",
+   "open_dx_original": "Creutzfeldt-Jakob disease",
+   "open_dx_perturbed": "Creutzfeldt-Jakob disease",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0322",
+   "duration_change": "Over the past 2 months -> Over the past 2 years",
+   "open_dx_original": "Cancer cachexia",
+   "open_dx_perturbed": "Cancer cachexia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0317",
+   "duration_change": "for several months -> for 2 days",
+   "open_dx_original": "Para-aortic (lumbar) lymph nodes",
+   "open_dx_perturbed": "Para-aortic (lumbar) lymph nodes",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0331",
+   "duration_change": "for two months -> for two days",
+   "open_dx_original": "Major depressive disorder with somatic symptoms",
+   "open_dx_perturbed": "Major depressive disorder with somatic symptoms",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0340",
+   "duration_change": "Over the past 10 years -> Over the past 10 days",
+   "open_dx_original": "Otosclerosis",
+   "open_dx_perturbed": "Otosclerosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0332",
+   "duration_change": "about a three month period -> over about a three day period",
+   "open_dx_original": "Keratoacanthoma",
+   "open_dx_perturbed": "Keratoacanthoma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0343",
+   "duration_change": "for 6 months -> for 6 hours",
+   "open_dx_original": "Multiple myeloma with spinal cord compression",
+   "open_dx_perturbed": "Multiple myeloma with spinal cord compression",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0347",
+   "duration_change": "for a week -> for 6 months",
+   "open_dx_original": "Atypical pneumonia due to Mycoplasma pneumoniae",
+   "open_dx_perturbed": "Chlamydophila pneumoniae infection",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0342",
+   "duration_change": "the 9 months -> 2 days",
+   "open_dx_original": "Melanosis coli due to anthraquinone laxatives",
+   "open_dx_perturbed": "Melanosis coli due to anthraquinone laxatives",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0274",
+   "duration_change": "Over the following 6 weeks -> Over the following 6 months",
+   "open_dx_original": "Pulmonary tuberculosis",
+   "open_dx_perturbed": "Pulmonary tuberculosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0356",
+   "duration_change": "for 2-3 days -> for 2-3 months",
+   "open_dx_original": "Spontaneous bacterial peritonitis",
+   "open_dx_perturbed": "Spontaneous bacterial peritonitis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0351",
+   "duration_change": "over past one year -> for 2 days",
+   "open_dx_original": "Hypothalamic obesity due to craniopharyngioma",
+   "open_dx_perturbed": "Slipped capital femoral epiphysis",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0355",
+   "duration_change": "in the past 2 months -> for 2 days",
+   "open_dx_original": "Type 2 diabetes mellitus",
+   "open_dx_perturbed": "Type 2 diabetes mellitus",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0367",
+   "duration_change": "6 weeks -> 6 months",
+   "open_dx_original": "Ectopic pregnancy",
+   "open_dx_perturbed": "Ruptured ectopic pregnancy",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0374",
+   "duration_change": "20 minutes -> 3 months",
+   "open_dx_original": "Migraine with visual aura",
+   "open_dx_perturbed": "Migraine with visual aura",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0387",
+   "duration_change": "after 1 week -> after 6 months",
+   "open_dx_original": "Yellow phosphorus poisoning",
+   "open_dx_perturbed": "Yellow phosphorus poisoning",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0363",
+   "duration_change": "6-day history -> 6-month history",
+   "open_dx_original": "Leukemoid reaction",
+   "open_dx_perturbed": "Leukemoid reaction due to severe infection",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0410",
+   "duration_change": "since 6 hrs -> for 6 months",
+   "open_dx_original": "Ruptured ectopic pregnancy with hypovolemic shock",
+   "open_dx_perturbed": "Ruptured ectopic pregnancy",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0423",
+   "duration_change": "sudden onset -> 2-year history",
+   "open_dx_original": "Functional neurological disorder",
+   "open_dx_perturbed": "Functional neurological disorder",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0422",
+   "duration_change": "for 2 months -> for 2 days",
+   "open_dx_original": "Avascular necrosis of the femoral head",
+   "open_dx_perturbed": "Avascular necrosis of the femoral head",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0416",
+   "duration_change": "since 2 months -> for 2 days",
+   "open_dx_original": "First-episode schizophrenia, continue antipsychotic for 1-2 years",
+   "open_dx_perturbed": "First-episode schizophrenia, continue antipsychotic maintenance 1-2 years",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0424",
+   "duration_change": "since two days -> for two years",
+   "open_dx_original": "Alcohol withdrawal seizure",
+   "open_dx_perturbed": "Alcohol withdrawal seizure",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0425",
+   "duration_change": "Three months ago -> Three years ago",
+   "open_dx_original": "Nocardia asteroides",
+   "open_dx_perturbed": "Nocardia asteroides",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0433",
+   "duration_change": "After 3 weeks -> After 3 months",
+   "open_dx_original": "Chlamydial cervicitis due to nonadherence",
+   "open_dx_perturbed": "Chlamydial cervicitis due to nonadherence",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0427",
+   "duration_change": "for 6 months -> for 6 hours",
+   "open_dx_original": "Multiple myeloma",
+   "open_dx_perturbed": "Multiple myeloma with spinal cord compression",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0434",
+   "duration_change": "Six days -> Six months",
+   "open_dx_original": "Murine typhus",
+   "open_dx_perturbed": "Murine typhus",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0455",
+   "duration_change": "for last 20 hours -> for the last 6 months",
+   "open_dx_original": "Hemolytic uremic syndrome",
+   "open_dx_perturbed": "Hemolytic uremic syndrome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0449",
+   "duration_change": "following a head injury -> for 2 years after a head injury",
+   "open_dx_original": "Central diabetes insipidus",
+   "open_dx_perturbed": "Central diabetes insipidus",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0442",
+   "duration_change": "last two months -> for 2 days",
+   "open_dx_original": "Periampullary carcinoma",
+   "open_dx_perturbed": "Periampullary carcinoma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0457",
+   "duration_change": "over the past 5 days -> for the past 6 months",
+   "open_dx_original": "Hepatorenal syndrome",
+   "open_dx_perturbed": "Hepatorenal syndrome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0465",
+   "duration_change": "for the past year -> for 2 days",
+   "open_dx_original": "Asbestos exposure",
+   "open_dx_perturbed": "Asbestos exposure",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0467",
+   "duration_change": "The symptoms started when he was running initially. Now the symptoms are present while walking or even at rest. -> The symptoms started 2 years ago when he was running initially. Now the symptoms are present while walking or even at rest.",
+   "open_dx_original": "Atopic bronchial asthma",
+   "open_dx_perturbed": "Atopic bronchial asthma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0469",
+   "duration_change": "for 2 days -> for 2 months",
+   "open_dx_original": "Acute bronchiolitis due to RSV",
+   "open_dx_perturbed": "Bronchiolitis due to respiratory syncytial virus",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0470",
+   "duration_change": "Over the past several weeks -> Over the past 2 days",
+   "open_dx_original": "Lead poisoning",
+   "open_dx_perturbed": "Lead poisoning with chelation therapy",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0475",
+   "duration_change": "since one month -> since one day",
+   "open_dx_original": "Biliary atresia",
+   "open_dx_perturbed": "Biliary atresia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0480",
+   "duration_change": "for 9 months -> for 9 days",
+   "open_dx_original": "Osteoporosis with vertebral compression fractures",
+   "open_dx_perturbed": "Osteoporosis with vertebral compression fractures",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0484",
+   "duration_change": "over the past month -> over the past 2 years",
+   "open_dx_original": "Cystic fibrosis-related diabetes",
+   "open_dx_perturbed": "Cystic fibrosis-related diabetes",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0487",
+   "duration_change": "Today -> Over the past 2 months",
+   "open_dx_original": "Acute disseminated encephalomyelitis",
+   "open_dx_perturbed": "Acute disseminated encephalomyelitis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0481",
+   "duration_change": "for the past 3 days -> for the past 3 years",
+   "open_dx_original": "Hypovolemic hyponatremia from third-spacing and vomiting",
+   "open_dx_perturbed": "Hypovolemic hyponatremia from fecaloid vomiting",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0489",
+   "duration_change": "for the last three months -> for the last three days",
+   "open_dx_original": "Tinea versicolor",
+   "open_dx_perturbed": "Pityriasis versicolor",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0492",
+   "duration_change": "Four hours later -> Four months later",
+   "open_dx_original": "Dilutional coagulopathy due to massive transfusion",
+   "open_dx_perturbed": "Dilutional coagulopathy due to massive transfusion",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0493",
+   "duration_change": "next day -> for 2 years",
+   "open_dx_original": "Meniscal tear",
+   "open_dx_perturbed": "Meniscal tear",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0505",
+   "duration_change": "for 5 years -> for 5 days",
+   "open_dx_original": "Ulcerative colitis requiring steroid-sparing immunosuppression",
+   "open_dx_perturbed": "Ulcerative colitis requiring steroid-sparing immunosuppression",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0500",
+   "duration_change": "5 days back -> 5 months back",
+   "open_dx_original": "Left frontal brain abscess",
+   "open_dx_perturbed": "Left frontal tuberculoma",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0474",
+   "duration_change": "3-month history -> 3-day history",
+   "open_dx_original": "Chondrosarcoma",
+   "open_dx_perturbed": "Permeation of host bone by tumor cells",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0506",
+   "duration_change": "since 1 week -> for 6 months",
+   "open_dx_original": "ESBL-producing Klebsiella infection",
+   "open_dx_perturbed": "ESBL-producing Klebsiella infection",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0512",
+   "duration_change": "for the past 10 years -> for the past 10 hours",
+   "open_dx_original": "CD40 ligand deficiency on T helper cells",
+   "open_dx_perturbed": "CD40 ligand deficiency causing Hyper-IgM syndrome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0526",
+   "duration_change": "Two days later -> Over the past 2 months",
+   "open_dx_original": "Roseola infantum",
+   "open_dx_perturbed": "Roseola infantum",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0532",
+   "duration_change": "for 3 months duration -> for 3 days duration",
+   "open_dx_original": "Foreign body aspiration",
+   "open_dx_perturbed": "Foreign body aspiration",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0544",
+   "duration_change": "for 3 weeks -> for 18 months",
+   "open_dx_original": "Pneumocystis jirovecii pneumonia",
+   "open_dx_perturbed": "Pneumocystis jirovecii pneumonia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0550",
+   "duration_change": "for the past 7 months -> for the past 7 days",
+   "open_dx_original": "Carotid body paraganglioma",
+   "open_dx_perturbed": "Carotid body paraganglioma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0555",
+   "duration_change": "2 weeks ago -> 18 months ago",
+   "open_dx_original": "HIV p24 antigen assay positive",
+   "open_dx_perturbed": "HIV p24 antigen assay",
+   "verdict": "open_shift",
+   "management": "INVALID"
+  },
+  {
+   "uid": "mmc_0558",
+   "duration_change": "3 days -> 3 months",
+   "open_dx_original": "Staphylococcal toxic shock syndrome",
+   "open_dx_perturbed": "Toxic shock syndrome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0572",
+   "duration_change": "for 3 years -> for 3 days",
+   "open_dx_original": "Aspirin-exacerbated respiratory disease",
+   "open_dx_perturbed": "Aspirin-exacerbated respiratory disease",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0578",
+   "duration_change": "three month history -> three day history",
+   "open_dx_original": "Major depressive disorder",
+   "open_dx_perturbed": "Major depressive disorder",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0560",
+   "duration_change": "On week later -> after 6 months",
+   "open_dx_original": "Breast milk lactose overload from hyperlactation",
+   "open_dx_perturbed": "Secondary lactose intolerance due to enterocyte damage",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0534",
+   "duration_change": "for the 9 months -> for 9 days",
+   "open_dx_original": "Melanosis coli due to anthraquinone laxatives",
+   "open_dx_perturbed": "Melanosis coli due to anthraquinone laxatives",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0592",
+   "duration_change": "for the past 15 years -> for the past 3 days",
+   "open_dx_original": "Anemia of chronic disease",
+   "open_dx_perturbed": "Anemia of chronic disease",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0582",
+   "duration_change": "of 3 years' duration -> of 3 days' duration",
+   "open_dx_original": "Superficial basal cell carcinoma",
+   "open_dx_perturbed": "Superficial basal cell carcinoma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0593",
+   "duration_change": "acute onset -> 2-year history",
+   "open_dx_original": "Gouty arthritis",
+   "open_dx_perturbed": "Gouty tophus",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0598",
+   "duration_change": "1 week before admission -> 6 months before admission",
+   "open_dx_original": "Acute cholangitis due to choledocholithiasis",
+   "open_dx_perturbed": "Acute ascending cholangitis",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0595",
+   "duration_change": "About 5 hours previously -> For the past 5 months",
+   "open_dx_original": "Clostridium botulinum infection",
+   "open_dx_perturbed": "Clostridium botulinum",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0602",
+   "duration_change": "two hours history -> two-year history",
+   "open_dx_original": "Subarachnoid hemorrhage due to posterior communicating aneurysm",
+   "open_dx_perturbed": "Subarachnoid hemorrhage",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0609",
+   "duration_change": "for 3 days -> for 3 months",
+   "open_dx_original": "Fat embolism syndrome",
+   "open_dx_perturbed": "Fat embolism syndrome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0621",
+   "duration_change": "for the past month -> for the past 2 years",
+   "open_dx_original": "Acute promyelocytic leukemia",
+   "open_dx_perturbed": "Acute promyelocytic leukemia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0634",
+   "duration_change": "5-day history -> 6-month history",
+   "open_dx_original": "Ascaris lumbricoides infection",
+   "open_dx_perturbed": "Ascaris lumbricoides infection",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0635",
+   "duration_change": "for the last month -> for the last 2 years",
+   "open_dx_original": "Myasthenia gravis",
+   "open_dx_perturbed": "Myasthenia gravis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0642",
+   "duration_change": "sudden onset -> 2-month history of",
+   "open_dx_original": "L5 radiculopathy",
+   "open_dx_perturbed": "L5 radiculopathy",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0640",
+   "duration_change": "for more than 6 months -> for 6 hours",
+   "open_dx_original": "Wilson disease",
+   "open_dx_perturbed": "Transient aminotransferase elevation from muscle injury",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0644",
+   "duration_change": "for the last 3 years -> for the last 3 days",
+   "open_dx_original": "Lupus vulgaris",
+   "open_dx_perturbed": "Tinea corporis",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0652",
+   "duration_change": "for 3 weeks -> for 3 years",
+   "open_dx_original": "Progesterone",
+   "open_dx_perturbed": "Medroxyprogesterone acetate",
+   "verdict": "open_shift",
+   "management": "INVALID"
+  },
+  {
+   "uid": "mmc_0659",
+   "duration_change": "for the past 24 hours -> for the past 6 months",
+   "open_dx_original": "Parapneumonic pleural effusion",
+   "open_dx_perturbed": "Complicated parapneumonic pleural effusion",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0660",
+   "duration_change": "since 3 years -> for 3 days",
+   "open_dx_original": "Lateral condyle fracture of humerus",
+   "open_dx_perturbed": "Lateral condyle fracture of humerus",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0665",
+   "duration_change": "for last 6 months -> for the past 6 hours",
+   "open_dx_original": "Imperforate hymen",
+   "open_dx_perturbed": "Imperforate hymen with hematocolpos",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0664",
+   "duration_change": "for 2 weeks -> for 2 years",
+   "open_dx_original": "Extrahepatic portal vein obstruction",
+   "open_dx_perturbed": "Extrahepatic portal vein obstruction with portal hypertension",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0671",
+   "duration_change": "for the past month -> for the past 2 years",
+   "open_dx_original": "Fibroadenoma",
+   "open_dx_perturbed": "Breast fibroadenoma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0673",
+   "duration_change": "three weeks -> three years",
+   "open_dx_original": "Subdural hematoma",
+   "open_dx_perturbed": "Chronic subdural hematoma",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0650",
+   "duration_change": "acute onset -> 6-month history",
+   "open_dx_original": "Testicular torsion",
+   "open_dx_perturbed": "Testicular torsion",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0678",
+   "duration_change": "over the preceding decade -> over the preceding 2 days",
+   "open_dx_original": "Polycystic ovary syndrome",
+   "open_dx_perturbed": "Anovulatory dysfunctional uterine bleeding",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0684",
+   "duration_change": "four later -> four months later",
+   "open_dx_original": "Hyperplastic arteriolosclerosis of malignant hypertension",
+   "open_dx_perturbed": "Malignant nephrosclerosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0687",
+   "duration_change": "for several hours -> for several months",
+   "open_dx_original": "Carboxyhemoglobin formation causing tissue hypoxia",
+   "open_dx_perturbed": "Carboxyhemoglobin formation causing tissue hypoxia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0693",
+   "duration_change": "5 weeks later -> 5 months later",
+   "open_dx_original": "Disseminated intravascular coagulation",
+   "open_dx_perturbed": "Placenta previa",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0697",
+   "duration_change": "within 3 years of each other -> within 3 days of each other",
+   "open_dx_original": "Graves disease",
+   "open_dx_perturbed": "Graves disease",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0695",
+   "duration_change": "five years ago -> five days ago",
+   "open_dx_original": "Vascular dementia",
+   "open_dx_perturbed": "Multi-infarct vascular dementia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0688",
+   "duration_change": "a 2-week history -> a 2-year history",
+   "open_dx_original": "Squamous metaplasia with dysplasia",
+   "open_dx_perturbed": "Squamous metaplasia with dysplasia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0696",
+   "duration_change": "today's -> over the past 3 years",
+   "open_dx_original": "Esophageal food impaction due to Schatzki ring",
+   "open_dx_perturbed": "Esophageal food impaction due to Schatzki ring",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0698",
+   "duration_change": "for 3 days -> for 3 months",
+   "open_dx_original": "Reactive arthritis (Reiter syndrome)",
+   "open_dx_perturbed": "Reactive arthritis (Reiter syndrome)",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0709",
+   "duration_change": "for the last 10 days -> for the last 10 months",
+   "open_dx_original": "Fungal keratitis due to filamentous fungi",
+   "open_dx_perturbed": "Fungal keratitis due to filamentous fungi",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0713",
+   "duration_change": "after 2 weeks -> after 2 months",
+   "open_dx_original": "Protein C deficiency caused warfarin-induced skin necrosis",
+   "open_dx_perturbed": "Warfarin resistance due to protein C deficiency",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0706",
+   "duration_change": "during the previous 6 weeks -> for 6 hours",
+   "open_dx_original": "Bronchoscopy for aspirated foreign body",
+   "open_dx_perturbed": "Foreign body aspiration",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0714",
+   "duration_change": "since 1 day -> for 6 months",
+   "open_dx_original": "Hemolytic uremic syndrome",
+   "open_dx_perturbed": "Hemolytic uremic syndrome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0718",
+   "duration_change": "After 5 days -> After 5 months",
+   "open_dx_original": "Plague due to Yersinia pestis",
+   "open_dx_perturbed": "Plague due to Yersinia pestis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0649",
+   "duration_change": "3-year history -> 3-day history",
+   "open_dx_original": "Madelung disease",
+   "open_dx_perturbed": "Madelung disease",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0722",
+   "duration_change": "for 1.5 months -> for 3 days",
+   "open_dx_original": "Pulmonary tuberculosis",
+   "open_dx_perturbed": "Pulmonary tuberculosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0721",
+   "duration_change": "7 weeks -> 7 months",
+   "open_dx_original": "Early pregnancy failure (missed abortion)",
+   "open_dx_perturbed": "Missed abortion",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0728",
+   "duration_change": "since 3months -> since 3 days",
+   "open_dx_original": "Classical Hodgkin lymphoma",
+   "open_dx_perturbed": "Hodgkin lymphoma",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0733",
+   "duration_change": "a 2-day history -> a 2-year history",
+   "open_dx_original": "Gallstone ileus",
+   "open_dx_perturbed": "Gallstone ileus",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0735",
+   "duration_change": "for 2 days -> for 2 years",
+   "open_dx_original": "Mycoplasma pneumoniae infection",
+   "open_dx_perturbed": "Pulmonary tuberculosis",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0741",
+   "duration_change": "for 1 month -> for 2 years",
+   "open_dx_original": "Peptic ulcer disease",
+   "open_dx_perturbed": "Peptic ulcer disease",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0742",
+   "duration_change": "8 month history -> 8 day history",
+   "open_dx_original": "Amyopathic dermatomyositis",
+   "open_dx_perturbed": "Amyopathic dermatomyositis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0744",
+   "duration_change": "8-month history -> 8-day history",
+   "open_dx_original": "Malignant pleural mesothelioma",
+   "open_dx_perturbed": "Malignant pleural mesothelioma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0739",
+   "duration_change": "since one year -> for 2 days",
+   "open_dx_original": "Aspergillus fumigatus",
+   "open_dx_perturbed": "Allergic fungal rhinosinusitis due to Aspergillus fumigatus",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0757",
+   "duration_change": "since the past month -> for 3 days",
+   "open_dx_original": "Ulcerative colitis",
+   "open_dx_perturbed": "Ulcerative colitis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0758",
+   "duration_change": "3 weeks ago -> 3 years ago",
+   "open_dx_original": "Acute hepatitis A infection",
+   "open_dx_perturbed": "Acute hepatitis A infection",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0750",
+   "duration_change": "LMP 4 weeks ago -> LMP 6 months ago",
+   "open_dx_original": "Serum beta-hCG assay",
+   "open_dx_perturbed": "Serum beta-hCG assay",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0784",
+   "duration_change": "3 months -> 3 days",
+   "open_dx_original": "Orbital embryonal rhabdomyosarcoma",
+   "open_dx_perturbed": "Orbital embryonal rhabdomyosarcoma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0760",
+   "duration_change": "since 3 years -> for 3 days",
+   "open_dx_original": "Supracondylar fracture of humerus",
+   "open_dx_perturbed": "Supracondylar humerus fracture",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0768",
+   "duration_change": "2 days -> 3 months",
+   "open_dx_original": "Annular pancreas",
+   "open_dx_perturbed": "Annular pancreas",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0766",
+   "duration_change": "acute onset -> 6-month history",
+   "open_dx_original": "Acute hepatitis B virus infection",
+   "open_dx_perturbed": "Chronic hepatitis B infection",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0764",
+   "duration_change": "for the last few days -> for the last 6 months",
+   "open_dx_original": "Congenital adrenal hyperplasia due to 21-hydroxylase deficiency",
+   "open_dx_perturbed": "Congenital adrenal hyperplasia due to 21-hydroxylase deficiency",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0785",
+   "duration_change": "a 1 day history -> a 2 year history",
+   "open_dx_original": "Menstrual toxic shock syndrome",
+   "open_dx_perturbed": "Menstrual toxic shock syndrome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0795",
+   "duration_change": "3 month history -> 3 day history",
+   "open_dx_original": "Rotator cuff tear",
+   "open_dx_perturbed": "Rotator cuff tear",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0794",
+   "duration_change": "progressive -> over 2 years",
+   "open_dx_original": "Duchenne muscular dystrophy",
+   "open_dx_perturbed": "Duchenne muscular dystrophy",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0800",
+   "duration_change": "for the past two days -> for the past two years",
+   "open_dx_original": "Alcohol withdrawal seizures",
+   "open_dx_perturbed": "Alcohol withdrawal syndrome with delirium tremens",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0809",
+   "duration_change": "for 3 months -> for 3 years",
+   "open_dx_original": "Carcinoma cervix",
+   "open_dx_perturbed": "Carcinoma cervix",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0803",
+   "duration_change": "since 2 months -> for 2 days",
+   "open_dx_original": "Left ethmoidal sinusitis",
+   "open_dx_perturbed": "Acute ethmoidal sinusitis with orbital cellulitis",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0816",
+   "duration_change": "for two days -> for two years",
+   "open_dx_original": "Meningococcal septicemia",
+   "open_dx_perturbed": "Meningococcemia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0822",
+   "duration_change": "10 days -> 10 months",
+   "open_dx_original": "Fungal keratitis due to Aspergillus flavus",
+   "open_dx_perturbed": "Fungal keratitis by Aspergillus species",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0829",
+   "duration_change": "for a period of several years -> for 2 days",
+   "open_dx_original": "Fibromyalgia",
+   "open_dx_perturbed": "Fibromyalgia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0837",
+   "duration_change": "developed icterus and two days later -> developed icterus and two months later",
+   "open_dx_original": "HBeAg-positive chronic hepatitis B carrier",
+   "open_dx_perturbed": "HBeAg-positive chronic hepatitis B carrier",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0838",
+   "duration_change": "for the past 2 months -> for the past 2 days",
+   "open_dx_original": "Systemic lupus erythematosus",
+   "open_dx_perturbed": "Systemic lupus erythematosus",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0849",
+   "duration_change": "several-week history -> 2-year history",
+   "open_dx_original": "Glioblastoma multiforme",
+   "open_dx_perturbed": "Glioblastoma multiforme",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0844",
+   "duration_change": "the preceding 3 weeks -> the preceding 3 years",
+   "open_dx_original": "Secondary adrenal insufficiency from rifampin-induced adrenal crisis",
+   "open_dx_perturbed": "Primary adrenal insufficiency (Addison disease)",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0850",
+   "duration_change": "Four hours later -> For 4 months before surgery",
+   "open_dx_original": "Dilutional coagulopathy from massive transfusion",
+   "open_dx_perturbed": "Liver disease with reduced coagulation factor synthesis",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0861",
+   "duration_change": "A year ago -> A day ago",
+   "open_dx_original": "Motor neuron disease, amyotrophic lateral sclerosis",
+   "open_dx_perturbed": "Amyotrophic lateral sclerosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0864",
+   "duration_change": "for the last five years, each time lasting for about six weeks -> for the last 12 hours",
+   "open_dx_original": "Seasonal allergic conjunctivitis",
+   "open_dx_perturbed": "Seasonal allergic conjunctivitis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0865",
+   "duration_change": "for the past two days -> for the past 2 years",
+   "open_dx_original": "Alcohol withdrawal seizure",
+   "open_dx_perturbed": "Alcohol withdrawal seizure",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0867",
+   "duration_change": "since 1 week -> for 1 year",
+   "open_dx_original": "Herpangina",
+   "open_dx_perturbed": "Recurrent intraoral herpes simplex infection",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0879",
+   "duration_change": "a 4-year history -> a 4-day history",
+   "open_dx_original": "Progressive right ventricular failure",
+   "open_dx_perturbed": "Right ventricular failure",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0880",
+   "duration_change": "over the past 10 years -> over the past 10 days",
+   "open_dx_original": "Asbestosis",
+   "open_dx_perturbed": "Asbestosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0892",
+   "duration_change": "for 6 weeks -> for 6 years",
+   "open_dx_original": "Benzene exposure",
+   "open_dx_perturbed": "Benzene exposure",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0891",
+   "duration_change": "for the past 15 years -> for the past 2 days",
+   "open_dx_original": "Solar lentigines",
+   "open_dx_perturbed": "Solar lentigo with increased melanin pigmentation",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0897",
+   "duration_change": "sudden onset -> 2-year history of",
+   "open_dx_original": "Acute angle-closure glaucoma",
+   "open_dx_perturbed": "Absolute glaucoma",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0899",
+   "duration_change": "since 2 months b -> since 2 days",
+   "open_dx_original": "Prolactinoma",
+   "open_dx_perturbed": "Prolactinoma treated with cabergoline",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0898",
+   "duration_change": "2 days after the trauma -> 2 years after the trauma",
+   "open_dx_original": "Meningitis",
+   "open_dx_perturbed": "Meningitis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0904",
+   "duration_change": "10 day history -> 10 month history",
+   "open_dx_original": "Korsakoff syndrome",
+   "open_dx_perturbed": "Anterograde amnesia with confabulation",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0905",
+   "duration_change": "a 2-week history -> a 2-year history",
+   "open_dx_original": "Schistosomiasis mansoni",
+   "open_dx_perturbed": "Schistosomiasis mansoni",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0910",
+   "duration_change": "for the past 2 years -> for the past 2 days",
+   "open_dx_original": "Tenosynovial giant cell tumor",
+   "open_dx_perturbed": "Tenosynovial giant cell tumor",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0909",
+   "duration_change": "for 5 days -> for 5 months",
+   "open_dx_original": "Delirium tremens",
+   "open_dx_perturbed": "Delirium tremens",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0913",
+   "duration_change": "sudden onset -> 6-month history",
+   "open_dx_original": "Iatrogenic pneumothorax",
+   "open_dx_perturbed": "Iatrogenic pneumothorax",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0918",
+   "duration_change": "5-year history -> 5-day history",
+   "open_dx_original": "Meningioma",
+   "open_dx_perturbed": "Meningioma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0923",
+   "duration_change": "acute -> chronic",
+   "open_dx_original": "Imperforate hymen with hematocolpos",
+   "open_dx_perturbed": "Imperforate hymen",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0934",
+   "duration_change": "for the last three months -> for the last 3 days",
+   "open_dx_original": "Median nerve compression at the wrist",
+   "open_dx_perturbed": "Median nerve palsy",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0928",
+   "duration_change": "2 hrs duration -> 6 months duration",
+   "open_dx_original": "Non-ST elevation myocardial infarction",
+   "open_dx_perturbed": "Unstable angina pectoris",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0940",
+   "duration_change": "3 days back -> 3 months back",
+   "open_dx_original": "IgA vasculitis (Henoch-Sch\u00f6nlein purpura)",
+   "open_dx_perturbed": "IgA vasculitis (Henoch-Sch\u00f6nlein purpura)",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0942",
+   "duration_change": "2\u2013day history -> 3-month history",
+   "open_dx_original": "Acute viral bronchiolitis",
+   "open_dx_perturbed": "Postinfectious bronchiolitis obliterans",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0944",
+   "duration_change": "2 week history -> 6 month history",
+   "open_dx_original": "Acute myeloid leukemia with maturation",
+   "open_dx_perturbed": "Acute myeloid leukemia with myelodysplasia-related changes",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0949",
+   "duration_change": "72 hours in duration -> 2-year duration",
+   "open_dx_original": "Primary hyperparathyroidism",
+   "open_dx_perturbed": "Hyperparathyroidism",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0948",
+   "duration_change": "six month' duration -> 6 hour' duration",
+   "open_dx_original": "Pituitary macroadenoma",
+   "open_dx_perturbed": "Pituitary apoplexy",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_0952",
+   "duration_change": "acute -> 2-year history",
+   "open_dx_original": "Imperforate hymen with hematocolpos",
+   "open_dx_perturbed": "Imperforate hymen with hematocolpos",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0957",
+   "duration_change": "for last 2 months -> for last 2 days",
+   "open_dx_original": "Nocardia asteroides",
+   "open_dx_perturbed": "Nocardia asteroides",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0963",
+   "duration_change": "several day history -> 6-month history",
+   "open_dx_original": "Guillain-Barr\u00e9 syndrome",
+   "open_dx_perturbed": "Guillain-Barr\u00e9 syndrome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0978",
+   "duration_change": "30 minutes ago -> 6 months ago",
+   "open_dx_original": "Coronary artery aneurysm from Kawasaki disease",
+   "open_dx_perturbed": "Coronary artery aneurysm from Kawasaki disease",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0938",
+   "duration_change": "for the last 8 years -> for the last 8 hours",
+   "open_dx_original": "Hypochondriacal disorder",
+   "open_dx_perturbed": "Illness anxiety disorder",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_0983",
+   "duration_change": "for the past few years -> for the past 18 hours",
+   "open_dx_original": "Chronic obstructive pulmonary disease, emphysema predominant",
+   "open_dx_perturbed": "Chronic obstructive pulmonary disease, emphysema type",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0994",
+   "duration_change": "Five months later -> Five hours later",
+   "open_dx_original": "Sheehan syndrome",
+   "open_dx_perturbed": "Sheehan syndrome",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0999",
+   "duration_change": "for the past 3 years -> for the past 3 days",
+   "open_dx_original": "Primary AL amyloidosis associated with plasma cell dyscrasia",
+   "open_dx_perturbed": "Primary AL amyloidosis associated with plasma cell dyscrasia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0992",
+   "duration_change": "for the last one week -> for the last 6 months",
+   "open_dx_original": "Enterococcus faecium",
+   "open_dx_perturbed": "Vancomycin-resistant Enterococcus faecium",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_1001",
+   "duration_change": "has complaints of -> has a 2-year history of",
+   "open_dx_original": "Distal renal tubular acidosis",
+   "open_dx_perturbed": "Distal renal tubular acidosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1011",
+   "duration_change": "4-day-old -> 4-year-old",
+   "open_dx_original": "Hirschsprung disease",
+   "open_dx_perturbed": "Hirschsprung disease",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1014",
+   "duration_change": "for four months -> for 4 hours",
+   "open_dx_original": "Craniopharyngioma",
+   "open_dx_perturbed": "Craniopharyngioma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1026",
+   "duration_change": "four later -> four months later",
+   "open_dx_original": "Hyperplastic arteriolosclerosis with fibrinoid necrosis",
+   "open_dx_perturbed": "Malignant nephrosclerosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1029",
+   "duration_change": "for the past 3 years -> for the past 3 days",
+   "open_dx_original": "COPD with emphysema",
+   "open_dx_perturbed": "COPD with emphysema and chronic hypercapnia",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_1032",
+   "duration_change": "After 1.5 months -> After 2 days",
+   "open_dx_original": "Isoniazid-induced drug-induced lupus erythematosus",
+   "open_dx_perturbed": "Drug-induced lupus erythematosus",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1002",
+   "duration_change": "the last 3 days -> for the last 3 months",
+   "open_dx_original": "Atopic bronchial asthma",
+   "open_dx_perturbed": "Atopic bronchial asthma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_0970",
+   "duration_change": "over the past several years -> for 2 days",
+   "open_dx_original": "Neurofibromatosis type 2",
+   "open_dx_perturbed": "Neurofibromatosis type 2",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1038",
+   "duration_change": "2 days before the end of her final examinations -> 2 months before the end of her final examinations",
+   "open_dx_original": "Aphthous ulceration",
+   "open_dx_perturbed": "Aphthous ulceration",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1045",
+   "duration_change": "2 weeks after an upper respiratory tract infection -> 2 years after an upper respiratory tract infection",
+   "open_dx_original": "Immune thrombocytopenic purpura",
+   "open_dx_perturbed": "Immune thrombocytopenic purpura",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1047",
+   "duration_change": "the last 2 mo -> the last 2 days",
+   "open_dx_original": "Pulmonary tuberculosis with pleural effusion",
+   "open_dx_perturbed": "Pulmonary tuberculosis with pleural effusion",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1044",
+   "duration_change": "just returned from a convention, and had noticed increasing pain in his right foot during his plane trip home -> has had increasing pain in his right foot for 8 months",
+   "open_dx_original": "Acute gouty arthritis",
+   "open_dx_perturbed": "Acute gouty arthritis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1031",
+   "duration_change": "three days back -> three months back",
+   "open_dx_original": "Alcohol withdrawal delirium (delirium tremens)",
+   "open_dx_perturbed": "Alcohol withdrawal delirium (delirium tremens)",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1049",
+   "duration_change": "3 months -> 3 days",
+   "open_dx_original": "Posterior pituitary (neurohypophysis)",
+   "open_dx_perturbed": "Posterior pituitary (neurohypophysis)",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1054",
+   "duration_change": "since 6 months -> for 6 hours",
+   "open_dx_original": "Chronic osteomyelitis with Brodie abscess",
+   "open_dx_perturbed": "Brodie abscess",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_1060",
+   "duration_change": "3 days back -> 3 years back",
+   "open_dx_original": "Oxycodone overdose",
+   "open_dx_perturbed": "Oxycodone overdose",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1063",
+   "duration_change": "only after 5 weeks of the scan -> only after 5 days of the scan",
+   "open_dx_original": "Disseminated intravascular coagulation",
+   "open_dx_perturbed": "Disseminated intravascular coagulation",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1064",
+   "duration_change": "every time within an hour of eating sea foods -> for 6 months",
+   "open_dx_original": "Food-induced urticaria",
+   "open_dx_perturbed": "Urticaria",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_1067",
+   "duration_change": "over the past 5 years -> over the past 5 days",
+   "open_dx_original": "Lentigo maligna melanoma",
+   "open_dx_perturbed": "Melanoma with BRAF mutation",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_1079",
+   "duration_change": "3 months duration -> 3 days duration",
+   "open_dx_original": "Intraductal papilloma",
+   "open_dx_perturbed": "Intraductal papilloma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1076",
+   "duration_change": "two months back -> two days back",
+   "open_dx_original": "Chronic subdural hematoma",
+   "open_dx_perturbed": "Acute subdural hematoma",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_1089",
+   "duration_change": "since three days -> for six months",
+   "open_dx_original": "Malignant otitis externa",
+   "open_dx_perturbed": "Malignant otitis externa",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1086",
+   "duration_change": "in the past 5 yrs -> in the past 5 days",
+   "open_dx_original": "Bladder urothelial carcinoma",
+   "open_dx_perturbed": "Bladder urothelial carcinoma",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1091",
+   "duration_change": "since bih -> for 6 months",
+   "open_dx_original": "Biliary atresia",
+   "open_dx_perturbed": "Biliary atresia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1093",
+   "duration_change": "2-day -> 2-year",
+   "open_dx_original": "Acute mesenteric ischemia",
+   "open_dx_perturbed": "Acute mesenteric ischemia",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1102",
+   "duration_change": "2 days duration -> 2 months duration",
+   "open_dx_original": "Acute poststreptococcal glomerulonephritis",
+   "open_dx_perturbed": "Acute poststreptococcal glomerulonephritis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1106",
+   "duration_change": "over the past 3 months -> for 3 days",
+   "open_dx_original": "Primary hypothyroidism due to Hashimoto thyroiditis",
+   "open_dx_perturbed": "Primary hypothyroidism due to Hashimoto thyroiditis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1105",
+   "duration_change": "for 3 days -> for 3 months",
+   "open_dx_original": "Rotavirus",
+   "open_dx_perturbed": "Cryptosporidium parvum",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_1110",
+   "duration_change": "acute onset -> 2-month history",
+   "open_dx_original": "Shigellosis",
+   "open_dx_perturbed": "Amebiasis",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_1112",
+   "duration_change": "yesterday and since than -> for the past 2 years",
+   "open_dx_original": "Dissociative fugue",
+   "open_dx_perturbed": "Dissociative fugue",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1061",
+   "duration_change": "Since the amputation -> For the past 2 days",
+   "open_dx_original": "Phantom limb pain syndrome",
+   "open_dx_perturbed": "Phantom limb syndrome",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_1131",
+   "duration_change": "for 9 months -> for 3 days",
+   "open_dx_original": "Schizophrenia",
+   "open_dx_perturbed": "Acute mania with psychotic features",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_1137",
+   "duration_change": "persists for more than lutes -> persists for more than 2 years",
+   "open_dx_original": "Ankylosing spondylitis",
+   "open_dx_perturbed": "Ankylosing spondylitis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1133",
+   "duration_change": "Over several weeks -> Over several months",
+   "open_dx_original": "Disseminated coccidioidomycosis",
+   "open_dx_perturbed": "Disseminated coccidioidomycosis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1145",
+   "duration_change": "since 5 days -> for 5 months",
+   "open_dx_original": "Measles",
+   "open_dx_perturbed": "Measles",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1140",
+   "duration_change": "a 1-week history -> a 1-year history",
+   "open_dx_original": "Alcoholic hepatitis",
+   "open_dx_perturbed": "AST:ALT ratio greater than 2:1",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_1154",
+   "duration_change": "for 4 hours -> for 6 months",
+   "open_dx_original": "Dense collagenous scar with hypocellular fibrosis",
+   "open_dx_perturbed": "Dense collagenous scar with fibroblasts and neovascularization",
+   "verdict": "open_shift",
+   "management": "SAME"
+  },
+  {
+   "uid": "mmc_1155",
+   "duration_change": "for a period of 2 months -> for a period of 2 days",
+   "open_dx_original": "Plasma renin activity",
+   "open_dx_perturbed": "Renin secretion",
+   "verdict": "open_shift",
+   "management": "INVALID"
+  },
+  {
+   "uid": "mmc_1157",
+   "duration_change": "8 hours -> 6 months",
+   "open_dx_original": "Parkland burn resuscitation formula calculation",
+   "open_dx_perturbed": "Third-degree burn injury",
+   "verdict": "open_shift",
+   "management": "DIFFERENT"
+  },
+  {
+   "uid": "mmc_1164",
+   "duration_change": "for 2 days -> for 6 months",
+   "open_dx_original": "Giant cell arteritis",
+   "open_dx_perturbed": "Giant cell arteritis",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1167",
+   "duration_change": "for 2 months -> for 2 days",
+   "open_dx_original": "Human papillomavirus type 16",
+   "open_dx_perturbed": "Human papillomavirus type 16",
+   "verdict": "open_stable"
+  },
+  {
+   "uid": "mmc_1144",
+   "duration_change": "5-year history -> 5-day history",
+   "open_dx_original": "Diabetic peripheral arterial disease",
+   "open_dx_perturbed": "Diabetic peripheral arterial disease",
+   "verdict": "open_stable"
+  }
+ ]
+}

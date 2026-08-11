@@ -1,0 +1,35 @@
+[verify] mmlu · gpt-5.4-mini · N=5 · 256 to go (0 cached)
+  [20/256] {'perturb_fail': 4, 'not_duration_critical': 16}
+  [40/256] {'perturb_fail': 9, 'not_duration_critical': 29, 'control_fail': 1, 'duration_critical': 1}
+  [60/256] {'perturb_fail': 15, 'not_duration_critical': 42, 'control_fail': 2, 'duration_critical': 1}
+  [80/256] {'perturb_fail': 19, 'not_duration_critical': 56, 'control_fail': 4, 'duration_critical': 1}
+  [100/256] {'perturb_fail': 21, 'not_duration_critical': 73, 'control_fail': 5, 'duration_critical': 1}
+  [120/256] {'perturb_fail': 26, 'not_duration_critical': 88, 'control_fail': 5, 'duration_critical': 1}
+  [140/256] {'perturb_fail': 27, 'not_duration_critical': 103, 'control_fail': 8, 'duration_critical': 2}
+  [160/256] {'perturb_fail': 33, 'not_duration_critical': 116, 'control_fail': 9, 'duration_critical': 2}
+  [180/256] {'perturb_fail': 36, 'not_duration_critical': 132, 'control_fail': 9, 'duration_critical': 2, 'ambiguous': 1}
+  [200/256] {'perturb_fail': 39, 'not_duration_critical': 148, 'control_fail': 10, 'duration_critical': 2, 'ambiguous': 1}
+  [220/256] {'perturb_fail': 44, 'not_duration_critical': 160, 'control_fail': 11, 'duration_critical': 3, 'ambiguous': 2}
+  [240/256] {'perturb_fail': 47, 'not_duration_critical': 173, 'control_fail': 13, 'duration_critical': 3, 'ambiguous': 4}
+
+[verify] mmlu: {'perturb_fail': 49, 'not_duration_critical': 187, 'control_fail': 13, 'duration_critical': 3, 'ambiguous': 4}
+  真正 duration-critical: 3/190 = 1.6% （在控制組通過的題目中）
+  -> /Users/zengyuhua/Desktop/Master_thesis/new_duration_spectrum/pipeline/verification/mmlu_duration_critical_gpt-5.4-mini.json
+[open-probe] mmlu · 187 to go (0 cached) from 187 not_duration_critical questions
+  [20/187] {'open_stable': 15, 'open_shift': 5}
+  [40/187] {'open_stable': 27, 'open_shift': 13}
+  [60/187] {'open_stable': 43, 'open_shift': 17}
+  [80/187] {'open_stable': 57, 'open_shift': 23}
+  [100/187] {'open_stable': 70, 'open_shift': 30}
+  [120/187] {'open_stable': 83, 'open_shift': 37}
+  [140/187] {'open_stable': 94, 'open_shift': 46}
+  [160/187] {'open_stable': 109, 'open_shift': 51}
+  [180/187] {'open_stable': 120, 'open_shift': 60}
+
+[re-judge] 61 shifts -> does the change alter management?
+
+[open-probe] mmlu: {'open_stable': 126, 'open_shift': 61}
+  MCQ scored these not_duration_critical; the free-text diagnosis still moved in 61/187 = 32.6%
+  of those shifts: {'DIFFERENT': 33, 'SAME': 22, 'INVALID': 6}
+  → after discarding restatements and non-diagnoses: 33/181 = 18.2% carry a duration effect the OPTION SET hid, not one absent from the medicine.
+  -> /Users/zengyuhua/Desktop/Master_thesis/new_duration_spectrum/pipeline/verification/mmlu_openended_gpt-5.4-mini.json

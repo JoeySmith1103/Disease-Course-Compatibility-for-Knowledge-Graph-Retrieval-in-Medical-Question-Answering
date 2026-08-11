@@ -1,0 +1,69 @@
+[verify] 1273 · gpt-5.4-mini · N=5 · 1273 to go (0 cached)
+  [OpenAI attempt 1] 400 Client Error: Bad Request for url: https://api.openai.com/v1/chat/completions
+  [20/1273] {'control_fail': 6, 'perturb_fail': 7, 'not_duration_critical': 7}
+  [40/1273] {'control_fail': 9, 'perturb_fail': 12, 'not_duration_critical': 18, 'ambiguous': 1}
+  [60/1273] {'control_fail': 10, 'perturb_fail': 20, 'not_duration_critical': 28, 'ambiguous': 2}
+  [80/1273] {'control_fail': 11, 'perturb_fail': 28, 'not_duration_critical': 39, 'ambiguous': 2}
+  [100/1273] {'control_fail': 13, 'perturb_fail': 36, 'not_duration_critical': 49, 'ambiguous': 2}
+  [120/1273] {'control_fail': 15, 'perturb_fail': 45, 'not_duration_critical': 56, 'ambiguous': 4}
+  [140/1273] {'control_fail': 16, 'perturb_fail': 52, 'not_duration_critical': 68, 'ambiguous': 4}
+  [160/1273] {'control_fail': 19, 'perturb_fail': 58, 'not_duration_critical': 79, 'ambiguous': 4}
+  [180/1273] {'control_fail': 19, 'perturb_fail': 65, 'not_duration_critical': 92, 'ambiguous': 4}
+  [200/1273] {'control_fail': 22, 'perturb_fail': 73, 'not_duration_critical': 100, 'ambiguous': 5}
+  [220/1273] {'control_fail': 26, 'perturb_fail': 84, 'not_duration_critical': 104, 'ambiguous': 6}
+  [240/1273] {'control_fail': 30, 'perturb_fail': 89, 'not_duration_critical': 114, 'ambiguous': 7}
+  [260/1273] {'control_fail': 33, 'perturb_fail': 96, 'not_duration_critical': 124, 'ambiguous': 7}
+  [280/1273] {'control_fail': 34, 'perturb_fail': 99, 'not_duration_critical': 139, 'ambiguous': 8}
+  [300/1273] {'control_fail': 39, 'perturb_fail': 104, 'not_duration_critical': 149, 'ambiguous': 8}
+  [320/1273] {'control_fail': 42, 'perturb_fail': 112, 'not_duration_critical': 158, 'ambiguous': 8}
+  [340/1273] {'control_fail': 46, 'perturb_fail': 118, 'not_duration_critical': 168, 'ambiguous': 8}
+  [360/1273] {'control_fail': 49, 'perturb_fail': 126, 'not_duration_critical': 177, 'ambiguous': 8}
+  [380/1273] {'control_fail': 51, 'perturb_fail': 127, 'not_duration_critical': 189, 'ambiguous': 10, 'duration_critical': 3}
+  [400/1273] {'control_fail': 52, 'perturb_fail': 133, 'not_duration_critical': 202, 'ambiguous': 10, 'duration_critical': 3}
+  [420/1273] {'control_fail': 53, 'perturb_fail': 145, 'not_duration_critical': 207, 'ambiguous': 11, 'duration_critical': 4}
+  [440/1273] {'control_fail': 56, 'perturb_fail': 152, 'not_duration_critical': 217, 'ambiguous': 11, 'duration_critical': 4}
+  [460/1273] {'control_fail': 61, 'perturb_fail': 153, 'not_duration_critical': 231, 'ambiguous': 11, 'duration_critical': 4}
+  [480/1273] {'control_fail': 64, 'perturb_fail': 162, 'not_duration_critical': 238, 'ambiguous': 12, 'duration_critical': 4}
+  [500/1273] {'control_fail': 67, 'perturb_fail': 167, 'not_duration_critical': 249, 'ambiguous': 13, 'duration_critical': 4}
+  [520/1273] {'control_fail': 68, 'perturb_fail': 172, 'not_duration_critical': 262, 'ambiguous': 14, 'duration_critical': 4}
+  [540/1273] {'control_fail': 71, 'perturb_fail': 177, 'not_duration_critical': 274, 'ambiguous': 14, 'duration_critical': 4}
+  [560/1273] {'control_fail': 74, 'perturb_fail': 181, 'not_duration_critical': 286, 'ambiguous': 14, 'duration_critical': 5}
+  [580/1273] {'control_fail': 77, 'perturb_fail': 184, 'not_duration_critical': 299, 'ambiguous': 15, 'duration_critical': 5}
+  [600/1273] {'control_fail': 79, 'perturb_fail': 191, 'not_duration_critical': 308, 'ambiguous': 16, 'duration_critical': 6}
+  [620/1273] {'control_fail': 79, 'perturb_fail': 198, 'not_duration_critical': 320, 'ambiguous': 17, 'duration_critical': 6}
+  [640/1273] {'control_fail': 82, 'perturb_fail': 206, 'not_duration_critical': 329, 'ambiguous': 17, 'duration_critical': 6}
+  [660/1273] {'control_fail': 84, 'perturb_fail': 213, 'not_duration_critical': 340, 'ambiguous': 17, 'duration_critical': 6}
+  [680/1273] {'control_fail': 90, 'perturb_fail': 218, 'not_duration_critical': 349, 'ambiguous': 17, 'duration_critical': 6}
+  [700/1273] {'control_fail': 91, 'perturb_fail': 227, 'not_duration_critical': 359, 'ambiguous': 17, 'duration_critical': 6}
+  [720/1273] {'control_fail': 94, 'perturb_fail': 229, 'not_duration_critical': 373, 'ambiguous': 17, 'duration_critical': 7}
+  [740/1273] {'control_fail': 96, 'perturb_fail': 234, 'not_duration_critical': 386, 'ambiguous': 17, 'duration_critical': 7}
+  [760/1273] {'control_fail': 101, 'perturb_fail': 240, 'not_duration_critical': 393, 'ambiguous': 18, 'duration_critical': 8}
+  [780/1273] {'control_fail': 104, 'perturb_fail': 249, 'not_duration_critical': 399, 'ambiguous': 20, 'duration_critical': 8}
+  [800/1273] {'control_fail': 107, 'perturb_fail': 257, 'not_duration_critical': 406, 'ambiguous': 21, 'duration_critical': 9}
+  [820/1273] {'control_fail': 110, 'perturb_fail': 265, 'not_duration_critical': 415, 'ambiguous': 21, 'duration_critical': 9}
+  [840/1273] {'control_fail': 112, 'perturb_fail': 271, 'not_duration_critical': 426, 'ambiguous': 22, 'duration_critical': 9}
+  [860/1273] {'control_fail': 115, 'perturb_fail': 275, 'not_duration_critical': 438, 'ambiguous': 23, 'duration_critical': 9}
+  [880/1273] {'control_fail': 116, 'perturb_fail': 281, 'not_duration_critical': 450, 'ambiguous': 23, 'duration_critical': 10}
+  [900/1273] {'control_fail': 119, 'perturb_fail': 287, 'not_duration_critical': 459, 'ambiguous': 24, 'duration_critical': 11}
+  [920/1273] {'control_fail': 124, 'perturb_fail': 289, 'not_duration_critical': 471, 'ambiguous': 25, 'duration_critical': 11}
+  [940/1273] {'control_fail': 126, 'perturb_fail': 294, 'not_duration_critical': 484, 'ambiguous': 25, 'duration_critical': 11}
+  [960/1273] {'control_fail': 131, 'perturb_fail': 298, 'not_duration_critical': 494, 'ambiguous': 26, 'duration_critical': 11}
+  [980/1273] {'control_fail': 133, 'perturb_fail': 302, 'not_duration_critical': 507, 'ambiguous': 26, 'duration_critical': 12}
+  [1000/1273] {'control_fail': 137, 'perturb_fail': 307, 'not_duration_critical': 518, 'ambiguous': 26, 'duration_critical': 12}
+  [1020/1273] {'control_fail': 139, 'perturb_fail': 315, 'not_duration_critical': 527, 'ambiguous': 27, 'duration_critical': 12}
+  [1040/1273] {'control_fail': 140, 'perturb_fail': 322, 'not_duration_critical': 538, 'ambiguous': 27, 'duration_critical': 13}
+  [1060/1273] {'control_fail': 142, 'perturb_fail': 327, 'not_duration_critical': 551, 'ambiguous': 27, 'duration_critical': 13}
+  [1080/1273] {'control_fail': 143, 'perturb_fail': 335, 'not_duration_critical': 562, 'ambiguous': 27, 'duration_critical': 13}
+  [1100/1273] {'control_fail': 144, 'perturb_fail': 340, 'not_duration_critical': 575, 'ambiguous': 27, 'duration_critical': 14}
+  [1120/1273] {'control_fail': 149, 'perturb_fail': 344, 'not_duration_critical': 586, 'ambiguous': 27, 'duration_critical': 14}
+  [1140/1273] {'control_fail': 154, 'perturb_fail': 348, 'not_duration_critical': 597, 'ambiguous': 27, 'duration_critical': 14}
+  [1160/1273] {'control_fail': 155, 'perturb_fail': 357, 'not_duration_critical': 606, 'ambiguous': 28, 'duration_critical': 14}
+  [1180/1273] {'control_fail': 158, 'perturb_fail': 364, 'not_duration_critical': 616, 'ambiguous': 28, 'duration_critical': 14}
+  [1200/1273] {'control_fail': 161, 'perturb_fail': 370, 'not_duration_critical': 626, 'ambiguous': 29, 'duration_critical': 14}
+  [1220/1273] {'control_fail': 161, 'perturb_fail': 378, 'not_duration_critical': 638, 'ambiguous': 29, 'duration_critical': 14}
+  [1240/1273] {'control_fail': 165, 'perturb_fail': 386, 'not_duration_critical': 643, 'ambiguous': 32, 'duration_critical': 14}
+  [1260/1273] {'control_fail': 167, 'perturb_fail': 390, 'not_duration_critical': 657, 'ambiguous': 32, 'duration_critical': 14}
+
+[verify] 1273: {'control_fail': 168, 'perturb_fail': 392, 'not_duration_critical': 667, 'ambiguous': 32, 'duration_critical': 14}
+  真正 duration-critical: 14/681 = 2.1% （在控制組通過的題目中）
+  -> /Users/zengyuhua/Desktop/Master_thesis/new_duration_spectrum/pipeline/verification/1273_duration_critical_gpt-5.4-mini.json

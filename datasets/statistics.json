@@ -1,0 +1,407 @@
+{
+ "329": {
+  "provenance": "script only",
+  "all": {
+   "n_questions": 329,
+   "avg_question_chars": 803.9756838905776,
+   "median_question_chars": 780,
+   "avg_question_words": 131.7629179331307,
+   "min_question_words": 42,
+   "max_question_words": 304,
+   "avg_n_options": 5.650455927051672,
+   "avg_option_words": 2.8230231307154385,
+   "avg_answer_words": 2.7811550151975686,
+   "vocabulary_size": 5756,
+   "n_with_numeric_duration": 306,
+   "pct_with_numeric_duration": 93.00911854103343,
+   "median_duration_days": 14.0,
+   "avg_n_symptoms": 5.869300911854103,
+   "avg_n_seeds": 11.96048632218845,
+   "avg_n_query_entities": 13.76595744680851,
+   "answer_distribution": {
+    "A": 19.1,
+    "B": 19.8,
+    "C": 18.2,
+    "D": 14.9,
+    "E": 17.0,
+    "F": 6.7,
+    "G": 2.7,
+    "H": 0.9,
+    "J": 0.3,
+    "K": 0.3
+   },
+   "duration_buckets": {
+    "<1d": 51,
+    "1-6d": 77,
+    "1-4wk": 55,
+    "1-6mo": 80,
+    "6-12mo": 20,
+    ">1yr": 23,
+    "none": 23
+   },
+   "temporal_role": {
+    "chief_complaint": 166,
+    "onset_to_presentation": 130,
+    "null": 23,
+    "past_medical_history": 10
+   }
+  },
+  "critical": {
+   "n_questions": 14,
+   "avg_question_chars": 894.5714285714286,
+   "median_question_chars": 895.5,
+   "avg_question_words": 151.07142857142858,
+   "min_question_words": 106,
+   "max_question_words": 200,
+   "avg_n_options": 5.357142857142857,
+   "avg_option_words": 2.64,
+   "avg_answer_words": 2.4285714285714284,
+   "vocabulary_size": 793,
+   "n_with_numeric_duration": 14,
+   "pct_with_numeric_duration": 100.0,
+   "median_duration_days": 4.5,
+   "avg_n_symptoms": 6.428571428571429,
+   "avg_n_seeds": 12.0,
+   "avg_n_query_entities": 14.214285714285714,
+   "answer_distribution": {
+    "A": 28.6,
+    "B": 7.1,
+    "C": 35.7,
+    "E": 21.4,
+    "F": 7.1
+   },
+   "duration_buckets": {
+    "<1d": 4,
+    "1-6d": 3,
+    "1-4wk": 2,
+    "1-6mo": 3,
+    "6-12mo": 2,
+    ">1yr": 0,
+    "none": 0
+   },
+   "temporal_role": {
+    "onset_to_presentation": 9,
+    "chief_complaint": 5
+   }
+  }
+ },
+ "1273": {
+  "provenance": "script only",
+  "all": {
+   "n_questions": 1273,
+   "avg_question_chars": 745.5797329143755,
+   "median_question_chars": 715,
+   "avg_question_words": 120.6229379418696,
+   "min_question_words": 11,
+   "max_question_words": 514,
+   "avg_n_options": 5.0,
+   "avg_option_words": 3.4881382560879812,
+   "avg_answer_words": 3.584446190102121,
+   "vocabulary_size": 12375,
+   "n_with_numeric_duration": 659,
+   "pct_with_numeric_duration": 51.76747839748625,
+   "median_duration_days": 10.0,
+   "avg_n_symptoms": 4.777690494893951,
+   "avg_n_seeds": 11.835820895522389,
+   "avg_n_query_entities": 11.890023566378634,
+   "answer_distribution": {
+    "A": 21.4,
+    "B": 21.8,
+    "C": 19.8,
+    "D": 21.1,
+    "E": 15.9
+   },
+   "duration_buckets": {
+    "<1d": 104,
+    "1-6d": 171,
+    "1-4wk": 120,
+    "1-6mo": 158,
+    "6-12mo": 55,
+    ">1yr": 51,
+    "none": 614
+   },
+   "temporal_role": {
+    "null": 614,
+    "chief_complaint": 509,
+    "onset_to_presentation": 150
+   }
+  },
+  "critical": {
+   "n_questions": 14,
+   "avg_question_chars": 918.7857142857143,
+   "median_question_chars": 826.5,
+   "avg_question_words": 152.5,
+   "min_question_words": 107,
+   "max_question_words": 235,
+   "avg_n_options": 5.0,
+   "avg_option_words": 3.1142857142857143,
+   "avg_answer_words": 3.5,
+   "vocabulary_size": 855,
+   "n_with_numeric_duration": 11,
+   "pct_with_numeric_duration": 78.57142857142857,
+   "median_duration_days": 3.0,
+   "avg_n_symptoms": 5.571428571428571,
+   "avg_n_seeds": 11.857142857142858,
+   "avg_n_query_entities": 15.642857142857142,
+   "answer_distribution": {
+    "A": 21.4,
+    "B": 21.4,
+    "D": 14.3,
+    "E": 42.9
+   },
+   "duration_buckets": {
+    "<1d": 2,
+    "1-6d": 5,
+    "1-4wk": 1,
+    "1-6mo": 2,
+    "6-12mo": 1,
+    ">1yr": 0,
+    "none": 3
+   },
+   "temporal_role": {
+    "chief_complaint": 8,
+    "null": 3,
+    "onset_to_presentation": 3
+   }
+  }
+ },
+ "medbullets": {
+  "provenance": "hand review",
+  "all": {
+   "n_questions": 308,
+   "avg_question_chars": 915.7467532467532,
+   "median_question_chars": 921.5,
+   "avg_question_words": 149.77597402597402,
+   "min_question_words": 52,
+   "max_question_words": 250,
+   "avg_n_options": 5.0,
+   "avg_option_words": 2.8688311688311687,
+   "avg_answer_words": 3.0162337662337664,
+   "vocabulary_size": 5556,
+   "n_with_numeric_duration": 175,
+   "pct_with_numeric_duration": 56.81818181818182,
+   "median_duration_days": 7.0,
+   "avg_n_symptoms": null,
+   "avg_n_seeds": null,
+   "avg_n_query_entities": null,
+   "answer_distribution": {
+    "A": 19.8,
+    "B": 24.0,
+    "C": 17.2,
+    "D": 21.8,
+    "E": 17.2
+   },
+   "duration_buckets": {
+    "<1d": 40,
+    "1-6d": 40,
+    "1-4wk": 37,
+    "1-6mo": 38,
+    "6-12mo": 7,
+    ">1yr": 13,
+    "none": 133
+   },
+   "temporal_role": {
+    "null": 133,
+    "chief_complaint": 100,
+    "onset_to_presentation": 75
+   }
+  },
+  "critical": {
+   "n_questions": 88,
+   "avg_question_chars": 932.9204545454545,
+   "median_question_chars": 944.0,
+   "avg_question_words": 154.3181818181818,
+   "min_question_words": 96,
+   "max_question_words": 240,
+   "avg_n_options": 5.0,
+   "avg_option_words": 2.965909090909091,
+   "avg_answer_words": 3.147727272727273,
+   "vocabulary_size": 2636,
+   "n_with_numeric_duration": 52,
+   "pct_with_numeric_duration": 59.09090909090909,
+   "median_duration_days": 17.5,
+   "avg_n_symptoms": null,
+   "avg_n_seeds": null,
+   "avg_n_query_entities": null,
+   "answer_distribution": {
+    "A": 20.5,
+    "B": 17.0,
+    "C": 19.3,
+    "D": 26.1,
+    "E": 17.0
+   },
+   "duration_buckets": {
+    "<1d": 9,
+    "1-6d": 11,
+    "1-4wk": 14,
+    "1-6mo": 9,
+    "6-12mo": 3,
+    ">1yr": 6,
+    "none": 36
+   },
+   "temporal_role": {
+    "chief_complaint": 37,
+    "null": 36,
+    "onset_to_presentation": 15
+   }
+  }
+ },
+ "medmcqa": {
+  "provenance": "hand review",
+  "all": {
+   "n_questions": 143,
+   "avg_question_chars": 278.3006993006993,
+   "median_question_chars": 252,
+   "avg_question_words": 46.0979020979021,
+   "min_question_words": 27,
+   "max_question_words": 86,
+   "avg_n_options": 4.0,
+   "avg_option_words": 3.262237762237762,
+   "avg_answer_words": 3.4405594405594404,
+   "vocabulary_size": 2044,
+   "n_with_numeric_duration": 29,
+   "pct_with_numeric_duration": 20.27972027972028,
+   "median_duration_days": 30.0,
+   "avg_n_symptoms": null,
+   "avg_n_seeds": null,
+   "avg_n_query_entities": null,
+   "answer_distribution": {
+    "A": 38.5,
+    "B": 14.0,
+    "C": 29.4,
+    "D": 18.2
+   },
+   "duration_buckets": {
+    "<1d": 4,
+    "1-6d": 9,
+    "1-4wk": 1,
+    "1-6mo": 7,
+    "6-12mo": 3,
+    ">1yr": 5,
+    "none": 114
+   },
+   "temporal_role": {
+    "null": 114,
+    "chief_complaint": 22,
+    "onset_to_presentation": 7
+   }
+  },
+  "critical": {
+   "n_questions": 38,
+   "avg_question_chars": 277.89473684210526,
+   "median_question_chars": 261.0,
+   "avg_question_words": 47.078947368421055,
+   "min_question_words": 31,
+   "max_question_words": 85,
+   "avg_n_options": 4.0,
+   "avg_option_words": 3.8552631578947367,
+   "avg_answer_words": 4.2368421052631575,
+   "vocabulary_size": 738,
+   "n_with_numeric_duration": 13,
+   "pct_with_numeric_duration": 34.21052631578947,
+   "median_duration_days": 30.0,
+   "avg_n_symptoms": null,
+   "avg_n_seeds": null,
+   "avg_n_query_entities": null,
+   "answer_distribution": {
+    "A": 36.8,
+    "B": 18.4,
+    "C": 31.6,
+    "D": 13.2
+   },
+   "duration_buckets": {
+    "<1d": 3,
+    "1-6d": 3,
+    "1-4wk": 0,
+    "1-6mo": 4,
+    "6-12mo": 1,
+    ">1yr": 2,
+    "none": 25
+   },
+   "temporal_role": {
+    "null": 25,
+    "chief_complaint": 9,
+    "onset_to_presentation": 4
+   }
+  }
+ },
+ "mmlu": {
+  "provenance": "hand review",
+  "all": {
+   "n_questions": 272,
+   "avg_question_chars": 653.8051470588235,
+   "median_question_chars": 606.0,
+   "avg_question_words": 106.21323529411765,
+   "min_question_words": 39,
+   "max_question_words": 264,
+   "avg_n_options": 4.0,
+   "avg_option_words": 3.8125,
+   "avg_answer_words": 3.775735294117647,
+   "vocabulary_size": 4835,
+   "n_with_numeric_duration": 163,
+   "pct_with_numeric_duration": 59.9264705882353,
+   "median_duration_days": 7.0,
+   "avg_n_symptoms": null,
+   "avg_n_seeds": null,
+   "avg_n_query_entities": null,
+   "answer_distribution": {
+    "A": 18.4,
+    "B": 20.2,
+    "C": 16.5,
+    "D": 44.9
+   },
+   "duration_buckets": {
+    "<1d": 36,
+    "1-6d": 42,
+    "1-4wk": 28,
+    "1-6mo": 34,
+    "6-12mo": 14,
+    ">1yr": 9,
+    "none": 109
+   },
+   "temporal_role": {
+    "chief_complaint": 115,
+    "null": 109,
+    "onset_to_presentation": 48
+   }
+  },
+  "critical": {
+   "n_questions": 51,
+   "avg_question_chars": 676.5294117647059,
+   "median_question_chars": 612,
+   "avg_question_words": 111.03921568627452,
+   "min_question_words": 44,
+   "max_question_words": 239,
+   "avg_n_options": 4.0,
+   "avg_option_words": 3.7794117647058822,
+   "avg_answer_words": 3.7450980392156863,
+   "vocabulary_size": 1572,
+   "n_with_numeric_duration": 31,
+   "pct_with_numeric_duration": 60.78431372549019,
+   "median_duration_days": 14.0,
+   "avg_n_symptoms": null,
+   "avg_n_seeds": null,
+   "avg_n_query_entities": null,
+   "answer_distribution": {
+    "A": 25.5,
+    "B": 13.7,
+    "C": 19.6,
+    "D": 41.2
+   },
+   "duration_buckets": {
+    "<1d": 8,
+    "1-6d": 3,
+    "1-4wk": 6,
+    "1-6mo": 8,
+    "6-12mo": 3,
+    ">1yr": 3,
+    "none": 20
+   },
+   "temporal_role": {
+    "chief_complaint": 22,
+    "null": 20,
+    "onset_to_presentation": 9
+   }
+  }
+ }
+}

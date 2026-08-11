@@ -1,0 +1,42 @@
+[open-probe] 1273 · 667 to go (0 cached) from 667 not_duration_critical questions
+  [20/667] {'open_stable': 13, 'open_shift': 7}
+  [40/667] {'open_stable': 30, 'open_shift': 10}
+  [60/667] {'open_stable': 43, 'open_shift': 17}
+  [80/667] {'open_stable': 57, 'open_shift': 23}
+  [100/667] {'open_stable': 74, 'open_shift': 26}
+  [120/667] {'open_stable': 91, 'open_shift': 29}
+  [140/667] {'open_stable': 102, 'open_shift': 38}
+  [160/667] {'open_stable': 117, 'open_shift': 43}
+  [180/667] {'open_stable': 131, 'open_shift': 49}
+  [200/667] {'open_stable': 144, 'open_shift': 56}
+  [220/667] {'open_stable': 160, 'open_shift': 60}
+  [240/667] {'open_stable': 175, 'open_shift': 65}
+  [260/667] {'open_stable': 187, 'open_shift': 73}
+  [280/667] {'open_stable': 198, 'open_shift': 82}
+  [300/667] {'open_stable': 213, 'open_shift': 87}
+  [320/667] {'open_stable': 226, 'open_shift': 94}
+  [340/667] {'open_stable': 242, 'open_shift': 98}
+  [360/667] {'open_stable': 256, 'open_shift': 104}
+  [380/667] {'open_stable': 272, 'open_shift': 108}
+  [400/667] {'open_stable': 284, 'open_shift': 116}
+  [420/667] {'open_stable': 301, 'open_shift': 119}
+  [440/667] {'open_stable': 317, 'open_shift': 123}
+  [460/667] {'open_stable': 330, 'open_shift': 130}
+  [480/667] {'open_stable': 340, 'open_shift': 140}
+  [500/667] {'open_stable': 353, 'open_shift': 147}
+  [520/667] {'open_stable': 365, 'open_shift': 155}
+  [540/667] {'open_stable': 382, 'open_shift': 158}
+  [560/667] {'open_stable': 397, 'open_shift': 163}
+  [580/667] {'open_stable': 415, 'open_shift': 165}
+  [600/667] {'open_stable': 433, 'open_shift': 167}
+  [620/667] {'open_stable': 450, 'open_shift': 170}
+  [640/667] {'open_stable': 466, 'open_shift': 174}
+  [660/667] {'open_stable': 483, 'open_shift': 177}
+
+[re-judge] 180 shifts -> does the change alter management?
+
+[open-probe] 1273: {'open_stable': 487, 'open_shift': 180}
+  MCQ scored these not_duration_critical; the free-text diagnosis still moved in 180/667 = 27.0%
+  of those shifts: {'INVALID': 10, 'DIFFERENT': 83, 'SAME': 87}
+  → after discarding restatements and non-diagnoses: 83/657 = 12.6% carry a duration effect the OPTION SET hid, not one absent from the medicine.
+  -> /Users/zengyuhua/Desktop/Master_thesis/new_duration_spectrum/pipeline/verification/1273_openended_gpt-5.4-mini.json

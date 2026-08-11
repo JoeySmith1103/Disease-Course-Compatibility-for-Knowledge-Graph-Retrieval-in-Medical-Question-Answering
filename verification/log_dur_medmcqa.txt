@@ -1,0 +1,37 @@
+  [10/342] extracted=9
+  [20/342] extracted=18
+  [30/342] extracted=26
+  [40/342] extracted=33
+  [50/342] extracted=42
+  [60/342] extracted=50
+  [70/342] extracted=57
+  [80/342] extracted=65
+  [90/342] extracted=73
+  [100/342] extracted=79
+  [110/342] extracted=85
+  [120/342] extracted=92
+  [130/342] extracted=97
+  [140/342] extracted=105
+  [150/342] extracted=112
+  [160/342] extracted=118
+  [170/342] extracted=125
+  [180/342] extracted=131
+  [190/342] extracted=137
+  [200/342] extracted=142
+  [210/342] extracted=147
+  [220/342] extracted=155
+  [230/342] extracted=161
+  [240/342] extracted=169
+  [250/342] extracted=175
+  [260/342] extracted=182
+  [270/342] extracted=190
+  [280/342] extracted=199
+  [290/342] extracted=205
+  [300/342] extracted=212
+  [310/342] extracted=217
+  [320/342] extracted=221
+  [330/342] extracted=227
+  [340/342] extracted=232
+
+Extracted chief_complaint duration for 234/342 items
+Saved: datasets/medmcqa/durations.json

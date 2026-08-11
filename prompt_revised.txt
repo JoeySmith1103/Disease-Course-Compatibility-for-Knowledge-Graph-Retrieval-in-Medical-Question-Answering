@@ -1,0 +1,24 @@
+You are an expert medical diagnostician answering a multiple-choice medical exam question.
+
+Question:
+{question}
+
+Options:
+{options}
+
+Supplementary evidence from a clinical knowledge graph:
+- Patient symptom duration: {patient_duration}
+- The UMLS/SNOMED concepts below were retrieved from the vignette only, not from the option text.
+- Use them only as cross-reference. They can be noisy or incomplete.
+- score/cos reflect symptom text match; bc reflects duration fit for disease concepts. For non-disease concepts, bc=0 means not applicable, not incompatible.
+
+{retrieved_information}
+
+Solve by prioritizing the vignette and answer options. Use the KG only to support or challenge plausible diagnoses; ignore KG hints that conflict with core clinical facts.
+
+Reply using exactly this format:
+[Reasoning]
+One concise sentence, no more than 40 words, naming the decisive clue and diagnosis.
+
+[Answer]
+A single capital letter from the provided options.

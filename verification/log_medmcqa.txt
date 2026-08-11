@@ -1,0 +1,22 @@
+[verify] medmcqa · gpt-5.4-mini · N=5 · 342 to go (0 cached)
+  [20/342] {'control_fail': 3, 'not_duration_critical': 16, 'perturb_fail': 1}
+  [40/342] {'control_fail': 6, 'not_duration_critical': 32, 'perturb_fail': 2}
+  [60/342] {'control_fail': 9, 'not_duration_critical': 49, 'perturb_fail': 2}
+  [80/342] {'control_fail': 11, 'not_duration_critical': 63, 'perturb_fail': 5, 'duration_critical': 1}
+  [100/342] {'control_fail': 11, 'not_duration_critical': 79, 'perturb_fail': 7, 'duration_critical': 2, 'ambiguous': 1}
+  [120/342] {'control_fail': 17, 'not_duration_critical': 91, 'perturb_fail': 8, 'duration_critical': 2, 'ambiguous': 2}
+  [140/342] {'control_fail': 18, 'not_duration_critical': 107, 'perturb_fail': 10, 'duration_critical': 2, 'ambiguous': 3}
+  [160/342] {'control_fail': 21, 'not_duration_critical': 122, 'perturb_fail': 11, 'duration_critical': 2, 'ambiguous': 4}
+  [180/342] {'control_fail': 25, 'not_duration_critical': 136, 'perturb_fail': 13, 'duration_critical': 2, 'ambiguous': 4}
+  [200/342] {'control_fail': 29, 'not_duration_critical': 152, 'perturb_fail': 13, 'duration_critical': 2, 'ambiguous': 4}
+  [220/342] {'control_fail': 30, 'not_duration_critical': 171, 'perturb_fail': 13, 'duration_critical': 2, 'ambiguous': 4}
+  [240/342] {'control_fail': 31, 'not_duration_critical': 186, 'perturb_fail': 15, 'duration_critical': 3, 'ambiguous': 5}
+  [260/342] {'control_fail': 32, 'not_duration_critical': 203, 'perturb_fail': 16, 'duration_critical': 3, 'ambiguous': 6}
+  [280/342] {'control_fail': 33, 'not_duration_critical': 219, 'perturb_fail': 17, 'duration_critical': 4, 'ambiguous': 7}
+  [300/342] {'control_fail': 37, 'not_duration_critical': 234, 'perturb_fail': 17, 'duration_critical': 4, 'ambiguous': 8}
+  [320/342] {'control_fail': 39, 'not_duration_critical': 251, 'perturb_fail': 18, 'duration_critical': 4, 'ambiguous': 8}
+  [340/342] {'control_fail': 39, 'not_duration_critical': 267, 'perturb_fail': 22, 'duration_critical': 4, 'ambiguous': 8}
+
+[verify] medmcqa: {'control_fail': 39, 'not_duration_critical': 269, 'perturb_fail': 22, 'duration_critical': 4, 'ambiguous': 8}
+  真正 duration-critical: 4/273 = 1.5% （在控制組通過的題目中）
+  -> /Users/zengyuhua/Desktop/Master_thesis/new_duration_spectrum/pipeline/verification/medmcqa_duration_critical_gpt-5.4-mini.json
