@@ -80,19 +80,19 @@ BENCH_PATH=$DD/benchmark.json SEEDS_PATH=$DD/seeds.json SYM_PATH=$DD/symptoms.js
 DATASET=$DS METHOD=hykge SRC=cache/hykge_baseline_${DS}__${MODEL}.json \
   step hykge_freeze python3 pipeline/freeze_baseline.py
 
-# MedRAG is ON HOLD. Three things have to be settled first, and none of them is about runtime:
-#   1. corpus provenance — the index is MedQA's own 18 textbooks (cache/medqa_textbook_chunks.pkl).
-#      Reusing it for MedBullets/MMLU is defensible (all USMLE-style, and the MedRAG paper reuses
-#      one corpus across benchmarks) but it is not a corpus built for these datasets, so the choice
-#      has to be stated rather than inherited silently.
-#   2. run_medrag_textbook.py:17/82 still import call_llm from `spectrum_textbook` via
-#      pipeline/scripts — that path no longer exists (consolidated into code/llm_client.py).
-#   3. MEDRAG_PD defaults to a bench340 duration file that is not in cache.
-# Re-enable by restoring the two lines below once those are resolved.
-#   BENCH_PATH=$DD/benchmark.json MEDRAG_OUT_TAG=$DS \
-#     step medrag_retrieve python3 pipeline/code/run_medrag_textbook.py
-#   DATASET=$DS METHOD=medrag SRC=cache/${DS}_medrag_textbook_k32__${MODEL}.json \
-#     step medrag_freeze python3 pipeline/freeze_baseline.py
+# MedRAG — BM25 over MedQA's own 18-textbook corpus (cache/medqa_textbook_chunks.pkl, 102,794
+# chunks). No Neo4j, no GPU, no embeddings.
+#
+# Corpus provenance is a stated choice, not an inherited default: that index was built for MedQA
+# and is reused for MedBullets/MMLU because all three are USMLE-style and the MedRAG paper itself
+# reuses one corpus across benchmarks. It is not a corpus built for these datasets.
+#
+# MEDRAG_PD is mandatory. Its default points at a bench340 duration file that does not exist, and
+# without it the patient-duration line in the prompt is unpopulated for every question.
+BENCH_PATH=$DD/benchmark.json MEDRAG_PD=$DD/durations.json MEDRAG_OUT_TAG=$DS \
+  step medrag_retrieve python3 pipeline/code/run_medrag_textbook.py
+DATASET=$DS METHOD=medrag SRC=cache/${DS}_medrag_textbook_k32__${MODEL}.json \
+  step medrag_freeze python3 pipeline/freeze_baseline.py
 
 # orphaned ProcessPool workers keep burning LLM credit; WALKER_OUT_TAG is an env var so pgrep
 # on the tag misses them — kill by script name instead

@@ -14,7 +14,10 @@ from pathlib import Path
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
 ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT/"scripts"))
+# pipeline/scripts no longer exists; the LLM client lives in pipeline/code. The old path was
+# inert — spectrum_textbook happened to resolve from code/ and re-export call_llm — so this was
+# working by accident rather than by design.
+sys.path.insert(0, str(ROOT/"code"))
 
 CACHE = ROOT/"cache"
 TOP_K = int(os.environ.get("MEDRAG_TOP_K", "32"))   # MedRAG default
@@ -79,7 +82,7 @@ def _load_index():
     return d["chunks"], d["bm25"]
 
 def process_one(item):
-    from spectrum_textbook import call_llm
+    from llm_client import call_llm
     chunks, bm25 = _load_index()
     uid = item["uid"]
     gold = item["answer"]
@@ -95,6 +98,13 @@ def process_one(item):
         snippet = c["text"][:500]
         evidence_lines.append(f"[Excerpt {rank}] ({c['book']})\n{snippet}\n")
     evidence_block = "\n".join(evidence_lines)
+    # The 2000-char cut is kept ON PURPOSE, and it is applied to the PROMPT, not only to the stored
+    # record. frozen/329/medrag.json was produced this way — its prompt announces "top-32 BM25
+    # matches" but carries only the ~4 excerpts that fit in 2000 characters. Sending the full k=32
+    # block for MedBullets/MMLU would give those two datasets eight times the evidence under the
+    # same method name, so the three would not be comparable. The mismatch between the label and
+    # the content is inherited from 329 and is a property of the shipped baseline, not of this run.
+    evidence_block = evidence_block[:2000]
     opts_block = "\n".join(f"  {k}. {v}" for k, v in sorted(opts.items()))
     pd_days = (pd_c.get(uid) or {}).get("days")
     prompt = PROMPT.format(question=q, options_block=opts_block,
@@ -104,12 +114,17 @@ def process_one(item):
         raw = call_llm(prompt, model=os.environ.get("WALKER_LLM", "gpt-5.4-mini"))
     except Exception as e:
         return {"uid": uid, "gold": gold, "predicted": None, "is_correct": False,
-                "route": "llm_error", "kg_block": evidence_block[:2000],
-                "raw_response": f"ERROR: {e}"}
+                "route": "llm_error", "kg_block": evidence_block,
+                "prompt_full": prompt, "raw_response": f"ERROR: {e}"}
     pred = extract_letter(raw)
+    # prompt_full is required, not optional: freeze_baseline.py drops any record without a stored
+    # prompt, so the previous output froze to n=0 and frozen/329/medrag.json ended up with an
+    # empty kg_block on all 329 items. Storing the same truncated block that went into the prompt
+    # is what lets the freeze-time containment check pass — and what makes these files
+    # re-renderable, which 329's are not.
     return {"uid": uid, "gold": gold, "predicted": pred,
             "is_correct": pred == gold, "route": f"medrag_textbook_k{TOP_K}",
-            "kg_block": evidence_block[:2000], "raw_response": raw,
+            "kg_block": evidence_block, "prompt_full": prompt, "raw_response": raw,
             "n_retrieved_chunks": len(top_idx)}
 
 def main():
