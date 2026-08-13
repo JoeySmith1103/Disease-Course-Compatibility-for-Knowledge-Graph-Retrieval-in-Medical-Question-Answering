@@ -1,0 +1,1647 @@
+{
+ "aud_001": {
+  "score": 0.4,
+  "decisive_axis": "progression",
+  "rationale": "The 72-hour acute progression supports severe infectious sepsis, but diagnosis is driven more by shock, pneumonia signs, and anuric organ failure than duration."
+ },
+ "aud_002": {
+  "score": 0.4,
+  "decisive_axis": "progression",
+  "rationale": "The 4-week progressive course helps favor a chronic opportunistic CNS infection, but CSF and India ink findings are much more decisive."
+ },
+ "aud_004": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The three-week delay after discharge meaningfully points to a post-MI mechanical or electrical complication, but the initial diagnosis still depends heavily on the ECG and presentation."
+ },
+ "aud_006": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "Four days vs months since arthroplasty matters somewhat, but prosthetic septic arthritis is mainly determined by the prosthesis and confirmed synovial infection."
+ },
+ "aud_008": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The 2-week emergence and worsening strongly distinguish tardive dyskinesia from chronic baseline behavior and from acute dystonic/toxic causes."
+ },
+ "aud_010": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 6-day progressive febrile meningeal syndrome helps distinguish subacute meningitis from migraine or very acute bacterial meningitis, but CSF findings remain central."
+ },
+ "aud_011": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends mainly on pallor, tachycardia, and the blood smear; four months of fatigue adds little discriminatory value."
+ },
+ "aud_012": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The sudden 2-hour onset identifies an acute coronary syndrome, which drives risk for early complications like mechanical rupture rather than chronic ischemic disease."
+ },
+ "aud_014": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The acute 2-day wheezing after starting naproxen suggests NSAID-exacerbated respiratory disease, but the diagnosis mainly rests on rhinitis, polyps, and exam findings."
+ },
+ "aud_019": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The 2-month progressive worsening with morning headaches strongly supports an intracranial mass lesion and helps distinguish chronic progressive processes from acute headache causes."
+ },
+ "aud_022": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The 1-hour persistent onset suggests an acute coronary syndrome, but the diagnosis depends more on the ECG and risk context than duration alone."
+ },
+ "aud_027": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "Gradually progressive symptoms over weeks strongly indicate a mediastinal compressive process such as superior vena cava obstruction, rather than an acute cardiopulmonary cause."
+ },
+ "aud_030": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The acute 3-day decline versus a brief preceding inflammatory prodrome strongly shapes the differential between transient viral illness and evolving hematologic disease."
+ },
+ "aud_031": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute 5-hour onset supports a rapidly progressive upper-airway infection, but diagnosis mainly depends on the airway findings and exam rather than duration."
+ },
+ "aud_036": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Abrupt exertional chest pain lasting minutes strongly distinguishes acute ischemia from chronic or noncardiac causes, making time course highly diagnostic."
+ },
+ "aud_038": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 2-week febrile abdominal syndrome helps, but diagnosis mainly hinges on imaging and risk factors for a liver abscess rather than duration."
+ },
+ "aud_042": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The two-week delay after transfusion strongly suggests an acute viral hepatitis incubation period, but diagnosis also relies heavily on serologies and liver biopsy."
+ },
+ "aud_043": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The one-week delay after starting antihypertensive therapy strongly points to ACE-inhibitor angioedema; without that timing, the diagnosis would be much less clear."
+ },
+ "aud_046": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The two-week evolution helps suggest an acute hemolytic/thrombotic process, but anemia, hemolysis, and hepatic vein findings carry most of the diagnostic weight."
+ },
+ "aud_047": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Abrupt 4-hour scrotal pain strongly favors torsion over epididymitis, despite urinary findings that could otherwise suggest infection."
+ },
+ "aud_050": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis of the transtheoretical stage depends on current behavior and motivation, not on how long symptoms have lasted or changed."
+ },
+ "aud_053": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The brief, self-resolving episodes point toward intermittent panic rather than cardiac disease, but the diagnosis also depends heavily on the anxious exam and normal ECG."
+ },
+ "aud_054": {
+  "score": 0.7,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute 3-hour onset with brief visual symptoms strongly favors migraine with aura over other headache etiologies."
+ },
+ "aud_055": {
+  "score": 0.7,
+  "decisive_axis": "time_course",
+  "rationale": "The several-day prodrome and 1-day monoarthritis help distinguish disseminated infection from alternative chronic inflammatory causes, though exam and ECG also carry major weight."
+ },
+ "aud_058": {
+  "score": 0.3,
+  "decisive_axis": "latency",
+  "rationale": "The 6-month delay after travel suggests a vector-borne tropical infection, but exam and labs are more important than symptom timing."
+ },
+ "aud_060": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The chronic, slowly enlarging course helps distinguish chalazion from more acute inflammatory eyelid lesions and raises concern for persistent neoplasm."
+ },
+ "aud_064": {
+  "score": 0.6,
+  "decisive_axis": "latency",
+  "rationale": "The 5-day latency after birth strongly frames physiologic/breastfeeding jaundice versus pathologic neonatal hemolysis, though labs and feeding history also matter."
+ },
+ "aud_067": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "Five-month progressive proximal weakness and dysphagia narrow the differential, but exam and labs are equally important for identifying inflammatory myopathy."
+ },
+ "aud_068": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The month-long dyspnea and 6-month methotrexate exposure suggest drug-induced lung disease, but imaging and rheumatoid arthritis history are more decisive."
+ },
+ "aud_070": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The gradual ascending progression with later cranial nerve involvement strongly shapes the differential toward a chronic demyelinating neuropathy."
+ },
+ "aud_071": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden onset within 2 hours strongly points to a perforated viscus/acute surgical abdomen rather than a chronic or slowly progressive abdominal process."
+ },
+ "aud_080": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The acute 1-day progression suggests DVT, but the management question hinges more on heparin response and platelet fall than on timing."
+ },
+ "aud_083": {
+  "score": 0.8,
+  "decisive_axis": "duration",
+  "rationale": "A two-month stress-linked syndrome that improves when workload improves favors burnout/adjustment-type illness over a chronic primary psychiatric disorder."
+ },
+ "aud_085": {
+  "score": 0.8,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The one-month depressive syndrome distinguishes major depression from normal bereavement, adjustment disorder, or substance-related mood change."
+ },
+ "aud_093": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "Months after a remote infectious trip strongly suggest chronic primary adrenal insufficiency from a delayed process, making timing highly informative."
+ },
+ "aud_099": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis hinges mainly on overuse history and a palpable mass; four-month progression supports chronic strain but is not by itself decisive."
+ },
+ "aud_102": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt 1-hour onset and rapid progression strongly distinguish acute vascular/retinal events from chronic causes of visual loss."
+ },
+ "aud_105": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt 30-minute onset strongly points to acute arterial occlusion/embolism; without the sudden time course, the leading diagnosis would differ."
+ },
+ "aud_114": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt emergence over one week of decreased need for sleep and elevated energy strongly distinguishes mania/hypomania from chronic depression or medication side effects."
+ },
+ "aud_115": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The 8-week progressive joint swelling and 6-day fever help identify a chronic inflammatory arthritis rather than an acute infection."
+ },
+ "aud_125": {
+  "score": 0.5,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt onset immediately after eating and short 3-day course strongly steer toward acute infectious or toxin-mediated gastroenteritis rather than other causes."
+ },
+ "aud_131": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The 7-day febrile prodrome with new dyspnea over 2 days meaningfully supports an acute infectious process and helps distinguish likely causes."
+ },
+ "aud_153": {
+  "score": 0.8,
+  "decisive_axis": "latency",
+  "rationale": "The one-week delay after pharyngitis strongly points to postinfectious glomerulonephritis; the acute 2-day urinary symptoms mainly establish active nephritic presentation."
+ },
+ "aud_154": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The diagnosis hinges mainly on MS-related trigeminal neuropathic pain and exam features; the one-day duration adds little discrimination."
+ },
+ "aud_159": {
+  "score": 0.9,
+  "decisive_axis": "symptom_duration",
+  "rationale": "A 3-week cluster of depressive symptoms strongly distinguishes major depressive disorder from normal bereavement or longer-standing mood/personality problems."
+ },
+ "aud_197": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The chronic 4-month indolent course strongly supports subacute infective endocarditis and helps distinguish it from more acute cardiac infections."
+ },
+ "cor_289": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on imaging and granulomatous pathology; the one-month duration only loosely supports an inflammatory process."
+ },
+ "cor_507": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden onset during exertion strongly points to ovarian torsion or ruptured ectopic/ovarian cyst, making the rapid time course highly diagnostic."
+ },
+ "err_1611": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "The subacute progressive course of headaches, vomiting, gait instability, and cerebellar signs strongly indicates an enlarging posterior fossa mass rather than an acute process."
+ },
+ "err_843": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The three-day delay after birth strongly suggests neonatal hypocalcemia from transient hypoparathyroidism, but labs and symptoms are equally important for diagnosis."
+ },
+ "m325_10": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The brief onset after an acute stressor distinguishes normal grief/adjustment from major depression, but the diagnosis still rests mainly on context and mental status."
+ },
+ "m325_1007": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven mainly by the characteristic mono-like syndrome and sexual exposure; the 1-week duration is compatible but not decisive."
+ },
+ "m325_1025": {
+  "score": 0.9,
+  "decisive_axis": "symptom_duration",
+  "rationale": "Acute amnesia over three days after stress strongly favors dissociative fugue; a much longer or different course would shift the diagnosis."
+ },
+ "m325_1074": {
+  "score": 0.7,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden painless monocular blindness on waking strongly favors acute retinal/vascular occlusion over chronic ocular disease, making onset timing highly important."
+ },
+ "m325_1144": {
+  "score": 0.8,
+  "decisive_axis": "latency",
+  "rationale": "The 11-day gap after camping strongly supports erythema migrans/Lyme disease; the brief rash duration mainly helps, but exposure timing is especially discriminating."
+ },
+ "m325_1146": {
+  "score": 0.2,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The 7-day duration slightly supports an acute infectious process, but the diagnosis mainly depends on conjunctivitis, diarrhea, exposure, and exam findings."
+ },
+ "m325_1187": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis is driven mainly by classic restrictive findings and imaging; the chronic progressive course helps, but is not the primary discriminator."
+ },
+ "m325_1226": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The rapid onset within hours after a shared meal strongly points to a preformed toxin food poisoning cause rather than other etiologies."
+ },
+ "m325_1227": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis depends on syncope features, tongue bite, and ECG/drug interactions; the episode length itself does not distinguish the leading cause."
+ },
+ "m325_1230": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The 6-week postpartum latency strongly favors postpartum depression over other depressive disorders, though symptoms themselves also matter."
+ },
+ "m325_1262": {
+  "score": 0.2,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The diagnosis is driven mainly by pain with defecation, bleeding, hypertonic sphincter, and anal trauma risk; the 4-week duration is not strongly discriminating."
+ },
+ "m325_130": {
+  "score": 0.2,
+  "decisive_axis": "duration",
+  "rationale": "The 2-week diarrheal duration is compatible with many infectious causes; diagnosis depends mainly on stool microscopy and HIV/immunosuppression, not time course."
+ },
+ "m325_1300": {
+  "score": 0.5,
+  "decisive_axis": "onset_speed",
+  "rationale": "The neonatal timing and immediate postnatal onset strongly narrow the differential, but diagnosis also depends heavily on choking, nonbilious emesis, cyanosis, and polyhydramnios."
+ },
+ "m325_1302": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The short interval between respiratory symptoms and hematuria is crucial for distinguishing IgA nephropathy from postinfectious glomerulonephritis."
+ },
+ "m325_1310": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The 3-month duration mainly signals chronicity, but diagnosis depends more on the lesion’s location, painless ulceration, and sun/smoking exposure."
+ },
+ "m325_1316": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden transient unilateral weakness with complete resolution strongly suggests TIA, and the abrupt onset is central to distinguishing it from mimics."
+ },
+ "m325_1330": {
+  "score": 1.0,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt onset and rapid spontaneous resolution strongly distinguish transient ischemia from stroke mimics or persistent posterior circulation syndromes."
+ },
+ "m325_1335": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The rapid enlargement over 2 weeks strongly helps distinguish an aggressive lesion from more indolent skin cancers, though immunosuppression and exam findings also matter."
+ },
+ "m325_1348": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The subacute 2-week behavioral change plus acute seizure/meningitic decline strongly shape the differential toward encephalitic infection, though CSF findings also heavily matter."
+ },
+ "m325_1364": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on stereotyped focal impaired-awareness seizures with postictal confusion, not on the three-week duration."
+ },
+ "m325_1407": {
+  "score": 0.4,
+  "decisive_axis": "progression",
+  "rationale": "Chronic flank pain with recent hematuria and polycythemia supports renal cell carcinoma, but diagnosis relies more on associated findings than duration."
+ },
+ "m325_1420": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The 3-month progressive course helps distinguish a chronic bone tumor from acute injury or infection, though imaging and night pain are also key."
+ },
+ "m325_1421": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "Rapid worsening over hours at high altitude points to acute mountain illness, especially high-altitude pulmonary edema, rather than asthma alone."
+ },
+ "m325_1469": {
+  "score": 0.8,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt 2-day course strongly supports acute mesenteric ischemia, whereas a more gradual or chronic course would suggest other abdominal causes."
+ },
+ "m325_147": {
+  "score": 0.3,
+  "decisive_axis": "latency",
+  "rationale": "The 8-week gap after a URI helps suggest postinfectious reactive airways, but spirometry and wheezing carry the main diagnostic weight."
+ },
+ "m325_148": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven mainly by smoking history, chronic productive cough, wheeze, and occupational exposure; the 4-month duration is not decisive."
+ },
+ "m325_1501": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on the characteristic neonatal rash morphology and maternal history, not on the brief one-day duration."
+ },
+ "m325_1511": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The year-long gradual progression supports presbycusis, but otoscopic and tuning-fork findings are more important than the time course."
+ },
+ "m325_1514": {
+  "score": 0.7,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt 2-hour onset strongly favors an acute vascular syndrome over chronic neurologic causes, though the focal deficits still provide substantial diagnostic weight."
+ },
+ "m325_1532": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The month of decreasing stool caliber followed by acute obstruction strongly shifts the diagnosis toward colorectal cancer causing recent large-bowel obstruction."
+ },
+ "m325_1544": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "A one-month fever history suggests chronic infection, but the diagnosis is driven mainly by diabetic foot findings, ulcer severity, and radiographs."
+ },
+ "m325_1552": {
+  "score": 0.1,
+  "decisive_axis": "latency",
+  "rationale": "The diagnosis hinges mainly on hepatitis serologies and transaminases; the one-week duration only weakly suggests acute infection."
+ },
+ "m325_1586": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 2-month subacute progression helps distinguish chronic inflammatory/granulomatous disease from acute infection, but the diagnosis also depends heavily on extrapulmonary findings and imaging."
+ },
+ "m325_163": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The delayed onset after blunt epigastric trauma strongly points to a missed hollow viscus/pancreatic injury with evolving symptoms days later."
+ },
+ "m325_1638": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The age-appropriate crying pattern and normal growth/exam identify colic regardless of exact duration; time course adds little beyond supporting benignity."
+ },
+ "m325_1670": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The key discriminator is recent antipsychotic exposure with a short latency, making acute akathisia much more likely than chronic psychotic agitation."
+ },
+ "m325_1676": {
+  "score": 0.8,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden vertigo and vomiting strongly favor an acute posterior circulation stroke, with the brief 3-hour onset timing helping distinguish it from vestibular or infectious causes."
+ },
+ "m325_1679": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The worsening over 4 days adds some acuity, but diagnosis mainly depends on rash appearance, eczema history, and exposure risk rather than duration."
+ },
+ "m325_168": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The two-month delay after myocardial infarction strongly supports post-MI pericarditis, but exam and ECG findings are equally central to the diagnosis."
+ },
+ "m325_1685": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis hinges on developmental regression over two years; that slow progressive course strongly distinguishes neurodevelopmental degenerative syndromes like Rett syndrome."
+ },
+ "m325_1742": {
+  "score": 0.8,
+  "decisive_axis": "onset_speed",
+  "rationale": "Acute fever, malodorous fluid, and uterine tenderness after membrane rupture point to chorioamnionitis; the rapid post-rupture onset strongly supports it."
+ },
+ "m325_1764": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on inducible urticaria from ice exposure and atopic context; the six-week recurrence is not discriminating."
+ },
+ "m325_1785": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "Endocarditis/stroke clues come mainly from fever, murmur, petechiae, Janeway lesions, Roth spots, and neurologic deficits; duration adds little discrimination."
+ },
+ "m325_179": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The abrupt post-fracture/postoperative delay strongly points to fat embolism syndrome; timing after injury and surgery is central to the diagnosis."
+ },
+ "m325_180": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The year-long, persistent pattern supports a chronic disruptive disorder, but diagnosis depends mainly on the behavior pattern rather than exact duration."
+ },
+ "m325_1835": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven mainly by flushing, diarrhea, wheezing, and alcohol-triggered episodes; six-week duration adds little discriminatory value."
+ },
+ "m325_1847": {
+  "score": 0.8,
+  "decisive_axis": "progression",
+  "rationale": "Rapid progression over 8 months strongly favors an androgen-secreting ovarian tumor over slower causes of hyperandrogenism."
+ },
+ "m325_1912": {
+  "score": 0.2,
+  "decisive_axis": "duration",
+  "rationale": "Three months supports schizophrenia over brief psychotic or mood disorders, but the diagnosis is driven more by classic symptoms than exact timing."
+ },
+ "m325_1914": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 7-month course with recurrent 2-week manic episodes supports a chronic bipolar/schizoaffective pattern, but symptoms and episodic features matter equally."
+ },
+ "m325_1922": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "A week of fever and limp with sudden worsening to lethargy and ankle/shin inflammation helps distinguish an evolving invasive infection, but exam/history are equally important."
+ },
+ "m325_1928": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends on urine indices showing prerenal azotemia from volume depletion, not on the 6-hour time course."
+ },
+ "m325_194": {
+  "score": 0.3,
+  "decisive_axis": "progression",
+  "rationale": "The month-long progressive course helps a little, but asthma, eosinophilia, sinusitis, neuropathy, and glomerulonephritis are the main diagnostic clues."
+ },
+ "m325_197": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "Diagnosis hinges on the two-week delay after switching antipsychotics and the rapid onset of involuntary movements, which strongly indicates an acute drug-induced syndrome."
+ },
+ "m325_227": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The 3-week subacute course helps distinguish progressive superior vena cava obstruction from more abrupt acute venous causes, though exam findings are the main clue."
+ },
+ "m325_230": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "One month after valve replacement strongly points to prosthetic valve endocarditis; the post-procedure latency is central to the diagnosis."
+ },
+ "m325_24": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The 3-month duration is less important than the classic episodic wheeze, nocturnal symptoms, exertional dyspnea, and atopy suggesting asthma."
+ },
+ "m325_25": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 2-month progressive course suggests chronic cardiomyopathy, but the diagnosis is driven mainly by prior radiation/chemotherapy and echocardiographic findings."
+ },
+ "m325_266": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt 3-hour focal neurologic deficit strongly drives the diagnosis toward acute embolic stroke, rather than alternative causes with slower onset."
+ },
+ "m325_272": {
+  "score": 0.7,
+  "decisive_axis": "latency",
+  "rationale": "A recent new drug with symptoms starting about a week later strongly supports SJS/TEN, so timing meaningfully shapes the diagnosis."
+ },
+ "m325_284": {
+  "score": 0.8,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The 2-day, recurrent, short-lasting unilateral headache episode strongly supports cluster headache over chronic headache disorders or other causes."
+ },
+ "m325_339": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven by longstanding perfectionism and interpersonal style, while the 2-week insomnia/anxiety is secondary and not decisive."
+ },
+ "m325_348": {
+  "score": 0.6,
+  "decisive_axis": "latency",
+  "rationale": "The six-week gap between a brief febrile rash illness and current jaundice strongly shapes the diagnosis, though exposure history and symptoms also matter."
+ },
+ "m325_373": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "The shift from weeks of ulcer-like dyspepsia to abrupt severe peritonitis strongly distinguishes perforated peptic ulcer from other abdominal pain causes."
+ },
+ "m325_417": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The several-month progression helps distinguish a chronic tic/OCD-spectrum presentation from brief transient behaviors, but the diagnosis still relies heavily on symptoms and tics."
+ },
+ "m325_429": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The recent URI a week earlier modestly supports acute otitis media, but the diagnosis mainly depends on otoscopic findings, not symptom duration."
+ },
+ "m325_441": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The chronic progressive course supports age-related or chronic conductive hearing loss, but diagnosis here relies more on audiologic findings and history than duration."
+ },
+ "m325_449": {
+  "score": 0.6,
+  "decisive_axis": "latency",
+  "rationale": "Two-day post-tonsillectomy onset strongly favors an acute postoperative infectious/inflammatory complication over chronic or unrelated causes."
+ },
+ "m325_471": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The one-week delay after pharyngitis strongly points to postinfectious vasculitis/IgA vasculitis rather than a diagnosis with the same rash regardless of timing."
+ },
+ "m325_487": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The chronic gradual course suggests a slowly enlarging parasitic liver lesion, but diagnosis depends much more on eosinophilia, exposure history, and calcified cysts."
+ },
+ "m325_53": {
+  "score": 0.7,
+  "decisive_axis": "onset_speed",
+  "rationale": "Acute 12-hour onset strongly distinguishes diverticulitis from chronic causes of left-lower-quadrant pain, while associated fever and focal tenderness also matter."
+ },
+ "m325_565": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The travel-associated onset and family cluster matter more than the 2-week duration, which is compatible with multiple infectious diarrheas."
+ },
+ "m325_602": {
+  "score": 0.2,
+  "decisive_axis": "symptom_duration",
+  "rationale": "Acute versus chronic hepatitis is suggested by only 2 days of symptoms, but serologies and risk factors are far more diagnostic."
+ },
+ "m325_62": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The two-month duration and post-accident worsening support a stress-related delusional disorder, but diagnosis mainly depends on symptom content and preserved functioning."
+ },
+ "m325_623": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "Progressive dysphagia from solids to liquids with worsening symptoms over months strongly distinguishes a growing obstructing esophageal malignancy from benign causes."
+ },
+ "m325_631": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends on the periorificial scaly pruritic rash and atopic history, not on the two-week duration."
+ },
+ "m325_645": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The gradual progression from postprandial pain to constant pain and worsening constipation strongly supports an evolving mechanical bowel obstruction."
+ },
+ "m325_685": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "Progressive worsening over two months strongly supports a malignant obstructive process over transient inflammatory or neurologic causes."
+ },
+ "m325_698": {
+  "score": 0.9,
+  "decisive_axis": "symptom_duration",
+  "rationale": "An 8-month psychotic course distinguishes schizophrenia from brief psychotic, schizophreniform, or substance-induced disorders."
+ },
+ "m325_708": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "The rapid 3-week cognitive decline with myoclonus strongly distinguishes a prion disease from slower neurodegenerative or psychiatric causes."
+ },
+ "m325_750": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "The growth curve’s downward trajectory over months is central to identifying chronic disease; duration and progression strongly shape the diagnosis."
+ },
+ "m325_766": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The 9-month progressive course with worsening psychosis and intermittent depressive symptoms strongly shapes the differential between schizophrenia spectrum and mood disorders."
+ },
+ "m325_780": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The recent depressive symptoms versus a prior week of decreased sleep and grandiosity strongly suggest bipolar disorder, with time-linked mood progression guiding diagnosis."
+ },
+ "m325_787": {
+  "score": 0.8,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute 1-day progressive painful unilateral visual loss strongly points to an infectious/inflammatory corneal process rather than chronic eye disease."
+ },
+ "m325_788": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "Chronic 10-year course suggests degenerative or inflammatory disease, but diagnosis is driven mainly by joint distribution and exam findings rather than duration."
+ },
+ "m325_803": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The three-day obstipation and evolving distension help distinguish an acute bowel obstruction from chronic constipation, but imaging and exam are equally important."
+ },
+ "m325_807": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "Progressive worsening over months strongly favors osteochondritis dissecans over a simple strain; the rest of the diagnosis depends on the characteristic radiograph."
+ },
+ "m325_823": {
+  "score": 0.2,
+  "decisive_axis": "symptom_duration",
+  "rationale": "One-year duration suggests chronic anxiety, but diagnosis mainly depends on the symptom pattern of pervasive worry with sleep and fatigue."
+ },
+ "m325_832": {
+  "score": 0.7,
+  "decisive_axis": "onset_speed",
+  "rationale": "The rapid 3-day deterioration strongly supports an acute infectious/toxic process over chronic rash etiologies, though exam findings still matter greatly."
+ },
+ "m325_836": {
+  "score": 0.7,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The months-long inflammatory back pain pattern helps distinguish ankylosing spondylitis from mechanical causes, though exam and radiograph are also important."
+ },
+ "m325_855": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt onset over hours, after recent selegiline addition, strongly distinguishes serotonin syndrome from slower alternative toxic or withdrawal states."
+ },
+ "m325_92": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on HIV immunosuppression, MRI ring-enhancing lesion, and EBV PCR, not on the few-weeks time course."
+ },
+ "m325_931": {
+  "score": 0.8,
+  "decisive_axis": "progression",
+  "rationale": "Steadily worsening cognitive decline with gait disturbance and incontinence over weeks strongly points to an enlarging subdural process rather than a static neurologic deficit."
+ },
+ "m325_970": {
+  "score": 0.5,
+  "decisive_axis": "symptom_duration",
+  "rationale": "Brief recurrent self-limited episodes strongly favor paroxysmal arrhythmia/panic over persistent causes, but the resting ECG and episodic palpitations are equally important."
+ },
+ "m325_971": {
+  "score": 0.7,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The recurrent 4-week depressive episodes over 3 years distinguish major depressive disorder from persistent depressive disorder or normal bereavement."
+ },
+ "v2_test_4409": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The decade-long REM sleep behavior symptoms strongly support a synucleinopathy, but tremor/parkinsonism findings also independently drive the diagnosis."
+ },
+ "v2_test_4423": {
+  "score": 0.6,
+  "decisive_axis": "latency",
+  "rationale": "The 2-month subacute course supports chronic cholestatic disease like primary sclerosing cholangitis over acute hepatitis or obstruction, but imaging and ulcerative colitis are more important."
+ },
+ "v2_test_4425": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 2-month worsening course supports an aggressive malignant bone process, but imaging findings are more important than duration."
+ },
+ "v2_test_4473": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on bleeding history, family history, and normal coagulation studies rather than the eight-hour postoperative time course."
+ },
+ "v2_test_4499": {
+  "score": 0.6,
+  "decisive_axis": "latency",
+  "rationale": "Two-week subacute symptoms and prior three-month exposure help point to an infectious trigger, though rash and acral discoloration carry major diagnostic weight."
+ },
+ "v2_test_4534": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The 3-week delay after MI is key for post-MI pericarditis/Dressler syndrome; without this timing, the leading diagnosis would shift."
+ },
+ "v2_test_4562": {
+  "score": 0.7,
+  "decisive_axis": "symptom_duration",
+  "rationale": "Acute 3-day bloody diarrhea and pain strongly favor ischemic or infectious colitis over chronic inflammatory or neoplastic causes."
+ },
+ "v2_test_4677": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The one-week worsening course helps distinguish inflammatory/infectious eye disease from acute trauma, but the diagnosis mainly depends on exam findings."
+ },
+ "v2_test_4715": {
+  "score": 0.1,
+  "decisive_axis": "progression",
+  "rationale": "Months of gradual swelling versus rapid worsening only modestly suggest chronic ascites; diagnosis depends mainly on ascitic fluid studies and imaging."
+ },
+ "v2_test_4734": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The two-year gradual decline slightly supports chronic hypocalcemia complications, but diagnosis mainly depends on exam and labs showing hypocalcemia from post-thyroidectomy hypoparathyroidism."
+ },
+ "v2_test_4748": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The rapidly progressive febrile illness with widespread painful flaccid bullae points strongly to an acute toxin-mediated staphylococcal skin syndrome."
+ },
+ "v2_test_4750": {
+  "score": 0.1,
+  "decisive_axis": "progression",
+  "rationale": "Diagnosis hinges on evolving treatment course and lab changes, not on how long symptoms had been present before presentation."
+ },
+ "v2_test_4778": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "Recent exertional chest pain with symptom-free intervals helps distinguish unstable angina/NSTEMI patterns from chronic stable angina or nonischemic causes."
+ },
+ "v2_test_4807": {
+  "score": 0.4,
+  "decisive_axis": "progression",
+  "rationale": "The 10-day worsening supports a developing pleural process, but exam findings and cancer history are more important than the exact time course."
+ },
+ "v2_test_4821": {
+  "score": 0.7,
+  "decisive_axis": "latency",
+  "rationale": "The subacute week-to-month course supports a malignancy rather than acute infection or a chronic stable lesion, though imaging and smoking history are more important."
+ },
+ "v2_test_4848": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis is driven mainly by recurrent angioedema, family history, and low C1-inhibitor; duration only modestly supports a chronic inherited disorder."
+ },
+ "v2_test_4850": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The one-year chronic course supports pneumoconiosis over acute disease, but diagnosis depends equally on occupational exposure and classic radiographic eggshell calcifications."
+ },
+ "v2_test_4874": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute post-retching onset strongly points to esophageal rupture; without a rapid onset after vomiting, the leading diagnosis would shift substantially."
+ },
+ "v2_test_4885": {
+  "score": 0.2,
+  "decisive_axis": "duration",
+  "rationale": "Two months suggests a subacute malabsorptive illness, but the diagnosis is driven more by diarrhea, weight loss, arthralgias, and cognitive symptoms than timing."
+ },
+ "v2_test_4887": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "Two-week postpartum latency after severe hemorrhage is key, pointing to pituitary ischemic necrosis causing lactation failure and fatigue."
+ },
+ "v2_test_4899": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The month-long enlarging necrotic facial lesion strongly suggests invasive infection; the acute 2-day visual symptoms are secondary and less diagnostic."
+ },
+ "v2_test_4936": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on maternal rubella exposure and congenital findings, not on how long symptoms lasted or evolved."
+ },
+ "v2_test_5066": {
+  "score": 0.5,
+  "decisive_axis": "onset_speed",
+  "rationale": "Abrupt 2-hour onset strongly distinguishes acute aortic dissection or esophageal catastrophe from pancreatitis or other chronic causes, but CT and pain pattern also matter."
+ },
+ "v2_test_5104": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The 2-week delay after severe head injury strongly points to stress gastritis/erosive injury, making timing highly diagnostic."
+ },
+ "v2_test_5118": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "Six-month duration suggests chronicity, but diagnosis hinges mainly on bulimia signs and metabolic alkalosis/electrolytes, which would be evident regardless of exact timing."
+ },
+ "v2_test_5143": {
+  "score": 0.7,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The 2-day acute course helps distinguish an infectious orbital process from more chronic inflammatory or structural eye disorders."
+ },
+ "v2_test_5225": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The diagnosis hinges mainly on malabsorption with recurrent infections; three months is nonspecific and does not meaningfully distinguish likely causes."
+ },
+ "v2_test_5242": {
+  "score": 0.1,
+  "decisive_axis": "onset_speed",
+  "rationale": "The diagnosis hinges mainly on pancreatitis evidence and etiologic clues; acute onset helps confirm an acute process but is not strongly discriminating."
+ },
+ "v2_test_5256": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis mainly depends on signs of superior vena cava syndrome from malignancy; the symptom durations are supportive but not essential."
+ },
+ "v2_test_5323": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The gradual onset and chronic progression suggest PCOS, but diagnosis depends more on hirsutism, irregular menses, insulin resistance, and ultrasound findings."
+ },
+ "v2_test_5331": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends on trauma pattern, exam, and FAST findings; the 30-minute time course adds little beyond confirming an acute injury."
+ },
+ "v2_test_5349": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Rapid overnight deterioration with drooling and respiratory distress strongly distinguishes acute epiglottitis from slower throat infections."
+ },
+ "v2_test_5427": {
+  "score": 0.15,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis is driven mainly by chloroquine retinal toxicity and bull's-eye maculopathy; the six-month gradual course only modestly supports this."
+ },
+ "v2_test_5434": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The two-week progressive jaundice and pruritus strongly indicate evolving biliary obstruction and help distinguish malignant obstruction from chronic stable causes."
+ },
+ "v2_test_5487": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "Postpartum hemorrhage from uterine inversion is strongly suggested by onset shortly after delivery and placental extraction; the timing is central to the diagnosis."
+ },
+ "v2_test_5534": {
+  "score": 0.2,
+  "decisive_axis": "duration",
+  "rationale": "Four months supports a subacute endocrine syndrome, but diagnosis relies mainly on obesity, hirsutism, bruising, weakness, hypokalemia, and hyperglycemia."
+ },
+ "v2_test_5564": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "Acute onset after heavy lifting supports lumbar disc herniation, but the diagnosis is driven mainly by radicular symptoms and neurologic findings."
+ },
+ "v2_test_5608": {
+  "score": 0.8,
+  "decisive_axis": "latency",
+  "rationale": "The 5-day delay after starting alosetron strongly points to a drug complication, making timing important alongside the ischemic/toxic clinical findings."
+ },
+ "v2_test_5610": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven mainly by hepatitis C, palpable purpura, and arthralgias; the 8-month course adds little discriminative value."
+ },
+ "v2_test_5636": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis hinges partly on worsening pain culminating in sudden deterioration, which distinguishes an acute surgical/vascular event from more chronic abdominal causes."
+ },
+ "v2_test_5642": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven by rash distribution and iron-deficiency labs, while the 2-week duration does not meaningfully distinguish plausible causes."
+ },
+ "v2_test_5688": {
+  "score": 0.2,
+  "decisive_axis": "symptom_duration",
+  "rationale": "Three-month recurrent episodic headaches suggest a primary headache disorder, but laterality, photophobia/phonophobia, and nausea matter more than duration."
+ },
+ "v2_test_5745": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The rapid 5-day worsening supports an acute process like infective endocarditis with severe tricuspid regurgitation/right heart failure over more chronic cardiac disease."
+ },
+ "v2_test_5813": {
+  "score": 0.3,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis hinges mainly on fatigable proximal weakness with facilitation and autonomic signs; the 3-month progression only modestly supports a paraneoplastic process."
+ },
+ "v2_test_5879": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The postpartum timing and brief 6-day discharge help, but the diagnosis depends more on exam findings and discharge characteristics than duration alone."
+ },
+ "v2_train_103": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The evolving sequence of transient arthritis, conjunctivitis, urethritis, and enthesitis over days to weeks strongly supports reactive arthritis over alternatives."
+ },
+ "v2_train_1044": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The rapid collapse suggests an acute cause of shock, but the diagnosis is mainly determined by hemodynamic and renal perfusion findings."
+ },
+ "v2_train_1064": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The one-week nonresolution slightly suggests an evolving rash, but diagnosis mainly depends on rash morphology and associated risk factors, not duration."
+ },
+ "v2_train_115": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven mainly by longstanding uncontrolled diabetes and microvascular complications; the 6-month course only modestly supports diabetic neuropathy."
+ },
+ "v2_train_1282": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The episodic, trigger-related progression of cyanosis strongly narrows the diagnosis, but exam findings and growth failure are equally important."
+ },
+ "v2_train_1286": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The two-month history of episodic adrenergic symptoms helps identify insulinoma/hypoglycemia, but glucose and low C-peptide are equally important."
+ },
+ "v2_train_1303": {
+  "score": 0.8,
+  "decisive_axis": "progression",
+  "rationale": "The gradually worsening constipation over weeks strongly points toward vitamin/antacid-induced hypercalcemia or constipation-related symptoms rather than an acute abdominal process."
+ },
+ "v2_train_1352": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 1-month progressive dyspnea suggests decompensation, but the diagnosis mainly rests on atrial fibrillation and a mitral stenosis murmur."
+ },
+ "v2_train_1362": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The 2-hour worsening suggests an acute process, but ultrasound findings dominate the diagnosis much more than the timeline."
+ },
+ "v2_train_1429": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The prolonged travel-associated incubation can matter, but diagnosis is driven mainly by characteristic skin, lung, and bone findings plus biopsy."
+ },
+ "v2_train_1435": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on imaging, mobility, and TB history; two months of cough mainly indicates chronicity but does not distinguish the cause."
+ },
+ "v2_train_1438": {
+  "score": 0.7,
+  "decisive_axis": "latency",
+  "rationale": "The 8-day post-travel latency strongly points to an infectious traveler's diarrhea cause; the 2-day duration mainly supports acute illness but is less decisive."
+ },
+ "v2_train_1469": {
+  "score": 0.8,
+  "decisive_axis": "onset_speed",
+  "rationale": "The recent binge drinking and acute palpitations strongly point to alcohol-triggered atrial fibrillation, though the ECG findings remain central."
+ },
+ "v2_train_1510": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The five-day delay helps frame a post-infarction complication, but diagnosis depends more on hypotension, syncope, and ECG changes than duration alone."
+ },
+ "v2_train_153": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The short, progressive bloody diarrheal illness narrows infectious causes, but exposure history and stool characteristics are equally important."
+ },
+ "v2_train_1536": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on medication exposure in early pregnancy, not on how long symptoms have lasted or their tempo."
+ },
+ "v2_train_1555": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt onset and rapid progression to collapse strongly distinguish acute fatal coronary event from slower cardiopulmonary causes."
+ },
+ "v2_train_158": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on vaccination status and the characteristic rash/oral findings; the short febrile prodrome adds little beyond supporting scarlet fever."
+ },
+ "v2_train_159": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The rapid progression from rubbing to redness to inability to open the eyes strongly narrows the diagnosis toward an acute infectious or herpetic process."
+ },
+ "v2_train_160": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "Rapid worsening from bite to swelling, purple discoloration, crepitus, and severe pain strongly points to necrotizing soft tissue infection rather than a simple bite reaction."
+ },
+ "v2_train_1614": {
+  "score": 0.7,
+  "decisive_axis": "onset_speed",
+  "rationale": "The few-hours onset strongly favors an acute abdominal emergency like mesenteric ischemia or pancreatitis; slower courses would shift the differential substantially."
+ },
+ "v2_train_1633": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "Eight months of persistent psychotic and functional decline supports schizophrenia over brief psychotic or mood-related causes, though symptoms and exam remain more important."
+ },
+ "v2_train_1673": {
+  "score": 0.9,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The diagnosis hinges on episodic duration and spacing, distinguishing recurrent mood episodes from a chronic baseline or brief reactive disturbance."
+ },
+ "v2_train_1697": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on post-embolus neurologic complication and papilledema, not on how long symptoms have lasted or their tempo."
+ },
+ "v2_train_17": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis is driven mainly by open cervix and products of conception; the short spotting-to-heavy-bleeding progression only modestly supports miscarriage."
+ },
+ "v2_train_1725": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "Duration suggests a chronic esophageal motility disorder, but diagnosis depends mainly on dysphagia pattern and confirmatory barium swallow/manometry findings."
+ },
+ "v2_train_1730": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 2-year gradual decline suggests chronic erectile dysfunction, but diagnosis mainly depends on exam and labs rather than the exact time course."
+ },
+ "v2_train_1735": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden onset over a day strongly supports an acute third-nerve palsy, which is more urgent and likely than chronic ocular motility disorders."
+ },
+ "v2_train_1763": {
+  "score": 0.7,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The acute 2-3 day course strongly favors infectious prostatitis over chronic prostate or bladder disorders, though tenderness and symptoms also matter."
+ },
+ "v2_train_1792": {
+  "score": 1.0,
+  "decisive_axis": "symptom_duration",
+  "rationale": "PTSD requires symptoms for more than one month; the six-week duration distinguishes it from acute stress disorder."
+ },
+ "v2_train_1871": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The 4-day postpartum timing strongly suggests specific puerperal infections, but exam findings and multiple infection sources are equally important."
+ },
+ "v2_train_1888": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The sudden 1-hour onset strongly distinguishes pituitary apoplexy from subacute or chronic causes of headache and visual field loss."
+ },
+ "v2_train_1905": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis is determined by imaging and biopsy findings of silicosis, not by the one-year symptom duration or progression."
+ },
+ "v2_train_1908": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The 5-day worsening cough and persistent post-meal coughing help distinguish acute aspiration pneumonia superimposed on chronic esophageal dysfunction."
+ },
+ "v2_train_1961": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The 3-week delay between a transient genital ulcer and painful inguinal buboes strongly narrows the diagnosis, but exam findings still drive it."
+ },
+ "v2_train_1998": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The sudden chest pain followed by delayed severe dyspnea over three days suggests a post-MI complication, but autopsy findings and clinical context are equally important."
+ },
+ "v2_train_200": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The immediate neonatal presentation narrows critical cyanotic heart disease, but the diagnosis mainly depends on exam and imaging rather than the 2-hour time course."
+ },
+ "v2_train_2030": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "The 3-month subacute progressive triad strongly points to normal pressure hydrocephalus; a different time course would shift the differential substantially."
+ },
+ "v2_train_2053": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute 4-hour onset of paranoia/agitation strongly distinguishes postoperative delirium from chronic psychiatric or dementia-related causes."
+ },
+ "v2_train_2066": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The rapid deterioration suggests fulminant infective endocarditis complications, but the diagnosis is driven more by exam findings and risk factors than duration."
+ },
+ "v2_train_2086": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven mainly by the multisystem findings and labs for SLE; the 2-month duration only modestly supports a chronic inflammatory illness."
+ },
+ "v2_train_2131": {
+  "score": 0.5,
+  "decisive_axis": "onset_speed",
+  "rationale": "Acute onset after twisting helps favor an overuse/acute soft-tissue injury pattern, but exam findings like the positive Ober-type test are equally important."
+ },
+ "v2_train_2152": {
+  "score": 0.6,
+  "decisive_axis": "latency",
+  "rationale": "Postprandial and nocturnal timing strongly suggests peptic ulcer disease, while the one-month duration mainly helps distinguish it from more chronic dyspepsia."
+ },
+ "v2_train_226": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "Rapid progression from confusion to ophthalmoplegia/ataxia after glucose strongly indicates Wernicke encephalopathy, making time course highly diagnostic."
+ },
+ "v2_train_2276": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The one-year delay after spinal injury is somewhat relevant, but diagnosis mainly depends on medication effects and exam findings rather than symptom duration."
+ },
+ "v2_train_2281": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The 1-year and 3-week durations do little to distinguish the likely functional/somatic explanation from other common causes; exam and labs matter more."
+ },
+ "v2_train_2318": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden painless monocular blindness within 50 minutes strongly points to retinal arterial occlusion; slower courses would favor optic neuritis or other causes."
+ },
+ "v2_train_2354": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The change from food to bilious emesis and recurrent obstructive episodes helps, but the diagnosis also hinges heavily on the epigastric mass and chronic risk factors."
+ },
+ "v2_train_2361": {
+  "score": 0.2,
+  "decisive_axis": "duration",
+  "rationale": "The chronic years-long cough suggests chronic bronchitis, but the diagnosis is driven more by smoking history and PFT pattern than exact time course."
+ },
+ "v2_train_2410": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "Duration helps little; the diagnosis hinges mainly on the neck mass and markedly elevated calcitonin, not on how long symptoms have lasted."
+ },
+ "v2_train_2445": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The sudden collapse matters, but the diagnosis is driven mainly by QT prolongation and QT-prolonging drugs rather than illness duration."
+ },
+ "v2_train_2465": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on anemia, hypercalcemia, renal dysfunction, and lytic bone lesions; the 3-month duration adds little diagnostic discrimination."
+ },
+ "v2_train_2571": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "Pregnancy-related sacroiliac/pelvic girdle pain is identified mainly by exam and gestational status; the 3-week duration is not diagnostic."
+ },
+ "v2_train_2584": {
+  "score": 0.9,
+  "decisive_axis": "symptom_duration",
+  "rationale": "An eight-month course strongly supports a chronic psychotic disorder over brief psychosis, intoxication, or delirium, making duration highly diagnostic."
+ },
+ "v2_train_2662": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "Unilateral foul-smelling nasal discharge in a child points to a foreign body; the 2-week duration is supportive but not decisive."
+ },
+ "v2_train_2663": {
+  "score": 0.5,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The 6-week subacute course helps distinguish exertional ischemic claudication from acute neurologic or musculoskeletal causes, but exam findings are equally important."
+ },
+ "v2_train_267": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The months-long dyspnea and years of intermittent diarrhea help suggest chronic malabsorption, but diagnosis depends equally on anemia, aphthous ulcers, rash, and negative FOBT."
+ },
+ "v2_train_2701": {
+  "score": 0.6,
+  "decisive_axis": "latency",
+  "rationale": "The several-month progressive course after ileocolectomy strongly suggests a nutritional deficiency neuropathy/myelopathy, though exam findings and history also drive the diagnosis."
+ },
+ "v2_train_2721": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The fundoscopic findings and severe immunosuppression drive the diagnosis; the 2-day decline mainly suggests an acute symptomatic presentation, not the specific disease."
+ },
+ "v2_train_2779": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on exam, hemodynamics, and labs; the five-day interval only describes recovery, not a discriminating time course."
+ },
+ "v2_train_2831": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The six-day postoperative latency strongly points to delirium from surgery/medications rather than a chronic cognitive disorder or another acute neurologic cause."
+ },
+ "v2_train_2868": {
+  "score": 0.8,
+  "decisive_axis": "progression",
+  "rationale": "The gradual months-to-year progression strongly suggests a chronic systemic overload disorder rather than an acute hepatobiliary process, shaping the diagnosis."
+ },
+ "v2_train_2886": {
+  "score": 0.8,
+  "decisive_axis": "progression",
+  "rationale": "The gradual faltering growth pattern from infancy strongly distinguishes constitutional/endocrine causes from normal variants and is central to the diagnosis."
+ },
+ "v2_train_2910": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The very short postoperative latency after cardiopulmonary bypass strongly points to acute mesenteric/colonic ischemia rather than slower postoperative causes."
+ },
+ "v2_train_2931": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The three-week interval after sexual assault is central because acute post-traumatic symptoms vs longer-lasting disorders hinges on symptom timing."
+ },
+ "v2_train_3070": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on hyperthyroid symptoms and hypercalcemia with elevated urine calcium, not on the two-month duration, which is nonspecific."
+ },
+ "v2_train_3120": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on exam findings and radiographic appearance, not the two-month symptom duration, which does not meaningfully distinguish leading possibilities."
+ },
+ "v2_train_3162": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The acute onset and rapid resolution strongly suggest a transient toxidrome or intoxication rather than a primary psychiatric disorder."
+ },
+ "v2_train_3249": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on Crohn’s, ileal resection, macrocytic anemia, and MRI findings; one month of paresthesias is not discriminating."
+ },
+ "v2_train_3261": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The 1-week jaundice plus 24-hour encephalopathy strongly indicates acute liver failure rather than chronic liver disease or isolated hepatitis."
+ },
+ "v2_train_3266": {
+  "score": 0.8,
+  "decisive_axis": "progression",
+  "rationale": "Two months of worsening, nocturnal pain strongly suggests a subacute aggressive bone lesion, making the time course important to the diagnosis."
+ },
+ "v2_train_3268": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 6-month progressive course suggests a chronic retinal/optic process, but the diagnosis mainly depends on the fundoscopic findings rather than timing."
+ },
+ "v2_train_3282": {
+  "score": 0.7,
+  "decisive_axis": "latency",
+  "rationale": "The two-week delay after sore throat strongly favors postinfectious IgA vasculitis over other causes of rash, arthritis, and abdominal pain."
+ },
+ "v2_train_3313": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 3-week enlargement helps favor a subacute inflammatory thyroid process over congenital or chronic neck masses, but exam and symptom pattern remain equally important."
+ },
+ "v2_train_3346": {
+  "score": 0.5,
+  "decisive_axis": "onset_speed",
+  "rationale": "The 6-hour acute onset helps distinguish torsion or ectopic-type emergencies from chronic pelvic pain, but exam and ultrasound findings are equally important."
+ },
+ "v2_train_3358": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "Gradual painless visual worsening with glare and absent red reflex strongly indicates cataract; the chronic progression is key to distinguishing it from acute causes."
+ },
+ "v2_train_3375": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The 2-month latency after bereavement helps distinguish normal grief-related experiences from pathologic hallucinations, but supportive context is equally important."
+ },
+ "v2_train_3395": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The duration is secondary; the diagnosis hinges more on pica findings and exam signs than on the exact 2-month timeframe."
+ },
+ "v2_train_3434": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The 2-week worsening cough and recent fever meaningfully help distinguish an acute/subacute pulmonary process from chronic causes, though physical findings remain central."
+ },
+ "v2_train_3439": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "Weeks of symptoms modestly suggest malignancy, but the diagnosis depends mainly on exam, imaging, and biopsy findings rather than duration."
+ },
+ "v2_train_3458": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The five-year slow growth strongly favors a benign bony lesion over acute infection or malignancy, though exam findings also heavily determine the diagnosis."
+ },
+ "v2_train_3485": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The 3-week delay after sore throat strongly supports poststreptococcal rheumatic fever, but migratory arthritis and nodules also materially drive the diagnosis."
+ },
+ "v2_train_3492": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The short, gradually worsening course supports an overuse apophyseal injury, but the diagnosis is driven more by location, exam, and x-ray than timing."
+ },
+ "v2_train_3496": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on bedside hearing test localization of unilateral sensorineural hearing loss, not on the six-month duration."
+ },
+ "v2_train_3516": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "Two days of decreased fetal movement and acute labor are relevant, but diagnosis also depends heavily on growth restriction, oligohydramnios, hypertension, and fetal tracing."
+ },
+ "v2_train_3520": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt onset over 30 minutes is crucial for identifying acute aortic dissection rather than more gradual chest pain causes."
+ },
+ "v2_train_3555": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt overnight onset after heavy alcohol use strongly distinguishes an acute Mallory-Weiss tear from chronic causes of hematemesis."
+ },
+ "v2_train_3586": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "Rapid rash-to-bubo-to-septic pneumonia progression is central; the diagnosis depends heavily on the short, staged time course."
+ },
+ "v2_train_3622": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Several hours of rapidly worsening epigastric pain radiating to the back strongly distinguishes acute pancreatitis from chronic or nonacute abdominal processes."
+ },
+ "v2_train_3690": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on the endoscopic ulcer appearance and pain with eating, not on the six-month duration, which is non-discriminatory."
+ },
+ "v2_train_3692": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden crushing chest pain with immediate death strongly points to acute myocardial infarction; the abrupt onset is central to the diagnosis."
+ },
+ "v2_train_407": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 6-month progressive course supports chronic obstructive disease, but spirometry and low DLCO are the main diagnostic clues."
+ },
+ "v2_train_414": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The four-day postoperative latency helps suggest an acute complication, but diagnosis is driven more by hypoxemia, fever, crackles, and normal LV function."
+ },
+ "v2_train_444": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "A subacute 3-month progressive course strongly favors a growing intracranial mass over acute causes of seizure or focal deficit."
+ },
+ "v2_train_465": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The diagnosis hinges on the classic 1-3 day post-fracture/postoperative delay before fat embolism syndrome appears; that timing strongly distinguishes it from other acute causes."
+ },
+ "v2_train_482": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute 30-minute onset suggests an MI catastrophe, but the ECG and cardiac arrest findings are far more decisive than duration."
+ },
+ "v2_train_517": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "Rapid postnatal respiratory distress matters somewhat, but the diagnosis mainly depends on dysmorphic features and autopsy finding of periportal fibrosis."
+ },
+ "v2_train_520": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven by malabsorption, recurrent infections, and lung findings; the chronic time course adds little discriminatory value."
+ },
+ "v2_train_542": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "Acute worsening after twisting injury helps favor an overuse/traumatic knee problem, but exam findings and location are more important than duration."
+ },
+ "v2_train_560": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven by chronic diarrhea plus perianal findings and weight loss, not by the several-month duration itself."
+ },
+ "v2_train_562": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is mainly established by symmetric inflammatory arthritis with erosions and nodules; the 3-month duration only modestly supports chronicity."
+ },
+ "v2_train_569": {
+  "score": 0.5,
+  "decisive_axis": "onset_speed",
+  "rationale": "Postprandial rapid onset and short duration strongly suggest biliary colic/cholecystitis, but RUQ tenderness and fever also carry major weight."
+ },
+ "v2_train_605": {
+  "score": 0.5,
+  "decisive_axis": "onset_speed",
+  "rationale": "A one-week painful finger lesion after a cut suggests an acute infectious/inflammatory process, but the visible exam finding carries substantial diagnostic weight."
+ },
+ "v2_train_62": {
+  "score": 0.7,
+  "decisive_axis": "onset_speed",
+  "rationale": "Acute, post-viral worsening vertigo with hearing loss and nystagmus strongly suggests an inner ear process; timing helps distinguish it from chronic vestibular causes."
+ },
+ "v2_train_657": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The two-week duration and recent new sexual exposure help suggest an infectious cervicitis, but the diagnosis hinges more on exam findings than time course."
+ },
+ "v2_train_660": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "Three weeks of vomiting and gait change suggests a subacute posterior fossa mass with raised intracranial pressure, but imaging and pathology determine the exact tumor."
+ },
+ "v2_train_687": {
+  "score": 0.6,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden focal neurologic deficits strongly favor acute stroke/hemorrhage over mimics; the underlying cause depends more on exam, labs, and imaging."
+ },
+ "v2_train_751": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis mainly rests on drusen and age-related fundoscopic findings; the two-year visual decline only modestly supports macular degeneration."
+ },
+ "v2_train_764": {
+  "score": 0.7,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden severe pain with bloody diarrhea after hypotension strongly suggests acute ischemic colitis; the rapid onset and progression are diagnostically important."
+ },
+ "v2_train_79": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 2-year gradual decline supports dementia, but diagnosis mainly depends on the characteristic cognitive deficits and functional impairment, not duration alone."
+ },
+ "v2_train_827": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is determined by steatorrhea, malabsorption labs, and failed rifaximin response; the 4-month duration does not meaningfully discriminate."
+ },
+ "v2_train_867": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The rapid enlargement over a month supports pyoderma gangrenosum over more indolent ulcer causes, but morphology and Crohn's disease are equally important."
+ },
+ "v2_train_893": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt painless bleeding supports placenta previa, but diagnosis depends more on gestational age, prior C-section, and exam than the short time course."
+ },
+ "v2_train_9": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Respiratory distress beginning within hours of birth strongly points to neonatal transitional disease like RDS rather than later-onset causes."
+ },
+ "v2_train_949": {
+  "score": 0.1,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt onset helps, but diagnosis hinges more on ECG, chest radiograph, troponin, and D-dimer than on the brief time course."
+ },
+ "v2_train_951": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on exam findings of non-pitting pretibial myxedema and hoarseness, while the 4-month edema duration is not discriminating."
+ },
+ "v2_train_979": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven mainly by neurogenic bladder, recurrent UTIs, and CVA tenderness; the two-week course only modestly supports active pyelonephritis."
+ },
+ "v2_val_3743": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "Gross hematuria appearing days after pharyngitis and recurring with infections strongly points to IgA nephropathy rather than poststreptococcal glomerulonephritis."
+ },
+ "v2_val_3754": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The one-week delay after a brief viral prodrome and acute weakness strongly points to post-infectious poliomyelitis over other causes."
+ },
+ "v2_val_3764": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 1-week progressive course helps favor an acute/subacute hepatic vascular syndrome over chronic liver disease, but exam and labs are equally important."
+ },
+ "v2_val_3784": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 3-month progressive course supports chronic inflammatory arthritis and uveitis, but joint pattern, morning stiffness, ANA positivity, and slit-lamp findings are more decisive."
+ },
+ "v2_val_3803": {
+  "score": 0.7,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt 2-hour colicky flank pain strongly favors acute ureteral stone over more chronic or inflammatory causes, though other findings also support it."
+ },
+ "v2_val_3900": {
+  "score": 0.2,
+  "decisive_axis": "duration",
+  "rationale": "The chronic 1-year course slightly supports osteoarthritis, but the diagnosis is driven mainly by DIP nodules, brief morning stiffness, and activity-related pain."
+ },
+ "v2_val_3952": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The key diagnosis hinges on the short delay after starting heparin, which strongly points to a time-dependent adverse drug reaction."
+ },
+ "v2_val_3981": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 2-week psychosis after months of prodromal depression helps distinguish schizophrenia spectrum from mood disorder with psychotic features, but other signs are also crucial."
+ },
+ "v2_val_3986": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The diagnosis hinges on postoperative day 5 latency, which strongly favors a hospital-acquired pulmonary complication over immediate postoperative causes."
+ },
+ "v2_val_4069": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "Graves disease is established by classic signs and symptoms; the five-month duration does little to distinguish it from other hyperthyroid presentations."
+ },
+ "v2_val_4076": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The chronic 2-month progression helps distinguish avascular necrosis from acute infection, but the diagnosis mainly depends on sickle cell history and x-ray findings."
+ },
+ "v2_val_4100": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The several-month course and post-infectious lag help distinguish a chronic glomerulonephritic syndrome, though urinalysis findings are equally central."
+ },
+ "v2_val_4110": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The 3-week lag after URI strongly suggests postinfectious myocarditis, but exam and chest x-ray findings of heart failure are equally important."
+ },
+ "v2_val_4119": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 4-month progression with weight loss and bruising helps distinguish an indolent hematologic malignancy from acute bleeding disorders, but smear and marrow findings drive diagnosis."
+ },
+ "v2_val_4141": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The chronic multi-month course supports a malabsorptive/infiltrative disorder, but diagnosis depends more on the systemic findings and biopsy than exact timing."
+ },
+ "v2_val_4187": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The gradual, chronic progression strongly supports inflammatory spondyloarthropathy over mechanical back pain and frames the risk assessment."
+ },
+ "v2_val_4211": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "Three-month chronicity with venous stasis changes and painless ulcer strongly distinguishes a chronic venous ulcer from acute ischemic or infectious causes."
+ },
+ "v2_val_4251": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The short evolution from facial rash to trunk narrows the differential, but the rash pattern and posterior cervical lymphadenopathy are equally important."
+ },
+ "v2_val_4280": {
+  "score": 0.2,
+  "decisive_axis": "duration",
+  "rationale": "The 4-week course helps distinguish an active inflammatory illness, but the diagnosis is driven mainly by oral ulcers, cobblestoning, and biopsy findings."
+ },
+ "v2_val_4309": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The three-week delay after sore throat helps suggest post-streptococcal disease, but semiology and postictal weakness are equally important."
+ },
+ "v2_val_4316": {
+  "score": 0.9,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The 5-day manic syndrome versus prior 2-week depressive episodes is crucial for distinguishing bipolar disorder from brief intoxication or a depressive condition."
+ },
+ "v2_val_4333": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The 7-week missed period supports pregnancy-related pathology, but diagnosis mainly depends on exam and biopsy findings rather than symptom duration."
+ },
+ "v2_val_4348": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 3-month weight gain and increased appetite suggest evolving endogenous hyperinsulinemia, but labs and hypoglycemia findings carry equal diagnostic weight."
+ }
+}

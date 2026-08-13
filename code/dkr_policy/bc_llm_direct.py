@@ -103,11 +103,19 @@ def temporal_score(mu_p, sigma_p, mu_d, sigma_d, key: str = "") -> float:
     WALKER_BC_MODE=interval_sample: INTERVAL/point baseline for the continuous-distribution ablation.
     Draw one sample from each distribution (by its probability) and score their closeness via
     inverse-distance weighting 1/(1+|Δ|) (Shepard 1968, IDW — a citable standard, not ad-hoc).
-    Seeded per `key` (disease CUI) so it is deterministic/reproducible across runs."""
+    Seeded per `key` (disease CUI) so it is deterministic/reproducible across runs.
+
+    The seed goes through hashlib, NOT the built-in hash(): Python randomises string hashing per
+    process (PYTHONHASHSEED, on by default since 3.3), so hash(("bc_is", cui, ...)) returns a
+    different value every interpreter start. This baseline was therefore drawing fresh samples on
+    every run while claiming to be reproducible — three separate processes scoring the same
+    (patient, disease) pair returned 0.5482 / 0.8345 / 0.4627. Deterministic within a run, not
+    across them, which is the failure mode that hides longest."""
     import os
     if os.environ.get("WALKER_BC_MODE", "overlap") == "interval_sample":
-        import random
-        rng = random.Random(hash(("bc_is", key, round(mu_p, 3), round(mu_d, 3))) & 0xffffffff)
+        import hashlib, random
+        _k = f"bc_is|{key}|{round(mu_p, 3)}|{round(mu_d, 3)}".encode()
+        rng = random.Random(int.from_bytes(hashlib.sha256(_k).digest()[:8], "big"))
         x_p = rng.gauss(mu_p, sigma_p)
         x_d = rng.gauss(mu_d, sigma_d)
         return 1.0 / (1.0 + abs(x_p - x_d))

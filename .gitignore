@@ -51,3 +51,14 @@ venv/
 
 # ── os ────────────────────────────────────────────────────────────────────────
 .DS_Store
+
+# ── sweep artefacts ───────────────────────────────────────────────────────────
+# One file per (top_k, λ, μ, mode, …) combination — 30+ per dataset, all regenerable in seconds
+# from pool/ via render_from_pool.py. Only the two variants promoted to first-class methods
+# (walker_criticality, walker_adaptive) are tracked, under the same naming as walker/walker_interval.
+frozen/*/walker__k*.json
+frozen/*/*__random10.json
+
+# 103 MB of retrieved candidate pools. Regenerable from Neo4j (~25 min/dataset) and not needed to
+# reproduce a frozen prompt, which is already tracked.
+pool/

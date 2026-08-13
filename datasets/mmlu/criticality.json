@@ -1,0 +1,1362 @@
+{
+ "mmlu_0000": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The key diagnosis is mainly from focal lateral thigh sensory loss after retroperitoneal bleeding; the subacute improvement only modestly supports compressive neuropathy."
+ },
+ "mmlu_0001": {
+  "score": 0.9,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis hinges on labor that initially progressed then weakens/fails to continue, distinguishing abnormal labor patterns from normal active labor."
+ },
+ "mmlu_0002": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is already established clinically as a common cold; the 2-day duration does not meaningfully distinguish it from alternatives."
+ },
+ "mmlu_0003": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on exam and imaging findings of coarctation; the vignette’s time course does not materially change the leading diagnosis."
+ },
+ "mmlu_0004": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis depends on ulnar nerve distribution and elbow provocation; the two-month duration does not meaningfully distinguish among plausible entrapment syndromes."
+ },
+ "mmlu_0005": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a biochemical mechanism question; diagnosis depends on metabolic findings, not the illness time course."
+ },
+ "mmlu_0006": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on cancer burden, mood symptoms, and current pain control, not on how long the crying or bedbound state has lasted."
+ },
+ "mmlu_0007": {
+  "score": 0.3,
+  "decisive_axis": "progression",
+  "rationale": "The 6-month progressive hyperthyroid symptoms help distinguish active toxic multinodular goiter from a long-standing but otherwise stable neck mass."
+ },
+ "mmlu_0008": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The cancer diagnosis and lymphatic drainage anatomy determine the answer; the six-month duration does not meaningfully change the leading diagnosis."
+ },
+ "mmlu_0009": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis and treatment depend on stone composition and hypercalciuria, not on how long symptoms lasted or how quickly they developed."
+ },
+ "mmlu_0010": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 3-month poor appetite and weight loss suggest chronic illness, but the diagnosis depends more on symptoms and medication effects than exact duration."
+ },
+ "mmlu_0011": {
+  "score": 0.4,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The 7-day subacute course supports atypical/community-acquired pneumonia, but diagnosis and treatment rely more on the bilateral infiltrates and mild respiratory findings."
+ },
+ "mmlu_0012": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven by CSF cysts/trophozoites, while the 2-hour confusion mainly indicates severity rather than changing the leading diagnosis."
+ },
+ "mmlu_0013": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis depends on localization to rotator cuff/greater tubercle findings, not on the two-week duration."
+ },
+ "mmlu_0014": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis depends on traumatic exam findings and foot drop localization, not on how long symptoms have been present."
+ },
+ "mmlu_0015": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends on clinical/medicolegal context and symptom presentation, not on how long symptoms have lasted or their tempo."
+ },
+ "mmlu_0016": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on recurrent unusual infections and absent oxidative burst, not on the one-week fever or abdominal pain duration."
+ },
+ "mmlu_0017": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a laboratory-method identification question; the answer depends on PCR procedure, not on any illness time course."
+ },
+ "mmlu_0018": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden onset after URI symptoms strongly distinguishes croup from slower-developing causes of stridor and respiratory distress."
+ },
+ "mmlu_0019": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is established by CT showing a perforated appendix; the illness duration mainly confirms appendicitis but does not determine the organism."
+ },
+ "mmlu_0020": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The 1-week worsening fever and left lower quadrant pain strongly support acute diverticulitis over chronic constipation-related or other abdominal causes."
+ },
+ "mmlu_0021": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The year-long persistence and frequent irregular bleeding suggest chronic abnormal uterine bleeding, but diagnosis still depends heavily on exam and risk factors."
+ },
+ "mmlu_0022": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis and counseling depend on Turner syndrome and prepubertal status, not on how long symptoms have lasted or their tempo."
+ },
+ "mmlu_0023": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Acute focal deficits over 12 hours strongly indicate a stroke; timing determines whether thrombolysis or other urgent diagnosis is considered."
+ },
+ "mmlu_0024": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis/management is driven by postpartum findings and vitals, not by how long symptoms have lasted or their progression."
+ },
+ "mmlu_0025": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends mainly on exercise-induced symptoms, family history, and normal baseline testing; the 2-month duration adds little discriminatory value."
+ },
+ "mmlu_0026": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is granulation tissue from wound healing, determined by wound appearance and pathology, not by the one-week time course."
+ },
+ "mmlu_0027": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Carrier status is determined by family history and CK/genetic testing, not by symptom duration or temporal pattern."
+ },
+ "mmlu_0028": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis/management depends on exposure risk and PPD interpretation, not on how long symptoms have been present; duration is essentially irrelevant."
+ },
+ "mmlu_0029": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The neurologic deficits and new incontinence suggest a structural brain lesion, but the exact time course is not central to identifying the diagnosis."
+ },
+ "mmlu_0030": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis and management hinge on exam findings and psychiatric/ethical context, not on the three-day pain duration."
+ },
+ "mmlu_0031": {
+  "score": 0.1,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute trauma timing supports traumatic urethral injury, but the diagnosis depends mainly on injury pattern and exam findings, not duration."
+ },
+ "mmlu_0032": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis turns on the CT finding of a retained surgical sponge and legal doctrine, not on how long the pelvic pain has lasted."
+ },
+ "mmlu_0033": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on steroid exposure and weight-bearing hip pain suggesting avascular necrosis, not on the symptom time course."
+ },
+ "mmlu_0034": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 6-month decline is background Parkinson progression, but the diagnosis and management hinge mainly on exam/vitals and pneumonia, not time course."
+ },
+ "mmlu_0035": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 5-month progression supports malignancy with metastases, but imaging and smoking history are far more decisive than time course."
+ },
+ "mmlu_0036": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The 2-week duration slightly suggests an acute nipple process, but diagnosis depends mainly on discharge character and prior imaging rather than time course."
+ },
+ "mmlu_0037": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 1-month progressive course helps distinguish chronic opportunistic infectious diarrhea, but the organism is determined mainly by AIDS status, travel, and exposure patterns."
+ },
+ "mmlu_0038": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The question depends on normal fasting glucose regulation mechanisms, not on symptom duration, onset speed, or progression."
+ },
+ "mmlu_0039": {
+  "score": 0.2,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The 3-day febrile prodrome modestly supports acute encephalitis, but MRI/CSF bitemporal involvement and hemorrhagic CSF findings drive the diagnosis."
+ },
+ "mmlu_0040": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 6-month progression suggests an androgen-secreting tumor, but diagnosis is mainly driven by virilization, labs, and the ovarian mass."
+ },
+ "mmlu_0041": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on murmur location/radiation and exertional syncope, not on how long or how quickly symptoms developed."
+ },
+ "mmlu_0042": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The worsening over days with new fever and confusion suggests superimposed infection/gangrene, but exam findings drive treatment choice more than duration."
+ },
+ "mmlu_0043": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute post-lifting onset helps distinguish disc herniation from chronic mechanical back pain, but exam findings dominate the diagnosis."
+ },
+ "mmlu_0044": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The 2-day interval supports an acute post-traumatic infection, but edema mechanism is mainly determined by the local inflammatory lesion, not duration."
+ },
+ "mmlu_0045": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a preventive care question; the correct recommendation depends on guidelines and prior screening history, not illness time course."
+ },
+ "mmlu_0046": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The malpractice decision depends on communication and expectations after surgery, not on how long or how fast symptoms evolved."
+ },
+ "mmlu_0047": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a physiology question; the diagnosis depends on hemodynamic principles, not any illness time course."
+ },
+ "mmlu_0048": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis and management hinge on Rh incompatibility risk from blood types and pregnancy history, not on symptom duration or tempo."
+ },
+ "mmlu_0049": {
+  "score": 0.8,
+  "decisive_axis": "progression",
+  "rationale": "The acute worsening after a similar episode strongly suggests evolving aortic dissection, and the temporal pattern helps distinguish it from other chest pain causes."
+ },
+ "mmlu_0050": {
+  "score": 0.1,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt 2-hour onset suggests acute atrial fibrillation, but the management question depends mainly on current hemodynamics and rate control, not duration."
+ },
+ "mmlu_0051": {
+  "score": 0.1,
+  "decisive_axis": "latency",
+  "rationale": "The diagnosis hinges mainly on the neurologic pattern of posterior column and corticospinal dysfunction, not on the specific 2-month duration."
+ },
+ "mmlu_0052": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a study-design question; the illness time course does not determine the diagnosis or answer."
+ },
+ "mmlu_0053": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute onset after cocaine briefly supports vasospasm/ACS, but the diagnosis and treatment are driven mainly by cocaine-associated chest pain findings."
+ },
+ "mmlu_0054": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a trial-design/statistics question; symptom time course is irrelevant to judging the vaccine efficacy analysis."
+ },
+ "mmlu_0055": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is an ethics/impairment management vignette; diagnosis and next step depend on observed alcohol signs, not symptom duration or progression."
+ },
+ "mmlu_0056": {
+  "score": 0.1,
+  "decisive_axis": "latency",
+  "rationale": "The childhood onset suggests a chronic congenital process, but the diagnosis is mainly determined by exam findings like transillumination and lack of bowel sounds."
+ },
+ "mmlu_0057": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is established by culture/PCR of MRSA; the three-week duration does not meaningfully distinguish it from other plausible lymphadenitis causes."
+ },
+ "mmlu_0058": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis and management hinge on spinal cord injury, latex allergy, and urologic history, not on how long symptoms have lasted."
+ },
+ "mmlu_0059": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is established by the reducible groin/scrotal swelling and exam; the intermittent course is not what determines the hernia diagnosis."
+ },
+ "mmlu_0060": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on orthostatic and interarm blood pressure differences plus vertebral flow reversal, not on the 6-week duration."
+ },
+ "mmlu_0061": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The year-long progression from regular menses to irregularity and then amenorrhea supports weight-loss/exercise-related hypothalamic suppression, but exam findings are also crucial."
+ },
+ "mmlu_0062": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends on autistic features, macrocephaly, and family history; the brief developmental timeline does not distinguish among plausible causes."
+ },
+ "mmlu_0063": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The long progressive course supports a chronic suppurative lung disease rather than an acute process, but diagnosis depends more on infertility and obstructive findings."
+ },
+ "mmlu_0064": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on a specific physical sign of pulmonary arterial hypertension, not on how long or how fast symptoms developed."
+ },
+ "mmlu_0065": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt collapse with cyanosis, cardiac arrest, and bleeding immediately after labor strongly points to amniotic fluid embolism, where rapid onset is central."
+ },
+ "mmlu_0066": {
+  "score": 0.2,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The 3-week respiratory worsening suggests an acute infectious/exacerbation component, but the diagnosis is driven mainly by occupational exposure and radiographic silicosis/COPD findings."
+ },
+ "mmlu_0067": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Risk is determined by obstetric history and twin gestation, not by how long symptoms have lasted or their progression."
+ },
+ "mmlu_0068": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a treatment-selection question; diagnosis is already established by ankylosing spondylitis, so time course does not affect it."
+ },
+ "mmlu_0069": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "Fibromyalgia is suggested by tender points and normal studies; the chronicity is supportive but not essential to distinguishing it here."
+ },
+ "mmlu_0070": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The immediate post-traumatic onset is crucial, pointing to acute obstructive shock from tamponade/tension physiology rather than another cause of hypotension."
+ },
+ "mmlu_0071": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven by pancreatitis clues (pain, vomiting, amylase, alcohol) and nerve anatomy, not by symptom duration."
+ },
+ "mmlu_0072": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven by necrotizing wound findings and gram-positive rods, not by the short 2-day duration."
+ },
+ "mmlu_0073": {
+  "score": 1.0,
+  "decisive_axis": "latency",
+  "rationale": "The ten-day delay after rabbit antithymocyte globulin is key for serum sickness; the timing strongly determines the diagnosis."
+ },
+ "mmlu_0074": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis depends on exam and imaging signs of recurrent/tension pneumothorax, not on how long symptoms have lasted or their tempo."
+ },
+ "mmlu_0075": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The 3-week progressive dyspnea points to active interstitial lung disease from systemic sclerosis rather than a stable or unrelated pulmonary finding."
+ },
+ "mmlu_0076": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The outbreak is identified by epidemiology and the gram-positive rod, not by how long symptoms lasted or how quickly they evolved."
+ },
+ "mmlu_0077": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "Symptoms began after a major life stressor two months ago, which helps distinguish an adjustment-related syndrome from chronic anxiety disorders."
+ },
+ "mmlu_0078": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a diagnostic test performance question; time course of illness is irrelevant to determining sensitivity."
+ },
+ "mmlu_0079": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a personality/behavior diagnosis; the illness time course is not relevant to identifying the cause of his interpersonal style."
+ },
+ "mmlu_0080": {
+  "score": 0.2,
+  "decisive_axis": "duration",
+  "rationale": "The 3-month duration supports recurrent panic attacks over acute cardiopulmonary disease, but the diagnosis mainly depends on symptom pattern and normal testing."
+ },
+ "mmlu_0081": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is an immunology question about stress-related immune changes; the illness time course does not determine the diagnosis or answer."
+ },
+ "mmlu_0082": {
+  "score": 0.9,
+  "decisive_axis": "symptom_duration",
+  "rationale": "Symptoms are tightly linked to the menstrual cycle, and the premenstrual-to-menses timing strongly points to PMDD rather than another mood disorder."
+ },
+ "mmlu_0083": {
+  "score": 0.1,
+  "decisive_axis": "latency",
+  "rationale": "Recent amoxicillin use suggests candidal vaginitis; the 5-day symptom duration is not what primarily determines the diagnosis."
+ },
+ "mmlu_0084": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is established by discharge, Gram stain, and recurrent episodes; the time course mainly notes recurrence but does not determine the organism."
+ },
+ "mmlu_0085": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Therapeutic failure is explained by pharmacogenetic codeine metabolism, not by the one-day symptom duration or timing."
+ },
+ "mmlu_0086": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is determined by characteristic fixed split S2 and murmurs; the well-child time course adds no meaningful discrimination."
+ },
+ "mmlu_0087": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends on neuropathic band-like dermatomal pain with negative abdominal/gallbladder/pancreatic findings, not on symptom duration or tempo."
+ },
+ "mmlu_0088": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The short subacute course helps distinguish a new intracranial pressure process, but papilledema and morning headaches are equally important to the diagnosis."
+ },
+ "mmlu_0089": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The acne duration does not meaningfully distinguish causes; the diagnosis depends mainly on pubertal development and exam findings."
+ },
+ "mmlu_0090": {
+  "score": 0.7,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The 1-week course helps distinguish acute bacterial sinusitis from chronic or allergic causes, though exam findings still strongly support the diagnosis."
+ },
+ "mmlu_0091": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a statistics question about alpha and beta; time course of illness is irrelevant to determining the answer."
+ },
+ "mmlu_0092": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 2-month progressive worsening distinguishes chronic decompensating heart failure from a more acute process, but exam findings are equally central."
+ },
+ "mmlu_0093": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The 3-month latency after starting enalapril helps suggest ACE-inhibitor cough, but the diagnosis mainly hinges on medication exposure and normal workup."
+ },
+ "mmlu_0094": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on developmental/behavioral and abuse-related findings, not on how long the injuries or behaviors have been present."
+ },
+ "mmlu_0095": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt postoperative onset of a cool, pulseless foot strongly indicates acute graft thrombosis/occlusion; timing is central to diagnosis."
+ },
+ "mmlu_0096": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis is driven mainly by characteristic dermatomyositis findings; the 8-week progressive course supports it but is not the key discriminator."
+ },
+ "mmlu_0097": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The acute 2-day course supports infection, but the diagnosis is mainly determined by the characteristic vulvar lesions, lymphadenopathy, and lesion smear."
+ },
+ "mmlu_0098": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The 4-week delay after chemotherapy strongly points to a drug-induced neuropathy; timing is key to identifying the culprit adverse effect."
+ },
+ "mmlu_0099": {
+  "score": 0.2,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The diagnosis is mainly supported by snoring, obesity, and witnessed apneas; the one-year duration only modestly frames chronic sleep apnea rather than being decisive."
+ },
+ "mmlu_0100": {
+  "score": 0.95,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt 2-hour onset is crucial because it points to an acute aortic dissection/acute aortic regurgitation syndrome rather than chronic causes of chest pain or murmur."
+ },
+ "mmlu_0101": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis depends on immediate post-vaccination anaphylaxis features, not on symptom duration or progression."
+ },
+ "mmlu_0102": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden visual loss suggests optic neuritis from MS, but the diagnosis mainly rests on exam findings and MS history rather than duration."
+ },
+ "mmlu_0103": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 5-day progression suggests an acute pelvic infection, but diagnosis and treatment depend mainly on pelvic exam findings of PID."
+ },
+ "mmlu_0104": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis and fluid location depend on the ectopic pregnancy's anatomy and rupture site, not on the 8-hour symptom duration."
+ },
+ "mmlu_0105": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "CAD prevention here depends on risk factors and lipid profile, not on how long symptoms have been present or their temporal pattern."
+ },
+ "mmlu_0106": {
+  "score": 0.8,
+  "decisive_axis": "progression",
+  "rationale": "The gradual progression from discharge to spotting to heavy bleeding strongly supports cervical cancer over transient benign/infectious causes and informs urgency/staging."
+ },
+ "mmlu_0107": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is Graves disease from classic findings; the 2-month duration adds little because these features would identify it regardless of timing."
+ },
+ "mmlu_0108": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis and management depend on bleeding site and exam findings, not on the 2-hour duration of epistaxis."
+ },
+ "mmlu_0109": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven mainly by blister characteristics, flexural distribution, and mucosal sparing; the 2-week duration adds little discriminatory value."
+ },
+ "mmlu_0110": {
+  "score": 0.2,
+  "decisive_axis": "symptom_duration",
+  "rationale": "Kawasaki disease is identified mainly by the characteristic mucocutaneous findings; the 8-day fever supports but does not decisively determine the diagnosis."
+ },
+ "mmlu_0111": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The subacute progression supports inflammatory myopathy over chronic degenerative or acute infectious causes, but exam and CK findings carry equal diagnostic weight."
+ },
+ "mmlu_0112": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The month-long bleeding/bruising history helps distinguish a bleeding disorder from isolated acute knee swelling, but exam findings are equally important."
+ },
+ "mmlu_0113": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The skin lesion diagnosis and management depend on pressure-related exam findings, not on how long it has been present or its tempo."
+ },
+ "mmlu_0114": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis depends on inheritance risk from family history and fetal sex, not on symptom duration, onset, progression, or latency."
+ },
+ "mmlu_0115": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The acute 2-day course with new hematemesis slightly narrows possibilities, but the key decision hinges more on likely cause than duration."
+ },
+ "mmlu_0116": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "Symptoms beginning 12 hours after thyroidectomy strongly point to postoperative hypocalcemia from hypoparathyroidism, making timing highly diagnostic."
+ },
+ "mmlu_0117": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a statistics interpretation question; timing of illness is irrelevant to determining the correct conclusion."
+ },
+ "mmlu_0118": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends on postoperative hypocalcemia with elevated PTH and surgical anatomy, not on symptom duration or evolution."
+ },
+ "mmlu_0119": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on rheumatoid arthritis complications and neurologic symptom type, not on how long the drop attacks or arthritis have been present."
+ },
+ "mmlu_0120": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on decision-making capacity and depression exclusion, not on how long the refusal or medical decline has lasted."
+ },
+ "mmlu_0121": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The outbreak exposure and conjunctivitis/pharyngitis point to adenoviral pharyngoconjunctival fever; the 3-day duration adds little diagnostic discrimination."
+ },
+ "mmlu_0122": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute hour-long prodrome and sudden hematemesis suggest an emergent variceal bleed, but diagnosis hinges more on history and exam than duration."
+ },
+ "mmlu_0123": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute 30-minute onset helps distinguish intoxication from chronic psychiatric causes, but the specific drug is mainly identified by the syndrome and exam findings."
+ },
+ "mmlu_0124": {
+  "score": 0.7,
+  "decisive_axis": "latency",
+  "rationale": "The symptoms’ predictable onset before flights and rapid resolution afterward are central to linking them to situational anxiety rather than urinary disease."
+ },
+ "mmlu_0125": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Management depends on normal developmental age and degree of bowing, not on the illness time course."
+ },
+ "mmlu_0126": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis is determined by exam and ECG showing complete heart block with AV dissociation; the 3-month duration does not meaningfully change the differential."
+ },
+ "mmlu_0127": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is ethical/professional conduct, not clinical illness; the hospitalization duration does not affect the correct action."
+ },
+ "mmlu_0128": {
+  "score": 1.0,
+  "decisive_axis": "latency",
+  "rationale": "Symptoms beginning shortly after the robbery strongly distinguish acute stress disorder or PTSD from thyroid or medication causes."
+ },
+ "mmlu_0129": {
+  "score": 0.3,
+  "decisive_axis": "progression",
+  "rationale": "The recurrent episodic course suggests benign mechanical pain, but diagnosis depends more on risk factors and normal exam than exact duration."
+ },
+ "mmlu_0130": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "Several weeks helps suggest a chronic eating disorder, but the diagnosis depends more on body image, weight loss, and behavioral history than duration."
+ },
+ "mmlu_0131": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "Three months supports major depression, but diagnosis and management depend more on depressive symptoms, functional impairment, and absence of suicidality than timing."
+ },
+ "mmlu_0132": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends mainly on diet and post-enteritis context; persistence over time is not a key discriminator."
+ },
+ "mmlu_0133": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "Management hinges on labor progression from regular contractions to weak, intermittent contractions at 7 cm despite no obstruction, suggesting arrest rather than simple duration."
+ },
+ "mmlu_0134": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis/procedure hinges on age, emancipation, and legal status, while symptom duration only loosely suggests rectal prolapse rather than another anorectal complaint."
+ },
+ "mmlu_0135": {
+  "score": 0.1,
+  "decisive_axis": "latency",
+  "rationale": "The diagnosis depends mainly on rhabdomyolysis from prolonged immobilization and toxins; the exact time course is not what distinguishes it."
+ },
+ "mmlu_0136": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "Three-day persistence slightly supports an acute process, but diagnosis hinges far more on meningismus, neurologic signs, and other physical findings."
+ },
+ "mmlu_0137": {
+  "score": 0.8,
+  "decisive_axis": "latency",
+  "rationale": "The 3-month gap after parental separation and subsequent behavioral change strongly link the diagnosis to an adjustment-related defense mechanism rather than a fixed personality pattern."
+ },
+ "mmlu_0138": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis relies mainly on lesion appearance and acetic acid whitening indicating condyloma acuminata; the 4-week duration adds little discriminatory value."
+ },
+ "mmlu_0139": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis hinges mainly on hypovolemia and shock signs; the 4-day GI illness only modestly supports fluid loss rather than defining the shock type."
+ },
+ "mmlu_0140": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends on the egg-triggered anaphylactic features and vaccine content, not on how long the symptoms have lasted."
+ },
+ "mmlu_0141": {
+  "score": 0.8,
+  "decisive_axis": "latency",
+  "rationale": "The two-week delay after head trauma is key for post-traumatic central diabetes insipidus; without that time course, the diagnosis would be less specific."
+ },
+ "mmlu_0142": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "Six postoperative days helps determine whether temporary enteral recovery is still expected, but nutrition choice mainly depends on postoperative status and ileus, not duration alone."
+ },
+ "mmlu_0143": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "Hypoglycemia is established by symptoms and glucose; the 3-hour duration and 6-month history add little beyond context."
+ },
+ "mmlu_0144": {
+  "score": 0.5,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The short, paroxysmal course supports trigeminal neuralgia over chronic facial pain, though the diagnosis depends more on characteristic triggers and pain quality."
+ },
+ "mmlu_0145": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on assay interference from sickle cell disease affecting HbA1c, not on how long symptoms lasted or their tempo."
+ },
+ "mmlu_0146": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis and treatment choice depend on cancer history and spinal metastasis, not on how long or how quickly the back pain developed."
+ },
+ "mmlu_0147": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis and treatment are determined by profound chemotherapy-induced neutropenia, not by the six-day time course."
+ },
+ "mmlu_0148": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven by the serpiginous perianal rash and eosinophilia; the 4-week duration is not strongly discriminating."
+ },
+ "mmlu_0149": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is an ethics/confidentiality issue; timing of illness does not affect the correct answer."
+ },
+ "mmlu_0150": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The one-year duration helps distinguish transient pubertal gynecomastia from persistent pathologic causes, but exam and hormone findings are more important."
+ },
+ "mmlu_0151": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis is primarily supported by mechanical features and exam findings; the 3-day duration mainly confirms an acute, self-limited strain."
+ },
+ "mmlu_0152": {
+  "score": 0.4,
+  "decisive_axis": "progression",
+  "rationale": "The 2-day worsening course supports an acute pelvic infection, but the diagnosis depends more on fever, cervical discharge, and uterine/adnexal tenderness."
+ },
+ "mmlu_0153": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven by characteristic exam findings of systemic sclerosis/parkinsonism-like features, not by how long they have been present."
+ },
+ "mmlu_0154": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis and next step depend on nodule size, TSH, and ultrasound features, not on how long it has been present."
+ },
+ "mmlu_0155": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is an immunization screening question; contraindications depend on specific history, not on the illness time course."
+ },
+ "mmlu_0156": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The 2-hour postnatal onset strongly distinguishes transient tachypnea of the newborn from later or more abrupt neonatal respiratory causes."
+ },
+ "mmlu_0157": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a statistics question about sample size and power; illness time course is irrelevant to the answer."
+ },
+ "mmlu_0158": {
+  "score": 1.0,
+  "decisive_axis": "latency",
+  "rationale": "The abrupt neurologic deterioration four hours after neck manipulation is central, distinguishing a procedure-related vascular injury from routine musculoskeletal neck pain."
+ },
+ "mmlu_0159": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a statistics question about relative risk; time course of illness is irrelevant to identifying the answer."
+ },
+ "mmlu_0160": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The chronic duration supports IBS over acute inflammatory causes, but the diagnosis hinges more on symptom pattern and negative testing than on time course."
+ },
+ "mmlu_0161": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a study-design question; the 2-month treatment duration is not used to distinguish diagnoses or clinical entities."
+ },
+ "mmlu_0162": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Very rapid onset within 15 minutes after a bee sting strongly indicates an acute allergic/anaphylactic reaction, whereas a slower course would suggest another cause of wheeze."
+ },
+ "mmlu_0163": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "The five-year delay after penetrating trauma is key, pointing to a chronic traumatic arteriovenous fistula rather than an acute post-injury complication."
+ },
+ "mmlu_0164": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis is acute pericarditis from positional pleuritic pain and diffuse ST elevation; the 12-hour duration is not discriminative."
+ },
+ "mmlu_0165": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The exposure timeline helps slightly, but diagnosis hinges mainly on the rash appearance and hot-tub/pool exposure rather than symptom duration."
+ },
+ "mmlu_0166": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The several-month, fluctuating enlargement strongly favors a hydrocele/spermatocele pattern over acute inflammatory or neoplastic causes."
+ },
+ "mmlu_0167": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The evolving URI-to-wheezing course narrows to bronchiolitis, but exam findings and exposure history are equally important."
+ },
+ "mmlu_0168": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a pharmacology mechanism question; diagnosis is determined by drug effect, not by symptom duration or temporal course."
+ },
+ "mmlu_0169": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends on TP53 function and radiation resistance, not on how long the tumor has been growing."
+ },
+ "mmlu_0170": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The 2-year progressive decline strongly supports dementia over acute or reversible causes, though imaging and labs also matter greatly."
+ },
+ "mmlu_0171": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis depends on congenital anatomic findings and oligohydramnios, not on how long or fast symptoms developed."
+ },
+ "mmlu_0172": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a genetics inheritance question; diagnosis depends on family/genetic findings, not illness duration or temporal progression."
+ },
+ "mmlu_0173": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Management depends on asymptomatic bacteriuria screening results and pregnancy status, not on symptom duration or progression."
+ },
+ "mmlu_0174": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven by hypermobility, marfanoid features, and family history; the duration mainly shows chronicity rather than distinguishing diagnoses."
+ },
+ "mmlu_0175": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The postprandial timing and recurrence pattern strongly suggest biliary colic, while the 8-week duration mainly narrows the differential rather than deciding it."
+ },
+ "mmlu_0176": {
+  "score": 0.1,
+  "decisive_axis": "latency",
+  "rationale": "The antibiotic exposure is far more diagnostic than the 5-day duration, which only modestly supports an acute infectious diarrheal process."
+ },
+ "mmlu_0177": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "Acute 2-day onset slightly favors an infected pilonidal abscess, but the exam findings are far more diagnostic than the time course."
+ },
+ "mmlu_0178": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis and management hinge on capacity, prior directives, and current preferences, not on how long or fast the dyspnea developed."
+ },
+ "mmlu_0179": {
+  "score": 0.6,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The 9-day URI with 1-day worsening facial pain helps distinguish acute bacterial sinusitis from a short viral illness or chronic sinus disease."
+ },
+ "mmlu_0180": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The immediate post-trauma presentation and rapid development of shock strongly shape the diagnosis toward acute traumatic diaphragmatic/visceral injury."
+ },
+ "mmlu_0181": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The gradual evolution from irregular menses to amenorrhea with progressive hyperandrogenic features helps, but the diagnosis mainly rests on the syndrome’s characteristic findings."
+ },
+ "mmlu_0182": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis and workup depend mainly on the thyroid nodule’s exam features and ultrasound/FNA pathway, not on the one-week duration."
+ },
+ "mmlu_0183": {
+  "score": 0.7,
+  "decisive_axis": "latency",
+  "rationale": "Six weeks after transplant makes opportunistic infection and rejection timing highly diagnostic; the short cold/fatigue course is supportive but not the sole driver."
+ },
+ "mmlu_0184": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis and lymph node drainage depend on lesion location below the dentate line, not on the 6-month symptom duration."
+ },
+ "mmlu_0185": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is an epidemiology study design question; timing of illness does not affect the correct answer."
+ },
+ "mmlu_0186": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 3-4 week evolution modestly suggests nephrotic syndrome, but diagnosis depends far more on edema/ascites findings and likely urinary abnormalities than timing."
+ },
+ "mmlu_0187": {
+  "score": 0.2,
+  "decisive_axis": "symptom_duration",
+  "rationale": "Four months suggests a chronic anorectal process, but the diagnosis is driven mainly by sexual risk and characteristic perianal lesions rather than timing."
+ },
+ "mmlu_0188": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The months-long worsening and functional decline help distinguish vascular dementia from acute stroke or delirium, though exam and history are also heavily weighted."
+ },
+ "mmlu_0189": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Amenorrhea is determined by associated sexual development and androgen findings, not by how long symptoms have been present."
+ },
+ "mmlu_0190": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The 3-day worsening course helps suggest acute CNS infection, but the diagnosis mainly depends on meningitis/CSF findings rather than exact duration."
+ },
+ "mmlu_0191": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The chronic/intermittent course suggests functional bowel disease, but the answer depends mainly on anatomy of sympathetic innervation, not duration."
+ },
+ "mmlu_0192": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis is established by pelvic exam and biopsy; the brief symptom durations do not meaningfully distinguish among plausible diagnoses."
+ },
+ "mmlu_0193": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is driven mainly by mitral stenosis findings; one month of symptoms suggests decompensation but is not diagnostic by itself."
+ },
+ "mmlu_0194": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Respiratory insufficiency is explained by diazepam-induced respiratory depression and timing after treatment, not by the seizure's duration or progression."
+ },
+ "mmlu_0195": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis and management depend on the polysomnogram finding of obstructive sleep apnea, not on symptom duration or tempo."
+ },
+ "mmlu_0196": {
+  "score": 0.1,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute 24-hour onset suggests bacterial meningitis, but diagnosis and treatment are driven mainly by CSF findings and gram stain."
+ },
+ "mmlu_0197": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis is stable angina after MI, driven mainly by exertional chest pain and history, while the 6-week duration adds little beyond confirming chronicity."
+ },
+ "mmlu_0198": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 3-month exertional decline helps distinguish new symptomatic valvular disease from a long-standing benign murmur, but exam findings remain equally important."
+ },
+ "mmlu_0199": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "Her lifelong tremor worsening over the past month helps distinguish essential tremor exacerbation from a new medication-induced or other secondary tremor."
+ },
+ "mmlu_0200": {
+  "score": 0.5,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The acute 2-3 day course supports pelvic inflammatory disease over chronic pelvic causes, but exam and sexual history are equally important."
+ },
+ "mmlu_0201": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on age-related sleep-maintenance insomnia and lifestyle/medical clues, not on how long the awakenings have been present."
+ },
+ "mmlu_0202": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis and next step depend on persistent asymptomatic hypertension and normal studies, not on how long it has been present."
+ },
+ "mmlu_0203": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Two-day acute fever with hot, swollen monoarthritis strongly favors septic arthritis over post-traumatic or inflammatory causes."
+ },
+ "mmlu_0204": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The 1-week progressive fatigue helps favor infectious mononucleosis, but the exudative pharyngitis and lymphadenopathy are equally important."
+ },
+ "mmlu_0205": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on burn pattern and suspicion for abuse, not on how long symptoms have been present or their temporal evolution."
+ },
+ "mmlu_0206": {
+  "score": 0.5,
+  "decisive_axis": "latency",
+  "rationale": "The three-month post-transplant timing strongly suggests opportunistic CMV disease, but biopsy and labs are also major drivers of the diagnosis."
+ },
+ "mmlu_0207": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a physiology question; the 15-minute exercise duration is incidental and the answer depends on exercise-induced hemodynamic changes, not illness time course."
+ },
+ "mmlu_0208": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute 30-minute onset with rapid hemodynamic collapse strongly determines traumatic hemorrhage and urgent operative management."
+ },
+ "mmlu_0209": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "One-week progressive dyspnea narrows toward acute decompensation, but the diagnosis is driven mainly by the characteristic mitral stenosis findings."
+ },
+ "mmlu_0210": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Sudden thunderclap onset over 12 hours strongly distinguishes subarachnoid hemorrhage from more gradual causes of headache and neck stiffness."
+ },
+ "mmlu_0211": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on phenotype and variant interpretation, not symptom duration or tempo; the time course is irrelevant here."
+ },
+ "mmlu_0212": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends on chronic behavioral pattern and inconsistent symptom reporting, not on symptom duration or tempo."
+ },
+ "mmlu_0213": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis and management hinge on findings/serology and lymphadenopathy; the chronic pica and brief headaches do not determine toxoplasmosis management."
+ },
+ "mmlu_0214": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on phenotype and azoospermia suggesting Klinefelter syndrome, not on any duration, onset, or progression of symptoms."
+ },
+ "mmlu_0215": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis and risk question hinge on smoking dependence and medication effects, not on how long symptoms have lasted or their tempo."
+ },
+ "mmlu_0216": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis and initial management depend on AIDS-related upper GI pathology and evidence of bleeding, not on how long symptoms have been present."
+ },
+ "mmlu_0217": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a hypertension mechanism question; the diagnosis and answer depend on physiology, not how long symptoms have lasted or evolved."
+ },
+ "mmlu_0218": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends on neuroanatomy and the emotion elicited during stimulation, not on how long symptoms lasted or their temporal evolution."
+ },
+ "mmlu_0219": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on recurrent catalase-positive infections and abnormal nitroblue tetrazolium testing, not on the short symptom duration."
+ },
+ "mmlu_0220": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a statistics question; time course of illness is irrelevant to identifying the correct answer."
+ },
+ "mmlu_0221": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis is driven mainly by the necrotic skin lesion, hemorrhagic rash, and travel exposure; the 6-day course only modestly supports an acute infection."
+ },
+ "mmlu_0222": {
+  "score": 0.7,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The 4-day acute course strongly favors cellulitis after skin trauma over chronic mimics, though the antibiotic choice also depends on allergy history and HIV."
+ },
+ "mmlu_0223": {
+  "score": 0.7,
+  "decisive_axis": "progression",
+  "rationale": "The recurrent episodic pattern over months strongly supports Ménière disease versus acute vestibular or chronic hearing-loss disorders."
+ },
+ "mmlu_0224": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis is mainly peritonsillar abscess from asymmetric exam findings; the 5-day/3-day course adds some support but is not decisive."
+ },
+ "mmlu_0225": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on paroxysmal symptoms and adrenal mass; the vignette's time course does not meaningfully discriminate among alternatives."
+ },
+ "mmlu_0226": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends on the trauma pattern and anatomic sensory deficits with fractures, not on how long symptoms have been present."
+ },
+ "mmlu_0227": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis depends mainly on adherent oral plaques suggesting thrush, while the 2-day duration is not crucial to identifying it."
+ },
+ "mmlu_0228": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis rests mainly on exam findings localizing rotator cuff tendinopathy; the 2-day duration after chopping wood is supportive but not decisive."
+ },
+ "mmlu_0229": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The 4-month bruising helps establish chronic thrombocytopenia, but diagnosis depends mainly on labs, cancer history, and excluding marrow disease."
+ },
+ "mmlu_0230": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis and management depend on exposure history and current asymptomatic status, not on the illness time course."
+ },
+ "mmlu_0231": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis depends on IV drug use, fever, and murmur suggesting endocarditis; the time course is not clinically discriminating here."
+ },
+ "mmlu_0232": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The one-month worsening and increased rescue inhaler use help distinguish uncontrolled persistent asthma from stable intermittent disease, though exam and peak flow also matter."
+ },
+ "mmlu_0233": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "Abrupt collapse during exertion in heat points to heat stroke; rapid onset is central to distinguishing it from other febrile or neurologic causes."
+ },
+ "mmlu_0234": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a vaccine-design question; diagnosis does not depend on symptom duration, onset speed, progression, or latency."
+ },
+ "mmlu_0235": {
+  "score": 0.6,
+  "decisive_axis": "progression",
+  "rationale": "The 3-day fever/chills after burns and new fluctuance/drainage help identify an acute burn wound abscess/cellulitis needing urgent source control."
+ },
+ "mmlu_0236": {
+  "score": 0.5,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The 2-month duration helps distinguish a manic episode from brief intoxication or transient hypomanic symptoms, but clinical features remain equally important."
+ },
+ "mmlu_0237": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "Heart failure with mitral regurgitation is identified mainly by exam findings and symptoms; the 2-month duration adds little diagnostic discrimination."
+ },
+ "mmlu_0238": {
+  "score": 0.7,
+  "decisive_axis": "symptom_duration",
+  "rationale": "A 3-day acute course strongly favors an acute overuse/thrombosis/inflammatory process rather than chronic occupational arm pathology."
+ },
+ "mmlu_0239": {
+  "score": 0.8,
+  "decisive_axis": "progression",
+  "rationale": "The steadily worsening postoperative hypotension and oliguria over hours strongly indicate ongoing intraabdominal bleeding rather than a fixed postoperative complication."
+ },
+ "mmlu_0240": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis is determined by cystic fibrosis features and CFTR mutation, not by the brief abdominal pain duration."
+ },
+ "mmlu_0241": {
+  "score": 0.9,
+  "decisive_axis": "onset_speed",
+  "rationale": "The abrupt 10-hour deterioration is crucial for distinguishing acute toxidrome/neuroleptic malignant syndrome from slower psychiatric or infectious causes."
+ },
+ "mmlu_0242": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis depends on penetrating chest trauma and radiographic findings; symptom duration or tempo does not meaningfully discriminate."
+ },
+ "mmlu_0243": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The question hinges on postoperative DVT prophylaxis choice and bleeding/cardiac risk, not on how long symptoms have been present."
+ },
+ "mmlu_0244": {
+  "score": 0.2,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The chronic one-year course supports hypothyroidism, but the diagnosis is driven mainly by classic clinical signs and exam findings."
+ },
+ "mmlu_0245": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis/management depends on genetics, family dynamics, and consent issues, not on how long symptoms have been present."
+ },
+ "mmlu_0246": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The diagnosis is mainly driven by mastoid signs and failed otitis treatment; the 3-day worsening course adds some support but is not decisive."
+ },
+ "mmlu_0247": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis is established by fracture, low DEXA, and normal labs; one week of pain does not meaningfully distinguish osteoporosis from alternatives."
+ },
+ "mmlu_0248": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "Shortness of breath starting three days after glaucoma eyedrops strongly implicates a drug adverse effect; timing is central to identifying the cause."
+ },
+ "mmlu_0249": {
+  "score": 0.2,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on fever, leukocytosis, and inability to obtain CSF, not on the several-hour duration of lethargy."
+ },
+ "mmlu_0250": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis and best initial action depend on postoperative pain management and addiction misconceptions, not on how long symptoms have lasted."
+ },
+ "mmlu_0251": {
+  "score": 0.3,
+  "decisive_axis": "progression",
+  "rationale": "The chronic intermittent course with recent worsening modestly supports a progressive malabsorptive process, but diagnosis mainly depends on hypocalcemia and steatorrhea."
+ },
+ "mmlu_0252": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is a chronic end-stage renal disease treatment-planning case; the correct consideration depends on clinical and social factors, not illness time course."
+ },
+ "mmlu_0253": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis depends on leukocytosis with mature B-lymphocytes and immunophenotype; the vague fatigue duration does not meaningfully discriminate."
+ },
+ "mmlu_0254": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on a fluctuant tender mass consistent with Bartholin abscess; the 2-day duration does not meaningfully change the leading diagnosis."
+ },
+ "mmlu_0255": {
+  "score": 0.2,
+  "decisive_axis": "symptom_duration",
+  "rationale": "The chronic 6-month functional pattern suggests IBS, but diagnosis relies mainly on symptom relief after bowel movements and normal evaluation."
+ },
+ "mmlu_0256": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "The short recurrent course suggests acute urticaria, but management is driven more by benign exam and history than by exact duration."
+ },
+ "mmlu_0257": {
+  "score": 0.2,
+  "decisive_axis": "latency",
+  "rationale": "The 7-month course and 4-month weight loss suggest malignancy-related paraneoplastic disease, but diagnosis mainly depends on exam and the hilar mass, not duration."
+ },
+ "mmlu_0258": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis depends on otoscopic finding of a brown mass behind an intact tympanic membrane and recurrent otitis history, not on symptom duration or tempo."
+ },
+ "mmlu_0259": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "This is an ethics/legal disclosure question; the diagnosis and recommendation do not depend on symptom duration, onset, or progression."
+ },
+ "mmlu_0260": {
+  "score": 0.5,
+  "decisive_axis": "progression",
+  "rationale": "The worsening severity with repeated stings strongly guides management, while the brief acute episode timing mainly supports anaphylaxis but is not alone decisive."
+ },
+ "mmlu_0261": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis rests on toxidrome findings—pinpoint pupils, stupor, and cool damp skin—not on symptom duration or progression."
+ },
+ "mmlu_0262": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on the discharge character and associated findings, not on how long it has been present or how it evolved."
+ },
+ "mmlu_0263": {
+  "score": 0.5,
+  "decisive_axis": "onset_speed",
+  "rationale": "The 3-month gradual onset after intensifying training helps distinguish overtraining/adjustment from acute medical or psychiatric causes, but other clinical details are equally important."
+ },
+ "mmlu_0264": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis and next step depend on elevated MSAFP and gestational age, not on the pregnancy timing or symptom duration."
+ },
+ "mmlu_0265": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "The diagnosis hinges on biopsy and menstrual-phase histology, not on the six-month symptom duration or progression."
+ },
+ "mmlu_0266": {
+  "score": 0.2,
+  "decisive_axis": "onset_speed",
+  "rationale": "The acute 1-day onset supports crystal arthritis over chronic joint disease, but the diagnosis is mainly determined by synovial fluid microscopy."
+ },
+ "mmlu_0267": {
+  "score": 0.2,
+  "decisive_axis": "progression",
+  "rationale": "ALS is suggested by mixed upper and lower motor neuron signs; the six-month course supports chronic neurodegeneration but is not decisive."
+ },
+ "mmlu_0268": {
+  "score": 0.9,
+  "decisive_axis": "latency",
+  "rationale": "Symptoms beginning four days after surgery strongly suggest postoperative alcohol withdrawal delirium rather than structural brain injury or medication effect."
+ },
+ "mmlu_0269": {
+  "score": 0.4,
+  "decisive_axis": "progression",
+  "rationale": "The 8-week symptom duration supports major depression, but diagnosis and management rely more on depressive symptoms and suicidality than on exact timing."
+ },
+ "mmlu_0270": {
+  "score": 0.1,
+  "decisive_axis": "none",
+  "rationale": "Management depends on object size and location on imaging, while the 2-hour time course mainly confirms recent ingestion and does not drive diagnosis."
+ },
+ "mmlu_0271": {
+  "score": 0.0,
+  "decisive_axis": "none",
+  "rationale": "Diagnosis hinges on exertional angina/acute coronary syndrome features, not the 30-minute duration, which does not distinguish the condition."
+ }
+}

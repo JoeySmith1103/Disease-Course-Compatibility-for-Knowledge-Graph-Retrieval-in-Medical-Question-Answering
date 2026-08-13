@@ -282,7 +282,7 @@ def _bc_hybrid(cui, name, t):
 
 
 def process_one(item):
-    from kg_walker import walk
+    from kg_walker import walk, _bc_weight, _hop_penalty
     from llm_client import call_llm
 
     uid = item["uid"]; gold = item["answer"]; opts = item["options"]
@@ -355,12 +355,40 @@ def process_one(item):
     else:
         raw = call_llm(prompt, model=os.environ.get("WALKER_LLM", "gpt-5.4-mini"))
         pred = extract_letter(raw)
-    return {"uid": uid, "gold": gold, "predicted": pred,
-            "is_correct": pred == gold,
-            "route": "walker_kg" if has_dur else "walker_kg_nodur",
-            "patient_days": t, "n_walker_candidates": len(results),
-            "top1_cos": results[0]["cos"] if results else 0.0,
-            "kg_block": kg_block, "raw_response": raw}
+    rec = {"uid": uid, "gold": gold, "predicted": pred,
+           "is_correct": pred == gold,
+           "route": "walker_kg" if has_dur else "walker_kg_nodur",
+           "patient_days": t, "n_walker_candidates": len(results),
+           "top1_cos": results[0]["cos"] if results else 0.0,
+           "kg_block": kg_block, "raw_response": raw}
+
+    # WALKER_POOL_DUMP=1 keeps the whole retrieved pool with its RAW components, not just the
+    # top-K that reached the prompt. Storing cos/bc/hop separately is what makes a later sweep
+    # over top-K, λ, μ or the utility formula a re-ranking of this file rather than a re-walk of
+    # Neo4j — the same reason kg_block is frozen apart from prompt, pushed one level down.
+    #
+    # It does NOT make τ (min_score) or max_hops replayable: both gate EXPANSION during the walk,
+    # so a lower τ would have reached nodes that were never scored and cannot appear here. Those
+    # two still need a fresh run. The values in effect are recorded so a later analysis can tell
+    # which knobs its pool actually supports.
+    if os.environ.get("WALKER_POOL_DUMP", "0") == "1":
+        cap = int(os.environ.get("WALKER_POOL_CAP", "0"))       # 0 = keep everything
+        pool = results[:cap] if cap else results
+        rec["pool"] = [{"rank": i + 1, "cui": r["cui"], "name": r["name"], "role": r["role"],
+                        "hop": r["hop"], "cos": round(r["cos"], 6), "bc": round(r["bc"], 6),
+                        "score": round(r["score"], 6),
+                        "origin_seed": r.get("origin_seed"),
+                        "path": r.get("path"), "surv": r.get("surv")}
+                       for i, r in enumerate(pool)]
+        rec["pool_params"] = {"lambda_bc": _bc_weight(), "mu_hop": _hop_penalty(),
+                              "tau_min_score": 0.40, "max_hops": 2, "neighbor_limit": 200,
+                              "bc_mode": os.environ.get("WALKER_BC_MODE", "overlap"),
+                              "prompt_top_k": 10, "pool_cap": cap or None,
+                              "replayable": ["top_k", "lambda_bc", "mu_hop", "utility_fn",
+                                             "role_quota"],
+                              "needs_rerun": ["tau_min_score", "max_hops", "neighbor_limit",
+                                              "seeds", "query_embedding"]}
+    return rec
 
 
 def _ondemand_lines():

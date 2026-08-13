@@ -119,6 +119,16 @@ def _bc_weight() -> float:
     return float(os.environ.get("WALKER_BC_WEIGHT", "0.3"))
 
 
+def _hop_penalty() -> float:
+    """μ in score = cos + λ·bc − μ·hop.
+
+    Was a literal 0.08 at the scoring line. Made settable so a parameter sweep can vary it the
+    same way it varies λ, and so the pool dump can record which value produced a stored ranking —
+    an unrecorded constant is the one knob an analysis silently cannot account for.
+    """
+    return float(os.environ.get("WALKER_HOP_PENALTY", "0.08"))
+
+
 _BAD_RELA = frozenset({
     "has_finding_method", "finding_method_of",
     "has_finding_informer", "finding_informer_of",
@@ -207,6 +217,7 @@ def walk(
     verbose: bool = False,
 ) -> list[dict]:
     _bc_w = _bc_weight()
+    _mu = _hop_penalty()
     # Consequence-aware survival (off by default → canonical walk unchanged).
     # A time-compatible node (bc ≥ thr) survives frontier-pruning and expands
     # even if its overall score < min_score, provided cos ≥ a noise floor.
@@ -375,7 +386,7 @@ def walk(
             # Score = semantic + temporal − hop penalty. Nothing else: the intent
             # role bonus (+0.15 when a node's role matched the question's intent
             # target) was removed so the utility is exactly cos + λ·bc − μ·hop.
-            score_arr = cos_arr + _bc_w * bc_arr - 0.08 * hop_arr
+            score_arr = cos_arr + _bc_w * bc_arr - _mu * hop_arr
 
             # filter + build results + next_frontier
             next_frontier = []
