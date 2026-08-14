@@ -92,6 +92,12 @@ MedRAG 對 `medbullets` / `mmlu` 目前先視為 on hold：`run_stage_a.sh` 已�
 
 `__revised` 只應用在 KG-bearing methods：`walker`, `walker_interval`, `raw_1hop`, `raw_2hop`, `tog`, `hykge`。`vanilla` / `cot` 沒有 KG block，不要硬套 KG prompt v2。
 
+### Frozen prompt vs `prompts.py`
+
+Reader 實際送給模型的 prompt 通常已經存在 `frozen/<dataset>/<method>.json` 的每個 `item["prompt"]` 裡。也就是說，`walker__revised.json` 的 `item["prompt"]` 本身就已經是 prompt v2；如果 runner 使用 `PROMPT_VARIANT=frozen_legacy`，就會直接送這段 frozen prompt，不再套 `prompts.py` 的 template。
+
+`prompts.py` 只有在兩種情況會影響 reader prompt：第一是用 `rerender_prompts.py` 重新產生 `__revised` frozen files；第二是 runner 指定 runtime prompt surgery，例如 `small_model_block`、`walker_v1`、`walker_v2`。特別注意：如果拿 `walker__revised` 再搭配 `PROMPT_VARIANT=small_model_block`，實際 prompt 會變成「frozen 裡的 v2 prompt」再額外 append `[Output Format]` 區塊，這不是乾淨的 v2 prompt。
+
 重新 render prompt v2，不重跑 retrieval：
 
 ```bash
@@ -153,11 +159,11 @@ vLLM runner 的 `PROMPT_VARIANTS` 可用：
 | value | meaning |
 | --- | --- |
 | `frozen_legacy` / `original` / `legacy` | 直接使用 frozen file 裡存好的 prompt；如果 method 是 `walker__revised`，這就等於 prompt v2 |
-| `small_model_block` | 保留 frozen prompt 主體，但把 answer section 改成 `[Reasoning]` / `[Answer]`，降低 unparseable |
+| `small_model_block` | 對 frozen prompt 做 runtime 加工並 append `[Output Format]`；可降低 unparseable，但若 frozen file 已是 `__revised`，實際 prompt 會是 v2 + 額外 output instruction，不是乾淨 v2 |
 | `walker_v1` / `prompt_v1` | runtime 套 `prompts.WALKER_V1`；只適用 `walker` / `walker_interval` |
 | `walker_v2` / `prompt_v2` / `prompt_ver3` | runtime 套 `prompts.WALKER_V2`；只適用 `walker` / `walker_interval` |
 
-建議比較 prompt v2 時優先用 frozen `__revised` 檔：
+建議比較乾淨 prompt v2 時優先用 frozen `__revised` 檔，並搭配 `PROMPT_VARIANTS=frozen_legacy`：
 
 ```bash
 DATASETS=329,1273 METHODS=walker__revised,walker_interval__revised \
