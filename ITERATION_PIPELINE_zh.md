@@ -131,6 +131,10 @@ repo 內，可直接以 uid 對上 `benchmark.json` 與候選池：
 | `LAMBDA` | 0.3 | bc 的係數 |
 | `MU` | 0.08 | hop 懲罰 |
 | `UTILITY` | — | 直接寫式子，如 `UTILITY='cos*bc'`；可用 `cos` `bc` `hop` `score` |
+| `UTILITY_MODE` | fixed | `criticality` / `adaptive` / `dispersion`，見下 |
+| `W_MAX` | 0.6 | 凸形式裡 bc 能拿到的權重上限 |
+| `HOP_SCALED` | 0 | 凸形式下讓 hop 懲罰跟著 (1−w) 縮放 |
+| `JUDGE` | — | 把加權決定交給外部模組（需自備，見檔內說明）|
 | `BC_SRC` | overlap | `onesided` 改讀候選的 `bc_onesided` 欄位（`P(病程 ≥ 已過時間)`）|
 | `DELTA` | 0 | 多樣性懲罰：選第 k 個時扣掉與已選項的名稱重疊 |
 | `NOVELTY` | 0 | 題幹重疊懲罰：候選越像題目重述，扣越多 |
@@ -150,8 +154,34 @@ DATASET=329 METHOD=walker BC_SRC=onesided DELTA=0.3 python3 render_from_pool.py
 #   -> frozen/329/walker__k10_l0.3_m0.08_d0.3_os.json
 ```
 
-要加新的訊號項，改 `_utility_raw()` 與 `rank()` 即可；記得在變體名稱裡加上對應標籤，否則不同
-設定會寫到同一個檔案。
+### 四種權重規則
+
+`UTILITY_MODE` 決定 cos 與 bc 之間的權重 w 怎麼來。四者填的是同一個槽位，互為對照而非可疊加：
+
+| 模式 | w 從哪來 | 粒度 |
+|---|---|---|
+| `fixed` | 固定 λ=0.3（shipped）| 無 |
+| `criticality` | LLM 讀病歷判定的 `criticality.json` 分數 | 逐題 |
+| `dispersion` | 該題候選集內 cos 與 bc 各自的離散度 | 逐題 |
+| `adaptive` | 該候選的 cos 落在池分布的哪裡 | 逐候選 |
+
+`fixed` 之外三者共用凸形式 `U = (1−w)·cos + w·bc − μ·hop`，所以彼此可比。
+
+**`dispersion` 的兩個實作決定**（都是為了避免量到假訊號）：
+
+- **σ 換成百分位再比。** bc 值域 0–1、非零中位 0.67；cos 只在 0.35–0.65 的窄帶。直接比標準差
+  的話 bc 幾乎每題都贏，而那是值域造成的，不是資訊量。所以每題的 σ 換成「該訊號自身跨題 σ
+  分布」的百分位，`w_bc = W_MAX · p_bc / (p_cos + p_bc)`。
+- **算 σ_bc 時排除 bc==0 的候選。** bc=0 同時代表「查不到時長」「非疾病節點」「時間不相容」
+  三種情況，算進去等於把未知當成零相容，量到的是缺值樣態。該題 bc>0 的候選少於 `DISP_MIN_BC`
+  （預設 5）就令 `w_bc = 0`。
+
+實測：MedBullets 308 題中 162 題有時間訊號（正好等於「bc>0 候選 ≥6」的題數），有訊號者
+`w_bc` 中位 0.29、max 0.57；其餘 146 題 w=0，公式退化成 baseline 本身。
+
+要加新的訊號項，改 `_utility_raw()` 與 `rank()` 即可；要換整套加權規則，用 `JUDGE` 掛上自己的
+物件（提供 `utility(candidate, uid)`）。記得在變體名稱裡加上對應標籤，否則不同設定會寫到同一
+個檔案。
 
 ---
 

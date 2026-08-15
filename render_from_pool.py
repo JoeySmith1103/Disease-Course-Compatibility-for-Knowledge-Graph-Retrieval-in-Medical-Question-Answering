@@ -18,7 +18,7 @@ Usage:
   DATASET=329 METHOD=walker UTILITY='cos*bc' python3 pipeline/render_from_pool.py
   DATASET=329 METHOD=walker TOP_K=20 DRY=1 python3 pipeline/render_from_pool.py   # 只看不寫
 """
-import json, os, re, importlib.util
+import bisect, json, os, re, statistics as st, importlib.util
 from pathlib import Path
 
 PIPE = Path(__file__).resolve().parent
@@ -150,7 +150,17 @@ DELTA     = float(os.environ.get("DELTA", "0"))
 NOV       = float(os.environ.get("NOVELTY", "0"))
 
 W_MAX  = float(os.environ.get("W_MAX", "0.6"))
+# below this many bc>0 candidates a question has no temporal spread to measure
+DISP_MIN_BC = int(os.environ.get("DISP_MIN_BC", "5"))
 HOP_SCALED = os.environ.get("HOP_SCALED", "") not in ("", "0")
+# JUDGE is an extension point, not a mode. MODE picks one of the weight rules written here; JUDGE
+# hands the whole weighting decision to an external module, so a new rule can be tried without
+# touching this file. `judged_utility.py` (a separate line of work, not in this repo) is one such
+# module — the error below says so rather than pretending the option does not exist, because the
+# frozen files it produced are named in the results and a reader will meet them.
+JUDGE  = os.environ.get("JUDGE", "")
+NORMALIZE = os.environ.get("NORMALIZE", "1") not in ("", "0")
+MAG_NORM  = os.environ.get("MAG_NORM", "1") not in ("", "0")
 CRIT   = {}
 if MODE == "criticality":
     p = PIPE / f"datasets/{DS}/criticality.json"
@@ -170,9 +180,63 @@ def _cos_breakpoints(records):
     return pick(0.25), pick(0.90)
 
 
+# MODE=dispersion asks each question's own candidate set which signal is worth listening to.
+#
+# A signal that is nearly constant across the candidates cannot separate them, whatever its
+# average level — it contributes the same amount to every score and the ranking is decided by
+# whatever else varies. So the weight follows the spread: the signal that actually moves across
+# THIS question's neighbours gets to steer, per question rather than per candidate.
+#
+# Raw σ is not comparable between the two signals. bc lives in 0–1 with a non-zero median of 0.67;
+# cos sits in a narrow 0.35–0.65 band. Comparing their standard deviations directly would hand bc
+# the weight on nearly every question for a reason that has nothing to do with information. Each
+# question's σ is therefore replaced by its PERCENTILE within that signal's own cross-question σ
+# distribution, which makes "this question's cos is unusually spread out" comparable to the same
+# statement about bc.
+_DISP = {}
+
+
+def _dispersion_weights(records):
+    """w_bc per question, from the percentile-normalised spread of bc against that of cos.
+
+    bc == 0 means three different things — no patient duration, a non-disease node, or genuine
+    temporal incompatibility. Counting the zeros in σ_bc would read "unknown" as "incompatible" and
+    report a spread that is really a missing-data pattern, so σ_bc is taken over the bc > 0
+    candidates only. Below MIN_BC of them there is not enough temporal signal on this question to
+    have an opinion, and w_bc is 0 — the honest version of the shipped formula, which multiplies
+    an all-zero bc by 0.3 on 46% of MedBullets questions.
+    """
+    sig = {}
+    for r in records:
+        cs = [c.get("cos", 0.0) for c in r["candidates"]]
+        bs = [_bc(c, r["uid"]) for c in r["candidates"]]
+        bs = [b for b in bs if b > 0]
+        sig[r["uid"]] = (st.pstdev(cs) if len(cs) > 1 else 0.0,
+                         st.pstdev(bs) if len(bs) >= DISP_MIN_BC else None)
+    cos_ref = sorted(v[0] for v in sig.values())
+    bc_ref = sorted(v[1] for v in sig.values() if v[1] is not None)
+
+    def pct(ref, x):
+        if not ref:
+            return 0.0
+        lo = bisect.bisect_left(ref, x)
+        return (lo + bisect.bisect_right(ref, x)) / (2 * len(ref))
+
+    out = {}
+    for uid, (sc, sb) in sig.items():
+        if sb is None:
+            out[uid] = 0.0          # no temporal signal here — fall back to pure semantics
+            continue
+        pc, pb = pct(cos_ref, sc), pct(bc_ref, sb)
+        out[uid] = W_MAX * (pb / (pc + pb)) if (pc + pb) > 0 else 0.0
+    return out
+
+
 def weight_for(c, uid):
     if MODE == "criticality":
         return min(CRIT.get(uid, 0.0), W_MAX)
+    if MODE == "dispersion":
+        return _DISP.get(uid, 0.0)
     if MODE == "adaptive":
         # linear ramp: cos ≤ p25 → full temporal weight, cos ≥ p90 → none
         span = max(_C_HI - _C_LO, 1e-6)
@@ -196,6 +260,8 @@ def utility(c, uid=None):
 
 
 def _utility_raw(c, uid=None):
+    if JUDGE:
+        return _JUDGE_OBJ.utility(c, uid)
     if UTILITY:
         return eval(UTILITY, {"__builtins__": {}},
                     {"cos": c.get("cos", 0.0), "bc": c.get("bc", 0.0),
@@ -292,6 +358,25 @@ def days_to_phrase(d):
     return f"{int(d/365)} years"
 
 
+_JUDGE_OBJ = None
+if JUDGE:
+    try:
+        from judged_utility import Judge
+    except ImportError:
+        raise SystemExit(
+            f"JUDGE={JUDGE} 需要 judged_utility.py，此 repo 未附。"
+            " 若要自訂加權規則，實作一個提供 utility(candidate, uid) 的物件並在此接上即可。")
+    _JUDGE_OBJ = Judge(JUDGE, records, DS, lambda c: _bc(c, None),
+                       normalize=NORMALIZE, mag_norm=MAG_NORM)
+
+if MODE == "dispersion":
+    _DISP = _dispersion_weights(records)
+    _w = sorted(_DISP.values())
+    _nz = [x for x in _w if x > 0]
+    print(f"dispersion 逐題 w_bc: {len(_nz)}/{len(_w)} 題有時間訊號, "
+          f"中位 {(_w[len(_w)//2]):.3f}, 有訊號者中位 {(_nz[len(_nz)//2] if _nz else 0):.3f}, "
+          f"max {(_w[-1] if _w else 0):.3f}")
+
 if MODE == "adaptive":
     _C_LO, _C_HI = _cos_breakpoints(records)
     print(f"adaptive 斷點取自本池的 cos 分布: p25={_C_LO:.3f} → w={W_MAX:.2f}, "
@@ -327,6 +412,8 @@ if MODE == "fixed":
     _wtag = f"_l{LAMBDA:g}_m{MU:g}"
 else:
     _wtag = f"_{MODE}_w{W_MAX:g}_m{MU:g}"
+if JUDGE:
+    _wtag = "_j" + JUDGE + ("" if NORMALIZE else "_nonorm") + ("" if MAG_NORM else "_magnone")
 variant = TAG or (f"k{TOP_K}" + ("" if not scored else _wtag)
                   + (f"_h{MAX_HOP}" if MAX_HOP is not None else "")
                   + ("_hs" if HOP_SCALED and MODE != "fixed" else "")
@@ -350,6 +437,7 @@ else:
     json.dump({"method": name, "dataset": DS, "n": len(items),
                "from_pool": str(pool_path.relative_to(PIPE)),
                "params": {"top_k": TOP_K, "mode": MODE, "w_max": W_MAX, "max_hop": MAX_HOP, "hop_scaled": HOP_SCALED, "bc_src": BC_SRC,
+                          "judge": JUDGE or None, "normalize": NORMALIZE, "mag_norm": MAG_NORM,
                           "delta": DELTA, "novelty": NOV,
                           "cos_p25": _C_LO, "cos_p90": _C_HI,
                           "lambda_bc": LAMBDA, "mu_hop": MU,
