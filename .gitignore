@@ -59,6 +59,15 @@ venv/
 frozen/*/walker__k*.json
 frozen/*/*__random10.json
 
-# 103 MB of retrieved candidate pools. Regenerable from Neo4j (~25 min/dataset) and not needed to
-# reproduce a frozen prompt, which is already tracked.
-pool/
+# pool/ IS tracked. It is the substrate the whole utility iteration runs on: every candidate the
+# walker retrieved, with its raw cos / bc / hop / role / path. Without it a change to the ranking
+# means a 25-minute Neo4j re-walk per dataset; with it, seconds. 102 MB is worth that.
+#
+# The judgement-layer experiments (LLM criticality, answer-type, dispersion) are deliberately not
+# here — this repo is for iterating the utility, and those are a separate line of work.
+datasets/*/criticality.json
+datasets/*/answer_type.json
+judged_utility.py
+verify_judge.py
+extract_answer_type.py
+extract_duration_criticality.py

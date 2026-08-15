@@ -18,7 +18,7 @@ Usage:
   DATASET=329 METHOD=walker UTILITY='cos*bc' python3 pipeline/render_from_pool.py
   DATASET=329 METHOD=walker TOP_K=20 DRY=1 python3 pipeline/render_from_pool.py   # 只看不寫
 """
-import json, os, importlib.util
+import json, os, re, importlib.util
 from pathlib import Path
 
 PIPE = Path(__file__).resolve().parent
@@ -44,6 +44,68 @@ MAX_HOP = int(MAX_HOP) if MAX_HOP not in (None, "") else None
 TAG     = os.environ.get("VARIANT", "")
 DRY     = os.environ.get("DRY", "")
 TEMPLATE_FILE = os.environ.get("TEMPLATE_FILE", "")
+
+_STOP = {"of", "the", "a", "an", "and", "or", "to", "in", "with", "disorder", "finding",
+         "disease", "syndrome", "nos", "due", "by", "on", "structure", "product", "substance"}
+_Q_STOP = _STOP | {"patient", "history", "year", "old", "man", "woman", "presents"}
+_WORD = re.compile(r"[a-z0-9]+")
+
+
+def name_tokens(name):
+    return {w for w in _WORD.findall((name or "").lower()) if w not in _STOP and len(w) > 2}
+
+
+def question_tokens(q):
+    return {w for w in _WORD.findall((q or "").lower()) if w not in _Q_STOP and len(w) > 2}
+
+
+def _overlap(a, b):
+    i = len(a & b)
+    return 0.0 if not i else 2 * i / (len(a) + len(b))
+
+
+def novelty(c, q_toks):
+    """1 − share of the candidate's name already present in the question.
+
+    cos rewards resembling the vignette, and what resembles a vignette most is a reworded symptom,
+    which carries no information the reader does not already have. Measured on these pools the gold
+    rate falls monotonically as that overlap rises: 1.12% at zero overlap down to 0.27% above 0.66
+    on 329 (0.50% → 0.18% on MedBullets).
+    """
+    t = name_tokens(c.get("name"))
+    return 1.0 - len(t & q_toks) / max(len(t), 1)
+
+
+def select_diverse(cands, score, top_k, delta, q_dis=7, q_other=3):
+    """Greedy selection charging a candidate for repeating one already chosen.
+
+    In the shipped top-10, 4.6 slots per question on 329 and 5.3 on MedBullets overlap another slot
+    by at least 0.5 on name tokens — half the block restates the complaint. Weights cannot fix that:
+    near-duplicates share nearly identical cos and move together whatever the coefficients are.
+
+    delta=0 reproduces plain top-k, so this is a strict extension.
+    """
+    if delta <= 0:
+        return None
+    pool = sorted(cands, key=lambda c: -score(c))
+    toks = {id(c): name_tokens(c.get("name")) for c in pool}
+    picked, n_dis = [], 0
+    while pool and len(picked) < top_k:
+        best, best_v = None, None
+        for c in pool:
+            if c.get("role") == "disease" and n_dis >= q_dis and len(picked) < top_k - 1:
+                continue
+            pen = max((_overlap(toks[id(c)], toks[id(p)]) for p in picked), default=0.0)
+            v = score(c) - delta * pen
+            if best_v is None or v > best_v:
+                best, best_v = c, v
+        if best is None:
+            break
+        picked.append(best); pool.remove(best)
+        if best.get("role") == "disease":
+            n_dis += 1
+    return picked
+
 
 _spec = importlib.util.spec_from_file_location("P", PIPE / "prompts.py")
 P = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(P)
@@ -78,14 +140,6 @@ MODE   = os.environ.get("UTILITY_MODE", "fixed")
 # long illness — the majority case — and that is the whole of bc's negative gold separation
 # (329: -0.169 -> +0.132, medbullets: -0.415 -> +0.169). See bc_onesided.py.
 BC_SRC = os.environ.get("BC_SRC", "overlap")
-# JUDGE replaces the fixed coefficients with a judgement layer (pipeline/judged_utility.py).
-# "llm", "dispersion", "magnitude", combinable with "+". Empty keeps the legacy MODE behaviour so
-# every already-frozen variant still rebuilds byte-identically.
-JUDGE     = os.environ.get("JUDGE", "")
-NORMALIZE = os.environ.get("NORMALIZE", "1") not in ("", "0")
-MAG_NORM  = os.environ.get("MAG_NORM", "median") != "none"
-ABSTAIN   = os.environ.get("ABSTAIN", "shipped")     # shipped | judged
-BETA      = float(os.environ.get("BETA", "0.5"))     # answer-type boost, free parameter
 # DELTA charges a candidate for repeating one already selected. 0 = plain top-k (unchanged).
 DELTA     = float(os.environ.get("DELTA", "0"))
 # NOVELTY charges a candidate for repeating the question's own wording.
@@ -133,16 +187,9 @@ def _bc(c, uid):
     return _compat(c["cui"], t) if (t and c.get("role") == "disease") else 0.0
 
 
-_JUDGE = None          # built after `records` is loaded
-
-
 def utility(c, uid=None):
-    base = _JUDGE.utility(c, uid) if _JUDGE is not None else None
-    if base is None:
-        base = _utility_raw(c, uid)
+    base = _utility_raw(c, uid)
     if NOV:
-        import sys as _s; _s.path.insert(0, str(PIPE))
-        from judged_utility import novelty
         base += NOV * novelty(c, _QTOK.get(uid, set()))
     return base
 
@@ -191,8 +238,6 @@ def rank(cands, uid=None):
         if kept:                      # never empty the block: a question with only deep hits
             cands = kept              # keeps its (weak) evidence rather than falling back to no-KG
     if scored and DELTA > 0:
-        import sys as _s; _s.path.insert(0, str(PIPE))
-        from judged_utility import select_diverse
         picked = select_diverse(cands, lambda c: utility(c, uid), TOP_K, DELTA, Q_DIS, Q_OTHER)
         if picked is not None:
             picked.sort(key=lambda c: -utility(c, uid))
@@ -246,26 +291,13 @@ def days_to_phrase(d):
     return f"{int(d/365)} years"
 
 
-if JUDGE:
-    import sys as _s; _s.path.insert(0, str(PIPE))
-    from judged_utility import Judge
-    _JUDGE = Judge(JUDGE, records, DS, lambda c: _bc(c, None),
-                   normalize=NORMALIZE, mag_norm=MAG_NORM, abstain=ABSTAIN, beta=BETA)
-    print(f"judge={JUDGE}  normalize={NORMALIZE}  mag_norm={MAG_NORM} "
-          f"abstain={ABSTAIN}" + (f" beta={BETA}" if "atype" in JUDGE else ""))
-
 if MODE == "adaptive":
     _C_LO, _C_HI = _cos_breakpoints(records)
     print(f"adaptive 斷點取自本池的 cos 分布: p25={_C_LO:.3f} → w={W_MAX:.2f}, "
           f"p90={_C_HI:.3f} → w=0")
 
 bench = {x["uid"]: x for x in json.load(open(PIPE / f"datasets/{DS}/benchmark.json"))}
-if NOV:
-    import sys as _s2; _s2.path.insert(0, str(PIPE))
-    from judged_utility import question_tokens
-    _QTOK = {u: question_tokens(x["question"]) for u, x in bench.items()}
-else:
-    _QTOK = {}
+_QTOK = {u: question_tokens(x["question"]) for u, x in bench.items()} if NOV else {}
 tpl = open(PIPE.parent / TEMPLATE_FILE if TEMPLATE_FILE.startswith("pipeline/")
            else TEMPLATE_FILE).read() if TEMPLATE_FILE else None
 
@@ -290,21 +322,13 @@ for r in records:
     items.append({"uid": r["uid"], "gold": r["gold"], "route": r.get("route"),
                   "kg_block": kg if picked else "", "prompt": pr})
 
-if JUDGE:
-    # the judge REPLACES λ/μ, so neither belongs in the name; SAMPLE is added because a
-    # random-control run used to silently overwrite the deterministic file at the same settings
-    _wtag = ("_j" + JUDGE.replace("+", "-")
-             + ("" if NORMALIZE else "_raw")
-             + ("" if MAG_NORM else "_magnone")
-             + ("" if ABSTAIN == "shipped" else "_ab" + ABSTAIN)
-             + (f"_b{BETA:g}" if "atype" in JUDGE else ""))
-elif MODE == "fixed":
+if MODE == "fixed":
     _wtag = f"_l{LAMBDA:g}_m{MU:g}"
 else:
     _wtag = f"_{MODE}_w{W_MAX:g}_m{MU:g}"
 variant = TAG or (f"k{TOP_K}" + ("" if not scored else _wtag)
                   + (f"_h{MAX_HOP}" if MAX_HOP is not None else "")
-                  + ("_hs" if HOP_SCALED and MODE != "fixed" and not JUDGE else "")
+                  + ("_hs" if HOP_SCALED and MODE != "fixed" else "")
                   + ("_rand" if SAMPLE == "random" else "")
                   + (f"_d{DELTA:g}" if DELTA > 0 else "")
                   + (f"_n{NOV:g}" if NOV else "")
@@ -314,7 +338,7 @@ name = f"{METHOD}__{variant}"
 med = sorted(sizes)[len(sizes)//2] if sizes else 0
 print(f"{DS}/{METHOD}: {len(items)} 題，每題證據中位數 {med} 條"
       f"（TOP_K={TOP_K}"
-      + ("" if not scored else (f", judge={JUDGE}" if JUDGE else f", λ={LAMBDA}, μ={MU}"))
+      + ("" if not scored else f", λ={LAMBDA}, μ={MU}")
       + (f", utility={UTILITY}" if UTILITY else "") + ")")
 print(f"  變體名稱: {name}")
 if DRY:
@@ -325,8 +349,7 @@ else:
     json.dump({"method": name, "dataset": DS, "n": len(items),
                "from_pool": str(pool_path.relative_to(PIPE)),
                "params": {"top_k": TOP_K, "mode": MODE, "w_max": W_MAX, "max_hop": MAX_HOP, "hop_scaled": HOP_SCALED, "bc_src": BC_SRC,
-                          "judge": JUDGE or None, "normalize": NORMALIZE, "mag_norm": MAG_NORM,
-                          "abstain": ABSTAIN, "beta": BETA, "delta": DELTA,
+                          "delta": DELTA, "novelty": NOV,
                           "cos_p25": _C_LO, "cos_p90": _C_HI,
                           "lambda_bc": LAMBDA, "mu_hop": MU,
                           "utility": UTILITY or "cos + λ·bc − μ·hop",
