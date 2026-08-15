@@ -71,6 +71,56 @@ python3 build_pools.py                     # 僅從既有檔案收集
 
 ---
 
+## 逐題可用的額外訊號
+
+候選池裡的 `cos` / `bc` / `hop` 都是**逐候選**的量。若要讓權重隨題目變動——例如某些題目的診斷
+根本不依賴病程時間，那些題目的 `bc` 就不該被加權——需要一個**逐題**的訊號。以下這幾份都在
+repo 內，可直接以 uid 對上 `benchmark.json` 與候選池：
+
+| 檔案 | 內容 | 粒度 |
+|---|---|---|
+| `datasets/<ds>/criticality.json` | LLM 判定「這題的診斷有多依賴病程時間」 | 逐題 |
+| `datasets/<ds>/durations.json` | 病人已過時間（天），`bc` 的輸入 | 逐題 |
+| `datasets/<ds>/seeds.json` / `symptoms.json` / `query_entities.json` | 走訪起點與查詢實體 | 逐題 |
+| `datasets/medbullets/temporal_critical.json`、`datasets/mmlu/temporal_critical.json` | 人工判讀的 temporal-critical 題號 | 逐題（子集）|
+| `datasets/329/benchmark.json` 的 `verdict` / `audit_source` | 329 自身的分層（`truly_tc` 163、`human_cf` 46）| 逐題 |
+
+`criticality.json` 三個資料集都備妥（329／308／272 題），每題一次 LLM 呼叫，**只讀病歷與題幹、
+不讀選項**（讀選項等於讓答案集決定哪些候選被拉高，是間接洩漏）：
+
+```json
+"aud_001": {"score": 0.4,
+            "decisive_axis": "progression",
+            "rationale": "The 72-hour acute progression supports severe infectious sepsis, but
+                          diagnosis is driven more by shock, pneumonia signs, and anuric organ
+                          failure than duration."}
+```
+
+- `score ∈ [0,1]` — 時間對這題的決定性。中位數 329 = 0.50、MedBullets = 0.20、MMLU = 0.10，
+  正好對應三者可從時間得到的空間大小。
+- `decisive_axis` — 它認為決定性的時間軸。實測分布（標籤由 LLM 自由生成，`duration` 與
+  `symptom_duration`、`time_course` 實為同義，使用前要先正規化）：
+
+  | | progression | latency | onset_speed | symptom_duration* | none |
+  |---|---|---|---|---|---|
+  | 329 | 35% | 22% | 19% | 8% | 15% |
+  | MedBullets | 29% | 9% | 15% | 5% | 42% |
+  | MMLU | 19% | 11% | 9% | 6% | 54% |
+
+  \* 合併 `symptom_duration` + `duration` + `time_course`。
+
+  這張表就是 `bc` 的已知限制：`bc` 拿「已過時間」比對「疾病總病程」，只模擬 symptom_duration
+  這一軸，而該軸只在 5–8% 的題目上是決定性的。真正常見的是 progression（症狀怎麼變化）與
+  latency（暴露到發病的間隔），兩者都不是「病程多長」，`bc` 結構上量不到。想改善時間訊號的
+  人，這裡是比調 λ 更有空間的方向。
+- 典型用法是把 `score` 當成 `a_bc` 的**先驗乘數**而非直接的權重：
+  `a_bc ∝ s(q)·base_bc`、`a_cos ∝ (1−s(q))·base_cos`。
+
+分數是 LLM 產生的判斷，不是人工標記；`temporal_critical.json` 與 329 的 `audit_source=human_cf`
+（46 題）才是人工判讀的部分。要拿來當評估依據時請用後者，`criticality.json` 適合當方法的輸入。
+
+---
+
 ## 改 utility
 
 `render_from_pool.py` 的旋鈕：

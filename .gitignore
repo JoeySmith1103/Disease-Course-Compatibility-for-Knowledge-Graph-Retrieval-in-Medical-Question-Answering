@@ -63,9 +63,10 @@ frozen/*/*__random10.json
 # walker retrieved, with its raw cos / bc / hop / role / path. Without it a change to the ranking
 # means a 25-minute Neo4j re-walk per dataset; with it, seconds. 102 MB is worth that.
 #
-# The judgement-layer experiments (LLM criticality, answer-type, dispersion) are deliberately not
-# here — this repo is for iterating the utility, and those are a separate line of work.
-datasets/*/criticality.json
+# datasets/*/criticality.json IS tracked: it is a per-QUESTION signal, and a per-question signal is
+# what someone needs to make the weights vary by question instead of being constants. The scripts
+# that consumed it are a separate line of work and stay out; the data it produced does not depend
+# on them.
 datasets/*/answer_type.json
 judged_utility.py
 verify_judge.py
