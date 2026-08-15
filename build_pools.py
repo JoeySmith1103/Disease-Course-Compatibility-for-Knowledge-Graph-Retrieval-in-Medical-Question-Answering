@@ -157,9 +157,21 @@ def from_walker(ds, method):
     recs_in = recs_in.get("results", recs_in)
     if not any("pool" in r for r in recs_in):
         return None            # ran before WALKER_POOL_DUMP existed
+    # Precompute the one-sided temporal compatibility alongside the stored overlap. Computing it
+    # at render time would require the 48 MB disease-duration cache, which is not in the repo, so
+    # a clone could not use the one correction measured to flip gold separation positive. One
+    # float per candidate removes that dependency.
+    import sys as _s; _s.path.insert(0, str(PIPE))
+    from bc_onesided import compat_for_cui
+    pd1 = lambda v: (float(v[0]) if isinstance(v, (list, tuple)) and v
+                     else (float(v) if isinstance(v, (int, float)) else None))
     out = []
     for r in recs_in:
         pool = r.get("pool") or []
+        t = pd1(r.get("patient_days"))
+        for c in pool:
+            c["bc_onesided"] = round(
+                compat_for_cui(c["cui"], t) if (t and c.get("role") == "disease") else 0.0, 6)
         out.append({"uid": r["uid"], "gold": r.get("gold"), "route": r.get("route"),
                     "patient_days": r.get("patient_days"),
                     "n_candidates": len(pool), "candidates": pool,

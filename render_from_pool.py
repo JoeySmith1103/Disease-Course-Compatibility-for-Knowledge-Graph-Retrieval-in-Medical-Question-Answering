@@ -139,14 +139,16 @@ MODE   = os.environ.get("UTILITY_MODE", "fixed")
 # candidate from the same duration cache. The overlap penalises a patient who presents early in a
 # long illness — the majority case — and that is the whole of bc's negative gold separation
 # (329: -0.169 -> +0.132, medbullets: -0.415 -> +0.169). See bc_onesided.py.
+# BC_SRC=onesided reads the precomputed `bc_onesided` field. It used to recompute from the
+# disease-duration cache, which is 48 MB and not in the repo — so a clone could not use the one
+# correction measured to flip gold separation from negative to positive. Precomputing it into the
+# pool costs one float per candidate and removes the dependency entirely.
 BC_SRC = os.environ.get("BC_SRC", "overlap")
 # DELTA charges a candidate for repeating one already selected. 0 = plain top-k (unchanged).
 DELTA     = float(os.environ.get("DELTA", "0"))
 # NOVELTY charges a candidate for repeating the question's own wording.
 NOV       = float(os.environ.get("NOVELTY", "0"))
-if BC_SRC == "onesided":
-    import sys as _sys; _sys.path.insert(0, str(PIPE))
-    from bc_onesided import compat_for_cui as _compat
+
 W_MAX  = float(os.environ.get("W_MAX", "0.6"))
 HOP_SCALED = os.environ.get("HOP_SCALED", "") not in ("", "0")
 CRIT   = {}
@@ -181,10 +183,9 @@ def weight_for(c, uid):
 def _bc(c, uid):
     if BC_SRC != "onesided":
         return c.get("bc", 0.0)
-    t = _PD.get(uid)
-    # non-disease roles keep bc=0: temporal compatibility is undefined for a drug or a procedure,
-    # and 0 there means "not applicable", exactly as in the shipped scorer
-    return _compat(c["cui"], t) if (t and c.get("role") == "disease") else 0.0
+    if "bc_onesided" not in c:
+        raise SystemExit("此池沒有 bc_onesided 欄位 — 需要重新以 build_pools.py 產生")
+    return c["bc_onesided"]
 
 
 def utility(c, uid=None):

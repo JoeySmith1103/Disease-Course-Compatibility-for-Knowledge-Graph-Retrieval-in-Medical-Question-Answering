@@ -32,6 +32,7 @@
  "candidates": [{"rank": 1, "cui": "C0458102", "name": "Central crushing chest pain",
                  "role": "finding", "hop": 1, "cos": 0.714, "bc": 0.689,
                  "score": 0.841, "origin_seed": "Crushing chest pain",
+                 "bc_onesided": 0.882,
                  "path": [["inverse_isa", "Central crushing chest pain", 0.841]]}]}
 ```
 
@@ -40,6 +41,10 @@
 | 329 | 329 | 156 | 866 |
 | medbullets | 308 | 87 | 722 |
 | mmlu | 272 | 99 | 837 |
+
+候選同時帶兩種時間相容性：`bc` 是走訪當下算的雙邊 Bhattacharyya 重疊，`bc_onesided` 是預先算好
+的單邊 `P(病程 ≥ 已過時間)`。兩者都存在池裡，所以切換 `BC_SRC` 不需要疾病時長快取（那份 48 MB
+的資料不在 repo 內）。
 
 `walker` / `walker_interval` 有完整分項；`raw_1hop` / `raw_2hop` 只有概念名（走訪順序，無分數），
 `tog` / `hykge` 是知識鏈字串。後四者只能調 top-K。
@@ -76,7 +81,7 @@ python3 build_pools.py                     # 僅從既有檔案收集
 | `LAMBDA` | 0.3 | bc 的係數 |
 | `MU` | 0.08 | hop 懲罰 |
 | `UTILITY` | — | 直接寫式子，如 `UTILITY='cos*bc'`；可用 `cos` `bc` `hop` `score` |
-| `BC_SRC` | overlap | `onesided` 改用 `P(病程 ≥ 已過時間)`（見 `bc_onesided.py`）|
+| `BC_SRC` | overlap | `onesided` 改讀候選的 `bc_onesided` 欄位（`P(病程 ≥ 已過時間)`）|
 | `DELTA` | 0 | 多樣性懲罰：選第 k 個時扣掉與已選項的名稱重疊 |
 | `NOVELTY` | 0 | 題幹重疊懲罰：候選越像題目重述，扣越多 |
 | `MAX_HOP` | — | 硬性 hop 上限 |
