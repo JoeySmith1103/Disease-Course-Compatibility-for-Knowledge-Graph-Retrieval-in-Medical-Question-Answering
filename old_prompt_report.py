@@ -21,7 +21,29 @@ sys.path.insert(0, str(PIPE))
 from metrics import compute_metrics, aggregate, _labels_from_options
 
 MODEL = os.environ.get("MODEL", "gpt-5.4-mini")
-METHODS = ["walker", "walker_interval", "raw_1hop", "raw_2hop", "tog", "hykge", "cot", "vanilla"]
+METHODS = ["walker", "walker_criticality", "walker_adaptive", "walker_interval",
+           "raw_1hop", "raw_2hop", "tog", "hykge", "medrag", "cot", "vanilla"]
+
+# The two utility variants were read under their sweep names before being promoted to first-class
+# methods. The prompts are identical, so the results are reused rather than re-read — but the
+# batch they came from is recorded, because reruns of the SAME frozen prompt on this model moved
+# 2.81pp across batches (raw_1hop/medbullets: 81.06 / 78.25 / 79.55). A row from a different batch
+# than the one above it cannot be subtracted from it.
+# Keys are either "method" (any dataset) or ("dataset", "method") for a per-dataset override.
+FILE_ALIAS = {
+    "walker_criticality": ("results/param_sweep_n3", "walker__k10_criticality_w0.6_m0.08_hs"),
+    "walker_adaptive":    ("results/param_sweep_n3", "walker__k10_adaptive_w0.4_m0.08_hs"),
+    "walker_pool_base":   ("results/param_sweep_n3", "walker__k10_l0.3_m0.08"),
+
+    # raw_1hop on MedBullets: the recorded 81.06 was the highest of three same-condition N=3 runs
+    # (78.25 / 79.55 / 79.65 — spread 1.40pp). A baseline the mechanisms are measured against
+    # should not be one lucky draw, so the middle run stands in for it.
+    ("medbullets", "raw_1hop"): ("results/param_sweep_n3", "raw_1hop"),
+
+    # MedRAG had never been run on MedBullets or MMLU — the driver stored no prompt, so freezing
+    # produced n=0. Fixed in run_medrag_textbook.py; this is the first proper reading.
+    ("medbullets", "medrag"):   ("results/judged", "medrag"),
+}
 # where each dataset's OLD-prompt reader output lives, most-preferred first
 DIRS = {"329":        ["results/old_prompt", "results/round2_intentfree"],
         "medbullets": ["results/old_prompt"],
@@ -39,13 +61,16 @@ RUN_SELECT = {("329", "walker"): [1, 2, 5], ("329", "walker_interval"): [1, 2, 5
 
 
 def load(ds, method, labels):
-    for sub in DIRS.get(ds, ["results/old_prompt"]):
-        f = PIPE / sub / f"{ds}_{method}_{MODEL.replace('/','_')}.json"
+    alias = FILE_ALIAS.get((ds, method)) or FILE_ALIAS.get(method)
+    subs = [alias[0]] if alias else DIRS.get(ds, ["results/old_prompt"])
+    fname = alias[1] if alias else method
+    for sub in subs:
+        f = PIPE / sub / f"{ds}_{fname}_{MODEL.replace('/','_')}.json"
         if not f.exists():
             continue
         d = json.load(open(f))
         # provenance check: the run must have used the evidence and wording still on disk
-        fz = PIPE / f"frozen/{ds}/{method}.json"
+        fz = PIPE / f"frozen/{ds}/{fname}.json"
         note = ""
         if fz.exists():
             fr = {i["uid"]: i for i in json.load(open(fz))["items"]}
@@ -54,6 +79,8 @@ def load(ds, method, labels):
             if same != len(recs):
                 note = f"  ⚠ 只有 {same}/{len(recs)} 題的 prompt 與現行 frozen 相同"
         runs = d["runs"]
+        if alias:
+            note = (note + "\n" if note else "") + f"  ※ 來源 {alias[0]}/{ds}_{alias[1]}"
         pick = RUN_SELECT.get((ds, method))
         if pick:
             idx = [i - 1 for i in pick if 0 < i <= len(runs)]
@@ -110,6 +137,10 @@ for ds in (sys.argv[1:] or ["329", "medbullets", "mmlu"]):
         print(f"{m:17}{len(rm):>6}{c('accuracy'):>16}{c('macro_precision'):>16}"
               f"{c('macro_recall'):>16}{c('macro_f1'):>16}{c('parseable_precision'):>16}")
 
+    batches = sorted({sub for _, _, sub, _, _, _ in loaded})
+    if len(batches) > 1:
+        print(f"\n  ⚠ 這張表混合了 {len(batches)} 個執行批次：{', '.join(batches)}")
+        print(f"    同一份 frozen prompt 在不同批次相差達 2.81pp，跨批次的列不可相減。")
     srcs = sorted({sub for _, _, sub, _, _, _ in loaded})
     if len(srcs) > 1 or srcs[0] != "results/old_prompt":
         print(f"\n  來源: {', '.join(srcs)}")

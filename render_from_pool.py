@@ -78,6 +78,18 @@ MODE   = os.environ.get("UTILITY_MODE", "fixed")
 # long illness — the majority case — and that is the whole of bc's negative gold separation
 # (329: -0.169 -> +0.132, medbullets: -0.415 -> +0.169). See bc_onesided.py.
 BC_SRC = os.environ.get("BC_SRC", "overlap")
+# JUDGE replaces the fixed coefficients with a judgement layer (pipeline/judged_utility.py).
+# "llm", "dispersion", "magnitude", combinable with "+". Empty keeps the legacy MODE behaviour so
+# every already-frozen variant still rebuilds byte-identically.
+JUDGE     = os.environ.get("JUDGE", "")
+NORMALIZE = os.environ.get("NORMALIZE", "1") not in ("", "0")
+MAG_NORM  = os.environ.get("MAG_NORM", "median") != "none"
+ABSTAIN   = os.environ.get("ABSTAIN", "shipped")     # shipped | judged
+BETA      = float(os.environ.get("BETA", "0.5"))     # answer-type boost, free parameter
+# DELTA charges a candidate for repeating one already selected. 0 = plain top-k (unchanged).
+DELTA     = float(os.environ.get("DELTA", "0"))
+# NOVELTY charges a candidate for repeating the question's own wording.
+NOV       = float(os.environ.get("NOVELTY", "0"))
 if BC_SRC == "onesided":
     import sys as _sys; _sys.path.insert(0, str(PIPE))
     from bc_onesided import compat_for_cui as _compat
@@ -121,7 +133,21 @@ def _bc(c, uid):
     return _compat(c["cui"], t) if (t and c.get("role") == "disease") else 0.0
 
 
+_JUDGE = None          # built after `records` is loaded
+
+
 def utility(c, uid=None):
+    base = _JUDGE.utility(c, uid) if _JUDGE is not None else None
+    if base is None:
+        base = _utility_raw(c, uid)
+    if NOV:
+        import sys as _s; _s.path.insert(0, str(PIPE))
+        from judged_utility import novelty
+        base += NOV * novelty(c, _QTOK.get(uid, set()))
+    return base
+
+
+def _utility_raw(c, uid=None):
     if UTILITY:
         return eval(UTILITY, {"__builtins__": {}},
                     {"cos": c.get("cos", 0.0), "bc": c.get("bc", 0.0),
@@ -164,6 +190,13 @@ def rank(cands, uid=None):
         kept = [c for c in cands if c.get("hop", 0) <= MAX_HOP]
         if kept:                      # never empty the block: a question with only deep hits
             cands = kept              # keeps its (weak) evidence rather than falling back to no-KG
+    if scored and DELTA > 0:
+        import sys as _s; _s.path.insert(0, str(PIPE))
+        from judged_utility import select_diverse
+        picked = select_diverse(cands, lambda c: utility(c, uid), TOP_K, DELTA, Q_DIS, Q_OTHER)
+        if picked is not None:
+            picked.sort(key=lambda c: -utility(c, uid))
+            return picked[:TOP_K]
     if scored:
         cands = sorted(cands, key=lambda c: -utility(c, uid))
     if scored and (Q_DIS or Q_OTHER):
@@ -213,12 +246,26 @@ def days_to_phrase(d):
     return f"{int(d/365)} years"
 
 
+if JUDGE:
+    import sys as _s; _s.path.insert(0, str(PIPE))
+    from judged_utility import Judge
+    _JUDGE = Judge(JUDGE, records, DS, lambda c: _bc(c, None),
+                   normalize=NORMALIZE, mag_norm=MAG_NORM, abstain=ABSTAIN, beta=BETA)
+    print(f"judge={JUDGE}  normalize={NORMALIZE}  mag_norm={MAG_NORM} "
+          f"abstain={ABSTAIN}" + (f" beta={BETA}" if "atype" in JUDGE else ""))
+
 if MODE == "adaptive":
     _C_LO, _C_HI = _cos_breakpoints(records)
     print(f"adaptive 斷點取自本池的 cos 分布: p25={_C_LO:.3f} → w={W_MAX:.2f}, "
           f"p90={_C_HI:.3f} → w=0")
 
 bench = {x["uid"]: x for x in json.load(open(PIPE / f"datasets/{DS}/benchmark.json"))}
+if NOV:
+    import sys as _s2; _s2.path.insert(0, str(PIPE))
+    from judged_utility import question_tokens
+    _QTOK = {u: question_tokens(x["question"]) for u, x in bench.items()}
+else:
+    _QTOK = {}
 tpl = open(PIPE.parent / TEMPLATE_FILE if TEMPLATE_FILE.startswith("pipeline/")
            else TEMPLATE_FILE).read() if TEMPLATE_FILE else None
 
@@ -243,20 +290,31 @@ for r in records:
     items.append({"uid": r["uid"], "gold": r["gold"], "route": r.get("route"),
                   "kg_block": kg if picked else "", "prompt": pr})
 
-if MODE == "fixed":
+if JUDGE:
+    # the judge REPLACES λ/μ, so neither belongs in the name; SAMPLE is added because a
+    # random-control run used to silently overwrite the deterministic file at the same settings
+    _wtag = ("_j" + JUDGE.replace("+", "-")
+             + ("" if NORMALIZE else "_raw")
+             + ("" if MAG_NORM else "_magnone")
+             + ("" if ABSTAIN == "shipped" else "_ab" + ABSTAIN)
+             + (f"_b{BETA:g}" if "atype" in JUDGE else ""))
+elif MODE == "fixed":
     _wtag = f"_l{LAMBDA:g}_m{MU:g}"
 else:
     _wtag = f"_{MODE}_w{W_MAX:g}_m{MU:g}"
 variant = TAG or (f"k{TOP_K}" + ("" if not scored else _wtag)
                   + (f"_h{MAX_HOP}" if MAX_HOP is not None else "")
-                  + ("_hs" if HOP_SCALED and MODE != "fixed" else "")
+                  + ("_hs" if HOP_SCALED and MODE != "fixed" and not JUDGE else "")
+                  + ("_rand" if SAMPLE == "random" else "")
+                  + (f"_d{DELTA:g}" if DELTA > 0 else "")
+                  + (f"_n{NOV:g}" if NOV else "")
                   + ("_os" if BC_SRC == "onesided" else "")
                   + ("_u" + UTILITY.replace(" ", "") if UTILITY else ""))
 name = f"{METHOD}__{variant}"
 med = sorted(sizes)[len(sizes)//2] if sizes else 0
 print(f"{DS}/{METHOD}: {len(items)} 題，每題證據中位數 {med} 條"
       f"（TOP_K={TOP_K}"
-      + ("" if not scored else f", λ={LAMBDA}, μ={MU}")
+      + ("" if not scored else (f", judge={JUDGE}" if JUDGE else f", λ={LAMBDA}, μ={MU}"))
       + (f", utility={UTILITY}" if UTILITY else "") + ")")
 print(f"  變體名稱: {name}")
 if DRY:
@@ -267,6 +325,8 @@ else:
     json.dump({"method": name, "dataset": DS, "n": len(items),
                "from_pool": str(pool_path.relative_to(PIPE)),
                "params": {"top_k": TOP_K, "mode": MODE, "w_max": W_MAX, "max_hop": MAX_HOP, "hop_scaled": HOP_SCALED, "bc_src": BC_SRC,
+                          "judge": JUDGE or None, "normalize": NORMALIZE, "mag_norm": MAG_NORM,
+                          "abstain": ABSTAIN, "beta": BETA, "delta": DELTA,
                           "cos_p25": _C_LO, "cos_p90": _C_HI,
                           "lambda_bc": LAMBDA, "mu_hop": MU,
                           "utility": UTILITY or "cos + λ·bc − μ·hop",
