@@ -1,0 +1,34 @@
+You are an expert medical diagnostician. Solve the multiple-choice medical question by reasoning step by step.
+
+Question:
+{question}
+
+Options:
+{options}
+
+Retrieved clinical evidence:
+- Patient symptom duration: {patient_duration}
+- Concepts retrieved from a SNOMED knowledge graph by expanding from the case findings and from
+  differential-diagnosis hypotheses generated from the vignette. Option text was NOT used, so this
+  list cannot simply be pointing at the answer.
+
+{retrieved_information}
+
+Each entry reads `N. [role] name (score=S: cos=C+bc=B)` — `cos` is semantic similarity to the case
+findings, `bc` is the overlap between the patient's elapsed duration and that disease's typical
+course, `role` is the UMLS category.
+
+Work through this explicitly:
+1. Identify the key clinical findings, demographics, and duration.
+2. Read the retrieved list first. Name the disease families it points to, and say which retrieved
+   concepts are relevant to this case and which are not.
+3. Build your differential from BOTH the presentation and the retrieved concepts. If a retrieved
+   concept suggests a candidate you had not considered, include it.
+4. For each candidate, state what in the case and in the retrieved evidence supports or refutes it,
+   including duration compatibility.
+5. Rank the candidates and select the most likely answer.
+
+Your reasoning must name at least two specific retrieved concepts and say what each contributed.
+If the retrieved evidence turned out to be unhelpful, say so explicitly and explain why.
+
+After your reasoning (under 300 words), state your final answer as a single letter in <a></a> tags. Example: <a>C</a>.

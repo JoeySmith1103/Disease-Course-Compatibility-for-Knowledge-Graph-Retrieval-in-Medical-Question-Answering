@@ -58,6 +58,11 @@ venv/
 # (walker_criticality, walker_adaptive) are tracked, under the same naming as walker/walker_interval.
 frozen/*/walker__k*.json
 frozen/*/*__random10.json
+# Same for the union-pool sweep: 68 files across the two datasets, all regenerable in seconds from
+# pool/ via render_from_pool.py. Only the configuration the results table reports is tracked.
+frozen/*/union__k*.json
+frozen/*/union_qall__k*.json
+!frozen/*/union_qall__k10_l0.3_m0.08_ab0.6_ddx7.json
 
 # pool/ IS tracked. It is the substrate the whole utility iteration runs on: every candidate the
 # walker retrieved, with its raw cos / bc / hop / role / path. Without it a change to the ranking
@@ -72,9 +77,13 @@ judged_utility.py
 verify_judge.py
 extract_answer_type.py
 extract_duration_criticality.py
-# 103 MB of retrieved candidate pools. Regenerable from Neo4j (~25 min/dataset) and not needed to
-# reproduce a frozen prompt, which is already tracked.
-pool/
+# The walker/raw_1hop pools stay tracked (see above). union_qall.jsonl is tracked too and the rest
+# of pool/ is not: union_qall is the scored candidate set the reported configuration ranks over, and
+# unlike the others it CANNOT be regenerated from this repo -- build_union_pool.py and
+# rescore_pool_query.py both need cache/umls_broad_embeddings_sapbert.pkl (1.25 GB, UMLS-licensed,
+# not redistributable). Without it a clone can replay the frozen prompts but cannot re-rank.
+pool/*/union.jsonl
+pool/*/walker_interval.jsonl
 # -- local helper scripts ------------------------------------------------------
 # Convenience runners restored locally from the README workflow. Keep them out
 # of git until the canonical runner/report story is cleaned up.

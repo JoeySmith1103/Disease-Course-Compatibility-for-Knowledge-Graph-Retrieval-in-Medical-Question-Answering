@@ -21,7 +21,8 @@ sys.path.insert(0, str(PIPE))
 from metrics import compute_metrics, aggregate, _labels_from_options
 
 MODEL = os.environ.get("MODEL", "gpt-5.4-mini")
-METHODS = ["walker", "walker_criticality", "walker_adaptive", "walker_interval",
+METHODS = ["walker_union_ddx",
+           "walker", "walker_criticality", "walker_adaptive", "walker_interval",
            "raw_1hop", "raw_2hop", "tog", "hykge", "medrag", "cot", "vanilla"]
 
 # The two utility variants were read under their sweep names before being promoted to first-class
@@ -43,6 +44,21 @@ FILE_ALIAS = {
     # MedRAG had never been run on MedBullets or MMLU — the driver stored no prompt, so freezing
     # produced n=0. Fixed in run_medrag_textbook.py; this is the first proper reading.
     ("medbullets", "medrag"):   ("results/judged", "medrag"),
+
+    # MedRAG on 329 and MMLU, topped up to three separate calls. 329's first pass is the earlier
+    # rerun329_MedRAG run: freeze_baseline looked for `kg_block` while that driver stored the
+    # evidence under `prompt_full`, so the frozen file recorded an empty block — but the prompts
+    # actually sent were intact (median 3,727 chars) and are line-for-line identical to what the
+    # rebuilt frozen file produces, differing only by a trailing newline. The run counts.
+    ("329", "medrag"):          ("results/medrag3", "medrag"),
+    ("mmlu", "medrag"):         ("results/medrag3", "medrag"),
+
+    # This round's configuration. Retrieval is unchanged — same walk, same seeds — so it belongs in
+    # this table rather than in a separate one. What changed is the candidate SET it ranks over
+    # (walker pool ∪ raw_1hop concepts, scored on one verified scale), the query cos is measured
+    # against (all extracted entities, not symptoms alone), and two selection terms (a quota for
+    # candidates reached from a diagnosis seed, and a penalty on navigational nodes).
+    "walker_union_ddx": ("results/ddx7", "union_qall__k10_l0.3_m0.08_ab0.6_ddx7"),
 }
 # where each dataset's OLD-prompt reader output lives, most-preferred first
 DIRS = {"329":        ["results/old_prompt", "results/round2_intentfree"],

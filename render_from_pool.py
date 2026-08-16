@@ -148,10 +148,107 @@ BC_SRC = os.environ.get("BC_SRC", "overlap")
 DELTA     = float(os.environ.get("DELTA", "0"))
 # NOVELTY charges a candidate for repeating the question's own wording.
 NOV       = float(os.environ.get("NOVELTY", "0"))
+# SYN charges a candidate for being a rewording of the seed it was reached from.
+#
+# NOVELTY compares against the question text and misses the cases that matter: the vignette says
+# "somnolent", the candidate is called "Excessive somnolence", and no token matches, so the slot
+# survives while genuinely relevant slots that happen to share a word get dropped. Comparing a
+# candidate to its OWN origin_seed has no such gap — morphology is irrelevant when both strings
+# come from the same concept.
+#
+# The current ranking is strongly biased toward these: 26.9% of pool candidates have
+# syn >= 0.5 against 62.1% of the slots that reach the prompt, a 2.3x enrichment. Walking two hops
+# to arrive at a synonym of the starting point tells the reader nothing it did not already have.
+SYN       = float(os.environ.get("SYN", "0"))
+# SRC mixes two retrieval sources inside one ranking instead of merging two blocks.
+#
+# On the union pool the walker's candidates and raw_1hop's are scored on the same scale, and the
+# ranking still reproduces the walker's block almost exactly -- because cos measures similarity to
+# the SYMPTOM phrases, and a disease name is structurally less similar to symptom text than a
+# symptom synonym is. The information is in the pool; cos/bc/hop cannot see it. SRC is the one
+# remaining term that carries something none of them do: which traversal found the candidate.
+#
+# 0 reproduces the walker ranking exactly; large values reproduce raw_1hop's ordering. It is a
+# crude mixing parameter and is labelled as one -- its justification is that the two sources were
+# read to fail in complementary ways, not that the number means anything on its own.
+SRC       = float(os.environ.get("SRC", "0"))
+# COS_NORM=source z-scores cos WITHIN each retrieval source before it is used.
+#
+# The two sources put their candidates on different scales: on the union pool the walker's
+# candidates have median cos 0.47 (329) / 0.52 (medbullets), raw_1hop's have 0.32 / 0.33, and 80%
+# of raw_1hop's fall below the walk's own tau of 0.40. Entry to the top-10 needs about 0.62. So
+# raw_1hop's candidates cannot compete on raw cos no matter what the coefficients are -- and they
+# are the ones carrying the gold: 4.9% of them are gold against 1.55% of the walker's, a 3.2x
+# higher density at 0.15 lower cos.
+#
+# Comparing raw cos across the two is the same error as comparing sigma_bc to sigma_cos without
+# normalising: the number that wins is decided by the scale, not by the information. Z-scoring per
+# source asks instead "how good is this candidate FOR ITS SOURCE", which is the comparison the two
+# distributions actually support.
+COS_NORM  = os.environ.get("COS_NORM", "")
+# ABSTRACT charges a candidate for being a navigational node rather than a clinical concept.
+#
+# Reading 25 blocks side by side, raw_1hop's characteristic failure was not a wrong disease but no
+# disease at all: `Inflammation`, `Infectious process`, `Anatomical or acquired body structure`,
+# `Organ part`, `Damage`, `Increased`. Measured, those are 15.2% of its slots plus 5.7% single-word
+# generics, against 10.4% and 0.5% for the walker. Letting raw_1hop's candidates compete (COS_NORM
+# or SRC) imports that failure mode along with its coverage -- abstract slots go 0.11 -> 0.38 per
+# block on MedBullets -- so the two belong together.
+#
+# The test is deliberately narrow: a UMLS semantic-type marker AND at most two content words. That
+# keeps `Acute angle closure glaucoma (disorder)` while dropping `Anatomical structure (body
+# structure)`.
+# SRC_QUOTA reserves slots for the second retrieval source, ranked by ITS OWN order.
+#
+# Every attempt to let the two sources compete on one score failed for the same reason: their cos
+# distributions do not overlap usefully (walker median 0.47/0.52 vs raw_1hop 0.32/0.33, entry to
+# the top-10 needs ~0.62), and z-scoring them onto a common scale imports raw_1hop's navigational
+# nodes along with its coverage. The comparison the data does NOT support is exactly the one those
+# designs require.
+#
+# A quota asks nothing of the sort. It takes the best k FOR ITS SOURCE and the rest from the other,
+# which is what the shipped role quota already does for disease vs non-disease -- and that quota was
+# measured to help (removing it inflated finding slots 29% -> 45% and cost 1.5-2.3pp of gold@10).
+SRC_QUOTA = int(os.environ.get("SRC_QUOTA", "0"))
+# DDX_QUOTA reserves slots for candidates reached from a DIAGNOSIS seed.
+#
+# The source quota asked "which script found this", which is a property of the plumbing. What the
+# content actually distinguished was where a candidate came FROM: raw_1hop's good blocks were the
+# neighbourhood of the LLM's differential (all CLL variants, all SVT variants) while the walker's
+# bad ones were the neighbourhood of an incidental descriptor (somnolence, muscular fatigue). The
+# seed's own role says which is which, and 62-64% of seeds resolve to a disease, so there is enough
+# material for a quota to draw on.
+DDX_QUOTA = int(os.environ.get("DDX_QUOTA", "0"))
+ABSTRACT  = float(os.environ.get("ABSTRACT", "0"))
+_ABS_RE = re.compile(r"\b(structure|morphologic abnormality|qualifier value|situation|"
+                     r"context-dependent|observable entity|event|process|system|region|part|"
+                     r"inflammation|damage|increased|decreased|abnormal|navigational|"
+                     r"attribute|organism|agent)\b", re.I)
+
+
+def is_abstract(c):
+    n = c.get("name") or ""
+    return bool(_ABS_RE.search(n)) and len(name_tokens(n)) <= 2
+
+
+def syn_of(c):
+    """Lexical overlap between a candidate's name and the seed it was reached from."""
+    a, b = name_tokens(c.get("name")), name_tokens(c.get("origin_seed"))
+    return _overlap(a, b)
 
 W_MAX  = float(os.environ.get("W_MAX", "0.6"))
 # below this many bc>0 candidates a question has no temporal spread to measure
 DISP_MIN_BC = int(os.environ.get("DISP_MIN_BC", "5"))
+# DISP_HOP=1 puts hop into the same dispersion split as cos and bc, so all three weights come
+# from one rule and μ is not used at all. Off by default only so the two-signal variants already
+# measured stay reproducible.
+DISP_HOP = os.environ.get("DISP_HOP", "") not in ("", "0")
+H_MAX = 2                     # walker max_hops; hop ∈ {0,1,2}
+
+
+def hop_term(c):
+    """Closeness, not penalty: 1 at the seed, 0 at the deepest hop."""
+    return 1.0 - c.get("hop", 0) / H_MAX
 HOP_SCALED = os.environ.get("HOP_SCALED", "") not in ("", "0")
 # JUDGE is an extension point, not a mode. MODE picks one of the weight rules written here; JUDGE
 # hands the whole weighting decision to an external module, so a new rule can be tried without
@@ -209,12 +306,14 @@ def _dispersion_weights(records):
     sig = {}
     for r in records:
         cs = [c.get("cos", 0.0) for c in r["candidates"]]
-        bs = [_bc(c, r["uid"]) for c in r["candidates"]]
-        bs = [b for b in bs if b > 0]
+        bs = [b for b in (_bc(c, r["uid"]) for c in r["candidates"]) if b > 0]
+        hs = [hop_term(c) for c in r["candidates"]]
         sig[r["uid"]] = (st.pstdev(cs) if len(cs) > 1 else 0.0,
-                         st.pstdev(bs) if len(bs) >= DISP_MIN_BC else None)
+                         st.pstdev(bs) if len(bs) >= DISP_MIN_BC else None,
+                         st.pstdev(hs) if len(hs) > 1 else 0.0)
     cos_ref = sorted(v[0] for v in sig.values())
     bc_ref = sorted(v[1] for v in sig.values() if v[1] is not None)
+    hop_ref = sorted(v[2] for v in sig.values())
 
     def pct(ref, x):
         if not ref:
@@ -223,12 +322,25 @@ def _dispersion_weights(records):
         return (lo + bisect.bisect_right(ref, x)) / (2 * len(ref))
 
     out = {}
-    for uid, (sc, sb) in sig.items():
-        if sb is None:
-            out[uid] = 0.0          # no temporal signal here — fall back to pure semantics
+    for uid, (sc, sb, sh) in sig.items():
+        pc = pct(cos_ref, sc)
+        pb = 0.0 if sb is None else pct(bc_ref, sb)
+        ph = pct(hop_ref, sh)
+        if not DISP_HOP:
+            # two-signal split; hop stays on the shipped −μ·hop penalty
+            out[uid] = W_MAX * (pb / (pc + pb)) if (pc + pb) > 0 else 0.0
             continue
-        pc, pb = pct(cos_ref, sc), pct(bc_ref, sb)
-        out[uid] = W_MAX * (pb / (pc + pb)) if (pc + pb) > 0 else 0.0
+        # three-signal split: μ disappears. hop enters as the CLOSENESS term (1 − hop/H) so that
+        # all three point the same way and their coefficients are on one scale — a subtracted
+        # penalty sitting beside two added rewards cannot be compared to them, and a rule that
+        # cannot compare its inputs is not deciding anything.
+        #
+        # Scale reference, because a_hop is otherwise hard to read: within a question the constant
+        # part of a_hop·(1 − hop/H) does not change the order, so a_hop is equivalent to a per-hop
+        # penalty of a_hop/H. a_hop = 0.16 reproduces the shipped μ = 0.08.
+        tot = pc + pb + ph
+        out[uid] = ({"cos": pc / tot, "bc": pb / tot, "hop": ph / tot} if tot > 0
+                    else {"cos": 1.0, "bc": 0.0, "hop": 0.0})
     return out
 
 
@@ -244,6 +356,24 @@ def weight_for(c, uid):
     return None
 
 
+_CN = {}
+# seed -> role, read off the hop-0 candidates: a hop-0 candidate IS the seed it came from
+_SEED_ROLE = {}
+for _r in records:
+    for _c in _r["candidates"]:
+        if _c.get("hop", 0) == 0:
+            _SEED_ROLE[(_r["uid"], _c.get("origin_seed"))] = _c.get("role")
+
+
+def _cos(c):
+    """cos, optionally z-scored within the candidate's own retrieval source."""
+    v = c.get("cos", 0.0)
+    if COS_NORM != "source":
+        return v
+    m, sd = _CN.get(c.get("src", "walker"), (0.0, 1.0))
+    return (v - m) / sd
+
+
 def _bc(c, uid):
     if BC_SRC != "onesided":
         return c.get("bc", 0.0)
@@ -254,12 +384,21 @@ def _bc(c, uid):
 
 def utility(c, uid=None):
     base = _utility_raw(c, uid)
+    if SYN:
+        base -= SYN * syn_of(c)
+    if SRC and c.get("src") == "raw_1hop":
+        base += SRC
+    if ABSTRACT and is_abstract(c):
+        base -= ABSTRACT
     if NOV:
         base += NOV * novelty(c, _QTOK.get(uid, set()))
     return base
 
 
 def _utility_raw(c, uid=None):
+    if MODE == "dispersion" and DISP_HOP:
+        a = _DISP.get(uid) or {"cos": 1.0, "bc": 0.0, "hop": 0.0}
+        return a["cos"] * c.get("cos", 0.0) + a["bc"] * _bc(c, uid) + a["hop"] * hop_term(c)
     if JUDGE:
         return _JUDGE_OBJ.utility(c, uid)
     if UTILITY:
@@ -269,7 +408,7 @@ def _utility_raw(c, uid=None):
     bcv = _bc(c, uid)
     w = weight_for(c, uid)
     if w is None:
-        return c.get("cos", 0.0) + LAMBDA * bcv - MU * c.get("hop", 0)
+        return _cos(c) + LAMBDA * bcv - MU * c.get("hop", 0)
     # HOP_SCALED=1 keeps cos:hop fixed as w moves.
     #
     # Without it the convex form is confounded. It shrinks cos to (1−w) but leaves μ·hop at full
@@ -280,7 +419,7 @@ def _utility_raw(c, uid=None):
     # tell: on questions with no duration, where bc is 0 for every candidate, the two still
     # ranked differently (only 5/24 and 64/143 blocks matched).
     hop_w = (1 - w) if HOP_SCALED else 1.0
-    return (1 - w) * c.get("cos", 0.0) + w * bcv - MU * hop_w * c.get("hop", 0)
+    return (1 - w) * _cos(c) + w * bcv - MU * hop_w * c.get("hop", 0)
 
 
 def rank(cands, uid=None):
@@ -304,13 +443,66 @@ def rank(cands, uid=None):
         kept = [c for c in cands if c.get("hop", 0) <= MAX_HOP]
         if kept:                      # never empty the block: a question with only deep hits
             cands = kept              # keeps its (weak) evidence rather than falling back to no-KG
-    if scored and DELTA > 0:
+    # DELTA used to return here, which silently skipped the DDX_QUOTA branch below: a variant named
+    # `_d0.3_ab0.6_ddx7` was really "diversity + the OLD role quota", and its DDx-seeded slot count
+    # was 5.3-5.9 against ddx7's 6.7-6.8. Diversity now runs INSIDE each quota group instead, so the
+    # two compose rather than one overriding the other.
+    if scored and DELTA > 0 and not (DDX_QUOTA or SRC_QUOTA):
         picked = select_diverse(cands, lambda c: utility(c, uid), TOP_K, DELTA, Q_DIS, Q_OTHER)
         if picked is not None:
             picked.sort(key=lambda c: -utility(c, uid))
             return picked[:TOP_K]
     if scored:
         cands = sorted(cands, key=lambda c: -utility(c, uid))
+    if scored and DDX_QUOTA > 0:
+        dq = [c for c in cands if _SEED_ROLE.get((uid, c.get("origin_seed"))) == "disease"]
+        rest = [c for c in cands if _SEED_ROLE.get((uid, c.get("origin_seed"))) != "disease"]
+        if ABSTRACT:
+            k2 = [c for c in dq if not is_abstract(c)]
+            dq = k2 or dq
+        dq.sort(key=lambda c: -utility(c, uid)); rest.sort(key=lambda c: -utility(c, uid))
+        k = min(DDX_QUOTA, TOP_K)
+        if DELTA > 0:
+            # greedy within each group, but the redundancy penalty sees BOTH groups' picks --
+            # otherwise the two halves of the block can still restate each other
+            picked = []
+            for grp, want in ((dq, k), (rest, TOP_K - k)):
+                avail = list(grp)
+                while avail and sum(1 for c in picked if c in grp) < want:
+                    best, bv = None, None
+                    for c in avail:
+                        pen = max((_overlap(name_tokens(c.get("name")), name_tokens(p.get("name")))
+                                   for p in picked), default=0.0)
+                        v = utility(c, uid) - DELTA * pen
+                        if bv is None or v > bv:
+                            best, bv = c, v
+                    picked.append(best); avail.remove(best)
+        else:
+            picked = dq[:k] + rest[:TOP_K - k]
+        seen = {c.get("cui") or c.get("name") for c in picked}
+        for c in dq[k:] + rest[TOP_K - k:]:
+            if len(picked) >= TOP_K: break
+            if (c.get("cui") or c.get("name")) in seen: continue
+            picked.append(c); seen.add(c.get("cui") or c.get("name"))
+        picked.sort(key=lambda c: -utility(c, uid))
+        return picked[:TOP_K]
+    if scored and SRC_QUOTA > 0 and any(c.get("src") == "raw_1hop" for c in cands):
+        # rank each source by its own utility, then interleave under the quota
+        alt = [c for c in cands if c.get("src") == "raw_1hop"]
+        own = [c for c in cands if c.get("src") != "raw_1hop"]
+        if ABSTRACT:
+            keep = [c for c in alt if not is_abstract(c)]
+            alt = keep or alt
+        alt.sort(key=lambda c: -utility(c, uid))
+        own.sort(key=lambda c: -utility(c, uid))
+        k = min(SRC_QUOTA, TOP_K)
+        picked = own[:TOP_K - k] + alt[:k]
+        seen = {c.get("cui") or c.get("name") for c in picked}
+        for c in own[TOP_K - k:] + alt[k:]:
+            if len(picked) >= TOP_K: break
+            if (c.get("cui") or c.get("name")) in seen: continue
+            picked.append(c); seen.add(c.get("cui") or c.get("name"))
+        return picked[:TOP_K]
     if scored and (Q_DIS or Q_OTHER):
         dis = [c for c in cands if c.get("role") == "disease"]
         oth = [c for c in cands if c.get("role") != "disease"]
@@ -369,13 +561,31 @@ if JUDGE:
     _JUDGE_OBJ = Judge(JUDGE, records, DS, lambda c: _bc(c, None),
                        normalize=NORMALIZE, mag_norm=MAG_NORM)
 
+if COS_NORM == "source":
+    import collections as _co
+    _by = _co.defaultdict(list)
+    for _r in records:
+        for _c in _r["candidates"]:
+            _by[_c.get("src", "walker")].append(_c.get("cos", 0.0))
+    for _k, _v in _by.items():
+        _m = st.fmean(_v); _s = st.pstdev(_v) or 1.0
+        _CN[_k] = (_m, _s)
+        print(f"cos 來源內標準化: {_k:10s} n={len(_v):6d} 中位前 μ={_m:.3f} σ={_s:.3f}")
+
 if MODE == "dispersion":
     _DISP = _dispersion_weights(records)
-    _w = sorted(_DISP.values())
-    _nz = [x for x in _w if x > 0]
-    print(f"dispersion 逐題 w_bc: {len(_nz)}/{len(_w)} 題有時間訊號, "
-          f"中位 {(_w[len(_w)//2]):.3f}, 有訊號者中位 {(_nz[len(_nz)//2] if _nz else 0):.3f}, "
-          f"max {(_w[-1] if _w else 0):.3f}")
+    if DISP_HOP:
+        _q = lambda k: sorted(v[k] for v in _DISP.values())
+        _m = lambda k: _q(k)[len(_DISP)//2]
+        print(f"dispersion 三訊號權重（逐題，μ 未使用）中位 a_cos={_m('cos'):.3f} "
+              f"a_bc={_m('bc'):.3f} a_hop={_m('hop'):.3f}  "
+              f"| a_hop 等效每 hop 懲罰 {_m('hop')/H_MAX:.3f}（shipped μ=0.08）")
+    else:
+        _w = sorted(_DISP.values())
+        _nz = [x for x in _w if x > 0]
+        print(f"dispersion 逐題 w_bc: {len(_nz)}/{len(_w)} 題有時間訊號, "
+              f"中位 {(_w[len(_w)//2]):.3f}, 有訊號者中位 {(_nz[len(_nz)//2] if _nz else 0):.3f}, "
+              f"max {(_w[-1] if _w else 0):.3f}")
 
 if MODE == "adaptive":
     _C_LO, _C_HI = _cos_breakpoints(records)
@@ -417,9 +627,16 @@ if JUDGE:
 variant = TAG or (f"k{TOP_K}" + ("" if not scored else _wtag)
                   + (f"_h{MAX_HOP}" if MAX_HOP is not None else "")
                   + ("_hs" if HOP_SCALED and MODE != "fixed" else "")
+                  + ("_h3" if MODE == "dispersion" and DISP_HOP else "")
                   + ("_rand" if SAMPLE == "random" else "")
                   + (f"_d{DELTA:g}" if DELTA > 0 else "")
                   + (f"_n{NOV:g}" if NOV else "")
+                  + (f"_s{SYN:g}" if SYN else "")
+                  + (f"_src{SRC:g}" if SRC else "")
+                  + ("_zsrc" if COS_NORM == "source" else "")
+                  + (f"_ab{ABSTRACT:g}" if ABSTRACT else "")
+                  + (f"_q{SRC_QUOTA}" if SRC_QUOTA else "")
+                  + (f"_ddx{DDX_QUOTA}" if DDX_QUOTA else "")
                   + ("_os" if BC_SRC == "onesided" else "")
                   + ("_u" + UTILITY.replace(" ", "") if UTILITY else ""))
 name = f"{METHOD}__{variant}"
@@ -438,7 +655,7 @@ else:
                "from_pool": str(pool_path.relative_to(PIPE)),
                "params": {"top_k": TOP_K, "mode": MODE, "w_max": W_MAX, "max_hop": MAX_HOP, "hop_scaled": HOP_SCALED, "bc_src": BC_SRC,
                           "judge": JUDGE or None, "normalize": NORMALIZE, "mag_norm": MAG_NORM,
-                          "delta": DELTA, "novelty": NOV,
+                          "delta": DELTA, "novelty": NOV, "syn": SYN, "src_bonus": SRC, "cos_norm": COS_NORM or None, "abstract": ABSTRACT, "src_quota": SRC_QUOTA, "ddx_quota": DDX_QUOTA,
                           "cos_p25": _C_LO, "cos_p90": _C_HI,
                           "lambda_bc": LAMBDA, "mu_hop": MU,
                           "utility": UTILITY or "cos + λ·bc − μ·hop",
