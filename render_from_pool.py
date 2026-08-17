@@ -237,6 +237,19 @@ def syn_of(c):
     return _overlap(a, b)
 
 W_MAX  = float(os.environ.get("W_MAX", "0.6"))
+# WEIGHT_FORM=additive drops the convex constraint on criticality / dispersion / adaptive.
+#
+# The convex form (1-w)*cos + w*bc forces two claims to move together: "time matters more here"
+# can only be expressed as "and semantics matter less". Nothing about either mechanism's rationale
+# requires that trade -- a question can need both. Worse, shrinking cos to (1-w) while mu*hop keeps
+# its full size silently scales the hop penalty by 1/(1-w), which is where the HOP_SCALED confound
+# came from: a temporal-looking knob that was partly a hop knob.
+#
+# additive keeps cos at full weight and lets the judgement set lambda per question:
+#     cos + LAMBDA_MAX * r(q) * bc - mu * hop,     r(q) = the mechanism's output rescaled to [0,1]
+# LAMBDA_MAX defaults to 2*LAMBDA so that r = 0.5 reproduces the shipped fixed lambda exactly.
+WEIGHT_FORM = os.environ.get("WEIGHT_FORM", "convex")
+LAMBDA_MAX  = float(os.environ.get("LAMBDA_MAX", str(2 * float(os.environ.get("LAMBDA", "0.3")))))
 # below this many bc>0 candidates a question has no temporal spread to measure
 DISP_MIN_BC = int(os.environ.get("DISP_MIN_BC", "5"))
 # DISP_HOP=1 puts hop into the same dispersion split as cos and bc, so all three weights come
@@ -418,6 +431,9 @@ def _utility_raw(c, uid=None):
     # therefore win by acting as a hop-penalty knob while appearing to be a temporal one. The
     # tell: on questions with no duration, where bc is 0 for every candidate, the two still
     # ranked differently (only 5/24 and 64/143 blocks matched).
+    if WEIGHT_FORM == "additive":
+        r = min(max(w / W_MAX, 0.0), 1.0) if W_MAX else 0.0
+        return _cos(c) + LAMBDA_MAX * r * bcv - MU * c.get("hop", 0)
     hop_w = (1 - w) if HOP_SCALED else 1.0
     return (1 - w) * _cos(c) + w * bcv - MU * hop_w * c.get("hop", 0)
 
@@ -627,6 +643,7 @@ if JUDGE:
 variant = TAG or (f"k{TOP_K}" + ("" if not scored else _wtag)
                   + (f"_h{MAX_HOP}" if MAX_HOP is not None else "")
                   + ("_hs" if HOP_SCALED and MODE != "fixed" else "")
+                  + ("_add" if WEIGHT_FORM == "additive" and MODE != "fixed" else "")
                   + ("_h3" if MODE == "dispersion" and DISP_HOP else "")
                   + ("_rand" if SAMPLE == "random" else "")
                   + (f"_d{DELTA:g}" if DELTA > 0 else "")
@@ -653,7 +670,7 @@ else:
     out = PIPE / f"frozen/{DS}/{name}.json"
     json.dump({"method": name, "dataset": DS, "n": len(items),
                "from_pool": str(pool_path.relative_to(PIPE)),
-               "params": {"top_k": TOP_K, "mode": MODE, "w_max": W_MAX, "max_hop": MAX_HOP, "hop_scaled": HOP_SCALED, "bc_src": BC_SRC,
+               "params": {"top_k": TOP_K, "mode": MODE, "w_max": W_MAX, "weight_form": WEIGHT_FORM, "lambda_max": LAMBDA_MAX, "max_hop": MAX_HOP, "hop_scaled": HOP_SCALED, "bc_src": BC_SRC,
                           "judge": JUDGE or None, "normalize": NORMALIZE, "mag_norm": MAG_NORM,
                           "delta": DELTA, "novelty": NOV, "syn": SYN, "src_bonus": SRC, "cos_norm": COS_NORM or None, "abstract": ABSTRACT, "src_quota": SRC_QUOTA, "ddx_quota": DDX_QUOTA,
                           "cos_p25": _C_LO, "cos_p90": _C_HI,

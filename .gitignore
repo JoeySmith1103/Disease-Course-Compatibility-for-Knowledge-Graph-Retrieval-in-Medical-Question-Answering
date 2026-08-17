@@ -62,7 +62,13 @@ frozen/*/*__random10.json
 # pool/ via render_from_pool.py. Only the configuration the results table reports is tracked.
 frozen/*/union__k*.json
 frozen/*/union_qall__k*.json
-!frozen/*/union_qall__k10_l0.3_m0.08_ab0.6_ddx7.json
+frozen/*/union_qall_s*__k*.json
+# The reported configuration and every row of the ablation / parameter tables are tracked under
+# names that say what they are, so a frozen file can be matched to a table row without decoding a
+# parameter string. The original render settings survive in each file's params.render_name.
+!frozen/*/ours.json
+!frozen/*/ablate__*.json
+!frozen/*/param__*.json
 
 # pool/ IS tracked. It is the substrate the whole utility iteration runs on: every candidate the
 # walker retrieved, with its raw cos / bc / hop / role / path. Without it a change to the ranking
@@ -83,6 +89,7 @@ extract_duration_criticality.py
 # rescore_pool_query.py both need cache/umls_broad_embeddings_sapbert.pkl (1.25 GB, UMLS-licensed,
 # not redistributable). Without it a clone can replay the frozen prompts but cannot re-rank.
 pool/*/union.jsonl
+pool/*/union_qall_s*.jsonl
 pool/*/walker_interval.jsonl
 # -- local helper scripts ------------------------------------------------------
 # Convenience runners restored locally from the README workflow. Keep them out

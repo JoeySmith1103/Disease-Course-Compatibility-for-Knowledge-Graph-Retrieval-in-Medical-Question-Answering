@@ -58,7 +58,7 @@ FILE_ALIAS = {
     # (walker pool ∪ raw_1hop concepts, scored on one verified scale), the query cos is measured
     # against (all extracted entities, not symptoms alone), and two selection terms (a quota for
     # candidates reached from a diagnosis seed, and a penalty on navigational nodes).
-    "walker_union_ddx": ("results/ddx7", "union_qall__k10_l0.3_m0.08_ab0.6_ddx7"),
+    "walker_union_ddx": ("results/ddx7", "ours"),
 }
 # where each dataset's OLD-prompt reader output lives, most-preferred first
 DIRS = {"329":        ["results/old_prompt", "results/round2_intentfree"],
@@ -165,4 +165,107 @@ for ds in (sys.argv[1:] or ["329", "medbullets", "mmlu"]):
         print(f"  ⚠ 各方法的 run 數不一致（{sorted(runs)}）— 5-run 的平均比 3-run 穩，兩者不等價。")
     if loaded[0][5]["min_support"] < 5:
         print(f"  ⚠ 最小類別只有 {loaded[0][5]['min_support']} 題 — macro_* 由極少數題目主導。")
+print()
+
+
+# ── ablation and parameter analysis ──────────────────────────────────────────
+# Kept in this file rather than a separate script so the three tables read from one source and
+# cannot drift apart. Both are capped at three runs: extra passes exist for a few cells because a
+# top-up was interrupted mid-round, and reporting an uneven number of runs per row would make the
+# rows incomparable for the same reason mixing batches does.
+ABL = [("ours",                           "完整 C+T+F",  "results/ddx7"),
+       ("ablate__no_temporal",            "−T",          "results/ablation"),
+       ("ablate__no_temporal__no_filter", "−T−F",        "results/ablation"),
+       ("ablate__no_semantic",            "−C",          "results/ablation"),
+       ("ablate__no_semantic__no_filter", "−C−F",        "results/ablation")]
+PARAM = [("μ (hop 懲罰)",
+          [("param__hop_mu0",              "0",      "results/hoptest"),
+           ("ours",                        "0.08 ★", "results/ddx7"),
+           ("param__hop_mu0.16",           "0.16",   "results/hoptest")]),
+         ("λ (bc 權重)",
+          [("param__bc_lambda0",           "0",      "results/ddx7"),
+           ("ours",                        "0.3 ★",  "results/ddx7"),
+           ("param__bc_lambda0.6",         "0.6",    "results/param")]),
+         # sigma_p is the width of the log-normal placed on the patient's elapsed time. It is the
+         # only parameter here that cannot be swept by re-ranking -- bc is computed during the walk
+         # and stored -- so each value has its own rebuilt pool (rebuild_bc_sigma.py). Those pools
+         # recompute every bc from the LLM duration cache, including the ~18% whose shipped value
+         # came from the walk's MDN fallback, so the sigma=0.30 row is the reference for this block
+         # and differs slightly from the main table's row for the same configuration.
+         ("σ_p (病人時長變異數)",
+          [("param__duration_sigma0.15",   "0.15",   "results/param"),
+           ("param__duration_sigma0.30",   "0.30 ★", "results/param"),
+           ("param__duration_sigma0.60",   "0.60",   "results/param")])]
+CAP = 3
+
+try:
+    from scipy.stats import wilcoxon
+except ImportError:
+    wilcoxon = None
+
+
+def _load(path, cap=CAP):
+    d = json.load(open(path))
+    return d["runs_correct"][:cap], d["runs"][:cap], d["n"]
+
+
+def _perq(runs):
+    q = {}
+    for r in runs:
+        for x in r["results"]:
+            q.setdefault(x["uid"], []).append(1.0 if x["is_correct"] else 0.0)
+    return {u: statistics.fmean(v) for u, v in q.items()}
+
+
+def _cell(ds, method, subdir):
+    p = PIPE / subdir / f"{ds}_{method}_{MODEL.replace('/','_')}.json"
+    return _load(p) if p.exists() else None
+
+
+ABL_DS = [d for d in DIRS if d != "mmlu"]     # MMLU headroom is 3.5pp; every row lands inside it
+print("=" * 104)
+print("### 消融 — 每格 N=3。C = cos 語意項，T = 時間項 (λ·bc)，F = 導航節點過濾")
+print("=" * 104)
+for ds in ABL_DS:
+    print(f"\n{ds}")
+    print(f"  {'變體':16s}{'runs':>20s}{'accuracy':>17s}{'vs 完整':>10s}{'配對 p':>9s}")
+    base = None
+    for m, t, sub in ABL:
+        got = _cell(ds, m, sub)
+        if not got:
+            print(f"  {t:16s}{'(缺)':>20s}"); continue
+        rc, runs, n = got
+        acc, sd = 100 * statistics.fmean(rc) / n, 100 * statistics.pstdev(rc) / n
+        if base is None:
+            base = _perq(runs)
+            print(f"  {t:16s}{str(rc):>20s}{acc:11.2f} ±{sd:4.2f}{'—':>10s}{'—':>9s}")
+            continue
+        cur = _perq(runs)
+        u = sorted(set(cur) & set(base))
+        dd = [base[k] - cur[k] for k in u]
+        pv = wilcoxon(dd).pvalue if (wilcoxon and any(dd)) else float("nan")
+        print(f"  {t:16s}{str(rc):>20s}{acc:11.2f} ±{sd:4.2f}{-100*statistics.fmean(dd):+10.2f}{pv:9.3f}")
+print("\n  每一項單獨移除都造成一致的退步，但沒有一項達 p<0.05 — 包含移除主要排序訊號 cos。")
+print("  MMLU 不列入：vanilla 93.4% 到最佳 96.9%，全部消融列都會落在該區間內。\n")
+
+print("=" * 104)
+print("### 參數分析 — 每個參數三個取值，各 N=3。★ = 出貨設定")
+print("=" * 104)
+for pname, vals in PARAM:
+    print(f"\n{pname}")
+    print(f"  {'取值':12s}" + "".join(f"{d:>28s}" for d in ABL_DS))
+    for m, t, sub in vals:
+        row = f"  {t:12s}"
+        for ds in ABL_DS:
+            got = _cell(ds, m, sub)
+            row += (f"{str(got[0]):>18s}{100*statistics.fmean(got[0])/got[2]:9.2f}%"
+                    if got else f"{'—':>28s}")
+        print(row)
+print("\n  μ 與 σ_p：出貨值在兩個資料集上都是三取值中的最高，且皆呈單峰。")
+print("  λ：資料集相依 — 329 的最佳值是 0（84.09 vs 83.89），MedBullets 是 0.3（80.84 vs 79.76）。")
+print("     兩者差距 0.20 / 1.08pp，都在雜訊內，但方向相反，所以不能寫成單峰。這與覆蓋率一致：")
+print("     329 有 93% 的題目算得出 bc，MedBullets 只有 55%，而 MedBullets 在有 bc 的 165 題上")
+print("     λ=0.3 比 λ=0 高 2.83pp — 全集層級把那個效果稀釋掉了。")
+print("  cos 的係數固定為 1：α·cos + λ·bc − μ·hop 同除以 α 等於 cos + (λ/α)·bc − (μ/α)·hop，")
+print("  所以掃 α 等同於反向掃 λ 與 μ，不是獨立的第四個參數。")
 print()
