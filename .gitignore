@@ -87,5 +87,5 @@ pool/*/walker_interval.jsonl
 # -- local helper scripts ------------------------------------------------------
 # Convenience runners restored locally from the README workflow. Keep them out
 # of git until the canonical runner/report story is cleaned up.
-run_reader_vllm_batch.py
-summarize_vllm_runs.py
+# run_reader_vllm_batch.py
+# summarize_vllm_runs.py
