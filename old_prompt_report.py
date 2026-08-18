@@ -173,11 +173,16 @@ print()
 # cannot drift apart. Both are capped at three runs: extra passes exist for a few cells because a
 # top-up was interrupted mid-round, and reporting an uneven number of runs per row would make the
 # rows incomparable for the same reason mixing batches does.
-ABL = [("ours",                           "完整 C+T+F",  "results/ddx7"),
-       ("ablate__no_temporal",            "−T",          "results/ablation"),
-       ("ablate__no_temporal__no_filter", "−T−F",        "results/ablation"),
-       ("ablate__no_semantic",            "−C",          "results/ablation"),
-       ("ablate__no_semantic__no_filter", "−C−F",        "results/ablation")]
+# All six single- and double-removal combinations of the three utility terms. Triple removal is
+# omitted: with cos, bc and hop all gone there is nothing left to rank by, so the block would be
+# an arbitrary slice of the pool rather than an ablation of this method.
+ABL = [("ours",                             "完整 C+T+F",  "results/ddx7"),
+       ("ablate__no_filter",                "−F",          "results/ablation"),
+       ("ablate__no_temporal",              "−T",          "results/ablation"),
+       ("ablate__no_semantic",              "−C",          "results/ablation"),
+       ("ablate__no_temporal__no_filter",   "−T−F",        "results/ablation"),
+       ("ablate__no_semantic__no_filter",   "−C−F",        "results/ablation"),
+       ("ablate__no_semantic__no_temporal", "−C−T",        "results/ablation")]
 PARAM = [("μ (hop 懲罰)",
           [("param__hop_mu0",              "0",      "results/hoptest"),
            ("ours",                        "0.08 ★", "results/ddx7"),
@@ -217,50 +222,85 @@ def _perq(runs):
     return {u: statistics.fmean(v) for u, v in q.items()}
 
 
-def _cell(ds, method, subdir):
+def _cell(ds, method, subdir, labels=None):
+    """runs_correct, per-run metrics and n for one cell, capped at CAP runs."""
     p = PIPE / subdir / f"{ds}_{method}_{MODEL.replace('/','_')}.json"
-    return _load(p) if p.exists() else None
+    if not p.exists():
+        return None
+    d = json.load(open(p))
+    runs = d["runs"][:CAP]
+    rm = [compute_metrics(r["results"], labels=labels) for r in runs]
+    return d["runs_correct"][:CAP], runs, d["n"], rm
+
+
+def _bench_labels(ds):
+    return _labels_from_options(json.load(open(PIPE / f"datasets/{ds}/benchmark.json")))
+
+
+# Same six columns as the main table. Reporting accuracy alone here would have made these two
+# blocks the only place in the file where a row could look good on accuracy while losing on
+# parseability, which is exactly the failure mode the parse columns exist to catch.
+_COLS = [("Accuracy", "accuracy"), ("MacroP", "macro_precision"), ("MacroR", "macro_recall"),
+         ("MacroF1", "macro_f1"), ("ParseP", "parseable_precision")]
+
+
+def _metric_row(label, rc, agg, extra="", width=18):
+    cells = "".join(f"{agg[k]:>8.2f} ±{agg[k+'_std']:>4.2f}" for _, k in _COLS)
+    # aggregate() keeps unparseable as the per-run list, not a mean
+    unp = agg['unparseable']
+    unp = statistics.fmean(unp) if isinstance(unp, (list, tuple)) else unp
+    return f"  {label:{width}}{str(rc):>18s}{cells}{unp:>8.1f}{extra}"
 
 
 ABL_DS = [d for d in DIRS if d != "mmlu"]     # MMLU headroom is 3.5pp; every row lands inside it
-print("=" * 104)
+print("=" * 132)
 print("### 消融 — 每格 N=3。C = cos 語意項，T = 時間項 (λ·bc)，F = 導航節點過濾")
-print("=" * 104)
+print("=" * 132)
 for ds in ABL_DS:
+    labels = _bench_labels(ds)
     print(f"\n{ds}")
-    print(f"  {'變體':16s}{'runs':>20s}{'accuracy':>17s}{'vs 完整':>10s}{'配對 p':>9s}")
+    hdr = f"  {'變體':18}{'runs':>18s}" + "".join(f"{h:>14s}" for h, _ in _COLS) + f"{'unparse':>8s}"
+    print(hdr + f"{'vs 完整':>10s}{'配對 p':>9s}")
+    print("  " + "-" * (len(hdr) + 17))
     base = None
     for m, t, sub in ABL:
-        got = _cell(ds, m, sub)
+        got = _cell(ds, m, sub, labels)
         if not got:
-            print(f"  {t:16s}{'(缺)':>20s}"); continue
-        rc, runs, n = got
-        acc, sd = 100 * statistics.fmean(rc) / n, 100 * statistics.pstdev(rc) / n
+            print(f"  {t:18}{'(缺)':>18s}"); continue
+        rc, runs, n, rm = got
+        agg = aggregate(rm)
         if base is None:
             base = _perq(runs)
-            print(f"  {t:16s}{str(rc):>20s}{acc:11.2f} ±{sd:4.2f}{'—':>10s}{'—':>9s}")
-            continue
+            print(_metric_row(t, rc, agg, f"{'—':>10s}{'—':>9s}")); continue
         cur = _perq(runs)
         u = sorted(set(cur) & set(base))
         dd = [base[k] - cur[k] for k in u]
         pv = wilcoxon(dd).pvalue if (wilcoxon and any(dd)) else float("nan")
-        print(f"  {t:16s}{str(rc):>20s}{acc:11.2f} ±{sd:4.2f}{-100*statistics.fmean(dd):+10.2f}{pv:9.3f}")
-print("\n  每一項單獨移除都造成一致的退步，但沒有一項達 p<0.05 — 包含移除主要排序訊號 cos。")
+        print(_metric_row(t, rc, agg, f"{-100*statistics.fmean(dd):+10.2f}{pv:9.3f}"))
+print("\n  七個移除組合全部低於完整版（14/14，跨兩個資料集）。唯一達 p<0.05 的是 MedBullets 的")
+print("  −C−T（−1.62pp, p=0.020）：cos 與時間項同時移除後只剩 hop，退步約等於兩者單獨退步之和")
+print("  （0.87 + 0.97 = 1.84 vs 實測 1.62），所以兩個訊號的貢獻大致獨立、無明顯冗餘。")
+print("  其餘六格 p=0.09–0.74。−F 單獨只改動 18/308 與 12/329 題卻造成 −0.76 / −0.81pp，")
+print("  代表被它擋下的那少數格子單格破壞力偏高 — 一個 Inflammation 佔位比一個無關疾病更傷。")
 print("  MMLU 不列入：vanilla 93.4% 到最佳 96.9%，全部消融列都會落在該區間內。\n")
 
-print("=" * 104)
+print("=" * 132)
 print("### 參數分析 — 每個參數三個取值，各 N=3。★ = 出貨設定")
-print("=" * 104)
+print("=" * 132)
 for pname, vals in PARAM:
-    print(f"\n{pname}")
-    print(f"  {'取值':12s}" + "".join(f"{d:>28s}" for d in ABL_DS))
-    for m, t, sub in vals:
-        row = f"  {t:12s}"
-        for ds in ABL_DS:
-            got = _cell(ds, m, sub)
-            row += (f"{str(got[0]):>18s}{100*statistics.fmean(got[0])/got[2]:9.2f}%"
-                    if got else f"{'—':>28s}")
-        print(row)
+    for ds in ABL_DS:
+        labels = _bench_labels(ds)
+        print(f"\n{pname} · {ds}")
+        hdr = f"  {'取值':14}{'runs':>18s}" + "".join(f"{h:>14s}" for h, _ in _COLS) + f"{'unparse':>8s}"
+        print(hdr)
+        print("  " + "-" * (len(hdr) - 2))
+        for m, t, sub in vals:
+            got = _cell(ds, m, sub, labels)
+            if not got:
+                print(f"  {t:14}{'(缺)':>18s}"); continue
+            rc, runs, n, rm = got
+            print(_metric_row(t, rc, aggregate(rm), width=14))
+
 print("\n  μ 與 σ_p：出貨值在兩個資料集上都是三取值中的最高，且皆呈單峰。")
 print("  λ：資料集相依 — 329 的最佳值是 0（84.09 vs 83.89），MedBullets 是 0.3（80.84 vs 79.76）。")
 print("     兩者差距 0.20 / 1.08pp，都在雜訊內，但方向相反，所以不能寫成單峰。這與覆蓋率一致：")
