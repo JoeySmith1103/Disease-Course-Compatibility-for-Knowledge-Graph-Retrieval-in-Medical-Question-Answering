@@ -253,3 +253,88 @@ python3 old_prompt_report.py                  # 各方法對照，標注來源�
   單邊版改問「病程是否可能 ≥ 已過時間」，分離度轉正。
 - **角色配額有用**：拿掉後 finding 從 29% 膨脹到 45%，gold@10 反而下降 1.5–2.3pp。它在補償
   cos 對症狀同義字的偏好。
+
+---
+
+## 重現論文表格
+
+三張表全部由 `old_prompt_report.py` 產生，各方法的來源檔記在該檔的 `FILE_ALIAS`、`ABL`、`PARAM`
+三個常數裡，不需要另外查對照。
+
+```bash
+python3 old_prompt_report.py                 # 三張表：主表、消融、參數分析
+python3 old_prompt_report.py medbullets      # 只看單一資料集
+```
+
+### 主結果
+
+| 設定 | frozen |
+|---|---|
+| 本方法 | `frozen/<ds>/ours.json` |
+
+```bash
+DATASET=<ds> METHOD=union_qall ABSTRACT=0.6 DDX_QUOTA=7 python3 render_from_pool.py
+DATASET=<ds> METHOD=ours RESULTS_DIR=results/ddx7 python3 append_run.py     # 每次一輪，重複三次
+```
+
+`render_from_pool.py` 產生的檔名會是 `union_qall__k10_l0.3_m0.08_ab0.6_ddx7.json`；repo 裡改名為
+`ours.json`，原始參數字串保留在該檔的 `params.render_name`。以下各列同理。
+
+### 消融（7 列 = 完整 + 6 種移除）
+
+C = cos 語意項、T = 時間項 `λ·bc`、F = 導航節點過濾。三項全移除不列入：沒有東西可排序，
+block 會變成池的任意切片，那個下界改由 `raw_1hop__random10` 提供。
+
+| 列 | frozen | 渲染參數（其餘同主結果） |
+|---|---|---|
+| 完整 | `ours.json` | — |
+| −F | `ablate__no_filter.json` | 拿掉 `ABSTRACT=0.6` |
+| −T | `ablate__no_temporal.json` | `LAMBDA=0` |
+| −C | `ablate__no_semantic.json` | `UTILITY='0.3*bc - 0.08*hop'` |
+| −T−F | `ablate__no_temporal__no_filter.json` | `LAMBDA=0`，拿掉 `ABSTRACT` |
+| −C−F | `ablate__no_semantic__no_filter.json` | `UTILITY='0.3*bc - 0.08*hop'`，拿掉 `ABSTRACT` |
+| −C−T | `ablate__no_semantic__no_temporal.json` | `UTILITY='-0.08*hop'` |
+
+結果寫進 `results/ablation/`。
+
+### 參數分析（每個參數三個取值）
+
+★ 為出貨設定，其 frozen 就是 `ours.json`，不另外渲染。
+
+| 參數 | 取值 | frozen |
+|---|---|---|
+| μ（hop 懲罰）| 0 / **0.08 ★** / 0.16 | `param__hop_mu0` / **`ours`** / `param__hop_mu0.16` |
+| λ（bc 權重）| 0 / **0.3 ★** / 0.6 | `ablate__no_temporal` / **`ours`** / `param__bc_lambda0.6` |
+| σ_p（病人時長變異數）| 0.15 / **0.30 ★** / 0.60 | `param__duration_sigma0.15` / **`ours`** / `param__duration_sigma0.60` |
+
+**與出貨設定相同的格子一律引用 `ours`，不另外渲染也不重跑。** 因此新增的 frozen 只有 11 個
+（消融 6 + 參數 5），而不是 7×3。同理，λ=0 就是消融的 −T，兩張表共用同一個結果檔。
+
+**λ=0 就是消融的 −T**（逐字元相同的 frozen），所以兩張表共用同一個結果檔，不重跑。先前曾在兩個
+名稱下各跑一組 N=3，329 上得到 83.08 與 84.09；被棄用的那組保留為
+`results/ddx7/<ds>_DUPLICATE_of_ablate__no_temporal_*.json`，不被任何表引用，作為「同一份證據、
+兩組獨立 N=3」的噪音對照。
+
+**σ_p 不能用重排掃描**——bc 是走訪時算好存進池的，換 σ_p 必須重算（0.30 是出貨值，用 `ours`，
+只需重建 0.15 與 0.60）：
+
+```bash
+DATASET=<ds> SIGMA_P=0.15 python3 rebuild_bc_sigma.py      # 產生 pool/<ds>/union_qall_s0.15.jsonl
+DATASET=<ds> METHOD=union_qall_s0.15 ABSTRACT=0.6 DDX_QUOTA=7 python3 render_from_pool.py
+```
+
+該腳本會把**所有**候選的 bc 由 LLM duration cache 重算，包含出貨版中約 18% 來自走訪 MDN fallback
+的那些。所以 0.15 與 0.60 相對 0.30（=`ours`）的落差，含有「σ_p 改變」與「bc 來源改變」兩個成分，
+不是嚴格的單一變因。另一種做法是把 0.30 也用重算版（此時三列乾淨，落差只剩 0.5–1.2 格），代價是
+該列的數字與主表對不上；被棄用的那組保留為 `results/param/<ds>_UNUSED_all_llm_bc_at_sigma0.30_*.json`。
+σ_p 的池不在 repo 內，用上面的指令重建。
+
+### 判讀時要記得的
+
+- 每格取**前三輪**（`CAP = 3`）。中斷的補跑讓少數格子有四輪，各列輪數不一致會讓它們不可比。
+- 用 `append_run.py` 累積獨立呼叫，不要用 `run_reader.py N_RUNS=3` —— 後者連續三輪的 std 約低
+  一個數量級（0.15 vs 2.13），不是真正的不確定度。
+- **表內自帶噪音對照**：−T 與 λ=0 同一份 frozen、兩組獨立 N=3，329 差 1.01pp。除了 −C−T
+  （MedBullets −1.62pp, p=0.020）之外，兩張表沒有一格的效應明顯大於這個差距。
+- 329 有 10 個選項字母、其中兩個各只有 1 題，macro_* 會被單題主導（std 可達 4–5pp 而 accuracy
+  std < 1pp）。該資料集請引用 accuracy 或 weighted_*。

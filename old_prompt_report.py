@@ -188,7 +188,12 @@ PARAM = [("μ (hop 懲罰)",
            ("ours",                        "0.08 ★", "results/ddx7"),
            ("param__hop_mu0.16",           "0.16",   "results/hoptest")]),
          ("λ (bc 權重)",
-          [("param__bc_lambda0",           "0",      "results/ddx7"),
+          # Same configuration as the ablation's −T (lambda=0 with the filter and the DDx quota):
+          # byte-identical frozen on all three datasets. It was run twice under two names before
+          # that was noticed, and the two N=3 sets differ by 1.01pp on 329. Both tables now read
+          # the same file so one setting cannot carry two numbers; the discarded set stays in
+          # results/ddx7 and is what the noise note under the ablation table quotes.
+          [("ablate__no_temporal",         "0",      "results/ablation"),
            ("ours",                        "0.3 ★",  "results/ddx7"),
            ("param__bc_lambda0.6",         "0.6",    "results/param")]),
          # sigma_p is the width of the log-normal placed on the patient's elapsed time. It is the
@@ -199,7 +204,7 @@ PARAM = [("μ (hop 懲罰)",
          # and differs slightly from the main table's row for the same configuration.
          ("σ_p (病人時長變異數)",
           [("param__duration_sigma0.15",   "0.15",   "results/param"),
-           ("param__duration_sigma0.30",   "0.30 ★", "results/param"),
+           ("ours",                       "0.30 ★", "results/ddx7"),
            ("param__duration_sigma0.60",   "0.60",   "results/param")])]
 CAP = 3
 
@@ -252,7 +257,10 @@ def _metric_row(label, rc, agg, extra="", width=18):
     return f"  {label:{width}}{str(rc):>18s}{cells}{unp:>8.1f}{extra}"
 
 
-ABL_DS = [d for d in DIRS if d != "mmlu"]     # MMLU headroom is 3.5pp; every row lands inside it
+# All three datasets. MMLU is included for completeness even though its headroom is 3.5pp
+# (vanilla 93.4% to a best of 96.9%), so every row there is expected to land inside that band —
+# reporting it and saying so is more useful than leaving a gap the reader has to ask about.
+ABL_DS = list(DIRS)
 print("=" * 132)
 print("### 消融 — 每格 N=3。C = cos 語意項，T = 時間項 (λ·bc)，F = 導航節點過濾")
 print("=" * 132)
@@ -277,12 +285,18 @@ for ds in ABL_DS:
         dd = [base[k] - cur[k] for k in u]
         pv = wilcoxon(dd).pvalue if (wilcoxon and any(dd)) else float("nan")
         print(_metric_row(t, rc, agg, f"{-100*statistics.fmean(dd):+10.2f}{pv:9.3f}"))
-print("\n  七個移除組合全部低於完整版（14/14，跨兩個資料集）。唯一達 p<0.05 的是 MedBullets 的")
-print("  −C−T（−1.62pp, p=0.020）：cos 與時間項同時移除後只剩 hop，退步約等於兩者單獨退步之和")
-print("  （0.87 + 0.97 = 1.84 vs 實測 1.62），所以兩個訊號的貢獻大致獨立、無明顯冗餘。")
-print("  其餘六格 p=0.09–0.74。−F 單獨只改動 18/308 與 12/329 題卻造成 −0.76 / −0.81pp，")
-print("  代表被它擋下的那少數格子單格破壞力偏高 — 一個 Inflammation 佔位比一個無關疾病更傷。")
-print("  MMLU 不列入：vanilla 93.4% 到最佳 96.9%，全部消融列都會落在該區間內。\n")
+print("\n  MedBullets 與 329：七個移除組合全部低於完整版（14/14）。唯一達 p<0.05 的是 MedBullets")
+print("  的 −C−T（−1.62pp, p=0.020）— cos 與時間項同時移除後只剩 hop，退步約等於兩者單獨退步")
+print("  之和（0.87 + 0.97 = 1.84 vs 實測 1.62），所以兩訊號的貢獻大致獨立、無明顯冗餘。")
+print("\n  MMLU：方向完全相反 — 七格全部「高於」完整版，其中 −T−F（+1.23pp, p=0.029）與")
+print("  −C−T（+0.98pp, p=0.015）顯著。−T−F 的 97.18% 是主表 MMLU 欄的最高值，超過 medrag")
+print("  96.94% 與 raw_1hop 96.81%。也就是說在 MMLU 上，本方法的每一個元件都是有害的，而且")
+print("  這不是「空間太小測不出來」— 它測得出來，只是指向相反方向。")
+print("\n  −F 在 MedBullets/329 只改動 18/308 與 12/329 題卻造成 −0.76 / −0.81pp，代表被它擋下")
+print("  的少數格子單格破壞力偏高 — 一個 Inflammation 佔位比一個無關疾病更傷。")
+print("\n  這張表自帶一個噪音對照：−T 與參數表的 λ=0 是逐字元相同的 frozen（329/329、308/308、")
+print("  272/272），卻各自獨立跑了 N=3，結果差 1.01pp（329）與 0.11pp（MedBullets）。所以除了")
+print("  −C−T 之外，兩張表裡沒有一格的效應明顯大於「同一份證據重跑一次」的差距。\n")
 
 print("=" * 132)
 print("### 參數分析 — 每個參數三個取值，各 N=3。★ = 出貨設定")
@@ -290,7 +304,11 @@ print("=" * 132)
 for pname, vals in PARAM:
     for ds in ABL_DS:
         labels = _bench_labels(ds)
-        print(f"\n{pname} · {ds}")
+        note = ("   ※ 0.30 是出貨值，該列直接引用主表的 ours，不另外重跑。0.15 與 0.60 由\n"
+                "      rebuild_bc_sigma.py 重算，過程中會把出貨版裡約 18% 來自走訪 MDN fallback 的\n"
+                "      bc 一併換成 LLM cache 版，所以兩端與 0.30 的差異含這一項在內"
+                if pname.startswith("σ_p") else "")
+        print(f"\n{pname} · {ds}" + (f"\n{note}" if note else ""))
         hdr = f"  {'取值':14}{'runs':>18s}" + "".join(f"{h:>14s}" for h, _ in _COLS) + f"{'unparse':>8s}"
         print(hdr)
         print("  " + "-" * (len(hdr) - 2))
@@ -301,11 +319,14 @@ for pname, vals in PARAM:
             rc, runs, n, rm = got
             print(_metric_row(t, rc, aggregate(rm), width=14))
 
-print("\n  μ 與 σ_p：出貨值在兩個資料集上都是三取值中的最高，且皆呈單峰。")
-print("  λ：資料集相依 — 329 的最佳值是 0（84.09 vs 83.89），MedBullets 是 0.3（80.84 vs 79.76）。")
-print("     兩者差距 0.20 / 1.08pp，都在雜訊內，但方向相反，所以不能寫成單峰。這與覆蓋率一致：")
-print("     329 有 93% 的題目算得出 bc，MedBullets 只有 55%，而 MedBullets 在有 bc 的 165 題上")
-print("     λ=0.3 比 λ=0 高 2.83pp — 全集層級把那個效果稀釋掉了。")
+print("\n  MedBullets 與 329：三個參數皆呈單峰，出貨值為三取值中的最高。")
+print("  MMLU：三個參數皆呈谷底 — 出貨值是三取值中最「低」的（μ 95.96 vs 96.32/96.32、")
+print("  λ 95.96 vs 96.57/96.69、σ_p 96.32 vs 97.30/96.69），與該資料集的消融方向一致。")
+print("\n  λ 這一列要標注：λ=0 與消融表的 −T 是同一個設定，先前在兩個名稱下各跑了一組 N=3，")
+print("  329 上得到 83.08 與 84.09（同一份 frozen，差 1.01pp）。兩張表現在共用前者，理由是")
+print("  避免同一設定出現兩個數字，不是因為它較可信 — 而這個選擇改變了結論：採用 84.09 時")
+print("  329 的最佳 λ 是 0，採用 83.08 時是 0.3。被棄用的那組保留為")
+print("  results/ddx7/<ds>_DUPLICATE_of_ablate__no_temporal_*.json，不被任何表引用。\n")
 print("  cos 的係數固定為 1：α·cos + λ·bc − μ·hop 同除以 α 等於 cos + (λ/α)·bc − (μ/α)·hop，")
 print("  所以掃 α 等同於反向掃 λ 與 μ，不是獨立的第四個參數。")
 print()
