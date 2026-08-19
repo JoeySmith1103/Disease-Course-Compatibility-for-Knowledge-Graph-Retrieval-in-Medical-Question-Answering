@@ -1,0 +1,105 @@
+{
+ "n": 10,
+ "model": "gpt-5.4-mini",
+ "per_call_median": {
+  "seeds": 1.266,
+  "symptoms": 1.281,
+  "query_entities": 1.308,
+  "durations": 1.906
+ },
+ "sequential_median": 5.783,
+ "parallel_median": 1.906,
+ "excluded": "per-disease duration generation behind bc (cached, shared)",
+ "rows": [
+  {
+   "uid": "v2_val_4069",
+   "seeds": 2.594,
+   "symptoms": 1.378,
+   "query_entities": 1.551,
+   "durations": 1.972,
+   "sequential": 7.495,
+   "parallel": 2.594
+  },
+  {
+   "uid": "m325_1230",
+   "seeds": 1.237,
+   "symptoms": 1.238,
+   "query_entities": 1.346,
+   "durations": 1.9,
+   "sequential": 5.721,
+   "parallel": 1.9
+  },
+  {
+   "uid": "m325_1330",
+   "seeds": 1.222,
+   "symptoms": 1.313,
+   "query_entities": 1.136,
+   "durations": 2.683,
+   "sequential": 6.354,
+   "parallel": 2.683
+  },
+  {
+   "uid": "v2_train_3586",
+   "seeds": 1.56,
+   "symptoms": 1.558,
+   "query_entities": 1.409,
+   "durations": 2.293,
+   "sequential": 6.82,
+   "parallel": 2.293
+  },
+  {
+   "uid": "m325_1421",
+   "seeds": 1.265,
+   "symptoms": 1.25,
+   "query_entities": 1.501,
+   "durations": 1.535,
+   "sequential": 5.551,
+   "parallel": 1.535
+  },
+  {
+   "uid": "v2_train_1961",
+   "seeds": 1.536,
+   "symptoms": 1.201,
+   "query_entities": 1.195,
+   "durations": 1.912,
+   "sequential": 5.844,
+   "parallel": 1.912
+  },
+  {
+   "uid": "v2_train_2571",
+   "seeds": 1.427,
+   "symptoms": 1.072,
+   "query_entities": 1.219,
+   "durations": 1.591,
+   "sequential": 5.309,
+   "parallel": 1.591
+  },
+  {
+   "uid": "v2_train_2886",
+   "seeds": 1.202,
+   "symptoms": 1.177,
+   "query_entities": 1.588,
+   "durations": 1.266,
+   "sequential": 5.232,
+   "parallel": 1.588
+  },
+  {
+   "uid": "v2_test_5534",
+   "seeds": 1.055,
+   "symptoms": 1.549,
+   "query_entities": 1.27,
+   "durations": 2.025,
+   "sequential": 5.899,
+   "parallel": 2.025
+  },
+  {
+   "uid": "v2_test_4850",
+   "seeds": 1.267,
+   "symptoms": 1.333,
+   "query_entities": 1.142,
+   "durations": 1.355,
+   "sequential": 5.097,
+   "parallel": 1.355
+  }
+ ]
+}

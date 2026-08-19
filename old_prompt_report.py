@@ -186,7 +186,8 @@ ABL = [("ours",                             "完整 C+T+F",  "results/ddx7"),
 PARAM = [("μ (hop 懲罰)",
           [("param__hop_mu0",              "0",      "results/hoptest"),
            ("ours",                        "0.08 ★", "results/ddx7"),
-           ("param__hop_mu0.16",           "0.16",   "results/hoptest")]),
+           ("param__hop_mu0.16",           "0.16",   "results/hoptest"),
+           ("param__hop_mu0.24",           "0.24",   "results/param")]),
          ("λ (bc 權重)",
           # Same configuration as the ablation's −T (lambda=0 with the filter and the DDx quota):
           # byte-identical frozen on all three datasets. It was run twice under two names before
@@ -195,7 +196,8 @@ PARAM = [("μ (hop 懲罰)",
           # results/ddx7 and is what the noise note under the ablation table quotes.
           [("ablate__no_temporal",         "0",      "results/ablation"),
            ("ours",                        "0.3 ★",  "results/ddx7"),
-           ("param__bc_lambda0.6",         "0.6",    "results/param")]),
+           ("param__bc_lambda0.6",         "0.6",    "results/param"),
+           ("param__bc_lambda0.9",         "0.9",    "results/param")]),
          # sigma_p is the width of the log-normal placed on the patient's elapsed time. It is the
          # only parameter here that cannot be swept by re-ranking -- bc is computed during the walk
          # and stored -- so each value has its own rebuilt pool (rebuild_bc_sigma.py). Those pools
@@ -205,7 +207,8 @@ PARAM = [("μ (hop 懲罰)",
          ("σ_p (病人時長變異數)",
           [("param__duration_sigma0.15",   "0.15",   "results/param"),
            ("ours",                       "0.30 ★", "results/ddx7"),
-           ("param__duration_sigma0.60",   "0.60",   "results/param")])]
+           ("param__duration_sigma0.60",   "0.60",   "results/param"),
+           ("param__duration_sigma1.00",   "1.00",   "results/param")])]
 CAP = 3
 
 try:
@@ -299,7 +302,7 @@ print("  272/272），卻各自獨立跑了 N=3，結果差 1.01pp（329）與 0
 print("  −C−T 之外，兩張表裡沒有一格的效應明顯大於「同一份證據重跑一次」的差距。\n")
 
 print("=" * 132)
-print("### 參數分析 — 每個參數三個取值，各 N=3。★ = 出貨設定")
+print("### 參數分析 — 每個參數四個取值，各 N=3。★ = 出貨設定")
 print("=" * 132)
 for pname, vals in PARAM:
     for ds in ABL_DS:
@@ -319,14 +322,19 @@ for pname, vals in PARAM:
             rc, runs, n, rm = got
             print(_metric_row(t, rc, aggregate(rm), width=14))
 
-print("\n  MedBullets 與 329：三個參數皆呈單峰，出貨值為三取值中的最高。")
-print("  MMLU：三個參數皆呈谷底 — 出貨值是三取值中最「低」的（μ 95.96 vs 96.32/96.32、")
-print("  λ 95.96 vs 96.57/96.69、σ_p 96.32 vs 97.30/96.69），與該資料集的消融方向一致。")
+print("\n  MedBullets 與 329：三個參數皆呈單峰，出貨值為四取值中的最高。外推到第四點沒有")
+print("  出現第二個峰 — μ 0.24、λ 0.9、σ_p 1.00 都繼續低於出貨值。")
+print("\n  MMLU：三個參數皆呈谷底，出貨值是四取值中最低的（μ 95.96 vs 96.32/96.32/96.57、")
+print("  λ 95.96 vs 96.57/96.69/96.81、σ_p 95.96 vs 97.30/96.69/96.45）。μ 在 MMLU 上甚至")
+print("  隨值單調上升。與該資料集的消融方向一致：每個元件在 MMLU 上都是有害的。")
 print("\n  λ 這一列要標注：λ=0 與消融表的 −T 是同一個設定，先前在兩個名稱下各跑了一組 N=3，")
 print("  329 上得到 83.08 與 84.09（同一份 frozen，差 1.01pp）。兩張表現在共用前者，理由是")
 print("  避免同一設定出現兩個數字，不是因為它較可信 — 而這個選擇改變了結論：採用 84.09 時")
 print("  329 的最佳 λ 是 0，採用 83.08 時是 0.3。被棄用的那組保留為")
-print("  results/ddx7/<ds>_DUPLICATE_of_ablate__no_temporal_*.json，不被任何表引用。\n")
+print("  results/ddx7/<ds>_DUPLICATE_of_ablate__no_temporal_*.json，不被任何表引用。")
+print("\n  σ_p 的 0.30 用主表的 ours（hybrid bc），其餘三點由 rebuild_bc_sigma.py 全部改用 LLM")
+print("  cache 重算。所以 0.15 / 0.60 / 1.00 三者彼此乾淨可比，但它們與 0.30 的落差含有")
+print("  「σ_p 改變」與「bc 來源改變」兩個成分。\n")
 print("  cos 的係數固定為 1：α·cos + λ·bc − μ·hop 同除以 α 等於 cos + (λ/α)·bc − (μ/α)·hop，")
 print("  所以掃 α 等同於反向掃 λ 與 μ，不是獨立的第四個參數。")
 print()

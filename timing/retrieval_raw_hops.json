@@ -1,0 +1,9 @@
+{
+ "method": "raw_hops",
+ "n_questions": 25,
+ "seconds_total": 2091.09,
+ "seconds_per_question": 83.644,
+ "returncode": 0,
+ "excluded": "per-disease duration LLM generation (cache-only)",
+ "tail": "]  1hop=50 2hop=51\n  [400/1273]  1hop=50 2hop=51\n  [500/1273]  1hop=50 2hop=51\n  [600/1273]  1hop=50 2hop=51\n  [700/1273]  1hop=50 2hop=51\n  [800/1273]  1hop=50 2hop=51\n  [900/1273]  1hop=50 2hop=51\n  [1000/1273]  1hop=50 2hop=51\n  [1100/1273]  1hop=50 2hop=51\n  [1200/1273]  1hop=50 2hop=51\nfroze 1273 -> /Users/zengyuhua/Desktop/Master_thesis/new_duration_spectrum/pipeline/frozen/1273/raw_1hop.json  (prompt shows 9.9/question, 48.2 retained)\nfroze 1273 -> /Users/zengyuhua/Desktop/Master_thesis/new_duration_spectrum/pipeline/frozen/1273/raw_2hop.json  (prompt shows 9.9/question, 49.6 retained)\n"
+}

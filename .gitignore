@@ -96,3 +96,10 @@ pool/*/walker_interval.jsonl
 # of git until the canonical runner/report story is cleaned up.
 # run_reader_vllm_batch.py
 # summarize_vllm_runs.py
+
+# Timing harness scratch. measure_retrieval.py pins DATASET=_timing_tmp so build_raw_hops.py --
+# which defaults to DATASET=1273 and writes frozen/<DATASET>/ -- cannot land on a real dataset's
+# frozen files. It did exactly that once before the pin was added.
+datasets/_timing_tmp/
+frozen/_timing_tmp/
+timing/bench_*.json

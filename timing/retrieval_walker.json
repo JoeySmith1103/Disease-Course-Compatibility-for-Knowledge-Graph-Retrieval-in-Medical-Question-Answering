@@ -1,0 +1,9 @@
+{
+ "method": "walker",
+ "n_questions": 25,
+ "seconds_total": 145.75,
+ "seconds_per_question": 5.83,
+ "returncode": 0,
+ "excluded": "per-disease duration LLM generation (cache-only)",
+ "tail": " 0.0% | LLM-gen 0 (0/q)  ETA 2.8min\n[4/25] v2_train_3586 (walker_kg) \u2192 None \u2717 | acc 0/4 = 0.0% | LLM-gen 0 (0/q)  ETA 2.6min\n[5/25] v2_train_1961 (walker_kg) \u2192 None \u2717 | acc 0/5 = 0.0% | LLM-gen 0 (0/q)  ETA 2.2min\n[10/25] v2_test_5534 (walker_kg) \u2192 None \u2717 | acc 0/10 = 0.0% | LLM-gen 0 (0/q)  ETA 1.5min\n[20/25] v2_val_4211 (walker_kg) \u2192 None \u2717 | acc 0/20 = 0.0% | LLM-gen 0 (0/q)  ETA 0.5min\n\nSaved \u2192 /Users/zengyuhua/Desktop/Master_thesis/new_duration_spectrum/pipeline/cache/timing_walker__gpt-5.4-mini.json\nn_correct=0/25 acc=0.00%  routes={'walker_kg': 23, 'walker_kg_nodur': 2}  elapsed=2.4min\n"
+}

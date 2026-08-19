@@ -1,0 +1,9 @@
+{
+ "method": "medrag",
+ "n_questions": 25,
+ "seconds_total": 24.18,
+ "seconds_per_question": 0.967,
+ "returncode": 0,
+ "excluded": "per-disease duration LLM generation (cache-only)",
+ "tail": "[1/25] \u2192 B acc=0/1=0.0%  ETA 3.4min\n[2/25] \u2192 B acc=1/2=50.0%  ETA 1.6min\n[3/25] \u2192 B acc=2/3=66.7%  ETA 1.1min\n[4/25] \u2192 C acc=3/4=75.0%  ETA 0.8min\n[5/25] \u2192 A acc=4/5=80.0%  ETA 0.6min\n[10/25] \u2192 D acc=9/10=90.0%  ETA 0.3min\n[20/25] \u2192 D acc=17/20=85.0%  ETA 0.1min\n\nSaved \u2192 /Users/zengyuhua/Desktop/Master_thesis/new_duration_spectrum/pipeline/cache/timing_medrag_medrag_textbook_k32__gpt-5.4-mini.json  acc=84.00%  elapsed=0.4min\n"
+}
