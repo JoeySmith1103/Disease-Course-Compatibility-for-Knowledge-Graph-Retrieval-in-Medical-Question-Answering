@@ -338,3 +338,68 @@ DATASET=<ds> METHOD=union_qall_s0.15 ABSTRACT=0.6 DDX_QUOTA=7 python3 render_fro
   （MedBullets −1.62pp, p=0.020）之外，兩張表沒有一格的效應明顯大於這個差距。
 - 329 有 10 個選項字母、其中兩個各只有 1 題，macro_* 會被單題主導（std 可達 4–5pp 而 accuracy
   std < 1pp）。該資料集請引用 accuracy 或 weighted_*。
+
+---
+
+## 各方法的時間成本（MedQA 329）
+
+25 題固定樣本，中位數。腳本在 `timing/`：`measure_retrieval.py`（走訪）、`measure_split.py`
+（把 driver 的檢索與作答拆開）、`measure_preprocess.py`（本方法的前處理呼叫）、
+`measure_answer.py`（重放 frozen prompt 計時作答，讓所有方法走同一條路徑）。
+
+| 方法 | 前處理 LLM | 檢索 | 作答 | 總計（序列）| 總計（前處理平行）|
+|---|---|---|---|---|---|
+| vanilla | 0 | 0 | 0.67s | 0.67s | 0.67s |
+| cot | 0 | 0 | 1.22s | 1.22s | 1.22s |
+| medrag | 0 | 2.80s | 2.30s | 5.10s | 5.10s |
+| raw_2hop | 1.27s | 2.21s | 2.18s | 5.66s | 5.66s |
+| raw_1hop | 1.27s | 2.21s | 2.22s | 5.70s | 5.70s |
+| **ours** | **5.78s** | **5.83s** | 2.32s | **13.93s** | **10.06s** |
+| hykge | — | 14.30s | 1.53s | 15.83s | 15.83s |
+| tog | — | 14.79s | 1.39s | 16.18s | 16.18s |
+
+本方法另有一次性的離線成本：聯集池 60s + cos 重算 120s + 渲染 3s，攤到 329 題約 +0.55 s/題。
+
+### 計時的界線
+
+**排除**：為 bc 產生每個疾病病程時長的 LLM 呼叫。那份快取跨題目、跨資料集共用，是一次性建置，
+算進單次檢索的邊際成本會失真。腳本以 `BC_CACHE_ONLY=1` 強制只讀快取，快取未中記 0。
+
+**納入**：本方法每題的四次前處理（seeds 1.27s、symptoms 1.28s、query_entities 1.31s、
+durations 1.91s）。其中 seeds 與 HyKGE 的 hypothesis 是同一件事，不算就不公平。
+
+**納入**：ToG 與 HyKGE 在檢索迴圈裡的 LLM 呼叫，那是它們檢索方式的一部分。
+
+### 讀這張表要看的三件事
+
+**瓶頸位置不同，這比總時間重要：**
+
+```
+hykge   11.65s（81%）在圖查詢 — direct_edge / shared_intermediate 對每一「對」實體查一次，
+                              隨連結實體數平方成長
+tog     12.74s（86%）在 13 次序列 LLM 剪枝 — 下一層要等上一層，無法平行
+ours     5.83s 走訪全部是 Neo4j + SapBERT，0 次 LLM；LLM 成本被推到可平行的前處理
+```
+
+**重複實驗的邊際成本才是數量級差異：**
+
+| | 改一次參數重跑的成本 |
+|---|---|
+| ours | 0.01 s/題，0 次 LLM、0 次 Neo4j（池已存，只需 render）|
+| hykge | 14.30 s/題（含 1 次 LLM）|
+| tog | 14.79 s/題（含 13 次 LLM）|
+
+本輪掃了 40 餘個 utility 變體，在這個架構下總成本是一次走訪；同樣的掃描在 ToG 上約需
+40 × 13 × 329 ≈ 17 萬次 LLM 呼叫。
+
+**作答時間由 prompt 長度決定，與檢索方法無關**：0.67s（vanilla，271 tokens）到 2.41s
+（walker，1083 tokens）單調對應。本方法的 2.32s 與 medrag 2.30s、raw_1hop 2.22s 同一區間，
+**KG block 沒有讓推論變貴**。
+
+### 要誠實說的
+
+- 相對 ToG / HyKGE 是 **12–38% 的差距，不是數量級**。可以說「不比它們慢且結構更好」，
+  不能說「顯著更快」。
+- 本方法的前處理比 HyKGE 多 3 次呼叫（4 vs 1），`query_entities` 那次是為了完整 query cos
+  才加的。它們一次性、可平行、存檔後永久重用，但確實是額外成本。
+- 作答時間量了兩次，最大差 0.14s；檢索只量一次，未做重現性檢查。
